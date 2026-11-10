@@ -32,6 +32,8 @@ phases:
   '6':
     debut: '2026-11-10T19:10:42'
     passages: 1
+    fin: '2026-11-10T19:15:10'
+    note: 12 manques signalés, non traités (voir bilan)
 agents:
 - phase: '2'
   agent: expert-centre
@@ -128,6 +130,11 @@ agents:
   jetons: 73561
   outils: 8
   duree_ms: 30441
+- phase: '6'
+  agent: redacteur
+  jetons: 125048
+  outils: 8
+  duree_ms: 232169
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.

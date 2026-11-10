@@ -12,7 +12,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4. Confrontation | 2026-11-10T19:07:57 | 2026-11-10T19:09:56 | 1 min 59 s | 1 | 7 | 633617 | un seul passage, fixé par le fondateur |
 | 3-bis. Vérification | 2026-11-10T19:09:56 | 2026-11-10T19:10:41 | 0 min 45 s | 1 | 1 | 73561 | second passage : 3 affirmations nouvelles de la confrontation |
 | 5. Stabilisation | 2026-11-10T19:10:41 | 2026-11-10T19:10:42 | 0 min 01 s | 1 | 0 | — |  |
-| 6. Rédaction | 2026-11-10T19:10:42 | — | — | 1 | 0 | — |  |
+| 6. Rédaction | 2026-11-10T19:10:42 | 2026-11-10T19:15:10 | 4 min 28 s | 1 | 1 | 125048 | 12 manques signalés, non traités (voir bilan) |
 
 ## Par agent
 
@@ -37,3 +37,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-gauche-radicale | 93212 | 13 | 0 min 53 s |
 | 4 | expert-ecologistes | 96875 | 13 | 1 min 03 s |
 | 3-bis | verificateur-passage2 | 73561 | 8 | 0 min 30 s |
+| 6 | redacteur | 125048 | 8 | 3 min 52 s |
+
+## Totaux du test (étape 1, une question, un passage de confrontation)
+
+- Durée totale (horloge de la session) : 18:58:39 → 19:15:10, soit environ 16 min 30 s, agents lancés en parallèle.
+- 20 lancements d'agents ; environ 1,95 million de jetons au total, dont environ 1,39 million pour les experts (sonnet) et 0,56 million pour le vérificateur et le rédacteur (opus). Ces chiffres comptent les jetons de contexte relus à chaque tour par chaque agent, pas seulement les jetons produits.
+- Coût fixe par agent : environ 80 000 jetons même pour un expert qui n'a rien ajouté (lecture des consignes et des skills, contexte de base de l'agent générique).
+- La session du coordinateur n'est pas comptée.

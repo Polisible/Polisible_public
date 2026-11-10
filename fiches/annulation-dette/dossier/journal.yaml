@@ -145,3 +145,7 @@
   agent: coordinateur
   phase: '6'
   action: debut de la phase 6
+- date: '2026-11-10T19:15:10'
+  agent: coordinateur
+  phase: '6'
+  action: fin de la phase 6 (12 manques signalés, non traités (voir bilan))
