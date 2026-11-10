@@ -1,0 +1,33 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S29
+    statut: non-conforme
+    note: "Bon document (titre et date du 24 août 2026 conformes ; l'adresse redirige vers une version longue de l'URL), page signalée « analyse assistée par IA ». F41 : l'extrait figure mot pour mot, mais il rapporte un argument de Jordan Bardella publié sur X (« Il a argué que… »), sans établir le mécanisme, et ne mentionne pas l'impôt ; un site de niveau 4 ne peut fonder cette estimation. Appartenance établie : la page présente Jordan Bardella comme « président du Rassemblement national »."
+  - id: S30
+    statut: conforme
+    note: "Bon document : dépêche AFP reprise par La Gazette France, publiée le 24 août 2026, titre conforme ; aucune affirmation à contrôler. Appartenance : la dépêche nomme La France insoumise (LFI) à propos des universités d'été où Matthieu Pigasse était invité, sans dire en toutes lettres, dans les passages lus, que Jean-Luc Mélenchon dirige LFI."
+  - id: S31
+    statut: conforme
+    note: "Bon document : Public Sénat, Stéphane Duguet, 6 octobre 2026. F37 : 140 milliards d'économies d'ici 2032 et l'extrait « de 121 % en 2027 à 112 % en 2032 » figurent mot pour mot ; F38 : l'extrait sur l'immigration (15 milliards en 2027, 29 milliards en année pleine) figure mot pour mot ; les deux disent la même chose, présentés lors de la conférence de presse du 6 octobre 2026 au siège du parti. Appartenance établie : Marine Le Pen est présentée comme « candidate du Rassemblement national », et le plan comme « présenté par le RN »."
+  - id: S32
+    statut: conforme
+    note: "Bon document : LCP, Maxence Kagni, vendredi 2 octobre 2026 (date lue dans la signature, absente des métadonnées). F39 : l'extrait figure mot pour mot ; l'article précise aussi qu'elle propose d'inscrire la règle d'or « dans la Constitution » par référendum, en fixant « un déficit maximum », d'après sa tribune dans L'Opinion du 1er octobre 2026 : même périmètre que l'affirmation. Appartenance établie : « La candidate du Rassemblement national à l'élection présidentielle »."
+  - id: S33
+    statut: conforme
+    note: "Bon document : dépêche AFP reprise par La Gazette France, 5 septembre 2026. F40 : l'extrait figure mot pour mot ; la formule « met fin à la primauté du droit européen » est la description de l'AFP, le texte officiel (n° 2120 du 25 janvier 2024, ajouté en source) parlant de « supériorité de la Constitution sur toute autre norme, même internationale » : même sens, autre formulation. Appartenance établie : « La candidate RN à l'élection présidentielle »."
+  - id: S34
+    statut: inaccessible
+    note: "Blick renvoie 403 à deux essais ; l'article original de The Economist (economist.com/europe/2025/11/05/jordan-bardella-starts-to-lay-out-his-plans, repéré par recherche) renvoie aussi 403 ; une copie sur un site miroir n'a pas été utilisée (contournement). D'après les résultats de recherche seulement (non vérifié), l'entretien daterait du 5 ou 6 novembre 2025."
+  - id: S35
+    statut: conforme
+    note: "Bon document : brochure de Lutte ouvrière pour la candidature de Nathalie Arthaud à la présidentielle 2027 ; le PDF ne porte pas de date en métadonnées, mais son adresse (2026/06) et sa mention de la fête de mai 2026 concordent avec juin 2026. F42 : l'extrait figure mot pour mot ; la source dit « aux capitalistes privés » là où l'affirmation dit « entreprises privées », et elle établit seulement que LO cite ce chiffre, pas son exactitude (niveau 3). Appartenance établie : la brochure est signée de Nathalie Arthaud, sous le sigle LO."
+sources_ajoutees:
+  - titre: "Proposition de loi constitutionnelle Citoyenneté-Identité-Immigration, n° 2120"
+    auteur: "Assemblée nationale (présentée par Mme Marine Le Pen et les membres du groupe Rassemblement National)"
+    date: "2024-01-25"
+    adresse: "https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf"
+    niveau: 1
+    pour: F40
+    extrait: "de poser solennellement le principe de supériorité de la Constitution sur toute autre norme, même internationale"
