@@ -1,5 +1,13 @@
 agent: expert-gauche-radicale
 phase: 4
+examen:
+  - {question: Q41, resultat: "Corrections de A20 et A21 : la compatibilité aux traités est une interprétation disputée (F27 invérifiable, F45), pas un fait établi."}
+  - {question: Q42, resultat: "Correction de A22 : F47 sans estimation fiable, l'effet sur les taux est l'avis de ses auteurs."}
+  - {question: Q43, resultat: "Objection sur F41 (partage du revenu monétaire, F21) ; correction de A24 (pas de chiffrage, gain net lié aux reversements)."}
+  - {question: Q44, resultat: "Rien à contester de nouveau : A25 repose sur F3 et F5, vérifiés ; arguments des autres sans erreur de fait relevée."}
+  - {question: Q45, resultat: "Correction de A27 (valeur ; faisabilité juridique discutée) ; A26 maintenu."}
+  - {question: Q46, resultat: "Rien à contester : A28, A29 maintenus, reposent sur F1, F2 vérifiés et sur des valeurs."}
+  - {question: Q47, resultat: "Correction de A30 (valeur ; F47 sans estimation) ; A31 maintenu."}
 objections:
   - vise: F41
     nature: fait
