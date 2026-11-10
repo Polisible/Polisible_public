@@ -1,0 +1,48 @@
+agent: expert-ecologistes
+phase: 2
+sources:
+  - ref: s1
+    titre: "La dette, un sujet politique"
+    auteur: "Jérôme Gleizes, chronique « L'économie à contre-courant », Politis"
+    date: "2026-09-14"
+    adresse: "https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/"
+    niveau: 3
+  - ref: s2
+    titre: "« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?"
+    auteur: "Thierry Bonneau, professeur de droit (Université Paris-Panthéon-Assas), Le Club des Juristes"
+    date: "2021-02-11"
+    adresse: "https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/"
+    niveau: 2
+  - ref: s3
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Guillaume Jacquot, Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe, auprès d'eux, des instruments de leur dette ; il ne mentionne pas expressément l'annulation d'une dette détenue par une banque centrale."
+    type: fait
+    sources:
+      - {source: s2, extrait: "l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe, auprès d’eux, des instruments de leur dette."}
+  - ref: f2
+    enonce: "Les titres publics français détenus par l'Eurosystème proviennent d'achats effectués sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s3, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières"}
+arguments:
+  - ref: a1
+    question: Q1
+    position: nuance
+    enonce: "L'article 123 du TFUE vise le crédit direct aux États et l'achat direct de leurs titres ; les titres détenus par l'Eurosystème ont été rachetés sur le marché secondaire, ce que le traité n'interdit pas. Pour cette lecture, le texte ne ferme donc pas expressément la porte à l'annulation ou au gel de ces titres, et le débat devient d'abord politique."
+    porte_par:
+      - {qui: "Jérôme Gleizes, économiste, chronique dans Politis (14 septembre 2026), à titre personnel", source: s1}
+    affirmations: [f1, f2]
+valeurs:
+  - {question: Q1, enonce: "Priorité à la capacité des pouvoirs publics de financer la transition écologique sans dépendre des marchés financiers, ce qui conduit à contester que les traités et l'indépendance de la banque centrale soient des limites intangibles."}
+incertitudes:
+  - "Aucune position publique du parti Les Écologistes ou de Marine Tondelier sur l'annulation de la dette détenue par la Banque de France n'a été trouvée (recherches du 10 novembre 2026). L'argument a1 est attribué à un économiste dans une chronique, pas à un parti : son rattachement à la famille écologiste n'est pas établi par mes sources."
+  - "La chronique de Politis affirme que « les objections techniques ont été largement réfutées » sans citer de source juridique ; elle ne démontre pas que l'annulation (et non l'achat) est conforme à l'article 123. L'extrait du Club des juristes (2021) porte sur l'achat par la BCE, pas sur l'annulation ; je n'ai pas ouvert la conclusion de cet article, que d'autres résumés disent défavorable à l'annulation."
+  - "Pas ouvert avec succès : arrêt CJUE Gauweiler (C-62/14), connexion refusée au moment de l'ouverture ; Légifrance, EUR-Lex et Banque de France inaccessibles ou non tentés. Le texte de l'article 123 n'est donc pas cité de première main (niveau 1)."
+  - "Points contraires lus mais non repris comme arguments de ma famille : Christine Lagarde (11 septembre 2026) parle de « violation pure du traité » (Euronews) ; un avocat (Kohen, 19 août 2026) juge que la France ne peut ordonner unilatéralement à la Banque de France d'abandonner la créance. Le vérificateur devrait les traiter."
+  - "Part de dette concernée : 18 % (Public Sénat, Euronews) ou 20 % (chapeau de Public Sénat) ; Politis indique environ 640 milliards d'euros de titres publics français à l'Eurosystème en 2026. Écarts non résolus."

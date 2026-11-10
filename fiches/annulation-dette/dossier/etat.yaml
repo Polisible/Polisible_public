@@ -10,3 +10,19 @@ phases:
   '2':
     debut: '2026-11-10T18:58:39'
     passages: 1
+agents:
+- phase: '2'
+  agent: expert-centre
+  jetons: 90141
+  outils: 14
+  duree_ms: 83037
+- phase: '2'
+  agent: expert-droite
+  jetons: 95274
+  outils: 18
+  duree_ms: 97080
+- phase: '2'
+  agent: expert-gauche-radicale
+  jetons: 102013
+  outils: 13
+  duree_ms: 97337
