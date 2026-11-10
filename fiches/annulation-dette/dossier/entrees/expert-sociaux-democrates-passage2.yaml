@@ -1,0 +1,11 @@
+agent: expert-sociaux-democrates
+phase: 4
+corrections:
+  - vise: A34
+    action: corriger
+    enonce: "Quand la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente 24,4 % de la dette négociable de l'État au premier trimestre 2025, une part importante de la dette est due à des institutions publiques. Rembourser revient alors à trouver ailleurs la somme (nouvel emprunt, impôts ou baisse des dépenses) : on ne doit donc pas rembourser intégralement ce créancier-là."
+  - vise: A32
+    action: corriger
+    enonce: "Aucune disposition des traités ne mentionne l'annulation : l'article 123 interdit le crédit et l'achat direct aux États, non l'abandon d'une créance déjà inscrite au bilan. Les signataires de la tribune de 2021 en déduisent que la décision relèverait du conseil des gouverneurs de la BCE ; la compatibilité avec l'interdiction du financement monétaire reste une interprétation disputée, que la CJUE n'a pas tranchée."
+incertitudes:
+  - "Aucune objection ni source demandée dans le lot : seules deux corrections de formulation sur mes propres arguments (périmètre du chiffre de 24,4 % ; portée de la conclusion juridique)."

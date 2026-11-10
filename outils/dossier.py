@@ -104,7 +104,12 @@ def role_de(e):
     return {"verificateur": "verificateur", "bibliothecaire": "bibliothecaire"}.get(e.get("agent"), "expert")
 
 
-def valider_entree(e):
+def fiche_de(chemin):
+    parts = pathlib.Path(chemin).resolve().parts
+    return parts[parts.index("fiches") + 1] if "fiches" in parts else None
+
+
+def valider_entree(e, exiger_examen=False):
     """Renvoie la liste des erreurs d'un dépôt (vide si correct)."""
     err = []
     if not isinstance(e, dict):
@@ -210,6 +215,8 @@ def valider_entree(e):
     for x in e.get("sources_demandees", []) or []:
         if not str(x.get("adresse", "")).startswith("http") or not x.get("pourquoi") or not x.get("erreur"):
             err.append(f"sources_demandees : « adresse », « pourquoi » et « erreur » obligatoires ({x})")
+    if exiger_examen and role == "expert" and str(e.get("phase")) == "4" and not e.get("examen"):
+        err.append("phase 4 : « examen » obligatoire (une ligne par question : ce que tu contestes, ou rien à contester et pourquoi)")
     for q in e.get("questions_proposees", []) or []:
         if not q.get("enonce") or q.get("type") not in TYPES or not q.get("pourquoi"):
             err.append(f"questions_proposees : enonce, type ({sorted(TYPES)}) et pourquoi obligatoires ({q})")
@@ -250,7 +257,7 @@ def lire_entree(chemin):
 
 def fusionner(fiche, chemin):
     e = lire_entree(chemin)
-    err = valider_entree(e)
+    err = valider_entree(e, charger(fiche, "etat").get("examen_obligatoire", False))
     if err:
         print(f"REFUSÉ {chemin} :\n  - " + "\n  - ".join(err))
         return False
@@ -453,6 +460,16 @@ def lot(fiche, sorte, agent=None, taille=0):
         return
     affs = {f["id"]: f for f in D["affirmations"]}
 
+    def vue_court(a):  # confrontation : lisible en entier, sans extraits
+        return {"id": a["id"], "auteur": a["auteur"].replace("expert-", ""), "question": a["question"],
+                "position": a["position"], "enonce": a["enonce"], "raisonnement": a.get("raisonnement"),
+                "porte_par": "; ".join(f"{p['qui']} ({p['parti']}, {p['source']})" for p in a["porte_par"]),
+                "repond_a": a.get("repond_a"),
+                "affirmations": [f"{f} [{affs[f]['type']}, {affs[f]['verdict'] or 'sans verdict'}] {affs[f]['enonce']}"
+                                 + (f" — {affs[f]['explication']}" if affs[f]["verdict"] not in ("Vrai", None) else "")
+                                 + f" (sources {', '.join(x['source'] for x in affs[f]['sources'])})"
+                                 for f in a["affirmations"] if f in affs]}
+
     def vue_arg(a):
         return {"id": a["id"], "auteur": a["auteur"], "question": a["question"], "position": a["position"],
                 "enonce": a["enonce"], "raisonnement": a.get("raisonnement"), "porte_par": a["porte_par"],
@@ -472,15 +489,16 @@ def lot(fiche, sorte, agent=None, taille=0):
                             for s in D["sources"] if s["ajoutee_par"] == "bibliothecaire"}}
         p = lots / "bibliotheque.yaml"
     elif sorte == "confrontation":
-        data = {"questions": [q for q in D["questions"] if q["statut"] == "validee"],
-                "tes_arguments": [vue_arg(a) for a in D["arguments"] if a["auteur"] == agent and a["statut"] != "retire"],
-                "arguments_des_autres": [vue_arg(a) for a in D["arguments"] if a["auteur"] != agent and a["statut"] != "retire"],
+        data = {"questions": [f"{q['id']} ({q['type']}) {q['enonce']}" for q in D["questions"] if q["statut"] == "validee"],
+                "tes_arguments": [vue_court(a) for a in D["arguments"] if a["auteur"] == agent and a["statut"] != "retire"],
+                "arguments_des_autres": [vue_court(a) for a in D["arguments"] if a["auteur"] != agent and a["statut"] != "retire"],
                 "objections_deja_posees": [{k: o[k] for k in ("id", "vise", "auteur", "contenu", "statut", "resolution")}
                                            for o in D["objections"]],
                 "tes_sources_demandees": [{k: s.get(k) for k in ("id", "adresse", "titre", "statut", "note_verif")}
                                           for s in D["sources"] if s["ajoutee_par"] == agent and s.get("demande")],
-                "sources": {s["id"]: f"{s['titre']} ({s['auteur']}, {s['date']}, niveau {s['niveau']}) — {s['statut']}"
-                            for s in D["sources"]}}
+                "sources": {s["id"]: f"{s['titre'][:80]} ({s['auteur']}, {s['date']}, niv. {s['niveau']}, {s['statut']})"
+                            for s in D["sources"]},
+                "detail": "Le détail d'une affirmation ou d'une source (extraits, notes) est dans affirmations.yaml et sources.yaml : ne le lis que pour un élément précis."}
         p = lots / f"confrontation-{agent}.yaml"
     elif sorte == "redaction":
         args = [a for a in D["arguments"] if a["statut"] != "retire"]
@@ -673,7 +691,8 @@ def main():
     if a.cmd == "init":
         init(a.fiche, a.question, a.type, a.theme, a.sujet, a.validee_par)
     elif a.cmd == "valider":
-        err = valider_entree(lire_entree(a.fichier))
+        f = fiche_de(a.fichier)
+        err = valider_entree(lire_entree(a.fichier), bool(f and charger(f, "etat").get("examen_obligatoire")))
         print("VALIDE" if not err else "ERREURS :\n  - " + "\n  - ".join(err))
         sys.exit(1 if err else 0)
     elif a.cmd == "fusionner":

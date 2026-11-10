@@ -11,7 +11,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
 | 3-bis. Vérification | 2026-11-10T21:16:23 | 2026-11-10T21:23:28 | 7 min 05 s | 1 | 7 | 296601 |  |
-| 4. Confrontation | 2026-11-10T21:23:28 | — | — | 1 | 0 | — | passage 1 de confrontation (sur 3 au plus), 7 experts |
+| 4. Confrontation | 2026-11-10T21:23:28 | — | — | 1 | 6 | 273359 | passage 1 de confrontation (sur 3 au plus), 7 experts |
 
 ## Par agent
 
@@ -42,3 +42,9 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3-bis | verificateur-passage1-3 | 52512 | 21 | 2 min 12 s |
 | 3-bis | verificateur-passage1-verdicts | 72096 | 17 | 3 min 25 s |
 | 3-bis | verificateur-sources-ajoutees | 2370 | 3 | 0 min 31 s |
+| 4 | expert-droite | 40309 | 4 | 0 min 14 s |
+| 4 | expert-sociaux-democrates | 41695 | 6 | 0 min 17 s |
+| 4 | expert-extreme-gauche | 47788 | 6 | 0 min 19 s |
+| 4 | expert-extreme-droite | 45745 | 6 | 0 min 21 s |
+| 4 | expert-ecologistes | 47726 | 7 | 0 min 23 s |
+| 4 | expert-centre | 50096 | 8 | 0 min 29 s |

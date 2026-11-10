@@ -1,0 +1,30 @@
+agent: expert-gauche-radicale
+phase: 4
+objections:
+  - vise: F41
+    nature: fait
+    contenu: "L'énoncé et l'argument A13 supposent que le résultat de la Banque de France baisse d'autant que les intérêts qu'elle ne perçoit plus, donc que ses versements à l'État baissent d'autant."
+    ce_que_la_source_ne_dit_pas: "La source (S29, niveau 4) ne mentionne pas le partage du revenu monétaire dans l'Eurosystème, établi par le Bulletin de la Banque de France n° 260/6 (F21, S9) : une partie du revenu des titres de politique monétaire est mise en commun puis redistribuée entre banques centrales nationales, ce qui interdit de tenir pour acquis que le résultat de la Banque de France diminue de la totalité des intérêts."
+corrections:
+  - vise: A20
+    action: corriger
+    enonce: "Aucun texte des traités n'interdit expressément le gel en dette perpétuelle à taux nul de titres que l'Eurosystème détient déjà : l'article 123 interdit crédits et achats directs aux États, pas le sort ultérieur de titres achetés sur le marché. La Cour de justice n'a pas tranché ce cas et des responsables publics le jugent contraire aux traités : la compatibilité est une interprétation juridique, que LFI soutient."
+  - vise: A21
+    action: corriger
+    enonce: "Le PCF juge que l'annulation de la part détenue par la banque centrale passe par une démarche auprès des institutions et des autres pays européens et par un changement des règles européennes, plutôt que par une décision française seule. Que les traités actuels l'interdisent n'est pas un fait établi (aucun texte ne la mentionne, la Cour ne l'a pas tranché) : c'est la raison pour laquelle le PCF demande de les faire évoluer."
+  - vise: A22
+    action: corriger
+    enonce: "Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème et que les créanciers privés sont remboursés intégralement. Il s'agit d'une estimation de ses auteurs, contestée par des économistes cités par la presse ; aucune institution n'a chiffré l'effet sur les taux."
+  - vise: A24
+    action: corriger
+    enonce: "Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières, dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend des bénéfices que la Banque de France lui reverse (voir A23)."
+  - vise: A27
+    action: corriger
+    enonce: "Pour LFI, une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable, sans léser les créanciers privés : c'est un jugement de valeur. Sa faisabilité juridique reste discutée (aucun texte ne la mentionne, la Cour ne l'a pas tranchée)."
+  - vise: A30
+    action: corriger
+    enonce: "Pour LFI, l'annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies, parce qu'elle éviterait un nouveau cycle d'austérité : c'est un choix de valeurs. L'absence d'impact économique avancée par ses défenseurs n'est pas établie par une estimation d'institution."
+incertitudes:
+  - "L'objection sur F41 repose sur F21 et sur le principe du partage du revenu monétaire ; je n'ai pas rouvert S9 pour mesurer la part de revenu effectivement mutualisée sur les titres publics français."
+  - "Je n'ai pas rouvert S39, S40 et S41 : les corrections reformulent mes énoncés d'après les verdicts du lot, sans nouvel extrait."
+  - "A25 et A26 (propriété de la banque centrale, indépendance) sont maintenus ; la part factuelle de F51 (qui détient le capital de la BCE) n'est pas vérifiée."

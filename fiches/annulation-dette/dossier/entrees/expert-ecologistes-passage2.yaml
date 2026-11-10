@@ -1,0 +1,10 @@
+agent: expert-ecologistes
+phase: 4
+corrections:
+  - vise: A9
+    action: corriger
+    enonce: "Le traité interdit le crédit et l'achat direct de dette auprès des États, mais pas les achats sur le marché secondaire, que le SEBC pratique depuis 2015. La Cour de justice a jugé le programme d'achats de 2015 (PSPP) compatible avec le traité sous conditions (arrêt Weiss) ; elle ne s'est pas prononcée sur le programme d'urgence pandémique (PEPP) de 2020. La question juridique réelle est de savoir si une conversion ou une annulation de titres déjà détenus relève de l'interdiction du financement monétaire, et c'est une question de décision de l'Eurosystème."
+incertitudes:
+  - "Correction de A9 : l'arrêt Gauweiler (F8) porte sur le programme OMT de 2012, jamais activé, et l'arrêt Weiss (F9, F10) sur le PSPP ; je n'ai trouvé aucune décision de la Cour sur le PEPP, sans l'avoir cherchée dans la jurisprudence ouverte pour ce passage."
+  - "A10 : le chiffre de 640 milliards (F31) date du début de 2026 ; le stock était d'environ 597 milliards fin octobre 2026 selon les données de la BCE citées au dossier."
+  - "Aucune objection reçue sur A9 à A12 ; la source S28 reste inaccessible et n'est pas utilisée."

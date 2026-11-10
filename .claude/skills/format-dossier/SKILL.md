@@ -46,6 +46,8 @@ objections:                   # phase 4, uniquement de nature « fait »
     contenu: "Ce qui est inexact, précisément."
     sources: [s3]             # ou bien :
     ce_que_la_source_ne_dit_pas: "…"
+examen:                       # phase 4 : une ligne par question, obligatoire
+  - {question: Q41, conclusion: "A3 conclut X, mais F12 ne porte que sur Y (contre-argument a1)."}
 corrections:                  # phase 4, sur TES arguments seulement
   - {vise: A1, action: retirer}            # ou {vise: A1, action: corriger, enonce: "…"}
 valeurs:                      # désaccords de valeur : pas des objections

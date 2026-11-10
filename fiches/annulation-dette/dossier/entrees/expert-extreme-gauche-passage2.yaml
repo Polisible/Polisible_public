@@ -1,0 +1,9 @@
+agent: expert-extreme-gauche
+phase: 4
+corrections:
+  - vise: A18
+    action: corriger
+    enonce: "Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise."
+incertitudes:
+  - "Correction de A18 : le chiffre de 270 milliards d'euros d'aides (verdict Invérifiable sur F42) est retiré de l'argument ; le raisonnement repose sur le principe (supprimer les aides, taxer les profits), sans chiffre."
+  - "Aucune objection reçue sur A16, A17, A19 ; aucune erreur de fait trouvée chez les autres sur mes sources ; je n'ai rien vérifié de nouveau dans ce passage."

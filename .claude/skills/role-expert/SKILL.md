@@ -23,7 +23,7 @@ Sur chaque question, écris la meilleure version des arguments de ta famille (po
   Une position ancienne mais publique (tribune de 2020, résolution) compte : date-la, plutôt que de déclarer l'absence.
 - Une page que tu n'arrives pas à ouvrir : `sources_demandees` (le vérificateur réessaiera). Ne cite jamais une source non ouverte.
 
-**Confrontation (phase 4).** Lis le lot reçu. Réagis seulement sur un élément précis :
+**Confrontation (phase 4).** Lis **tout** le lot reçu (il est compact). Pour **chaque question**, examine les arguments des positions opposées à celles de ta famille : leur raisonnement suit-il de leurs affirmations ? leurs faits sont-ils exacts et à jour ? Note le résultat dans `examen` (`{question, conclusion}` : ce que tu contestes, ou « rien à contester » et pourquoi). Réagis seulement sur un élément précis :
 - erreur de fait (source, chiffre, date, extrait) → `objections`, nature `fait`, avec une source ou ce que la source citée ne dit pas ;
 - conclusion qui ne suit pas, argument incomplet → contre-argument (`arguments` avec `repond_a`) ;
 - objection reçue sur tes arguments → défends (nouvel argument), corrige ou retire (`corrections`) ;

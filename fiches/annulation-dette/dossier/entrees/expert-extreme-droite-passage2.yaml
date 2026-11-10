@@ -1,0 +1,10 @@
+agent: expert-extreme-droite
+phase: 4
+corrections:
+  - vise: A13
+    action: corriger
+    enonce: "Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car la Banque de France verse à l'État un impôt et des dividendes (36,8 Md€ depuis 2015) qui dépendent de son résultat, lequel inclut les intérêts reçus ; l'ampleur de ce recul n'est pas chiffrée par une source du dossier."
+incertitudes:
+  - "Le mécanisme de A13 (intérêts reçus, puis résultat, puis impôt et dividendes) repose sur la seule déclaration de Jordan Bardella (S29, non conforme) ; F19, F20 et S9 établissent l'impôt, les dividendes et le partage du revenu monétaire dans l'Eurosystème, pas la part due aux titres de l'État."
+  - "L'article de Blick et celui de The Economist (S34) restent inaccessibles : je ne les cite pas."
+  - "Aucune objection de fait n'est déposée : je n'ai pas relu les sources des autres camps au-delà du lot."
