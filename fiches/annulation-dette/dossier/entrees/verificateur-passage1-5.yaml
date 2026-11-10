@@ -1,0 +1,7 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S43
+    statut: conforme
+    note: "Bon document : copie PDF (hébergée par EconomiX) de la tribune collective du Monde au titre annoncé ; la date du 2021-02-05 n'apparaît pas dans le PDF (« Publié aujourd'hui »), elle n'est donc pas confirmée par cette copie. F57, F58, F59, F60 : les quatre extraits figurent mot pour mot et disent la même chose que les énoncés (F58 est bien la position des signataires, présentée comme reconnue par « un très grand nombre d'économistes », pas une démonstration ; F57 reprend aussi la phrase sur le mot « annulation » absent du traité et du protocole SEBC). Appartenance partisane : la source présente Aurore Lalucq comme « (Parlement européen) » seulement ; son rattachement à Place publique n'est pas établi par cette source."
