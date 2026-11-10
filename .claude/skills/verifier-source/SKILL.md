@@ -6,11 +6,11 @@ description: Comment ouvrir une source web pour Polisible et en garder seulement
 # Ouvrir et vérifier une source
 
 **Ouvrir.** `python3 outils/ouvrir.py "<adresse>" --cherche "mot1|mot2" [--fenetre 300] [--max 6]`
-L'outil renvoie statut, adresse finale, titre, date des métadonnées, puis les seuls passages autour des mots cherchés (expression régulière). Cherche des mots précis (numéro d'article, chiffre, nom) ; n'affiche pas la page entière. Si `WebFetch` fonctionne, tu peux l'utiliser à la place, avec une question précise. `WebSearch` sert à trouver les adresses.
+L'outil renvoie statut, adresse finale, titre, date des métadonnées, puis les seuls passages autour des mots cherchés (expression régulière). Cherche des mots précis (numéro d'article, chiffre, nom) ; n'affiche pas la page entière. **C'est le seul outil d'ouverture**, le même pour tous les agents (équité d'accès). `WebSearch` sert à trouver les adresses ; un résumé de recherche n'est jamais une source.
 
 **Une source n'est citée que si tu l'as ouverte pendant ce travail** et que l'extrait y figure. Jamais de mémoire. Une adresse trouvée par la recherche mais non ouverte n'est pas une source.
 
-**Inaccessible.** Certains sites refusent les robots (Légifrance, Banque de France, EUR-Lex renvoie une page de contrôle). Ne contourne jamais un blocage. Cherche le même texte sur une autre source officielle (site du Conseil constitutionnel, de l'Assemblée, de la BCE, du Sénat, Curia, rapport PDF…), sinon déclare la source inaccessible.
+**Inaccessible.** Certains sites refusent les robots (Légifrance, Banque de France, EUR-Lex renvoie une page de contrôle). Ne contourne jamais un blocage. Réessaie une fois, puis cherche le même texte à une autre adresse (autre version linguistique, PDF, site du Conseil constitutionnel, de l'Assemblée, de la BCE, du Sénat…). Sinon : expert → `sources_demandees` ; vérificateur → `inaccessible`.
 
 **Contrôles du vérificateur**, pour chaque source :
 1. Bon document : titre, auteur, date correspondent.

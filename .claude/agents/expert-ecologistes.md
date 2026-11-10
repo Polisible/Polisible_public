@@ -1,7 +1,7 @@
 ---
 name: expert-ecologistes
 description: Expert Polisible de la famille « Écologistes ». Lancé par le coordinateur (/rediger-fiche) pour les contributions et la confrontation sur une fiche.
-tools: Read, Glob, Grep, Write, Bash, WebSearch, WebFetch
+tools: Read, Glob, Grep, Write, Bash, WebSearch
 model: sonnet
 skills:
   - consignes-communes

@@ -12,6 +12,8 @@ Commandes (lancer depuis la racine du dépôt) :
                                            puis relancer sans --taille pour les verdicts
   lot <fiche> confrontation --agent NOM    prépare le lot d'un expert
   lot <fiche> redaction                    vue consolidée pour le rédacteur
+  lot <fiche> bibliotheque                 textes de base communs, transmis aux experts
+  a-relancer <fiche> <expert>...           confrontation ciblée : qui relancer au passage suivant
   etat <fiche>                             état et condition d'arrêt
   chrono <fiche> debut|fin <phase> [--note "..."]
   mesure <fiche> <phase> <agent> [--jetons N] [--outils N] [--duree-ms N]
@@ -30,11 +32,15 @@ VERDICTS = {
     "valeur": {None, ""},
 }
 STATUTS_SOURCE = {"conforme", "non-conforme", "inaccessible"}
+ROLES = {"expert", "verificateur", "bibliothecaire"}
 STATUTS_OBJ = {"resolue", "remontee-fondateur"}
 EXTRAIT_MAX = 320  # une phrase au plus (règle de citation courte, dépôt public)
 FICHIERS = ["questions", "arguments", "affirmations", "sources", "objections", "valeurs", "journal"]
 PREFIXE = {"arguments": "A", "affirmations": "F", "sources": "S", "objections": "O", "valeurs": "V", "questions": "Q"}
 ID_GLOBAL = re.compile(r"^[AFSOVQ]\d+$")
+# une affirmation porte sur le fond ; « X a dit que… » va dans porte_par (sauf declaration: true)
+DECLARATIF = re.compile(r"\b(a|ont) (déclaré|écrit|dit|jugé|qualifié|estimé|affirmé|souligné|indiqué|rappelé|averti)\b|"
+                        r"\bselon (lui|elle|eux|un|une|le|la|les|l'|[A-Z])|\b(estime|juge|considère|affirme) que\b", re.I)
 PHASES = {"1": "Cadrage", "2": "Contributions indépendantes", "3": "Vérification",
           "4": "Confrontation", "5": "Stabilisation", "6": "Rédaction",
           "7": "Relecture de symétrie", "8": "Vérification humaine"}
@@ -77,6 +83,12 @@ def norm_url(u):
 
 # ---------------------------------------------------------------- validation
 
+def role_de(e):
+    if e.get("role"):
+        return e["role"]
+    return {"verificateur": "verificateur", "bibliothecaire": "bibliothecaire"}.get(e.get("agent"), "expert")
+
+
 def valider_entree(e):
     """Renvoie la liste des erreurs d'un dépôt (vide si correct)."""
     err = []
@@ -84,7 +96,7 @@ def valider_entree(e):
         return ["le fichier doit être un dictionnaire YAML"]
     if not e.get("agent"):
         err.append("champ « agent » manquant")
-    role = e.get("role") or ("verificateur" if e.get("agent") == "verificateur" else "expert")
+    role = role_de(e)
     refs = set()
     for s in e.get("sources", []) or []:
         if role == "verificateur":
@@ -102,6 +114,8 @@ def valider_entree(e):
             err.append(f"source {s.get('ref')} : niveau doit être 1, 2, 3 ou 4")
         if not str(s.get("adresse", "")).startswith("http"):
             err.append(f"source {s.get('ref')} : adresse invalide")
+        if role == "bibliothecaire" and s.get("niveau") not in (1, 2):
+            err.append(f"source {s.get('ref')} : la bibliothèque commune ne contient que des sources de niveau 1 ou 2")
         refs.add(s.get("ref"))
     for f in e.get("affirmations", []) or []:
         if role == "verificateur":
@@ -115,6 +129,9 @@ def valider_entree(e):
                 err.append(f"affirmation {f.get('ref', '?')} : champ « {c} » manquant")
         if f.get("type") not in TYPES:
             err.append(f"affirmation {f.get('ref')} : type doit être {sorted(TYPES)}")
+        if DECLARATIF.search(str(f.get("enonce", ""))) and not f.get("declaration"):
+            err.append(f"affirmation {f.get('ref')} : énoncé déclaratif (« X a dit que… »). Écris le fond vérifiable ; "
+                       "la déclaration va dans porte_par. Si le fait à établir EST la déclaration, ajoute declaration: true")
         for x in f.get("sources", []) or []:
             if isinstance(x, dict):
                 if not x.get("source"):
@@ -126,8 +143,10 @@ def valider_entree(e):
             else:
                 err.append(f"affirmation {f.get('ref')} : sources au format {{source: s1, extrait: \"...\"}}")
         refs.add(f.get("ref"))
+    if role == "bibliothecaire" and (e.get("arguments") or e.get("objections") or e.get("valeurs")):
+        err.append("la bibliothèque ne dépose que des sources et des affirmations de fait, sans argument")
     for a in e.get("arguments", []) or []:
-        for c in ("ref", "question", "position", "enonce", "porte_par", "affirmations"):
+        for c in ("ref", "question", "position", "enonce", "raisonnement", "porte_par", "affirmations"):
             if not a.get(c):
                 err.append(f"argument {a.get('ref', '?')} : champ « {c} » manquant")
         if a.get("position") not in POSITIONS:
@@ -150,6 +169,12 @@ def valider_entree(e):
             err.append(f"objection visant {o.get('vise')} : une objection de raisonnement s'écrit comme contre-argument (arguments, avec repond_a)")
         if o.get("nature") == "fait" and not o.get("sources") and not o.get("ce_que_la_source_ne_dit_pas"):
             err.append(f"objection visant {o.get('vise')} : une objection de fait s'appuie sur une source ou précise ce que la source citée ne dit pas")
+    for x in e.get("sans_position", []) or []:
+        if not x.get("question") or not x.get("recherche"):
+            err.append(f"sans_position : « question » et « recherche » (ce qui a été cherché) obligatoires ({x})")
+    for x in e.get("sources_demandees", []) or []:
+        if not str(x.get("adresse", "")).startswith("http") or not x.get("pourquoi") or not x.get("erreur"):
+            err.append(f"sources_demandees : « adresse », « pourquoi » et « erreur » obligatoires ({x})")
     for v in e.get("valeurs", []) or []:
         if not v.get("question") or not v.get("enonce"):
             err.append(f"valeur : « question » et « enonce » obligatoires ({v})")
@@ -193,7 +218,7 @@ def fusionner(fiche, chemin):
     etat = charger(fiche, "etat")
     passage = etat.get("passage", 1)
     D = {n: charger(fiche, n) for n in FICHIERS if n != "journal"}
-    if (e.get("role") or ("verificateur" if agent == "verificateur" else "expert")) == "verificateur":
+    if role_de(e) == "verificateur":
         return fusion_verif(fiche, e, D)
     carte, ajouts = {}, []
 
@@ -220,6 +245,7 @@ def fusionner(fiche, chemin):
                     s["statut"] = "a-verifier"
         D["affirmations"].append({"id": fid, "enonce": f["enonce"], "type": f["type"],
                                   "sources": [{"source": res(x["source"]), "extrait": x["extrait"]} for x in f["sources"]],
+                                  "declaration": bool(f.get("declaration")),
                                   "auteur": agent, "passage": passage, "verdict": None, "explication": None,
                                   "statut": "en-attente"})
         ajouts.append(fid)
@@ -229,6 +255,7 @@ def fusionner(fiche, chemin):
         D["arguments"].append({"id": aid, "question": a["question"], "position": a["position"], "enonce": a["enonce"],
                                "porte_par": [{"qui": p["qui"], "source": res(p["source"])} for p in a["porte_par"]],
                                "affirmations": [res(x) for x in a["affirmations"]],
+                               "raisonnement": a["raisonnement"],
                                "repond_a": a.get("repond_a"), "auteur": agent, "passage": passage,
                                "statut": "ouvert"})
         if a.get("repond_a"):
@@ -246,6 +273,20 @@ def fusionner(fiche, chemin):
             if f["id"] == o["vise"]:
                 f["statut"] = "contestee"
         ajouts.append(oid)
+    for x in e.get("sans_position", []) or []:
+        for q in D["questions"]:
+            if q["id"] == x["question"]:
+                q.setdefault("sans_position", []).append({"auteur": agent, "recherche": x["recherche"]})
+                ajouts.append(f"sans position sur {q['id']}")
+    for x in e.get("sources_demandees", []) or []:
+        if any(norm_url(s["adresse"]) == norm_url(x["adresse"]) for s in D["sources"]):
+            continue
+        sid = prochain(D["sources"], "S")
+        D["sources"].append({"id": sid, "titre": x.get("titre", "(à établir)"), "auteur": x.get("auteur", "(à établir)"),
+                             "date": str(x.get("date", "(à établir)")), "adresse": x["adresse"], "niveau": x.get("niveau"),
+                             "ajoutee_par": agent, "statut": "demandee", "demande": {"pourquoi": x["pourquoi"], "erreur": x["erreur"]},
+                             "note_verif": None})
+        ajouts.append(f"{sid} (demandée)")
     for v in e.get("valeurs", []) or []:
         vid = prochain(D["valeurs"], "V")
         D["valeurs"].append({"id": vid, "question": v["question"], "auteur": agent, "enonce": v["enonce"],
@@ -279,6 +320,9 @@ def fusion_verif(fiche, e, D):
         if not x:
             print(f"  ignoré : {s['id']} inconnu"); continue
         x["statut"], x["note_verif"] = s["statut"], s["note"]
+        for c in ("titre", "auteur", "niveau"):
+            if s.get(c):
+                x[c] = s[c]
         if s.get("date_corrigee"):
             x["date"] = str(s["date_corrigee"])
         faits.append(f"{s['id']}→{s['statut']}")
@@ -314,13 +358,13 @@ def lot(fiche, sorte, agent=None, taille=0):
     lots.mkdir(exist_ok=True)
     src = {s["id"]: s for s in D["sources"]}
     if sorte == "verif":
-        a_verif = [s for s in D["sources"] if s["statut"] == "a-verifier"]
+        a_verif = [s for s in D["sources"] if s["statut"] in ("a-verifier", "demandee")]
         aff = [f for f in D["affirmations"] if f["verdict"] is None and f["statut"] != "verifiee"]
         objs = [o for o in D["objections"] if o["statut"] == "transmise-verificateur"]
         # une source à vérifier + toutes les affirmations qui la citent : la page n'est ouverte qu'une fois
         paquets = []
         for s in a_verif:
-            paquets.append({"source": {k: s[k] for k in ("id", "titre", "auteur", "date", "adresse", "niveau")},
+            paquets.append({"source": {k: s.get(k) for k in ("id", "titre", "auteur", "date", "adresse", "niveau", "statut", "demande")},
                             "a_controler": [{"affirmation": f["id"], "enonce": f["enonce"], "type": f["type"],
                                              "extrait_annonce": x["extrait"]}
                                             for f in D["affirmations"] for x in f["sources"]
@@ -352,18 +396,30 @@ def lot(fiche, sorte, agent=None, taille=0):
 
     def vue_arg(a):
         return {"id": a["id"], "auteur": a["auteur"], "question": a["question"], "position": a["position"],
-                "enonce": a["enonce"], "porte_par": a["porte_par"], "repond_a": a.get("repond_a"), "statut": a["statut"],
+                "enonce": a["enonce"], "raisonnement": a.get("raisonnement"), "porte_par": a["porte_par"],
+                "repond_a": a.get("repond_a"), "statut": a["statut"],
                 "affirmations": [{"id": f, "enonce": affs[f]["enonce"], "type": affs[f]["type"],
                                   "verdict": affs[f]["verdict"], "explication": affs[f]["explication"],
                                   "sources": [{"source": x["source"], "extrait": x["extrait"],
                                                "statut_source": src[x["source"]]["statut"]} for x in affs[f]["sources"]]}
                                  for f in a["affirmations"] if f in affs]}
-    if sorte == "confrontation":
+    if sorte == "bibliotheque":
+        data = {"note": "Bibliothèque commune : textes de base de niveau 1 ou 2, vérifiés. Tu peux citer ces ids, "
+                        "et tu restes libre de chercher et citer toute autre source.",
+                "affirmations": [{"id": f["id"], "enonce": f["enonce"], "verdict": f["verdict"],
+                                  "sources": [{"source": x["source"], "extrait": x["extrait"]} for x in f["sources"]]}
+                                 for f in D["affirmations"] if f["auteur"] == "bibliothecaire"],
+                "sources": {s["id"]: f"{s['titre']} ({s['auteur']}, {s['date']}, niveau {s['niveau']}) — {s['adresse']}"
+                            for s in D["sources"] if s["ajoutee_par"] == "bibliothecaire"}}
+        p = lots / "bibliotheque.yaml"
+    elif sorte == "confrontation":
         data = {"questions": D["questions"],
                 "tes_arguments": [vue_arg(a) for a in D["arguments"] if a["auteur"] == agent and a["statut"] != "retire"],
                 "arguments_des_autres": [vue_arg(a) for a in D["arguments"] if a["auteur"] != agent and a["statut"] != "retire"],
                 "objections_deja_posees": [{k: o[k] for k in ("id", "vise", "auteur", "contenu", "statut", "resolution")}
                                            for o in D["objections"]],
+                "tes_sources_demandees": [{k: s.get(k) for k in ("id", "adresse", "titre", "statut", "note_verif")}
+                                          for s in D["sources"] if s["ajoutee_par"] == agent and s.get("demande")],
                 "sources": {s["id"]: f"{s['titre']} ({s['auteur']}, {s['date']}, niveau {s['niveau']}) — {s['statut']}"
                             for s in D["sources"]}}
         p = lots / f"confrontation-{agent}.yaml"
@@ -372,6 +428,10 @@ def lot(fiche, sorte, agent=None, taille=0):
         data = {"questions": [{**q, "arguments": [vue_arg(a) for a in args if a["question"] == q["id"]],
                                "valeurs": [v for v in D["valeurs"] if v["question"] == q["id"]]}
                               for q in D["questions"]],
+                "affirmations_hors_argument": [  # bibliothèque, arguments retirés : utilisables pour contexte et chiffres
+                    {k: f[k] for k in ("id", "enonce", "type", "verdict", "explication", "sources")}
+                    for f in D["affirmations"] if f["verdict"] is not None
+                    and not any(f["id"] in a["affirmations"] for a in args)],
                 "objections": D["objections"],
                 "sources": D["sources"]}
         p = lots / "redaction.yaml"
@@ -382,6 +442,20 @@ def lot(fiche, sorte, agent=None, taille=0):
 
 
 # ---------------------------------------------------------------- état
+
+def a_relancer(fiche, experts):
+    """Confrontation ciblée : un expert est relancé s'il est visé par un élément du dernier passage
+    (objection ou contre-argument sur ses éléments) ou s'il a lui-même déposé quelque chose à ce passage."""
+    D = {n: charger(fiche, n) for n in ("arguments", "affirmations", "objections")}
+    passage = charger(fiche, "etat").get("passage", 1)
+    auteur = {x["id"]: x["auteur"] for n in D for x in D[n]}
+    derniers = [x for n in ("arguments", "objections") for x in D[n] if x.get("passage") == passage]
+    vises = {auteur.get(x.get("repond_a") or x.get("vise")) for x in derniers} - {None}
+    actifs = {x["auteur"] for x in derniers}
+    for ex in experts:
+        motif = "visé" if ex in vises else ("a déposé au dernier passage" if ex in actifs else None)
+        print(f"{ex}: {'RELANCER (' + motif + ')' if motif else 'pas de relance'}")
+
 
 def etat(fiche):
     D = {n: charger(fiche, n) for n in FICHIERS}
@@ -395,7 +469,7 @@ def etat(fiche):
         print(f"  {n:13} {len(D[n]):3}  {c}")
     nouveaux = [x["id"] for n in ("arguments", "objections") for x in D[n] if x.get("passage") == passage]
     ouvertes = [o["id"] for o in D["objections"] if o["nature"] == "fait" and o["statut"] not in STATUTS_OBJ]
-    non_verif = [s["id"] for s in D["sources"] if s["statut"] == "a-verifier"]
+    non_verif = [s["id"] for s in D["sources"] if s["statut"] in ("a-verifier", "demandee")]
     sans_verdict = [f["id"] for f in D["affirmations"] if f["verdict"] is None and f["type"] != "valeur"]
     print("Condition d'arrêt :")
     print(f"  1. aucun nouvel argument ni objection au dernier passage : {'oui' if not nouveaux else 'non (' + ', '.join(nouveaux) + ')'}")
@@ -501,7 +575,7 @@ def main():
     x.add_argument("--sujet", required=True); x.add_argument("--validee-par", default="fondateur")
     x = s.add_parser("valider"); x.add_argument("fichier")
     x = s.add_parser("fusionner"); x.add_argument("fiche"); x.add_argument("fichiers", nargs="+")
-    x = s.add_parser("lot"); x.add_argument("fiche"); x.add_argument("sorte", choices=["verif", "confrontation", "redaction"])
+    x = s.add_parser("lot"); x.add_argument("fiche"); x.add_argument("sorte", choices=["verif", "confrontation", "redaction", "bibliotheque"])
     x.add_argument("--agent"); x.add_argument("--taille", type=int, default=0)
     x = s.add_parser("etat"); x.add_argument("fiche")
     x = s.add_parser("chrono"); x.add_argument("fiche"); x.add_argument("quand", choices=["debut", "fin"])
@@ -510,6 +584,7 @@ def main():
     x.add_argument("--jetons", type=int); x.add_argument("--outils", type=int); x.add_argument("--duree-ms", type=int)
     x = s.add_parser("passage"); x.add_argument("fiche")
     x = s.add_parser("journal"); x.add_argument("fiche")
+    x = s.add_parser("a-relancer"); x.add_argument("fiche"); x.add_argument("experts", nargs="+")
     a = p.parse_args()
     if a.cmd == "init":
         init(a.fiche, a.question, a.type, a.theme, a.sujet, a.validee_par)
@@ -534,6 +609,8 @@ def main():
         print(f"passage {E['passage']}")
     elif a.cmd == "journal":
         journal_md(a.fiche)
+    elif a.cmd == "a-relancer":
+        a_relancer(a.fiche, a.experts)
 
 
 if __name__ == "__main__":

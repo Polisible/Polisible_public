@@ -1,7 +1,7 @@
 ---
 name: expert-extreme-droite
 description: Expert Polisible de la famille « Extrême droite ». Lancé par le coordinateur (/rediger-fiche) pour les contributions et la confrontation sur une fiche.
-tools: Read, Glob, Grep, Write, Bash, WebSearch, WebFetch
+tools: Read, Glob, Grep, Write, Bash, WebSearch
 model: sonnet
 skills:
   - consignes-communes

@@ -27,6 +27,7 @@ affirmations:                 # une affirmation = un seul type
   - ref: f1
     enonce: "Énoncé simple et vérifiable."
     type: fait                # fait | estimation | valeur
+    # declaration: true       # seulement si le fait à établir est la déclaration elle-même
     sources:
       - {source: s1, extrait: "Une phrase au plus, copiée exactement de la source."}
 arguments:
@@ -34,6 +35,7 @@ arguments:
     question: Q1
     position: contre          # pour (oui) | contre (non) | nuance
     enonce: "L'argument en deux phrases, dans sa meilleure version."
+    raisonnement: "Pourquoi les affirmations mènent à la conclusion."
     porte_par:                # qui défend réellement cet argument, d'après ses propres textes
       - {qui: "Parti, personne ou institution", source: s2}
     affirmations: [f1]
@@ -48,11 +50,15 @@ corrections:                  # phase 4, sur TES arguments seulement
   - {vise: A1, action: retirer}            # ou {vise: A1, action: corriger, enonce: "…"}
 valeurs:                      # désaccords de valeur : pas des objections
   - {question: Q1, enonce: "Ce que ta famille met en priorité, sans verdict."}
+sans_position:                # ta famille n'a pas de position publique sur une question
+  - {question: Q2, recherche: "programme 2027, site du parti, déclarations d'août 2026"}
+sources_demandees:            # page impossible à ouvrir : le vérificateur réessaie
+  - {adresse: "https://…", pourquoi: "texte de l'arrêt C-493/17", erreur: "403"}
 incertitudes:                 # principe 6 : les points dont tu n'es pas sûr
   - "…"
 ```
 
-Règles vérifiées par l'outil : extrait ≤ 320 caractères (une phrase), niveau 1 à 4, adresse web, `porte_par` sourcé, type et position valides. Une objection de **raisonnement** ne s'écrit pas en objection : écris un contre-argument (`arguments` avec `repond_a`).
+Règles vérifiées par l'outil : extrait ≤ 320 caractères (une phrase), niveau 1 à 4, adresse web, `porte_par` sourcé, `raisonnement` présent, type et position valides, pas d'affirmation déclarative (« X a dit que… ») sans `declaration: true`. Une affirmation de la bibliothèque commune se cite par son id (`F3`). Une objection de **raisonnement** ne s'écrit pas en objection : écris un contre-argument (`arguments` avec `repond_a`).
 
 ## Dépôt du vérificateur
 
@@ -63,6 +69,7 @@ phase: 3
 sources:
   - {id: S1, statut: conforme, note: "Bon document ; extrait présent, même périmètre."}
   # statut : conforme | non-conforme | inaccessible ; date_corrigee si la date annoncée est fausse
+  # source demandée (statut « demandee » dans le lot) : réessaie, puis donne titre, auteur, niveau si tu l'as ouverte
 affirmations:
   - {id: F1, verdict: "Vrai", explication: "Une à trois phrases."}
   # fait : Vrai | Plutôt vrai | Trompeur | Faux | Invérifiable

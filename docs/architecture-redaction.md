@@ -233,3 +233,17 @@ Trois points seront tranchés par la fiche de test, pas par avance.
 1. **La consommation** : l'abonnement Pro suffit-il pour une fiche complète ? Sinon, quelles parties alléger (moins de familles par question, passages espacés) ou faut-il envisager l'API, avec un budget ?
 2. **La publication du journal** : décidé le 8 novembre 2026 : chaque fiche affiche par défaut un résumé du journal, et le journal complet est téléchargeable.
 3. **Le rôle des experts sur les questions de valeur** : sur une question de valeur, chaque famille expose ce qu'elle priorise ; faut-il quand même une confrontation, ou seulement une présentation de chaque position ?
+
+## Ajustements après la fiche test (10 novembre 2026)
+
+La fiche test sur l'annulation de la dette détenue par la Banque de France a conduit aux règles suivantes, validées par le fondateur.
+
+- **Sept familles** nommées comme le fait la science politique ; un expert par famille, dédoublé si une divergence interne forte apparaît sur le thème.
+- **Bibliothèque commune.** Avant les contributions, un bibliothécaire sans camp rassemble les seuls textes de base (droit en vigueur, décisions de justice, statistiques officielles, définitions), de niveau 1 ou 2. Elle s'ajoute aux sources des experts et ne les remplace jamais : chacun reste libre de chercher et citer les sources que sa famille lit.
+- **Même outil d'accès pour tous.** Tous les agents ouvrent les pages avec le même outil ; une page qu'un expert n'a pas pu ouvrir est « demandée » et le vérificateur réessaie, pour qu'aucun camp ne soit pénalisé par un blocage technique.
+- **Affirmations sur le fond.** Une affirmation porte sur ce qui est vérifiable (« le traité interdit… »), pas sur le fait que quelqu'un l'a dit ; qui défend l'argument est indiqué à part. Le vérificateur juge le fond, y compris quand la réponse honnête est « invérifiable » ou « débat entre experts ».
+- **Un argument contient un raisonnement.** Une prise de position sans raisonnement n'est pas un argument. Une famille sans position publique sur une question le déclare, et la fiche l'affiche.
+- **Toutes les questions d'un coup** pour chaque expert (deux lancements au-delà de huit questions).
+- **Confrontation ciblée** : après le premier passage, seuls les experts visés par un élément nouveau, ou qui ont eux-mêmes apporté du nouveau, sont relancés.
+- **Manques du rédacteur** : ils retournent au bibliothécaire ou au vérificateur, puis le rédacteur produit une nouvelle version ; les affirmations vérifiées d'un argument retiré restent utilisables pour le contexte.
+- **Choix des questions** : au cadrage, mélanger les types (fait, estimation, valeur). Une question purement juridique sans décision de justice appelle souvent « oui et non » ; elle est utile, mais ne doit pas porter seule une fiche.
