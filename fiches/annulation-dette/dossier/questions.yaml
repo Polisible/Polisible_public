@@ -376,6 +376,61 @@
   - Q35
   - Q40
   statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan budgétaire Retailleau du 12 octobre 2026 (Public Sénat) ; programme 2027 complet non publié d'après
+        la recherche
+      resultat: rien sur l'annulation ni sur les traités à ce sujet
+    - categorie: site
+      ou: 'site du parti : recherche web, pas de page ouverte'
+      resultat: aucun communiqué trouvé
+    - categorie: dirigeants
+      ou: presse, 27 août au 10 novembre 2026 (débat Medef, LCP et Public Sénat)
+      resultat: Retailleau parle de « faillite » et d'économies ; aucune déclaration vérifiée sur la légalité de
+        l'annulation
+    - categorie: parlement
+      ou: recherche web sur Sénat et Assemblée, 2026
+      resultat: aucun texte, amendement ou vote identifié
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: 'RN : plan et contre-budget du 6 octobre 2026 (presse) ; Reconquête et UDR : programmes 2027 non publiés
+        ou non trouvés'
+      resultat: rien sur le cadre juridique de l'annulation de dette détenue par l'Eurosystème
+    - categorie: site
+      ou: rassemblementnational.fr (accueil, communiqués), parti-reconquete.fr (accueil) ; site UDR inaccessible
+        (erreur 502)
+      resultat: aucun passage sur la dette, la Banque de France ou la BCE ; UDR non consulté
+    - categorie: dirigeants
+      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Tanguy, Zemmour, Ciotti'
+      resultat: Bardella juge la proposition fausse sur le plan économique (voir Q43) ; rien sur la compatibilité
+        avec les traités ; rien trouvé pour Zemmour et Ciotti sur ce sujet
+    - categorie: parlement
+      ou: recherche web sur propositions de loi, amendements, questions au gouvernement 2025-2026
+      resultat: rien trouvé de l'UDR ou du RN sur ce point
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
 - id: Q42
   enonce: Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
   type: estimation
@@ -397,6 +452,91 @@
   - Q32
   - Q36
   statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: aucune estimation d'effet de l'annulation sur les taux
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée de dirigeant LR sur l'effet de cette proposition sur les taux
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: aucune mention de la dette détenue par la BCE ni des taux d'emprunt
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: plan sur déficit et recettes, rien sur un effet de l'annulation sur les taux
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026 sur Tondelier et élus écologistes
+      resultat: 'aucune déclaration trouvée sur la proposition d''août 2026 ; seule prise de position écologiste
+        trouvée : chronique de Jérôme Gleizes (Politis, 14 septembre 2026), qui ne traite pas des taux'
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr (amendements, comptes rendus)
+      resultat: aucun texte du groupe écologiste trouvé ; l'amendement 1047 au projet de loi de finances est de
+        La France insoumise ; Sénat et Parlement européen non consultés
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse)
+      resultat: cite la hausse des taux comme conséquence du budget du gouvernement, pas de l'annulation
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: presse août-novembre 2026
+      resultat: aucune déclaration RN, Reconquête ou UDR sur l'effet de l'annulation sur les taux
+    - categorie: parlement
+      ou: recherche web sur textes et questions 2025-2026
+      resultat: rien trouvé
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
+  - auteur: expert-sociaux-democrates
+    lieux_consultes:
+    - categorie: programme
+      ou: 'PS : projet 2027 présenté en avril 2026 (compte rendu LCP, 144 pages, ouvert) ; Place publique : programme
+        non localisé'
+      resultat: aucune mention de la dette détenue par la BCE trouvée dans le compte rendu ; texte intégral non
+        consulté
+    - categorie: site
+      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
+      resultat: aucun communiqué trouvé sur la dette détenue par la BCE
+    - categorie: dirigeants
+      ou: presse août-novembre 2026 (Faure, Vallaud, Glucksmann ; Medef 27 août 2026, via Selectra)
+      resultat: Glucksmann ironise sur les leçons de deux anciens Premiers ministres, sans position sur les taux
+        ; rien de Faure sur la proposition
+    - categorie: parlement
+      ou: Assemblée nationale, comptes rendus et amendements ; Parlement européen
+      resultat: aucun texte socialiste sur ce point trouvé ; tribune de 2021 d'A. Lalucq muette sur l'effet sur
+        les taux
 - id: Q43
   enonce: L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la
     Banque de France reverse à l'État ?
@@ -419,6 +559,67 @@
   - Q31
   - Q37
   statut: validee
+  sans_position:
+  - auteur: expert-centre
+    lieux_consultes:
+    - categorie: programme
+      ou: programmes en cours 2027 de Renaissance, MoDem, Horizons, UDI (recherche web)
+      resultat: aucun texte trouvé qui traite des intérêts reversés par la Banque de France
+    - categorie: site
+      ou: sites des partis (recherche web, août-novembre 2026)
+      resultat: aucune publication trouvée sur ce point précis
+    - categorie: dirigeants
+      ou: presse août-septembre 2026 (Lescure, Attal, Philippe, Lecornu, Bayrou)
+      resultat: critiques générales (crise financière, perte de confiance, interdit bancaire) mais aucune déclaration
+        retrouvée sur le solde intérêts économisés / bénéfices reversés
+    - categorie: parlement
+      ou: recherche web sur propositions de loi, amendements, débat demandé par LFI le 9 septembre 2026 (LCP)
+      resultat: aucun texte du Centre trouvé sur ce point
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: rien sur les intérêts reversés par la Banque de France
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: rien de vérifié
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié ; rapport sénatorial S10 (2025) cité en bibliothèque, non posé comme position LR
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: aucune mention de la charge d'intérêts de l'État ni des reversements de la Banque de France
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: rien sur ce point précis
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026
+      resultat: aucune déclaration trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) parle de « marge
+        de manœuvre » sans chiffrer la charge d'intérêts ni les reversements
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr
+      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+  - auteur: expert-sociaux-democrates
+    lieux_consultes:
+    - categorie: programme
+      ou: 'PS : projet 2027 (avril 2026) ; Place publique : programme non localisé'
+      resultat: rien trouvé sur les intérêts reversés par la Banque de France
+    - categorie: site
+      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse août-novembre 2026
+      resultat: le groupe PS de l'Assemblée évoque le 16 septembre 2026 la nécessité de réduire la charge de la
+        dette, sans lien trouvé avec la proposition de la Banque de France
+    - categorie: parlement
+      ou: Assemblée nationale, Sénat, Parlement européen
+      resultat: rien trouvé ; la tribune de 2021 ne traite pas des reversements de la Banque de France
 - id: Q44
   enonce: Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?
   type: estimation
@@ -436,6 +637,74 @@
   - Q32
   - Q38
   statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: rien sur la BCE ni l'euro à ce propos
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée de dirigeant LR sur l'indépendance de la BCE à propos de cette proposition
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: révision des traités mentionnée (f3) ; rien sur la crédibilité de l'euro ni l'indépendance de la
+        BCE
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026
+      resultat: aucune déclaration de dirigeant trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) écarte
+        les « objections techniques » sans traiter l'indépendance de la BCE
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr
+      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse), programmes Reconquête et UDR
+      resultat: rien sur la crédibilité de l'euro ou l'indépendance de la BCE dans cette proposition
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: presse août-novembre 2026 ; interview de Bardella à The Economist évoquant un rachat de dette par la BCE
+        (article Blick inaccessible, voir sources_demandees)
+      resultat: pas de position établie sur l'indépendance de la BCE face à l'annulation
+    - categorie: parlement
+      ou: recherche web 2025-2026
+      resultat: rien trouvé
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
 - id: Q45
   enonce: Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale
     ?
@@ -452,6 +721,21 @@
   - Q21
   - Q33
   statut: validee
+  sans_position:
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse) ; programmes Reconquête et UDR
+      resultat: pas de position de principe sur le remboursement d'une dette détenue par la banque centrale
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Zemmour, Ciotti'
+      resultat: Bardella conteste l'effet de l'opération (Q43) mais ne formule pas de principe ; rien d'autre trouvé
+    - categorie: parlement
+      ou: recherche web 2025-2026
+      resultat: rien trouvé
 - id: Q46
   enonce: Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des
     règles européennes ?
@@ -464,6 +748,43 @@
   - Q22
   - Q34
   statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: engage à ramener le déficit sous le plafond de 3 % des traités en 2031 et à inscrire une règle d'or
+        par référendum ; ne traite pas de la compétence nationale ou européenne sur la dette
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée sur cette question
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
 - id: Q47
   enonce: Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies,
     à la hausse des recettes ou à la recherche de croissance ?

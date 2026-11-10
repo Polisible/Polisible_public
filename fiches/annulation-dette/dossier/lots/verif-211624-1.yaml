@@ -1,0 +1,139 @@
+sources_a_verifier:
+- source:
+    id: S1
+    titre: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4) sur les statuts
+      du SEBC et de la BCE
+    auteur: Union européenne (EUR-Lex)
+    date: '2016'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F45
+    enonce: L'article 123 TFUE et l'article 21 du protocole n° 4 interdisent les crédits et l'acquisition directe
+      de titres auprès des États ; ils ne mentionnent pas expressément l'annulation ou la conversion en dette perpétuelle
+      de titres déjà inscrits au bilan d'une banque centrale.
+    type: fait
+    declaration: false
+    extrait_annonce: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales
+      nationales, des instruments de leur dette est également interdite.
+- source:
+    id: S16
+    titre: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le ministre de l''Economie'
+    auteur: MoneyVox avec AFP
+    date: '2026-08-24'
+    adresse: https://www.moneyvox.fr/actu/110103/dette-la-crise-financiere-assuree-en-cas-annulation-partielle-selon-le-ministre-de-economie
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F25
+    enonce: Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir dépassé 4,14 %
+      le jeudi précédent, son plus haut niveau depuis 2008.
+    type: fait
+    declaration: false
+    extrait_annonce: Lundi, le taux d'intérêt de la France à 10 ans était à 4,11%, après avoir dépassé jeudi 4,14%,
+      au plus depuis 2008.
+  - affirmation: F26
+    enonce: Une annulation unilatérale d'une partie de la dette publique ferait monter les taux auxquels la France
+      emprunte, car les prêteurs réclameraient une prime de risque supplémentaire.
+    type: estimation
+    declaration: false
+    extrait_annonce: Le risque, pour le ministre de l'Economie, est également de faire grimper les taux d'intérêt
+  - affirmation: F27
+    enonce: L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est
+      contraire aux traités européens.
+    type: fait
+    declaration: false
+    extrait_annonce: c'est illégal, non conforme aux traités européens
+- source:
+    id: S17
+    titre: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûterait)'
+    auteur: Selectra
+    date: '2026-08-28'
+    adresse: https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S18
+    titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+    auteur: Euronews (Olivier Tolachides)
+    date: '2026-09-11'
+    adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S19
+    titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à
+      de nombreuses difficultés'
+    auteur: Public Sénat
+    date: '2026-08-25'
+    adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F24
+    enonce: Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès
+      d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    declaration: false
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
+  - affirmation: F44
+    enonce: Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire ont été achetés
+      sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    declaration: false
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
+  - affirmation: F46
+    enonce: La proposition vise la part de la dette française détenue par la Banque de France pour le compte de
+      l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers.
+    type: fait
+    declaration: false
+    extrait_annonce: l’annulation des 18 % de dette française détenus par la Banque de France pour le compte de
+      la Banque centrale européenne (BCE)
+  - affirmation: F47
+    enonce: L'annulation ou le gel en dette perpétuelle de la dette détenue par l'Eurosystème n'aurait pas d'effet
+      sur le coût auquel la France emprunte.
+    type: estimation
+    declaration: false
+    extrait_annonce: aucun impact économique et aucun impact financier
+  - affirmation: F54
+    enonce: Dégager des marges budgétaires sans économies sur les dépenses est préférable à un nouveau cycle d'austérité.
+    type: valeur
+    declaration: false
+    extrait_annonce: aucun impact économique et aucun impact financier
+- source:
+    id: S20
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.sudradio.fr/societe/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: réactions politiques dont celle attribuée à Gabriel Attal (Renaissance)
+      erreur: '404'
+  a_controler: []
+- source:
+    id: S21
+    titre: 'Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson'
+    auteur: Public Sénat
+    date: '2020-12-28'
+    adresse: https://www.publicsenat.fr/actualites/societe/annulation-de-la-dette-ce-serait-dangereux-selon-jean-francois-husson-186411
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F28
+    enonce: 'Un État doit honorer ses dettes : en s''engageant, il engage son peuple, c''est-à-dire ses contribuables,
+      et la parole donnée doit garder sa valeur.'
+    type: valeur
+    declaration: false
+    extrait_annonce: Si les États veulent retrouver la confiance de leur peuple, il faut qu’ils honorent leurs dettes
+      car, en s’engageant, l’État engage son peuple, qui n’est autre que ses contributeurs.

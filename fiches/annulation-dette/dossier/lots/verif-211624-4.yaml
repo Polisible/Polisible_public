@@ -1,0 +1,140 @@
+sources_a_verifier:
+- source:
+    id: S36
+    titre: Lutte ouvrière, hebdomadaire n° 3031
+    auteur: Lutte ouvrière
+    date: '2026-09-04'
+    adresse: https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S37
+    titre: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la payer ! »'
+    auteur: NPA (Nouveau Parti anticapitaliste)
+    date: '2011-12-01'
+    adresse: https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F43
+    enonce: Une dette construite par des cadeaux fiscaux aux plus riches et aux grandes entreprises est illégitime
+      et n'a pas à être payée.
+    type: valeur
+    declaration: false
+    extrait_annonce: n’a pas à être payée
+- source:
+    id: S38
+    titre: Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation
+    auteur: Tendance CLAIRE (courant du NPA)
+    date: '2021-01-01'
+    adresse: https://tendanceclaire.org/utils/pdf.php?id=1675
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S39
+    titre: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque
+      centrale européenne et de sa transformation en dette perpétuelle
+    auteur: Jean-Luc Mélenchon et les députés LFI signataires (Assemblée nationale, XVe législature)
+    date: '2020-05-11'
+    adresse: https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F50
+    enonce: Le gel en dette perpétuelle de titres détenus par la banque centrale a pour objectif de soulager les
+      États de la charge de la dette.
+    type: fait
+    declaration: false
+    extrait_annonce: Considérant la nécessité de soulager les États de la charge de la dette afin de faciliter leur
+      retour dans le financement des infrastructures collectives
+  - affirmation: F56
+    enonce: Les règles européennes sur le financement des États et le statut de la banque centrale doivent être
+      remises en cause.
+    type: valeur
+    declaration: false
+    extrait_annonce: les traités qui la régissent et les statuts et le mandat de la Banque centrale européenne,
+      qui lui assurent une indépendance problématique
+- source:
+    id: S40
+    titre: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon)
+    auteur: Jean-Luc Mélenchon (site melenchon.fr)
+    date: '2022-06-06'
+    adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F53
+    enonce: Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable.
+    type: valeur
+    declaration: false
+    extrait_annonce: Notre banquier central peut acter du fait que la dette détenue dans ses caisses ne sera jamais
+      payée
+  - affirmation: F54
+    enonce: Dégager des marges budgétaires sans économies sur les dépenses est préférable à un nouveau cycle d'austérité.
+    type: valeur
+    declaration: false
+    extrait_annonce: Nous ne pouvons pas nous payer un nouveau cycle
+  - affirmation: F56
+    enonce: Les règles européennes sur le financement des États et le statut de la banque centrale doivent être
+      remises en cause.
+    type: valeur
+    declaration: false
+    extrait_annonce: enfermés dans un carcan, celui des traités européens
+- source:
+    id: S41
+    titre: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou l''annuler
+      ? » (initiative du groupe GDR, intervention de Fabien Roussel)'
+    auteur: Assemblée nationale
+    date: '2021-03-22'
+    adresse: https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2020-2021/deuxieme-seance-du-lundi-22-mars-2021.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F49
+    enonce: L'annulation de la part de la dette détenue par la banque centrale dégagerait immédiatement des marges
+      financières importantes pour l'État.
+    type: estimation
+    declaration: false
+    extrait_annonce: de dégager immédiatement des marges financières
+  - affirmation: F51
+    enonce: La dette publique détenue par la banque centrale est une dette envers une institution publique, dont
+      les propriétaires sont les États de l'Union, et non envers des créanciers privés.
+    type: valeur
+    declaration: false
+    extrait_annonce: c’est nous, ce sont les pays de l’Union européenne
+  - affirmation: F52
+    enonce: Une annulation doit se limiter à la dette détenue par la banque centrale, sans spolier les créanciers
+      privés, dont des épargnants.
+    type: valeur
+    declaration: false
+    extrait_annonce: spolier des créanciers privés
+  - affirmation: F55
+    enonce: Le capital doit être mis à contribution pour financer les besoins de l'État, en complément de l'annulation
+      partielle de la dette détenue par la banque centrale.
+    type: valeur
+    declaration: false
+    extrait_annonce: il faut faire participer le capital
+- source:
+    id: S42
+    titre: Looking back at PEPP implementation since the end of reinvestments
+    auteur: Banque centrale européenne (blog, I. Rahmouni-Rousseau et I. Schnabel)
+    date: '2025-04-29'
+    adresse: https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250429~ce32da0a4c.fr.html
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F48
+    enonce: Les réinvestissements des titres arrivant à échéance au titre du programme d'achats d'urgence pandémique
+      (PEPP) de l'Eurosystème ont pris fin à la fin de 2024.
+    type: fait
+    declaration: false
+    extrait_annonce: reinvestments under the pandemic emergency purchase programme (PEPP) came to an end

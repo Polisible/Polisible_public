@@ -6,7 +6,7 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: conforme
+  statut: a-verifier
   note_verif: 'Version consolidée 2016 du TFUE avec ses protocoles, en français sur EUR-Lex. F1 : extrait présent
     à l''article 123, paragraphe 1, même sens. F2 : extrait présent dans la même phrase de l''article 123, paragraphe
     1, même sens. F3 : extrait présent à l''article 130 TFUE (repris à l''article 7 des statuts), qui vise notamment
@@ -202,3 +202,274 @@
     où l'article L. 142-2 prévoit que le Conseil général arrête « le projet d'affectation du bénéfice et de fixation
     du dividende revenant à l'État » ; mais cette compilation est à jour d'août 2008 (loi n° 2008-776), ce n'est
     donc pas la version en vigueur demandée. Aucune affirmation rattachée, rien n'est ajouté.
+- id: S16
+  titre: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le ministre de l''Economie'
+  auteur: MoneyVox avec AFP
+  date: '2026-08-24'
+  adresse: https://www.moneyvox.fr/actu/110103/dette-la-crise-financiere-assuree-en-cas-annulation-partielle-selon-le-ministre-de-economie
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S17
+  titre: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûterait)'
+  auteur: Selectra
+  date: '2026-08-28'
+  adresse: https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S18
+  titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+  auteur: Euronews (Olivier Tolachides)
+  date: '2026-09-11'
+  adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S19
+  titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de
+    nombreuses difficultés'
+  auteur: Public Sénat
+  date: '2026-08-25'
+  adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S20
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.sudradio.fr/societe/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+  niveau: null
+  ajoutee_par: expert-centre
+  statut: demandee
+  demande:
+    pourquoi: réactions politiques dont celle attribuée à Gabriel Attal (Renaissance)
+    erreur: '404'
+  note_verif: null
+- id: S21
+  titre: 'Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson'
+  auteur: Public Sénat
+  date: '2020-12-28'
+  adresse: https://www.publicsenat.fr/actualites/societe/annulation-de-la-dette-ce-serait-dangereux-selon-jean-francois-husson-186411
+  niveau: 4
+  ajoutee_par: expert-droite
+  statut: a-verifier
+  note_verif: null
+- id: S22
+  titre: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 milliards d’euros,
+    s’il est élu'
+  auteur: Public Sénat (Guillaume Jacquot)
+  date: '2026-10-12'
+  adresse: https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu
+  niveau: 4
+  ajoutee_par: expert-droite
+  statut: a-verifier
+  note_verif: null
+- id: S23
+  titre: La dette, un sujet politique
+  auteur: Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique « L'économie à contre-courant
+    », Politis
+  date: '2026-09-14'
+  adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S24
+  titre: La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de l'ISF pour les
+    Verts
+  auteur: FranceTransactions.com (avec AFP)
+  date: '2020-06-15'
+  adresse: https://www.francetransactions.com/actus/actualites-socio-economiques/les-verts-proposent-leur-plan-de-reconstructionecologique.html
+  niveau: 4
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S25
+  titre: 'Revue de Presse : présentation du plan de sortie de crise'
+  auteur: Les Écologistes (site officiel)
+  date: '2025-09-05'
+  adresse: https://lesecologistes.fr/posts/2aT2dm9CmbSGn92dKF4reV/revue-de-presse-presentation-du-plan-de-sortie-de-crise
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S26
+  titre: 'Notre projet économique : l''essentiel d''abord'
+  auteur: Les Écologistes, commission Économie, social et services publics
+  date: '2026-10-26'
+  adresse: https://commissions.lesecologistes.fr/posts/5aYbJADuyXSxpSZqMNf76o/notre-projet-economique-l-essentiel-d-abord
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S27
+  titre: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défend Marine Tondelier'
+  auteur: Public Sénat
+  date: '2024-06-20'
+  adresse: https://www.publicsenat.fr/actualites/politique/credibilite-economique-de-la-gauche-il-y-a-de-la-bonne-et-de-la-mauvaise-dette-defend-marine-tondelier
+  niveau: 4
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S28
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://cf.eelv.fr/files/2021/04/Projet-2022-Monnaie-Note-de-cadrage_v2.pdf
+  niveau: null
+  ajoutee_par: expert-ecologistes
+  statut: demandee
+  demande:
+    pourquoi: 'note de cadrage monnaie d''EELV (avril 2021) : annulation de dettes détenues par l''Eurosystème,
+      avec plafond lié aux investissements écologiques (connue par un résumé de recherche seulement, non ouverte)'
+    erreur: '404'
+  note_verif: null
+- id: S29
+  titre: 'Annuler la dette détenue par la BCE : mécanismes, ordres de grandeur'
+  auteur: dettedelafrance.fr (analyse assistée par IA, selon la page)
+  date: '2026-08-24'
+  adresse: https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-ce-que-dit-l-economie
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S30
+  titre: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques'
+  auteur: La Gazette France (dépêche)
+  date: '2026-08-24'
+  adresse: https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S31
+  titre: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par Marine Le Pen pour
+    « redresser » les finances publiques'
+  auteur: Public Sénat (Stéphane Duguet)
+  date: '2026-10-06'
+  adresse: https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S32
+  titre: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire adopter par référendum'
+  auteur: LCP - Assemblée nationale (Maxence Kagni)
+  date: '2026-10-02'
+  adresse: https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S33
+  titre: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise majeure
+  auteur: La Gazette France (dépêche)
+  date: '2026-09-05'
+  adresse: https://www.lagazettefrance.fr/article/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S34
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.blick.ch/fr/monde/france/bardella-evoque-un-rachat-de-dette-francaise-par-la-bce-id21397239.html
+  niveau: null
+  ajoutee_par: expert-extreme-droite
+  statut: demandee
+  demande:
+    pourquoi: interview de Jordan Bardella à The Economist sur un rachat de dette française par la BCE (pertinent
+      pour Q44), date à établir
+    erreur: '403'
+  note_verif: null
+- id: S35
+  titre: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud)
+  auteur: Lutte ouvrière
+  date: '2026-06-01'
+  adresse: https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S36
+  titre: Lutte ouvrière, hebdomadaire n° 3031
+  auteur: Lutte ouvrière
+  date: '2026-09-04'
+  adresse: https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S37
+  titre: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la payer ! »'
+  auteur: NPA (Nouveau Parti anticapitaliste)
+  date: '2011-12-01'
+  adresse: https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S38
+  titre: Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation
+  auteur: Tendance CLAIRE (courant du NPA)
+  date: '2021-01-01'
+  adresse: https://tendanceclaire.org/utils/pdf.php?id=1675
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S39
+  titre: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale
+    européenne et de sa transformation en dette perpétuelle
+  auteur: Jean-Luc Mélenchon et les députés LFI signataires (Assemblée nationale, XVe législature)
+  date: '2020-05-11'
+  adresse: https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S40
+  titre: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon)
+  auteur: Jean-Luc Mélenchon (site melenchon.fr)
+  date: '2022-06-06'
+  adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S41
+  titre: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou l''annuler
+    ? » (initiative du groupe GDR, intervention de Fabien Roussel)'
+  auteur: Assemblée nationale
+  date: '2021-03-22'
+  adresse: https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2020-2021/deuxieme-seance-du-lundi-22-mars-2021.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S42
+  titre: Looking back at PEPP implementation since the end of reinvestments
+  auteur: Banque centrale européenne (blog, I. Rahmouni-Rousseau et I. Schnabel)
+  date: '2025-04-29'
+  adresse: https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250429~ce32da0a4c.fr.html
+  niveau: 1
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S43
+  titre: « L’annulation des dettes publiques que la BCE détient constituerait un premier signal fort de la reconquête
+    par l’Europe de son destin » (tribune collective, Le Monde)
+  auteur: Collectif d'économistes, dont Aurore Lalucq (Parlement européen, Place publique)
+  date: '2021-02-05'
+  adresse: https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf
+  niveau: 3
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null

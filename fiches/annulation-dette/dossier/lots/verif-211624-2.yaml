@@ -1,0 +1,135 @@
+sources_a_verifier:
+- source:
+    id: S22
+    titre: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 milliards d’euros,
+      s’il est élu'
+    auteur: Public Sénat (Guillaume Jacquot)
+    date: '2026-10-12'
+    adresse: https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F29
+    enonce: Le plan de redressement budgétaire de Bruno Retailleau, présenté le 12 octobre 2026, prévoit un effort
+      de 197 milliards d'euros sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel de l'effort allant
+      à l'amélioration du solde.
+    type: fait
+    declaration: true
+    extrait_annonce: Sa trajectoire prévoit un effort « inédit » de 197 milliards d’euros sur cinq ans, dont 56
+      milliards d’euros d’allègement de la fiscalité qui bénéficiera à la fois aux entreprises (30 milliards d’euros)
+      et aux ménages (21 milliards), l’essentiel de l’effort allant à l’amélioration du solde.
+  - affirmation: F30
+    enonce: Ce plan fait reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et sur les
+      dépenses sociales.
+    type: fait
+    declaration: true
+    extrait_annonce: L’essentiel de l’effort repose sur l’État, dont il questionne le périmètre, et sur les dépenses
+      sociales.
+- source:
+    id: S23
+    titre: La dette, un sujet politique
+    auteur: Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique « L'économie à contre-courant
+      », Politis
+    date: '2026-09-14'
+    adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F31
+    enonce: L'Eurosystème (BCE et banques centrales nationales) détient environ 640 milliards d'euros de titres
+      publics français en 2026.
+    type: fait
+    declaration: false
+    extrait_annonce: dont environ 640 milliards de titres publics français
+  - affirmation: F32
+    enonce: Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à 800 milliards d'euros
+      par an (rapport Draghi, 2024).
+    type: fait
+    declaration: false
+    extrait_annonce: L’Europe, selon le rapport Draghi, a besoin de 800 milliards d’euros d’investissements supplémentaires
+      chaque année
+- source:
+    id: S24
+    titre: La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de l'ISF pour
+      les Verts
+    auteur: FranceTransactions.com (avec AFP)
+    date: '2020-06-15'
+    adresse: https://www.francetransactions.com/actus/actualites-socio-economiques/les-verts-proposent-leur-plan-de-reconstructionecologique.html
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F34
+    enonce: En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé par
+      une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
+      de l'ISF.
+    type: fait
+    declaration: true
+    extrait_annonce: Pour financer ce plan, les Verts souhaitent une annulation de la dette française auprès de
+      laBCE
+- source:
+    id: S25
+    titre: 'Revue de Presse : présentation du plan de sortie de crise'
+    auteur: Les Écologistes (site officiel)
+    date: '2025-09-05'
+    adresse: https://lesecologistes.fr/posts/2aT2dm9CmbSGn92dKF4reV/revue-de-presse-presentation-du-plan-de-sortie-de-crise
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F35
+    enonce: Le plan présenté par Les Écologistes en septembre 2025 comprenait 28,5 milliards d'euros de recettes
+      fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises.
+    type: fait
+    declaration: true
+    extrait_annonce: Ils proposent 28,5 milliards de recettes fiscales (notamment par le biais de la taxe Zucman
+      sur les très hauts patrimoines, la contribution exceptionnelle sur les grandes entreprises)
+  - affirmation: F36
+    enonce: Le plan présenté par Les Écologistes en septembre 2025 prévoyait de ramener le déficit public à 3,7
+      % du PIB en 2030, soit une réduction plus progressive que celle du gouvernement de l'époque.
+    type: fait
+    declaration: true
+    extrait_annonce: pour le ramener à 3,7 % en 2030
+- source:
+    id: S26
+    titre: 'Notre projet économique : l''essentiel d''abord'
+    auteur: Les Écologistes, commission Économie, social et services publics
+    date: '2026-10-26'
+    adresse: https://commissions.lesecologistes.fr/posts/5aYbJADuyXSxpSZqMNf76o/notre-projet-economique-l-essentiel-d-abord
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F33
+    enonce: Le programme adopté par Les Écologistes en juillet 2026 prévoit, au niveau européen, une révision des
+      traités garantissant le non-dépassement des limites planétaires et la construction d'un État social européen.
+    type: fait
+    declaration: true
+    extrait_annonce: une révision des traités garantissant le non-dépassement des limites planétaires ainsi que
+      la construction d’un État social européen (ch. 60, mesure 3, p. 190)
+- source:
+    id: S27
+    titre: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défend Marine
+      Tondelier'
+    auteur: Public Sénat
+    date: '2024-06-20'
+    adresse: https://www.publicsenat.fr/actualites/politique/credibilite-economique-de-la-gauche-il-y-a-de-la-bonne-et-de-la-mauvaise-dette-defend-marine-tondelier
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S28
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://cf.eelv.fr/files/2021/04/Projet-2022-Monnaie-Note-de-cadrage_v2.pdf
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: 'note de cadrage monnaie d''EELV (avril 2021) : annulation de dettes détenues par l''Eurosystème,
+        avec plafond lié aux investissements écologiques (connue par un résumé de recherche seulement, non ouverte)'
+      erreur: '404'
+  a_controler: []

@@ -1,0 +1,227 @@
+agent: expert-gauche-radicale
+phase: 2
+sources:
+  - ref: s1
+    titre: "Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale européenne et de sa transformation en dette perpétuelle"
+    auteur: "Jean-Luc Mélenchon et les députés LFI signataires (Assemblée nationale, XVe législature)"
+    date: "2020-05-11"
+    adresse: "https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf"
+    niveau: 3
+  - ref: s2
+    titre: "Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon)"
+    auteur: "Jean-Luc Mélenchon (site melenchon.fr)"
+    date: "2022-06-06"
+    adresse: "https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf"
+    niveau: 3
+  - ref: s3
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+  - ref: s4
+    titre: "Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou l'annuler ? » (initiative du groupe GDR, intervention de Fabien Roussel)"
+    auteur: "Assemblée nationale"
+    date: "2021-03-22"
+    adresse: "https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2020-2021/deuxieme-seance-du-lundi-22-mars-2021.pdf"
+    niveau: 3
+  - ref: s5
+    titre: "Looking back at PEPP implementation since the end of reinvestments"
+    auteur: "Banque centrale européenne (blog, I. Rahmouni-Rousseau et I. Schnabel)"
+    date: "2025-04-29"
+    adresse: "https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250429~ce32da0a4c.fr.html"
+    niveau: 1
+
+affirmations:
+  - ref: f1
+    enonce: "Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s3, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières"}
+  - ref: f2
+    enonce: "L'article 123 TFUE et l'article 21 du protocole n° 4 interdisent les crédits et l'acquisition directe de titres auprès des États ; ils ne mentionnent pas expressément l'annulation ou la conversion en dette perpétuelle de titres déjà inscrits au bilan d'une banque centrale."
+    type: fait
+    sources:
+      - {source: S1, extrait: "l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales, des instruments de leur dette est également interdite."}
+  - ref: f3
+    enonce: "La proposition vise la part de la dette française détenue par la Banque de France pour le compte de l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers."
+    type: fait
+    sources:
+      - {source: s3, extrait: "l’annulation des 18 % de dette française détenus par la Banque de France pour le compte de la Banque centrale européenne (BCE)"}
+  - ref: f4
+    enonce: "L'annulation ou le gel en dette perpétuelle de la dette détenue par l'Eurosystème n'aurait pas d'effet sur le coût auquel la France emprunte."
+    type: estimation
+    sources:
+      - {source: s3, extrait: "aucun impact économique et aucun impact financier"}
+  - ref: f5
+    enonce: "Les réinvestissements des titres arrivant à échéance au titre du programme d'achats d'urgence pandémique (PEPP) de l'Eurosystème ont pris fin à la fin de 2024."
+    type: fait
+    sources:
+      - {source: s5, extrait: "reinvestments under the pandemic emergency purchase programme (PEPP) came to an end"}
+  - ref: f6
+    enonce: "L'annulation de la part de la dette détenue par la banque centrale dégagerait immédiatement des marges financières importantes pour l'État."
+    type: estimation
+    sources:
+      - {source: s4, extrait: "de dégager immédiatement des marges financières"}
+  - ref: f7
+    enonce: "Le gel en dette perpétuelle de titres détenus par la banque centrale a pour objectif de soulager les États de la charge de la dette."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Considérant la nécessité de soulager les États de la charge de la dette afin de faciliter leur retour dans le financement des infrastructures collectives"}
+  - ref: f8
+    enonce: "La dette publique détenue par la banque centrale est une dette envers une institution publique, dont les propriétaires sont les États de l'Union, et non envers des créanciers privés."
+    type: valeur
+    sources:
+      - {source: s4, extrait: "c’est nous, ce sont les pays de l’Union européenne"}
+  - ref: f9
+    enonce: "Une annulation doit se limiter à la dette détenue par la banque centrale, sans spolier les créanciers privés, dont des épargnants."
+    type: valeur
+    sources:
+      - {source: s4, extrait: "spolier des créanciers privés"}
+  - ref: f10
+    enonce: "Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable."
+    type: valeur
+    sources:
+      - {source: s2, extrait: "Notre banquier central peut acter du fait que la dette détenue dans ses caisses ne sera jamais payée"}
+  - ref: f11
+    enonce: "Dégager des marges budgétaires sans économies sur les dépenses est préférable à un nouveau cycle d'austérité."
+    type: valeur
+    sources:
+      - {source: s2, extrait: "Nous ne pouvons pas nous payer un nouveau cycle"}
+      - {source: s3, extrait: "aucun impact économique et aucun impact financier"}
+  - ref: f12
+    enonce: "Le capital doit être mis à contribution pour financer les besoins de l'État, en complément de l'annulation partielle de la dette détenue par la banque centrale."
+    type: valeur
+    sources:
+      - {source: s4, extrait: "il faut faire participer le capital"}
+  - ref: f13
+    enonce: "Les règles européennes sur le financement des États et le statut de la banque centrale doivent être remises en cause."
+    type: valeur
+    sources:
+      - {source: s1, extrait: "les traités qui la régissent et les statuts et le mandat de la Banque centrale européenne, qui lui assurent une indépendance problématique"}
+      - {source: s2, extrait: "enfermés dans un carcan, celui des traités européens"}
+
+arguments:
+  # Q41
+  - ref: a1
+    question: Q41
+    position: pour
+    enonce: "Le gel en dette perpétuelle à taux nul de titres que l'Eurosystème détient déjà peut se faire dans le cadre des traités actuels : l'article 123 interdit crédits et achats directs aux États, pas le sort ultérieur de titres achetés sur le marché."
+    raisonnement: "Les titres ont été achetés sur le marché secondaire (f1), pratique que la Cour de justice a jugée compatible avec l'article 123 sous garanties (F8, F9, F10). Le texte interdit le crédit et l'acquisition directe (F1, F2) mais ne vise pas expressément la conversion de titres déjà au bilan (f2). La décision serait prise par le conseil des gouverneurs de la BCE (F5), donc sans instruction d'un gouvernement (F3) : la mesure relève de la politique du bilan de la banque centrale, pas d'un crédit à l'État."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)", parti: "LFI", source: s1}
+      - {qui: "Jean-Luc Mélenchon, livret Dette (6 juin 2022)", parti: "LFI", source: s2}
+    affirmations: [f1, f2, F1, F2, F3, F5, F8, F9, F10]
+  - ref: a2
+    question: Q41
+    position: contre
+    enonce: "Les traités actuels s'opposent à ce que la BCE efface la dette des États ; l'annulation exige une démarche auprès des institutions et des autres pays européens, et un changement des traités."
+    raisonnement: "Les traités interdisent à la BCE de financer directement les États (F1, F2) ; c'est pourquoi elle a racheté la dette auprès des banques et des assurances (f1), ce qui maintient la dépendance aux marchés. L'annulation partielle se heurte donc aux traités : les élus communistes demandent de les changer et de saisir la Commission européenne et les autres États, plutôt que d'agir seul."
+    porte_par:
+      - {qui: "Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021", parti: "PCF", source: s4}
+    affirmations: [F1, F2, f1]
+  # Q42
+  - ref: a3
+    question: Q42
+    position: contre
+    enonce: "L'opération ne ferait pas monter les taux : elle ne touche que des titres détenus par la banque centrale, tandis que les créanciers privés continuent d'être remboursés intégralement."
+    raisonnement: "Le taux demandé à la France rémunère le risque de non-remboursement pour les investisseurs de marché. La proposition ne vise que la part de l'Eurosystème (f3, F16, F17) et exclut explicitement un défaut de paiement envers les autres créanciers, jugé par ses auteurs désastreux. Ce risque n'étant pas modifié, le coût d'emprunt ne bouge pas (f4)."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026", parti: "LFI", source: s3}
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (défaut de paiement écarté)", parti: "LFI", source: s1}
+    affirmations: [f3, f4, F16, F17]
+  # Q43
+  - ref: a4
+    question: Q43
+    position: nuance
+    enonce: "L'intérêt de l'opération tient d'abord à l'allègement du stock de dette et du besoin de refinancement sur les marchés, plus qu'à une économie annuelle d'intérêts : la Banque de France reverse une partie de ses bénéfices à l'État."
+    raisonnement: "Les intérêts versés à la Banque de France reviennent en partie à l'État par ses bénéfices (F18, F19, F20), flux variable (F21) : l'économie nette d'intérêts est donc moindre que l'économie brute. Mais l'Eurosystème ne réinvestit plus les titres arrivés à échéance (f5) ; sans conversion, l'État devrait remplacer ces titres par de la dette de marché au taux du moment, alors que la charge de la dette est déjà de 65,7 milliards en 2025 (F22). Le gel en dette perpétuelle vise à soulager les États de cette charge (f7)."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)", parti: "LFI", source: s1}
+      - {qui: "Jean-Luc Mélenchon, déclarations d'août 2026 (opération sans coût pour personne)", parti: "LFI", source: s3}
+    affirmations: [f5, f7, F18, F19, F20, F21, F22]
+  - ref: a5
+    question: Q43
+    position: pour
+    enonce: "L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières importantes, car elle supprime des intérêts qui pèsent sur le budget."
+    raisonnement: "La charge d'intérêts de la dette publique est élevée (F22) et la part détenue par la banque centrale est ancienne et sans remboursement attendu. L'annuler ou la geler en dette perpétuelle supprime le service et le principal de ces titres, d'où des marges financières immédiates (f6)."
+    porte_par:
+      - {qui: "Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021", parti: "PCF", source: s4}
+    affirmations: [f6, F22]
+  # Q44
+  - ref: a6
+    question: Q44
+    position: contre
+    enonce: "Une décision de gel prise par le conseil des gouverneurs lui-même n'atteindrait ni l'indépendance de la BCE ni la crédibilité de l'euro : l'indépendance interdit les instructions des gouvernements, pas une décision de la banque sur son propre bilan."
+    raisonnement: "Le traité définit l'indépendance comme l'interdiction de solliciter ou accepter des instructions des gouvernements (F3), et réserve la décision au conseil des gouverneurs (F5). Si ce conseil décide, aucune instruction n'est donnée. Quant à la crédibilité, les titres détenus ne seront de toute façon pas remboursés (f10) : constater cette réalité ne change pas le bilan réel de la banque centrale."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon, livret Dette (6 juin 2022)", parti: "LFI", source: s2}
+      - {qui: "Jean-Luc Mélenchon, août 2026 (opération « jeu d'écriture dans le bilan »)", parti: "LFI", source: s3}
+    affirmations: [F3, F5, f10]
+  # Q45
+  - ref: a7
+    question: Q45
+    position: contre
+    enonce: "Un État n'a pas à rembourser intégralement la part de dette détenue par sa propre banque centrale, mais il doit honorer ses créanciers privés."
+    raisonnement: "La banque centrale appartient aux États de l'Union : la dette envers elle est une dette envers soi-même (f8). La différence avec les créanciers privés, dont des épargnants, justifie une annulation limitée à la seule part de la banque centrale (f9)."
+    porte_par:
+      - {qui: "Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021", parti: "PCF", source: s4}
+    affirmations: [f8, f9]
+  - ref: a8
+    question: Q45
+    position: contre
+    enonce: "Une dette publique inscrite au bilan de la banque centrale, qui ne sera jamais remboursée en pratique, peut être constatée comme telle."
+    raisonnement: "Les achats massifs de titres ont été faits par la banque centrale elle-même ; les rembourser intégralement n'a pas de finalité économique, alors qu'ils pèsent sur la capacité d'investir de l'État. Acter qu'ils ne seront pas payés ne lèse aucun créancier privé (f3, f10)."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon, livret Dette (6 juin 2022)", parti: "LFI", source: s2}
+    affirmations: [f10, f3]
+  # Q46
+  - ref: a9
+    question: Q46
+    position: nuance
+    enonce: "Les règles européennes qui encadrent le financement des États et le statut de la BCE doivent être remises en cause, la France exigeant leur changement, plutôt que d'enfermer la politique de la dette dans les traités."
+    raisonnement: "Les traités obligent les États à emprunter auprès des marchés plutôt qu'auprès de leur banque centrale (F1, F2) ; leurs auteurs les jugent un carcan qui prive les peuples de la maîtrise de leur endettement (f13). La résolution de 2020 invite le gouvernement à exiger de l'Union européenne un changement, ce qui place la décision sous contrôle politique démocratique plutôt que sous règles fixées par des institutions indépendantes."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)", parti: "LFI", source: s1}
+      - {qui: "Jean-Luc Mélenchon, livret Dette (6 juin 2022)", parti: "LFI", source: s2}
+    affirmations: [f13, F1, F2]
+  - ref: a10
+    question: Q46
+    position: nuance
+    enonce: "L'annulation de la part détenue par la banque centrale doit se négocier au niveau européen : démarche auprès de la Commission et des autres États, et changement des traités."
+    raisonnement: "La banque centrale appartient à l'ensemble des pays de l'Union (f8) et les traités interdisent le financement direct des États (F1, F2). La solution passe donc par une démarche collective et par une révision des règles (f13), non par une décision unilatérale française."
+    porte_par:
+      - {qui: "Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021", parti: "PCF", source: s4}
+    affirmations: [f8, f13, F1, F2]
+  # Q47
+  - ref: a11
+    question: Q47
+    position: pour
+    enonce: "L'annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies : elle dégage des marges sans réduire les dépenses utiles ni faire peser d'effort sur la population."
+    raisonnement: "Un nouveau cycle d'austérité réduit la demande, la consommation et l'investissement public (f11). Une opération qui, selon ses défenseurs, ne coûte à personne et n'a pas d'impact économique (f4) permet de financer services publics et investissements sans économies."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon, livret Dette (6 juin 2022) et déclarations d'août 2026", parti: "LFI", source: s2}
+    affirmations: [f11, f4]
+  - ref: a12
+    question: Q47
+    position: nuance
+    enonce: "L'annulation partielle est une voie parmi d'autres : elle doit s'accompagner d'une mise à contribution du capital et de la lutte contre l'évasion fiscale, qui dégagent aussi des recettes."
+    raisonnement: "L'annulation de la part de la banque centrale dégage des marges (f6) mais ne suffit pas : l'État a aussi besoin de recettes, que la fiscalité du capital et la lutte contre l'évasion fiscale peuvent apporter (f12). Les deux leviers sont complémentaires, et l'austérité est écartée."
+    porte_par:
+      - {qui: "Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021", parti: "PCF", source: s4}
+    affirmations: [f6, f12]
+
+valeurs:
+  - {question: Q44, enonce: "LFI juge que l'indépendance de la BCE, telle que fixée par les traités et statuts, est problématique et contraire à l'intérêt général ; elle met en priorité le contrôle démocratique de la politique monétaire."}
+  - {question: Q45, enonce: "Le PCF distingue la dette envers la banque centrale, institution publique des États, de celle due à des créanciers privés dont des épargnants : il met en priorité la protection de ces derniers et la fin de la dépendance aux marchés financiers."}
+  - {question: Q46, enonce: "LFI et le PCF mettent en priorité la maîtrise démocratique de l'endettement ; ils divergent sur la méthode (LFI : exiger le changement des règles ; PCF : démarche collective européenne et changement des traités)."}
+
+incertitudes:
+  - "Les positions du PCF reposent sur l'intervention de Fabien Roussel du 22 mars 2021 (débat GDR) : je n'ai pas trouvé de texte du PCF daté de 2026 sur la proposition d'août 2026 (une page de presse secondaire seulement, non retenue). Position à confirmer pour 2026."
+  - "Les chiffres de la part détenue varient selon les textes : 18 % (résolution de 2020, Public Sénat 2026), 20 % ou 570 milliards (Roussel 2021), 24,4 % de la dette négociable de l'État (Sénat, T1 2025, bibliothèque). Périmètres à distinguer."
+  - "Q41 : le texte de 2020 (s1) et le livret de 2022 (s2) disent que l'opération ne nécessite pas de changer les traités ; le livret décrit aussi les achats de la BCE comme faits « en contournant largement les traités ». Je n'ai trouvé aucun avis juridique de niveau 1 ou 2 sur le gel en dette perpétuelle lui-même ; f2 est un constat sur le texte, à vérifier."
+  - "Q42 : je n'ai pas trouvé d'estimation indépendante de niveau 1 ou 2 soutenant l'absence d'effet sur les taux ; f4 repose sur la déclaration de Jean-Luc Mélenchon (Public Sénat, août 2026). L'article cite aussi des économistes d'avis contraire."
+  - "Q43 : aucun chiffrage de l'économie d'intérêts publié par LFI ou le PCF trouvé ; l'argument a4 de LFI est reconstruit à partir de la résolution de 2020 et des déclarations de 2026, qui parlent d'« aucun impact financier » ; a4 et a5 ne sont pas cohérents entre eux, ce sont des positions de deux partis."
+  - "Le livret Dette (s2) est signé de Jean-Luc Mélenchon et daté du 6 juin 2022 ; la date de publication de la mise en ligne est lue dans l'adresse (2022/06) ; le texte PDF est en deux colonnes, les extraits ont été vérifiés fragment par fragment."
+  - "Je n'ai pas pu ouvrir les pages de la Banque de France (communiqués de septembre 2026, erreur 403) : elles ne sont pas citées."
+  - "Aucun site officiel de LFI ni du PCF n'a pu être consulté directement (recherche non concluante) ; la position LFI d'août 2026 est rapportée par la presse (Public Sénat)."

@@ -138,3 +138,47 @@
   agent: coordinateur
   phase: '2'
   action: debut de la phase 2
+- date: '2026-11-10T21:16:21'
+  agent: expert-centre
+  phase: '2'
+  action: 'a ajouté S16, S17, S18, S19, F24, F25, F26, F27, A1, A2, A3, A4, A5, A6, sans position sur Q43, S20 (demandée),
+    V1, V2, V3 ; incertitudes signalées : 7'
+- date: '2026-11-10T21:16:22'
+  agent: expert-droite
+  phase: '2'
+  action: 'a ajouté S21, S22, F28, F29, F30, A7, A8, sans position sur Q41, sans position sur Q42, sans position
+    sur Q43, sans position sur Q44, sans position sur Q46, V4, V5 ; incertitudes signalées : 4'
+- date: '2026-11-10T21:16:22'
+  agent: expert-ecologistes
+  phase: '2'
+  action: 'a ajouté S23, S24, S25, S26, S27, F31, F32, F33, F34, F35, F36, A9, A10, A11, A12, sans position sur
+    Q42, sans position sur Q43, sans position sur Q44, S28 (demandée), V6, V7, V8 ; incertitudes signalées : 8'
+- date: '2026-11-10T21:16:22'
+  agent: expert-extreme-droite
+  phase: '2'
+  action: 'a ajouté S29, S30, S31, S32, S33, F37, F38, F39, F40, F41, A13, A14, A15, sans position sur Q41, sans
+    position sur Q42, sans position sur Q44, sans position sur Q45, S34 (demandée), V9 ; incertitudes signalées
+    : 5'
+- date: '2026-11-10T21:16:22'
+  agent: expert-extreme-gauche
+  phase: '2'
+  action: 'a ajouté S35, S36, S37, S38, F42, F43, A16, A17, A18, A19, sans position sur Q41, sans position sur Q42,
+    sans position sur Q44, sans position sur Q46, V10, V11 ; incertitudes signalées : 6'
+- date: '2026-11-10T21:16:22'
+  agent: expert-gauche-radicale
+  phase: '2'
+  action: 'a ajouté S39, S40, S41, S42, F44, F45, F46, F47, F48, F49, F50, F51, F52, F53, F54, F55, F56, A20, A21,
+    A22, A23, A24, A25, A26, A27, A28, A29, A30, A31, V12, V13, V14 ; incertitudes signalées : 8'
+- date: '2026-11-10T21:16:23'
+  agent: expert-sociaux-democrates
+  phase: '2'
+  action: 'a ajouté S43, F57, F58, F59, F60, A32, A33, A34, A35, A36, sans position sur Q42, sans position sur Q43,
+    V15, V16 ; incertitudes signalées : 6'
+- date: '2026-11-10T21:16:23'
+  agent: coordinateur
+  phase: '2'
+  action: fin de la phase 2
+- date: '2026-11-10T21:16:23'
+  agent: coordinateur
+  phase: '3'
+  action: debut de la phase 3

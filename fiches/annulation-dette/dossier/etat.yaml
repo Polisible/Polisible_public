@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '2'
+phase: '3'
 passage: 1
 phases:
   '1':
@@ -21,6 +21,10 @@ phases:
     fin: '2026-11-10T21:09:29'
   '2':
     debut: '2026-11-10T21:09:29'
+    passages: 1
+    fin: '2026-11-10T21:16:23'
+  3-bis:
+    debut: '2026-11-10T21:16:23'
     passages: 1
 agents:
 - phase: '1'
@@ -103,6 +107,16 @@ agents:
   jetons: 71291
   outils: 22
   duree_ms: 170733
+- phase: '2'
+  agent: expert-ecologistes
+  jetons: 111515
+  outils: 42
+  duree_ms: 290009
+- phase: '2'
+  agent: expert-gauche-radicale
+  jetons: 109270
+  outils: 29
+  duree_ms: 363551
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -206,3 +220,150 @@ incertitudes:
 - agent: bibliothecaire
   texte: 'Q42 et Q45 à Q47 : la bibliothèque ne contient pas de texte de base sur les taux d''intérêt ni sur les
     règles nationales ou européennes au-delà du traité ; les estimations relèvent des experts.'
+- agent: expert-centre
+  texte: Les appartenances partisanes de Roland Lescure (Renaissance) et de Gabriel Attal (Renaissance) sont de
+    connaissance générale ; je ne les ai pas établies par une source ouverte. Celle d'Édouard Philippe (Horizons)
+    vient d'un site secondaire (ÉlyséeScope), non cité.
+- agent: expert-centre
+  texte: Les déclarations de Lescure et de Philippe sont rapportées par la presse (AFP, Selectra, niveau 4), pas
+    par un texte de leur parti ; leur formulation exacte est à vérifier.
+- agent: expert-centre
+  texte: Je n'ai retrouvé aucune position du MoDem ni de l'UDI sur le sujet (recherche web limitée) ; François Bayrou
+    a annoncé ne pas être candidat en 2027.
+- agent: expert-centre
+  texte: Sébastien Lecornu, Premier ministre, a déclaré que l'opération détruirait la confiance (Euronews, 11 septembre
+    2026, source s3 ouverte) ; je n'ai pas pu établir son rattachement partisan, donc je ne l'ai pas utilisé dans
+    porte_par.
+- agent: expert-centre
+  texte: 'Q43 : je n''ai trouvé aucun Centre publiquement positionné sur le solde net des intérêts ; l''effet net
+    dépend de la différence entre gel et annulation, et de la recapitalisation éventuelle de la Banque de France.
+    Le raisonnement de a6 sur ce point est celui que l''on déduit des faits, non une position attribuée.'
+- agent: expert-centre
+  texte: L'affirmation f4 (contraire aux traités) est une interprétation juridique ; la Cour de justice ne s'est
+    pas prononcée sur cette opération précise.
+- agent: expert-centre
+  texte: Le montant détenu par la Banque de France varie selon les sources (environ 500 à 635 milliards d'euros)
+    ; je n'ai pas retenu de chiffre.
+- agent: expert-droite
+  texte: 'Recherche sur LR limitée : recherche web et ouverture de 12 pages ; les sites officiels du parti, du groupe
+    LR du Sénat et de l''Assemblée n''ont pas été consultés directement. Les sans_position sont donc à confirmer
+    avec ces lieux.'
+- agent: expert-droite
+  texte: Une citation attribuée à Bruno Retailleau (« discours délirants » sur l'annulation, débat Medef du 27 août
+    2026) n'apparaît que sur un site de fiabilité douteuse (leparisienmatin.fr) ; ni LCP ni Public Sénat ne la rapportent.
+    Non citée.
+- agent: expert-droite
+  texte: Position de Jean-François Husson datée de décembre 2020 et portant sur l'annulation des dettes détenues
+    par la BCE en général, pas sur la proposition de 2026.
+- agent: expert-droite
+  texte: L'argument de Q47 est une lecture du choix des moyens du plan Retailleau ; le plan ne mentionne pas l'annulation.
+- agent: expert-ecologistes
+  texte: Aucune déclaration officielle des Écologistes ni de Marine Tondelier sur la proposition d'août 2026 n'a
+    été trouvée ; les arguments déposés reposent sur une chronique individuelle (Gleizes) et sur des positions de
+    2020 et 2025.
+- agent: expert-ecologistes
+  texte: Jérôme Gleizes est décrit comme conseiller EELV de Paris par Politis en janvier 2023 ; son statut en 2026
+    n'est pas vérifié. S'il n'est plus membre, a1, a2 et a3 perdent cette attribution (a3 garde s4).
+- agent: expert-ecologistes
+  texte: 'La chronique de Gleizes (a1) contient un raisonnement juridique en une phrase : le vérificateur peut juger
+    qu''elle ne couvre pas la conversion perpétuelle.'
+- agent: expert-ecologistes
+  texte: Le plan de juin 2020 est connu par une dépêche AFP reprise par un site financier (niveau 4), non par un
+    texte du parti ; sa date est celle de la publication. Il parle d'annulation, pas de dette perpétuelle.
+- agent: expert-ecologistes
+  texte: 'La revue de presse du site des Écologistes (s3) ne porte pas de date : septembre 2025 est déduit des dates
+    internes (4 et 5 septembre) et du contexte ; à confirmer.'
+- agent: expert-ecologistes
+  texte: Le chiffre de 640 milliards d'euros de titres publics français (f1) et celui de 800 milliards d'investissements
+    (f2) viennent d'une chronique ; le vérificateur doit les confronter aux sources officielles (BCE, rapport Draghi).
+- agent: expert-ecologistes
+  texte: Le programme complet de juillet 2026 n'a pas été ouvert ; seul un texte de présentation l'a été. Il pourrait
+    contenir une position sur la dette BCE non vue.
+- agent: expert-ecologistes
+  texte: Les trois positions sans_position (Q42, Q43, Q44) reposent sur une recherche web limitée ; Sénat et Parlement
+    européen n'ont pas été consultés.
+- agent: expert-extreme-droite
+  texte: 'L''argument de Bardella sur les dividendes ne m''est connu que par des relais de presse ; le message d''origine
+    sur X n''a pas été retrouvé. La source s2 se présente comme une analyse assistée par IA : à remplacer si possible
+    par la dépêche d''origine (s3 confirme l''échange et la formule « raconter n''importe quoi », pas l''argument
+    sur les dividendes).'
+- agent: expert-extreme-droite
+  texte: 'f5 est classée estimation : l''ampleur de la compensation entre intérêts économisés et versements perdus
+    n''est pas chiffrée par moi ; la bibliothèque (F21) montre que la Banque de France est devenue bénéficiaire
+    nette du partage du revenu monétaire en 2023-2024, ce qui peut nuancer l''argument.'
+- agent: expert-extreme-droite
+  texte: Les textes du RN (plan du 6 octobre 2026, proposition de loi constitutionnelle de 2024) sont cités par
+    la presse ; je n'ai pas ouvert les textes d'origine.
+- agent: expert-extreme-droite
+  texte: 'Q46 : l''argument est une reconstitution de deux positions publiques du RN (règle d''or, primauté du droit
+    national) ; le RN ne s''est pas exprimé sur la décision nationale en matière d''annulation. À signaler au vérificateur.'
+- agent: expert-extreme-droite
+  texte: 'Site de l''UDR inaccessible ; Reconquête et UDR : aucune position trouvée sur la dette détenue par l''Eurosystème,
+    recherche limitée à l''accueil du site et à la presse. Aucun programme 2027 de Reconquête ou de l''UDR trouvé.'
+- agent: expert-extreme-gauche
+  texte: 'Tendance CLAIRE : date du texte non trouvée (2021 estimée d''après le contexte Covid) ; je n''ai pas vérifié
+    son statut actuel au sein du NPA ni de quel NPA (L''Anticapitaliste ou Révolutionnaires) elle relève.'
+- agent: expert-extreme-gauche
+  texte: 'Tract NPA s3 : date non trouvée (2011-2012 estimée d''après les chiffres de 2010 et la mention de la campagne
+    de 2012). Texte ancien, pas une position 2026.'
+- agent: expert-extreme-gauche
+  texte: 'Ni LO ni le NPA n''ont, d''après mes recherches, réagi à la proposition de J.-L. Mélenchon sur la part
+    détenue par la Banque de France : les arguments déposés sont des positions générales sur la dette.'
+- agent: expert-extreme-gauche
+  texte: 'L''argument a1 suppose que les intérêts reviennent à l''État ; la bibliothèque (F21) montre que la Banque
+    de France a été bénéficiaire nette du partage du revenu monétaire en 2023-2024 : l''ampleur du retour à l''État
+    est à vérifier.'
+- agent: expert-extreme-gauche
+  texte: 'Le chiffre de 270 milliards d''euros (f1) est tiré d''un texte militant (niveau 3) : le vérificateur doit
+    le contrôler, je n''ai pas trouvé de source officielle.'
+- agent: expert-extreme-gauche
+  texte: Le tract NPA s3 ne parle pas de la banque centrale ; la position du NPA sur ce point précis vient du seul
+    texte de Tendance CLAIRE.
+- agent: expert-gauche-radicale
+  texte: 'Les positions du PCF reposent sur l''intervention de Fabien Roussel du 22 mars 2021 (débat GDR) : je n''ai
+    pas trouvé de texte du PCF daté de 2026 sur la proposition d''août 2026 (une page de presse secondaire seulement,
+    non retenue). Position à confirmer pour 2026.'
+- agent: expert-gauche-radicale
+  texte: 'Les chiffres de la part détenue varient selon les textes : 18 % (résolution de 2020, Public Sénat 2026),
+    20 % ou 570 milliards (Roussel 2021), 24,4 % de la dette négociable de l''État (Sénat, T1 2025, bibliothèque).
+    Périmètres à distinguer.'
+- agent: expert-gauche-radicale
+  texte: 'Q41 : le texte de 2020 (s1) et le livret de 2022 (s2) disent que l''opération ne nécessite pas de changer
+    les traités ; le livret décrit aussi les achats de la BCE comme faits « en contournant largement les traités
+    ». Je n''ai trouvé aucun avis juridique de niveau 1 ou 2 sur le gel en dette perpétuelle lui-même ; f2 est un
+    constat sur le texte, à vérifier.'
+- agent: expert-gauche-radicale
+  texte: 'Q42 : je n''ai pas trouvé d''estimation indépendante de niveau 1 ou 2 soutenant l''absence d''effet sur
+    les taux ; f4 repose sur la déclaration de Jean-Luc Mélenchon (Public Sénat, août 2026). L''article cite aussi
+    des économistes d''avis contraire.'
+- agent: expert-gauche-radicale
+  texte: 'Q43 : aucun chiffrage de l''économie d''intérêts publié par LFI ou le PCF trouvé ; l''argument a4 de LFI
+    est reconstruit à partir de la résolution de 2020 et des déclarations de 2026, qui parlent d''« aucun impact
+    financier » ; a4 et a5 ne sont pas cohérents entre eux, ce sont des positions de deux partis.'
+- agent: expert-gauche-radicale
+  texte: Le livret Dette (s2) est signé de Jean-Luc Mélenchon et daté du 6 juin 2022 ; la date de publication de
+    la mise en ligne est lue dans l'adresse (2022/06) ; le texte PDF est en deux colonnes, les extraits ont été
+    vérifiés fragment par fragment.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas pu ouvrir les pages de la Banque de France (communiqués de septembre 2026, erreur 403) :
+    elles ne sont pas citées.'
+- agent: expert-gauche-radicale
+  texte: Aucun site officiel de LFI ni du PCF n'a pu être consulté directement (recherche non concluante) ; la position
+    LFI d'août 2026 est rapportée par la presse (Public Sénat).
+- agent: expert-sociaux-democrates
+  texte: Aucune position du PS sur la proposition de 2026 (ni sur Q41 à Q47) n'a été trouvée ; seuls des textes
+    de Place publique de 2021 sont déposés.
+- agent: expert-sociaux-democrates
+  texte: La tribune est de 2021 (écrite avant la proposition de Mélenchon, et pour la zone euro entière) ; elle
+    n'est pas une réaction à 2026. Il faut vérifier si Place publique en tant que parti la reprend aujourd'hui.
+- agent: expert-sociaux-democrates
+  texte: 'Date de la tribune du Monde : 5 février 2021 d''après une recherche web, non lue dans les métadonnées
+    du PDF. Texte consulté sur un PDF de l''équipe EconomiX (copie), pas sur lemonde.fr (abonnés).'
+- agent: expert-sociaux-democrates
+  texte: 'Appartenance de A. Lalucq à Place publique : indiquée par la page LCP « La faute à l''Europe ? » (https://lcp.fr/programmes/la-faute-a-l-europe/si-la-bce-veut-bien-on-annule-tout-54200,
+    non datée) ; la tribune la signale seulement comme députée européenne (S&D).'
+- agent: expert-sociaux-democrates
+  texte: 'f2 et f1 sont contestés : la BCE (F11, F13) soutient l''inverse sur f1.'
+- agent: expert-sociaux-democrates
+  texte: Les pages PS consultées (LCP, projet de 144 pages ; budget) ne contenaient pas les mots dette, BCE ou Europe
+    ; le projet complet n'a pas été lu.
