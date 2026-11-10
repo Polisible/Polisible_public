@@ -1,525 +1,44 @@
 questions:
-- id: Q41
-  enonce: Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la dette
-    française détenue par la Banque de France pour l'Eurosystème ?
-  type: fait
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-droite
-  - expert-ecologistes
-  - expert-extreme-droite
-  - expert-extreme-gauche
-  - expert-gauche-radicale
-  - expert-sociaux-democrates
-  fusion_de:
-  - Q1
-  - Q7
-  - Q12
-  - Q18
-  - Q24
-  - Q30
-  - Q35
-  - Q40
-  statut: validee
-  sans_position:
-  - auteur: expert-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan budgétaire Retailleau du 12 octobre 2026 (Public Sénat) ; programme 2027 complet non publié d'après
-        la recherche
-      resultat: rien sur l'annulation ni sur les traités à ce sujet
-    - categorie: site
-      ou: 'site du parti : recherche web, pas de page ouverte'
-      resultat: aucun communiqué trouvé
-    - categorie: dirigeants
-      ou: presse, 27 août au 10 novembre 2026 (débat Medef, LCP et Public Sénat)
-      resultat: Retailleau parle de « faillite » et d'économies ; aucune déclaration vérifiée sur la légalité de
-        l'annulation
-    - categorie: parlement
-      ou: recherche web sur Sénat et Assemblée, 2026
-      resultat: aucun texte, amendement ou vote identifié
-  - auteur: expert-extreme-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: 'RN : plan et contre-budget du 6 octobre 2026 (presse) ; Reconquête et UDR : programmes 2027 non publiés
-        ou non trouvés'
-      resultat: rien sur le cadre juridique de l'annulation de dette détenue par l'Eurosystème
-    - categorie: site
-      ou: rassemblementnational.fr (accueil, communiqués), parti-reconquete.fr (accueil) ; site UDR inaccessible
-        (erreur 502)
-      resultat: aucun passage sur la dette, la Banque de France ou la BCE ; UDR non consulté
-    - categorie: dirigeants
-      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Tanguy, Zemmour, Ciotti'
-      resultat: Bardella juge la proposition fausse sur le plan économique (voir Q43) ; rien sur la compatibilité
-        avec les traités ; rien trouvé pour Zemmour et Ciotti sur ce sujet
-    - categorie: parlement
-      ou: recherche web sur propositions de loi, amendements, questions au gouvernement 2025-2026
-      resultat: rien trouvé de l'UDR ou du RN sur ce point
-  - auteur: expert-extreme-gauche
-    lieux_consultes:
-    - categorie: programme
-      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
-        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
-        : rien trouvé'
-      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
-        sur ce point.
-    - categorie: site
-      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
-        dette, 2011-2012) ; tendanceclaire.org
-      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
-    - categorie: dirigeants
-      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
-        de J.-L. Mélenchon'
-      resultat: Aucune réaction trouvée.
-    - categorie: parlement
-      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
-        sur la dette et la Banque de France'
-      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
-        européens.
-- id: Q42
-  enonce: Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
-  type: estimation
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-droite
-  - expert-ecologistes
-  - expert-extreme-droite
-  - expert-extreme-gauche
-  - expert-gauche-radicale
-  - expert-sociaux-democrates
-  fusion_de:
-  - Q2
-  - Q8
-  - Q14
-  - Q19
-  - Q26
-  - Q32
-  - Q36
-  statut: validee
-  sans_position:
-  - auteur: expert-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan Retailleau du 12 octobre 2026
-      resultat: aucune estimation d'effet de l'annulation sur les taux
-    - categorie: site
-      ou: 'site du parti : recherche web'
-      resultat: rien trouvé
-    - categorie: dirigeants
-      ou: presse, août-novembre 2026
-      resultat: aucune déclaration vérifiée de dirigeant LR sur l'effet de cette proposition sur les taux
-    - categorie: parlement
-      ou: recherche web Sénat et Assemblée, 2026
-      resultat: rien identifié
-  - auteur: expert-ecologistes
-    lieux_consultes:
-    - categorie: programme
-      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
-        complet non ouvert)'
-      resultat: aucune mention de la dette détenue par la BCE ni des taux d'emprunt
-    - categorie: site
-      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
-      resultat: plan sur déficit et recettes, rien sur un effet de l'annulation sur les taux
-    - categorie: dirigeants
-      ou: recherches presse août-novembre 2026 sur Tondelier et élus écologistes
-      resultat: 'aucune déclaration trouvée sur la proposition d''août 2026 ; seule prise de position écologiste
-        trouvée : chronique de Jérôme Gleizes (Politis, 14 septembre 2026), qui ne traite pas des taux'
-    - categorie: parlement
-      ou: recherche web sur assemblee-nationale.fr (amendements, comptes rendus)
-      resultat: aucun texte du groupe écologiste trouvé ; l'amendement 1047 au projet de loi de finances est de
-        La France insoumise ; Sénat et Parlement européen non consultés
-  - auteur: expert-extreme-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan RN du 6 octobre 2026 (presse)
-      resultat: cite la hausse des taux comme conséquence du budget du gouvernement, pas de l'annulation
-    - categorie: site
-      ou: rassemblementnational.fr, parti-reconquete.fr
-      resultat: rien sur ce point
-    - categorie: dirigeants
-      ou: presse août-novembre 2026
-      resultat: aucune déclaration RN, Reconquête ou UDR sur l'effet de l'annulation sur les taux
-    - categorie: parlement
-      ou: recherche web sur textes et questions 2025-2026
-      resultat: rien trouvé
-  - auteur: expert-extreme-gauche
-    lieux_consultes:
-    - categorie: programme
-      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
-        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
-        : rien trouvé'
-      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
-        sur ce point.
-    - categorie: site
-      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
-        dette, 2011-2012) ; tendanceclaire.org
-      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
-    - categorie: dirigeants
-      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
-        de J.-L. Mélenchon'
-      resultat: Aucune réaction trouvée.
-    - categorie: parlement
-      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
-        sur la dette et la Banque de France'
-      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
-        européens.
-  - auteur: expert-sociaux-democrates
-    lieux_consultes:
-    - categorie: programme
-      ou: 'PS : projet 2027 présenté en avril 2026 (compte rendu LCP, 144 pages, ouvert) ; Place publique : programme
-        non localisé'
-      resultat: aucune mention de la dette détenue par la BCE trouvée dans le compte rendu ; texte intégral non
-        consulté
-    - categorie: site
-      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
-      resultat: aucun communiqué trouvé sur la dette détenue par la BCE
-    - categorie: dirigeants
-      ou: presse août-novembre 2026 (Faure, Vallaud, Glucksmann ; Medef 27 août 2026, via Selectra)
-      resultat: Glucksmann ironise sur les leçons de deux anciens Premiers ministres, sans position sur les taux
-        ; rien de Faure sur la proposition
-    - categorie: parlement
-      ou: Assemblée nationale, comptes rendus et amendements ; Parlement européen
-      resultat: aucun texte socialiste sur ce point trouvé ; tribune de 2021 d'A. Lalucq muette sur l'effet sur
-        les taux
-- id: Q43
-  enonce: L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la
-    Banque de France reverse à l'État ?
-  type: estimation
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-droite
-  - expert-ecologistes
-  - expert-extreme-droite
-  - expert-extreme-gauche
-  - expert-gauche-radicale
-  - expert-sociaux-democrates
-  fusion_de:
-  - Q3
-  - Q9
-  - Q13
-  - Q20
-  - Q25
-  - Q31
-  - Q37
-  statut: validee
-  sans_position:
-  - auteur: expert-centre
-    lieux_consultes:
-    - categorie: programme
-      ou: programmes en cours 2027 de Renaissance, MoDem, Horizons, UDI (recherche web)
-      resultat: aucun texte trouvé qui traite des intérêts reversés par la Banque de France
-    - categorie: site
-      ou: sites des partis (recherche web, août-novembre 2026)
-      resultat: aucune publication trouvée sur ce point précis
-    - categorie: dirigeants
-      ou: presse août-septembre 2026 (Lescure, Attal, Philippe, Lecornu, Bayrou)
-      resultat: critiques générales (crise financière, perte de confiance, interdit bancaire) mais aucune déclaration
-        retrouvée sur le solde intérêts économisés / bénéfices reversés
-    - categorie: parlement
-      ou: recherche web sur propositions de loi, amendements, débat demandé par LFI le 9 septembre 2026 (LCP)
-      resultat: aucun texte du Centre trouvé sur ce point
-  - auteur: expert-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan Retailleau du 12 octobre 2026
-      resultat: rien sur les intérêts reversés par la Banque de France
-    - categorie: site
-      ou: 'site du parti : recherche web'
-      resultat: rien trouvé
-    - categorie: dirigeants
-      ou: presse, août-novembre 2026
-      resultat: rien de vérifié
-    - categorie: parlement
-      ou: recherche web Sénat et Assemblée, 2026
-      resultat: rien identifié ; rapport sénatorial S10 (2025) cité en bibliothèque, non posé comme position LR
-  - auteur: expert-ecologistes
-    lieux_consultes:
-    - categorie: programme
-      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
-        complet non ouvert)'
-      resultat: aucune mention de la charge d'intérêts de l'État ni des reversements de la Banque de France
-    - categorie: site
-      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
-      resultat: rien sur ce point précis
-    - categorie: dirigeants
-      ou: recherches presse août-novembre 2026
-      resultat: aucune déclaration trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) parle de « marge
-        de manœuvre » sans chiffrer la charge d'intérêts ni les reversements
-    - categorie: parlement
-      ou: recherche web sur assemblee-nationale.fr
-      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
-  - auteur: expert-sociaux-democrates
-    lieux_consultes:
-    - categorie: programme
-      ou: 'PS : projet 2027 (avril 2026) ; Place publique : programme non localisé'
-      resultat: rien trouvé sur les intérêts reversés par la Banque de France
-    - categorie: site
-      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
-      resultat: rien trouvé
-    - categorie: dirigeants
-      ou: presse août-novembre 2026
-      resultat: le groupe PS de l'Assemblée évoque le 16 septembre 2026 la nécessité de réduire la charge de la
-        dette, sans lien trouvé avec la proposition de la Banque de France
-    - categorie: parlement
-      ou: Assemblée nationale, Sénat, Parlement européen
-      resultat: rien trouvé ; la tribune de 2021 ne traite pas des reversements de la Banque de France
-- id: Q44
-  enonce: Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?
-  type: estimation
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-droite
-  - expert-ecologistes
-  - expert-gauche-radicale
-  - expert-sociaux-democrates
-  fusion_de:
-  - Q4
-  - Q10
-  - Q14
-  - Q32
-  - Q38
-  statut: validee
-  sans_position:
-  - auteur: expert-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan Retailleau du 12 octobre 2026
-      resultat: rien sur la BCE ni l'euro à ce propos
-    - categorie: site
-      ou: 'site du parti : recherche web'
-      resultat: rien trouvé
-    - categorie: dirigeants
-      ou: presse, août-novembre 2026
-      resultat: aucune déclaration vérifiée de dirigeant LR sur l'indépendance de la BCE à propos de cette proposition
-    - categorie: parlement
-      ou: recherche web Sénat et Assemblée, 2026
-      resultat: rien identifié
-  - auteur: expert-ecologistes
-    lieux_consultes:
-    - categorie: programme
-      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
-        complet non ouvert)'
-      resultat: révision des traités mentionnée (f3) ; rien sur la crédibilité de l'euro ni l'indépendance de la
-        BCE
-    - categorie: site
-      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
-      resultat: rien sur ce point
-    - categorie: dirigeants
-      ou: recherches presse août-novembre 2026
-      resultat: aucune déclaration de dirigeant trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) écarte
-        les « objections techniques » sans traiter l'indépendance de la BCE
-    - categorie: parlement
-      ou: recherche web sur assemblee-nationale.fr
-      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
-  - auteur: expert-extreme-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan RN du 6 octobre 2026 (presse), programmes Reconquête et UDR
-      resultat: rien sur la crédibilité de l'euro ou l'indépendance de la BCE dans cette proposition
-    - categorie: site
-      ou: rassemblementnational.fr, parti-reconquete.fr
-      resultat: rien sur ce point
-    - categorie: dirigeants
-      ou: presse août-novembre 2026 ; interview de Bardella à The Economist évoquant un rachat de dette par la BCE
-        (article Blick inaccessible, voir sources_demandees)
-      resultat: pas de position établie sur l'indépendance de la BCE face à l'annulation
-    - categorie: parlement
-      ou: recherche web 2025-2026
-      resultat: rien trouvé
-  - auteur: expert-extreme-gauche
-    lieux_consultes:
-    - categorie: programme
-      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
-        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
-        : rien trouvé'
-      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
-        sur ce point.
-    - categorie: site
-      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
-        dette, 2011-2012) ; tendanceclaire.org
-      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
-    - categorie: dirigeants
-      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
-        de J.-L. Mélenchon'
-      resultat: Aucune réaction trouvée.
-    - categorie: parlement
-      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
-        sur la dette et la Banque de France'
-      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
-        européens.
-- id: Q45
-  enonce: Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale
-    ?
-  type: valeur
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-droite
-  - expert-extreme-droite
-  - expert-gauche-radicale
-  fusion_de:
-  - Q5
-  - Q11
-  - Q21
-  - Q33
-  statut: validee
-  sans_position:
-  - auteur: expert-extreme-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan RN du 6 octobre 2026 (presse) ; programmes Reconquête et UDR
-      resultat: pas de position de principe sur le remboursement d'une dette détenue par la banque centrale
-    - categorie: site
-      ou: rassemblementnational.fr, parti-reconquete.fr
-      resultat: rien sur ce point
-    - categorie: dirigeants
-      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Zemmour, Ciotti'
-      resultat: Bardella conteste l'effet de l'opération (Q43) mais ne formule pas de principe ; rien d'autre trouvé
-    - categorie: parlement
-      ou: recherche web 2025-2026
-      resultat: rien trouvé
-- id: Q46
-  enonce: Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des
-    règles européennes ?
-  type: valeur
-  fiche: annulation-dette
-  proposee_par:
-  - expert-extreme-droite
-  - expert-gauche-radicale
-  fusion_de:
-  - Q22
-  - Q34
-  statut: validee
-  sans_position:
-  - auteur: expert-droite
-    lieux_consultes:
-    - categorie: programme
-      ou: plan Retailleau du 12 octobre 2026
-      resultat: engage à ramener le déficit sous le plafond de 3 % des traités en 2031 et à inscrire une règle d'or
-        par référendum ; ne traite pas de la compétence nationale ou européenne sur la dette
-    - categorie: site
-      ou: 'site du parti : recherche web'
-      resultat: rien trouvé
-    - categorie: dirigeants
-      ou: presse, août-novembre 2026
-      resultat: aucune déclaration vérifiée sur cette question
-    - categorie: parlement
-      ou: recherche web Sénat et Assemblée, 2026
-      resultat: rien identifié
-  - auteur: expert-extreme-gauche
-    lieux_consultes:
-    - categorie: programme
-      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
-        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
-        : rien trouvé'
-      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
-        sur ce point.
-    - categorie: site
-      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
-        dette, 2011-2012) ; tendanceclaire.org
-      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
-    - categorie: dirigeants
-      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
-        de J.-L. Mélenchon'
-      resultat: Aucune réaction trouvée.
-    - categorie: parlement
-      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
-        sur la dette et la Banque de France'
-      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
-        européens.
-- id: Q47
-  enonce: Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies,
-    à la hausse des recettes ou à la recherche de croissance ?
-  type: valeur
-  fiche: annulation-dette
-  proposee_par:
-  - expert-centre
-  - expert-ecologistes
-  - expert-extreme-gauche
-  - expert-sociaux-democrates
-  fusion_de:
-  - Q6
-  - Q39
-  - Q15
-  - Q28
-  statut: validee
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?
 tes_arguments:
 - id: A32
-  auteur: expert-sociaux-democrates
+  auteur: sociaux-democrates
   question: Q41
   position: pour
   enonce: 'Aucune disposition des traités ne mentionne l''annulation : l''article 123 interdit le crédit et l''achat
-    direct aux États, non l''abandon d''une créance déjà inscrite au bilan. La décision relève du conseil des gouverneurs
-    de la BCE, ce qui la rend juridiquement possible.'
+    direct aux États, non l''abandon d''une créance déjà inscrite au bilan. Les signataires de la tribune de 2021
+    en déduisent que la décision relèverait du conseil des gouverneurs de la BCE ; la compatibilité avec l''interdiction
+    du financement monétaire reste une interprétation disputée, que la CJUE n''a pas tranchée.'
   raisonnement: Le traité interdit deux actes précis (découvert ou crédit, achat direct de titres, F1 et F2) ; l'annulation
     d'une créance acquise sur le marché secondaire n'est pas l'un d'eux. Comme l'interdiction n'est pas explicite
     et que le conseil des gouverneurs arrête les décisions du SEBC (F5), l'effacement relève d'une décision de la
     BCE et non d'une impossibilité juridique. Cet argument est contesté par la BCE (F11, F13) ; il est la position
     de 2021 d'une élue de Place publique, antérieure à la proposition de 2026.
-  porte_par:
-  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
-    parti: Place publique
-    source: S43
+  porte_par: Aurore Lalucq, députée européenne (tribune collective, février 2021) (Place publique, S43)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F57
-    enonce: Les traités européens n'interdisent pas explicitement l'annulation de dettes publiques détenues par
-      la BCE (le mot « annulation » ne figure ni dans le traité ni dans le protocole sur le SEBC).
-    type: fait
-    verdict: Vrai
-    explication: 'Sur la lettre du texte, c''est exact : l''article 123 TFUE et le protocole n° 4 ne contiennent
-      pas le mot « annulation » (F45, S1). Cela ne dit pas si l''annulation serait compatible avec l''interdiction
-      du financement monétaire, question que la CJUE n''a pas tranchée (F27).'
-    sources:
-    - source: S43
-      extrait: l’annulation n’est pas explicitement interdite par les traités européens.
-      statut_source: conforme
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
+  - F57 [fait, Vrai] Les traités européens n'interdisent pas explicitement l'annulation de dettes publiques détenues
+    par la BCE (le mot « annulation » ne figure ni dans le traité ni dans le protocole sur le SEBC). (sources S43)
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
 - id: A33
-  auteur: expert-sociaux-democrates
+  auteur: sociaux-democrates
   question: Q44
   position: contre
   enonce: 'Une banque centrale qui efface des créances peut fonctionner avec des fonds propres négatifs : sa capacité
@@ -530,102 +49,44 @@ tes_arguments:
     propre conseil des gouverneurs sans instruction d'un gouvernement (F3, F5), ni sa capacité d'action ni son indépendance
     ne sont atteintes. Position de 2021, avant la proposition de 2026 ; elle porte sur un effacement décidé par
     la BCE, pas imposé par un État.
-  porte_par:
-  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
-    parti: Place publique
-    source: S43
+  porte_par: Aurore Lalucq, députée européenne (tribune collective, février 2021) (Place publique, S43)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F58
-    enonce: Une banque centrale peut fonctionner avec des fonds propres négatifs sans que sa capacité d'action en
-      soit affectée.
-    type: estimation
-    verdict: Débat entre experts
-    explication: 'Les signataires de la tribune de 2021 l''affirment sans démonstration. La BCE écrit, après ses
-      pertes de 2024, qu''elle peut remplir son mandat « regardless of any losses » (communiqué du 20 février 2025),
-      tout en soulignant que sa solidité repose sur 59 milliards de capital et de comptes de réévaluation : elle
-      ne dit pas que des fonds propres durablement négatifs seraient sans effet. Aucune estimation chiffrée d''institution
-      sur ce point n''est au dossier.'
-    sources:
-    - source: S43
-      extrait: une banque centrale peut fonctionner avec des fonds propres négatifs sans difficulté.
-      statut_source: conforme
-    - source: S48
-      extrait: In any case, the ECB can operate effectively and fulfil its primary mandate of maintaining price
-        stability regardless of any losses.
-      statut_source: conforme
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
+  - 'F58 [estimation, Débat entre experts] Une banque centrale peut fonctionner avec des fonds propres négatifs
+    sans que sa capacité d''action en soit affectée. — Les signataires de la tribune de 2021 l''affirment sans démonstration.
+    La BCE écrit, après ses pertes de 2024, qu''elle peut remplir son mandat « regardless of any losses » (communiqué
+    du 20 février 2025), tout en soulignant que sa solidité repose sur 59 milliards de capital et de comptes de
+    réévaluation : elle ne dit pas que des fonds propres durablement négatifs seraient sans effet. Aucune estimation
+    chiffrée d''institution sur ce point n''est au dossier. (sources S43, S48)'
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
 - id: A34
-  auteur: expert-sociaux-democrates
+  auteur: sociaux-democrates
   question: Q45
   position: contre
-  enonce: Quand près d'un quart de la dette négociable est détenu par l'Eurosystème, c'est-à-dire par des institutions
-    publiques de la zone euro, rembourser revient à devoir trouver ailleurs la somme (nouvel emprunt, impôts ou
-    baisse des dépenses). On ne doit donc pas rembourser intégralement ce créancier-là.
+  enonce: 'Quand la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente
+    24,4 % de la dette négociable de l''État au premier trimestre 2025, une part importante de la dette est due
+    à des institutions publiques. Rembourser revient alors à trouver ailleurs la somme (nouvel emprunt, impôts ou
+    baisse des dépenses) : on ne doit donc pas rembourser intégralement ce créancier-là.'
   raisonnement: 'La créance d''une banque centrale n''est pas celle d''un épargnant privé : l''État se la doit en
     partie à lui-même (F17). Rembourser obligerait à rouler la dette au lieu d''investir, à augmenter les impôts
     ou à baisser les dépenses ; l''effacement évite ces choix sans spolier de créancier privé. Argument de 2021
     ; l''obligation de rembourser des créanciers privés n''est pas remise en cause par ce texte.'
-  porte_par:
-  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
-    parti: Place publique
-    source: S43
+  porte_par: Aurore Lalucq, députée européenne (tribune collective, février 2021) (Place publique, S43)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F16
-    enonce: L'Eurosystème détient près d'un quart des OAT au titre de la politique monétaire (données du premier
-      trimestre 2025, rapport du Sénat) (Q41).
-    type: fait
-    verdict: Plutôt vrai
-    explication: 'Le rapport d''information de la commission des finances du Sénat (24 septembre 2025) écrit au
-      conditionnel que l''Eurosystème « détiendrait » près d''un quart des OAT, en commentant la détention au premier
-      trimestre 2025. Le chiffre sous-jacent (24,4 %) porte sur une catégorie « autres français » qui inclut la
-      Banque de France pour le compte de la BCE mais n''est pas limitée à elle : l''ordre de grandeur est sourcé,
-      la précision est moindre que ne le suggère l''énoncé.'
-    sources:
-    - source: S10
-      extrait: L'Eurosystème détiendrait près d'un quart des OAT à ce titre .
-      statut_source: conforme
-  - id: F17
-    enonce: Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
-      de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le tableau du rapport du Sénat (24 septembre 2025) attribue 24,4 % de la dette négociable de l'État,
-      au premier trimestre 2025 et en valeur de marché, à la catégorie « autres français (dont la Banque de France
-      pour le compte de la BCE) ». L'énoncé reprend fidèlement ce périmètre.
-    sources:
-    - source: S10
-      extrait: Autres français (dont la Banque de France pour le compte de la BCE) 24,4 %
-      statut_source: conforme
+  - 'F16 [fait, Plutôt vrai] L''Eurosystème détient près d''un quart des OAT au titre de la politique monétaire
+    (données du premier trimestre 2025, rapport du Sénat) (Q41). — Le rapport d''information de la commission des
+    finances du Sénat (24 septembre 2025) écrit au conditionnel que l''Eurosystème « détiendrait » près d''un quart
+    des OAT, en commentant la détention au premier trimestre 2025. Le chiffre sous-jacent (24,4 %) porte sur une
+    catégorie « autres français » qui inclut la Banque de France pour le compte de la BCE mais n''est pas limitée
+    à elle : l''ordre de grandeur est sourcé, la précision est moindre que ne le suggère l''énoncé. (sources S10)'
+  - F17 [fait, Vrai] Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour
+    le compte de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41). (sources S10)
 - id: A35
-  auteur: expert-sociaux-democrates
+  auteur: sociaux-democrates
   question: Q46
   position: contre
   enonce: 'Un État seul ne peut pas annuler : la décision appartient à la BCE, qui n''accepte pas d''instructions
@@ -635,51 +96,17 @@ tes_arguments:
     peuvent accepter d'instructions d'un gouvernement (F3). Une décision nationale unilatérale n'a donc pas d'effet
     juridique sur la créance ; le texte de 2021 propose pour cette raison un contrat entre les États européens et
     la BCE (F60), assorti d'une exigence de gouvernance européenne.
-  porte_par:
-  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
-    parti: Place publique
-    source: S43
+  porte_par: Aurore Lalucq, députée européenne (tribune collective, février 2021) (Place publique, S43)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F60
-    enonce: Le texte de 2021 propose un contrat entre les États européens et la BCE, et non une décision prise par
-      un seul État.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : la même tribune de 2021 propose « un contrat entre les Etats européens
-      et la BCE », et non une décision prise par un seul État.'
-    sources:
-    - source: S43
-      extrait: 'Notre proposition est donc simple : passons un contrat entre les Etats européens et la BCE.'
-      statut_source: conforme
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F60 [fait, Vrai] Le texte de 2021 propose un contrat entre les États européens et la BCE, et non une décision
+    prise par un seul État. (sources S43)
 - id: A36
-  auteur: expert-sociaux-democrates
+  auteur: sociaux-democrates
   question: Q47
   position: nuance
   enonce: 'L''effacement ne se substitue aux autres leviers que s''il est conditionné : les États s''engagent à
@@ -688,327 +115,122 @@ tes_arguments:
     de la détention). L''effacement évite ces trois choix, mais le texte de 2021 en fait un échange : le même montant
     doit être investi dans la reconstruction écologique et sociale (F59). L''effacement n''est donc pas présenté
     comme préférable en soi, mais comme un contrat avec un usage défini.'
-  porte_par:
-  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
-    parti: Place publique
-    source: S43
+  porte_par: Aurore Lalucq, députée européenne (tribune collective, février 2021) (Place publique, S43)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F59
-    enonce: Le texte de 2021 propose que la BCE efface ses créances sur les États (ou les convertisse en dettes
-      perpétuelles sans intérêt) en échange de l'engagement des États d'investir les mêmes montants dans la reconstruction
-      écologique et sociale.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : la tribune collective (Le Monde, février 2021, copie hébergée par EconomiX)
-      propose que la BCE efface ses créances ou les convertisse en dettes perpétuelles sans intérêt, contre l''engagement
-      des États d''investir les mêmes montants dans la reconstruction écologique et sociale. L''année 2021 est confirmée
-      par la réponse de Christine Lagarde du 7 février 2021 (F12).'
-    sources:
-    - source: S43
-      extrait: tandis que les Etats s’engagent à investir les mêmes montants dans la reconstruction écologique et
-        sociale.
-      statut_source: conforme
-  - id: F17
-    enonce: Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
-      de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le tableau du rapport du Sénat (24 septembre 2025) attribue 24,4 % de la dette négociable de l'État,
-      au premier trimestre 2025 et en valeur de marché, à la catégorie « autres français (dont la Banque de France
-      pour le compte de la BCE) ». L'énoncé reprend fidèlement ce périmètre.
-    sources:
-    - source: S10
-      extrait: Autres français (dont la Banque de France pour le compte de la BCE) 24,4 %
-      statut_source: conforme
+  - F59 [fait, Vrai] Le texte de 2021 propose que la BCE efface ses créances sur les États (ou les convertisse en
+    dettes perpétuelles sans intérêt) en échange de l'engagement des États d'investir les mêmes montants dans la
+    reconstruction écologique et sociale. (sources S43)
+  - F17 [fait, Vrai] Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour
+    le compte de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41). (sources S10)
 arguments_des_autres:
 - id: A1
-  auteur: expert-centre
+  auteur: centre
   question: Q41
   position: contre
-  enonce: Les traités ne permettent pas cette opération. Effacer ou geler à taux nul des titres que l'Eurosystème
-    a rachetés reviendrait à faire financer l'État par sa banque centrale, ce que l'article 123 interdit, et la
-    décision ne relèverait de toute façon pas du gouvernement.
+  enonce: 'Selon Renaissance, les traités ne permettent pas cette opération : effacer ou geler à taux nul des titres
+    que l''Eurosystème a rachetés reviendrait à faire financer l''État par sa banque centrale, ce que l''article
+    123 interdit. Aucun texte ni arrêt n''a tranché ce cas précis (la contrariété aux traités reste une interprétation
+    juridique disputée), et la décision ne relèverait de toute façon pas du gouvernement mais du conseil des gouverneurs.'
   raisonnement: 'L''article 123 interdit crédits et achats directs de dette aux États (F1, F2). La Cour a validé
     les rachats sur le marché secondaire (F8, F10), mais à condition de garanties contre le financement monétaire
     (F9) : les titres ont été achetés à des investisseurs (F24) et non offerts à l''État. Les annuler ou les convertir
     en perpétuel à taux nul reviendrait à donner à l''État, après coup, un avantage que le traité lui refuse au
     départ. Enfin, les décisions du SEBC appartiennent au conseil des gouverneurs (F5), qui ne peut recevoir d''instructions
     des gouvernements (F3) : un État ne peut ni l''ordonner ni modifier seul le cadre (F4).'
-  porte_par:
-  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
-    parti: Renaissance
-    source: S16
+  porte_par: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC) (Renaissance, S16)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F4
-    enonce: Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale, y compris
-      les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 131 du TFUE, repris à l'article 14.1 des statuts du SEBC, impose à chaque État membre
-      de veiller à la compatibilité de sa législation nationale, y compris les statuts de sa banque centrale, avec
-      les traités et les statuts.
-    sources:
-    - source: S1
-      extrait: Chaque État membre veille à la compatibilité de sa législation nationale, y compris les statuts de
-        sa banque centrale nationale, avec les traités et les statuts du SEBC et de la BCE.
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F8
-    enonce: Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé à adopter
-      un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le dispositif de l'arrêt Gauweiler (CJUE, grande chambre, 16 juin 2015, C-62/14) dit pour droit
-      que les articles 119, 123, paragraphe 1, et 127 du TFUE autorisent le SEBC à adopter un programme d'achat
-      d'obligations souveraines sur les marchés secondaires. L'autorisation porte sur un programme « tel que celui
-      annoncé » en septembre 2012 (opérations monétaires sur titres), avec les conditions qui l'encadrent.
-    sources:
-    - source: S2
-      extrait: doivent être interprétés en ce sens qu'ils autorisent le Système européen de banques centrales (SEBC)
-        à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires
-      statut_source: conforme
-  - id: F9
-    enonce: Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier ses interventions
-      avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Au point 107 de l'arrêt Weiss (CJUE, grande chambre, 11 décembre 2018, C-493/17), la Cour indique
-      que le SEBC doit entourer son intervention de garanties suffisantes pour la concilier avec l'interdiction
-      du financement monétaire de l'article 123 du TFUE.
-    sources:
-    - source: S3
-      extrait: le SEBC doit entourer son intervention de garanties suffisantes pour concilier celle-ci avec l'interdiction
-        du financement monétaire découlant de l'article 123 TFUE
-      statut_source: conforme
-  - id: F10
-    enonce: Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé aucun élément
-      affectant la validité de la décision (UE) 2015/774 de la BCE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le point 1 du dispositif de l'arrêt Weiss (C-493/17) dit pour droit que l'examen des questions
-      n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de la BCE du 4 mars
-      2015, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
-    sources:
-    - source: S3
-      extrait: L'examen des première à quatrième questions préjudicielles n'a révélé aucun élément de nature à affecter
-        la validité de la décision (UE) 2015/774 de la Banque centrale européenne
-      statut_source: conforme
-  - id: F24
-    enonce: Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès
-      d'institutions financières, et non directement auprès de l'État.
-    type: fait
-    verdict: Vrai
-    explication: L'article 123 TFUE interdit à la BCE et aux banques centrales nationales toute acquisition directe
-      de titres auprès des États (F2, S1) ; les programmes d'achat validés par la CJUE (Gauweiler 2015, Weiss 2018)
-      portent sur le marché secondaire (F8, F10). Public Sénat (25 août 2026) le confirme pour les achats de 2010
-      et de 2020.
-    sources:
-    - source: S19
-      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
-      statut_source: conforme
-  - id: F27
-    enonce: L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est
-      contraire aux traités européens.
-    type: fait
-    verdict: Invérifiable
-    explication: 'Aucun texte ne mentionne l''annulation ou la conversion de titres déjà détenus (F45) et aucune
-      décision de la CJUE n''a tranché ce cas. La contrariété aux traités est affirmée par Roland Lescure (AFP,
-      24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de la tribune de 2021 soutiennent
-      le contraire (F57) : c''est une interprétation juridique disputée, pas un fait établi.'
-    sources:
-    - source: S16
-      extrait: c'est illégal, non conforme aux traités européens
-      statut_source: conforme
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F4 [fait, Vrai] Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale,
+    y compris les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F8 [fait, Vrai] Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé
+    à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41). (sources S2)
+  - F9 [fait, Vrai] Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier
+    ses interventions avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41). (sources S3)
+  - F10 [fait, Vrai] Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé
+    aucun élément affectant la validité de la décision (UE) 2015/774 de la BCE (Q41). (sources S3)
+  - F24 [fait, Vrai] Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire,
+    auprès d'institutions financières, et non directement auprès de l'État. (sources S19)
+  - 'F27 [fait, Invérifiable] L''annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par
+    l''Eurosystème est contraire aux traités européens. — Aucun texte ne mentionne l''annulation ou la conversion
+    de titres déjà détenus (F45) et aucune décision de la CJUE n''a tranché ce cas. La contrariété aux traités est
+    affirmée par Roland Lescure (AFP, 24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de
+    la tribune de 2021 soutiennent le contraire (F57) : c''est une interprétation juridique disputée, pas un fait
+    établi. (sources S16)'
 - id: A2
-  auteur: expert-centre
+  auteur: centre
   question: Q42
   position: pour
-  enonce: Oui, les taux monteraient. Un État qui renonce unilatéralement à une part de sa dette, en contournant
-    les traités, signale aux prêteurs qu'il peut changer les règles ; ils demanderaient un taux plus élevé pour
-    compenser.
+  enonce: 'Les taux risquent de monter. Un État qui renonce unilatéralement à une part de sa dette, par une voie
+    juridiquement contestée, signale aux prêteurs qu''il peut changer les règles ; ils demanderaient selon Renaissance
+    et Horizons un taux plus élevé. Il s''agit d''une estimation sans chiffrage publié : aucune institution n''a
+    estimé l''ampleur de la hausse.'
   raisonnement: La France emprunte à un taux déjà au plus haut depuis 2008 (F25) ; toute hausse supplémentaire se
     répercute sur l'ensemble de la dette renouvelée. L'opération, juridiquement contestée (F27), serait lue comme
     un défaut partiel ou un risque de rupture avec les règles de la zone euro. Les prêteurs, qui n'ont aucune raison
     de croire que le précédent ne se reproduira pas, réclameraient une prime de risque (F26), et l'accès aux marchés
     pourrait se compliquer. Le gain sur les intérêts de la dette gelée serait ainsi rogné par le surcoût sur la
     dette future.
-  porte_par:
-  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
-    parti: Renaissance
-    source: S16
-  - qui: Édouard Philippe (débat du Medef, 27 août 2026)
-    parti: Horizons
-    source: S17
+  porte_par: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC) (Renaissance, S16);
+    Édouard Philippe (débat du Medef, 27 août 2026) (Horizons, S17)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F25
-    enonce: Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir dépassé 4,14 %
-      le jeudi précédent, son plus haut niveau depuis 2008.
-    type: fait
-    verdict: Plutôt vrai
-    explication: La dépêche AFP reprise par MoneyVox le 24 août 2026 donne bien 4,11 % le lundi et plus de 4,14
-      % le jeudi précédent, au plus haut depuis 2008. C'est une valeur de la matinée, rapportée par la presse ;
-      aucune série officielle de clôture (Banque de France, Agence France Trésor) n'a été consultée.
-    sources:
-    - source: S16
-      extrait: Lundi, le taux d'intérêt de la France à 10 ans était à 4,11%, après avoir dépassé jeudi 4,14%, au
-        plus depuis 2008.
-      statut_source: conforme
-  - id: F26
-    enonce: Une annulation unilatérale d'une partie de la dette publique ferait monter les taux auxquels la France
-      emprunte, car les prêteurs réclameraient une prime de risque supplémentaire.
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: La seule source est la déclaration de Roland Lescure, ministre de l'Économie, rapportée par l'AFP
-      le 24 août 2026, sans chiffrage ni méthode. Des économistes cités par la presse (Public Sénat, 25 août 2026)
-      et Christine Lagarde (F11) vont dans le même sens, mais aucune institution n'a publié d'estimation chiffrée
-      de l'effet sur les taux dans le dossier.
-    sources:
-    - source: S16
-      extrait: Le risque, pour le ministre de l'Economie, est également de faire grimper les taux d'intérêt
-      statut_source: conforme
-  - id: F27
-    enonce: L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est
-      contraire aux traités européens.
-    type: fait
-    verdict: Invérifiable
-    explication: 'Aucun texte ne mentionne l''annulation ou la conversion de titres déjà détenus (F45) et aucune
-      décision de la CJUE n''a tranché ce cas. La contrariété aux traités est affirmée par Roland Lescure (AFP,
-      24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de la tribune de 2021 soutiennent
-      le contraire (F57) : c''est une interprétation juridique disputée, pas un fait établi.'
-    sources:
-    - source: S16
-      extrait: c'est illégal, non conforme aux traités européens
-      statut_source: conforme
+  - F25 [fait, Plutôt vrai] Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir
+    dépassé 4,14 % le jeudi précédent, son plus haut niveau depuis 2008. — La dépêche AFP reprise par MoneyVox le
+    24 août 2026 donne bien 4,11 % le lundi et plus de 4,14 % le jeudi précédent, au plus haut depuis 2008. C'est
+    une valeur de la matinée, rapportée par la presse ; aucune série officielle de clôture (Banque de France, Agence
+    France Trésor) n'a été consultée. (sources S16)
+  - F26 [estimation, Pas d'estimation fiable] Une annulation unilatérale d'une partie de la dette publique ferait
+    monter les taux auxquels la France emprunte, car les prêteurs réclameraient une prime de risque supplémentaire.
+    — La seule source est la déclaration de Roland Lescure, ministre de l'Économie, rapportée par l'AFP le 24 août
+    2026, sans chiffrage ni méthode. Des économistes cités par la presse (Public Sénat, 25 août 2026) et Christine
+    Lagarde (F11) vont dans le même sens, mais aucune institution n'a publié d'estimation chiffrée de l'effet sur
+    les taux dans le dossier. (sources S16)
+  - 'F27 [fait, Invérifiable] L''annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par
+    l''Eurosystème est contraire aux traités européens. — Aucun texte ne mentionne l''annulation ou la conversion
+    de titres déjà détenus (F45) et aucune décision de la CJUE n''a tranché ce cas. La contrariété aux traités est
+    affirmée par Roland Lescure (AFP, 24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de
+    la tribune de 2021 soutiennent le contraire (F57) : c''est une interprétation juridique disputée, pas un fait
+    établi. (sources S16)'
 - id: A3
-  auteur: expert-centre
+  auteur: centre
   question: Q44
   position: pour
-  enonce: Oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
-    ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de l'euro repose sur le respect
-    des règles communes par tous.
+  enonce: Selon Renaissance, oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de
+    lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de
+    l'euro repose sur le respect des règles communes. La compatibilité de l'opération avec les traités est disputée,
+    mais une décision prise sans le conseil des gouverneurs poserait de toute façon la question de l'indépendance.
   raisonnement: Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des
     instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4).
     Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs (F5),
     afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur que si
     chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (F27), reviendrait à n'en
     plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie.
-  porte_par:
-  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
-    parti: Renaissance
-    source: S16
+  porte_par: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC) (Renaissance, S16)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F4
-    enonce: Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale, y compris
-      les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 131 du TFUE, repris à l'article 14.1 des statuts du SEBC, impose à chaque État membre
-      de veiller à la compatibilité de sa législation nationale, y compris les statuts de sa banque centrale, avec
-      les traités et les statuts.
-    sources:
-    - source: S1
-      extrait: Chaque État membre veille à la compatibilité de sa législation nationale, y compris les statuts de
-        sa banque centrale nationale, avec les traités et les statuts du SEBC et de la BCE.
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F27
-    enonce: L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est
-      contraire aux traités européens.
-    type: fait
-    verdict: Invérifiable
-    explication: 'Aucun texte ne mentionne l''annulation ou la conversion de titres déjà détenus (F45) et aucune
-      décision de la CJUE n''a tranché ce cas. La contrariété aux traités est affirmée par Roland Lescure (AFP,
-      24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de la tribune de 2021 soutiennent
-      le contraire (F57) : c''est une interprétation juridique disputée, pas un fait établi.'
-    sources:
-    - source: S16
-      extrait: c'est illégal, non conforme aux traités européens
-      statut_source: conforme
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F4 [fait, Vrai] Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale,
+    y compris les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - 'F27 [fait, Invérifiable] L''annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par
+    l''Eurosystème est contraire aux traités européens. — Aucun texte ne mentionne l''annulation ou la conversion
+    de titres déjà détenus (F45) et aucune décision de la CJUE n''a tranché ce cas. La contrariété aux traités est
+    affirmée par Roland Lescure (AFP, 24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de
+    la tribune de 2021 soutiennent le contraire (F57) : c''est une interprétation juridique disputée, pas un fait
+    établi. (sources S16)'
 - id: A4
-  auteur: expert-centre
+  auteur: centre
   question: Q45
   position: pour
   enonce: Oui. Même détenue par la banque centrale, la dette a été achetée à des investisseurs, qui ont été payés
@@ -1017,100 +239,44 @@ arguments_des_autres:
     et ses engagements envers eux demeurent. Distinguer les créanciers que l''on rembourse de ceux que l''on ne
     rembourse pas ferait de la parole de l''État un choix variable. Le respect intégral des engagements est ce qui
     permet à la France d''emprunter durablement (F25 : le coût de l''emprunt est déjà élevé).'
-  porte_par:
-  - qui: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette)'
-    parti: Horizons
-    source: S17
-  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
-    parti: Renaissance
-    source: S16
+  porte_par: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette) (Horizons, S17);
+    Roland Lescure, ministre de l''Économie (déclaration du 24 août 2026) (Renaissance, S16)'
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F24
-    enonce: Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès
-      d'institutions financières, et non directement auprès de l'État.
-    type: fait
-    verdict: Vrai
-    explication: L'article 123 TFUE interdit à la BCE et aux banques centrales nationales toute acquisition directe
-      de titres auprès des États (F2, S1) ; les programmes d'achat validés par la CJUE (Gauweiler 2015, Weiss 2018)
-      portent sur le marché secondaire (F8, F10). Public Sénat (25 août 2026) le confirme pour les achats de 2010
-      et de 2020.
-    sources:
-    - source: S19
-      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
-      statut_source: conforme
-  - id: F25
-    enonce: Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir dépassé 4,14 %
-      le jeudi précédent, son plus haut niveau depuis 2008.
-    type: fait
-    verdict: Plutôt vrai
-    explication: La dépêche AFP reprise par MoneyVox le 24 août 2026 donne bien 4,11 % le lundi et plus de 4,14
-      % le jeudi précédent, au plus haut depuis 2008. C'est une valeur de la matinée, rapportée par la presse ;
-      aucune série officielle de clôture (Banque de France, Agence France Trésor) n'a été consultée.
-    sources:
-    - source: S16
-      extrait: Lundi, le taux d'intérêt de la France à 10 ans était à 4,11%, après avoir dépassé jeudi 4,14%, au
-        plus depuis 2008.
-      statut_source: conforme
+  - F24 [fait, Vrai] Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire,
+    auprès d'institutions financières, et non directement auprès de l'État. (sources S19)
+  - F25 [fait, Plutôt vrai] Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir
+    dépassé 4,14 % le jeudi précédent, son plus haut niveau depuis 2008. — La dépêche AFP reprise par MoneyVox le
+    24 août 2026 donne bien 4,11 % le lundi et plus de 4,14 % le jeudi précédent, au plus haut depuis 2008. C'est
+    une valeur de la matinée, rapportée par la presse ; aucune série officielle de clôture (Banque de France, Agence
+    France Trésor) n'a été consultée. (sources S16)
 - id: A5
-  auteur: expert-centre
+  auteur: centre
   question: Q46
   position: contre
-  enonce: Non. Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs ; les règles
-    européennes y limitent la décision nationale, et la quitter reviendrait de fait à sortir de l'euro.
+  enonce: Non, selon Renaissance. Dans une union monétaire, la dette en euros et la banque centrale sont des biens
+    communs ; les règles européennes limitent la décision nationale, et décider seul sur des titres détenus par
+    l'Eurosystème reviendrait à s'affranchir des règles communes, ce que le gouvernement juge contraire aux traités
+    (interprétation contestée par les signataires de la tribune de 2021).
   raisonnement: 'L''État a lui-même accepté les traités : il doit veiller à la compatibilité de sa législation avec
     eux (F4) et ne peut pas donner d''instructions à la banque centrale (F3). Une décision nationale unilatérale
     sur des titres détenus par l''Eurosystème engagerait les autres membres, qui supportent leur part du bilan commun.
     S''en affranchir sur ce sujet, c''est dire qu''on ne respecte plus les règles communes (F27).'
-  porte_par:
-  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
-    parti: Renaissance
-    source: S16
+  porte_par: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC) (Renaissance, S16)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F4
-    enonce: Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale, y compris
-      les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 131 du TFUE, repris à l'article 14.1 des statuts du SEBC, impose à chaque État membre
-      de veiller à la compatibilité de sa législation nationale, y compris les statuts de sa banque centrale, avec
-      les traités et les statuts.
-    sources:
-    - source: S1
-      extrait: Chaque État membre veille à la compatibilité de sa législation nationale, y compris les statuts de
-        sa banque centrale nationale, avec les traités et les statuts du SEBC et de la BCE.
-      statut_source: conforme
-  - id: F27
-    enonce: L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est
-      contraire aux traités européens.
-    type: fait
-    verdict: Invérifiable
-    explication: 'Aucun texte ne mentionne l''annulation ou la conversion de titres déjà détenus (F45) et aucune
-      décision de la CJUE n''a tranché ce cas. La contrariété aux traités est affirmée par Roland Lescure (AFP,
-      24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de la tribune de 2021 soutiennent
-      le contraire (F57) : c''est une interprétation juridique disputée, pas un fait établi.'
-    sources:
-    - source: S16
-      extrait: c'est illégal, non conforme aux traités européens
-      statut_source: conforme
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F4 [fait, Vrai] Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale,
+    y compris les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44). (sources S1)
+  - 'F27 [fait, Invérifiable] L''annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par
+    l''Eurosystème est contraire aux traités européens. — Aucun texte ne mentionne l''annulation ou la conversion
+    de titres déjà détenus (F45) et aucune décision de la CJUE n''a tranché ce cas. La contrariété aux traités est
+    affirmée par Roland Lescure (AFP, 24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de
+    la tribune de 2021 soutiennent le contraire (F57) : c''est une interprétation juridique disputée, pas un fait
+    établi. (sources S16)'
 - id: A6
-  auteur: expert-centre
+  auteur: centre
   question: Q47
   position: contre
   enonce: 'Non. L''annulation ne crée pas de vraie marge : l''État reçoit déjà des bénéfices de la Banque de France.
@@ -1120,54 +286,19 @@ arguments_des_autres:
     ce que la banque lui verse, de sorte que la marge nette est inférieure au gain brut (voir Q43). Pour dégager
     une marge durable, les leviers sont les économies, un budget équilibré, et la croissance par la baisse du coût
     du travail.'
-  porte_par:
-  - qui: 'Édouard Philippe (débat du Medef, 27 août 2026 : équilibrer les comptes, sans annulation)'
-    parti: Horizons
-    source: S17
-  - qui: 'Gabriel Attal (débat du Medef, 27 août 2026 : annuler les hausses du coût du travail depuis 2024)'
-    parti: Renaissance
-    source: S17
+  porte_par: 'Édouard Philippe (débat du Medef, 27 août 2026 : équilibrer les comptes, sans annulation) (Horizons,
+    S17); Gabriel Attal (débat du Medef, 27 août 2026 : annuler les hausses du coût du travail depuis 2024) (Renaissance,
+    S17)'
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F18
-    enonce: Le 24 mars 2026, la Banque de France annonce un bénéfice net de 8,1 milliards d'euros pour l'exercice
-      2025 (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le communiqué de la Banque de France du 24 mars 2026 annonce un bénéfice net de 8,1 Md€ pour l'exercice
-      2025.
-    sources:
-    - source: S8
-      extrait: La Banque de France enregistre un bénéfice net de 8,1 Mds €.
-      statut_source: conforme
-  - id: F19
-    enonce: Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard d'euros avant
-      d'atteindre un résultat net de 8,1 milliards (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le document de la Banque de France sur les comptes annuels de l'exercice 2025 (mars 2026) indique
-      un impôt sur les bénéfices de 1,5 Md€ et un résultat net de 8,1 Md€ ; il concorde avec le communiqué du 24
-      mars 2026 (F18).
-    sources:
-    - source: S7
-      extrait: Après paiement de l'impôt sur les bénéfices (1,5 milliard d'euros), le résultat net ressort à 8,1
-        milliards d'euros.
-      statut_source: conforme
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
+  - F18 [fait, Vrai] Le 24 mars 2026, la Banque de France annonce un bénéfice net de 8,1 milliards d'euros pour
+    l'exercice 2025 (Q43). (sources S8)
+  - F19 [fait, Vrai] Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard
+    d'euros avant d'atteindre un résultat net de 8,1 milliards (Q43). (sources S7)
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
 - id: A7
-  auteur: expert-droite
+  auteur: droite
   question: Q45
   position: contre
   enonce: 'Un État doit rembourser sa dette, y compris quand le créancier est un organisme public comme la banque
@@ -1177,28 +308,14 @@ arguments_des_autres:
     l'État peut s'en délier dès qu'elle devient pesante, aucun engagement futur ne sera crédible ; la bonne réponse
     à une dette lourde est de redéfinir les priorités de dépense, non de la faire disparaître. Position exprimée
     en décembre 2020 sur l'annulation des dettes détenues par la BCE, pas sur la proposition d'août 2026.
-  porte_par:
-  - qui: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien
-      du 28 décembre 2020)
-    parti: LR
-    source: S21
+  porte_par: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien
+    du 28 décembre 2020) (LR, S21)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F28
-    enonce: 'Un État doit honorer ses dettes : en s''engageant, il engage son peuple, c''est-à-dire ses contribuables,
-      et la parole donnée doit garder sa valeur.'
-    type: valeur
-    verdict: null
-    explication: Affirmation de valeur, sans verdict. La source (Public Sénat, 28 décembre 2020) rapporte la position
-      de Jean-François Husson ; la formule « la parole donnée doit garder sa valeur » n'y figure pas.
-    sources:
-    - source: S21
-      extrait: Si les États veulent retrouver la confiance de leur peuple, il faut qu’ils honorent leurs dettes
-        car, en s’engageant, l’État engage son peuple, qui n’est autre que ses contributeurs.
-      statut_source: conforme
+  - 'F28 [valeur, sans verdict] Un État doit honorer ses dettes : en s''engageant, il engage son peuple, c''est-à-dire
+    ses contribuables, et la parole donnée doit garder sa valeur. (sources S21)'
 - id: A8
-  auteur: expert-droite
+  auteur: droite
   question: Q47
   position: contre
   enonce: Pour dégager des marges budgétaires, la voie retenue par le candidat LR est de réduire la dépense publique
@@ -1208,143 +325,48 @@ arguments_des_autres:
     et vise un excédent primaire en 2030 puis un déficit sous 3 % en 2031 : les marges viennent de la dépense maîtrisée,
     non d''un allègement du stock de dette. Attention : le plan ne mentionne pas l''annulation ; cet argument en
     est la lecture par le choix des moyens.'
-  porte_par:
-  - qui: Bruno Retailleau, candidat LR à la présidentielle 2027 (plan présenté le 12 octobre 2026)
-    parti: LR
-    source: S22
+  porte_par: Bruno Retailleau, candidat LR à la présidentielle 2027 (plan présenté le 12 octobre 2026) (LR, S22)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F29
-    enonce: Le plan de redressement budgétaire de Bruno Retailleau, présenté le 12 octobre 2026, prévoit un effort
-      de 197 milliards d'euros sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel de l'effort allant
-      à l'amélioration du solde.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : Public Sénat (Guillaume Jacquot, 12 octobre 2026) rapporte que le plan
-      présenté ce jour-là par Bruno Retailleau prévoit 197 milliards d''euros d''effort sur cinq ans, dont 56 milliards
-      d''allègements fiscaux, l''essentiel allant à l''amélioration du solde. Le verdict porte sur le contenu annoncé,
-      pas sur la faisabilité du plan.'
-    sources:
-    - source: S22
-      extrait: Sa trajectoire prévoit un effort « inédit » de 197 milliards d’euros sur cinq ans, dont 56 milliards
-        d’euros d’allègement de la fiscalité qui bénéficiera à la fois aux entreprises (30 milliards d’euros) et
-        aux ménages (21 milliards), l’essentiel de l’effort allant à l’amélioration du solde.
-      statut_source: conforme
-  - id: F30
-    enonce: Ce plan fait reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et sur les
-      dépenses sociales.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : le même article de Public Sénat (12 octobre 2026) décrit le plan comme
-      faisant reposer l''essentiel de l''effort sur l''État, dont il questionne le périmètre, et sur les dépenses
-      sociales. C''est la description du journaliste, conforme à l''énoncé.'
-    sources:
-    - source: S22
-      extrait: L’essentiel de l’effort repose sur l’État, dont il questionne le périmètre, et sur les dépenses sociales.
-      statut_source: conforme
+  - F29 [fait, Vrai] Le plan de redressement budgétaire de Bruno Retailleau, présenté le 12 octobre 2026, prévoit
+    un effort de 197 milliards d'euros sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel de l'effort
+    allant à l'amélioration du solde. (sources S22)
+  - F30 [fait, Vrai] Ce plan fait reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et
+    sur les dépenses sociales. (sources S22)
 - id: A9
-  auteur: expert-ecologistes
+  auteur: ecologistes
   question: Q41
   position: nuance
   enonce: Le traité interdit le crédit et l'achat direct de dette auprès des États, mais pas les achats sur le marché
-    secondaire, que le SEBC pratique depuis 2015 et que la Cour de justice a validés sous conditions. La question
-    juridique réelle est donc de savoir si une conversion ou une annulation de titres déjà détenus relève de l'interdiction
-    du financement monétaire, et c'est une question de décision politique de l'Eurosystème.
+    secondaire, que le SEBC pratique depuis 2015. La Cour de justice a jugé le programme d'achats de 2015 (PSPP)
+    compatible avec le traité sous conditions (arrêt Weiss) ; elle ne s'est pas prononcée sur le programme d'urgence
+    pandémique (PEPP) de 2020. La question juridique réelle est de savoir si une conversion ou une annulation de
+    titres déjà détenus relève de l'interdiction du financement monétaire, et c'est une question de décision de
+    l'Eurosystème.
   raisonnement: 'L''article 123 vise deux opérations précises : le crédit direct aux États et l''acquisition directe
     de leur dette (F1, F2). Les titres détenus par l''Eurosystème ont été acquis sur les marchés secondaires dans
     un programme que la Cour a jugé compatible avec le traité sous garanties (F8, F9, F10). Un texte qui n''évoque
     pas le traitement ultérieur de ces titres ne tranche pas l''annulation ; l''affirmer interdite comme certaine
     est une interprétation, et le conseil des gouverneurs de la BCE reste l''organe qui décide (F5). Cette lecture
     concerne l''annulation ou la conversion décidée par la BCE elle-même, pas une décision unilatérale de l''État.'
-  porte_par:
-  - qui: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026
-    parti: Les Écologistes
-    source: S23
+  porte_par: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026 (Les Écologistes,
+    S23)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F8
-    enonce: Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé à adopter
-      un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le dispositif de l'arrêt Gauweiler (CJUE, grande chambre, 16 juin 2015, C-62/14) dit pour droit
-      que les articles 119, 123, paragraphe 1, et 127 du TFUE autorisent le SEBC à adopter un programme d'achat
-      d'obligations souveraines sur les marchés secondaires. L'autorisation porte sur un programme « tel que celui
-      annoncé » en septembre 2012 (opérations monétaires sur titres), avec les conditions qui l'encadrent.
-    sources:
-    - source: S2
-      extrait: doivent être interprétés en ce sens qu'ils autorisent le Système européen de banques centrales (SEBC)
-        à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires
-      statut_source: conforme
-  - id: F9
-    enonce: Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier ses interventions
-      avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Au point 107 de l'arrêt Weiss (CJUE, grande chambre, 11 décembre 2018, C-493/17), la Cour indique
-      que le SEBC doit entourer son intervention de garanties suffisantes pour la concilier avec l'interdiction
-      du financement monétaire de l'article 123 du TFUE.
-    sources:
-    - source: S3
-      extrait: le SEBC doit entourer son intervention de garanties suffisantes pour concilier celle-ci avec l'interdiction
-        du financement monétaire découlant de l'article 123 TFUE
-      statut_source: conforme
-  - id: F10
-    enonce: Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé aucun élément
-      affectant la validité de la décision (UE) 2015/774 de la BCE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le point 1 du dispositif de l'arrêt Weiss (C-493/17) dit pour droit que l'examen des questions
-      n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de la BCE du 4 mars
-      2015, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
-    sources:
-    - source: S3
-      extrait: L'examen des première à quatrième questions préjudicielles n'a révélé aucun élément de nature à affecter
-        la validité de la décision (UE) 2015/774 de la Banque centrale européenne
-      statut_source: conforme
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F8 [fait, Vrai] Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé
+    à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41). (sources S2)
+  - F9 [fait, Vrai] Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier
+    ses interventions avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41). (sources S3)
+  - F10 [fait, Vrai] Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé
+    aucun élément affectant la validité de la décision (UE) 2015/774 de la BCE (Q41). (sources S3)
 - id: A10
-  auteur: expert-ecologistes
+  auteur: ecologistes
   question: Q45
   position: contre
   enonce: 'Un État n''a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n''est pas
@@ -1357,94 +379,32 @@ arguments_des_autres:
     de 800 milliards d'euros d'investissements supplémentaires par an (F32), maintenir cette dette au bilan pour
     la rembourser prive l'investissement climatique d'une marge qui existe. Le parti a déjà proposé en 2020 de lier
     annulation de dette auprès de la BCE et financement de la reconstruction écologique (F34).
-  porte_par:
-  - qui: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026
-    parti: Les Écologistes
-    source: S23
-  - qui: Les Verts (EELV), plan de reconstruction écologique de juin 2020, porte-parole Eva Sas
-    parti: Les Écologistes
-    source: S24
+  porte_par: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026 (Les Écologistes,
+    S23); Les Verts (EELV), plan de reconstruction écologique de juin 2020, porte-parole Eva Sas (Les Écologistes,
+    S24)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F31
-    enonce: L'Eurosystème (BCE et banques centrales nationales) détient environ 640 milliards d'euros de titres
-      publics français en 2026.
-    type: fait
-    verdict: Plutôt vrai
-    explication: 'La chronique de Politis (14 septembre 2026) ne cite pas d''origine, mais les données de la BCE
-      ouvertes le 10 novembre 2026 donnent un ordre de grandeur voisin : achats nets cumulés de titres publics français
-      de 359,5 milliards d''euros au titre du PSPP et 237,5 milliards au titre du PEPP fin octobre 2026, soit environ
-      597 milliards (au coût amorti, émetteurs publics français y compris hors État), après environ 400 milliards
-      pour le seul PSPP fin 2025. Le chiffre de 640 milliards correspond au début de 2026 ; le stock baisse au fil
-      de l''année.'
-    sources:
-    - source: S23
-      extrait: dont environ 640 milliards de titres publics français
-      statut_source: conforme
-    - source: S46
-      extrait: France 401,150 -147 359,487 5.91 5.88 8.60
-      statut_source: conforme
-    - source: S47
-      extrait: France -34 237,484 6.60 7.67
-      statut_source: conforme
-  - id: F32
-    enonce: Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à 800 milliards d'euros
-      par an (rapport Draghi, 2024).
-    type: fait
-    verdict: Plutôt vrai
-    explication: Le rapport Draghi (Commission européenne, septembre 2024) chiffre l'investissement supplémentaire
-      nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit 4,4 à 4,7 % du PIB de l'UE de 2023,
-      d'après les estimations de la Commission. Le chiffre de 800 milliards est le haut de cette fourchette.
-    sources:
-    - source: S23
-      extrait: L’Europe, selon le rapport Draghi, a besoin de 800 milliards d’euros d’investissements supplémentaires
-        chaque année
-      statut_source: conforme
-    - source: S44
-      extrait: To meet the objectives laid out in this report, a minimum annual additional investment of EUR 750
-        to 800 billion is needed, based on the latest Commission esti- mates, corresponding to 4.4-4.7% of EU GDP
-        in 2023.
-      statut_source: conforme
-  - id: F34
-    enonce: En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé par
-      une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
-      de l'ISF.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : une dépêche AFP du 15 juin 2020 rapporte que le plan de reconstruction
-      écologique d''EELV serait financé par une annulation de la dette française auprès de la BCE et une fiscalité
-      « plus juste », dont le rétablissement de l''ISF. Le verdict porte sur la réalité de la proposition.'
-    sources:
-    - source: S24
-      extrait: Pour financer ce plan, les Verts souhaitent une annulation de la dette française auprès de laBCE
-      statut_source: conforme
-  - id: F7
-    enonce: Le revenu monétaire des banques centrales nationales est réparti à la fin de chaque exercice (Q43).
-    type: fait
-    verdict: Vrai
-    explication: L'article 32.1 des statuts du SEBC et de la BCE prévoit que le revenu monétaire des banques centrales
-      nationales est réparti à la fin de chaque exercice, selon les règles de cet article.
-    sources:
-    - source: S1
-      extrait: Le revenu dégagé par les banques centrales nationales dans l'exercice des missions de politique monétaire
-        du SEBC, ci-après dénommé "revenu monétaire", est réparti à la fin de chaque exercice conformément au présent
-        article.
-      statut_source: conforme
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
+  - 'F31 [fait, Plutôt vrai] L''Eurosystème (BCE et banques centrales nationales) détient environ 640 milliards
+    d''euros de titres publics français en 2026. — La chronique de Politis (14 septembre 2026) ne cite pas d''origine,
+    mais les données de la BCE ouvertes le 10 novembre 2026 donnent un ordre de grandeur voisin : achats nets cumulés
+    de titres publics français de 359,5 milliards d''euros au titre du PSPP et 237,5 milliards au titre du PEPP
+    fin octobre 2026, soit environ 597 milliards (au coût amorti, émetteurs publics français y compris hors État),
+    après environ 400 milliards pour le seul PSPP fin 2025. Le chiffre de 640 milliards correspond au début de 2026
+    ; le stock baisse au fil de l''année. (sources S23, S46, S47)'
+  - F32 [fait, Plutôt vrai] Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à
+    800 milliards d'euros par an (rapport Draghi, 2024). — Le rapport Draghi (Commission européenne, septembre 2024)
+    chiffre l'investissement supplémentaire nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit
+    4,4 à 4,7 % du PIB de l'UE de 2023, d'après les estimations de la Commission. Le chiffre de 800 milliards est
+    le haut de cette fourchette. (sources S23, S44)
+  - F34 [fait, Vrai] En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé
+    par une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
+    de l'ISF. (sources S24)
+  - F7 [fait, Vrai] Le revenu monétaire des banques centrales nationales est réparti à la fin de chaque exercice
+    (Q43). (sources S1)
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
 - id: A11
-  auteur: expert-ecologistes
+  auteur: ecologistes
   question: Q46
   position: nuance
   enonce: 'Ni la seule décision nationale ni les règles européennes actuelles : la dette détenue par l''Eurosystème
@@ -1455,75 +415,25 @@ arguments_des_autres:
     seul. Mais ces règles fixent l''objectif de politique budgétaire à des organes que le parti juge insuffisamment
     démocratiques, alors que les besoins d''investissement sont européens (F32). La réponse du parti est donc une
     révision des traités avec des objectifs écologiques et sociaux (F33), pas un repli national.'
-  porte_par:
-  - qui: Les Écologistes, programme adopté en juillet 2026 (commission Économie, social et services publics, 26
-      octobre 2026)
-    parti: Les Écologistes
-    source: S26
-  - qui: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026
-    parti: Les Écologistes
-    source: S23
+  porte_par: Les Écologistes, programme adopté en juillet 2026 (commission Économie, social et services publics,
+    26 octobre 2026) (Les Écologistes, S26); Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis
+    du 14 septembre 2026 (Les Écologistes, S23)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F4
-    enonce: Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale, y compris
-      les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 131 du TFUE, repris à l'article 14.1 des statuts du SEBC, impose à chaque État membre
-      de veiller à la compatibilité de sa législation nationale, y compris les statuts de sa banque centrale, avec
-      les traités et les statuts.
-    sources:
-    - source: S1
-      extrait: Chaque État membre veille à la compatibilité de sa législation nationale, y compris les statuts de
-        sa banque centrale nationale, avec les traités et les statuts du SEBC et de la BCE.
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F32
-    enonce: Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à 800 milliards d'euros
-      par an (rapport Draghi, 2024).
-    type: fait
-    verdict: Plutôt vrai
-    explication: Le rapport Draghi (Commission européenne, septembre 2024) chiffre l'investissement supplémentaire
-      nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit 4,4 à 4,7 % du PIB de l'UE de 2023,
-      d'après les estimations de la Commission. Le chiffre de 800 milliards est le haut de cette fourchette.
-    sources:
-    - source: S23
-      extrait: L’Europe, selon le rapport Draghi, a besoin de 800 milliards d’euros d’investissements supplémentaires
-        chaque année
-      statut_source: conforme
-    - source: S44
-      extrait: To meet the objectives laid out in this report, a minimum annual additional investment of EUR 750
-        to 800 billion is needed, based on the latest Commission esti- mates, corresponding to 4.4-4.7% of EU GDP
-        in 2023.
-      statut_source: conforme
-  - id: F33
-    enonce: Le programme adopté par Les Écologistes en juillet 2026 prévoit, au niveau européen, une révision des
-      traités garantissant le non-dépassement des limites planétaires et la construction d'un État social européen.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : la page de la commission Économie des Écologistes (publiée le 26 octobre
-      2026) cite cette mesure du programme adopté en juillet 2026, avec sa référence (ch. 60, mesure 3, p. 190).
-      Le PDF du programme lui-même n''a pas été ouvert.'
-    sources:
-    - source: S26
-      extrait: une révision des traités garantissant le non-dépassement des limites planétaires ainsi que la construction
-        d’un État social européen (ch. 60, mesure 3, p. 190)
-      statut_source: conforme
+  - F4 [fait, Vrai] Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale,
+    y compris les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F32 [fait, Plutôt vrai] Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à
+    800 milliards d'euros par an (rapport Draghi, 2024). — Le rapport Draghi (Commission européenne, septembre 2024)
+    chiffre l'investissement supplémentaire nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit
+    4,4 à 4,7 % du PIB de l'UE de 2023, d'après les estimations de la Commission. Le chiffre de 800 milliards est
+    le haut de cette fourchette. (sources S23, S44)
+  - F33 [fait, Vrai] Le programme adopté par Les Écologistes en juillet 2026 prévoit, au niveau européen, une révision
+    des traités garantissant le non-dépassement des limites planétaires et la construction d'un État social européen.
+    (sources S26)
 - id: A12
-  auteur: expert-ecologistes
+  auteur: ecologistes
   question: Q47
   position: nuance
   enonce: L'annulation n'est pas présentée comme une alternative aux recettes et à l'investissement, mais comme
@@ -1535,117 +445,49 @@ arguments_des_autres:
     et un retour à 3,7 % de déficit en 2030, plus lent que celui du gouvernement (F36). Le critère est l''usage
     de la dette et de la marge dégagée : « bonne » dette quand elle finance le climat et la justice sociale, « mauvaise
     » dette sinon, selon la formule de sa secrétaire nationale.'
-  porte_par:
-  - qui: Les Verts (EELV), plan de reconstruction écologique de juin 2020
-    parti: Les Écologistes
-    source: S24
-  - qui: Les Écologistes, plan de sortie de crise présenté le 4 septembre 2025
-    parti: Les Écologistes
-    source: S25
-  - qui: Marine Tondelier, secrétaire nationale, déclaration du 20 juin 2024
-    parti: Les Écologistes
-    source: S27
+  porte_par: Les Verts (EELV), plan de reconstruction écologique de juin 2020 (Les Écologistes, S24); Les Écologistes,
+    plan de sortie de crise présenté le 4 septembre 2025 (Les Écologistes, S25); Marine Tondelier, secrétaire nationale,
+    déclaration du 20 juin 2024 (Les Écologistes, S27)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F34
-    enonce: En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé par
-      une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
-      de l'ISF.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : une dépêche AFP du 15 juin 2020 rapporte que le plan de reconstruction
-      écologique d''EELV serait financé par une annulation de la dette française auprès de la BCE et une fiscalité
-      « plus juste », dont le rétablissement de l''ISF. Le verdict porte sur la réalité de la proposition.'
-    sources:
-    - source: S24
-      extrait: Pour financer ce plan, les Verts souhaitent une annulation de la dette française auprès de laBCE
-      statut_source: conforme
-  - id: F35
-    enonce: Le plan présenté par Les Écologistes en septembre 2025 comprenait 28,5 milliards d'euros de recettes
-      fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : la revue de presse publiée par Les Écologistes reprend des articles des
-      4 et 5 septembre 2025 indiquant 28,5 milliards de recettes fiscales, notamment par la taxe Zucman et une contribution
-      exceptionnelle sur les grandes entreprises. Le média d''origine n''est cité que partiellement.'
-    sources:
-    - source: S25
-      extrait: Ils proposent 28,5 milliards de recettes fiscales (notamment par le biais de la taxe Zucman sur les
-        très hauts patrimoines, la contribution exceptionnelle sur les grandes entreprises)
-      statut_source: conforme
-  - id: F36
-    enonce: Le plan présenté par Les Écologistes en septembre 2025 prévoyait de ramener le déficit public à 3,7
-      % du PIB en 2030, soit une réduction plus progressive que celle du gouvernement de l'époque.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : la même revue de presse (septembre 2025) indique un déficit ramené à 3,7
-      % en 2030, avec une réduction plus progressive que celle prévue par le gouvernement de François Bayrou.'
-    sources:
-    - source: S25
-      extrait: pour le ramener à 3,7 % en 2030
-      statut_source: conforme
+  - F34 [fait, Vrai] En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé
+    par une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
+    de l'ISF. (sources S24)
+  - F35 [fait, Vrai] Le plan présenté par Les Écologistes en septembre 2025 comprenait 28,5 milliards d'euros de
+    recettes fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises.
+    (sources S25)
+  - F36 [fait, Vrai] Le plan présenté par Les Écologistes en septembre 2025 prévoyait de ramener le déficit public
+    à 3,7 % du PIB en 2030, soit une réduction plus progressive que celle du gouvernement de l'époque. (sources
+    S25)
 - id: A13
-  auteur: expert-extreme-droite
+  auteur: extreme-droite
   question: Q43
   position: contre
-  enonce: 'Annuler ou geler cette dette ne réduirait pas durablement la charge nette de l''État : ce que l''État
-    économise en intérêts, il le perd en recettes versées par la Banque de France.'
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    la Banque de France verse à l'État un impôt et des dividendes (36,8 Md€ depuis 2015) qui dépendent de son résultat,
+    lequel inclut les intérêts reçus ; l'ampleur de ce recul n'est pas chiffrée par une source du dossier.
   raisonnement: 'L''État est à la fois débiteur (intérêts payés) et bénéficiaire du résultat de la Banque de France
     (dividende, impôt sur les bénéfices). Si les intérêts disparaissent, le résultat de la Banque de France baisse
     d''autant, donc ses versements à l''État aussi : sur l''ensemble État plus Banque de France, le gain serait
     faible ou nul. La Banque de France verse déjà à l''État des montants importants (36,8 Md€ depuis 2015), qui
     seraient réduits.'
-  porte_par:
-  - qui: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23 août 2026, rapportée par
-      la presse)
-    parti: RN
-    source: S29
+  porte_par: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23 août 2026, rapportée
+    par la presse) (RN, S29)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F41
-    enonce: Les intérêts que l'État paie à la Banque de France sur les titres qu'elle détient contribuent à son
-      résultat, dont une part revient à l'État (dividende et impôt).
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: 'La seule source (site de niveau 4, analyse assistée par IA, 24 août 2026) est non conforme : elle
-      rapporte un argument de Jordan Bardella sans établir le mécanisme ni mentionner l''impôt. Les documents de
-      la Banque de France au dossier (F19, F20, F21) établissent que la Banque verse un impôt et des dividendes
-      à l''État et que son revenu monétaire est partagé dans l''Eurosystème, mais aucune source rattachée n''isole
-      la part due aux intérêts sur les titres de l''État.'
-    sources:
-    - source: S29
-      extrait: Il a argué que la Banque de France étant détenue par l'État, les intérêts versés sont reversés sous
-        forme de dividendes.
-      statut_source: non-conforme
-  - id: F19
-    enonce: Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard d'euros avant
-      d'atteindre un résultat net de 8,1 milliards (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le document de la Banque de France sur les comptes annuels de l'exercice 2025 (mars 2026) indique
-      un impôt sur les bénéfices de 1,5 Md€ et un résultat net de 8,1 Md€ ; il concorde avec le communiqué du 24
-      mars 2026 (F18).
-    sources:
-    - source: S7
-      extrait: Après paiement de l'impôt sur les bénéfices (1,5 milliard d'euros), le résultat net ressort à 8,1
-        milliards d'euros.
-      statut_source: conforme
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
+  - 'F41 [estimation, Pas d''estimation fiable] Les intérêts que l''État paie à la Banque de France sur les titres
+    qu''elle détient contribuent à son résultat, dont une part revient à l''État (dividende et impôt). — La seule
+    source (site de niveau 4, analyse assistée par IA, 24 août 2026) est non conforme : elle rapporte un argument
+    de Jordan Bardella sans établir le mécanisme ni mentionner l''impôt. Les documents de la Banque de France au
+    dossier (F19, F20, F21) établissent que la Banque verse un impôt et des dividendes à l''État et que son revenu
+    monétaire est partagé dans l''Eurosystème, mais aucune source rattachée n''isole la part due aux intérêts sur
+    les titres de l''État. (sources S29)'
+  - F19 [fait, Vrai] Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard
+    d'euros avant d'atteindre un résultat net de 8,1 milliards (Q43). (sources S7)
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
 - id: A14
-  auteur: expert-extreme-droite
+  auteur: extreme-droite
   question: Q47
   position: contre
   enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable : la voie retenue par
@@ -1654,69 +496,20 @@ arguments_des_autres:
     la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition du
     retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une annulation
     de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
-  porte_par:
-  - qui: Marine Le Pen, candidate du RN à la présidentielle 2027
-    parti: RN
-    source: S31
-  - qui: Marine Le Pen, tribune sur la règle d'or (1er octobre 2026)
-    parti: RN
-    source: S32
+  porte_par: Marine Le Pen, candidate du RN à la présidentielle 2027 (RN, S31); Marine Le Pen, tribune sur la règle
+    d'or (1er octobre 2026) (RN, S32)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F22
-    enonce: En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards d'euros,
-      soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43).
-    type: fait
-    verdict: Vrai
-    explication: La synthèse du rapport de la Cour des comptes sur la situation et les perspectives des finances
-      publiques (juin 2026) chiffre la charge de la dette de l'ensemble des administrations publiques à 65,7 Md€
-      en 2025, soit 2,2 points de PIB, en hausse de plus de 9 % par rapport à 2024.
-    sources:
-    - source: S11
-      extrait: 65,7 Md€ (2,2 points de PIB), soit une
-      statut_source: conforme
-  - id: F37
-    enonce: Le RN propose, dans son plan présenté le 6 octobre 2026, 140 milliards d'euros d'économies d'ici 2032,
-      pour ramener la dette de 121 % du PIB en 2027 à 112 % en 2032.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : Public Sénat (Stéphane Duguet, 6 octobre 2026) rapporte que le plan présenté
-      ce jour-là par le RN prévoit 140 milliards d''euros d''économies d''ici 2032 et une dette ramenée de 121 %
-      du PIB en 2027 à 112 % en 2032. Le verdict porte sur le contenu annoncé, pas sur sa réalisation.'
-    sources:
-    - source: S31
-      extrait: Un « effort radical » assumé par Marine Le Pen pour faire passer la dette française de « 121 % en
-        2027 à 112 % en 2032 ».
-      statut_source: conforme
-  - id: F38
-    enonce: Le plan du RN présenté le 6 octobre 2026 attend de la maîtrise de l'immigration 15 milliards d'euros
-      d'économies en 2027.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : le même article (6 octobre 2026) indique que le plan attend de la maîtrise
-      de l''immigration 15 milliards d''euros d''économies en 2027 et 29 milliards en année pleine. Le chiffrage
-      est celui du RN, non évalué par une institution.'
-    sources:
-    - source: S31
-      extrait: on retrouve l'immigration qui permettrait d'économiser 15 milliards d'euros en 2027 et « 29 milliards
-        en année pleine »
-      statut_source: conforme
-  - id: F39
-    enonce: Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum, pour
-      limiter le déficit public.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : LCP (Maxence Kagni, 2 octobre 2026), d''après une tribune de Marine Le
-      Pen dans L''Opinion du 1er octobre 2026, rapporte qu''elle veut inscrire une règle d''or budgétaire fixant
-      un déficit maximum dans la Constitution, par référendum.'
-    sources:
-    - source: S32
-      extrait: veut instaurer une "règle d'or budgétaire" qu'elle proposera aux Français d'approuver par référendum,
-        si elle est élue à l'Élysée.
-      statut_source: conforme
+  - F22 [fait, Vrai] En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards
+    d'euros, soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43). (sources S11)
+  - F37 [fait, Vrai] Le RN propose, dans son plan présenté le 6 octobre 2026, 140 milliards d'euros d'économies
+    d'ici 2032, pour ramener la dette de 121 % du PIB en 2027 à 112 % en 2032. (sources S31)
+  - F38 [fait, Vrai] Le plan du RN présenté le 6 octobre 2026 attend de la maîtrise de l'immigration 15 milliards
+    d'euros d'économies en 2027. (sources S31)
+  - F39 [fait, Vrai] Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum,
+    pour limiter le déficit public. (sources S32)
 - id: A15
-  auteur: expert-extreme-droite
+  auteur: extreme-droite
   question: Q46
   position: nuance
   enonce: Le RN veut que les choix budgétaires relèvent du peuple français, par la primauté du droit national et
@@ -1727,48 +520,20 @@ arguments_des_autres:
     européennes. La proposition de loi constitutionnelle de 2024 affirme en parallèle la primauté du droit national
     sur le droit européen. Ces deux textes situent la décision au niveau national, avec une discipline budgétaire,
     sans affirmer que l''État puisse ne pas honorer sa dette.'
-  porte_par:
-  - qui: Marine Le Pen, présidente du groupe RN à l'Assemblée nationale et candidate à la présidentielle 2027
-    parti: RN
-    source: S32
-  - qui: Marine Le Pen, proposition de loi constitutionnelle de 2024
-    parti: RN
-    source: S33
+  porte_par: Marine Le Pen, présidente du groupe RN à l'Assemblée nationale et candidate à la présidentielle 2027
+    (RN, S32); Marine Le Pen, proposition de loi constitutionnelle de 2024 (RN, S33)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F39
-    enonce: Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum, pour
-      limiter le déficit public.
-    type: fait
-    verdict: Vrai
-    explication: 'Déclaration vérifiée : LCP (Maxence Kagni, 2 octobre 2026), d''après une tribune de Marine Le
-      Pen dans L''Opinion du 1er octobre 2026, rapporte qu''elle veut inscrire une règle d''or budgétaire fixant
-      un déficit maximum dans la Constitution, par référendum.'
-    sources:
-    - source: S32
-      extrait: veut instaurer une "règle d'or budgétaire" qu'elle proposera aux Français d'approuver par référendum,
-        si elle est élue à l'Élysée.
-      statut_source: conforme
-  - id: F40
-    enonce: La proposition de loi constitutionnelle déposée par Marine Le Pen en 2024 met fin à la primauté du droit
-      européen sur le droit national.
-    type: fait
-    verdict: Plutôt vrai
-    explication: 'La proposition de loi constitutionnelle n° 2120 du 25 janvier 2024 (Assemblée nationale) vise
-      à poser « la supériorité de la Constitution sur toute autre norme, même internationale ». La formule « met
-      fin à la primauté du droit européen » est la description qu''en fait l''AFP (5 septembre 2026), pas le texte
-      lui-même : le sens est proche, la formulation est une interprétation.'
-    sources:
-    - source: S33
-      extrait: met fin à "la primauté" du droit européen sur le droit national, à la base de la construction européenne...
-      statut_source: conforme
-    - source: S45
-      extrait: de poser solennellement le principe de supériorité de la Constitution sur toute autre norme, même
-        internationale
-      statut_source: conforme
+  - F39 [fait, Vrai] Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum,
+    pour limiter le déficit public. (sources S32)
+  - 'F40 [fait, Plutôt vrai] La proposition de loi constitutionnelle déposée par Marine Le Pen en 2024 met fin à
+    la primauté du droit européen sur le droit national. — La proposition de loi constitutionnelle n° 2120 du 25
+    janvier 2024 (Assemblée nationale) vise à poser « la supériorité de la Constitution sur toute autre norme, même
+    internationale ». La formule « met fin à la primauté du droit européen » est la description qu''en fait l''AFP
+    (5 septembre 2026), pas le texte lui-même : le sens est proche, la formulation est une interprétation. (sources
+    S33, S45)'
 - id: A16
-  auteur: expert-extreme-gauche
+  auteur: extreme-gauche
   question: Q43
   position: contre
   enonce: 'Annuler la part détenue par la Banque de France ne réduirait pas durablement la charge réelle de l''État
@@ -1778,52 +543,17 @@ arguments_des_autres:
     leur suppression retire autant de recettes que de dépenses : le gain net est faible ou nul. L''effort d''annulation
     viserait donc la part de la dette qui ne coûte presque rien, et laisserait intacte celle qui coûte (créanciers
     privés).'
-  porte_par:
-  - qui: Tendance CLAIRE (courant du NPA)
-    parti: NPA
-    source: S38
+  porte_par: Tendance CLAIRE (courant du NPA) (NPA, S38)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
-  - id: F19
-    enonce: Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard d'euros avant
-      d'atteindre un résultat net de 8,1 milliards (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le document de la Banque de France sur les comptes annuels de l'exercice 2025 (mars 2026) indique
-      un impôt sur les bénéfices de 1,5 Md€ et un résultat net de 8,1 Md€ ; il concorde avec le communiqué du 24
-      mars 2026 (F18).
-    sources:
-    - source: S7
-      extrait: Après paiement de l'impôt sur les bénéfices (1,5 milliard d'euros), le résultat net ressort à 8,1
-        milliards d'euros.
-      statut_source: conforme
-  - id: F17
-    enonce: Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
-      de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le tableau du rapport du Sénat (24 septembre 2025) attribue 24,4 % de la dette négociable de l'État,
-      au premier trimestre 2025 et en valeur de marché, à la catégorie « autres français (dont la Banque de France
-      pour le compte de la BCE) ». L'énoncé reprend fidèlement ce périmètre.
-    sources:
-    - source: S10
-      extrait: Autres français (dont la Banque de France pour le compte de la BCE) 24,4 %
-      statut_source: conforme
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
+  - F19 [fait, Vrai] Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard
+    d'euros avant d'atteindre un résultat net de 8,1 milliards (Q43). (sources S7)
+  - F17 [fait, Vrai] Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour
+    le compte de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41). (sources S10)
 - id: A17
-  auteur: expert-extreme-gauche
+  auteur: extreme-gauche
   question: Q45
   position: contre
   enonce: 'Un État ne doit pas rembourser une dette construite par des cadeaux fiscaux et des aides aux plus riches
@@ -1833,26 +563,13 @@ arguments_des_autres:
     qu'à la population, l'obligation de la rembourser intégralement ne va pas de soi. Le critère n'est pas l'identité
     du créancier mais la légitimité de la dette, que l'audit doit établir ; ce critère conduit à ne pas rembourser
     les dettes illégitimes, banque centrale ou non.
-  porte_par:
-  - qui: NPA (tract sur la dette)
-    parti: NPA
-    source: S37
+  porte_par: NPA (tract sur la dette) (NPA, S37)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F43
-    enonce: Une dette construite par des cadeaux fiscaux aux plus riches et aux grandes entreprises est illégitime
-      et n'a pas à être payée.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position du NPA (tract de fin 2011) selon laquelle une dette
-      issue d''allègements accordés aux plus riches et aux grandes entreprises est illégitime.'
-    sources:
-    - source: S37
-      extrait: n’a pas à être payée
-      statut_source: conforme
+  - F43 [valeur, sans verdict] Une dette construite par des cadeaux fiscaux aux plus riches et aux grandes entreprises
+    est illégitime et n'a pas à être payée. (sources S37)
 - id: A18
-  auteur: expert-extreme-gauche
+  auteur: extreme-gauche
   question: Q47
   position: nuance
   enonce: Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides
@@ -1862,29 +579,17 @@ arguments_des_autres:
     exonérations selon Lutte ouvrière), alors dégager des marges en supprimant ces aides et en taxant les profits
     est préférable aux économies sur les services publics, que cette position refuse. Elle ne retient pas l'annulation
     comme voie principale.
-  porte_par:
-  - qui: Lutte ouvrière, campagne de Nathalie Arthaud
-    parti: LO
-    source: S35
+  porte_par: Lutte ouvrière, campagne de Nathalie Arthaud (LO, S35)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F42
-    enonce: Les aides publiques et exonérations versées chaque année aux entreprises privées atteignent 270 milliards
-      d'euros (chiffre cité par Lutte ouvrière, en 2026).
-    type: fait
-    verdict: Invérifiable
-    explication: 'La brochure de Lutte ouvrière (juin 2026) cite bien 270 milliards, sans origine ni méthode. Les
-      estimations publiques connues dépendent du périmètre retenu : la commission d''enquête du Sénat (juillet 2025)
-      retient 211 milliards d''euros pour 2023, présentés comme un plancher, et le Haut-commissariat à la stratégie
-      et au plan 111,9 milliards (selon Public Sénat, 15 septembre 2025). Aucune source officielle ouverte ne donne
-      270 milliards.'
-    sources:
-    - source: S35
-      extrait: 270 milliards d’aides publiques et d’exonérations diverses versés chaque année
-      statut_source: conforme
+  - 'F42 [fait, Invérifiable] Les aides publiques et exonérations versées chaque année aux entreprises privées atteignent
+    270 milliards d''euros (chiffre cité par Lutte ouvrière, en 2026). — La brochure de Lutte ouvrière (juin 2026)
+    cite bien 270 milliards, sans origine ni méthode. Les estimations publiques connues dépendent du périmètre retenu
+    : la commission d''enquête du Sénat (juillet 2025) retient 211 milliards d''euros pour 2023, présentés comme
+    un plancher, et le Haut-commissariat à la stratégie et au plan 111,9 milliards (selon Public Sénat, 15 septembre
+    2025). Aucune source officielle ouverte ne donne 270 milliards. (sources S35)'
 - id: A19
-  auteur: expert-extreme-gauche
+  auteur: extreme-gauche
   question: Q47
   position: pour
   enonce: 'L''annulation de la dette publique est préférable à l''austérité : elle libère l''argent des intérêts
@@ -1894,296 +599,105 @@ arguments_des_autres:
     (le tract NPA les chiffre à l'équivalent d'un million d'emplois en 2011), alors l'annulation dégage plus de
     marges que des économies qui frappent la population. La part détenue par la banque centrale étant reversée à
     l'État, annuler seulement celle-ci est jugé une diversion.
-  porte_par:
-  - qui: NPA (tract sur la dette) ; Tendance CLAIRE (courant du NPA)
-    parti: NPA
-    source: S37
+  porte_par: NPA (tract sur la dette) ; Tendance CLAIRE (courant du NPA) (NPA, S37)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
 - id: A20
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q41
   position: pour
-  enonce: 'Le gel en dette perpétuelle à taux nul de titres que l''Eurosystème détient déjà peut se faire dans le
-    cadre des traités actuels : l''article 123 interdit crédits et achats directs aux États, pas le sort ultérieur
-    de titres achetés sur le marché.'
+  enonce: 'Aucun texte des traités n''interdit expressément le gel en dette perpétuelle à taux nul de titres que
+    l''Eurosystème détient déjà : l''article 123 interdit crédits et achats directs aux États, pas le sort ultérieur
+    de titres achetés sur le marché. La Cour de justice n''a pas tranché ce cas et des responsables publics le jugent
+    contraire aux traités : la compatibilité est une interprétation juridique, que LFI soutient.'
   raisonnement: 'Les titres ont été achetés sur le marché secondaire (F44), pratique que la Cour de justice a jugée
     compatible avec l''article 123 sous garanties (F8, F9, F10). Le texte interdit le crédit et l''acquisition directe
     (F1, F2) mais ne vise pas expressément la conversion de titres déjà au bilan (F45). La décision serait prise
     par le conseil des gouverneurs de la BCE (F5), donc sans instruction d''un gouvernement (F3) : la mesure relève
     de la politique du bilan de la banque centrale, pas d''un crédit à l''État.'
-  porte_par:
-  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
-    parti: LFI
-    source: S39
-  - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
-    parti: LFI
-    source: S40
+  porte_par: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
+    (LFI, S39); Jean-Luc Mélenchon, livret Dette (6 juin 2022) (LFI, S40)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F44
-    enonce: Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire ont été achetés
-      sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
-    type: fait
-    verdict: Vrai
-    explication: L'article 123 TFUE interdit l'acquisition directe de titres auprès des États (F2, S1), et les programmes
-      d'achat de politique monétaire validés par la CJUE portent sur le marché secondaire (F8, F10). Public Sénat
-      (25 août 2026) le confirme pour les achats de 2010 et de 2020.
-    sources:
-    - source: S19
-      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
-      statut_source: conforme
-  - id: F45
-    enonce: L'article 123 TFUE et l'article 21 du protocole n° 4 interdisent les crédits et l'acquisition directe
-      de titres auprès des États ; ils ne mentionnent pas expressément l'annulation ou la conversion en dette perpétuelle
-      de titres déjà inscrits au bilan d'une banque centrale.
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE et l'article 21.1 du protocole n° 4 (version consolidée de
-      2016) interdisent les crédits aux administrations publiques et l'acquisition directe de leurs titres. Aucun
-      des deux textes ne mentionne l'annulation ni la conversion de titres déjà détenus ; leur interprétation sur
-      ce point n'a pas été tranchée par la CJUE.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F8
-    enonce: Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé à adopter
-      un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le dispositif de l'arrêt Gauweiler (CJUE, grande chambre, 16 juin 2015, C-62/14) dit pour droit
-      que les articles 119, 123, paragraphe 1, et 127 du TFUE autorisent le SEBC à adopter un programme d'achat
-      d'obligations souveraines sur les marchés secondaires. L'autorisation porte sur un programme « tel que celui
-      annoncé » en septembre 2012 (opérations monétaires sur titres), avec les conditions qui l'encadrent.
-    sources:
-    - source: S2
-      extrait: doivent être interprétés en ce sens qu'ils autorisent le Système européen de banques centrales (SEBC)
-        à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires
-      statut_source: conforme
-  - id: F9
-    enonce: Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier ses interventions
-      avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Au point 107 de l'arrêt Weiss (CJUE, grande chambre, 11 décembre 2018, C-493/17), la Cour indique
-      que le SEBC doit entourer son intervention de garanties suffisantes pour la concilier avec l'interdiction
-      du financement monétaire de l'article 123 du TFUE.
-    sources:
-    - source: S3
-      extrait: le SEBC doit entourer son intervention de garanties suffisantes pour concilier celle-ci avec l'interdiction
-        du financement monétaire découlant de l'article 123 TFUE
-      statut_source: conforme
-  - id: F10
-    enonce: Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé aucun élément
-      affectant la validité de la décision (UE) 2015/774 de la BCE (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le point 1 du dispositif de l'arrêt Weiss (C-493/17) dit pour droit que l'examen des questions
-      n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de la BCE du 4 mars
-      2015, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
-    sources:
-    - source: S3
-      extrait: L'examen des première à quatrième questions préjudicielles n'a révélé aucun élément de nature à affecter
-        la validité de la décision (UE) 2015/774 de la Banque centrale européenne
-      statut_source: conforme
+  - F44 [fait, Vrai] Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire
+    ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
+    (sources S19)
+  - F45 [fait, Vrai] L'article 123 TFUE et l'article 21 du protocole n° 4 interdisent les crédits et l'acquisition
+    directe de titres auprès des États ; ils ne mentionnent pas expressément l'annulation ou la conversion en dette
+    perpétuelle de titres déjà inscrits au bilan d'une banque centrale. (sources S1)
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F8 [fait, Vrai] Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé
+    à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41). (sources S2)
+  - F9 [fait, Vrai] Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier
+    ses interventions avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41). (sources S3)
+  - F10 [fait, Vrai] Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé
+    aucun élément affectant la validité de la décision (UE) 2015/774 de la BCE (Q41). (sources S3)
 - id: A21
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q41
   position: contre
-  enonce: Les traités actuels s'opposent à ce que la BCE efface la dette des États ; l'annulation exige une démarche
-    auprès des institutions et des autres pays européens, et un changement des traités.
+  enonce: 'Le PCF juge que l''annulation de la part détenue par la banque centrale passe par une démarche auprès
+    des institutions et des autres pays européens et par un changement des règles européennes, plutôt que par une
+    décision française seule. Que les traités actuels l''interdisent n''est pas un fait établi (aucun texte ne la
+    mentionne, la Cour ne l''a pas tranché) : c''est la raison pour laquelle le PCF demande de les faire évoluer.'
   raisonnement: 'Les traités interdisent à la BCE de financer directement les États (F1, F2) ; c''est pourquoi elle
     a racheté la dette auprès des banques et des assurances (F44), ce qui maintient la dépendance aux marchés. L''annulation
     partielle se heurte donc aux traités : les élus communistes demandent de les changer et de saisir la Commission
     européenne et les autres États, plutôt que d''agir seul.'
-  porte_par:
-  - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
-    parti: PCF
-    source: S41
+  porte_par: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021 (PCF, S41)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
-  - id: F44
-    enonce: Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire ont été achetés
-      sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
-    type: fait
-    verdict: Vrai
-    explication: L'article 123 TFUE interdit l'acquisition directe de titres auprès des États (F2, S1), et les programmes
-      d'achat de politique monétaire validés par la CJUE portent sur le marché secondaire (F8, F10). Public Sénat
-      (25 août 2026) le confirme pour les achats de 2010 et de 2020.
-    sources:
-    - source: S19
-      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
-      statut_source: conforme
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
+  - F44 [fait, Vrai] Les titres de dette française détenus par l'Eurosystème au titre de la politique monétaire
+    ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
+    (sources S19)
 - id: A22
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q42
   position: contre
-  enonce: 'L''opération ne ferait pas monter les taux : elle ne touche que des titres détenus par la banque centrale,
-    tandis que les créanciers privés continuent d''être remboursés intégralement.'
+  enonce: Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème
+    et que les créanciers privés sont remboursés intégralement. Il s'agit d'une estimation de ses auteurs, contestée
+    par des économistes cités par la presse ; aucune institution n'a chiffré l'effet sur les taux.
   raisonnement: Le taux demandé à la France rémunère le risque de non-remboursement pour les investisseurs de marché.
     La proposition ne vise que la part de l'Eurosystème (F46, F16, F17) et exclut explicitement un défaut de paiement
     envers les autres créanciers, jugé par ses auteurs désastreux. Ce risque n'étant pas modifié, le coût d'emprunt
     ne bouge pas (F47).
-  porte_par:
-  - qui: Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026
-    parti: LFI
-    source: S19
-  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (défaut de paiement
-      écarté)
-    parti: LFI
-    source: S39
+  porte_par: Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026 (LFI, S19); Jean-Luc Mélenchon
+    et les députés LFI signataires de la proposition de résolution n° 2914 (défaut de paiement écarté) (LFI, S39)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F46
-    enonce: La proposition vise la part de la dette française détenue par la Banque de France pour le compte de
-      l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers.
-    type: fait
-    verdict: Plutôt vrai
-    explication: Public Sénat (25 août 2026) établit que la proposition de Jean-Luc Mélenchon vise les titres détenus
-      par la Banque de France pour le compte de la BCE (18 % dans le texte, 20 % dans le chapeau). Que les autres
-      créanciers ne soient pas concernés n'est que sous-entendu, par un économiste cité dans l'article.
-    sources:
-    - source: S19
-      extrait: l’annulation des 18 % de dette française détenus par la Banque de France pour le compte de la Banque
-        centrale européenne (BCE)
-      statut_source: conforme
-  - id: F47
-    enonce: L'annulation ou le gel en dette perpétuelle de la dette détenue par l'Eurosystème n'aurait pas d'effet
-      sur le coût auquel la France emprunte.
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: La seule source rapporte l'avis de Jean-Luc Mélenchon (« aucun impact économique et aucun impact
-      financier »), que l'article (Public Sénat, 25 août 2026) dit contesté par des économistes. Aucune institution
-      n'a publié d'estimation chiffrée de l'effet sur le coût d'emprunt dans le dossier.
-    sources:
-    - source: S19
-      extrait: aucun impact économique et aucun impact financier
-      statut_source: conforme
-  - id: F16
-    enonce: L'Eurosystème détient près d'un quart des OAT au titre de la politique monétaire (données du premier
-      trimestre 2025, rapport du Sénat) (Q41).
-    type: fait
-    verdict: Plutôt vrai
-    explication: 'Le rapport d''information de la commission des finances du Sénat (24 septembre 2025) écrit au
-      conditionnel que l''Eurosystème « détiendrait » près d''un quart des OAT, en commentant la détention au premier
-      trimestre 2025. Le chiffre sous-jacent (24,4 %) porte sur une catégorie « autres français » qui inclut la
-      Banque de France pour le compte de la BCE mais n''est pas limitée à elle : l''ordre de grandeur est sourcé,
-      la précision est moindre que ne le suggère l''énoncé.'
-    sources:
-    - source: S10
-      extrait: L'Eurosystème détiendrait près d'un quart des OAT à ce titre .
-      statut_source: conforme
-  - id: F17
-    enonce: Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
-      de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41).
-    type: fait
-    verdict: Vrai
-    explication: Le tableau du rapport du Sénat (24 septembre 2025) attribue 24,4 % de la dette négociable de l'État,
-      au premier trimestre 2025 et en valeur de marché, à la catégorie « autres français (dont la Banque de France
-      pour le compte de la BCE) ». L'énoncé reprend fidèlement ce périmètre.
-    sources:
-    - source: S10
-      extrait: Autres français (dont la Banque de France pour le compte de la BCE) 24,4 %
-      statut_source: conforme
+  - F46 [fait, Plutôt vrai] La proposition vise la part de la dette française détenue par la Banque de France pour
+    le compte de l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers. — Public Sénat
+    (25 août 2026) établit que la proposition de Jean-Luc Mélenchon vise les titres détenus par la Banque de France
+    pour le compte de la BCE (18 % dans le texte, 20 % dans le chapeau). Que les autres créanciers ne soient pas
+    concernés n'est que sous-entendu, par un économiste cité dans l'article. (sources S19)
+  - F47 [estimation, Pas d'estimation fiable] L'annulation ou le gel en dette perpétuelle de la dette détenue par
+    l'Eurosystème n'aurait pas d'effet sur le coût auquel la France emprunte. — La seule source rapporte l'avis
+    de Jean-Luc Mélenchon (« aucun impact économique et aucun impact financier »), que l'article (Public Sénat,
+    25 août 2026) dit contesté par des économistes. Aucune institution n'a publié d'estimation chiffrée de l'effet
+    sur le coût d'emprunt dans le dossier. (sources S19)
+  - 'F16 [fait, Plutôt vrai] L''Eurosystème détient près d''un quart des OAT au titre de la politique monétaire
+    (données du premier trimestre 2025, rapport du Sénat) (Q41). — Le rapport d''information de la commission des
+    finances du Sénat (24 septembre 2025) écrit au conditionnel que l''Eurosystème « détiendrait » près d''un quart
+    des OAT, en commentant la détention au premier trimestre 2025. Le chiffre sous-jacent (24,4 %) porte sur une
+    catégorie « autres français » qui inclut la Banque de France pour le compte de la BCE mais n''est pas limitée
+    à elle : l''ordre de grandeur est sourcé, la précision est moindre que ne le suggère l''énoncé. (sources S10)'
+  - F17 [fait, Vrai] Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour
+    le compte de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41). (sources S10)
 - id: A23
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q43
   position: nuance
   enonce: 'L''intérêt de l''opération tient d''abord à l''allègement du stock de dette et du besoin de refinancement
@@ -2194,144 +708,45 @@ arguments_des_autres:
     l''Eurosystème ne réinvestit plus les titres arrivés à échéance (F48) ; sans conversion, l''État devrait remplacer
     ces titres par de la dette de marché au taux du moment, alors que la charge de la dette est déjà de 65,7 milliards
     en 2025 (F22). Le gel en dette perpétuelle vise à soulager les États de cette charge (F50).'
-  porte_par:
-  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
-    parti: LFI
-    source: S39
-  - qui: Jean-Luc Mélenchon, déclarations d'août 2026 (opération sans coût pour personne)
-    parti: LFI
-    source: S19
+  porte_par: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
+    (LFI, S39); Jean-Luc Mélenchon, déclarations d'août 2026 (opération sans coût pour personne) (LFI, S19)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F48
-    enonce: Les réinvestissements des titres arrivant à échéance au titre du programme d'achats d'urgence pandémique
-      (PEPP) de l'Eurosystème ont pris fin à la fin de 2024.
-    type: fait
-    verdict: Vrai
-    explication: Le blog de la BCE (Imène Rahmouni-Rousseau et Isabel Schnabel, 29 avril 2025) indique que les réinvestissements
-      au titre du PEPP ont pris fin à la fin de 2024. La page PEPP de la BCE montre des achats nets négatifs en
-      octobre 2026, ce qui concorde.
-    sources:
-    - source: S42
-      extrait: reinvestments under the pandemic emergency purchase programme (PEPP) came to an end
-      statut_source: conforme
-  - id: F50
-    enonce: Le gel en dette perpétuelle de titres détenus par la banque centrale a pour objectif de soulager les
-      États de la charge de la dette.
-    type: fait
-    verdict: Vrai
-    explication: La proposition de résolution n° 2914 (11 mai 2020, Jean-Luc Mélenchon et 16 députés) présente cette
-      mesure comme nécessaire pour soulager les États de la charge de la dette. Le verdict porte sur l'objectif
-      déclaré par ses auteurs, pas sur un effet constaté.
-    sources:
-    - source: S39
-      extrait: Considérant la nécessité de soulager les États de la charge de la dette afin de faciliter leur retour
-        dans le financement des infrastructures collectives
-      statut_source: conforme
-  - id: F18
-    enonce: Le 24 mars 2026, la Banque de France annonce un bénéfice net de 8,1 milliards d'euros pour l'exercice
-      2025 (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le communiqué de la Banque de France du 24 mars 2026 annonce un bénéfice net de 8,1 Md€ pour l'exercice
-      2025.
-    sources:
-    - source: S8
-      extrait: La Banque de France enregistre un bénéfice net de 8,1 Mds €.
-      statut_source: conforme
-  - id: F19
-    enonce: Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard d'euros avant
-      d'atteindre un résultat net de 8,1 milliards (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le document de la Banque de France sur les comptes annuels de l'exercice 2025 (mars 2026) indique
-      un impôt sur les bénéfices de 1,5 Md€ et un résultat net de 8,1 Md€ ; il concorde avec le communiqué du 24
-      mars 2026 (F18).
-    sources:
-    - source: S7
-      extrait: Après paiement de l'impôt sur les bénéfices (1,5 milliard d'euros), le résultat net ressort à 8,1
-        milliards d'euros.
-      statut_source: conforme
-  - id: F20
-    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
-      2015 (Q43).'
-    type: fait
-    verdict: Vrai
-    explication: 'Le document de la Banque de France sur l''exercice 2025 (mars 2026) indique 36,8 Md€ versés au
-      budget de l''État depuis 2015. Ce total couvre 2015-2025 et réunit impôt sur les sociétés, dividendes et restitution
-      d''excédents : la fiche doit préciser cette composition.'
-    sources:
-    - source: S7
-      extrait: avec un total de 36,8 milliards d'euros versés depuis 2015
-      statut_source: conforme
-  - id: F21
-    enonce: La Banque de France, contributrice nette au partage du revenu monétaire entre 2015 et 2022, est devenue
-      bénéficiaire nette en 2023-2024 (Q43).
-    type: fait
-    verdict: Vrai
-    explication: Le Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) indique, d'après les données
-      des banques centrales nationales, que la Banque de France a été contributrice nette au partage du revenu monétaire
-      de 2015 à 2022, puis bénéficiaire nette en 2023-2024.
-    sources:
-    - source: S9
-      extrait: La Banque de France, contributrice nette au titre du partage du revenu monétaire entre 2015 et 2022,
-        est devenue bénéficiaire nette en 2023-2024
-      statut_source: conforme
-  - id: F22
-    enonce: En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards d'euros,
-      soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43).
-    type: fait
-    verdict: Vrai
-    explication: La synthèse du rapport de la Cour des comptes sur la situation et les perspectives des finances
-      publiques (juin 2026) chiffre la charge de la dette de l'ensemble des administrations publiques à 65,7 Md€
-      en 2025, soit 2,2 points de PIB, en hausse de plus de 9 % par rapport à 2024.
-    sources:
-    - source: S11
-      extrait: 65,7 Md€ (2,2 points de PIB), soit une
-      statut_source: conforme
+  - F48 [fait, Vrai] Les réinvestissements des titres arrivant à échéance au titre du programme d'achats d'urgence
+    pandémique (PEPP) de l'Eurosystème ont pris fin à la fin de 2024. (sources S42)
+  - F50 [fait, Vrai] Le gel en dette perpétuelle de titres détenus par la banque centrale a pour objectif de soulager
+    les États de la charge de la dette. (sources S39)
+  - F18 [fait, Vrai] Le 24 mars 2026, la Banque de France annonce un bénéfice net de 8,1 milliards d'euros pour
+    l'exercice 2025 (Q43). (sources S8)
+  - F19 [fait, Vrai] Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard
+    d'euros avant d'atteindre un résultat net de 8,1 milliards (Q43). (sources S7)
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43). (sources S7)'
+  - F21 [fait, Vrai] La Banque de France, contributrice nette au partage du revenu monétaire entre 2015 et 2022,
+    est devenue bénéficiaire nette en 2023-2024 (Q43). (sources S9)
+  - F22 [fait, Vrai] En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards
+    d'euros, soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43). (sources S11)
 - id: A24
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q43
   position: pour
-  enonce: L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières
-    importantes, car elle supprime des intérêts qui pèsent sur le budget.
+  enonce: Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières,
+    dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend des bénéfices
+    que la Banque de France lui reverse (voir A23).
   raisonnement: La charge d'intérêts de la dette publique est élevée (F22) et la part détenue par la banque centrale
     est ancienne et sans remboursement attendu. L'annuler ou la geler en dette perpétuelle supprime le service et
     le principal de ces titres, d'où des marges financières immédiates (F49).
-  porte_par:
-  - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
-    parti: PCF
-    source: S41
+  porte_par: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021 (PCF, S41)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F49
-    enonce: L'annulation de la part de la dette détenue par la banque centrale dégagerait immédiatement des marges
-      financières importantes pour l'État.
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: La seule source est l'intervention de Fabien Roussel à l'Assemblée nationale (22 mars 2021), sans
-      chiffrage ni méthode. Aucune estimation d'institution sur les marges que dégagerait l'annulation n'est au
-      dossier.
-    sources:
-    - source: S41
-      extrait: de dégager immédiatement des marges financières
-      statut_source: conforme
-  - id: F22
-    enonce: En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards d'euros,
-      soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43).
-    type: fait
-    verdict: Vrai
-    explication: La synthèse du rapport de la Cour des comptes sur la situation et les perspectives des finances
-      publiques (juin 2026) chiffre la charge de la dette de l'ensemble des administrations publiques à 65,7 Md€
-      en 2025, soit 2,2 points de PIB, en hausse de plus de 9 % par rapport à 2024.
-    sources:
-    - source: S11
-      extrait: 65,7 Md€ (2,2 points de PIB), soit une
-      statut_source: conforme
+  - F49 [estimation, Pas d'estimation fiable] L'annulation de la part de la dette détenue par la banque centrale
+    dégagerait immédiatement des marges financières importantes pour l'État. — La seule source est l'intervention
+    de Fabien Roussel à l'Assemblée nationale (22 mars 2021), sans chiffrage ni méthode. Aucune estimation d'institution
+    sur les marges que dégagerait l'annulation n'est au dossier. (sources S41)
+  - F22 [fait, Vrai] En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards
+    d'euros, soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43). (sources S11)
 - id: A25
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q44
   position: contre
   enonce: 'Une décision de gel prise par le conseil des gouverneurs lui-même n''atteindrait ni l''indépendance de
@@ -2341,53 +756,18 @@ arguments_des_autres:
     des gouvernements (F3), et réserve la décision au conseil des gouverneurs (F5). Si ce conseil décide, aucune
     instruction n''est donnée. Quant à la crédibilité, les titres détenus ne seront de toute façon pas remboursés
     (F53) : constater cette réalité ne change pas le bilan réel de la banque centrale.'
-  porte_par:
-  - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
-    parti: LFI
-    source: S40
-  - qui: Jean-Luc Mélenchon, août 2026 (opération « jeu d'écriture dans le bilan »)
-    parti: LFI
-    source: S19
+  porte_par: Jean-Luc Mélenchon, livret Dette (6 juin 2022) (LFI, S40); Jean-Luc Mélenchon, août 2026 (opération
+    « jeu d'écriture dans le bilan ») (LFI, S19)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F3
-    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
-      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
-    type: fait
-    verdict: Vrai
-    explication: L'article 130 du TFUE, repris à l'article 7 des statuts du SEBC, interdit à la BCE, aux banques
-      centrales nationales et aux membres de leurs organes de décision de solliciter ou d'accepter des instructions,
-      notamment des gouvernements des États membres.
-    sources:
-    - source: S1
-      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
-        organes de décision ne peuvent solliciter ni accepter des instructions
-      statut_source: conforme
-  - id: F5
-    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
-      missions du SEBC (qui décide, Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 12.1 des statuts du SEBC et de la BCE confie au conseil des gouverneurs l'adoption des
-      orientations et des décisions nécessaires aux missions du SEBC.
-    sources:
-    - source: S1
-      extrait: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
-        des missions confiées au SEBC par les traités et les présents statuts.
-      statut_source: conforme
-  - id: F53
-    enonce: Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position de Jean-Luc Mélenchon (livret de juin 2022). La
-      possibilité juridique de cette décision relève des affirmations F27 et F45.'
-    sources:
-    - source: S40
-      extrait: Notre banquier central peut acter du fait que la dette détenue dans ses caisses ne sera jamais payée
-      statut_source: conforme
+  - F3 [fait, Vrai] Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes
+    de décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44). (sources S1)
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41). (sources S1)
+  - F53 [valeur, sans verdict] Une dette publique inscrite au bilan de la banque centrale peut être constatée comme
+    non remboursable. (sources S40)
 - id: A26
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q45
   position: contre
   enonce: Un État n'a pas à rembourser intégralement la part de dette détenue par sa propre banque centrale, mais
@@ -2395,76 +775,35 @@ arguments_des_autres:
   raisonnement: 'La banque centrale appartient aux États de l''Union : la dette envers elle est une dette envers
     soi-même (F51). La différence avec les créanciers privés, dont des épargnants, justifie une annulation limitée
     à la seule part de la banque centrale (F52).'
-  porte_par:
-  - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
-    parti: PCF
-    source: S41
+  porte_par: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021 (PCF, S41)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F51
-    enonce: La dette publique détenue par la banque centrale est une dette envers une institution publique, dont
-      les propriétaires sont les États de l'Union, et non envers des créanciers privés.
-    type: valeur
-    verdict: null
-    explication: Affirmation de valeur, sans verdict (Fabien Roussel, 22 mars 2021). Elle contient une part factuelle
-      (qui détient le capital de la BCE) qui devrait être traitée à part si elle sert à un argument.
-    sources:
-    - source: S41
-      extrait: c’est nous, ce sont les pays de l’Union européenne
-      statut_source: conforme
-  - id: F52
-    enonce: Une annulation doit se limiter à la dette détenue par la banque centrale, sans spolier les créanciers
-      privés, dont des épargnants.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position de Fabien Roussel (22 mars 2021) pour une annulation
-      limitée à la dette détenue par la banque centrale.'
-    sources:
-    - source: S41
-      extrait: spolier des créanciers privés
-      statut_source: conforme
+  - F51 [valeur, sans verdict] La dette publique détenue par la banque centrale est une dette envers une institution
+    publique, dont les propriétaires sont les États de l'Union, et non envers des créanciers privés. (sources S41)
+  - F52 [valeur, sans verdict] Une annulation doit se limiter à la dette détenue par la banque centrale, sans spolier
+    les créanciers privés, dont des épargnants. (sources S41)
 - id: A27
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q45
   position: contre
-  enonce: Une dette publique inscrite au bilan de la banque centrale, qui ne sera jamais remboursée en pratique,
-    peut être constatée comme telle.
+  enonce: 'Pour LFI, une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable,
+    sans léser les créanciers privés : c''est un jugement de valeur. Sa faisabilité juridique reste discutée (aucun
+    texte ne la mentionne, la Cour ne l''a pas tranchée).'
   raisonnement: Les achats massifs de titres ont été faits par la banque centrale elle-même ; les rembourser intégralement
     n'a pas de finalité économique, alors qu'ils pèsent sur la capacité d'investir de l'État. Acter qu'ils ne seront
     pas payés ne lèse aucun créancier privé (F46, F53).
-  porte_par:
-  - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
-    parti: LFI
-    source: S40
+  porte_par: Jean-Luc Mélenchon, livret Dette (6 juin 2022) (LFI, S40)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F53
-    enonce: Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position de Jean-Luc Mélenchon (livret de juin 2022). La
-      possibilité juridique de cette décision relève des affirmations F27 et F45.'
-    sources:
-    - source: S40
-      extrait: Notre banquier central peut acter du fait que la dette détenue dans ses caisses ne sera jamais payée
-      statut_source: conforme
-  - id: F46
-    enonce: La proposition vise la part de la dette française détenue par la Banque de France pour le compte de
-      l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers.
-    type: fait
-    verdict: Plutôt vrai
-    explication: Public Sénat (25 août 2026) établit que la proposition de Jean-Luc Mélenchon vise les titres détenus
-      par la Banque de France pour le compte de la BCE (18 % dans le texte, 20 % dans le chapeau). Que les autres
-      créanciers ne soient pas concernés n'est que sous-entendu, par un économiste cité dans l'article.
-    sources:
-    - source: S19
-      extrait: l’annulation des 18 % de dette française détenus par la Banque de France pour le compte de la Banque
-        centrale européenne (BCE)
-      statut_source: conforme
+  - F53 [valeur, sans verdict] Une dette publique inscrite au bilan de la banque centrale peut être constatée comme
+    non remboursable. (sources S40)
+  - F46 [fait, Plutôt vrai] La proposition vise la part de la dette française détenue par la Banque de France pour
+    le compte de l'Eurosystème ; elle laisse inchangés les titres détenus par les autres créanciers. — Public Sénat
+    (25 août 2026) établit que la proposition de Jean-Luc Mélenchon vise les titres détenus par la Banque de France
+    pour le compte de la BCE (18 % dans le texte, 20 % dans le chapeau). Que les autres créanciers ne soient pas
+    concernés n'est que sous-entendu, par un économiste cité dans l'article. (sources S19)
 - id: A28
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q46
   position: nuance
   enonce: Les règles européennes qui encadrent le financement des États et le statut de la BCE doivent être remises
@@ -2473,60 +812,18 @@ arguments_des_autres:
     (F1, F2) ; leurs auteurs les jugent un carcan qui prive les peuples de la maîtrise de leur endettement (F56).
     La résolution de 2020 invite le gouvernement à exiger de l'Union européenne un changement, ce qui place la décision
     sous contrôle politique démocratique plutôt que sous règles fixées par des institutions indépendantes.
-  porte_par:
-  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
-    parti: LFI
-    source: S39
-  - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
-    parti: LFI
-    source: S40
+  porte_par: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
+    (LFI, S39); Jean-Luc Mélenchon, livret Dette (6 juin 2022) (LFI, S40)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F56
-    enonce: Les règles européennes sur le financement des États et le statut de la banque centrale doivent être
-      remises en cause.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position portée par la proposition de résolution n° 2914
-      (2020) et le livret de Jean-Luc Mélenchon (2022).'
-    sources:
-    - source: S39
-      extrait: les traités qui la régissent et les statuts et le mandat de la Banque centrale européenne, qui lui
-        assurent une indépendance problématique
-      statut_source: conforme
-    - source: S40
-      extrait: enfermés dans un carcan, celui des traités européens
-      statut_source: conforme
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
+  - F56 [valeur, sans verdict] Les règles européennes sur le financement des États et le statut de la banque centrale
+    doivent être remises en cause. (sources S39, S40)
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
 - id: A29
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q46
   position: nuance
   enonce: 'L''annulation de la part détenue par la banque centrale doit se négocier au niveau européen : démarche
@@ -2534,109 +831,39 @@ arguments_des_autres:
   raisonnement: La banque centrale appartient à l'ensemble des pays de l'Union (F51) et les traités interdisent
     le financement direct des États (F1, F2). La solution passe donc par une démarche collective et par une révision
     des règles (F56), non par une décision unilatérale française.
-  porte_par:
-  - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
-    parti: PCF
-    source: S41
+  porte_par: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021 (PCF, S41)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F51
-    enonce: La dette publique détenue par la banque centrale est une dette envers une institution publique, dont
-      les propriétaires sont les États de l'Union, et non envers des créanciers privés.
-    type: valeur
-    verdict: null
-    explication: Affirmation de valeur, sans verdict (Fabien Roussel, 22 mars 2021). Elle contient une part factuelle
-      (qui détient le capital de la BCE) qui devrait être traitée à part si elle sert à un argument.
-    sources:
-    - source: S41
-      extrait: c’est nous, ce sont les pays de l’Union européenne
-      statut_source: conforme
-  - id: F56
-    enonce: Les règles européennes sur le financement des États et le statut de la banque centrale doivent être
-      remises en cause.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position portée par la proposition de résolution n° 2914
-      (2020) et le livret de Jean-Luc Mélenchon (2022).'
-    sources:
-    - source: S39
-      extrait: les traités qui la régissent et les statuts et le mandat de la Banque centrale européenne, qui lui
-        assurent une indépendance problématique
-      statut_source: conforme
-    - source: S40
-      extrait: enfermés dans un carcan, celui des traités européens
-      statut_source: conforme
-  - id: F1
-    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
-      aux administrations publiques (Q41).
-    type: fait
-    verdict: Vrai
-    explication: L'article 123, paragraphe 1, du TFUE (version consolidée 2016) interdit à la BCE et aux banques
-      centrales nationales d'accorder des découverts ou tout autre type de crédit aux administrations publiques.
-      Le texte est explicite.
-    sources:
-    - source: S1
-      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
-        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
-        organes ou organismes de l'Union, aux administrations centrales
-      statut_source: conforme
-  - id: F2
-    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
-      banques centrales nationales (Q41).
-    type: fait
-    verdict: Vrai
-    explication: La même phrase de l'article 123, paragraphe 1, du TFUE interdit l'acquisition directe, auprès des
-      États, des instruments de leur dette par la BCE ou les banques centrales nationales. L'interdiction vise l'achat
-      direct (marché primaire), pas les achats sur le marché secondaire.
-    sources:
-    - source: S1
-      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
-        des instruments de leur dette est également interdite.
-      statut_source: conforme
+  - F51 [valeur, sans verdict] La dette publique détenue par la banque centrale est une dette envers une institution
+    publique, dont les propriétaires sont les États de l'Union, et non envers des créanciers privés. (sources S41)
+  - F56 [valeur, sans verdict] Les règles européennes sur le financement des États et le statut de la banque centrale
+    doivent être remises en cause. (sources S39, S40)
+  - F1 [fait, Vrai] Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou
+    crédits aux administrations publiques (Q41). (sources S1)
+  - F2 [fait, Vrai] Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la
+    BCE ou les banques centrales nationales (Q41). (sources S1)
 - id: A30
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q47
   position: pour
-  enonce: 'L''annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies : elle
-    dégage des marges sans réduire les dépenses utiles ni faire peser d''effort sur la population.'
+  enonce: 'Pour LFI, l''annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies,
+    parce qu''elle éviterait un nouveau cycle d''austérité : c''est un choix de valeurs. L''absence d''impact économique
+    avancée par ses défenseurs n''est pas établie par une estimation d''institution.'
   raisonnement: Un nouveau cycle d'austérité réduit la demande, la consommation et l'investissement public (F54).
     Une opération qui, selon ses défenseurs, ne coûte à personne et n'a pas d'impact économique (F47) permet de
     financer services publics et investissements sans économies.
-  porte_par:
-  - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022) et déclarations d'août 2026
-    parti: LFI
-    source: S40
+  porte_par: Jean-Luc Mélenchon, livret Dette (6 juin 2022) et déclarations d'août 2026 (LFI, S40)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F54
-    enonce: Dégager des marges budgétaires sans économies sur les dépenses est préférable à un nouveau cycle d'austérité.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position du livret de Jean-Luc Mélenchon (juin 2022). L''extrait
-      de Public Sénat rattaché ne dit pas la même chose (le mot austérité en est absent).'
-    sources:
-    - source: S40
-      extrait: Nous ne pouvons pas nous payer un nouveau cycle
-      statut_source: conforme
-    - source: S19
-      extrait: aucun impact économique et aucun impact financier
-      statut_source: conforme
-  - id: F47
-    enonce: L'annulation ou le gel en dette perpétuelle de la dette détenue par l'Eurosystème n'aurait pas d'effet
-      sur le coût auquel la France emprunte.
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: La seule source rapporte l'avis de Jean-Luc Mélenchon (« aucun impact économique et aucun impact
-      financier »), que l'article (Public Sénat, 25 août 2026) dit contesté par des économistes. Aucune institution
-      n'a publié d'estimation chiffrée de l'effet sur le coût d'emprunt dans le dossier.
-    sources:
-    - source: S19
-      extrait: aucun impact économique et aucun impact financier
-      statut_source: conforme
+  - F54 [valeur, sans verdict] Dégager des marges budgétaires sans économies sur les dépenses est préférable à un
+    nouveau cycle d'austérité. (sources S40, S19)
+  - F47 [estimation, Pas d'estimation fiable] L'annulation ou le gel en dette perpétuelle de la dette détenue par
+    l'Eurosystème n'aurait pas d'effet sur le coût auquel la France emprunte. — La seule source rapporte l'avis
+    de Jean-Luc Mélenchon (« aucun impact économique et aucun impact financier »), que l'article (Public Sénat,
+    25 août 2026) dit contesté par des économistes. Aucune institution n'a publié d'estimation chiffrée de l'effet
+    sur le coût d'emprunt dans le dossier. (sources S19)
 - id: A31
-  auteur: expert-gauche-radicale
+  auteur: gauche-radicale
   question: Q47
   position: nuance
   enonce: 'L''annulation partielle est une voie parmi d''autres : elle doit s''accompagner d''une mise à contribution
@@ -2644,124 +871,109 @@ arguments_des_autres:
   raisonnement: 'L''annulation de la part de la banque centrale dégage des marges (F49) mais ne suffit pas : l''État
     a aussi besoin de recettes, que la fiscalité du capital et la lutte contre l''évasion fiscale peuvent apporter
     (F55). Les deux leviers sont complémentaires, et l''austérité est écartée.'
-  porte_par:
-  - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
-    parti: PCF
-    source: S41
+  porte_par: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021 (PCF, S41)
   repond_a: null
-  statut: ouvert
   affirmations:
-  - id: F49
-    enonce: L'annulation de la part de la dette détenue par la banque centrale dégagerait immédiatement des marges
-      financières importantes pour l'État.
-    type: estimation
-    verdict: Pas d'estimation fiable
-    explication: La seule source est l'intervention de Fabien Roussel à l'Assemblée nationale (22 mars 2021), sans
-      chiffrage ni méthode. Aucune estimation d'institution sur les marges que dégagerait l'annulation n'est au
-      dossier.
-    sources:
-    - source: S41
-      extrait: de dégager immédiatement des marges financières
-      statut_source: conforme
-  - id: F55
-    enonce: Le capital doit être mis à contribution pour financer les besoins de l'État, en complément de l'annulation
-      partielle de la dette détenue par la banque centrale.
-    type: valeur
-    verdict: null
-    explication: 'Affirmation de valeur, sans verdict : position de Fabien Roussel (22 mars 2021) pour une contribution
-      du capital en complément de l''annulation partielle.'
-    sources:
-    - source: S41
-      extrait: il faut faire participer le capital
-      statut_source: conforme
-objections_deja_posees: []
+  - F49 [estimation, Pas d'estimation fiable] L'annulation de la part de la dette détenue par la banque centrale
+    dégagerait immédiatement des marges financières importantes pour l'État. — La seule source est l'intervention
+    de Fabien Roussel à l'Assemblée nationale (22 mars 2021), sans chiffrage ni méthode. Aucune estimation d'institution
+    sur les marges que dégagerait l'annulation n'est au dossier. (sources S41)
+  - F55 [valeur, sans verdict] Le capital doit être mis à contribution pour financer les besoins de l'État, en complément
+    de l'annulation partielle de la dette détenue par la banque centrale. (sources S41)
+objections_deja_posees:
+- id: O1
+  vise: F41
+  auteur: expert-gauche-radicale
+  contenu: L'énoncé et l'argument A13 supposent que le résultat de la Banque de France baisse d'autant que les intérêts
+    qu'elle ne perçoit plus, donc que ses versements à l'État baissent d'autant.
+  statut: transmise-verificateur
+  resolution: null
 tes_sources_demandees: []
 sources:
-  S1: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4) sur les statuts
-    du SEBC et de la BCE (Union européenne (EUR-Lex), 2016, niveau 1) — conforme
+  S1: Traité sur le fonctionnement de l'Union européenne (version consolidée) et proto (Union européenne (EUR-Lex),
+    2016, niv. 1, conforme)
   S2: Arrêt de la Cour (grande chambre) Gauweiler e.a., affaire C-62/14 (Cour de justice de l'Union européenne,
-    2015-06-16, niveau 1) — conforme
+    2015-06-16, niv. 1, conforme)
   S3: Arrêt de la Cour (grande chambre) Weiss e.a., affaire C-493/17 (Cour de justice de l'Union européenne, 2018-12-11,
-    niveau 1) — conforme
+    niv. 1, conforme)
   S4: Entretien avec Ouest-France (Christine Lagarde, présidente de la BCE) (Banque centrale européenne, 2026-09-12,
-    niveau 1) — conforme
+    niv. 1, conforme)
   S5: Entretien avec Le Journal du Dimanche (Christine Lagarde, présidente de la BCE) (Banque centrale européenne,
-    2021-02-07, niveau 1) — conforme
+    2021-02-07, niv. 1, conforme)
   S6: Entretien avec La Provence (Christine Lagarde, présidente de la BCE) (Banque centrale européenne, 2021-07-02,
-    niveau 1) — conforme
-  S7: Comprendre les comptes annuels et les équilibres financiers 2025 (Banque de France, 2026-03, niveau 1) — conforme
-  S8: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apurement du report à nouveau négatif
-    de 2024 (Banque de France, 2026-03-24, niveau 1) — conforme'
-  S9: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du revenu monétaire (Banque de
-    France, 2025-10, niveau 1) — conforme'
-  S10: 'Sur les enjeux associés à la structure de détention de la dette de l''État (rapport d''information) (Sénat,
-    commission des finances (rapporteur : Albéric de Montgolfier), 2025, niveau 1) — conforme'
+    niv. 1, conforme)
+  S7: Comprendre les comptes annuels et les équilibres financiers 2025 (Banque de France, 2026-03, niv. 1, conforme)
+  S8: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apureme (Banque de France, 2026-03-24,
+    niv. 1, conforme)'
+  S9: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du r (Banque de France, 2025-10,
+    niv. 1, conforme)'
+  S10: 'Sur les enjeux associés à la structure de détention de la dette de l''État (rappo (Sénat, commission des
+    finances (rapporteur : Albéric de Montgolfier), 2025, niv. 1, conforme)'
   S11: La situation et les perspectives des finances publiques (synthèse du rapport) (Cour des comptes, 2026-06,
-    niveau 1) — conforme
-  S12: (à établir) ((à établir), (à établir), niveau None) — inaccessible
-  S13: (à établir) ((à établir), (à établir), niveau None) — inaccessible
-  S14: (à établir) ((à établir), (à établir), niveau None) — inaccessible
-  S15: (à établir) ((à établir), (à établir), niveau None) — inaccessible
-  S16: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le ministre de l''Economie
-    (MoneyVox avec AFP, 2026-08-24, niveau 4) — conforme'
-  S17: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûterait) (Selectra,
-    2026-08-28, niveau 4) — conforme'
-  S18: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française (Euronews (Olivier
-    Tolachides), 2026-09-11, niveau 4) — conforme
-  S19: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses
-    difficultés (Public Sénat, 2026-08-25, niveau 4) — conforme'
-  S20: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques (AFP (dépêche reprise
-    par La Gazette France ; originale Sud Radio), 2026-08-24, niveau 4) — conforme'
+    niv. 1, conforme)
+  S12: (à établir) ((à établir), (à établir), niv. None, inaccessible)
+  S13: (à établir) ((à établir), (à établir), niv. None, inaccessible)
+  S14: (à établir) ((à établir), (à établir), niv. None, inaccessible)
+  S15: (à établir) ((à établir), (à établir), niv. None, inaccessible)
+  S16: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le  (MoneyVox avec AFP, 2026-08-24,
+    niv. 4, conforme)'
+  S17: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vo (Selectra, 2026-08-28,
+    niv. 4, conforme)'
+  S18: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette (Euronews (Olivier Tolachides),
+    2026-09-11, niv. 4, conforme)
+  S19: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Méle (Public Sénat, 2026-08-25,
+    niv. 4, conforme)'
+  S20: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des cri (AFP (dépêche reprise par
+    La Gazette France ; originale Sud Radio), 2026-08-24, niv. 4, conforme)'
   S21: 'Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson (Public Sénat, 2020-12-28,
-    niveau 4) — conforme'
-  S22: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 milliards d’euros,
-    s’il est élu (Public Sénat (Guillaume Jacquot), 2026-10-12, niveau 4) — conforme'
+    niv. 4, conforme)'
+  S22: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près  (Public Sénat (Guillaume
+    Jacquot), 2026-10-12, niv. 4, conforme)'
   S23: La dette, un sujet politique (Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique
-    « L'économie à contre-courant », Politis, 2026-09-14, niveau 3) — conforme
-  S24: La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de l'ISF pour les
-    Verts (FranceTransactions.com (avec AFP), 2020-06-15, niveau 4) — conforme
+    « L'économie à contre-courant », Politis, 2026-09-14, niv. 3, conforme)
+  S24: La reconstruction écologique passe par l'annulation de la dette par la BCE et le (FranceTransactions.com
+    (avec AFP), 2020-06-15, niv. 4, conforme)
   S25: 'Revue de Presse : présentation du plan de sortie de crise (Les Écologistes (site officiel), 2025-09-05,
-    niveau 3) — conforme'
+    niv. 3, conforme)'
   S26: 'Notre projet économique : l''essentiel d''abord (Les Écologistes, commission Économie, social et services
-    publics, 2026-10-26, niveau 3) — conforme'
-  S27: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défend Marine Tondelier
-    (Public Sénat, 2024-06-20, niveau 4) — conforme'
-  S28: (à établir) ((à établir), (à établir), niveau None) — inaccessible
+    publics, 2026-10-26, niv. 3, conforme)'
+  S27: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise det (Public Sénat, 2024-06-20,
+    niv. 4, conforme)'
+  S28: (à établir) ((à établir), (à établir), niv. None, inaccessible)
   S29: 'Annuler la dette détenue par la BCE : mécanismes, ordres de grandeur (dettedelafrance.fr (analyse assistée
-    par IA, selon la page), 2026-08-24, niveau 4) — non-conforme'
-  S30: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques (La Gazette France
-    (dépêche), 2026-08-24, niveau 4) — conforme'
-  S31: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par Marine Le Pen pour «
-    redresser » les finances publiques (Public Sénat (Stéphane Duguet), 2026-10-06, niveau 4) — conforme'
-  S32: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire adopter par référendum (LCP
-    - Assemblée nationale (Maxence Kagni), 2026-10-02, niveau 4) — conforme'
-  S33: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise majeure (La Gazette France
-    (dépêche), 2026-09-05, niveau 4) — conforme
-  S34: (à établir) ((à établir), (à établir), niveau None) — inaccessible
-  S35: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud) (Lutte ouvrière, 2026-06-01, niveau 3)
-    — conforme
-  S36: Lutte ouvrière, hebdomadaire n° 3031 (Lutte ouvrière, 2026-09-04, niveau 3) — conforme
-  S37: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la payer ! » (NPA (Nouveau
-    Parti anticapitaliste), 2011-12-01, niveau 3) — conforme'
+    par IA, selon la page), 2026-08-24, niv. 4, non-conforme)'
+  S30: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des cri (La Gazette France (dépêche),
+    2026-08-24, niv. 4, conforme)'
+  S31: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par  (Public Sénat (Stéphane
+    Duguet), 2026-10-06, niv. 4, conforme)'
+  S32: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire a (LCP - Assemblée nationale
+    (Maxence Kagni), 2026-10-02, niv. 4, conforme)'
+  S33: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise (La Gazette France (dépêche),
+    2026-09-05, niv. 4, conforme)
+  S34: (à établir) ((à établir), (à établir), niv. None, inaccessible)
+  S35: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud) (Lutte ouvrière, 2026-06-01, niv. 3, conforme)
+  S36: Lutte ouvrière, hebdomadaire n° 3031 (Lutte ouvrière, 2026-09-04, niv. 3, conforme)
+  S37: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la p (NPA (Nouveau Parti anticapitaliste),
+    2011-12-01, niv. 3, conforme)'
   S38: Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation (Tendance CLAIRE (courant
-    du NPA), 2021-04-25, niveau 3) — conforme
-  S39: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale
-    européenne et de sa transformation en dette perpétuelle (Jean-Luc Mélenchon et les députés LFI signataires (Assemblée
-    nationale, XVe législature), 2020-05-11, niveau 3) — conforme
-  S40: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon) (Jean-Luc Mélenchon
-    (site melenchon.fr), 2022-06-06, niveau 3) — conforme
-  S41: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou l''annuler ?
-    » (initiative du groupe GDR, intervention de Fabien Roussel) (Assemblée nationale, 2021-03-22, niveau 3) — conforme'
+    du NPA), 2021-04-25, niv. 3, conforme)
+  S39: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette p (Jean-Luc Mélenchon et les
+    députés LFI signataires (Assemblée nationale, XVe législature), 2020-05-11, niv. 3, conforme)
+  S40: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélen (Jean-Luc Mélenchon (site
+    melenchon.fr), 2022-06-06, niv. 3, conforme)
+  S41: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : l (Assemblée nationale, 2021-03-22,
+    niv. 3, conforme)'
   S42: Looking back at PEPP implementation since the end of reinvestments (Banque centrale européenne (blog, I.
-    Rahmouni-Rousseau et I. Schnabel), 2025-04-29, niveau 1) — conforme
-  S43: « L’annulation des dettes publiques que la BCE détient constituerait un premier signal fort de la reconquête
-    par l’Europe de son destin » (tribune collective, Le Monde) (Collectif d'économistes, dont Aurore Lalucq (Parlement
-    européen, Place publique), 2021-02-05, niveau 3) — conforme
-  S44: 'The future of European competitiveness – Part A: A competitiveness strategy for Europe (Mario Draghi, rapport
+    Rahmouni-Rousseau et I. Schnabel), 2025-04-29, niv. 1, conforme)
+  S43: « L’annulation des dettes publiques que la BCE détient constituerait un premier  (Collectif d'économistes,
+    dont Aurore Lalucq (Parlement européen, Place publique), 2021-02-05, niv. 3, conforme)
+  S44: 'The future of European competitiveness – Part A: A competitiveness strategy for  (Mario Draghi, rapport
     remis à la Commission européenne (le document précise qu''il ne représente pas la position officielle de la
-    Commission), 2024-09, niveau 2) — conforme'
+    Commission), 2024-09, niv. 2, conforme)'
   S45: Proposition de loi constitutionnelle Citoyenneté-Identité-Immigration, n° 2120 (Assemblée nationale (présentée
-    par Mme Marine Le Pen et les membres du groupe Rassemblement National), 2024-01-25, niveau 1) — conforme
-  S46: Asset purchase programmes (Banque centrale européenne, 2026-11-03, niveau 1) — conforme
-  S47: Pandemic Emergency Purchase Programme (Banque centrale européenne, 2026-11, niveau 1) — conforme
-  S48: Financial statements of the ECB for 2024 (Banque centrale européenne, 2025-02-20, niveau 1) — conforme
+    par Mme Marine Le Pen et les membres du groupe Rassemblement National), 2024-01-25, niv. 1, conforme)
+  S46: Asset purchase programmes (Banque centrale européenne, 2026-11-03, niv. 1, conforme)
+  S47: Pandemic Emergency Purchase Programme (Banque centrale européenne, 2026-11, niv. 1, conforme)
+  S48: Financial statements of the ECB for 2024 (Banque centrale européenne, 2025-02-20, niv. 1, conforme)
+detail: 'Le détail d''une affirmation ou d''une source (extraits, notes) est dans affirmations.yaml et sources.yaml
+  : ne le lis que pour un élément précis.'

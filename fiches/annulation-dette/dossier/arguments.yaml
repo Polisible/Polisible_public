@@ -1,9 +1,10 @@
 - id: A1
   question: Q41
   position: contre
-  enonce: Les traités ne permettent pas cette opération. Effacer ou geler à taux nul des titres que l'Eurosystème
-    a rachetés reviendrait à faire financer l'État par sa banque centrale, ce que l'article 123 interdit, et la
-    décision ne relèverait de toute façon pas du gouvernement.
+  enonce: 'Selon Renaissance, les traités ne permettent pas cette opération : effacer ou geler à taux nul des titres
+    que l''Eurosystème a rachetés reviendrait à faire financer l''État par sa banque centrale, ce que l''article
+    123 interdit. Aucun texte ni arrêt n''a tranché ce cas précis (la contrariété aux traités reste une interprétation
+    juridique disputée), et la décision ne relèverait de toute façon pas du gouvernement mais du conseil des gouverneurs.'
   porte_par:
   - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
     parti: Renaissance
@@ -32,9 +33,10 @@
 - id: A2
   question: Q42
   position: pour
-  enonce: Oui, les taux monteraient. Un État qui renonce unilatéralement à une part de sa dette, en contournant
-    les traités, signale aux prêteurs qu'il peut changer les règles ; ils demanderaient un taux plus élevé pour
-    compenser.
+  enonce: 'Les taux risquent de monter. Un État qui renonce unilatéralement à une part de sa dette, par une voie
+    juridiquement contestée, signale aux prêteurs qu''il peut changer les règles ; ils demanderaient selon Renaissance
+    et Horizons un taux plus élevé. Il s''agit d''une estimation sans chiffrage publié : aucune institution n''a
+    estimé l''ampleur de la hausse.'
   porte_par:
   - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
     parti: Renaissance
@@ -59,9 +61,10 @@
 - id: A3
   question: Q44
   position: pour
-  enonce: Oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
-    ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de l'euro repose sur le respect
-    des règles communes par tous.
+  enonce: Selon Renaissance, oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de
+    lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de
+    l'euro repose sur le respect des règles communes. La compatibilité de l'opération avec les traités est disputée,
+    mais une décision prise sans le conseil des gouverneurs poserait de toute façon la question de l'indépendance.
   porte_par:
   - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
     parti: Renaissance
@@ -107,8 +110,10 @@
 - id: A5
   question: Q46
   position: contre
-  enonce: Non. Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs ; les règles
-    européennes y limitent la décision nationale, et la quitter reviendrait de fait à sortir de l'euro.
+  enonce: Non, selon Renaissance. Dans une union monétaire, la dette en euros et la banque centrale sont des biens
+    communs ; les règles européennes limitent la décision nationale, et décider seul sur des titres détenus par
+    l'Eurosystème reviendrait à s'affranchir des règles communes, ce que le gouvernement juge contraire aux traités
+    (interprétation contestée par les signataires de la tribune de 2021).
   porte_par:
   - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
     parti: Renaissance
@@ -196,9 +201,11 @@
   question: Q41
   position: nuance
   enonce: Le traité interdit le crédit et l'achat direct de dette auprès des États, mais pas les achats sur le marché
-    secondaire, que le SEBC pratique depuis 2015 et que la Cour de justice a validés sous conditions. La question
-    juridique réelle est donc de savoir si une conversion ou une annulation de titres déjà détenus relève de l'interdiction
-    du financement monétaire, et c'est une question de décision politique de l'Eurosystème.
+    secondaire, que le SEBC pratique depuis 2015. La Cour de justice a jugé le programme d'achats de 2015 (PSPP)
+    compatible avec le traité sous conditions (arrêt Weiss) ; elle ne s'est pas prononcée sur le programme d'urgence
+    pandémique (PEPP) de 2020. La question juridique réelle est de savoir si une conversion ou une annulation de
+    titres déjà détenus relève de l'interdiction du financement monétaire, et c'est une question de décision de
+    l'Eurosystème.
   porte_par:
   - qui: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026
     parti: Les Écologistes
@@ -311,8 +318,9 @@
 - id: A13
   question: Q43
   position: contre
-  enonce: 'Annuler ou geler cette dette ne réduirait pas durablement la charge nette de l''État : ce que l''État
-    économise en intérêts, il le perd en recettes versées par la Banque de France.'
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    la Banque de France verse à l'État un impôt et des dividendes (36,8 Md€ depuis 2015) qui dépendent de son résultat,
+    lequel inclut les intérêts reçus ; l'ampleur de ce recul n'est pas chiffrée par une source du dossier.
   porte_par:
   - qui: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23 août 2026, rapportée par
       la presse)
@@ -466,9 +474,10 @@
 - id: A20
   question: Q41
   position: pour
-  enonce: 'Le gel en dette perpétuelle à taux nul de titres que l''Eurosystème détient déjà peut se faire dans le
-    cadre des traités actuels : l''article 123 interdit crédits et achats directs aux États, pas le sort ultérieur
-    de titres achetés sur le marché.'
+  enonce: 'Aucun texte des traités n''interdit expressément le gel en dette perpétuelle à taux nul de titres que
+    l''Eurosystème détient déjà : l''article 123 interdit crédits et achats directs aux États, pas le sort ultérieur
+    de titres achetés sur le marché. La Cour de justice n''a pas tranché ce cas et des responsables publics le jugent
+    contraire aux traités : la compatibilité est une interprétation juridique, que LFI soutient.'
   porte_par:
   - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
     parti: LFI
@@ -498,8 +507,10 @@
 - id: A21
   question: Q41
   position: contre
-  enonce: Les traités actuels s'opposent à ce que la BCE efface la dette des États ; l'annulation exige une démarche
-    auprès des institutions et des autres pays européens, et un changement des traités.
+  enonce: 'Le PCF juge que l''annulation de la part détenue par la banque centrale passe par une démarche auprès
+    des institutions et des autres pays européens et par un changement des règles européennes, plutôt que par une
+    décision française seule. Que les traités actuels l''interdisent n''est pas un fait établi (aucun texte ne la
+    mentionne, la Cour ne l''a pas tranché) : c''est la raison pour laquelle le PCF demande de les faire évoluer.'
   porte_par:
   - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
     parti: PCF
@@ -519,8 +530,9 @@
 - id: A22
   question: Q42
   position: contre
-  enonce: 'L''opération ne ferait pas monter les taux : elle ne touche que des titres détenus par la banque centrale,
-    tandis que les créanciers privés continuent d''être remboursés intégralement.'
+  enonce: Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème
+    et que les créanciers privés sont remboursés intégralement. Il s'agit d'une estimation de ses auteurs, contestée
+    par des économistes cités par la presse ; aucune institution n'a chiffré l'effet sur les taux.
   porte_par:
   - qui: Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026
     parti: LFI
@@ -575,8 +587,9 @@
 - id: A24
   question: Q43
   position: pour
-  enonce: L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières
-    importantes, car elle supprime des intérêts qui pèsent sur le budget.
+  enonce: Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières,
+    dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend des bénéfices
+    que la Banque de France lui reverse (voir A23).
   porte_par:
   - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
     parti: PCF
@@ -638,8 +651,9 @@
 - id: A27
   question: Q45
   position: contre
-  enonce: Une dette publique inscrite au bilan de la banque centrale, qui ne sera jamais remboursée en pratique,
-    peut être constatée comme telle.
+  enonce: 'Pour LFI, une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable,
+    sans léser les créanciers privés : c''est un jugement de valeur. Sa faisabilité juridique reste discutée (aucun
+    texte ne la mentionne, la Cour ne l''a pas tranchée).'
   porte_par:
   - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
     parti: LFI
@@ -702,8 +716,9 @@
 - id: A30
   question: Q47
   position: pour
-  enonce: 'L''annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies : elle
-    dégage des marges sans réduire les dépenses utiles ni faire peser d''effort sur la population.'
+  enonce: 'Pour LFI, l''annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies,
+    parce qu''elle éviterait un nouveau cycle d''austérité : c''est un choix de valeurs. L''absence d''impact économique
+    avancée par ses défenseurs n''est pas établie par une estimation d''institution.'
   porte_par:
   - qui: Jean-Luc Mélenchon, livret Dette (6 juin 2022) et déclarations d'août 2026
     parti: LFI
@@ -741,8 +756,9 @@
   question: Q41
   position: pour
   enonce: 'Aucune disposition des traités ne mentionne l''annulation : l''article 123 interdit le crédit et l''achat
-    direct aux États, non l''abandon d''une créance déjà inscrite au bilan. La décision relève du conseil des gouverneurs
-    de la BCE, ce qui la rend juridiquement possible.'
+    direct aux États, non l''abandon d''une créance déjà inscrite au bilan. Les signataires de la tribune de 2021
+    en déduisent que la décision relèverait du conseil des gouverneurs de la BCE ; la compatibilité avec l''interdiction
+    du financement monétaire reste une interprétation disputée, que la CJUE n''a pas tranchée.'
   porte_par:
   - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
     parti: Place publique
@@ -787,9 +803,10 @@
 - id: A34
   question: Q45
   position: contre
-  enonce: Quand près d'un quart de la dette négociable est détenu par l'Eurosystème, c'est-à-dire par des institutions
-    publiques de la zone euro, rembourser revient à devoir trouver ailleurs la somme (nouvel emprunt, impôts ou
-    baisse des dépenses). On ne doit donc pas rembourser intégralement ce créancier-là.
+  enonce: 'Quand la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente
+    24,4 % de la dette négociable de l''État au premier trimestre 2025, une part importante de la dette est due
+    à des institutions publiques. Rembourser revient alors à trouver ailleurs la somme (nouvel emprunt, impôts ou
+    baisse des dépenses) : on ne doit donc pas rembourser intégralement ce créancier-là.'
   porte_par:
   - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
     parti: Place publique

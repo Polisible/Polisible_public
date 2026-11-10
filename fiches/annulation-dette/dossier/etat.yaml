@@ -1,8 +1,8 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '4'
-passage: 2
+phase: '3'
+passage: 3
 phases:
   '1':
     debut: '2026-11-10T20:31:37'
@@ -31,6 +31,11 @@ phases:
     debut: '2026-11-10T21:23:28'
     passages: 1
     note: passage 1 de confrontation (sur 3 au plus), 7 experts
+    fin: '2026-11-10T21:25:20'
+  3-ter:
+    debut: '2026-11-10T21:25:20'
+    passages: 1
+    note: objection O1 et éléments du passage 1 de confrontation
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -187,6 +192,11 @@ agents:
   jetons: 50096
   outils: 8
   duree_ms: 29908
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 72857
+  outils: 14
+  duree_ms: 66106
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -437,3 +447,49 @@ incertitudes:
 - agent: expert-sociaux-democrates
   texte: Les pages PS consultées (LCP, projet de 144 pages ; budget) ne contenaient pas les mots dette, BCE ou Europe
     ; le projet complet n'a pas été lu.
+- agent: expert-centre
+  texte: S20 (dépêche AFP du 24 août 2026) ne dit pas que Gabriel Attal appartient à Renaissance ; le rattachement
+    de A6 repose sur S17 (Selectra) et sur ma connaissance générale, à confirmer par le vérificateur.
+- agent: expert-centre
+  texte: 'F27 est Invérifiable : mes arguments A1, A2, A3 et A5 la mobilisaient comme acquise, d''où les corrections
+    ci-dessus. Je n''ai pas relu les arguments des autres familles en détail ; aucune objection de fait nouvelle
+    déposée.'
+- agent: expert-centre
+  texte: Aucune objection n'avait été posée sur mes arguments (objections_deja_posees vide) ; seuls les verdicts
+    ont motivé les corrections.
+- agent: expert-ecologistes
+  texte: 'Correction de A9 : l''arrêt Gauweiler (F8) porte sur le programme OMT de 2012, jamais activé, et l''arrêt
+    Weiss (F9, F10) sur le PSPP ; je n''ai trouvé aucune décision de la Cour sur le PEPP, sans l''avoir cherchée
+    dans la jurisprudence ouverte pour ce passage.'
+- agent: expert-ecologistes
+  texte: 'A10 : le chiffre de 640 milliards (F31) date du début de 2026 ; le stock était d''environ 597 milliards
+    fin octobre 2026 selon les données de la BCE citées au dossier.'
+- agent: expert-ecologistes
+  texte: Aucune objection reçue sur A9 à A12 ; la source S28 reste inaccessible et n'est pas utilisée.
+- agent: expert-extreme-droite
+  texte: Le mécanisme de A13 (intérêts reçus, puis résultat, puis impôt et dividendes) repose sur la seule déclaration
+    de Jordan Bardella (S29, non conforme) ; F19, F20 et S9 établissent l'impôt, les dividendes et le partage du
+    revenu monétaire dans l'Eurosystème, pas la part due aux titres de l'État.
+- agent: expert-extreme-droite
+  texte: 'L''article de Blick et celui de The Economist (S34) restent inaccessibles : je ne les cite pas.'
+- agent: expert-extreme-droite
+  texte: 'Aucune objection de fait n''est déposée : je n''ai pas relu les sources des autres camps au-delà du lot.'
+- agent: expert-extreme-gauche
+  texte: 'Correction de A18 : le chiffre de 270 milliards d''euros d''aides (verdict Invérifiable sur F42) est retiré
+    de l''argument ; le raisonnement repose sur le principe (supprimer les aides, taxer les profits), sans chiffre.'
+- agent: expert-extreme-gauche
+  texte: Aucune objection reçue sur A16, A17, A19 ; aucune erreur de fait trouvée chez les autres sur mes sources
+    ; je n'ai rien vérifié de nouveau dans ce passage.
+- agent: expert-gauche-radicale
+  texte: L'objection sur F41 repose sur F21 et sur le principe du partage du revenu monétaire ; je n'ai pas rouvert
+    S9 pour mesurer la part de revenu effectivement mutualisée sur les titres publics français.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas rouvert S39, S40 et S41 : les corrections reformulent mes énoncés d''après les verdicts du
+    lot, sans nouvel extrait.'
+- agent: expert-gauche-radicale
+  texte: A25 et A26 (propriété de la banque centrale, indépendance) sont maintenus ; la part factuelle de F51 (qui
+    détient le capital de la BCE) n'est pas vérifiée.
+- agent: expert-sociaux-democrates
+  texte: 'Aucune objection ni source demandée dans le lot : seules deux corrections de formulation sur mes propres
+    arguments (périmètre du chiffre de 24,4 % ; portée de la conclusion juridique).'
+examen_obligatoire: true

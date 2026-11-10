@@ -229,3 +229,44 @@
   agent: coordinateur
   phase: '4'
   action: début du passage 2
+- date: '2026-11-10T21:25:17'
+  agent: expert-centre
+  phase: '4'
+  action: 'a ajouté corriger A1, corriger A2, corriger A3, corriger A5 ; incertitudes signalées : 3'
+- date: '2026-11-10T21:25:18'
+  agent: expert-droite
+  phase: '4'
+  action: a ajouté rien de nouveau
+- date: '2026-11-10T21:25:18'
+  agent: expert-ecologistes
+  phase: '4'
+  action: 'a ajouté corriger A9 ; incertitudes signalées : 3'
+- date: '2026-11-10T21:25:18'
+  agent: expert-extreme-droite
+  phase: '4'
+  action: 'a ajouté corriger A13 ; incertitudes signalées : 3'
+- date: '2026-11-10T21:25:19'
+  agent: expert-extreme-gauche
+  phase: '4'
+  action: 'a ajouté corriger A18 ; incertitudes signalées : 2'
+- date: '2026-11-10T21:25:19'
+  agent: expert-gauche-radicale
+  phase: '4'
+  action: 'a ajouté O1, corriger A20, corriger A21, corriger A22, corriger A24, corriger A27, corriger A30 ; incertitudes
+    signalées : 3'
+- date: '2026-11-10T21:25:20'
+  agent: expert-sociaux-democrates
+  phase: '4'
+  action: 'a ajouté corriger A34, corriger A32 ; incertitudes signalées : 1'
+- date: '2026-11-10T21:25:20'
+  agent: coordinateur
+  phase: '4'
+  action: fin de la phase 4
+- date: '2026-11-10T21:25:20'
+  agent: coordinateur
+  phase: '3'
+  action: debut de la phase 3 (objection O1 et éléments du passage 1 de confrontation)
+- date: '2026-11-10T21:25:30'
+  agent: coordinateur
+  phase: '3'
+  action: début du passage 3

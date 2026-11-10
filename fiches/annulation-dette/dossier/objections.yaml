@@ -1,1 +1,14 @@
-[]
+- id: O1
+  vise: F41
+  auteur: expert-gauche-radicale
+  nature: fait
+  contenu: L'énoncé et l'argument A13 supposent que le résultat de la Banque de France baisse d'autant que les intérêts
+    qu'elle ne perçoit plus, donc que ses versements à l'État baissent d'autant.
+  sources: []
+  ce_que_la_source_ne_dit_pas: 'La source (S29, niveau 4) ne mentionne pas le partage du revenu monétaire dans l''Eurosystème,
+    établi par le Bulletin de la Banque de France n° 260/6 (F21, S9) : une partie du revenu des titres de politique
+    monétaire est mise en commun puis redistribuée entre banques centrales nationales, ce qui interdit de tenir
+    pour acquis que le résultat de la Banque de France diminue de la totalité des intérêts.'
+  passage: 2
+  statut: transmise-verificateur
+  resolution: null
