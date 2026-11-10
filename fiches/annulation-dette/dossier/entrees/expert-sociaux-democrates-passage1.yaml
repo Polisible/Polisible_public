@@ -1,0 +1,101 @@
+agent: expert-sociaux-democrates
+phase: 2
+sources:
+  - ref: s1
+    titre: "« L’annulation des dettes publiques que la BCE détient constituerait un premier signal fort de la reconquête par l’Europe de son destin » (tribune collective, Le Monde)"
+    auteur: "Collectif d'économistes, dont Aurore Lalucq (Parlement européen, Place publique)"
+    date: "2021-02-05"
+    adresse: "https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf"
+    niveau: 3
+  - ref: s2
+    titre: "La faute à l'Europe ? - Si la BCE veut bien, on annule tout ?"
+    auteur: "LCP - Assemblée nationale"
+    adresse: "https://lcp.fr/programmes/la-faute-a-l-europe/si-la-bce-veut-bien-on-annule-tout-54200"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Les traités européens n'interdisent pas explicitement l'annulation de dettes publiques détenues par la BCE (le mot « annulation » ne figure ni dans le traité ni dans le protocole sur le SEBC)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "l’annulation n’est pas explicitement interdite par les traités européens."}
+  - ref: f2
+    enonce: "Une banque centrale peut fonctionner avec des fonds propres négatifs sans que sa capacité d'action en soit affectée."
+    type: estimation
+    sources:
+      - {source: s1, extrait: "une banque centrale peut fonctionner avec des fonds propres négatifs sans difficulté."}
+  - ref: f3
+    enonce: "Le texte de 2021 propose que la BCE efface ses créances sur les États (ou les convertisse en dettes perpétuelles sans intérêt) en échange de l'engagement des États d'investir les mêmes montants dans la reconstruction écologique et sociale."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s1, extrait: "tandis que les Etats s’engagent à investir les mêmes montants dans la reconstruction écologique et sociale."}
+  - ref: f4
+    enonce: "Le texte de 2021 propose un contrat entre les États européens et la BCE, et non une décision prise par un seul État."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s1, extrait: "Notre proposition est donc simple : passons un contrat entre les Etats européens et la BCE."}
+arguments:
+  - ref: a1
+    question: Q41
+    position: pour
+    enonce: "Aucune disposition des traités ne mentionne l'annulation : l'article 123 interdit le crédit et l'achat direct aux États, non l'abandon d'une créance déjà inscrite au bilan. La décision relève du conseil des gouverneurs de la BCE, ce qui la rend juridiquement possible."
+    raisonnement: "Le traité interdit deux actes précis (découvert ou crédit, achat direct de titres, F1 et F2) ; l'annulation d'une créance acquise sur le marché secondaire n'est pas l'un d'eux. Comme l'interdiction n'est pas explicite et que le conseil des gouverneurs arrête les décisions du SEBC (F5), l'effacement relève d'une décision de la BCE et non d'une impossibilité juridique. Cet argument est contesté par la BCE (F11, F13) ; il est la position de 2021 d'une élue de Place publique, antérieure à la proposition de 2026."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: s1}
+    affirmations: [f1, F1, F2, F5]
+  - ref: a2
+    question: Q44
+    position: contre
+    enonce: "Une banque centrale qui efface des créances peut fonctionner avec des fonds propres négatifs : sa capacité à conduire la politique monétaire ne serait donc pas entamée. L'indépendance serait préservée si la décision est prise par la BCE elle-même."
+    raisonnement: "Le risque pour la crédibilité vient de l'idée qu'une perte comptable empêcherait la banque centrale d'agir. Si elle peut fonctionner avec des fonds propres négatifs (f2) et si l'effacement est décidé par son propre conseil des gouverneurs sans instruction d'un gouvernement (F3, F5), ni sa capacité d'action ni son indépendance ne sont atteintes. Position de 2021, avant la proposition de 2026 ; elle porte sur un effacement décidé par la BCE, pas imposé par un État."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: s1}
+    affirmations: [f2, F3, F5]
+  - ref: a3
+    question: Q45
+    position: contre
+    enonce: "Quand près d'un quart de la dette négociable est détenu par l'Eurosystème, c'est-à-dire par des institutions publiques de la zone euro, rembourser revient à devoir trouver ailleurs la somme (nouvel emprunt, impôts ou baisse des dépenses). On ne doit donc pas rembourser intégralement ce créancier-là."
+    raisonnement: "La créance d'une banque centrale n'est pas celle d'un épargnant privé : l'État se la doit en partie à lui-même (F17). Rembourser obligerait à rouler la dette au lieu d'investir, à augmenter les impôts ou à baisser les dépenses ; l'effacement évite ces choix sans spolier de créancier privé. Argument de 2021 ; l'obligation de rembourser des créanciers privés n'est pas remise en cause par ce texte."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: s1}
+    affirmations: [F16, F17]
+  - ref: a4
+    question: Q46
+    position: contre
+    enonce: "Un État seul ne peut pas annuler : la décision appartient à la BCE, qui n'accepte pas d'instructions des gouvernements. Elle doit donc se prendre par un accord entre les États européens et la BCE, non par une décision nationale."
+    raisonnement: "Le conseil des gouverneurs de la BCE décide (F5) et ni la BCE ni une banque centrale nationale ne peuvent accepter d'instructions d'un gouvernement (F3). Une décision nationale unilatérale n'a donc pas d'effet juridique sur la créance ; le texte de 2021 propose pour cette raison un contrat entre les États européens et la BCE (f4), assorti d'une exigence de gouvernance européenne."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: s1}
+    affirmations: [F3, F5, f4]
+  - ref: a5
+    question: Q47
+    position: nuance
+    enonce: "L'effacement ne se substitue aux autres leviers que s'il est conditionné : les États s'engagent à investir les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile."
+    raisonnement: "Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17 pour l'ampleur de la détention). L'effacement évite ces trois choix, mais le texte de 2021 en fait un échange : le même montant doit être investi dans la reconstruction écologique et sociale (f3). L'effacement n'est donc pas présenté comme préférable en soi, mais comme un contrat avec un usage défini."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: s1}
+    affirmations: [f3, F17]
+valeurs:
+  - {question: Q45, enonce: "Place publique (texte de 2021) met en priorité la capacité d'investir dans la transition plutôt que le principe du remboursement intégral d'une créance détenue par une institution publique."}
+  - {question: Q46, enonce: "Place publique (texte de 2021) met en priorité une décision européenne coordonnée plutôt qu'une décision nationale isolée."}
+sans_position:
+  - question: Q42
+    lieux_consultes:
+      - {categorie: programme, ou: "PS : projet 2027 présenté en avril 2026 (compte rendu LCP, 144 pages, ouvert) ; Place publique : programme non localisé", resultat: "aucune mention de la dette détenue par la BCE trouvée dans le compte rendu ; texte intégral non consulté"}
+      - {categorie: site, ou: "parti-socialiste.fr et site de Place publique, recherche web 2026", resultat: "aucun communiqué trouvé sur la dette détenue par la BCE"}
+      - {categorie: dirigeants, ou: "presse août-novembre 2026 (Faure, Vallaud, Glucksmann ; Medef 27 août 2026, via Selectra)", resultat: "Glucksmann ironise sur les leçons de deux anciens Premiers ministres, sans position sur les taux ; rien de Faure sur la proposition"}
+      - {categorie: parlement, ou: "Assemblée nationale, comptes rendus et amendements ; Parlement européen", resultat: "aucun texte socialiste sur ce point trouvé ; tribune de 2021 d'A. Lalucq muette sur l'effet sur les taux"}
+  - question: Q43
+    lieux_consultes:
+      - {categorie: programme, ou: "PS : projet 2027 (avril 2026) ; Place publique : programme non localisé", resultat: "rien trouvé sur les intérêts reversés par la Banque de France"}
+      - {categorie: site, ou: "parti-socialiste.fr et site de Place publique, recherche web 2026", resultat: "rien trouvé"}
+      - {categorie: dirigeants, ou: "presse août-novembre 2026", resultat: "le groupe PS de l'Assemblée évoque le 16 septembre 2026 la nécessité de réduire la charge de la dette, sans lien trouvé avec la proposition de la Banque de France"}
+      - {categorie: parlement, ou: "Assemblée nationale, Sénat, Parlement européen", resultat: "rien trouvé ; la tribune de 2021 ne traite pas des reversements de la Banque de France"}
+incertitudes:
+  - "Aucune position du PS sur la proposition de 2026 (ni sur Q41 à Q47) n'a été trouvée ; seuls des textes de Place publique de 2021 sont déposés."
+  - "La tribune est de 2021 (écrite avant la proposition de Mélenchon, et pour la zone euro entière) ; elle n'est pas une réaction à 2026. Il faut vérifier si Place publique en tant que parti la reprend aujourd'hui."
+  - "Date de la tribune du Monde : 5 février 2021 d'après une recherche web, non lue dans les métadonnées du PDF. Texte consulté sur un PDF de l'équipe EconomiX (copie), pas sur lemonde.fr (abonnés)."
+  - "Appartenance de A. Lalucq à Place publique : indiquée par la page LCP (s2) ; la tribune la signale seulement comme députée européenne (S&D)."
+  - "f2 et f1 sont contestés : la BCE (F11, F13) soutient l'inverse sur f1."
+  - "Les pages PS consultées (LCP, projet de 144 pages ; budget) ne contenaient pas les mots dette, BCE ou Europe ; le projet complet n'a pas été lu."
