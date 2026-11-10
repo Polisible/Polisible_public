@@ -167,3 +167,33 @@ agents:
   jetons: 49194
   outils: 18
   duree_ms: 152408
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 31068
+  outils: 3
+  duree_ms: 9198
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: 30779
+  outils: 3
+  duree_ms: 9824
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 31130
+  outils: 3
+  duree_ms: 12006
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 31465
+  outils: 3
+  duree_ms: 14711
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: 32216
+  outils: 3
+  duree_ms: 20037
+- phase: '4'
+  agent: expert-droite
+  jetons: 32879
+  outils: 3
+  duree_ms: 24725
