@@ -7,4 +7,114 @@ phases:
   '1':
     debut: '2026-11-10T20:31:37'
     passages: 1
-    note: cadrage du thème complet par les 7 experts
+    note: 40 questions proposées ; regroupement soumis au fondateur
+    fin: '2026-11-10T20:33:04'
+agents:
+- phase: '1'
+  agent: expert-extreme-gauche
+  jetons: 18425
+  outils: 3
+  duree_ms: 15986
+- phase: '1'
+  agent: expert-extreme-droite
+  jetons: 18377
+  outils: 3
+  duree_ms: 18854
+- phase: '1'
+  agent: expert-gauche-radicale
+  jetons: 20622
+  outils: 4
+  duree_ms: 22177
+- phase: '1'
+  agent: expert-sociaux-democrates
+  jetons: 20991
+  outils: 4
+  duree_ms: 23593
+- phase: '1'
+  agent: expert-droite
+  jetons: 21614
+  outils: 4
+  duree_ms: 26714
+- phase: '1'
+  agent: expert-centre
+  jetons: 21439
+  outils: 5
+  duree_ms: 27168
+- phase: '1'
+  agent: expert-ecologistes
+  jetons: 21182
+  outils: 5
+  duree_ms: 27213
+incertitudes:
+- agent: expert-centre
+  texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
+    sources (de 18 % à environ 640 milliards d''euros), à vérifier avec la Banque de France.'
+- agent: expert-centre
+  texte: 'Une seule recherche faite : elle confirme que le débat existe depuis août 2026 (Euronews, Public Sénat),
+    mais je n''ai ouvert aucune source ni vérifié la déclaration attribuée au gouverneur de la Banque de France.'
+- agent: expert-centre
+  texte: Position publique du centre sur ces questions non recherchée en phase 1 ; les questions 4 à 6 relèvent
+    de ce que la famille met en avant, sans position vérifiée.
+- agent: expert-droite
+  texte: Une recherche unique (août 2026) confirme que la proposition est dans le débat ; je n'ai ouvert aucune
+    page, donc rien n'est cité comme source.
+- agent: expert-droite
+  texte: 'La part de la dette détenue par l''Eurosystème varie selon les résumés de presse (environ 18 % ; 500 à
+    640 milliards d''euros) : à établir par le vérificateur.'
+- agent: expert-droite
+  texte: Je n'ai pas vérifié les déclarations attribuées par la presse au gouverneur de la Banque de France.
+- agent: expert-droite
+  texte: Le périmètre exact (titres détenus par la Banque de France seule ou par l'Eurosystème) reste à préciser
+    dans le libellé.
+- agent: expert-ecologistes
+  texte: 'Je n''ai pas ouvert les sources de la recherche : le contexte (proposition d''août 2026, montant détenu
+    entre 500 et 640 milliards d''euros, variante dette perpétuelle) vient d''un résumé de recherche, pas d''une
+    source vérifiée.'
+- agent: expert-ecologistes
+  texte: 'Position exacte des Écologistes sur l''annulation de la dette détenue par l''Eurosystème : non vérifiée
+    ; la famille peut être divisée, donc ce cadrage est un choix de questions et pas une position.'
+- agent: expert-ecologistes
+  texte: La question 5 (règle d'or verte) n'a pas été vérifiée comme étant dans le débat de l'été 2026.
+- agent: expert-ecologistes
+  texte: Le montant et la part de la dette publique détenue par l'Eurosystème varient selon les sources et les dates
+    ; la question 2 ne les fixe donc pas.
+- agent: expert-extreme-droite
+  texte: 'Aucune recherche web menée : je n''ai pas vérifié que ces questions sont dans le débat depuis août 2026.'
+- agent: expert-extreme-droite
+  texte: Je ne connais pas la position publique actuelle du RN, de l'UDR ni de Reconquête sur la proposition de
+    Jean-Luc Mélenchon ; elle pourra relever de sans_position en phase 2.
+- agent: expert-extreme-droite
+  texte: Les questions 1 et 3 supposent que la proposition vise bien la part détenue pour l'Eurosystème, selon le
+    contexte fourni par le coordinateur.
+- agent: expert-extreme-gauche
+  texte: 'Les termes exacts de la proposition d''août 2026 (annulation ou dette perpétuelle, périmètre, calendrier)
+    sont repris du contexte fourni par le coordinateur, sans recherche web : à confirmer à la phase 2.'
+- agent: expert-extreme-gauche
+  texte: Je n'ai pas vérifié que chaque question figure encore dans le débat de novembre 2026, ni la portée exacte
+    de l'appel d'économistes de 2021 cité dans la dernière question.
+- agent: expert-extreme-gauche
+  texte: LO et le NPA peuvent diverger de La France insoumise sur ces propositions (par exemple sur la place du
+    cadre européen), et leurs positions publiques sont à rechercher.
+- agent: expert-gauche-radicale
+  texte: Le montant détenu par la Banque de France pour l'Eurosystème varie selon les sources (environ 500 à 635
+    milliards d'euros) ; à fixer par le vérificateur.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai ouvert aucune page : une seule recherche web a confirmé que le sujet est dans le débat (réactions
+    de la Banque de France, de la BCE, de Matthieu Pigasse).'
+- agent: expert-gauche-radicale
+  texte: Les positions exactes de LFI et du PCF sur l'annulation et la dette perpétuelle ne sont pas vérifiées ;
+    les deux partis peuvent diverger.
+- agent: expert-gauche-radicale
+  texte: La formulation de la première question suppose que l'annulation passerait par la Banque de France ; l'option
+    dette perpétuelle pourrait appeler une question distincte.
+- agent: expert-sociaux-democrates
+  texte: Chiffres de la part détenue par l'Eurosystème (environ 18 % de la dette, 500 à 640 milliards d'euros selon
+    les sources de presse) non vérifiés ; aucune page ouverte, seulement une recherche.
+- agent: expert-sociaux-democrates
+  texte: Position exacte du PS et de Place publique sur la proposition non recherchée à ce stade ; les questions
+    ne préjugent pas de leur avis.
+- agent: expert-sociaux-democrates
+  texte: Les réactions de Lagarde et du gouverneur de la Banque de France viennent de résumés de recherche, non
+    ouverts.
+- agent: expert-sociaux-democrates
+  texte: Les questions 1 et 6 se recoupent en partie ; le coordinateur peut en fusionner une.

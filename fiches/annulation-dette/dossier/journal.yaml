@@ -6,3 +6,42 @@
   agent: coordinateur
   phase: '1'
   action: debut de la phase 1 (cadrage du thème complet par les 7 experts)
+- date: '2026-11-10T20:32:42'
+  agent: expert-centre
+  phase: '1'
+  action: 'a ajouté Q1 (proposée), Q2 (proposée), Q3 (proposée), Q4 (proposée), Q5 (proposée), Q6 (proposée) ; incertitudes
+    signalées : 3'
+- date: '2026-11-10T20:32:42'
+  agent: expert-droite
+  phase: '1'
+  action: 'a ajouté Q7 (proposée), Q8 (proposée), Q9 (proposée), Q10 (proposée), Q11 (proposée) ; incertitudes signalées
+    : 4'
+- date: '2026-11-10T20:32:42'
+  agent: expert-ecologistes
+  phase: '1'
+  action: 'a ajouté Q12 (proposée), Q13 (proposée), Q14 (proposée), Q15 (proposée), Q16 (proposée), Q17 (proposée)
+    ; incertitudes signalées : 4'
+- date: '2026-11-10T20:32:42'
+  agent: expert-extreme-droite
+  phase: '1'
+  action: 'a ajouté Q18 (proposée), Q19 (proposée), Q20 (proposée), Q21 (proposée), Q22 (proposée), Q23 (proposée)
+    ; incertitudes signalées : 3'
+- date: '2026-11-10T20:32:42'
+  agent: expert-extreme-gauche
+  phase: '1'
+  action: 'a ajouté Q24 (proposée), Q25 (proposée), Q26 (proposée), Q27 (proposée), Q28 (proposée), Q29 (proposée)
+    ; incertitudes signalées : 3'
+- date: '2026-11-10T20:32:43'
+  agent: expert-gauche-radicale
+  phase: '1'
+  action: 'a ajouté Q30 (proposée), Q31 (proposée), Q32 (proposée), Q33 (proposée), Q34 (proposée) ; incertitudes
+    signalées : 4'
+- date: '2026-11-10T20:32:43'
+  agent: expert-sociaux-democrates
+  phase: '1'
+  action: 'a ajouté Q35 (proposée), Q36 (proposée), Q37 (proposée), Q38 (proposée), Q39 (proposée), Q40 (proposée)
+    ; incertitudes signalées : 4'
+- date: '2026-11-10T20:33:04'
+  agent: coordinateur
+  phase: '1'
+  action: fin de la phase 1 (40 questions proposées ; regroupement soumis au fondateur)

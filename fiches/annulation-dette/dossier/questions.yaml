@@ -1,1 +1,347 @@
-[]
+- id: Q1
+  enonce: Les traités européens interdisent-ils à la Banque de France d'annuler les titres de dette publique française
+    qu'elle détient pour l'Eurosystème ?
+  type: fait
+  pourquoi: Le cadre juridique (interdiction du financement monétaire des États, indépendance de la banque centrale)
+    conditionne toute la faisabilité de la proposition.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q2
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par l'Eurosystème ferait-il monter les taux auxquels
+    l'État français emprunte ?
+  type: estimation
+  pourquoi: L'effet sur la confiance des investisseurs privés est l'argument central des opposants comme des partisans,
+    et il se chiffre.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q3
+  enonce: Cette opération réduirait-elle réellement la charge de la dette pour l'État, compte tenu de la remise
+    à l'État des intérêts perçus par la Banque de France ?
+  type: estimation
+  pourquoi: L'effet budgétaire net dépend des intérêts, des pertes de la banque centrale et de la recapitalisation
+    éventuelle.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q4
+  enonce: Une annulation partielle de la dette publique, même limitée à la part détenue par la banque centrale,
+    affaiblirait-elle la crédibilité de la France et de l'euro ?
+  type: estimation
+  pourquoi: Elle porte sur l'effet de précédent et sur la stabilité de la zone euro, au-delà du cas français.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q5
+  enonce: Un État doit-il honorer l'intégralité de ses engagements de dette, y compris lorsque son créancier est
+    sa propre banque centrale ?
+  type: valeur
+  pourquoi: Elle oppose le principe de respect des engagements et de la discipline budgétaire à l'idée qu'une dette
+    détenue par la banque centrale a un statut distinct.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q6
+  enonce: La réduction du déficit par des réformes et des économies est-elle préférable à toute forme d'annulation
+    de dette ?
+  type: valeur
+  pourquoi: Elle pose le choix entre rétablir les comptes par l'effort budgétaire et alléger le stock de dette par
+    une opération monétaire.
+  proposee_par:
+  - expert-centre
+  statut: proposee
+- id: Q7
+  enonce: Les traités européens interdisent-ils à la Banque de France et à l'Eurosystème d'annuler ou de transformer
+    en dette perpétuelle les titres publics qu'ils détiennent ?
+  type: fait
+  pourquoi: Toute la proposition dépend de sa légalité, notamment de l'interdiction du financement monétaire des
+    États.
+  proposee_par:
+  - expert-droite
+  statut: proposee
+- id: Q8
+  enonce: Annuler ou geler la part de la dette détenue par l'Eurosystème ferait-il monter les taux auxquels l'État
+    français emprunte ?
+  type: estimation
+  pourquoi: Le coût de financement futur de l'État dépend de la confiance des prêteurs dans la parole de la France.
+  proposee_par:
+  - expert-droite
+  statut: proposee
+- id: Q9
+  enonce: Cette mesure réduirait-elle de façon durable la charge de la dette de l'État, compte tenu des déficits
+    annuels qui continueraient de s'ajouter ?
+  type: estimation
+  pourquoi: Il faut mesurer ce que la mesure change réellement par rapport aux déficits et au besoin de financement
+    annuel.
+  proposee_par:
+  - expert-droite
+  statut: proposee
+- id: Q10
+  enonce: Cette mesure affaiblirait-elle la crédibilité de l'euro ou l'indépendance de la Banque centrale européenne
+    ?
+  type: estimation
+  pourquoi: Une monnaie commune repose sur la règle qu'aucun État ne fait effacer ses dettes par sa banque centrale.
+  proposee_par:
+  - expert-droite
+  statut: proposee
+- id: Q11
+  enonce: Un État doit-il toujours honorer intégralement ses dettes, sans les annuler ?
+  type: valeur
+  pourquoi: La famille de droite place la responsabilité budgétaire et la parole donnée avant les arrangements sur
+    la dette.
+  proposee_par:
+  - expert-droite
+  statut: proposee
+- id: Q12
+  enonce: Les titres de dette publique française détenus par la Banque de France pour l'Eurosystème peuvent-ils
+    être annulés ou gelés en dette perpétuelle sans modifier les traités européens ?
+  type: fait
+  pourquoi: Tout le débat dépend de la possibilité juridique (interdiction du financement monétaire des États, indépendance
+    de la banque centrale).
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q13
+  enonce: Annuler ou geler la part de dette détenue par l'Eurosystème réduirait-il durablement la charge d'intérêts
+    de l'État et son besoin de financement ?
+  type: estimation
+  pourquoi: Les montants détenus sont importants, mais leur effet sur les intérêts et sur le déficit annuel est
+    contesté ; il conditionne l'intérêt réel de la mesure.
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q14
+  enonce: Une telle mesure ferait-elle monter les taux d'emprunt de la France ou affaiblirait-elle la crédibilité
+    de l'euro ?
+  type: estimation
+  pourquoi: C'est le risque central avancé contre la mesure ; il faut distinguer l'effet sur la dette détenue par
+    la banque centrale de celui sur la dette détenue par les investisseurs privés.
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q15
+  enonce: Le service de la dette doit-il être réduit en priorité pour dégager des marges d'action en faveur de la
+    transition écologique et des services publics ?
+  type: valeur
+  pourquoi: Cela renvoie à l'arbitrage entre remboursement et investissements de long terme (climat, biodiversité,
+    justice sociale).
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q16
+  enonce: Faut-il que la dette finançant des investissements de transition écologique soit traitée différemment
+    (règle d'or verte, cantonnement, exclusion des règles budgétaires) du reste de la dette publique ?
+  type: valeur
+  pourquoi: Piste alternative à l'annulation, souvent défendue pour préserver l'investissement de long terme sans
+    remettre en cause les créanciers.
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q17
+  enonce: La dette détenue par des créanciers privés (banques, assureurs, non-résidents) peut-elle être restructurée
+    ou allégée sans conséquence grave pour les épargnants français ?
+  type: estimation
+  pourquoi: Distingue l'annulation limitée à la banque centrale d'une annulation plus large, et pose la question
+    des effets sur l'épargne (assurance-vie, banques).
+  proposee_par:
+  - expert-ecologistes
+  statut: proposee
+- id: Q18
+  enonce: L'annulation de la part de la dette publique française détenue par la Banque de France est-elle compatible
+    avec les traités européens ?
+  type: fait
+  pourquoi: La souveraineté budgétaire se heurte à l'interdiction du financement monétaire des États (article 123
+    du TFUE) ; la question juridique précède tout débat sur l'opportunité.
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q19
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il monter durablement
+    les taux d'intérêt auxquels la France emprunte ?
+  type: estimation
+  pourquoi: L'effet sur la confiance des prêteurs et sur le coût de la dette est l'argument central des opposants
+    comme des partisans de la mesure.
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q20
+  enonce: Une annulation de dette ferait-elle réellement baisser les intérêts payés chaque année par l'État ?
+  type: estimation
+  pourquoi: 'Les intérêts versés à la Banque de France sont en partie reversés à l''État sous forme de bénéfices
+    : l''économie réelle est contestée.'
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q21
+  enonce: La France doit-elle honorer l'intégralité de ses dettes envers ses créanciers, y compris la Banque de
+    France ?
+  type: valeur
+  pourquoi: Oppose la parole de l'État et la crédibilité financière au principe que la dette ne doit pas contraindre
+    la souveraineté nationale.
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q22
+  enonce: Les décisions sur la dette publique française doivent-elles relever de la seule décision nationale plutôt
+    que de règles ou d'institutions européennes ?
+  type: valeur
+  pourquoi: 'Touche à la souveraineté nationale : qui, du Parlement français ou de la BCE et des traités, doit avoir
+    le dernier mot sur le sort de la dette.'
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q23
+  enonce: La Banque de France détient-elle une part de la dette publique française au titre de ses achats pour l'Eurosystème
+    ?
+  type: fait
+  pourquoi: Établir le montant et la nature de cette part est le préalable à toute discussion sur son annulation.
+  proposee_par:
+  - expert-extreme-droite
+  statut: proposee
+- id: Q24
+  enonce: La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être
+    annulée ou gelée en dette perpétuelle sans modifier les traités européens ?
+  type: fait
+  pourquoi: Le traité interdit le financement monétaire des États ; la faisabilité juridique est le premier point
+    de désaccord.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q25
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il baisser durablement
+    la charge d'intérêts de l'État ?
+  type: estimation
+  pourquoi: L'effet réel sur les intérêts payés dépend de la manière dont la Banque de France est rémunérée et de
+    ses bilans, et les estimations divergent.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q26
+  enonce: Une telle opération ferait-elle monter les taux auxquels la France emprunte ou la défiance des marchés
+    ?
+  type: estimation
+  pourquoi: Les partisans y voient un effet limité ; les opposants un risque pour la crédibilité de la signature
+    de l'État.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q27
+  enonce: La dette publique détenue par des créanciers privés (banques, assurances, non-résidents) devrait-elle
+    elle aussi être annulée, restructurée ou auditée ?
+  type: valeur
+  pourquoi: 'Question de principe sur qui doit supporter le coût de la dette : les créanciers ou les contribuables
+    et les services publics.'
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q28
+  enonce: L'annulation d'une partie de la dette publique est-elle un moyen légitime de financer des dépenses sociales
+    et écologiques sans austérité ?
+  type: valeur
+  pourquoi: Elle oppose le choix de rompre avec les règles budgétaires et la priorité aux besoins sociaux à celui
+    du remboursement intégral des engagements.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q29
+  enonce: L'annulation d'une dette par une banque centrale est-elle déjà arrivée ou proposée par des institutions
+    (BCE, FMI, économistes) ?
+  type: fait
+  pourquoi: Les précédents (annulations de dettes, appel de 2021 de plus de 100 économistes) sont invoqués par les
+    partisans et contestés par les opposants.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: proposee
+- id: Q30
+  enonce: La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être
+    annulée sans modifier les traités européens ?
+  type: fait
+  pourquoi: 'Question centrale du débat d''août 2026 : les traités interdisent le financement monétaire des États,
+    et la lecture de cette interdiction est contestée.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: proposee
+- id: Q31
+  enonce: Annuler (ou geler en dette perpétuelle) la dette détenue par la Banque de France laisserait-il inchangées
+    la charge d'intérêts et la dette nette de l'État ?
+  type: estimation
+  pourquoi: 'Ces titres sont détenus par une banque centrale dont l''État est actionnaire : il faut établir ce que
+    l''opération change réellement dans les comptes publics.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: proposee
+- id: Q32
+  enonce: Une telle annulation ferait-elle monter les taux d'emprunt de la France ou entamerait-elle la crédibilité
+    de l'euro ?
+  type: estimation
+  pourquoi: L'objection la plus courante porte sur la réaction des marchés et de la BCE ; nous jugeons que les effets
+    sont surestimés.
+  proposee_par:
+  - expert-gauche-radicale
+  statut: proposee
+- id: Q33
+  enonce: La dette publique doit-elle être traitée comme une dette ordinaire, à rembourser en totalité à ses détenteurs
+    ?
+  type: valeur
+  pourquoi: 'Désaccord de fond sur la nature de la dette : obligation morale et contractuelle, ou instrument de
+    politique économique dont les créanciers et les conditions peuvent être rediscutés.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: proposee
+- id: Q34
+  enonce: Faut-il que l'État puisse réduire sa dette sans accord préalable de ses partenaires de la zone euro ?
+  type: valeur
+  pourquoi: Oppose la souveraineté budgétaire nationale à la cohérence des règles communes de la zone euro.
+  proposee_par:
+  - expert-gauche-radicale
+  statut: proposee
+- id: Q35
+  enonce: L'article 123 du traité sur le fonctionnement de l'Union européenne interdit-il à la France d'obtenir
+    l'annulation ou la conversion en dette perpétuelle de la part de sa dette détenue par l'Eurosystème ?
+  type: fait
+  pourquoi: Le cadre juridique européen conditionne toute la proposition et la construction européenne est une priorité
+    de cette famille.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
+- id: Q36
+  enonce: L'annulation de la dette détenue par la Banque de France pour l'Eurosystème ferait-elle monter les taux
+    d'emprunt de la France sur les marchés ?
+  type: estimation
+  pourquoi: Le coût de financement de l'État pèse directement sur le budget des services publics et sur la redistribution.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
+- id: Q37
+  enonce: Annuler cette part de dette allégerait-elle de façon significative la charge d'intérêts de l'État ?
+  type: estimation
+  pourquoi: Il faut savoir si l'effet budgétaire réel justifie le risque, la Banque de France reversant déjà à l'État
+    une partie de ses revenus.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
+- id: Q38
+  enonce: Une annulation de dette publique, même partielle, affaiblirait-elle la crédibilité de la zone euro et
+    de la BCE ?
+  type: estimation
+  pourquoi: Elle touche à la stabilité monétaire européenne et à l'indépendance de la banque centrale.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
+- id: Q39
+  enonce: Faut-il privilégier la croissance et la réforme fiscale (recettes) plutôt que l'annulation de dette pour
+    retrouver des marges budgétaires ?
+  type: valeur
+  pourquoi: Elle oppose deux choix de politique budgétaire pour financer les services publics et la transition.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
+- id: Q40
+  enonce: Une partie de la dette publique française pourrait-elle être restructurée sans accord des autres États
+    de la zone euro ?
+  type: fait
+  pourquoi: Elle précise si la France peut agir seule ou si toute option suppose une décision européenne.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: proposee
