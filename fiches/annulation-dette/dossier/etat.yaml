@@ -64,6 +64,11 @@ agents:
   jetons: 38503
   outils: 11
   duree_ms: 65222
+- phase: '3'
+  agent: verificateur-bibliotheque-2
+  jetons: 48842
+  outils: 16
+  duree_ms: 122023
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

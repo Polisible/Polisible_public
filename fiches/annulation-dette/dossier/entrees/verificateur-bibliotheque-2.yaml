@@ -1,0 +1,25 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S9
+    statut: conforme
+    note: "Bon document : Bulletin de la Banque de France n° 260/6, septembre-octobre 2025, sur le partage du revenu monétaire (adresse déposée en février 2026, date du document inchangée). F21 : l'extrait figure mot pour mot (note sous le graphique, sources banques centrales nationales) et dit la même chose que l'affirmation, même période 2015-2022 puis 2023-2024."
+  - id: S10
+    statut: conforme
+    note: "Bon document : rapport d'information de la commission des finances du Sénat, rapporteur Albéric de Montgolfier, examiné et déposé le 24 septembre 2025 (date précisable : 2025-09-24). F16 : l'extrait figure mot pour mot, au conditionnel (« détiendrait »), dans la partie qui commente la structure de détention au premier trimestre 2025 ; même sens. F17 : le chiffre de 24,4 % figure dans le tableau « Autres français (dont la Banque de France pour le compte de la BCE) », titres de la dette négociable de l'État au premier trimestre 2025 en valeur de marché ; même périmètre."
+  - id: S11
+    statut: conforme
+    note: "Bon document : synthèse du rapport de la Cour des comptes sur la situation et les perspectives des finances publiques, juin 2026. F22 : l'extrait figure et dit la même chose (charge de la dette de l'ensemble des administrations publiques en 2025, 65,7 Md€, 2,2 points de PIB, plus de 9 % par rapport à 2024). F23 : le chiffre de 77,4 Md€ (2,5 points de PIB, +11,7 Md€) figure comme prévision de charge de la dette des administrations publiques pour 2026, mais la synthèse ne l'attribue pas explicitement à la loi de finances pour 2026 (la mention de la LFI promulguée le 19 février porte sur la dépense hors charge de la dette, 1 735 Md€) : écart de périmètre sur la mention « dans la loi de finances pour 2026 »."
+  - id: S12
+    statut: inaccessible
+    note: "Erreur 403 à deux reprises sur l'adresse demandée ; également 403 sur deux autres adresses du même communiqué trouvées par recherche (variante « …dette-publique-par-la-banque-de-france » et banque-france.fr/en/node/1924173). Les chiffres 546 Md€ (31 décembre 2025) et 488 Md€ (30 juin 2026) n'apparaissent que dans des résumés de recherche, non vérifiés ; aucune autre adresse officielle ne les reprend dans ce que j'ai pu ouvrir (le document « Comprendre les comptes 2025 » de la Banque de France, ouvert, ne contient pas « 546 »). Aucune affirmation rattachée."
+  - id: S13
+    statut: inaccessible
+    note: "Erreur 403 à deux reprises ; d'après les résultats de recherche (non vérifiés), ce PDF serait la version imprimable du même communiqué du 12 septembre 2026 que S12 (« Précisions sur le programme de détention de la dette publique par la Banque de France »). Aucune autre adresse ouvrable trouvée ; aucune affirmation rattachée."
+  - id: S14
+    statut: inaccessible
+    note: "Erreur 403 sur la page d'index, sur la page trouvée par recherche (banque-france.fr/fr/interventions-gouverneur/rtl-lannulation-de-la-dette-est-illegale-dangereuse-et-inutile) et sur la transcription PDF (banque-france.fr/system/files/2026-09/interview-em_2026-09-11_rtl.pdf). Les résultats de recherche, non vérifiés, attribuent cette intervention du 11 septembre 2026 au gouverneur Emmanuel Moulin (le nom de fichier « interview-em » va dans ce sens) ; la prise de position reste à vérifier sur le texte, aucune version sur rtl.fr n'a été trouvée."
+  - id: S15
+    statut: inaccessible
+    note: "Légifrance renvoie 403 à deux reprises. J'ai ouvert une compilation du statut de la Banque de France publiée par la Banque de France (banque-france.fr/system/files/2023-08/…code-monetaire-et-financier-statut-banque-de-france.pdf), où l'article L. 142-2 prévoit que le Conseil général arrête « le projet d'affectation du bénéfice et de fixation du dividende revenant à l'État » ; mais cette compilation est à jour d'août 2008 (loi n° 2008-776), ce n'est donc pas la version en vigueur demandée. Aucune affirmation rattachée, rien n'est ajouté."
