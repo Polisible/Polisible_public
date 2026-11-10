@@ -7,6 +7,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | Phase | Début | Fin | Durée | Passages | Agents lancés | Jetons | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. Cadrage | 2026-11-10T20:31:37 | 2026-11-10T20:33:04 | 1 min 27 s | 1 | 7 | 142650 | 40 questions proposées ; regroupement soumis au fondateur |
+| 1-bis. Cadrage | 2026-11-10T20:59:01 | — | — | 1 | 0 | — | bibliothèque commune, 7 questions |
 
 ## Par agent
 

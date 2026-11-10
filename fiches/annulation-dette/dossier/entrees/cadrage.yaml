@@ -1,0 +1,29 @@
+validee_par: "fondateur (message du 10 novembre 2026)"
+retenues:
+  - enonce: "Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la dette française détenue par la Banque de France pour l'Eurosystème ?"
+    type: fait
+    fusion_de: [Q1, Q7, Q12, Q18, Q24, Q30, Q35, Q40]
+  - enonce: "Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?"
+    type: estimation
+    fusion_de: [Q2, Q8, Q14, Q19, Q26, Q32, Q36]
+  - enonce: "L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la Banque de France reverse à l'État ?"
+    type: estimation
+    fusion_de: [Q3, Q9, Q13, Q20, Q25, Q31, Q37]
+  - enonce: "Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?"
+    type: estimation
+    fusion_de: [Q4, Q10, Q14, Q32, Q38]
+  - enonce: "Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale ?"
+    type: valeur
+    fusion_de: [Q5, Q11, Q21, Q33]
+  - enonce: "Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des règles européennes ?"
+    type: valeur
+    fusion_de: [Q22, Q34]
+  - enonce: "Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies, à la hausse des recettes ou à la recherche de croissance ?"
+    type: valeur
+    fusion_de: [Q6, Q39, Q15, Q28]
+ecartees:
+  - {id: Q16, raison: "Traitement à part de la dette de transition écologique : relève d'une fiche sur les règles budgétaires."}
+  - {id: Q17, raison: "Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche « restructuration de la dette »."}
+  - {id: Q27, raison: "Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche « restructuration de la dette »."}
+  - {id: Q23, raison: "Fait non disputé : la part détenue est un chiffre de contexte, établi par le bibliothécaire."}
+  - {id: Q29, raison: "Fait non disputé : les précédents sont un appui des questions sur la légalité et les effets, établis par le bibliothécaire."}

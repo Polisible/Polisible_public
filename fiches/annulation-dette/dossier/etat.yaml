@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '1'
+phase: 1-bis
 passage: 1
 phases:
   '1':
@@ -9,6 +9,10 @@ phases:
     passages: 1
     note: 40 questions proposées ; regroupement soumis au fondateur
     fin: '2026-11-10T20:33:04'
+  1-bis:
+    debut: '2026-11-10T20:59:01'
+    passages: 1
+    note: bibliothèque commune, 7 questions
 agents:
 - phase: '1'
   agent: expert-extreme-gauche

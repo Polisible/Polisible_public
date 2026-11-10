@@ -45,3 +45,59 @@
   agent: coordinateur
   phase: '1'
   action: fin de la phase 1 (40 questions proposées ; regroupement soumis au fondateur)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q41 validée par fondateur (message du 10 novembre 2026) (fusion de Q1, Q7, Q12, Q18, Q24, Q30, Q35, Q40)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q42 validée par fondateur (message du 10 novembre 2026) (fusion de Q2, Q8, Q14, Q19, Q26, Q32, Q36)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q43 validée par fondateur (message du 10 novembre 2026) (fusion de Q3, Q9, Q13, Q20, Q25, Q31, Q37)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q44 validée par fondateur (message du 10 novembre 2026) (fusion de Q4, Q10, Q14, Q32, Q38)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q45 validée par fondateur (message du 10 novembre 2026) (fusion de Q5, Q11, Q21, Q33)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q46 validée par fondateur (message du 10 novembre 2026) (fusion de Q22, Q34)
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: '1'
+  action: Q47 validée par fondateur (message du 10 novembre 2026) (fusion de Q6, Q39, Q15, Q28)
+- date: '2026-11-10T20:59:01'
+  agent: fondateur
+  phase: '1'
+  action: 'Q16 écartée : Traitement à part de la dette de transition écologique : relève d''une fiche sur les règles
+    budgétaires.'
+- date: '2026-11-10T20:59:01'
+  agent: fondateur
+  phase: '1'
+  action: 'Q17 écartée : Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche
+    « restructuration de la dette ».'
+- date: '2026-11-10T20:59:01'
+  agent: fondateur
+  phase: '1'
+  action: 'Q27 écartée : Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche
+    « restructuration de la dette ».'
+- date: '2026-11-10T20:59:01'
+  agent: fondateur
+  phase: '1'
+  action: 'Q23 écartée : Fait non disputé : la part détenue est un chiffre de contexte, établi par le bibliothécaire.'
+- date: '2026-11-10T20:59:01'
+  agent: fondateur
+  phase: '1'
+  action: 'Q29 écartée : Fait non disputé : les précédents sont un appui des questions sur la légalité et les effets,
+    établis par le bibliothécaire.'
+- date: '2026-11-10T20:59:01'
+  agent: coordinateur
+  phase: 1-bis
+  action: debut de la phase 1-bis (bibliothèque commune, 7 questions)
