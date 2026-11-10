@@ -26,3 +26,8 @@ agents:
   jetons: 102013
   outils: 13
   duree_ms: 97337
+- phase: '2'
+  agent: expert-ecologistes
+  jetons: 102744
+  outils: 19
+  duree_ms: 121183

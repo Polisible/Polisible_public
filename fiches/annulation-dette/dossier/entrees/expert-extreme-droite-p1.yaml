@@ -1,0 +1,96 @@
+agent: expert-extreme-droite
+phase: 2
+sources:
+  - ref: s1
+    titre: "Traité sur le fonctionnement de l'Union européenne (version consolidée), article 123"
+    auteur: "Union européenne (Journal officiel C 326 du 26.10.2012)"
+    date: "2012-10-26"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E123"
+    niveau: 1
+  - ref: s2
+    titre: "Traité sur le fonctionnement de l'Union européenne (version consolidée), article 130"
+    auteur: "Union européenne (Journal officiel C 326 du 26.10.2012)"
+    date: "2012-10-26"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E130"
+    niveau: 1
+  - ref: s3
+    titre: "Jordan Bardella sur X : « Matthieu Pigasse raconte n'importe quoi. »"
+    auteur: "Jordan Bardella, président du Rassemblement national"
+    date: "2026-08-23"
+    adresse: "https://x.com/J_Bardella/status/2091477140793373045"
+    niveau: 3
+  - ref: s4
+    titre: "Annuler une partie de la dette de la France ? La proposition de LFI face aux obstacles juridiques et politiques"
+    auteur: "De Facto (observatoire de l'information, fact-check relayant l'AFP)"
+    date: "2026-08-25"
+    adresse: "https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/Annuler-une-partie-de-la-dette-de-la-France-La-proposition-de-LFI-face-aux-obstacles-juridiques-et-politiques/"
+    niveau: 4
+  - ref: s5
+    titre: "Jean-Luc Mélenchon propose d'annuler la dette, ce serait « illégal, dangereux et inutile », met en garde la Banque de France"
+    auteur: "Boursorama avec Media Services (AFP)"
+    date: "2026-09-11"
+    adresse: "https://www.boursorama.com/actualite-economique/actualites/jean-luc-melenchon-propose-d-annuler-la-dette-ce-serait-illegal-dangereux-et-inutile-met-en-garde-la-banque-de-france-40b8c3bc3be532dc9b54c8cd44573dea"
+    niveau: 4
+  - ref: s6
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "L'article 123 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des crédits aux administrations publiques des États membres et d'acquérir directement leur dette."
+    type: fait
+    sources:
+      - {source: s1, extrait: "l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales, des instruments de leur dette est également interdite."}
+  - ref: f2
+    enonce: "L'article 130 du TFUE interdit aux banques centrales de solliciter ou d'accepter des instructions des gouvernements des États membres, et les gouvernements s'engagent à ne pas chercher à les influencer."
+    type: fait
+    sources:
+      - {source: s2, extrait: "ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs organes de décision ne peuvent solliciter ni accepter des instructions"}
+  - ref: f3
+    enonce: "Le 11 septembre 2026, le gouverneur de la Banque de France, Emmanuel Moulin, a déclaré sur RTL que l'annulation proposée par Jean-Luc Mélenchon était illégale car contraire aux traités."
+    type: fait
+    sources:
+      - {source: s5, extrait: "\"Elle est illégale parce qu'elle est contraire aux traités\""}
+  - ref: f4
+    enonce: "Selon des experts interrogés par l'AFP en août 2026, seul le Conseil des gouverneurs de la BCE pourrait décider d'effacer la part de dette détenue par l'Eurosystème, et une telle décision est jugée très improbable."
+    type: fait
+    sources:
+      - {source: s4, extrait: "Des experts soulignent aussi que seul le Conseil des gouverneurs de la BCE pourrait décider d'effacer cette part de la dette."}
+  - ref: f5
+    enonce: "Le 23 août 2026, Jordan Bardella a écrit que la Banque de France est détenue par l'État et que les intérêts que l'État lui verse lui sont reversés sous forme de dividendes."
+    type: fait
+    sources:
+      - {source: s3, extrait: "La Banque de France est détenue par l'État."}
+  - ref: f6
+    enonce: "La dette détenue par la Banque de France provient de rachats d'obligations sur le marché secondaire, car les traités interdisent à la BCE de financer directement les États."
+    type: fait
+    sources:
+      - {source: s6, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières, puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "Le président du Rassemblement national rejette l'annulation de la dette détenue par la Banque de France, qu'il juge sans effet sur les finances publiques puisque l'État reçoit les intérêts sous forme de dividendes, et propre à faire monter les taux demandés à la France. Cet argument porte sur l'utilité de la mesure, non sur sa légalité : aucun texte de la famille consulté ne discute la question juridique."
+    porte_par:
+      - {qui: "Jordan Bardella, président du Rassemblement national (23 août 2026)", source: s3}
+    affirmations: [f5]
+  - ref: a2
+    question: Q1
+    position: contre
+    enonce: "Les textes européens fixent le cadre de la question : l'article 123 interdit le financement direct des États par les banques centrales, et l'article 130 interdit tout ordre d'un gouvernement à la banque centrale. Une annulation décidée par la France seule se heurterait à ces deux articles ; elle n'est envisageable que par une décision du Conseil des gouverneurs de la BCE. Cette lecture est celle du gouverneur de la Banque de France et des juristes cités par l'AFP, non d'un texte du RN, de l'UDR ou de Reconquête."
+    porte_par:
+      - {qui: "Emmanuel Moulin, gouverneur de la Banque de France (11 septembre 2026), repris ici comme base du raisonnement contre ; aucun texte d'un parti de la famille n'a été trouvé", source: s5}
+    affirmations: [f1, f2, f3, f4, f6]
+valeurs:
+  - {question: Q1, enonce: "La famille met en avant la souveraineté nationale et le rejet d'une dette effacée au détriment de la crédibilité financière de l'État ; aucun texte consulté ne tranche la question de la légalité elle-même."}
+incertitudes:
+  - "Aucune position publique du RN, de l'UDR ou de Reconquête sur la légalité de l'annulation n'a été trouvée : la seule réaction datée est celle de Jordan Bardella (23 août 2026), qui porte sur l'utilité et le coût. Les positions de l'UDR et de Reconquête n'ont pas été trouvées."
+  - "L'argument a2 n'est pas porté par un parti de la famille : il est reproduit parce qu'il est le cadre juridique de la question ; le coordinateur peut le retirer si la règle porte_par l'exclut."
+  - "La date de publication de l'article De Facto (s4) n'apparaît pas dans les métadonnées ; 2026-08-25 est une estimation (l'article cite des captures du 21 août 2026 et des déclarations du 18 août), à corriger par le vérificateur."
+  - "Le contexte indique une proposition en août 2026 ; Public Sénat (25 août 2026) la rattache à une vidéo de Jean-Luc Mélenchon datée de juin et relancée en août. La date exacte de la proposition n'est pas établie ici."
+  - "L'article du Conseil des gouverneurs et la procédure exacte de décision (statuts du SEBC, règle de majorité) n'ont pas été ouverts dans les textes ; l'affirmation f4 repose sur des experts cités dans une presse de niveau 4."
+  - "Les articles 123 et 130 ont été ouverts sur EUR-Lex (version consolidée 2012) ; l'existence d'une version plus récente n'a pas été vérifiée. La jurisprudence de la Cour de justice (arrêts Pringle, Gauweiler, Weiss) n'a pas été consultée."
+  - "L'extrait de f5 est la première phrase de la réponse de Bardella ; la mention des dividendes figure dans la suite du message (ouvert sur la page X), non dans l'extrait cité."
+  - "La part exacte de dette détenue par la Banque de France (18 % ou 20 % selon les sources) n'est pas tranchée ici."
