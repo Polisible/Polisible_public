@@ -1,1 +1,104 @@
-[]
+- id: S1
+  titre: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée, JO C 202 du 7.6.2016)
+  auteur: Union européenne (EUR-Lex)
+  date: '2016-06-07'
+  adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_123/oj/fra
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S2
+  titre: Traité sur le fonctionnement de l'Union européenne, article 130 (version consolidée, JO C 202 du 7.6.2016)
+  auteur: Union européenne (EUR-Lex)
+  date: '2016-06-07'
+  adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_130/oj/fra
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S3
+  titre: Arrêt de la Cour (grande chambre) du 16 juin 2015, Peter Gauweiler e.a. contre Deutscher Bundestag, affaire
+    C-62/14
+  auteur: Cour de justice de l'Union européenne
+  date: '2015-06-16'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S4
+  titre: Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17
+  auteur: Cour de justice de l'Union européenne
+  date: '2018-12-11'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S5
+  titre: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP (Informations rapides
+    n° 79)
+  auteur: Insee
+  date: '2026-03-27'
+  adresse: https://www.insee.fr/en/statistiques/8960468
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S6
+  titre: Glossary, entrée « Secondary market »
+  auteur: Banque nationale de Belgique (membre de l'Eurosystème)
+  date: non datée (glossaire consulté le 2026-11-10)
+  adresse: https://www.nbb.be/en/glossary?letter=s
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S7
+  titre: Glossary, entrée « European System of Central Banks (ESCB) »
+  auteur: Banque nationale de Belgique (membre de l'Eurosystème)
+  date: non datée (glossaire consulté le 2026-11-10)
+  adresse: https://www.nbb.be/en/glossary?letter=e
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S8
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: part et montant de la dette publique française détenue par la Banque de France, fin 2025 (communiqué
+      de la Banque de France)
+    erreur: '403'
+  note_verif: null
+- id: S9
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/en/node/1924173
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: 'même information : détention de la dette publique par la Banque de France (page de précisions sur
+      le programme de détention)'
+    erreur: '403'
+  note_verif: null
+- id: S10
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: répartition de la dette négociable de l'État par groupe de porteurs, dont la Banque de France, au
+      quatrième trimestre 2025
+    erreur: '403'
+  note_verif: null

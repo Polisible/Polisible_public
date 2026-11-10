@@ -1,0 +1,267 @@
+sources_a_verifier:
+- source:
+    id: S1
+    titre: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée, JO C 202 du 7.6.2016)
+    auteur: Union européenne (EUR-Lex)
+    date: '2016-06-07'
+    adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_123/oj/fra
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F1
+    enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter
+      directement aux autorités publiques les instruments de leur dette.
+    type: fait
+    extrait_annonce: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales
+      nationales, des instruments de leur dette est également interdite
+  - affirmation: F2
+    enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+      autre crédit aux administrations centrales et aux autres autorités publiques.
+    type: fait
+    extrait_annonce: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes
+      de l'Union, aux administrations centrales
+- source:
+    id: S2
+    titre: Traité sur le fonctionnement de l'Union européenne, article 130 (version consolidée, JO C 202 du 7.6.2016)
+    auteur: Union européenne (EUR-Lex)
+    date: '2016-06-07'
+    adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_130/oj/fra
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F3
+    enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    extrait_annonce: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque
+      de leurs organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes
+      ou organismes de l'Union, des gouvernements des États membres ou de tout autre organisme.
+- source:
+    id: S3
+    titre: Arrêt de la Cour (grande chambre) du 16 juin 2015, Peter Gauweiler e.a. contre Deutscher Bundestag, affaire
+      C-62/14
+    auteur: Cour de justice de l'Union européenne
+    date: '2015-06-16'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F4
+    enonce: Dans l'arrêt C-62/14 du 16 juin 2015, la Cour (grande chambre) dit pour droit que les articles 119,
+      123 § 1 et 127 TFUE autorisent le SEBC à adopter un programme d'achat d'obligations souveraines sur les marchés
+      secondaires, tel que celui annoncé en septembre 2012 (programme OMT).
+    type: fait
+    extrait_annonce: ils autorisent le Système européen de banques centrales (SEBC) à adopter un programme d’achat
+      d’obligations souveraines sur les marchés secondaires
+- source:
+    id: S4
+    titre: Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17
+    auteur: Cour de justice de l'Union européenne
+    date: '2018-12-11'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F5
+    enonce: Dans l'arrêt C-493/17 du 11 décembre 2018, la Cour (grande chambre) dit pour droit que l'examen des
+      questions posées n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de
+      la BCE, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
+    type: fait
+    extrait_annonce: L’examen des première à quatrième questions préjudicielles n’a révélé aucun élément de nature
+      à affecter la validité de la décision (UE) 2015/774 de la Banque centrale européenne
+- source:
+    id: S5
+    titre: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP (Informations
+      rapides n° 79)
+    auteur: Insee
+    date: '2026-03-27'
+    adresse: https://www.insee.fr/en/statistiques/8960468
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F6
+    enonce: Fin 2025 (quatrième trimestre), la dette publique française s'élevait à 115,6 % du produit intérieur
+      brut (Insee, publication du 27 mars 2026).
+    type: fait
+    extrait_annonce: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP
+  - affirmation: F7
+    enonce: Au sens de Maastricht, la dette publique française s'élevait à 3 460,5 milliards d'euros fin 2025 (quatrième
+      trimestre, Insee).
+    type: fait
+    extrait_annonce: public debt as defined by the Maastricht criteria stood at €3,460.5 billion
+- source:
+    id: S6
+    titre: Glossary, entrée « Secondary market »
+    auteur: Banque nationale de Belgique (membre de l'Eurosystème)
+    date: non datée (glossaire consulté le 2026-11-10)
+    adresse: https://www.nbb.be/en/glossary?letter=s
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F8
+    enonce: Le marché secondaire est le marché où sont échangés des instruments financiers déjà en circulation,
+      par opposition au marché primaire où ils sont émis.
+    type: fait
+    extrait_annonce: Market where transactions are carried out concerning financial instruments in circulation.
+- source:
+    id: S7
+    titre: Glossary, entrée « European System of Central Banks (ESCB) »
+    auteur: Banque nationale de Belgique (membre de l'Eurosystème)
+    date: non datée (glossaire consulté le 2026-11-10)
+    adresse: https://www.nbb.be/en/glossary?letter=e
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F9
+    enonce: Le SEBC comprend la BCE et les banques centrales de tous les États membres ; l'Eurosystème ne comprend
+      que la BCE et les banques centrales des États ayant adopté l'euro.
+    type: fait
+    extrait_annonce: it includes, in addition to the members of the Eurosystem, the NCBs of those Member States
+      that have not yet adopted the euro.
+- source:
+    id: S8
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: part et montant de la dette publique française détenue par la Banque de France, fin 2025 (communiqué
+        de la Banque de France)
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S9
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/en/node/1924173
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: 'même information : détention de la dette publique par la Banque de France (page de précisions sur
+        le programme de détention)'
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S10
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: répartition de la dette négociable de l'État par groupe de porteurs, dont la Banque de France, au
+        quatrième trimestre 2025
+      erreur: '403'
+  a_controler: []
+verdicts_a_attribuer:
+- id: F1
+  enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter directement
+    aux autorités publiques les instruments de leur dette.
+  type: fait
+  sources:
+  - source: S1
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+      des instruments de leur dette est également interdite
+- id: F2
+  enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+    autre crédit aux administrations centrales et aux autres autorités publiques.
+  type: fait
+  sources:
+  - source: S1
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de l'Union,
+      aux administrations centrales
+- id: F3
+  enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+    des instructions des gouvernements des États membres.
+  type: fait
+  sources:
+  - source: S2
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+      organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes
+      de l'Union, des gouvernements des États membres ou de tout autre organisme.
+- id: F4
+  enonce: Dans l'arrêt C-62/14 du 16 juin 2015, la Cour (grande chambre) dit pour droit que les articles 119, 123
+    § 1 et 127 TFUE autorisent le SEBC à adopter un programme d'achat d'obligations souveraines sur les marchés
+    secondaires, tel que celui annoncé en septembre 2012 (programme OMT).
+  type: fait
+  sources:
+  - source: S3
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: ils autorisent le Système européen de banques centrales (SEBC) à adopter un programme d’achat d’obligations
+      souveraines sur les marchés secondaires
+- id: F5
+  enonce: Dans l'arrêt C-493/17 du 11 décembre 2018, la Cour (grande chambre) dit pour droit que l'examen des questions
+    posées n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de la BCE, relative
+    au programme d'achats d'actifs du secteur public sur les marchés secondaires.
+  type: fait
+  sources:
+  - source: S4
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: L’examen des première à quatrième questions préjudicielles n’a révélé aucun élément de nature à affecter
+      la validité de la décision (UE) 2015/774 de la Banque centrale européenne
+- id: F6
+  enonce: Fin 2025 (quatrième trimestre), la dette publique française s'élevait à 115,6 % du produit intérieur brut
+    (Insee, publication du 27 mars 2026).
+  type: fait
+  sources:
+  - source: S5
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP
+- id: F7
+  enonce: Au sens de Maastricht, la dette publique française s'élevait à 3 460,5 milliards d'euros fin 2025 (quatrième
+    trimestre, Insee).
+  type: fait
+  sources:
+  - source: S5
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: public debt as defined by the Maastricht criteria stood at €3,460.5 billion
+- id: F8
+  enonce: Le marché secondaire est le marché où sont échangés des instruments financiers déjà en circulation, par
+    opposition au marché primaire où ils sont émis.
+  type: fait
+  sources:
+  - source: S6
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: Market where transactions are carried out concerning financial instruments in circulation.
+- id: F9
+  enonce: Le SEBC comprend la BCE et les banques centrales de tous les États membres ; l'Eurosystème ne comprend
+    que la BCE et les banques centrales des États ayant adopté l'euro.
+  type: fait
+  sources:
+  - source: S7
+    niveau: 1
+    statut: a-verifier
+    note_verif: null
+    extrait: it includes, in addition to the members of the Eurosystem, the NCBs of those Member States that have
+      not yet adopted the euro.
+objections_a_trancher: []

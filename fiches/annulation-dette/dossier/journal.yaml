@@ -6,3 +6,16 @@
   agent: coordinateur
   phase: 1-bis
   action: debut de la phase 1-bis (bibliothèque commune)
+- date: '2026-11-10T20:07:34'
+  agent: bibliothecaire
+  phase: '1'
+  action: 'a ajouté S1, S2, S3, S4, S5, S6, S7, F1, F2, F3, F4, F5, F6, F7, F8, F9, S8 (demandée), S9 (demandée),
+    S10 (demandée) ; incertitudes signalées : 7'
+- date: '2026-11-10T20:07:34'
+  agent: coordinateur
+  phase: 1-bis
+  action: fin de la phase 1-bis
+- date: '2026-11-10T20:07:34'
+  agent: coordinateur
+  phase: '3'
+  action: debut de la phase 3 (vérification de la bibliothèque commune)

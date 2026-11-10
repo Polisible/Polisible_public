@@ -1,8 +1,42 @@
 fiche: annulation-dette
-phase: 1-bis
+phase: '3'
 passage: 1
 phases:
   1-bis:
     debut: '2026-11-10T20:03:44'
     passages: 1
     note: bibliothèque commune
+    fin: '2026-11-10T20:07:34'
+  '3':
+    debut: '2026-11-10T20:07:34'
+    passages: 1
+    note: vérification de la bibliothèque commune
+incertitudes:
+- agent: bibliothecaire
+  texte: 'Part et montant de la dette publique française détenue par la Banque de France : aucune source ouverte
+    pour fin 2025. Les pages de la Banque de France renvoient 403. Un résumé de recherche cite environ 630 milliards
+    d''euros fin 2024 et 546 milliards au 31 décembre 2025 : non vérifié, non retenu.'
+- agent: bibliothecaire
+  texte: Les extraits de Insee (s5) sont en anglais ; la page française équivalente n'a pas été ouverte.
+- agent: bibliothecaire
+  texte: Les articles 123 et 130 sont lus dans leur version consolidée EUR-Lex (JO C 202 du 7.6.2016). Je n'ai pas
+    vérifié s'ils ont été modifiés depuis.
+- agent: bibliothecaire
+  texte: Le texte de l'article 123, paragraphe 2 (exception pour les établissements de crédit) n'a pas été lu en
+    entier ; il n'est pas déposé.
+- agent: bibliothecaire
+  texte: Les glossaires NBB (s6, s7) sont en anglais, sans date de publication, et ne sont pas l'entrée officielle
+    de la BCE. L'entrée « Eurosystème » elle-même n'a pas été trouvée ; f9 s'appuie sur l'entrée SEBC.
+- agent: bibliothecaire
+  texte: 'Les arrêts Gauweiler et Weiss ont été lus dans leur version française EUR-Lex, dispositif seulement. Leur
+    portée pour un programme d''annulation de dette n''est pas une affirmation de cette bibliothèque : elle relève
+    des experts.'
+- agent: bibliothecaire
+  texte: 'La proposition de Jean-Luc Mélenchon d''août 2026 n''est pas traitée ici : aucune source de position n''est
+    déposée.'
+agents:
+- phase: 1-bis
+  agent: bibliothecaire
+  jetons: 126533
+  outils: 30
+  duree_ms: 216072
