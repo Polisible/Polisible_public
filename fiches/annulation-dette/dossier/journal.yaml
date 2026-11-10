@@ -62,3 +62,23 @@
   agent: verificateur
   phase: '3'
   action: a tranché S15→conforme, S16→conforme, S17→conforme, S18→conforme, S19→conforme, S20→conforme
+- date: '2026-11-10T19:07:57'
+  agent: verificateur
+  phase: '3'
+  action: a tranché F1→Vrai, F2→Plutôt vrai, F3→Plutôt vrai, F4→Vrai, F5→Vrai, F6→Plutôt vrai, F7→Vrai, F8→Vrai,
+    F9→Vrai, F10→Plutôt vrai, F11→Plutôt vrai, F12→Vrai, F13→Plutôt vrai, F14→Vrai, F15→Vrai, F16→Vrai, F17→Vrai,
+    F18→Vrai, F19→Plutôt vrai, F20→Vrai, F21→Vrai, F22→Vrai, F23→Vrai, F24→Vrai, F25→Vrai, F26→Vrai, F27→Plutôt
+    vrai, F28→Vrai, F29→Plutôt vrai, F30→Vrai, F31→Vrai, F32→Vrai, F33→Plutôt vrai, F34→Plutôt vrai, F35→Plutôt
+    vrai, F36→Vrai
+- date: '2026-11-10T19:07:57'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T19:07:57'
+  agent: coordinateur
+  phase: '4'
+  action: debut de la phase 4 (un seul passage, fixé par le fondateur)
+- date: '2026-11-10T19:07:58'
+  agent: coordinateur
+  phase: '4'
+  action: début du passage 2

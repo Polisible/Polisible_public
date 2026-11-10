@@ -1,6 +1,6 @@
 fiche: annulation-dette
-phase: '3'
-passage: 1
+phase: '4'
+passage: 2
 phases:
   '1':
     debut: '2026-11-10T18:58:39'
@@ -14,6 +14,11 @@ phases:
   '3':
     debut: '2026-11-10T19:03:48'
     passages: 1
+    fin: '2026-11-10T19:07:57'
+  '4':
+    debut: '2026-11-10T19:07:57'
+    passages: 1
+    note: un seul passage, fixé par le fondateur
 agents:
 - phase: '2'
   agent: expert-centre
@@ -65,6 +70,11 @@ agents:
   jetons: 88824
   outils: 19
   duree_ms: 88762
+- phase: '3'
+  agent: verificateur-verdicts
+  jetons: 97109
+  outils: 9
+  duree_ms: 122252
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.
