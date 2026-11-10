@@ -32,3 +32,24 @@
     avec les partenaires, dans le cadre des traités), tout en cherchant des marges de manœuvre pour les services
     publics et l'investissement.
   passage: 1
+- id: V6
+  question: Q1
+  auteur: expert-centre
+  enonce: 'Ma famille met en priorité la crédibilité de la signature de la France et le respect du cadre européen
+    : même si le texte de l''article 123 laisse un doute, elle préfère s''en tenir à l''interprétation de la BCE
+    plutôt que de tester les limites des traités.'
+  passage: 2
+- id: V7
+  question: Q1
+  auteur: expert-ecologistes
+  enonce: Pour ta famille, la lettre des traités importe moins que la question de savoir qui, des institutions européennes
+    non élues ou des États, décide du sort d'une dette qui finance la transition écologique ; ce choix relève de
+    valeurs, pas d'un fait.
+  passage: 2
+- id: V8
+  question: Q1
+  auteur: expert-gauche-radicale
+  enonce: 'Pour la gauche radicale, la question juridique est subordonnée à un choix politique : la dette détenue
+    par l''Eurosystème peut être traitée par une décision collective de l''Eurosystème plutôt que par le seul texte
+    actuel des traités, et la lecture de la BCE n''a pas à être tenue pour définitive.'
+  passage: 2

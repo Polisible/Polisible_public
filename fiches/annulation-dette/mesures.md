@@ -8,8 +8,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. Cadrage | 2026-11-10T18:58:39 | 2026-11-10T18:58:39 | 0 min 00 s | 1 | 0 | — | question imposée par le fondateur, pas de cadrage par les experts |
 | 2. Contributions indépendantes | 2026-11-10T18:58:39 | 2026-11-10T19:03:48 | 5 min 09 s | 1 | 7 | 756686 |  |
-| 3. Vérification | 2026-11-10T19:03:48 | 2026-11-10T19:07:57 | 4 min 09 s | 1 | 4 | 357290 |  |
-| 4. Confrontation | 2026-11-10T19:07:57 | — | — | 1 | 5 | 443530 | un seul passage, fixé par le fondateur |
+| 3. Vérification | 2026-11-10T19:09:56 | 2026-11-10T19:07:57 | -2 min 01 s | 2 | 4 | 357290 | second passage : 3 affirmations nouvelles de la confrontation |
+| 4. Confrontation | 2026-11-10T19:07:57 | 2026-11-10T19:09:56 | 1 min 59 s | 1 | 7 | 633617 | un seul passage, fixé par le fondateur |
 
 ## Par agent
 
@@ -31,3 +31,5 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-droite | 88282 | 9 | 0 min 30 s |
 | 4 | expert-sociaux-democrates | 89011 | 9 | 0 min 35 s |
 | 4 | expert-centre | 90194 | 10 | 0 min 38 s |
+| 4 | expert-gauche-radicale | 93212 | 13 | 0 min 53 s |
+| 4 | expert-ecologistes | 96875 | 13 | 1 min 03 s |

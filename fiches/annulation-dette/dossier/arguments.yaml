@@ -1,9 +1,10 @@
 - id: A1
   question: Q1
   position: contre
-  enonce: L'annulation de titres publics détenus par la Banque de France serait un financement monétaire de l'État,
-    interdit par l'article 123 du TFUE ; la BCE l'a dit, et la Banque de France, membre de l'Eurosystème, ne peut
-    pas la décider seule. Elle supposerait donc de modifier les traités européens, pas seulement une loi française.
+  enonce: L'annulation de titres publics détenus par la Banque de France serait, selon la BCE, un financement monétaire
+    de l'État interdit par l'article 123 du TFUE ; la Banque de France, membre de l'Eurosystème, ne peut pas la
+    décider seule. Selon les experts cités par l'AFP, seul le Conseil des gouverneurs de la BCE pourrait l'ordonner,
+    ce qui demanderait à la BCE de revenir sur sa lecture du traité ou de le faire modifier.
   porte_par:
   - qui: Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026, rapportée par Euronews)
     source: S2
@@ -32,7 +33,7 @@
   repond_a: null
   auteur: expert-centre
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A3
   question: Q1
   position: contre
@@ -76,9 +77,10 @@
   question: Q1
   position: nuance
   enonce: L'article 123 du TFUE vise le crédit direct aux États et l'achat direct de leurs titres ; les titres détenus
-    par l'Eurosystème ont été rachetés sur le marché secondaire, ce que le traité n'interdit pas. Pour cette lecture,
-    le texte ne ferme donc pas expressément la porte à l'annulation ou au gel de ces titres, et le débat devient
-    d'abord politique.
+    par l'Eurosystème ont été rachetés sur le marché secondaire, ce que le traité n'interdit pas dans son texte.
+    Pour cette lecture, le texte ne ferme donc pas expressément la porte à l'annulation ou au gel de ces titres,
+    et le débat devient d'abord politique. Son auteur reconnaît lui-même que ces achats contournent l'esprit des
+    traités, ce que la BCE tient pour déterminant.
   porte_par:
   - qui: Jérôme Gleizes, économiste, chronique dans Politis (14 septembre 2026), à titre personnel
     source: S7
@@ -126,7 +128,7 @@
   repond_a: null
   auteur: expert-extreme-droite
   passage: 1
-  statut: ouvert
+  statut: retire
 - id: A8
   question: Q1
   position: nuance
@@ -149,11 +151,11 @@
 - id: A9
   question: Q1
   position: pour
-  enonce: 'L''annulation de titres déjà détenus par une banque centrale n''est ni un crédit à l''État ni un achat
-    direct de ses titres : elle ne relève donc pas de l''interdiction du financement monétaire de l''article 123.
-    Les titres ayant été achetés sur le marché secondaire, et les statuts de la BCE prévoyant déjà une indemnisation
-    des banques centrales nationales pour certaines pertes, l''opération serait possible dans le cadre des traités
-    actuels, par décision de l''Eurosystème.'
+  enonce: 'Pour La France insoumise, l''annulation de titres déjà détenus par une banque centrale n''est ni un crédit
+    à l''État ni un achat direct de ses titres, et le texte de l''article 123 ne la mentionne pas. Cette lecture
+    est contestée par la BCE (lettre de 2021, F1) et par Fabio Panetta (2020, F31) ; aucune décision de justice
+    ne l''a tranchée : la Cour de justice, dans l''arrêt Weiss (2018), a examiné les achats du programme PSPP, pas
+    leur annulation.'
   porte_par:
   - qui: Jean-Luc Mélenchon (La France insoumise)
     source: S17
@@ -164,7 +166,7 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A10
   question: Q1
   position: nuance
@@ -202,7 +204,7 @@
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A12
   question: Q1
   position: nuance
@@ -220,4 +222,81 @@
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
+  statut: ouvert
+- id: A13
+  question: Q1
+  position: contre
+  enonce: 'Le traité (article 123) ne mentionne pas l''annulation, mais la BCE lit l''interdiction du financement
+    monétaire comme couvrant aussi l''annulation de titres déjà détenus : acheter des titres sur le marché secondaire
+    puis renoncer à leur remboursement équivaudrait, selon elle, à financer l''État. L''article 32.4 des statuts
+    ne prévoit que l''indemnisation de pertes sur opérations de politique monétaire, pas l''effacement d''une créance
+    sur un État.'
+  porte_par:
+  - qui: Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)
+    source: S18
+  - qui: Christine Lagarde, présidente de la BCE (lettre du 5 février 2021)
+    source: S1
+  affirmations:
+  - F31
+  - F1
+  - F26
+  repond_a: A9
+  auteur: expert-centre
+  passage: 2
+  statut: ouvert
+- id: A14
+  question: Q1
+  position: contre
+  enonce: 'Le raisonnement selon lequel une banque centrale peut simplement renoncer à réclamer le remboursement
+    de ses titres est celui que la BCE a écarté : en juin 2020, un membre de son directoire a dit que décider de
+    ne pas demander le remboursement d''obligations souveraines achetées serait du financement monétaire. Le fait
+    que les titres aient été achetés sur le marché secondaire ne répond donc pas à cette objection.'
+  porte_par:
+  - qui: Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)
+    source: S18
+  affirmations:
+  - F31
+  - F34
+  repond_a: A11
+  auteur: expert-centre
+  passage: 2
+  statut: ouvert
+- id: A15
+  question: Q1
+  position: contre
+  enonce: 'L''article 32.4 des statuts du SEBC, cité par A9, porte sur l''indemnisation de pertes de banques centrales
+    nationales liées à des opérations de politique monétaire ; il ne dit rien d''une annulation de titres publics.
+    La BCE a écrit en 2021 que l''annulation enfreindrait l''interdiction du financement monétaire, et un membre
+    de son directoire a dit en 2020 que ne pas demander le remboursement de titres souverains achetés en serait
+    un : l''argument d''une annulation possible « dans le cadre des traités actuels » ne suit donc pas de ce texte.'
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (lettre du 5 février 2021)
+    source: S1
+  - qui: Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)
+    source: S18
+  affirmations:
+  - F26
+  - F31
+  - F1
+  repond_a: A9
+  auteur: expert-droite
+  passage: 2
+  statut: ouvert
+- id: A16
+  question: Q1
+  position: nuance
+  enonce: 'La conclusion de A2 repose sur une lecture de l''article 123 que la Cour de justice a écartée : Thierry
+    Bonneau juge l''annulation prohibée parce qu''il estime que les achats sur le marché secondaire méconnaissent
+    déjà l''article 123, contrairement à l''arrêt Weiss. Pour qui suit la jurisprudence de la Cour, le texte n''interdit
+    pas l''annulation et l''esprit invoqué est contesté, mais cette lecture n''est pas celle de la BCE.'
+  porte_par:
+  - qui: Jérôme Gleizes, économiste, chronique dans Politis (14 septembre 2026), à titre personnel
+    source: S7
+  affirmations:
+  - F37
+  - F38
+  - F7
+  repond_a: A2
+  auteur: expert-ecologistes
+  passage: 2
   statut: ouvert

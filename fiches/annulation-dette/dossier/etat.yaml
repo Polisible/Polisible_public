@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '4'
+phase: '3'
 passage: 2
 phases:
   '1':
@@ -12,13 +12,15 @@ phases:
     passages: 1
     fin: '2026-11-10T19:03:48'
   '3':
-    debut: '2026-11-10T19:03:48'
-    passages: 1
+    debut: '2026-11-10T19:09:56'
+    passages: 2
     fin: '2026-11-10T19:07:57'
+    note: 'second passage : 3 affirmations nouvelles de la confrontation'
   '4':
     debut: '2026-11-10T19:07:57'
     passages: 1
     note: un seul passage, fixé par le fondateur
+    fin: '2026-11-10T19:09:56'
 agents:
 - phase: '2'
   agent: expert-centre
@@ -100,6 +102,16 @@ agents:
   jetons: 90194
   outils: 10
   duree_ms: 38892
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 93212
+  outils: 13
+  duree_ms: 53778
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 96875
+  outils: 13
+  duree_ms: 63682
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.
@@ -272,3 +284,53 @@ incertitudes:
 - agent: expert-sociaux-democrates
   texte: Pas trouvé de décision de la CJUE sur l'annulation de titres détenus par l'Eurosystème ; arrêts Pringle
     (C-370/12) ouvert seulement dans son sommaire, sans passage utile.
+- agent: expert-centre
+  texte: 'A1 (corrigé) : la phrase sur le rôle du Conseil des gouverneurs vient de F17 (De Facto, niveau 4, d''après
+    l''AFP) ; je n''ai pas rouvert de source en phase 4.'
+- agent: expert-centre
+  texte: Je n'ai pas vérifié si l'article 32.4 des statuts a déjà été utilisé pour des opérations proches d'une
+    annulation ; je ne l'affirme donc pas.
+- agent: expert-centre
+  texte: 'F35 (Olivier Faure) : la date « fin août 2026 » n''est pas confirmée par la source Yahoo ; déjà relevé
+    par le vérificateur, non repris en objection.'
+- agent: expert-centre
+  texte: 'Aucune décision de justice ne tranche la question : la lecture de la BCE (F1, F31) est une position d''institution,
+    pas une jurisprudence.'
+- agent: expert-droite
+  texte: 'Aucune erreur de fait nouvelle n''est posée : les points soulevés par le vérificateur sur mes affirmations
+    (F10 : sources officielles à joindre, art. 130 TFUE et art. 7 des statuts du SEBC ; F11 : écrire « selon Euronews
+    » ; F6 : source de niveau 1 sur la pratique d''achat) sont fondés et je ne les conteste pas.'
+- agent: expert-droite
+  texte: 'Le contre-argument à A9 est un raisonnement, pas un fait : le texte de l''article 32.4 n''a pas été rouvert
+    pour cette phase, je m''appuie sur l''extrait déjà au dossier (F26).'
+- agent: expert-droite
+  texte: Les lectures de Christine Lagarde et de Fabio Panetta sont des positions institutionnelles ; aucune décision
+    de justice ne tranche expressément le cas de l'annulation.
+- agent: expert-ecologistes
+  texte: A1 et la correction de A5 reposent sur une seule chronique (S7) pour la position de ma famille ; aucun
+    texte du parti Les Écologistes sur la question juridique n'a été relu pour cette phase.
+- agent: expert-ecologistes
+  texte: Je n'ai pas vérifié si une décision de justice postérieure à 2018 aborde l'annulation de titres déjà détenus.
+- agent: expert-ecologistes
+  texte: L'arrêt Weiss n'a pas été relu en entier ; je m'appuie sur le renvoi qu'en fait Bonneau (S4).
+- agent: expert-extreme-droite
+  texte: 'A7 retiré : son raisonnement (articles 123 et 130) repose sur le gouverneur de la Banque de France et
+    l''AFP, pas sur un texte du RN, de l''UDR ou de Reconquête, et reprend A1 et A4. Aucun texte de la famille consulté
+    ne traite la question juridique de Q1.'
+- agent: expert-extreme-droite
+  texte: 'A6 : l''énoncé attribue à Jordan Bardella l''idée que l''annulation ferait monter les taux ; F18 ne couvre
+    que la détention par l''État et les dividendes. Le point sur les taux n''est pas rattaché à une affirmation
+    vérifiée dans le lot, à contrôler par le vérificateur.'
+- agent: expert-extreme-droite
+  texte: 'Je n''ai rouvert aucune source pendant cette confrontation : pas d''objection de fait nouvelle déposée,
+    faute d''élément vérifié.'
+- agent: expert-gauche-radicale
+  texte: 'A9 était formulé trop fermement (« serait possible dans le cadre des traités actuels ») : la seule source
+    du camp est une contribution de 2022 de Jean-Luc Mélenchon (niveau 3), contredite par la lettre de la BCE de
+    2021 et par Panetta (2020). Correction déposée.'
+- agent: expert-gauche-radicale
+  texte: L'arrêt Weiss (communiqué S14) porte sur les achats, pas sur l'annulation ; je n'en tire aucune conclusion
+    sur la légalité de l'annulation.
+- agent: expert-gauche-radicale
+  texte: 'F29 (proposition de résolution de 2020) : auteur et date toujours non établis ; non confirmé par une source
+    de niveau 1.'

@@ -1,0 +1,41 @@
+sources_a_verifier: []
+verdicts_a_attribuer:
+- id: F37
+  enonce: Dans son analyse de 2021, Thierry Bonneau écrit que l'article 123 du TFUE a une portée plus large que
+    celle admise par la jurisprudence de la Cour de justice de l'Union européenne, et renvoie en sens contraire
+    à l'arrêt Weiss du 11 décembre 2018.
+  type: fait
+  sources:
+  - source: S4
+    niveau: 2
+    statut: conforme
+    note_verif: 'Bon document : Thierry Bonneau, Club des Juristes, 11 février 2021. F5 : extrait présent (« il
+      n''interdit pas expressément l''annulation de la dette souveraine détenue par la BCE »), même sens. F7 et
+      F12 : extrait présent ; la partie de F7 sur le marché secondaire est une déduction que l''auteur tire du texte
+      et de la jurisprudence de la CJUE, tout en soutenant plus loin que l''article 123 a une portée moins limitée
+      que celle admise par la jurisprudence.'
+    extrait: L’article 123 du Traité n’a donc pas une portée aussi limitée que celle admise par la jurisprudence.
+- id: F38
+  enonce: Jérôme Gleizes écrit, dans Politis le 14 septembre 2026, que rien n'empêche la BCE de racheter une créance
+    déjà émise sur le marché secondaire, ce qu'il rapproche du programme d'achats d'actifs (QE) pratiqué depuis
+    2015.
+  type: fait
+  sources:
+  - source: S7
+    niveau: 3
+    statut: conforme
+    note_verif: 'Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026. Aucune affirmation à contrôler
+      dans ce lot.'
+    extrait: Mais rien ne l’empêche de racheter la créance, une fois émise sur le marché secondaire, à qui l’a achetée
+      en premier
+- id: F39
+  enonce: Jérôme Gleizes écrit, dans Politis le 14 septembre 2026, que le QE contourne l'esprit des traités européens.
+  type: fait
+  sources:
+  - source: S7
+    niveau: 3
+    statut: conforme
+    note_verif: 'Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026. Aucune affirmation à contrôler
+      dans ce lot.'
+    extrait: En contournant l’esprit des traités européens avec la politique du QE
+objections_a_trancher: []

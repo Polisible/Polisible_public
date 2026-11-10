@@ -214,6 +214,10 @@ def fusionner(fiche, chemin):
     for f in e.get("affirmations", []) or []:
         fid = prochain(D["affirmations"], "F")
         carte[f["ref"]] = fid
+        for x in f["sources"]:  # nouvel extrait sur une source déjà vérifiée : elle repasse à vérifier
+            for s in D["sources"]:
+                if s["id"] == res(x["source"]) and s["statut"] != "a-verifier":
+                    s["statut"] = "a-verifier"
         D["affirmations"].append({"id": fid, "enonce": f["enonce"], "type": f["type"],
                                   "sources": [{"source": res(x["source"]), "extrait": x["extrait"]} for x in f["sources"]],
                                   "auteur": agent, "passage": passage, "verdict": None, "explication": None,
@@ -319,7 +323,8 @@ def lot(fiche, sorte, agent=None, taille=0):
             paquets.append({"source": {k: s[k] for k in ("id", "titre", "auteur", "date", "adresse", "niveau")},
                             "a_controler": [{"affirmation": f["id"], "enonce": f["enonce"], "type": f["type"],
                                              "extrait_annonce": x["extrait"]}
-                                            for f in D["affirmations"] for x in f["sources"] if x["source"] == s["id"]]})
+                                            for f in D["affirmations"] for x in f["sources"]
+                                            if x["source"] == s["id"] and f["verdict"] is None]})
         restant = [{"id": f["id"], "enonce": f["enonce"], "type": f["type"],
                     "sources": [{"source": x["source"], "niveau": src[x["source"]]["niveau"], "statut": src[x["source"]]["statut"],
                                  "note_verif": src[x["source"]]["note_verif"], "extrait": x["extrait"]}

@@ -5,7 +5,7 @@ description: Comment un agent Polisible écrit son apport dans le dossier partag
 
 # Écrire dans le dossier
 
-Tu n'écris **que** le fichier de dépôt que le coordinateur t'a indiqué (`fiches/<fiche>/dossier/entrees/<agent>-p<passage>.yaml`). Tu ne modifies jamais les fichiers officiels du dossier (`questions.yaml`, `arguments.yaml`…) : l'outil `outils/dossier.py` les fusionne et numérote.
+Tu n'écris **que** le fichier de dépôt que le coordinateur t'a indiqué (`fiches/<fiche>/dossier/entrees/<agent>-passage<N>.yaml`). Tu ne modifies jamais les fichiers officiels du dossier (`questions.yaml`, `arguments.yaml`…) : l'outil `outils/dossier.py` les fusionne et numérote.
 
 **Références.** Dans ton dépôt, nomme tes nouveaux éléments avec des références locales en minuscules (`s1`, `f1`, `a1`). Pour viser un élément déjà au dossier, utilise son identifiant global (`S4`, `F2`, `A7`, `Q1`). Une source déjà au dossier (même adresse) est reconnue automatiquement.
 

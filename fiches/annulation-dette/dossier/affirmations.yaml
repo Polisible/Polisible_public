@@ -530,3 +530,41 @@
   explication: Yahoo Actualités (S20) cite ces mots d'Olivier Faure mot pour mot, et l'énoncé ne contient pas de
     date. C'est un fait sur la déclaration, pas sur ses effets comptables.
   statut: verifiee
+- id: F37
+  enonce: Dans son analyse de 2021, Thierry Bonneau écrit que l'article 123 du TFUE a une portée plus large que
+    celle admise par la jurisprudence de la Cour de justice de l'Union européenne, et renvoie en sens contraire
+    à l'arrêt Weiss du 11 décembre 2018.
+  type: fait
+  sources:
+  - source: S4
+    extrait: L’article 123 du Traité n’a donc pas une portée aussi limitée que celle admise par la jurisprudence.
+  auteur: expert-ecologistes
+  passage: 2
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F38
+  enonce: Jérôme Gleizes écrit, dans Politis le 14 septembre 2026, que rien n'empêche la BCE de racheter une créance
+    déjà émise sur le marché secondaire, ce qu'il rapproche du programme d'achats d'actifs (QE) pratiqué depuis
+    2015.
+  type: fait
+  sources:
+  - source: S7
+    extrait: Mais rien ne l’empêche de racheter la créance, une fois émise sur le marché secondaire, à qui l’a achetée
+      en premier
+  auteur: expert-ecologistes
+  passage: 2
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F39
+  enonce: Jérôme Gleizes écrit, dans Politis le 14 septembre 2026, que le QE contourne l'esprit des traités européens.
+  type: fait
+  sources:
+  - source: S7
+    extrait: En contournant l’esprit des traités européens avec la politique du QE
+  auteur: expert-ecologistes
+  passage: 2
+  verdict: null
+  explication: null
+  statut: en-attente
