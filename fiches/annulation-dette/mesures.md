@@ -7,7 +7,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | Phase | Début | Fin | Durée | Passages | Agents lancés | Jetons | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. Cadrage | 2026-11-10T20:31:37 | 2026-11-10T20:33:04 | 1 min 27 s | 1 | 7 | 142650 | 40 questions proposées ; regroupement soumis au fondateur |
-| 1-bis. Cadrage | 2026-11-10T20:59:01 | — | — | 1 | 0 | — | bibliothèque commune, 7 questions |
+| 1-bis. Cadrage | 2026-11-10T20:59:01 | 2026-11-10T21:05:58 | 6 min 57 s | 1 | 1 | 121320 | bibliothèque commune, 7 questions |
+| 3. Vérification | 2026-11-10T21:05:59 | — | — | 1 | 0 | — | vérification de la bibliothèque |
 
 ## Par agent
 
@@ -20,3 +21,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1 | expert-droite | 21614 | 4 | 0 min 26 s |
 | 1 | expert-centre | 21439 | 5 | 0 min 27 s |
 | 1 | expert-ecologistes | 21182 | 5 | 0 min 27 s |
+| 1-bis | bibliothecaire | 121320 | 51 | 6 min 33 s |

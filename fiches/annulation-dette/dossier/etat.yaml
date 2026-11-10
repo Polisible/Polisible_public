@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: 1-bis
+phase: '3'
 passage: 1
 phases:
   '1':
@@ -13,6 +13,11 @@ phases:
     debut: '2026-11-10T20:59:01'
     passages: 1
     note: bibliothèque commune, 7 questions
+    fin: '2026-11-10T21:05:58'
+  '3':
+    debut: '2026-11-10T21:05:59'
+    passages: 1
+    note: vérification de la bibliothèque
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -49,6 +54,11 @@ agents:
   jetons: 21182
   outils: 5
   duree_ms: 27213
+- phase: 1-bis
+  agent: bibliothecaire
+  jetons: 121320
+  outils: 51
+  duree_ms: 393689
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -122,3 +132,33 @@ incertitudes:
     ouverts.
 - agent: expert-sociaux-democrates
   texte: Les questions 1 et 6 se recoupent en partie ; le coordinateur peut en fusionner une.
+- agent: bibliothecaire
+  texte: Aucun précédent d'annulation, par une banque centrale, de dette publique qu'elle détient n'a été trouvé
+    dans les sources ouvertes ; la recherche n'est pas exhaustive.
+- agent: bibliothecaire
+  texte: 'Les pages de la Banque de France et de Légifrance refusent l''accès (403) : le stock de dette française
+    détenue par la Banque de France (546 Md€ fin 2025, 488 Md€ au 30 juin 2026) n''est pas vérifié et n''est pas
+    dans le dossier.'
+- agent: bibliothecaire
+  texte: 'Le rapport du Sénat (r24-902) : date de publication non confirmée (session 2024-2025) ; les 24,4 % et
+    le quart des OAT portent sur le premier trimestre 2025.'
+- agent: bibliothecaire
+  texte: 'Cour des comptes : le rapport est daté du 25 juin 2026 selon le nom du fichier, mais la synthèse porte
+    la mention « Juillet 2026 » ; la page de publication n''a pas été ouverte. Le texte du PDF est sur deux colonnes
+    : les extraits f22 et f23 sont des fragments, à vérifier.'
+- agent: bibliothecaire
+  texte: 'Cour des comptes, f23 : le périmètre exact de la prévision de 77,4 Md€ (État ou administrations publiques)
+    n''est pas établi par l''extrait.'
+- agent: bibliothecaire
+  texte: 'Traité : la date de la version consolidée (2016) est celle de l''intitulé du fichier EUR-Lex, non relevée
+    sur la page. L''extrait de l''article 123 est tronqué à « administrations centrales ».'
+- agent: bibliothecaire
+  texte: 'Statuts du SEBC : l''extrait de l''article 18.1 se termine par deux points, la phrase se poursuit dans
+    le texte officiel. Le numéro de paragraphe de l''extrait de l''arrêt Weiss (C-493/17) n''est pas relevé.'
+- agent: bibliothecaire
+  texte: 'Prises de position de la BCE : le dossier retient les entretiens ouverts (2021 et 2026). L''entretien
+    La Croix du 30 septembre 2026 a été ouvert mais ne contient pas de passage sur l''annulation : il n''est pas
+    retenu.'
+- agent: bibliothecaire
+  texte: 'Q42 et Q45 à Q47 : la bibliothèque ne contient pas de texte de base sur les taux d''intérêt ni sur les
+    règles nationales ou européennes au-delà du traité ; les estimations relèvent des experts.'

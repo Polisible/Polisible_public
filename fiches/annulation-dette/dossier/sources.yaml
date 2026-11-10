@@ -1,1 +1,155 @@
-[]
+- id: S1
+  titre: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4) sur les statuts
+    du SEBC et de la BCE
+  auteur: Union européenne (EUR-Lex)
+  date: '2016'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S2
+  titre: Arrêt de la Cour (grande chambre) Gauweiler e.a., affaire C-62/14
+  auteur: Cour de justice de l'Union européenne
+  date: '2015-06-16'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S3
+  titre: Arrêt de la Cour (grande chambre) Weiss e.a., affaire C-493/17
+  auteur: Cour de justice de l'Union européenne
+  date: '2018-12-11'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S4
+  titre: Entretien avec Ouest-France (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2026-09-12'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260912~3cc706f4d6.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S5
+  titre: Entretien avec Le Journal du Dimanche (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2021-02-07'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210207~f6e34f3b90.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S6
+  titre: Entretien avec La Provence (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2021-07-02'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210702~a6ca02cf8e.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S7
+  titre: Comprendre les comptes annuels et les équilibres financiers 2025
+  auteur: Banque de France
+  date: 2026-03
+  adresse: https://www.banque-france.fr/system/files/2026-03/Comprendre-les-comptes-2025.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S8
+  titre: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apurement du report à nouveau
+    négatif de 2024'
+  auteur: Banque de France
+  date: '2026-03-24'
+  adresse: https://www.banque-france.fr/system/files/2026-04/CP_Rapport%20Annuel%202025_240326.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S9
+  titre: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du revenu monétaire'
+  auteur: Banque de France
+  date: 2025-10
+  adresse: https://www.banque-france.fr/system/files/2026-02/BDF260_6_Partage_revenu-monetaire.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S10
+  titre: Sur les enjeux associés à la structure de détention de la dette de l'État (rapport d'information)
+  auteur: 'Sénat, commission des finances (rapporteur : Albéric de Montgolfier)'
+  date: '2025'
+  adresse: https://www.senat.fr/rap/r24-902/r24-902_mono.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S11
+  titre: La situation et les perspectives des finances publiques (synthèse du rapport)
+  auteur: Cour des comptes
+  date: 2026-06
+  adresse: https://www.ccomptes.fr/sites/default/files/2026-06/20260625-synthese-RSPFP-2026.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: a-verifier
+  note_verif: null
+- id: S12
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-detenue-par-la-banque-de-france
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: 'communiqué de la Banque de France sur la dette publique détenue par la banque centrale (stock au
+      titre de l''APP et du PEPP : 546 Md€ au 31 déc. 2025, 488 Md€ au 30 juin 2026, selon un résumé de recherche
+      non vérifié) ; texte à ouvrir pour Q41'
+    erreur: '403'
+  note_verif: null
+- id: S13
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: communiqué de la Banque de France daté du 12 septembre 2026 d'après son nom de fichier, sur la dette
+      ; contenu non vérifié
+    erreur: '403'
+  note_verif: null
+- id: S14
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/fr/interventions-gouverneur/
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: 'intervention du gouverneur de la Banque de France du 11 septembre 2026 sur RTL, titre recensé par
+      recherche : « L''annulation de la dette est illégale, dangereuse et inutile » ; adresse exacte de la page
+      à retrouver, et prise de position à vérifier pour Q41 et Q44'
+    erreur: '403'
+  note_verif: null
+- id: S15
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019306205
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: demandee
+  demande:
+    pourquoi: article L142-2 du code monétaire et financier (affectation du bénéfice de la Banque de France et dividende
+      revenant à l'État), version en vigueur, pour Q43
+    erreur: '403'
+  note_verif: null

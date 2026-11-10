@@ -1,0 +1,111 @@
+sources_a_verifier:
+- source:
+    id: S9
+    titre: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du revenu monétaire'
+    auteur: Banque de France
+    date: 2025-10
+    adresse: https://www.banque-france.fr/system/files/2026-02/BDF260_6_Partage_revenu-monetaire.pdf
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F21
+    enonce: La Banque de France, contributrice nette au partage du revenu monétaire entre 2015 et 2022, est devenue
+      bénéficiaire nette en 2023-2024 (Q43).
+    type: fait
+    extrait_annonce: La Banque de France, contributrice nette au titre du partage du revenu monétaire entre 2015
+      et 2022, est devenue bénéficiaire nette en 2023-2024
+- source:
+    id: S10
+    titre: Sur les enjeux associés à la structure de détention de la dette de l'État (rapport d'information)
+    auteur: 'Sénat, commission des finances (rapporteur : Albéric de Montgolfier)'
+    date: '2025'
+    adresse: https://www.senat.fr/rap/r24-902/r24-902_mono.html
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F16
+    enonce: L'Eurosystème détient près d'un quart des OAT au titre de la politique monétaire (données du premier
+      trimestre 2025, rapport du Sénat) (Q41).
+    type: fait
+    extrait_annonce: L'Eurosystème détiendrait près d'un quart des OAT à ce titre .
+  - affirmation: F17
+    enonce: Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
+      de la BCE, représentait 24,4 % de la dette négociable de l'État (Q41).
+    type: fait
+    extrait_annonce: Autres français (dont la Banque de France pour le compte de la BCE) 24,4 %
+- source:
+    id: S11
+    titre: La situation et les perspectives des finances publiques (synthèse du rapport)
+    auteur: Cour des comptes
+    date: 2026-06
+    adresse: https://www.ccomptes.fr/sites/default/files/2026-06/20260625-synthese-RSPFP-2026.pdf
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F22
+    enonce: En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards d'euros,
+      soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43).
+    type: fait
+    extrait_annonce: 65,7 Md€ (2,2 points de PIB), soit une
+  - affirmation: F23
+    enonce: La prévision de charge de la dette pour 2026 atteint 77,4 milliards d'euros dans la loi de finances
+      pour 2026 (Cour des comptes, juin 2026) (Q43).
+    type: fait
+    extrait_annonce: porter celle-ci à 77,4 Md€
+- source:
+    id: S12
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-detenue-par-la-banque-de-france
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: 'communiqué de la Banque de France sur la dette publique détenue par la banque centrale (stock au
+        titre de l''APP et du PEPP : 546 Md€ au 31 déc. 2025, 488 Md€ au 30 juin 2026, selon un résumé de recherche
+        non vérifié) ; texte à ouvrir pour Q41'
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S13
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: communiqué de la Banque de France daté du 12 septembre 2026 d'après son nom de fichier, sur la dette
+        ; contenu non vérifié
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S14
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/fr/interventions-gouverneur/
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: 'intervention du gouverneur de la Banque de France du 11 septembre 2026 sur RTL, titre recensé par
+        recherche : « L''annulation de la dette est illégale, dangereuse et inutile » ; adresse exacte de la page
+        à retrouver, et prise de position à vérifier pour Q41 et Q44'
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S15
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019306205
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: article L142-2 du code monétaire et financier (affectation du bénéfice de la Banque de France et
+        dividende revenant à l'État), version en vigueur, pour Q43
+      erreur: '403'
+  a_controler: []
