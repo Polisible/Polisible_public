@@ -1,6 +1,6 @@
 # Comparaison des deux essais — annulation-dette, Q1
 
-Même question, même contexte, un seul passage de confrontation dans les deux cas. L'essai 1 est archivé dans `essai-1/`.
+Même question, même contexte, un seul passage de confrontation dans les deux cas. L'essai 1 est archivé dans `essai-1/`, l'essai 2 dans `essai-2/`.
 
 | | Essai 1 | Essai 2 |
 | --- | --- | --- |

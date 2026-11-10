@@ -6,41 +6,9 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 
 | Phase | Début | Fin | Durée | Passages | Agents lancés | Jetons | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1-bis. Cadrage | 2026-11-10T20:03:44 | 2026-11-10T20:07:34 | 3 min 50 s | 1 | 1 | 126533 | bibliothèque commune |
-| 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 1 | 46507 | vérification de la bibliothèque commune |
-| 2. Contributions indépendantes | 2026-11-10T20:09:47 | 2026-11-10T20:11:41 | 1 min 54 s | 1 | 7 | 211044 |  |
-| 3-bis. Vérification | 2026-11-10T20:11:42 | 2026-11-10T20:14:34 | 2 min 52 s | 1 | 1 | 49194 |  |
-| 4. Confrontation | 2026-11-10T20:14:34 | 2026-11-10T20:16:13 | 1 min 39 s | 1 | 7 | 231410 | un passage, 7 experts (premier passage : tous) |
-| 3-ter. Vérification | 2026-11-10T20:16:13 | 2026-11-10T20:16:55 | 0 min 42 s | 1 | 1 | 23912 | second passage : affirmations de la confrontation |
-| 5. Stabilisation | 2026-11-10T20:16:55 | 2026-11-10T20:16:55 | 0 min 00 s | 1 | 0 | — |  |
-| 6. Rédaction | 2026-11-10T20:16:55 | 2026-11-10T20:21:39 | 4 min 44 s | 1 | 1 | 68337 | 17 manques signalés, boucle des manques non lancée (à décider) |
+| 1. Cadrage | 2026-11-10T20:31:37 | — | — | 1 | 0 | — | cadrage du thème complet par les 7 experts |
 
 ## Par agent
 
 | Phase | Agent | Jetons | Appels d'outils | Durée |
 | --- | --- | --- | --- | --- |
-| 1-bis | bibliothecaire | 126533 | 30 | 3 min 36 s |
-| 3 | verificateur-bibliotheque | 46507 | 15 | 2 min 00 s |
-| 2 | expert-sociaux-democrates | 24812 | 7 | 0 min 40 s |
-| 2 | expert-ecologistes | 27916 | 8 | 0 min 44 s |
-| 2 | expert-centre | 26293 | 7 | 0 min 45 s |
-| 2 | expert-droite | 28670 | 9 | 0 min 53 s |
-| 2 | expert-extreme-gauche | 31190 | 9 | 0 min 53 s |
-| 2 | expert-extreme-droite | 31901 | 9 | 1 min 02 s |
-| 2 | expert-gauche-radicale | 40262 | 10 | 1 min 20 s |
-| 3-bis | verificateur-passage1 | 49194 | 18 | 2 min 32 s |
-| 4 | expert-ecologistes | 31068 | 3 | 0 min 09 s |
-| 4 | expert-sociaux-democrates | 30779 | 3 | 0 min 09 s |
-| 4 | expert-extreme-gauche | 31130 | 3 | 0 min 12 s |
-| 4 | expert-gauche-radicale | 31465 | 3 | 0 min 14 s |
-| 4 | expert-extreme-droite | 32216 | 3 | 0 min 20 s |
-| 4 | expert-droite | 32879 | 3 | 0 min 24 s |
-| 4 | expert-centre | 41873 | 10 | 1 min 04 s |
-| 3-ter | verificateur-passage2 | 23912 | 5 | 0 min 29 s |
-| 6 | redacteur | 68337 | 7 | 4 min 03 s |
-
-## Totaux de l'essai 2
-
-- Durée totale (horloge de la session) : 20:03:44 → 20:21:39, soit environ 18 min.
-- 19 lancements d'agents ; environ 0,76 million de jetons (agents natifs, bibliothèque commune). Essai 1 : environ 1,95 million (voir `essai-1/mesures.md` et `comparaison-essais.md`).
-- Boucle des manques du rédacteur (17 manques) : non lancée, en attente de décision du fondateur.
