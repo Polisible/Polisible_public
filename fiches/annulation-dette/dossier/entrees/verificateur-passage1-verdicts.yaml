@@ -1,0 +1,115 @@
+agent: verificateur
+role: verificateur
+phase: 3
+affirmations:
+  - id: F24
+    verdict: "Vrai"
+    explication: "L'article 123 TFUE interdit à la BCE et aux banques centrales nationales toute acquisition directe de titres auprès des États (F2, S1) ; les programmes d'achat validés par la CJUE (Gauweiler 2015, Weiss 2018) portent sur le marché secondaire (F8, F10). Public Sénat (25 août 2026) le confirme pour les achats de 2010 et de 2020."
+  - id: F25
+    verdict: "Plutôt vrai"
+    explication: "La dépêche AFP reprise par MoneyVox le 24 août 2026 donne bien 4,11 % le lundi et plus de 4,14 % le jeudi précédent, au plus haut depuis 2008. C'est une valeur de la matinée, rapportée par la presse ; aucune série officielle de clôture (Banque de France, Agence France Trésor) n'a été consultée."
+  - id: F26
+    verdict: "Pas d'estimation fiable"
+    explication: "La seule source est la déclaration de Roland Lescure, ministre de l'Économie, rapportée par l'AFP le 24 août 2026, sans chiffrage ni méthode. Des économistes cités par la presse (Public Sénat, 25 août 2026) et Christine Lagarde (F11) vont dans le même sens, mais aucune institution n'a publié d'estimation chiffrée de l'effet sur les taux dans le dossier."
+  - id: F27
+    verdict: "Invérifiable"
+    explication: "Aucun texte ne mentionne l'annulation ou la conversion de titres déjà détenus (F45) et aucune décision de la CJUE n'a tranché ce cas. La contrariété aux traités est affirmée par Roland Lescure (AFP, 24 août 2026) et par Christine Lagarde (F11, F13, F14) ; les signataires de la tribune de 2021 soutiennent le contraire (F57) : c'est une interprétation juridique disputée, pas un fait établi."
+  - id: F28
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict. La source (Public Sénat, 28 décembre 2020) rapporte la position de Jean-François Husson ; la formule « la parole donnée doit garder sa valeur » n'y figure pas."
+  - id: F29
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : Public Sénat (Guillaume Jacquot, 12 octobre 2026) rapporte que le plan présenté ce jour-là par Bruno Retailleau prévoit 197 milliards d'euros d'effort sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel allant à l'amélioration du solde. Le verdict porte sur le contenu annoncé, pas sur la faisabilité du plan."
+  - id: F30
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : le même article de Public Sénat (12 octobre 2026) décrit le plan comme faisant reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et sur les dépenses sociales. C'est la description du journaliste, conforme à l'énoncé."
+  - id: F31
+    verdict: "Plutôt vrai"
+    explication: "La chronique de Politis (14 septembre 2026) ne cite pas d'origine, mais les données de la BCE ouvertes le 10 novembre 2026 donnent un ordre de grandeur voisin : achats nets cumulés de titres publics français de 359,5 milliards d'euros au titre du PSPP et 237,5 milliards au titre du PEPP fin octobre 2026, soit environ 597 milliards (au coût amorti, émetteurs publics français y compris hors État), après environ 400 milliards pour le seul PSPP fin 2025. Le chiffre de 640 milliards correspond au début de 2026 ; le stock baisse au fil de l'année."
+  - id: F32
+    verdict: "Plutôt vrai"
+    explication: "Le rapport Draghi (Commission européenne, septembre 2024) chiffre l'investissement supplémentaire nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit 4,4 à 4,7 % du PIB de l'UE de 2023, d'après les estimations de la Commission. Le chiffre de 800 milliards est le haut de cette fourchette."
+  - id: F33
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : la page de la commission Économie des Écologistes (publiée le 26 octobre 2026) cite cette mesure du programme adopté en juillet 2026, avec sa référence (ch. 60, mesure 3, p. 190). Le PDF du programme lui-même n'a pas été ouvert."
+  - id: F34
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : une dépêche AFP du 15 juin 2020 rapporte que le plan de reconstruction écologique d'EELV serait financé par une annulation de la dette française auprès de la BCE et une fiscalité « plus juste », dont le rétablissement de l'ISF. Le verdict porte sur la réalité de la proposition."
+  - id: F35
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : la revue de presse publiée par Les Écologistes reprend des articles des 4 et 5 septembre 2025 indiquant 28,5 milliards de recettes fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises. Le média d'origine n'est cité que partiellement."
+  - id: F36
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : la même revue de presse (septembre 2025) indique un déficit ramené à 3,7 % en 2030, avec une réduction plus progressive que celle prévue par le gouvernement de François Bayrou."
+  - id: F37
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : Public Sénat (Stéphane Duguet, 6 octobre 2026) rapporte que le plan présenté ce jour-là par le RN prévoit 140 milliards d'euros d'économies d'ici 2032 et une dette ramenée de 121 % du PIB en 2027 à 112 % en 2032. Le verdict porte sur le contenu annoncé, pas sur sa réalisation."
+  - id: F38
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : le même article (6 octobre 2026) indique que le plan attend de la maîtrise de l'immigration 15 milliards d'euros d'économies en 2027 et 29 milliards en année pleine. Le chiffrage est celui du RN, non évalué par une institution."
+  - id: F39
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : LCP (Maxence Kagni, 2 octobre 2026), d'après une tribune de Marine Le Pen dans L'Opinion du 1er octobre 2026, rapporte qu'elle veut inscrire une règle d'or budgétaire fixant un déficit maximum dans la Constitution, par référendum."
+  - id: F40
+    verdict: "Plutôt vrai"
+    explication: "La proposition de loi constitutionnelle n° 2120 du 25 janvier 2024 (Assemblée nationale) vise à poser « la supériorité de la Constitution sur toute autre norme, même internationale ». La formule « met fin à la primauté du droit européen » est la description qu'en fait l'AFP (5 septembre 2026), pas le texte lui-même : le sens est proche, la formulation est une interprétation."
+  - id: F41
+    verdict: "Pas d'estimation fiable"
+    explication: "La seule source (site de niveau 4, analyse assistée par IA, 24 août 2026) est non conforme : elle rapporte un argument de Jordan Bardella sans établir le mécanisme ni mentionner l'impôt. Les documents de la Banque de France au dossier (F19, F20, F21) établissent que la Banque verse un impôt et des dividendes à l'État et que son revenu monétaire est partagé dans l'Eurosystème, mais aucune source rattachée n'isole la part due aux intérêts sur les titres de l'État."
+  - id: F42
+    verdict: "Invérifiable"
+    explication: "La brochure de Lutte ouvrière (juin 2026) cite bien 270 milliards, sans origine ni méthode. Les estimations publiques connues dépendent du périmètre retenu : la commission d'enquête du Sénat (juillet 2025) retient 211 milliards d'euros pour 2023, présentés comme un plancher, et le Haut-commissariat à la stratégie et au plan 111,9 milliards (selon Public Sénat, 15 septembre 2025). Aucune source officielle ouverte ne donne 270 milliards."
+  - id: F43
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position du NPA (tract de fin 2011) selon laquelle une dette issue d'allègements accordés aux plus riches et aux grandes entreprises est illégitime."
+  - id: F44
+    verdict: "Vrai"
+    explication: "L'article 123 TFUE interdit l'acquisition directe de titres auprès des États (F2, S1), et les programmes d'achat de politique monétaire validés par la CJUE portent sur le marché secondaire (F8, F10). Public Sénat (25 août 2026) le confirme pour les achats de 2010 et de 2020."
+  - id: F45
+    verdict: "Vrai"
+    explication: "L'article 123, paragraphe 1, du TFUE et l'article 21.1 du protocole n° 4 (version consolidée de 2016) interdisent les crédits aux administrations publiques et l'acquisition directe de leurs titres. Aucun des deux textes ne mentionne l'annulation ni la conversion de titres déjà détenus ; leur interprétation sur ce point n'a pas été tranchée par la CJUE."
+  - id: F46
+    verdict: "Plutôt vrai"
+    explication: "Public Sénat (25 août 2026) établit que la proposition de Jean-Luc Mélenchon vise les titres détenus par la Banque de France pour le compte de la BCE (18 % dans le texte, 20 % dans le chapeau). Que les autres créanciers ne soient pas concernés n'est que sous-entendu, par un économiste cité dans l'article."
+  - id: F47
+    verdict: "Pas d'estimation fiable"
+    explication: "La seule source rapporte l'avis de Jean-Luc Mélenchon (« aucun impact économique et aucun impact financier »), que l'article (Public Sénat, 25 août 2026) dit contesté par des économistes. Aucune institution n'a publié d'estimation chiffrée de l'effet sur le coût d'emprunt dans le dossier."
+  - id: F48
+    verdict: "Vrai"
+    explication: "Le blog de la BCE (Imène Rahmouni-Rousseau et Isabel Schnabel, 29 avril 2025) indique que les réinvestissements au titre du PEPP ont pris fin à la fin de 2024. La page PEPP de la BCE montre des achats nets négatifs en octobre 2026, ce qui concorde."
+  - id: F49
+    verdict: "Pas d'estimation fiable"
+    explication: "La seule source est l'intervention de Fabien Roussel à l'Assemblée nationale (22 mars 2021), sans chiffrage ni méthode. Aucune estimation d'institution sur les marges que dégagerait l'annulation n'est au dossier."
+  - id: F50
+    verdict: "Vrai"
+    explication: "La proposition de résolution n° 2914 (11 mai 2020, Jean-Luc Mélenchon et 16 députés) présente cette mesure comme nécessaire pour soulager les États de la charge de la dette. Le verdict porte sur l'objectif déclaré par ses auteurs, pas sur un effet constaté."
+  - id: F51
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict (Fabien Roussel, 22 mars 2021). Elle contient une part factuelle (qui détient le capital de la BCE) qui devrait être traitée à part si elle sert à un argument."
+  - id: F52
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position de Fabien Roussel (22 mars 2021) pour une annulation limitée à la dette détenue par la banque centrale."
+  - id: F53
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position de Jean-Luc Mélenchon (livret de juin 2022). La possibilité juridique de cette décision relève des affirmations F27 et F45."
+  - id: F54
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position du livret de Jean-Luc Mélenchon (juin 2022). L'extrait de Public Sénat rattaché ne dit pas la même chose (le mot austérité en est absent)."
+  - id: F55
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position de Fabien Roussel (22 mars 2021) pour une contribution du capital en complément de l'annulation partielle."
+  - id: F56
+    verdict: null
+    explication: "Affirmation de valeur, sans verdict : position portée par la proposition de résolution n° 2914 (2020) et le livret de Jean-Luc Mélenchon (2022)."
+  - id: F57
+    verdict: "Vrai"
+    explication: "Sur la lettre du texte, c'est exact : l'article 123 TFUE et le protocole n° 4 ne contiennent pas le mot « annulation » (F45, S1). Cela ne dit pas si l'annulation serait compatible avec l'interdiction du financement monétaire, question que la CJUE n'a pas tranchée (F27)."
+  - id: F58
+    verdict: "Débat entre experts"
+    explication: "Les signataires de la tribune de 2021 l'affirment sans démonstration. La BCE écrit, après ses pertes de 2024, qu'elle peut remplir son mandat « regardless of any losses » (communiqué du 20 février 2025), tout en soulignant que sa solidité repose sur 59 milliards de capital et de comptes de réévaluation : elle ne dit pas que des fonds propres durablement négatifs seraient sans effet. Aucune estimation chiffrée d'institution sur ce point n'est au dossier."
+  - id: F59
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : la tribune collective (Le Monde, février 2021, copie hébergée par EconomiX) propose que la BCE efface ses créances ou les convertisse en dettes perpétuelles sans intérêt, contre l'engagement des États d'investir les mêmes montants dans la reconstruction écologique et sociale. L'année 2021 est confirmée par la réponse de Christine Lagarde du 7 février 2021 (F12)."
+  - id: F60
+    verdict: "Vrai"
+    explication: "Déclaration vérifiée : la même tribune de 2021 propose « un contrat entre les Etats européens et la BCE », et non une décision prise par un seul État."

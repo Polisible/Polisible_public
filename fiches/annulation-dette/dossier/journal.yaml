@@ -204,3 +204,12 @@
   agent: verificateur
   phase: '3'
   action: a tranché S43→conforme
+- date: '2026-11-10T21:22:59'
+  agent: verificateur
+  phase: '3'
+  action: a tranché F24→Vrai, F25→Plutôt vrai, F26→Pas d'estimation fiable, F27→Invérifiable, F28→valeur, sans verdict,
+    F29→Vrai, F30→Vrai, F31→Plutôt vrai, F32→Plutôt vrai, F33→Vrai, F34→Vrai, F35→Vrai, F36→Vrai, F37→Vrai, F38→Vrai,
+    F39→Vrai, F40→Plutôt vrai, F41→Pas d'estimation fiable, F42→Invérifiable, F43→valeur, sans verdict, F44→Vrai,
+    F45→Vrai, F46→Plutôt vrai, F47→Pas d'estimation fiable, F48→Vrai, F49→Pas d'estimation fiable, F50→Vrai, F51→valeur,
+    sans verdict, F52→valeur, sans verdict, F53→valeur, sans verdict, F54→valeur, sans verdict, F55→valeur, sans
+    verdict, F56→valeur, sans verdict, F57→Vrai, F58→Débat entre experts, F59→Vrai, F60→Vrai
