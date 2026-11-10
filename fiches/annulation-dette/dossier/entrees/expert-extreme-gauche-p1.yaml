@@ -1,0 +1,70 @@
+agent: expert-extreme-gauche
+phase: 2
+sources:
+  - ref: s1
+    titre: "Brochure programme de la campagne Poutou 2022"
+    auteur: "NPA (Nouveau Parti anticapitaliste)"
+    date: "2022-02-24"
+    adresse: "https://npa-lanticapitaliste.org/sites/default/files/brochure-programme-poutou-2022_2.pdf"
+    niveau: 3
+  - ref: s2
+    titre: "Réponse de la BCE à un courrier de la commission ECON du Parlement européen"
+    auteur: "Banque centrale européenne"
+    date: "2021-02-05"
+    adresse: "https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf"
+    niveau: 1
+  - ref: s3
+    titre: "Communiqué de presse n° 192/18 : arrêt dans l'affaire C-493/17, Weiss e.a."
+    auteur: "Cour de justice de l'Union européenne"
+    date: "2018-12-11"
+    adresse: "https://curia.europa.eu/site/upload/docs/application/pdf/2018-12/cp180192fr.pdf"
+    niveau: 1
+  - ref: s4
+    titre: "Protocole n° 4 sur les statuts du SEBC et de la BCE (version consolidée)"
+    auteur: "Union européenne (EUR-Lex)"
+    date: "non trouvée"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/PRO/04"
+    niveau: 1
+affirmations:
+  - ref: f1
+    enonce: "La brochure programme de la campagne Poutou 2022 du NPA demande l'arrêt immédiat du paiement de la dette publique et de ses intérêts."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Nous voulons l’arrêt immédiat du paiement de la dette et de ses intérêts,"}
+  - ref: f2
+    enonce: "La même brochure du NPA demande une rupture avec les traités européens."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Rupture avec les traités européens antidémocratiques et favorisant la concurrence libre et non faussée"}
+  - ref: f3
+    enonce: "Selon la BCE (courrier de février 2021), l'annulation de dettes publiques par la BCE n'est pas compatible avec l'article 123 du traité sur le fonctionnement de l'Union européenne."
+    type: fait
+    sources:
+      - {source: s2, extrait: "l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle enfreindrait l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement de l’Union européenne."}
+  - ref: f4
+    enonce: "Les traités et les statuts du SEBC interdisent à une banque centrale nationale de solliciter ou d'accepter des instructions des gouvernements des États membres."
+    type: fait
+    sources:
+      - {source: s4, extrait: "ni la BCE, ni une banque centrale nationale, ni un membre quelconque de leurs organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes de l’Union, des gouvernements des États membres ou de tout autre organisme."}
+  - ref: f5
+    enonce: "Par l'arrêt Weiss du 11 décembre 2018, la Cour de justice de l'Union européenne a jugé que le programme d'achats d'obligations souveraines sur les marchés secondaires (PSPP) ne viole pas l'interdiction du financement monétaire."
+    type: fait
+    sources:
+      - {source: s3, extrait: "La Cour constate ensuite que le programme PSPP ne viole pas l’interdiction du financement monétaire, qui interdit au SEBC d’accorder tout type de crédit à un État membre."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: nuance
+    enonce: "Le NPA ne présente pas l'annulation comme un geste que le droit actuel permettrait à la France seule : il l'inscrit dans une rupture avec les traités européens, donc la question n'est pas pour lui celle de la conformité aux traités. Ce cadre ne contredit pas la lecture de la BCE selon laquelle l'annulation est aujourd'hui contraire à l'article 123."
+    porte_par:
+      - {qui: "NPA (Nouveau Parti anticapitaliste), programme de la campagne Poutou 2022", source: s1}
+    affirmations: [f1, f2, f3, f4]
+incertitudes:
+  - "Aucune position publique de l'extrême gauche sur la mesure précise de Mélenchon (part détenue par la Banque de France, août 2026) n'a été trouvée : la brochure d'été 2026 de Lutte ouvrière ouverte (lutte-ouvriere.org) critique la dette comme profitant aux banques mais ne contient ni appel à l'annulation ni mention de la Banque de France ou de la BCE ; les pages NPA-L'Anticapitaliste de 2026 ouvertes ne traitent pas de ce point (vidéos Poutou et Besancenot de 2026 : contenu non consulté)."
+  - "Le NPA-L'Anticapitaliste (page dettedelafrance.fr, secondaire, non retenue comme source) recense « Annuler les dettes publiques » pour 2027 sans préciser les créanciers ni l'horizon ; le document source du NPA n'a pas été retrouvé."
+  - "L'argument a1 s'appuie sur un programme de 2022 (archive) : les deux demandes (arrêt du paiement, rupture avec les traités) sont citées séparément par le NPA ; leur lien dans a1 est une lecture, pas une phrase du texte. À confirmer avec un document 2026 du NPA ou de LO."
+  - "Aucun texte de LO ou du NPA ne soutient que l'annulation serait juridiquement possible dans le cadre actuel des traités : l'extrême gauche n'a donc pas d'argument « pour » sur le plan strictement juridique dans ce dépôt."
+  - "Date de la lettre de la BCE (s2) déduite du nom du fichier (cor20210205) : le texte ouvert ne donne ni date ni signataire ; l'objet (annulation par la BCE) vise la BCE, pas expressément la part détenue par la Banque de France au sein de l'Eurosystème."
+  - "Date de la version consolidée du protocole n° 4 (s4) non trouvée sur la page ouverte : champ date omis (référence CELEX 12016M/PRO/04)."
+  - "Les articles 123 et 130 du traité n'ont pas pu être ouverts directement (EUR-Lex non lu pour le TFUE) ; l'article 123 n'est cité que via la BCE."
+  - "Le texte intégral de l'arrêt Weiss n'a pas été ouvert, seulement le communiqué de la Cour ; il porte sur les achats sur le marché secondaire, pas sur l'annulation de titres détenus."

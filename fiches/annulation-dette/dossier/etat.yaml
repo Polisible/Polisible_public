@@ -31,3 +31,8 @@ agents:
   jetons: 102744
   outils: 19
   duree_ms: 121183
+- phase: '2'
+  agent: expert-extreme-droite
+  jetons: 103549
+  outils: 24
+  duree_ms: 156889
