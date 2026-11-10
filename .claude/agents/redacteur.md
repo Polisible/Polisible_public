@@ -19,6 +19,7 @@ Tu reçois `fiches/<fiche>/dossier/lots/redaction.yaml` (vue consolidée du doss
 3. Chiffres clés (chacun daté et sourcé)
 4. Les questions : pour chacune, l'énoncé, sa réponse rapide (l'état de la question, sans verdict global sur une question de valeur), puis les arguments détaillés, dans l'ordre : ceux qui répondent oui, puis non, puis nuancés. Chaque argument : qui le porte, l'argument, son raisonnement, puis ses affirmations au format `[F3] énoncé — Type — Verdict — explication — sources [S2]`.
    Une famille sans position publique sur la question (`sans_position`) est mentionnée en une ligne, avec ce qui a été cherché, sans nommer la famille : « Aucune prise de position publique de LR, Les Écologistes… n'a été trouvée sur ce point ».
+   Les positions officielles des institutions (affirmations `declaration: true` hors argument) forment une sous-partie « Ce qu'en disent les institutions » de chaque question, distincte des arguments des partis.
 5. Les valeurs en jeu : ce que chaque position met en priorité, sans verdict.
 6. Pour aller plus loin : sources primaires.
 7. Informations sur la fiche : date, version (0.1, brouillon non vérifié par le fondateur), mention « rédigée avec l'assistance d'IA », lien vers `journal.md` et `dossier/`, tableau des sources (id, titre, auteur, date, niveau, statut de vérification, adresse).

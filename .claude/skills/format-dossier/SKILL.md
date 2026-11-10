@@ -37,7 +37,7 @@ arguments:
     enonce: "L'argument en deux phrases, dans sa meilleure version."
     raisonnement: "Pourquoi les affirmations mènent à la conclusion."
     porte_par:                # qui défend réellement cet argument, d'après ses propres textes
-      - {qui: "Parti, personne ou institution", source: s2}
+      - {qui: "Personne ou groupe", parti: "LR", source: s2}   # parti de TA famille ; autre parti : parti_hors_liste: true, justification
     affirmations: [f1]
     repond_a: A3              # seulement pour un contre-argument (phase 4)
 objections:                   # phase 4, uniquement de nature « fait »
@@ -50,8 +50,15 @@ corrections:                  # phase 4, sur TES arguments seulement
   - {vise: A1, action: retirer}            # ou {vise: A1, action: corriger, enonce: "…"}
 valeurs:                      # désaccords de valeur : pas des objections
   - {question: Q1, enonce: "Ce que ta famille met en priorité, sans verdict."}
-sans_position:                # ta famille n'a pas de position publique sur une question
-  - {question: Q2, recherche: "programme 2027, site du parti, déclarations d'août 2026"}
+questions_proposees:          # phase 1 (cadrage) uniquement
+  - {enonce: "Question fermée ?", type: estimation, pourquoi: "Une phrase."}
+sans_position:                # après la recherche minimale (les 4 catégories)
+  - question: Q2
+    lieux_consultes:
+      - {categorie: programme, ou: "programme 2027 du parti", resultat: "rien sur ce point"}
+      - {categorie: site, ou: "communiqués 2026", resultat: "…"}
+      - {categorie: dirigeants, ou: "presse, août-novembre 2026", resultat: "…"}
+      - {categorie: parlement, ou: "propositions de loi et de résolution, votes", resultat: "…"}
 sources_demandees:            # page impossible à ouvrir : le vérificateur réessaie
   - {adresse: "https://…", pourquoi: "texte de l'arrêt C-493/17", erreur: "403"}
 incertitudes:                 # principe 6 : les points dont tu n'es pas sûr

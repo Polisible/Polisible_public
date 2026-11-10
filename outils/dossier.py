@@ -13,6 +13,7 @@ Commandes (lancer depuis la racine du dépôt) :
   lot <fiche> confrontation --agent NOM    prépare le lot d'un expert
   lot <fiche> redaction                    vue consolidée pour le rédacteur
   lot <fiche> bibliotheque                 textes de base communs, transmis aux experts
+  cadrage <fiche> <fichier>                fusion des questions proposées, décision du fondateur
   a-relancer <fiche> <expert>...           confrontation ciblée : qui relancer au passage suivant
   etat <fiche>                             état et condition d'arrêt
   chrono <fiche> debut|fin <phase> [--note "..."]
@@ -33,6 +34,19 @@ VERDICTS = {
 }
 STATUTS_SOURCE = {"conforme", "non-conforme", "inaccessible"}
 ROLES = {"expert", "verificateur", "bibliothecaire"}
+# Partis de chaque famille (porte_par d'un expert : un parti de SA famille, ou un de ses membres).
+# Un autre parti de la famille : parti_hors_liste: true + justification, signalé au fondateur.
+FAMILLES = {
+    "expert-extreme-gauche": {"LO", "Lutte ouvrière", "NPA", "NPA-L'Anticapitaliste", "NPA-Révolutionnaires"},
+    "expert-gauche-radicale": {"LFI", "La France insoumise", "PCF", "Parti communiste français"},
+    "expert-sociaux-democrates": {"PS", "Parti socialiste", "Place publique"},
+    "expert-ecologistes": {"Les Écologistes", "EELV"},
+    "expert-centre": {"Renaissance", "MoDem", "Horizons", "UDI", "Ensemble"},
+    "expert-droite": {"LR", "Les Républicains"},
+    "expert-extreme-droite": {"RN", "Rassemblement national", "UDR", "Reconquête"},
+}
+# Recherche minimale avant de conclure « sans position » : chaque catégorie doit être consultée.
+LIEUX_MINIMUM = {"programme", "site", "dirigeants", "parlement"}
 STATUTS_OBJ = {"resolue", "remontee-fondateur"}
 EXTRAIT_MAX = 320  # une phrase au plus (règle de citation courte, dépôt public)
 FICHIERS = ["questions", "arguments", "affirmations", "sources", "objections", "valeurs", "journal"]
@@ -153,8 +167,15 @@ def valider_entree(e):
         if a.get("position") not in POSITIONS:
             err.append(f"argument {a.get('ref')} : position doit être {sorted(POSITIONS)}")
         for p in a.get("porte_par", []) or []:
-            if not isinstance(p, dict) or not p.get("qui") or not p.get("source"):
-                err.append(f"argument {a.get('ref')} : porte_par = liste de {{qui, source}}")
+            if not isinstance(p, dict) or not p.get("qui") or not p.get("source") or not p.get("parti"):
+                err.append(f"argument {a.get('ref')} : porte_par = liste de {{qui, parti, source}}")
+                continue
+            fam = FAMILLES.get(e.get("agent"))
+            if fam and p["parti"] not in fam and not (p.get("parti_hors_liste") and p.get("justification")):
+                err.append(f"argument {a.get('ref')} : « {p['parti']} » n'est pas un parti de ta famille ({', '.join(sorted(fam))}). "
+                           "Un argument n'est porté que par un parti de ta famille ou un de ses membres ; une institution "
+                           "ou un groupe de réflexion ne porte pas l'argument d'une famille. Autre parti de la famille : "
+                           "parti_hors_liste: true et justification.")
         refs.add(a.get("ref"))
     for o in e.get("objections", []) or []:
         if role == "verificateur":
@@ -179,11 +200,21 @@ def valider_entree(e):
         if len(str(s.get("extrait", ""))) > EXTRAIT_MAX:
             err.append("sources_ajoutees : extrait trop long (une phrase au plus)")
     for x in e.get("sans_position", []) or []:
-        if not x.get("question") or not x.get("recherche"):
-            err.append(f"sans_position : « question » et « recherche » (ce qui a été cherché) obligatoires ({x})")
+        if not x.get("question"):
+            err.append(f"sans_position : « question » obligatoire ({x})")
+        lieux = x.get("lieux_consultes") or []
+        vus = {str(l.get("categorie")) for l in lieux if isinstance(l, dict) and l.get("ou") and l.get("resultat")}
+        if not LIEUX_MINIMUM <= vus:
+            err.append(f"sans_position sur {x.get('question')} : recherche minimale incomplète, il manque "
+                       f"{sorted(LIEUX_MINIMUM - vus)} (lieux_consultes : liste de {{categorie, ou, resultat}})")
     for x in e.get("sources_demandees", []) or []:
         if not str(x.get("adresse", "")).startswith("http") or not x.get("pourquoi") or not x.get("erreur"):
             err.append(f"sources_demandees : « adresse », « pourquoi » et « erreur » obligatoires ({x})")
+    for q in e.get("questions_proposees", []) or []:
+        if not q.get("enonce") or q.get("type") not in TYPES or not q.get("pourquoi"):
+            err.append(f"questions_proposees : enonce, type ({sorted(TYPES)}) et pourquoi obligatoires ({q})")
+        elif not str(q["enonce"]).rstrip().endswith("?"):
+            err.append(f"questions_proposees : l'énoncé doit être une question fermée (oui ou non) : {q['enonce']}")
     for v in e.get("valeurs", []) or []:
         if not v.get("question") or not v.get("enonce"):
             err.append(f"valeur : « question » et « enonce » obligatoires ({v})")
@@ -262,7 +293,9 @@ def fusionner(fiche, chemin):
         aid = prochain(D["arguments"], "A")
         carte[a["ref"]] = aid
         D["arguments"].append({"id": aid, "question": a["question"], "position": a["position"], "enonce": a["enonce"],
-                               "porte_par": [{"qui": p["qui"], "source": res(p["source"])} for p in a["porte_par"]],
+                               "porte_par": [{"qui": p["qui"], "parti": p["parti"], "source": res(p["source"]),
+                                              **({"parti_hors_liste": True, "justification": p["justification"]}
+                                                 if p.get("parti_hors_liste") else {})} for p in a["porte_par"]],
                                "affirmations": [res(x) for x in a["affirmations"]],
                                "raisonnement": re.sub(r"\b[a-z]\d+\b", lambda m: carte.get(m.group(0), m.group(0)), a["raisonnement"]),
                                "repond_a": a.get("repond_a"), "auteur": agent, "passage": passage,
@@ -282,10 +315,15 @@ def fusionner(fiche, chemin):
             if f["id"] == o["vise"]:
                 f["statut"] = "contestee"
         ajouts.append(oid)
+    for q in e.get("questions_proposees", []) or []:
+        qid = prochain(D["questions"], "Q")
+        D["questions"].append({"id": qid, "enonce": q["enonce"], "type": q["type"], "pourquoi": q["pourquoi"],
+                               "proposee_par": [agent], "statut": "proposee"})
+        ajouts.append(f"{qid} (proposée)")
     for x in e.get("sans_position", []) or []:
         for q in D["questions"]:
             if q["id"] == x["question"]:
-                q.setdefault("sans_position", []).append({"auteur": agent, "recherche": x["recherche"]})
+                q.setdefault("sans_position", []).append({"auteur": agent, "lieux_consultes": x["lieux_consultes"]})
                 ajouts.append(f"sans position sur {q['id']}")
     for x in e.get("sources_demandees", []) or []:
         if any(norm_url(s["adresse"]) == norm_url(x["adresse"]) for s in D["sources"]):
@@ -433,7 +471,7 @@ def lot(fiche, sorte, agent=None, taille=0):
                             for s in D["sources"] if s["ajoutee_par"] == "bibliothecaire"}}
         p = lots / "bibliotheque.yaml"
     elif sorte == "confrontation":
-        data = {"questions": D["questions"],
+        data = {"questions": [q for q in D["questions"] if q["statut"] == "validee"],
                 "tes_arguments": [vue_arg(a) for a in D["arguments"] if a["auteur"] == agent and a["statut"] != "retire"],
                 "arguments_des_autres": [vue_arg(a) for a in D["arguments"] if a["auteur"] != agent and a["statut"] != "retire"],
                 "objections_deja_posees": [{k: o[k] for k in ("id", "vise", "auteur", "contenu", "statut", "resolution")}
@@ -447,7 +485,7 @@ def lot(fiche, sorte, agent=None, taille=0):
         args = [a for a in D["arguments"] if a["statut"] != "retire"]
         data = {"questions": [{**q, "arguments": [vue_arg(a) for a in args if a["question"] == q["id"]],
                                "valeurs": [v for v in D["valeurs"] if v["question"] == q["id"]]}
-                              for q in D["questions"]],
+                              for q in D["questions"] if q["statut"] == "validee"],
                 "affirmations_hors_argument": [  # bibliothèque, arguments retirés : utilisables pour contexte et chiffres
                     {k: f[k] for k in ("id", "enonce", "type", "verdict", "explication", "sources")}
                     for f in D["affirmations"] if f["verdict"] is not None
@@ -462,6 +500,29 @@ def lot(fiche, sorte, agent=None, taille=0):
 
 
 # ---------------------------------------------------------------- état
+
+def cadrage(fiche, chemin):
+    """Applique un fichier de cadrage : fusion des questions proposées et décision du fondateur.
+    Format : {retenues: [{enonce, type, fusion_de: [Q..]}], ecartees: [{id, raison}], validee_par: "..."}"""
+    c = lire_entree(chemin)
+    qs = charger(fiche, "questions")
+    idx = {q["id"]: q for q in qs}
+    for q in c.get("retenues", []):
+        sources = [idx[i] for i in q["fusion_de"]]
+        qid = prochain(qs, "Q")
+        qs.append({"id": qid, "enonce": q["enonce"], "type": q["type"], "fiche": fiche,
+                   "proposee_par": sorted({a for s in sources for a in s["proposee_par"]}),
+                   "fusion_de": q["fusion_de"], "statut": "validee"})
+        for s in sources:
+            s["statut"] = f"fusionnee dans {qid}"
+        journaliser(fiche, "coordinateur", "1", f"{qid} validée par {c['validee_par']} (fusion de {', '.join(q['fusion_de'])})")
+    for x in c.get("ecartees", []):
+        idx[x["id"]]["statut"] = "ecartee"
+        idx[x["id"]]["raison"] = x["raison"]
+        journaliser(fiche, "fondateur", "1", f"{x['id']} écartée : {x['raison']}")
+    ecrire(fiche, "questions", qs)
+    print("\n".join(f"{q['id']} [{q['statut']}] {q['enonce']}" for q in qs))
+
 
 def a_relancer(fiche, experts):
     """Confrontation ciblée : un expert est relancé s'il est visé par un élément du dernier passage
@@ -494,7 +555,7 @@ def etat(fiche):
     print("Condition d'arrêt :")
     print(f"  1. aucun nouvel argument ni objection au dernier passage : {'oui' if not nouveaux else 'non (' + ', '.join(nouveaux) + ')'}")
     print(f"  2. objections factuelles toutes tranchées : {'oui' if not ouvertes else 'non (' + ', '.join(ouvertes) + ')'}")
-    for q in D["questions"]:
+    for q in [q for q in D["questions"] if q["statut"] == "validee"]:
         pos = sorted({a["position"] for a in D["arguments"] if a["question"] == q["id"] and a["statut"] != "retire"})
         print(f"  3. {q['id']} positions argumentées : {pos or 'aucune'}")
     print(f"  sources non vérifiées : {non_verif or 'aucune'} ; affirmations sans verdict : {sans_verdict or 'aucune'}")
@@ -573,25 +634,26 @@ def init(fiche, question, qtype, theme, sujet, validee_par):
     (d / "entrees").mkdir(parents=True, exist_ok=True)
     (d / "lots").mkdir(exist_ok=True)
     qs = charger(fiche, "questions")
-    qid = prochain(qs, "Q")
-    qs.append({"id": qid, "enonce": question, "type": qtype, "fiche": fiche, "sujet": sujet, "theme": theme,
-               "proposee_par": "fondateur", "statut": "validee"})
+    if question:
+        qid = prochain(qs, "Q")
+        qs.append({"id": qid, "enonce": question, "type": qtype, "fiche": fiche,
+                   "proposee_par": ["fondateur"], "statut": "validee"})
     ecrire(fiche, "questions", qs)
     for n in FICHIERS:
         if not (d / f"{n}.yaml").exists():
             ecrire(fiche, n, [])
     E = charger(fiche, "etat")
-    E.update({"fiche": fiche, "phase": E.get("phase", "1"), "passage": E.get("passage", 1)})
+    E.update({"fiche": fiche, "theme": theme, "sujet": sujet, "phase": E.get("phase", "1"), "passage": E.get("passage", 1)})
     ecrire(fiche, "etat", E)
-    journaliser(fiche, "coordinateur", "1", f"question {qid} ajoutée, validée par {validee_par}")
-    print(f"{qid} créée dans {d.relative_to(RACINE)}")
+    journaliser(fiche, "coordinateur", "1", f"dossier créé" + (f" ; question {qid} validée par {validee_par}" if question else ""))
+    print(f"dossier {d.relative_to(RACINE)} prêt")
 
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     s = p.add_subparsers(dest="cmd", required=True)
-    x = s.add_parser("init"); x.add_argument("fiche"); x.add_argument("--question", required=True)
-    x.add_argument("--type", required=True, choices=sorted(TYPES)); x.add_argument("--theme", required=True)
+    x = s.add_parser("init"); x.add_argument("fiche"); x.add_argument("--question")
+    x.add_argument("--type", choices=sorted(TYPES), default="fait"); x.add_argument("--theme", required=True)
     x.add_argument("--sujet", required=True); x.add_argument("--validee-par", default="fondateur")
     x = s.add_parser("valider"); x.add_argument("fichier")
     x = s.add_parser("fusionner"); x.add_argument("fiche"); x.add_argument("fichiers", nargs="+")
@@ -604,6 +666,7 @@ def main():
     x.add_argument("--jetons", type=int); x.add_argument("--outils", type=int); x.add_argument("--duree-ms", type=int)
     x = s.add_parser("passage"); x.add_argument("fiche")
     x = s.add_parser("journal"); x.add_argument("fiche")
+    x = s.add_parser("cadrage"); x.add_argument("fiche"); x.add_argument("fichier")
     x = s.add_parser("a-relancer"); x.add_argument("fiche"); x.add_argument("experts", nargs="+")
     a = p.parse_args()
     if a.cmd == "init":
@@ -629,6 +692,8 @@ def main():
         print(f"passage {E['passage']}")
     elif a.cmd == "journal":
         journal_md(a.fiche)
+    elif a.cmd == "cadrage":
+        cadrage(a.fiche, a.fichier)
     elif a.cmd == "a-relancer":
         a_relancer(a.fiche, a.experts)
 
