@@ -321,7 +321,8 @@ def lot(fiche, sorte, agent=None, taille=0):
                                              "extrait_annonce": x["extrait"]}
                                             for f in D["affirmations"] for x in f["sources"] if x["source"] == s["id"]]})
         restant = [{"id": f["id"], "enonce": f["enonce"], "type": f["type"],
-                    "sources": [{"source": x["source"], "statut": src[x["source"]]["statut"], "extrait": x["extrait"]}
+                    "sources": [{"source": x["source"], "niveau": src[x["source"]]["niveau"], "statut": src[x["source"]]["statut"],
+                                 "note_verif": src[x["source"]]["note_verif"], "extrait": x["extrait"]}
                                 for x in f["sources"]]} for f in aff]
         cibles = {x["id"]: x for n in ("arguments", "affirmations", "sources") for x in D[n]}
         objections = [{**{k: o[k] for k in ("id", "vise", "auteur", "contenu", "sources", "ce_que_la_source_ne_dit_pas")},

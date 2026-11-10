@@ -50,6 +50,21 @@ agents:
   jetons: 128368
   outils: 36
   duree_ms: 237754
+- phase: '3'
+  agent: verificateur-lot1
+  jetons: 90105
+  outils: 14
+  duree_ms: 62204
+- phase: '3'
+  agent: verificateur-lot3
+  jetons: 81252
+  outils: 11
+  duree_ms: 62904
+- phase: '3'
+  agent: verificateur-lot2
+  jetons: 88824
+  outils: 19
+  duree_ms: 88762
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.

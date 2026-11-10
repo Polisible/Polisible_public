@@ -1,0 +1,26 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S8
+    statut: conforme
+    note: "Bon document (article 123 TFUE, JO C 326 du 26.10.2012, page EUR-Lex en français). F14 : extrait présent mot pour mot ; le paragraphe 1 interdit aussi tout découvert ou crédit aux administrations publiques des États membres, ce qui couvre l'énoncé."
+  - id: S9
+    statut: conforme
+    note: "Bon document (article 130 TFUE, page EUR-Lex en français). F15 : extrait présent mot pour mot ; l'article vise aussi les instructions des gouvernements des États membres et contient leur engagement à ne pas chercher à influencer les organes de décision, ce qui couvre l'énoncé."
+  - id: S10
+    statut: conforme
+    note: "Bon document : publication de Jordan Bardella sur X datée du 23 août 2026 (métadonnées). F18 : extrait présent mot pour mot, suivi de la phrase indiquant que les intérêts versés par l'État sur la dette détenue par la Banque de France « sont ensuite reversés à l'État sous forme de dividendes », ce qui correspond à l'énoncé (déclaration rapportée, non preuve du fait)."
+  - id: S11
+    statut: conforme
+    date_corrigee: "2026-09-02"
+    note: "Bon document (fact-check AFP de Gaëlle Geoffroy repris par De Facto), mais la page indique « Publié le mercredi 2 septembre 2026 », non le 25 août. F17 : extrait présent mot pour mot, suivi de « Une approbation hautement improbable à l'heure actuelle, estiment-ils » ; les experts cités ont été interrogés par l'AFP les 17, 18 et 19 août 2026 et « cette part » désigne la dette détenue par la Banque de France pour le compte de la BCE, ce qui correspond à l'énoncé."
+  - id: S12
+    statut: conforme
+    note: "Bon document (Boursorama avec Media Services, 11/09/2026 à 11:13). F16 : extrait présent mot pour mot, attribué à Emmanuel Moulin, gouverneur de la Banque de France, « ce vendredi 11 septembre » sur RTL, à propos de la proposition de Jean-Luc Mélenchon ; même chose que l'énoncé."
+  - id: S13
+    statut: conforme
+    note: "Brochure programme Poutou 2022 du NPA (PDF sur le site du NPA) ; la date du 24 février 2022 n'apparaît pas dans le document ni dans ses métadonnées. F20 : extrait présent (mise en colonnes du PDF entremêlée), dans la partie « Annuler la dette », les intérêts étant chiffrés à près de 40 milliards d'euros en 2021, ce qui correspond à la dette publique de l'énoncé. F21 : extrait présent (même mise en colonnes), même chose que l'énoncé."
+  - id: S14
+    statut: conforme
+    note: "Bon document (CJUE, communiqué n° 192/18, Luxembourg, 11 décembre 2018, affaire C-493/17 Weiss e.a.) ; premier accès refusé (403), ouvert ensuite par l'adresse curia.europa.eu/jcms/… qui redirige vers l'adresse annoncée. F24 : extrait présent mot pour mot, même chose que l'énoncé (communiqué de presse, non le texte de l'arrêt)."

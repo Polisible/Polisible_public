@@ -8,7 +8,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. Cadrage | 2026-11-10T18:58:39 | 2026-11-10T18:58:39 | 0 min 00 s | 1 | 0 | — | question imposée par le fondateur, pas de cadrage par les experts |
 | 2. Contributions indépendantes | 2026-11-10T18:58:39 | 2026-11-10T19:03:48 | 5 min 09 s | 1 | 7 | 756686 |  |
-| 3. Vérification | 2026-11-10T19:03:48 | — | — | 1 | 0 | — |  |
+| 3. Vérification | 2026-11-10T19:03:48 | — | — | 1 | 3 | 260181 |  |
 
 ## Par agent
 
@@ -21,3 +21,6 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 2 | expert-extreme-droite | 103549 | 24 | 2 min 36 s |
 | 2 | expert-extreme-gauche | 134597 | 33 | 3 min 33 s |
 | 2 | expert-sociaux-democrates | 128368 | 36 | 3 min 57 s |
+| 3 | verificateur-lot1 | 90105 | 14 | 1 min 02 s |
+| 3 | verificateur-lot3 | 81252 | 11 | 1 min 02 s |
+| 3 | verificateur-lot2 | 88824 | 19 | 1 min 28 s |

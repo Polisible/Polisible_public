@@ -5,8 +5,10 @@
   adresse: https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf
   niveau: 1
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : lettre de Christine Lagarde à Manon Aubry, datée du 5 février 2021 (L/CL/21/22). F1,
+    F22, F32 : extrait présent mot pour mot, même sens (incompatibilité avec les traités au titre de l''article
+    123 TFUE).'
 - id: S2
   titre: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat
   auteur: Euronews (Eleonora Vasques)
@@ -14,8 +16,10 @@
   adresse: https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon article Euronews du 27 août 2026. F4 : extrait présent, Euronews rapporte la tribune de Thierry
+    Breton publiée « mardi » dans Les Echos, même sens. F11 : extrait présent, même sens, mais le fait n''est établi
+    que par le compte rendu d''Euronews, pas par la tribune elle-même.'
 - id: S3
   titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
   auteur: Euronews
@@ -23,8 +27,10 @@
   adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon article Euronews du 11 septembre 2026. F2 : « vraiment pas une bonne idée » et « violation pure
+    du traité » présents, même sens ; la date du 11 septembre est celle de l''article, la déclaration ayant eu lieu
+    à la conférence de presse de la BCE. F8 : extrait présent, même sens.'
 - id: S4
   titre: '« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?'
   auteur: Thierry Bonneau, professeur de droit (Université Paris-Panthéon-Assas), Le Club des Juristes
@@ -32,8 +38,12 @@
   adresse: https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/
   niveau: 2
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : Thierry Bonneau, Club des Juristes, 11 février 2021. F5 : extrait présent (« il n''interdit
+    pas expressément l''annulation de la dette souveraine détenue par la BCE »), même sens. F7 et F12 : extrait
+    présent ; la partie de F7 sur le marché secondaire est une déduction que l''auteur tire du texte et de la jurisprudence
+    de la CJUE, tout en soutenant plus loin que l''article 123 a une portée moins limitée que celle admise par la
+    jurisprudence.'
 - id: S5
   titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de
     nombreuses difficultés'
@@ -42,8 +52,13 @@
   adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon article Public Sénat du 25 août 2026. F6, F13, F19, F27, F34 : extrait présent, même sens. F3
+    : les 18 % figurent, mais attribués à une vidéo de juin devenue virale en août, et non à un propos d''août.
+    F9 : extrait présent, c''est le compte rendu par Public Sénat d''une déclaration de Lagarde en 2021. F28 : citation
+    présente (discours du dimanche de clôture des universités d''été de LFI). F29 : extrait présent, mais la source
+    ne date pas explicitement le dépôt de la résolution ni ne l''attribue nommément à LFI (contexte : « sa famille
+    exigeait en 2020 »).'
 - id: S6
   titre: '"Annuler" la dette : pourquoi c''est impossible et dangereux'
   auteur: Fondation IFRAP
@@ -51,8 +66,10 @@
   adresse: https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux
   niveau: 3
   ajoutee_par: expert-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon titre et auteur (Fondation IFRAP) ; date du 1er septembre 2026 non vérifiable sur la page, qui
+    cite un texte du 2 septembre 2026, donc publiée au plus tôt ce jour-là. F10 : extrait présent mot pour mot,
+    même sens ; source de niveau 3, qui ne suffit pas seule à établir un fait.'
 - id: S7
   titre: La dette, un sujet politique
   auteur: Jérôme Gleizes, chronique « L'économie à contre-courant », Politis
@@ -60,8 +77,9 @@
   adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
   niveau: 3
   ajoutee_par: expert-ecologistes
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026. Aucune affirmation à contrôler
+    dans ce lot.'
 - id: S8
   titre: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 123
   auteur: Union européenne (Journal officiel C 326 du 26.10.2012)
@@ -69,8 +87,10 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E123
   niveau: 1
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (article 123 TFUE, JO C 326 du 26.10.2012, page EUR-Lex en français). F14 : extrait
+    présent mot pour mot ; le paragraphe 1 interdit aussi tout découvert ou crédit aux administrations publiques
+    des États membres, ce qui couvre l''énoncé.'
 - id: S9
   titre: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 130
   auteur: Union européenne (Journal officiel C 326 du 26.10.2012)
@@ -78,8 +98,10 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E130
   niveau: 1
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (article 130 TFUE, page EUR-Lex en français). F15 : extrait présent mot pour mot ; l''article
+    vise aussi les instructions des gouvernements des États membres et contient leur engagement à ne pas chercher
+    à influencer les organes de décision, ce qui couvre l''énoncé.'
 - id: S10
   titre: 'Jordan Bardella sur X : « Matthieu Pigasse raconte n''importe quoi. »'
   auteur: Jordan Bardella, président du Rassemblement national
@@ -87,17 +109,24 @@
   adresse: https://x.com/J_Bardella/status/2091477140793373045
   niveau: 3
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : publication de Jordan Bardella sur X datée du 23 août 2026 (métadonnées). F18 : extrait
+    présent mot pour mot, suivi de la phrase indiquant que les intérêts versés par l''État sur la dette détenue
+    par la Banque de France « sont ensuite reversés à l''État sous forme de dividendes », ce qui correspond à l''énoncé
+    (déclaration rapportée, non preuve du fait).'
 - id: S11
   titre: Annuler une partie de la dette de la France ? La proposition de LFI face aux obstacles juridiques et politiques
   auteur: De Facto (observatoire de l'information, fact-check relayant l'AFP)
-  date: '2026-08-25'
+  date: '2026-09-02'
   adresse: https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/Annuler-une-partie-de-la-dette-de-la-France-La-proposition-de-LFI-face-aux-obstacles-juridiques-et-politiques/
   niveau: 4
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (fact-check AFP de Gaëlle Geoffroy repris par De Facto), mais la page indique « Publié
+    le mercredi 2 septembre 2026 », non le 25 août. F17 : extrait présent mot pour mot, suivi de « Une approbation
+    hautement improbable à l''heure actuelle, estiment-ils » ; les experts cités ont été interrogés par l''AFP les
+    17, 18 et 19 août 2026 et « cette part » désigne la dette détenue par la Banque de France pour le compte de
+    la BCE, ce qui correspond à l''énoncé.'
 - id: S12
   titre: Jean-Luc Mélenchon propose d'annuler la dette, ce serait « illégal, dangereux et inutile », met en garde
     la Banque de France
@@ -106,8 +135,10 @@
   adresse: https://www.boursorama.com/actualite-economique/actualites/jean-luc-melenchon-propose-d-annuler-la-dette-ce-serait-illegal-dangereux-et-inutile-met-en-garde-la-banque-de-france-40b8c3bc3be532dc9b54c8cd44573dea
   niveau: 4
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (Boursorama avec Media Services, 11/09/2026 à 11:13). F16 : extrait présent mot pour
+    mot, attribué à Emmanuel Moulin, gouverneur de la Banque de France, « ce vendredi 11 septembre » sur RTL, à
+    propos de la proposition de Jean-Luc Mélenchon ; même chose que l''énoncé.'
 - id: S13
   titre: Brochure programme de la campagne Poutou 2022
   auteur: NPA (Nouveau Parti anticapitaliste)
@@ -115,8 +146,11 @@
   adresse: https://npa-lanticapitaliste.org/sites/default/files/brochure-programme-poutou-2022_2.pdf
   niveau: 3
   ajoutee_par: expert-extreme-gauche
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Brochure programme Poutou 2022 du NPA (PDF sur le site du NPA) ; la date du 24 février 2022 n''apparaît
+    pas dans le document ni dans ses métadonnées. F20 : extrait présent (mise en colonnes du PDF entremêlée), dans
+    la partie « Annuler la dette », les intérêts étant chiffrés à près de 40 milliards d''euros en 2021, ce qui
+    correspond à la dette publique de l''énoncé. F21 : extrait présent (même mise en colonnes), même chose que l''énoncé.'
 - id: S14
   titre: 'Communiqué de presse n° 192/18 : arrêt dans l''affaire C-493/17, Weiss e.a.'
   auteur: Cour de justice de l'Union européenne
@@ -124,8 +158,11 @@
   adresse: https://curia.europa.eu/site/upload/docs/application/pdf/2018-12/cp180192fr.pdf
   niveau: 1
   ajoutee_par: expert-extreme-gauche
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (CJUE, communiqué n° 192/18, Luxembourg, 11 décembre 2018, affaire C-493/17 Weiss e.a.)
+    ; premier accès refusé (403), ouvert ensuite par l''adresse curia.europa.eu/jcms/… qui redirige vers l''adresse
+    annoncée. F24 : extrait présent mot pour mot, même chose que l''énoncé (communiqué de presse, non le texte de
+    l''arrêt).'
 - id: S15
   titre: Protocole n° 4 sur les statuts du SEBC et de la BCE (version consolidée)
   auteur: Union européenne (EUR-Lex)
@@ -133,8 +170,11 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/PRO/04
   niveau: 1
   ajoutee_par: expert-extreme-gauche
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (statuts du SEBC et de la BCE, version consolidée, EUR-Lex), date non affichée par la
+    page. F23 : extrait présent mot pour mot (article 7), il vise expressément les banques centrales nationales
+    et les gouvernements des États membres, même périmètre. F26 : extrait présent mot pour mot dans l''article 32.4,
+    même périmètre (indemnisation possible, décidée par le conseil des gouverneurs, dans des circonstances exceptionnelles).'
 - id: S16
   titre: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée)
   auteur: Union européenne (Journal officiel C 202)
@@ -142,8 +182,11 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123
   niveau: 1
   ajoutee_par: expert-gauche-radicale
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (TFUE, article 123, JO C 202 du 7.6.2016). F25 : extrait présent mot pour mot, et le
+    texte de l''article (court, lu en entier par recherche) ne contient aucune mention de l''annulation, ce qui
+    appuie la seconde partie. F30 : extrait présent mot pour mot dans le paragraphe 1, qui contient aussi l''interdiction
+    d''acquisition directe, même périmètre.'
 - id: S17
   titre: 'Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe'
   auteur: Jean-Luc Mélenchon
@@ -151,8 +194,10 @@
   adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
   niveau: 3
   ajoutee_par: expert-gauche-radicale
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : le titre « Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur
+    la dette en France et en Europe » figure en tête du PDF ; la date n''est pas dans les métadonnées, seul le chemin
+    de l''adresse (2022/06) la corrobore. Aucune affirmation à contrôler dans ce lot.'
 - id: S18
   titre: Entretien avec Le Monde (Fabio Panetta, membre du directoire de la BCE)
   auteur: Banque centrale européenne
@@ -160,8 +205,10 @@
   adresse: https://www.ecb.europa.eu/press/inter/date/2020/html/ecb.in200616~2fdb438ac4.fr.html
   niveau: 1
   ajoutee_par: expert-sociaux-democrates
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (« Entretien avec Le Monde », site de la BCE, daté du 16 juin 2020 dans les métadonnées).
+    F31 : extrait présent mot pour mot, en réponse à une question sur l''annulation des dettes détenues par la BCE,
+    même sens ; le nom de Fabio Panetta n''a pas été recherché dans la page, il est repris du titre annoncé.'
 - id: S19
   titre: Pourquoi il faut annuler la dette détenue par la Banque centrale européenne (tribune)
   auteur: Aurore Lalucq, Raphaël Glucksmann et autres eurodéputés (Le JDD)
@@ -169,8 +216,11 @@
   adresse: https://www.lejdd.fr/Economie/tribune-pourquoi-il-faut-annuler-la-dette-detenue-par-la-banque-centrale-europeenne-3991402
   niveau: 3
   ajoutee_par: expert-sociaux-democrates
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (tribune du JDD, signataires dont Aurore Lalucq et Raphaël Glucksmann, eurodéputés S&D)
+    ; la date de septembre 2020 n''apparaît pas dans les métadonnées et n''a pas été confirmée. F33 : extrait présent
+    mot pour mot, même sens (annulation de la dette détenue par la BCE présentée comme possible en vertu des traités)
+    ; la liste des signataires inclut aussi des eurodéputés écologistes, d''où le « notamment » justifié.'
 - id: S20
   titre: L'annulation de la dette voulue par LFI creuse les divergences entre PS et Place publique
   auteur: Yahoo Actualités (reprise d'un entretien d'Olivier Faure à Libération)
@@ -178,5 +228,9 @@
   adresse: https://fr.news.yahoo.com/sport/l-annulation-dette-voulue-lfi-105408424.html
   niveau: 4
   ajoutee_par: expert-sociaux-democrates
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon article (Yahoo Actualités, entretien d''Olivier Faure à Libération), mais la page ne donne pas
+    de date de publication et situe l''entretien un « jeudi 27 avril », ce qui ne confirme pas la date annoncée
+    (2026-08-28) ni la mention « fin août 2026 » de F35 (le 27 août 2026 est bien un jeudi, « avril » semble une
+    coquille, non vérifiée). F35 : extrait présent mot pour mot, même sens, mais la datation n''est pas établie
+    par la source. F36 : extrait présent mot pour mot, même sens.'
