@@ -1,0 +1,53 @@
+agent: redacteur
+manques:
+- vise: chiffres-cles
+  nature: chiffre
+  besoin: "Part et montant de la dette publique française détenue par la Banque de France (date récente, source officielle ouvrable) ; S8, S9, S10 et S14 renvoient 403."
+- vise: contexte
+  nature: affirmation
+  besoin: "Contenu de la proposition de Jean-Luc Mélenchon d'août 2026 : dettes visées, détenteurs, montant, annulation ou gel."
+- vise: definitions
+  nature: definition
+  besoin: "Définitions sourcées : financement monétaire ; titre ou dette perpétuel ; dette au sens de Maastricht ; mettre au congélateur ou geler une dette ; PIB ; Conseil des gouverneurs (composition) et politique monétaire ; grande chambre de la Cour de justice."
+- vise: F10
+  nature: source
+  besoin: "Ajouter au tableau des sources la transcription officielle BCE de la conférence de presse du 10 septembre 2026 (ecb.is260910), avec son adresse."
+- vise: F11
+  nature: source
+  besoin: "Ajouter la FAQ BCE sur le PSPP, invoquée dans la vérification de F11 et F13 ; seule source listée : presse (S13)."
+- vise: F12
+  nature: source
+  besoin: "Ajouter les statuts du SEBC (articles 12.1 et 14.3), base de la vérification ; seule source listée : texte de camp (S12, niveau 3)."
+- vise: A2
+  nature: affirmation
+  besoin: "Extrait montrant que Christine Lagarde a invoqué l'article 130 ou la compétence de l'Eurosystème ; F10 ne porte que sur l'article 123. Sinon, revoir le porte_par."
+- vise: A4
+  nature: affirmation
+  besoin: "A4 n'a pas d'affirmation documentant la déclaration de Christine Lagarde (F10 absent), et aucun extrait n'appuie l'attribution de la partie sur l'impossibilité d'une décision française isolée."
+- vise: A5
+  nature: affirmation
+  besoin: "Extrait de la proposition de résolution n° 2914 (S16) appuyant l'attribution : conservation ou conversion en titres perpétuels à taux nul, sans modification des traités."
+- vise: A6
+  nature: affirmation
+  besoin: "Extraits de LFI ou de Jean-Luc Mélenchon sur l'impossibilité d'une annulation décidée seule par la France, sur la révision des traités et des statuts de la BCE, et sur la formulation de la résolution de 2020."
+- vise: A3
+  nature: affirmation
+  besoin: "Affirmation sourcée sur la règle d'unanimité des États pour réviser les traités."
+- vise: A7
+  nature: source
+  besoin: "Porteur public (personne ou institution) de la conclusion de A7 ; la Cour de justice en est la base, pas le porteur."
+- vise: A3, A5, A6, A7
+  nature: affirmation
+  besoin: "Renvois en minuscules (f1, f2) dans les raisonnements, sans identifiant dans le lot ; la fiche les a lus comme F11/F12 (A3), F13 (A5), F14 (A6), F15/F16 (A7) : à confirmer."
+- vise: S12
+  nature: date
+  besoin: "Confirmer la date de la note de la Fondation IFRAP (1er septembre 2026 non confirmée)."
+- vise: A1, A2, A4, F10
+  nature: date
+  besoin: "Corriger le porte_par de A1, A2 et A4 et l'énoncé de F10 : déclaration du 10 septembre 2026, et non du 11 (date de l'article)."
+- vise: S5
+  nature: date
+  besoin: "Vérifier s'il existe une publication Insee plus récente (trimestres 2026) sur la dette publique."
+- vise: V1, V2, V3, V4
+  nature: source
+  besoin: "Rattacher les valeurs à des textes des personnes ou organisations qui portent les arguments ; V2 et V4 sont rédigées à la première personne."

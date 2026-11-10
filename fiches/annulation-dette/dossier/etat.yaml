@@ -37,6 +37,8 @@ phases:
   '6':
     debut: '2026-11-10T20:16:55'
     passages: 1
+    fin: '2026-11-10T20:21:39'
+    note: 17 manques signalés, boucle des manques non lancée (à décider)
 incertitudes:
 - agent: bibliothecaire
   texte: 'Part et montant de la dette publique française détenue par la Banque de France : aucune source ouverte
@@ -205,7 +207,7 @@ agents:
   jetons: 40262
   outils: 10
   duree_ms: 80489
-- phase: '3'
+- phase: 3-bis
   agent: verificateur-passage1
   jetons: 49194
   outils: 18
@@ -245,8 +247,13 @@ agents:
   jetons: 41873
   outils: 10
   duree_ms: 64447
-- phase: 3-bis
+- phase: 3-ter
   agent: verificateur-passage2
   jetons: 23912
   outils: 5
   duree_ms: 29493
+- phase: '6'
+  agent: redacteur
+  jetons: 68337
+  outils: 7
+  duree_ms: 243290

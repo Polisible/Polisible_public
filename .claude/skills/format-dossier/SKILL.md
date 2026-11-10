@@ -77,5 +77,7 @@ affirmations:
   # valeur : verdict vide (null)
 objections:
   - {id: O1, statut: resolue, resolution: "Ce que disent les sources, en une à trois phrases."}
+sources_ajoutees:             # source officielle trouvée en vérifiant, rattachée à une affirmation
+  - {titre: "…", auteur: "…", date: "…", adresse: "https://…", niveau: 1, pour: F10, extrait: "Une phrase."}
   # statut : resolue | remontee-fondateur
 ```

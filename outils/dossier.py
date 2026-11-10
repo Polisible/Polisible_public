@@ -170,6 +170,14 @@ def valider_entree(e):
             err.append(f"objection visant {o.get('vise')} : une objection de raisonnement s'écrit comme contre-argument (arguments, avec repond_a)")
         if o.get("nature") == "fait" and not o.get("sources") and not o.get("ce_que_la_source_ne_dit_pas"):
             err.append(f"objection visant {o.get('vise')} : une objection de fait s'appuie sur une source ou précise ce que la source citée ne dit pas")
+    for s in e.get("sources_ajoutees", []) or []:
+        if role != "verificateur":
+            err.append("sources_ajoutees : réservé au vérificateur")
+        for c in ("titre", "auteur", "date", "adresse", "niveau", "pour", "extrait"):
+            if not s.get(c):
+                err.append(f"sources_ajoutees : champ « {c} » manquant ({s.get('adresse')})")
+        if len(str(s.get("extrait", ""))) > EXTRAIT_MAX:
+            err.append("sources_ajoutees : extrait trop long (une phrase au plus)")
     for x in e.get("sans_position", []) or []:
         if not x.get("question") or not x.get("recherche"):
             err.append(f"sans_position : « question » et « recherche » (ce qui a été cherché) obligatoires ({x})")
@@ -256,7 +264,7 @@ def fusionner(fiche, chemin):
         D["arguments"].append({"id": aid, "question": a["question"], "position": a["position"], "enonce": a["enonce"],
                                "porte_par": [{"qui": p["qui"], "source": res(p["source"])} for p in a["porte_par"]],
                                "affirmations": [res(x) for x in a["affirmations"]],
-                               "raisonnement": a["raisonnement"],
+                               "raisonnement": re.sub(r"\b[a-z]\d+\b", lambda m: carte.get(m.group(0), m.group(0)), a["raisonnement"]),
                                "repond_a": a.get("repond_a"), "auteur": agent, "passage": passage,
                                "statut": "ouvert"})
         if a.get("repond_a"):
@@ -327,6 +335,17 @@ def fusion_verif(fiche, e, D):
         if s.get("date_corrigee"):
             x["date"] = str(s["date_corrigee"])
         faits.append(f"{s['id']}→{s['statut']}")
+    for s in e.get("sources_ajoutees", []) or []:  # source officielle trouvée en vérifiant
+        exist = next((x for x in D["sources"] if norm_url(x["adresse"]) == norm_url(s["adresse"])), None)
+        sid = exist["id"] if exist else prochain(D["sources"], "S")
+        if not exist:
+            D["sources"].append({"id": sid, "titre": s["titre"], "auteur": s["auteur"], "date": str(s["date"]),
+                                 "adresse": s["adresse"], "niveau": s["niveau"], "ajoutee_par": "verificateur",
+                                 "statut": "conforme", "note_verif": "ajoutée par le vérificateur"})
+        cible = idx.get(s["pour"])
+        if cible:
+            cible["sources"].append({"source": sid, "extrait": s["extrait"]})
+        faits.append(f"{sid} ajoutée pour {s['pour']}")
     for f in e.get("affirmations", []) or []:
         x = idx.get(f["id"])
         if not x:
