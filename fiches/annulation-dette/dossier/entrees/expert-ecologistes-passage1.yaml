@@ -1,0 +1,11 @@
+agent: expert-ecologistes
+phase: 2
+sans_position:
+  - question: Q1
+    recherche: "Recherche web (août à novembre 2026) de déclarations ou textes des Écologistes (Tondelier, Rousseau, programme 2027) sur l'annulation de la dette détenue par la Banque de France ; articles Public Sénat (25 août 2026) et Euronews (27 août 2026) ouverts : aucune mention des Écologistes. Aucune position publique trouvée, aucun argument fabriqué."
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué du 12 septembre 2026 : montant de dette détenu par la Banque de France", erreur: "403"}
+  - {adresse: "https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-par-la-banque-de-france", pourquoi: "même communiqué, version page web", erreur: "403"}
+incertitudes:
+  - "Absence de position trouvée : elle peut exister dans une interview ou un communiqué que la recherche n'a pas remontés."
+  - "Les montants détenus varient selon les médias (18 % de la dette, 500 à 635 milliards d'euros) ; seul le communiqué de la Banque de France, inaccessible pour moi, les établirait."

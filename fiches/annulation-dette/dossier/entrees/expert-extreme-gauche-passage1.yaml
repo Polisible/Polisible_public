@@ -1,0 +1,9 @@
+agent: expert-extreme-gauche
+phase: 2
+sans_position:
+  - question: Q1
+    recherche: "Position juridique de LO et du NPA sur l'annulation de la dette détenue par la Banque de France (compatibilité avec les articles 123 et 130 du TFUE) : recherches web sur la proposition de Mélenchon d'août 2026, NPA (page de suivi des programmes 2027 ouverte, qui ne précise ni créanciers ni calendrier), Lutte ouvrière. Aucun texte daté de LO ou du NPA ne traite de la légalité de cette mesure. Le seul texte trouvé (note de Tendance CLAIRE, courant du NPA, non datée, écrite après 2020) porte sur l'utilité de la mesure, pas sur sa légalité."
+incertitudes:
+  - "Je n'ai pas pu ouvrir les pages S8, S9, S10 de la bibliothèque (erreur 403) : aucune donnée officielle sur la part détenue par la Banque de France n'est citée ici."
+  - "Je n'ai pas trouvé de programme 2027 publié de LO ; l'absence de position juridique est constatée sur les sources accessibles, pas prouvée."
+  - "Le périmètre exact du NPA (L'Anticapitaliste ou Révolutionnaires) et la date de la note de Tendance CLAIRE restent à confirmer."
