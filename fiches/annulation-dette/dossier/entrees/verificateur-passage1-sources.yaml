@@ -1,0 +1,25 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources_ajoutees:
+  - titre: "Asset purchase programmes"
+    auteur: "Banque centrale européenne"
+    date: "2026-11-03"
+    adresse: "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+    niveau: 1
+    pour: F31
+    extrait: "France 401,150 -147 359,487 5.91 5.88 8.60"
+  - titre: "Pandemic Emergency Purchase Programme"
+    auteur: "Banque centrale européenne"
+    date: "2026-11"
+    adresse: "https://www.ecb.europa.eu/mopo/implement/pepp/html/index.en.html"
+    niveau: 1
+    pour: F31
+    extrait: "France -34 237,484 6.60 7.67"
+  - titre: "Financial statements of the ECB for 2024"
+    auteur: "Banque centrale européenne"
+    date: "2025-02-20"
+    adresse: "https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250220~eca25e4e21.en.html"
+    niveau: 1
+    pour: F58
+    extrait: "In any case, the ECB can operate effectively and fulfil its primary mandate of maintaining price stability regardless of any losses."
