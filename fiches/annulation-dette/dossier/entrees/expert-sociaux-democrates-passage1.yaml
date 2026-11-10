@@ -7,11 +7,6 @@ sources:
     date: "2021-02-05"
     adresse: "https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf"
     niveau: 3
-  - ref: s2
-    titre: "La faute à l'Europe ? - Si la BCE veut bien, on annule tout ?"
-    auteur: "LCP - Assemblée nationale"
-    adresse: "https://lcp.fr/programmes/la-faute-a-l-europe/si-la-bce-veut-bien-on-annule-tout-54200"
-    niveau: 4
 affirmations:
   - ref: f1
     enonce: "Les traités européens n'interdisent pas explicitement l'annulation de dettes publiques détenues par la BCE (le mot « annulation » ne figure ni dans le traité ni dans le protocole sur le SEBC)."
@@ -96,6 +91,6 @@ incertitudes:
   - "Aucune position du PS sur la proposition de 2026 (ni sur Q41 à Q47) n'a été trouvée ; seuls des textes de Place publique de 2021 sont déposés."
   - "La tribune est de 2021 (écrite avant la proposition de Mélenchon, et pour la zone euro entière) ; elle n'est pas une réaction à 2026. Il faut vérifier si Place publique en tant que parti la reprend aujourd'hui."
   - "Date de la tribune du Monde : 5 février 2021 d'après une recherche web, non lue dans les métadonnées du PDF. Texte consulté sur un PDF de l'équipe EconomiX (copie), pas sur lemonde.fr (abonnés)."
-  - "Appartenance de A. Lalucq à Place publique : indiquée par la page LCP (s2) ; la tribune la signale seulement comme députée européenne (S&D)."
+  - "Appartenance de A. Lalucq à Place publique : indiquée par la page LCP « La faute à l'Europe ? » (https://lcp.fr/programmes/la-faute-a-l-europe/si-la-bce-veut-bien-on-annule-tout-54200, non datée) ; la tribune la signale seulement comme députée européenne (S&D)."
   - "f2 et f1 sont contestés : la BCE (F11, F13) soutient l'inverse sur f1."
   - "Les pages PS consultées (LCP, projet de 144 pages ; budget) ne contenaient pas les mots dette, BCE ou Europe ; le projet complet n'a pas été lu."
