@@ -22,7 +22,7 @@ Nous ne prétendons pas être « neutres ». Personne ne l'est. Nous prétendons
 
 Les textes de Polisible sont construits par plusieurs intelligences artificielles aux rôles séparés, et vérifiés par un humain, le fondateur du site, qui n'en écrit lui-même aucune phrase.
 
-**Pourquoi des IA rédigent.** Personne n'est neutre, et le fondateur a ses propres opinions politiques. Plutôt que de lui confier la plume, nous l'avons confiée à des IA encadrées par des règles strictes et publiques. Les IA ont aussi leurs biais : les études montrent que les grands modèles de langage penchent en moyenne vers certaines valeurs. C'est pourquoi aucune n'est laissée seule : huit d'entre elles défendent chacune le point de vue d'une grande famille politique, une autre vérifie les sources sans prendre parti, une autre encore rédige sans rien ajouter.
+**Pourquoi des IA rédigent.** Personne n'est neutre, et le fondateur a ses propres opinions politiques. Plutôt que de lui confier la plume, nous l'avons confiée à des IA encadrées par des règles strictes et publiques. Les IA ont aussi leurs biais : les études montrent que les grands modèles de langage penchent en moyenne vers certaines valeurs. C'est pourquoi aucune n'est laissée seule : sept d'entre elles défendent chacune le point de vue d'une grande famille politique, une autre vérifie les sources sans prendre parti, une autre encore rédige sans rien ajouter.
 
 **Pourquoi un humain vérifie.** Une IA peut se tromper, mal lire une source, voire en inventer une. Avant toute publication, le fondateur ouvre chaque source citée et vérifie qu'elle dit bien ce que la fiche lui fait dire. S'il trouve un problème, il ne corrige pas le texte lui-même : il décrit le problème et l'IA réécrit, selon les mêmes règles.
 
@@ -52,10 +52,10 @@ La liste des sujets en préparation est publique.
 
 Une fiche est construite par plusieurs IA aux rôles séparés, qui travaillent sur un même dossier, puis vérifiée par un humain avant toute publication.
 
-&#91;embedded content: comment se construit une fiche · 12 IA et un humain\]
+&#91;embedded content: comment se construit une fiche · 11 IA et un humain\]
 
 1. **Les questions.** Chaque expert propose les questions que sa famille politique juge essentielles sur le thème ; un coordinateur les fusionne. Le fondateur valide le périmètre, et toute question écartée est justifiée publiquement.
-2. **Les arguments.** Huit experts, un par grande famille politique, écrivent chacun de leur côté la meilleure version des arguments de leur famille, sources à l'appui.
+2. **Les arguments.** Sept experts, un par grande famille politique, écrivent chacun de leur côté la meilleure version des arguments de leur famille, sources à l'appui.
 3. **La confrontation.** Les experts lisent les apports des autres et les contestent : contre-arguments, réfutations, objections sur une source. Ils ne cherchent pas de compromis. Il n'y a pas de nombre de tours : la confrontation dure tant qu'il reste un argument ou une objection à exprimer.
 4. **La vérification.** Un vérificateur sans camp ouvre chaque source et tranche chaque question de fait. Ce sont les sources qui décident, pas l'accord des experts.
 5. **La rédaction.** Un rédacteur sans camp écrit la fiche à partir de ce qui a survécu à la vérification, sans rien ajouter ; un relecteur contrôle l'équité du vocabulaire.
@@ -136,7 +136,7 @@ Toutes les sources ne se valent pas : nous les classons en quatre niveaux, et un
 
 **Comment nous contrôlons l'équité**
 
-- Sur chaque question, huit experts, un par grande famille politique, apportent leurs arguments et contestent ceux des autres, chacun cherchant ce qui serait injuste envers sa vision.
+- Sur chaque question, sept experts, un par grande famille politique, apportent leurs arguments et contestent ceux des autres, chacun cherchant ce qui serait injuste envers sa vision.
 - Un test de symétrie vérifie que les mêmes mots seraient employés si les camps étaient inversés.
 - Tout écart de longueur ou de nombre d'affirmations doit s'expliquer par la matière disponible.
 
@@ -232,7 +232,7 @@ Cette section sert au fondateur et à l'agent ; elle sera retirée de la page pu
 - **La liste de contrôle de la vérification humaine.** Interne jusqu'à sa stabilisation par la fiche de test ; ensuite, chaque liste remplie sera publique avec le dossier de la fiche, dans le dépôt public du contenu.
 - **Les règles internes de priorité** pour traiter les signalements.
 
-**Publié avec les consignes pour l'IA** : les noms des huit familles politiques et les exemples de partis utilisés pour la relecture contradictoire. La page « Méthode » elle-même parle de « huit grandes familles » sans les détailler, pour rester lisible, et renvoie aux consignes pour le détail.
+**Publié avec les consignes pour l'IA** : les noms des sept familles politiques et les exemples de partis utilisés pour la relecture contradictoire. La page « Méthode » elle-même parle de « sept grandes familles » sans les détailler, pour rester lisible, et renvoie aux consignes pour le détail.
 
 **Points à reprendre dans le document juridique**
 

@@ -42,7 +42,7 @@ L'abonnement a des limites d'usage partagées : chaque règle ci-dessous compte.
 
 ```
 .claude/
-  agents/      un fichier par rôle (coordination éventuelle, 8 experts, vérificateur, rédacteur, relecteur de symétrie)
+  agents/      un fichier par rôle (coordination éventuelle, 7 experts, vérificateur, rédacteur, relecteur de symétrie)
   skills/      savoir-faire partagés (écrire dans le dossier, vérifier une source, règles juridiques…)
   commands/    commandes de lancement (ex. /rediger-fiche)
 docs/          documents de référence

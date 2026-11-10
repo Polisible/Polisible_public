@@ -9,7 +9,7 @@ Ce dépôt contient **tout ce qui sert à produire le contenu de Polisible**, et
 - le dossier de chaque fiche : questions, arguments, sources, objections, verdicts, et le journal de leur élaboration ;
 - les fiches publiées et leur historique.
 
-Chaque fiche est construite par plusieurs IA aux rôles séparés (des experts de huit grandes familles politiques, un vérificateur sans camp, un rédacteur sans camp), puis vérifiée par un humain avant publication.
+Chaque fiche est construite par plusieurs IA aux rôles séparés (des experts de sept grandes familles politiques, un vérificateur sans camp, un rédacteur sans camp), puis vérifiée par un humain avant publication.
 
 **Vous repérez une erreur ou un biais ?** Le site permettra de le signaler directement ; en attendant, vous pouvez ouvrir une « issue » sur ce dépôt.
 

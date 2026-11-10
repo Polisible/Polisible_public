@@ -11,7 +11,7 @@ Ce document décrit comment plusieurs IA, chacune avec son rôle, construisent e
 **Six principes**
 
 1. **Les experts ne négocient pas.** Chacun argumente et contre-argumente depuis le point de vue de sa famille politique. Le but n'est pas un compromis, mais que tous les arguments et contre-arguments aient été exprimés.
-2. **Les sources décident des faits, pas l'accord des agents.** Huit IA d'accord peuvent avoir tort ensemble. Seul le vérificateur, à partir des sources, tranche une question de fait.
+2. **Les sources décident des faits, pas l'accord des agents.** Sept IA d'accord peuvent avoir tort ensemble. Seul le vérificateur, à partir des sources, tranche une question de fait.
 3. **Ceux qui argumentent n'écrivent pas la fiche.** Le rédacteur, sans camp, écrit à partir de ce qui a survécu à la vérification.
 4. **Pas de nombre de tours fixé.** Le travail s'arrête quand il n'y a plus rien de nouveau à dire et plus aucune objection factuelle en suspens.
 5. **Tout est tracé.** Chaque argument, objection et vérification est enregistré : on peut montrer comment une fiche a été construite. Le journal étant public, il ne contient que de courtes citations des sources (une phrase au plus), jamais le texte d'un article.
@@ -21,24 +21,24 @@ Ce document décrit comment plusieurs IA, chacune avec son rôle, construisent e
 
 Le système n'est pas une chaîne d'étapes, mais un dossier central que chaque agent enrichit selon son rôle. Chacun réagit à ce que les autres y ont ajouté, aussi longtemps qu'il reste quelque chose à dire ou à vérifier.
 
-&#91;embedded content: architecture · 12 agents et le fondateur autour d'un dossier partagé\]
+&#91;embedded content: architecture · 11 agents et le fondateur autour d'un dossier partagé\]
 
 Le coordinateur organise sans argumenter, les experts argumentent sans trancher les faits, le vérificateur tranche les faits sans argumenter, et le rédacteur écrit sans rien ajouter. Le fondateur arbitre les blocages et vérifie avant publication.
 
 ## Les rôles
 
-Douze agents et un humain. Chaque rôle a un objectif et des interdits : c'est la séparation des rôles qui garantit l'équité, pas la bonne volonté de chaque agent.
+Onze agents et un humain. Chaque rôle a un objectif et des interdits : c'est la séparation des rôles qui garantit l'équité, pas la bonne volonté de chaque agent.
 
 | Rôle | Objectif | Ce qu'il n'a pas le droit de faire |
 | --- | --- | --- |
 | **Coordinateur** | Découpe le thème en questions, tient le dossier, distribue le travail, détecte les boucles, décide quand le dossier est stable | Produire un argument, juger un fait, écrire la fiche |
-| **Huit experts**, un par famille politique | Apporter la meilleure version des arguments de sa famille sur chaque question, avec leurs sources ; contester les arguments et les sources des autres ; défendre les siens ; proposer des questions manquantes | Inventer une source, modifier l'apport d'un autre, trancher un fait |
+| **Sept experts**, un par famille politique | Apporter la meilleure version des arguments de sa famille sur chaque question, avec leurs sources ; contester les arguments et les sources des autres ; défendre les siens ; proposer des questions manquantes | Inventer une source, modifier l'apport d'un autre, trancher un fait |
 | **Vérificateur** | Ouvrir chaque source citée, lui donner un statut, trancher les objections factuelles, attribuer les verdicts aux affirmations | Argumenter, prendre parti, se prononcer sur une valeur |
 | **Rédacteur** | Écrire la fiche dans la structure à quatre niveaux et à deux niveaux de lecture, à partir du dossier stabilisé | Ajouter une affirmation ou une source absente du dossier, changer un verdict |
 | **Relecteur de symétrie** | Vérifier le vocabulaire, la méthode et l'équité de traitement ; renvoyer au rédacteur ce qui ne va pas | Réécrire lui-même, modifier un verdict |
 | **Fondateur** (humain) | Valider la liste des questions, trancher les désaccords que les agents ne peuvent pas résoudre, vérifier les sources, publier | Rédiger lui-même un passage |
 
-Les huit experts correspondent aux huit familles politiques définies dans les consignes. Chacun s'appuie d'abord sur les textes, les données et les experts que sa famille reconnaît, tout en restant soumis à la même exigence de preuve que les autres.
+Les sept experts correspondent aux sept familles politiques définies dans les consignes, nommées comme le fait la science politique. Une famille n'est pas homogène : chaque expert signale les divergences internes à sa famille comme des arguments distincts, attribués au parti qui les porte. Si, au cadrage, une divergence forte apparaît sur le thème, le coordinateur propose au fondateur de dédoubler la famille pour cette fiche (un expert par courant). Chacun s'appuie d'abord sur les textes, les données et les experts que sa famille reconnaît, tout en restant soumis à la même exigence de preuve que les autres.
 
 ## La structure d'une fiche
 
