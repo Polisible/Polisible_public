@@ -10,7 +10,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1-bis. Cadrage | 2026-11-10T20:59:01 | 2026-11-10T21:05:58 | 6 min 57 s | 1 | 1 | 121320 | bibliothèque commune, 7 questions |
 | 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
-| 3-bis. Vérification | 2026-11-10T21:16:23 | — | — | 1 | 0 | — |  |
+| 3-bis. Vérification | 2026-11-10T21:16:23 | — | — | 1 | 1 | 23686 |  |
 
 ## Par agent
 
@@ -34,3 +34,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 2 | expert-sociaux-democrates | 71291 | 22 | 2 min 50 s |
 | 2 | expert-ecologistes | 111515 | 42 | 4 min 50 s |
 | 2 | expert-gauche-radicale | 109270 | 29 | 6 min 03 s |
+| 3-bis | verificateur-passage1-5 | 23686 | 6 | 0 min 31 s |
