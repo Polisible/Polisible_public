@@ -424,10 +424,11 @@ def lot(fiche, sorte, agent=None, taille=0):
         for s in a_verif:
             paquets.append({"source": {k: s.get(k) for k in ("id", "titre", "auteur", "date", "adresse", "niveau", "statut", "demande")},
                             "a_controler": [{"affirmation": f["id"], "enonce": f["enonce"], "type": f["type"],
+                                             "declaration": f.get("declaration", False),
                                              "extrait_annonce": x["extrait"]}
                                             for f in D["affirmations"] for x in f["sources"]
                                             if x["source"] == s["id"] and f["verdict"] is None]})
-        restant = [{"id": f["id"], "enonce": f["enonce"], "type": f["type"],
+        restant = [{"id": f["id"], "enonce": f["enonce"], "type": f["type"], "declaration": f.get("declaration", False),
                     "sources": [{"source": x["source"], "niveau": src[x["source"]]["niveau"], "statut": src[x["source"]]["statut"],
                                  "note_verif": src[x["source"]]["note_verif"], "extrait": x["extrait"]}
                                 for x in f["sources"]]} for f in aff]
