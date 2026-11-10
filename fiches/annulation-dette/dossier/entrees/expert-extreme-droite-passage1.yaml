@@ -1,0 +1,32 @@
+agent: expert-extreme-droite
+phase: 2
+sources:
+  - ref: s1
+    titre: "La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat"
+    auteur: "Euronews"
+    date: "2026-08-27"
+    adresse: "https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-"
+    niveau: 4
+  - ref: s2
+    titre: "Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française"
+    auteur: "Euronews"
+    date: "2026-09-11"
+    adresse: "https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+    niveau: 4
+affirmations: []
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "Effacer une créance de la Banque de France sur l'État reviendrait à un financement monétaire de l'État, que les traités interdisent, et la France ne peut pas l'imposer seule à sa banque centrale."
+    raisonnement: "L'article 123 interdit toute forme de crédit ou de découvert de la banque centrale à l'État (F1, F2) : abandonner une créance détenue sur lui revient à lui faire un don équivalent, donc à un crédit sans contrepartie. L'article 130 interdit au gouvernement de donner des instructions à la banque centrale (F3), et la Banque de France fait partie de l'Eurosystème (F9) : le gouvernement ne peut donc pas décider seul l'effacement. Limite : le texte des articles 123 et 130 n'emploie pas le mot « annuler » ; la conclusion repose sur l'interprétation de l'interdiction du crédit, non sur une mention explicite."
+    porte_par:
+      - {qui: "Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)", source: s2}
+    affirmations: [F1, F2, F3, F9]
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué Banque de France du 12 septembre 2026 (bibliothèque S8)", erreur: "403"}
+  - {adresse: "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf", pourquoi: "part de la dette détenue par la Banque de France (bibliothèque S10)", erreur: "403"}
+incertitudes:
+  - "Je n'ai trouvé aucune position juridique propre du RN, de l'UDR ou de Reconquête sur Q1 : seule la réaction de Jordan Bardella (« n'importe quoi », fin août 2026, Euronews s1) est datée. L'argument a1 est donc attribué à Christine Lagarde, pas à la famille ; le coordinateur peut le traiter comme argument de la famille ou non."
+  - "Bardella a aussi avancé que l'effacement serait neutre pour l'État (dividendes), mais je ne l'ai lu que via un site de vulgarisation assisté par IA, que je n'ai pas retenu comme source. Cela relève d'une autre question que Q1."
+  - "Le point de savoir si l'interdiction de l'article 123 couvre l'annulation d'une créance déjà détenue (achat sur le marché secondaire, F4, F5) est une interprétation : aucun arrêt ouvert ne la tranche."
