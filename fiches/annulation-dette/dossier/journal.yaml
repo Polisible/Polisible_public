@@ -124,3 +124,17 @@
   phase: '3'
   action: a tranché S9→conforme, S10→conforme, S11→conforme, S12→inaccessible, S13→inaccessible, S14→inaccessible,
     S15→inaccessible
+- date: '2026-11-10T21:09:29'
+  agent: verificateur
+  phase: '3'
+  action: a tranché F1→Vrai, F2→Vrai, F3→Vrai, F4→Vrai, F5→Vrai, F6→Vrai, F7→Vrai, F8→Vrai, F9→Vrai, F10→Vrai, F11→Vrai,
+    F12→Vrai, F13→Vrai, F14→Vrai, F15→Vrai, F16→Plutôt vrai, F17→Vrai, F18→Vrai, F19→Vrai, F20→Vrai, F21→Vrai, F22→Vrai,
+    F23→Trompeur
+- date: '2026-11-10T21:09:29'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T21:09:29'
+  agent: coordinateur
+  phase: '2'
+  action: debut de la phase 2
