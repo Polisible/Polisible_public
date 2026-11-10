@@ -75,6 +75,31 @@ agents:
   jetons: 97109
   outils: 9
   duree_ms: 122252
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 87248
+  outils: 8
+  duree_ms: 19945
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: 88795
+  outils: 10
+  duree_ms: 29851
+- phase: '4'
+  agent: expert-droite
+  jetons: 88282
+  outils: 9
+  duree_ms: 30212
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: 89011
+  outils: 9
+  duree_ms: 35034
+- phase: '4'
+  agent: expert-centre
+  jetons: 90194
+  outils: 10
+  duree_ms: 38892
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.

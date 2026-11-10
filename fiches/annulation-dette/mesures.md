@@ -9,7 +9,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1. Cadrage | 2026-11-10T18:58:39 | 2026-11-10T18:58:39 | 0 min 00 s | 1 | 0 | — | question imposée par le fondateur, pas de cadrage par les experts |
 | 2. Contributions indépendantes | 2026-11-10T18:58:39 | 2026-11-10T19:03:48 | 5 min 09 s | 1 | 7 | 756686 |  |
 | 3. Vérification | 2026-11-10T19:03:48 | 2026-11-10T19:07:57 | 4 min 09 s | 1 | 4 | 357290 |  |
-| 4. Confrontation | 2026-11-10T19:07:57 | — | — | 1 | 0 | — | un seul passage, fixé par le fondateur |
+| 4. Confrontation | 2026-11-10T19:07:57 | — | — | 1 | 5 | 443530 | un seul passage, fixé par le fondateur |
 
 ## Par agent
 
@@ -26,3 +26,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3 | verificateur-lot3 | 81252 | 11 | 1 min 02 s |
 | 3 | verificateur-lot2 | 88824 | 19 | 1 min 28 s |
 | 3 | verificateur-verdicts | 97109 | 9 | 2 min 02 s |
+| 4 | expert-extreme-gauche | 87248 | 8 | 0 min 19 s |
+| 4 | expert-extreme-droite | 88795 | 10 | 0 min 29 s |
+| 4 | expert-droite | 88282 | 9 | 0 min 30 s |
+| 4 | expert-sociaux-democrates | 89011 | 9 | 0 min 35 s |
+| 4 | expert-centre | 90194 | 10 | 0 min 38 s |
