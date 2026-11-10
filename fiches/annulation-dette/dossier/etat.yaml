@@ -1,0 +1,12 @@
+fiche: annulation-dette
+phase: '2'
+passage: 1
+phases:
+  '1':
+    debut: '2026-11-10T18:58:39'
+    passages: 1
+    note: question imposée par le fondateur, pas de cadrage par les experts
+    fin: '2026-11-10T18:58:39'
+  '2':
+    debut: '2026-11-10T18:58:39'
+    passages: 1

@@ -1,0 +1,16 @@
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: question Q1 ajoutée, validée par fondateur (message du 10 novembre 2026)
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: debut de la phase 1 (question imposée par le fondateur, pas de cadrage par les experts)
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: fin de la phase 1
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '2'
+  action: debut de la phase 2
