@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '3'
+phase: '6'
 passage: 2
 phases:
   '1':
@@ -12,15 +12,26 @@ phases:
     passages: 1
     fin: '2026-11-10T19:03:48'
   '3':
-    debut: '2026-11-10T19:09:56'
-    passages: 2
+    debut: '2026-11-10T19:03:48'
     fin: '2026-11-10T19:07:57'
-    note: 'second passage : 3 affirmations nouvelles de la confrontation'
+    passages: 1
   '4':
     debut: '2026-11-10T19:07:57'
     passages: 1
     note: un seul passage, fixé par le fondateur
     fin: '2026-11-10T19:09:56'
+  3-bis:
+    debut: '2026-11-10T19:09:56'
+    passages: 1
+    fin: '2026-11-10T19:10:41'
+    note: 'second passage : 3 affirmations nouvelles de la confrontation'
+  '5':
+    debut: '2026-11-10T19:10:41'
+    passages: 1
+    fin: '2026-11-10T19:10:42'
+  '6':
+    debut: '2026-11-10T19:10:42'
+    passages: 1
 agents:
 - phase: '2'
   agent: expert-centre
@@ -112,6 +123,11 @@ agents:
   jetons: 96875
   outils: 13
   duree_ms: 63682
+- phase: 3-bis
+  agent: verificateur-passage2
+  jetons: 73561
+  outils: 8
+  duree_ms: 30441
 incertitudes:
 - agent: expert-centre
   texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.

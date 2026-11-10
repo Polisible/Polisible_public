@@ -420,7 +420,7 @@ def ecrire_mesures(fiche):
         if m.get("debut") and m.get("fin"):
             s = int((dt.datetime.fromisoformat(m["fin"]) - dt.datetime.fromisoformat(m["debut"])).total_seconds())
             d = f"{s // 60} min {s % 60:02d} s"
-        ag = [x for x in E.get("agents", []) if str(x["phase"]) == str(ph)]
+        ag = [x for x in E.get("agents", []) if str(x["phase"]) == str(ph)]  # 3-bis : agents notés « 3-bis »
         jet = sum(x.get("jetons") or 0 for x in ag)
         L.append(f"| {ph}. {PHASES.get(str(ph).split('-')[0], '')} | {m.get('debut', '—')} | {m.get('fin', '—')} | {d} | "
                  f"{m.get('passages', 1)} | {len(ag)} | {jet or '—'} | {m.get('note', '')} |")
@@ -434,11 +434,21 @@ def ecrire_mesures(fiche):
 
 def chrono(fiche, quand, phase, note=None):
     E = charger(fiche, "etat")
-    m = E.setdefault("phases", {}).setdefault(str(phase), {})
+    ph = E.setdefault("phases", {})
+    cle = str(phase)
+    if quand == "debut":
+        n = 1
+        while cle in ph and ph[cle].get("fin"):  # phase déjà close : nouvelle ligne (3-bis, 3-ter…)
+            n += 1
+            cle = f"{phase}-{['', '', 'bis', 'ter', 'quater'][n] if n < 5 else n}"
+        E["phase"] = str(phase)
+    else:
+        ouvertes = [k for k in ph if k.split("-")[0] == str(phase) and not ph[k].get("fin")]
+        cle = ouvertes[-1] if ouvertes else cle
+    m = ph.setdefault(cle, {})
     m[quand] = maintenant()
     if quand == "debut":
-        m["passages"] = m.get("passages", 0) + 1
-        E["phase"] = str(phase)
+        m["passages"] = 1
     if note:
         m["note"] = note
     ecrire(fiche, "etat", E)
