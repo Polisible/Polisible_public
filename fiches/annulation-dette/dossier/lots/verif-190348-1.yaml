@@ -1,0 +1,181 @@
+sources_a_verifier:
+- source:
+    id: S1
+    titre: Lettre de la présidente de la BCE à une eurodéputée sur l'annulation de dettes publiques (courrier ecb.dr.cor20210205)
+    auteur: Banque centrale européenne (Christine Lagarde)
+    date: '2021-02-05'
+    adresse: https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf
+    niveau: 1
+  a_controler:
+  - affirmation: F1
+    enonce: Dans une lettre de 2021, la présidente de la BCE a écrit que l'annulation de dettes publiques par la
+      BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire (article
+      123 du traité sur le fonctionnement de l'Union européenne, TFUE).
+    type: fait
+    extrait_annonce: l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle
+      enfreindrait l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement
+      de l’Union européenne.
+  - affirmation: F22
+    enonce: Selon la BCE (courrier de février 2021), l'annulation de dettes publiques par la BCE n'est pas compatible
+      avec l'article 123 du traité sur le fonctionnement de l'Union européenne.
+    type: fait
+    extrait_annonce: l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle
+      enfreindrait l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement
+      de l’Union européenne.
+  - affirmation: F32
+    enonce: Dans une lettre de 2021, la BCE a écrit que l'annulation de dettes publiques par la BCE n'est pas compatible
+      avec les traités, car elle enfreindrait l'interdiction du financement monétaire de l'article 123.
+    type: fait
+    extrait_annonce: l'annulation de dettes publiques par la BCE n'est pas compatible avec les traités, car elle
+      enfreindrait l'interdiction du financement monétaire énoncée à l'article 123 du traité sur le fonctionnement
+      de l'Union européenne.
+- source:
+    id: S2
+    titre: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat
+    auteur: Euronews (Eleonora Vasques)
+    date: '2026-08-27'
+    adresse: https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-
+    niveau: 4
+  a_controler:
+  - affirmation: F4
+    enonce: Selon Euronews, Thierry Breton a écrit dans une tribune (Les Echos, août 2026) qu'une telle annulation
+      serait juridiquement impossible, la Banque de France faisant partie de l'Eurosystème et ne pouvant pas annuler
+      d'obligations de sa propre initiative.
+    type: fait
+    extrait_annonce: soulignant qu'une telle décision serait juridiquement impossible, la Banque de France faisant
+      partie de l'Eurosystème régi par la Banque centrale européenne et ne pouvant annuler ou effacer des obligations
+      de sa propre initiative.
+  - affirmation: F11
+    enonce: En août 2026, Thierry Breton a soutenu dans une tribune que la Banque de France ne peut pas annuler
+      d'elle-même des obligations, en tant que membre de l'Eurosystème.
+    type: fait
+    extrait_annonce: ne pouvant annuler ou effacer des obligations de sa propre initiative.
+- source:
+    id: S3
+    titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+    auteur: Euronews
+    date: '2026-09-11'
+    adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+    niveau: 4
+  a_controler:
+  - affirmation: F2
+    enonce: Le 11 septembre 2026, Christine Lagarde a jugé la proposition de Jean-Luc Mélenchon « vraiment pas une
+      bonne idée » et, selon Euronews, a estimé qu'elle constituerait une « violation pure du traité ».
+    type: fait
+    extrait_annonce: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur
+      l'Union européenne.
+  - affirmation: F8
+    enonce: En septembre 2026, la présidente de la BCE, Christine Lagarde, a estimé que l'annulation proposée constituerait
+      une violation du traité.
+    type: fait
+    extrait_annonce: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur
+      l'Union européenne.
+- source:
+    id: S4
+    titre: '« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?'
+    auteur: Thierry Bonneau, professeur de droit (Université Paris-Panthéon-Assas), Le Club des Juristes
+    date: '2021-02-11'
+    adresse: https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/
+    niveau: 2
+  a_controler:
+  - affirmation: F5
+    enonce: Selon un professeur de droit financier (2021), l'article 123 du TFUE n'interdit pas expressément l'annulation
+      de la dette souveraine détenue par la BCE.
+    type: fait
+    extrait_annonce: En revanche, il n’interdit pas expressément l’annulation de la dette souvera
+  - affirmation: F7
+    enonce: L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe de leurs titres
+      de dette par la BCE et les banques centrales nationales ; il n'interdit pas, dans son texte, les achats sur
+      le marché secondaire.
+    type: fait
+    extrait_annonce: l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe,
+      auprès d’eux, des instruments de leur dette.
+  - affirmation: F12
+    enonce: L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe, auprès d'eux,
+      des instruments de leur dette ; il ne mentionne pas expressément l'annulation d'une dette détenue par une
+      banque centrale.
+    type: fait
+    extrait_annonce: l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe,
+      auprès d’eux, des instruments de leur dette.
+- source:
+    id: S5
+    titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à
+      de nombreuses difficultés'
+    auteur: Public Sénat (Guillaume Jacquot)
+    date: '2026-08-25'
+    adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+    niveau: 4
+  a_controler:
+  - affirmation: F3
+    enonce: Les titres de dette française visés par la proposition sont détenus par la Banque de France pour le
+      compte de la BCE (Eurosystème) et représentent environ 18 % de la dette publique, selon Public Sénat ; Jean-Luc
+      Mélenchon a employé ce chiffre en août 2026.
+    type: fait
+    extrait_annonce: l’ancien député encourage l’annulation des 18 % de dette française détenus par la Banque de
+      France pour le compte de la Banque centrale européenne (BCE).
+  - affirmation: F6
+    enonce: Les titres publics français détenus par l'Eurosystème ont été acquis sur le marché secondaire, auprès
+      d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+  - affirmation: F9
+    enonce: En 2021, Christine Lagarde a qualifié l'annulation de dettes publiques détenues par la BCE de violation
+      du traité européen qui interdit le financement monétaire des États.
+    type: fait
+    extrait_annonce: une violation du traité européen qui interdit strictement le financement monétaire des Etats
+  - affirmation: F13
+    enonce: Les titres publics français détenus par l'Eurosystème proviennent d'achats effectués sur le marché secondaire,
+      auprès d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
+  - affirmation: F19
+    enonce: La dette détenue par la Banque de France provient de rachats d'obligations sur le marché secondaire,
+      car les traités interdisent à la BCE de financer directement les États.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières,
+      puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États.
+  - affirmation: F27
+    enonce: Les titres de dette française détenus par la Banque de France au titre de la politique monétaire ont
+      été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières,
+      puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États.
+  - affirmation: F28
+    enonce: Fin août 2026, Jean-Luc Mélenchon a déclaré que la BCE peut et doit mettre au congélateur les dettes
+      des États, en commençant par celles de la période Covid.
+    type: fait
+    extrait_annonce: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États,
+      en commençant par celles de la période Covid. »
+  - affirmation: F29
+    enonce: En 2020, une proposition de résolution de La France insoumise invitait le gouvernement à peser au niveau
+      européen pour faire évoluer les règles sur les dettes publiques détenues par la BCE.
+    type: fait
+    extrait_annonce: Une proposition de résolution avait été déposée pour inviter le gouvernement à peser au niveau
+      européen pour faire évoluer les règles.
+  - affirmation: F34
+    enonce: Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès
+      d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+- source:
+    id: S6
+    titre: '"Annuler" la dette : pourquoi c''est impossible et dangereux'
+    auteur: Fondation IFRAP
+    date: '2026-09-01'
+    adresse: https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux
+    niveau: 3
+  a_controler:
+  - affirmation: F10
+    enonce: La Banque de France fait partie de l'Eurosystème et n'agit pas sur instruction du gouvernement.
+    type: fait
+    extrait_annonce: La Banque de France participe à l'Eurosystème mais n'agit pas sur instruction du gouvernement.
+- source:
+    id: S7
+    titre: La dette, un sujet politique
+    auteur: Jérôme Gleizes, chronique « L'économie à contre-courant », Politis
+    date: '2026-09-14'
+    adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+    niveau: 3
+  a_controler: []

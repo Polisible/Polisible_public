@@ -1,1 +1,223 @@
-[]
+- id: A1
+  question: Q1
+  position: contre
+  enonce: L'annulation de titres publics détenus par la Banque de France serait un financement monétaire de l'État,
+    interdit par l'article 123 du TFUE ; la BCE l'a dit, et la Banque de France, membre de l'Eurosystème, ne peut
+    pas la décider seule. Elle supposerait donc de modifier les traités européens, pas seulement une loi française.
+  porte_par:
+  - qui: Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026, rapportée par Euronews)
+    source: S2
+  affirmations:
+  - F1
+  - F2
+  - F3
+  - F4
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+- id: A2
+  question: Q1
+  position: nuance
+  enonce: 'Le texte de l''article 123 ne vise pas expressément l''annulation : le juriste Thierry Bonneau le relève,
+    mais conclut que l''esprit de l''interdiction (empêcher qu''une banque centrale finance durablement un État)
+    ne permet pas de la juger conforme. Le point juridique n''est donc pas tranché par une décision de justice ;
+    la position de la BCE reste que c''est interdit.'
+  porte_par:
+  - qui: Thierry Bonneau, professeur de droit (Le Club des Juristes, 2021)
+    source: S4
+  affirmations:
+  - F5
+  - F1
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+- id: A3
+  question: Q1
+  position: contre
+  enonce: L'article 123 du TFUE vise à empêcher le financement monétaire des États. Annuler des titres publics que
+    l'Eurosystème a rachetés reviendrait à faire disparaître la dette de l'État sans contrepartie, ce que la présidente
+    de la BCE, Christine Lagarde, juge contraire au traité.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (septembre 2026)
+    source: S3
+  - qui: Fondation IFRAP (note 2026)
+    source: S6
+  affirmations:
+  - F6
+  - F7
+  - F8
+  - F9
+  repond_a: null
+  auteur: expert-droite
+  passage: 1
+  statut: ouvert
+- id: A4
+  question: Q1
+  position: contre
+  enonce: 'La décision n''appartient pas à la France : les titres ont été acquis dans le cadre de programmes de
+    l''Eurosystème, la Banque de France n''est pas sous l''autorité du gouvernement, et aucune banque nationale
+    ne peut effacer ces titres seule. Une annulation supposerait donc une décision européenne, c''est-à-dire un
+    changement du cadre des traités.'
+  porte_par:
+  - qui: Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026)
+    source: S2
+  - qui: Fondation IFRAP (note 2026)
+    source: S6
+  affirmations:
+  - F10
+  - F11
+  repond_a: null
+  auteur: expert-droite
+  passage: 1
+  statut: ouvert
+- id: A5
+  question: Q1
+  position: nuance
+  enonce: L'article 123 du TFUE vise le crédit direct aux États et l'achat direct de leurs titres ; les titres détenus
+    par l'Eurosystème ont été rachetés sur le marché secondaire, ce que le traité n'interdit pas. Pour cette lecture,
+    le texte ne ferme donc pas expressément la porte à l'annulation ou au gel de ces titres, et le débat devient
+    d'abord politique.
+  porte_par:
+  - qui: Jérôme Gleizes, économiste, chronique dans Politis (14 septembre 2026), à titre personnel
+    source: S7
+  affirmations:
+  - F12
+  - F13
+  repond_a: null
+  auteur: expert-ecologistes
+  passage: 1
+  statut: ouvert
+- id: A6
+  question: Q1
+  position: contre
+  enonce: 'Le président du Rassemblement national rejette l''annulation de la dette détenue par la Banque de France,
+    qu''il juge sans effet sur les finances publiques puisque l''État reçoit les intérêts sous forme de dividendes,
+    et propre à faire monter les taux demandés à la France. Cet argument porte sur l''utilité de la mesure, non
+    sur sa légalité : aucun texte de la famille consulté ne discute la question juridique.'
+  porte_par:
+  - qui: Jordan Bardella, président du Rassemblement national (23 août 2026)
+    source: S10
+  affirmations:
+  - F18
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+- id: A7
+  question: Q1
+  position: contre
+  enonce: 'Les textes européens fixent le cadre de la question : l''article 123 interdit le financement direct des
+    États par les banques centrales, et l''article 130 interdit tout ordre d''un gouvernement à la banque centrale.
+    Une annulation décidée par la France seule se heurterait à ces deux articles ; elle n''est envisageable que
+    par une décision du Conseil des gouverneurs de la BCE. Cette lecture est celle du gouverneur de la Banque de
+    France et des juristes cités par l''AFP, non d''un texte du RN, de l''UDR ou de Reconquête.'
+  porte_par:
+  - qui: Emmanuel Moulin, gouverneur de la Banque de France (11 septembre 2026), repris ici comme base du raisonnement
+      contre ; aucun texte d'un parti de la famille n'a été trouvé
+    source: S12
+  affirmations:
+  - F14
+  - F15
+  - F16
+  - F17
+  - F19
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+- id: A8
+  question: Q1
+  position: nuance
+  enonce: 'Le NPA ne présente pas l''annulation comme un geste que le droit actuel permettrait à la France seule
+    : il l''inscrit dans une rupture avec les traités européens, donc la question n''est pas pour lui celle de la
+    conformité aux traités. Ce cadre ne contredit pas la lecture de la BCE selon laquelle l''annulation est aujourd''hui
+    contraire à l''article 123.'
+  porte_par:
+  - qui: NPA (Nouveau Parti anticapitaliste), programme de la campagne Poutou 2022
+    source: S13
+  affirmations:
+  - F20
+  - F21
+  - F22
+  - F23
+  repond_a: null
+  auteur: expert-extreme-gauche
+  passage: 1
+  statut: ouvert
+- id: A9
+  question: Q1
+  position: pour
+  enonce: 'L''annulation de titres déjà détenus par une banque centrale n''est ni un crédit à l''État ni un achat
+    direct de ses titres : elle ne relève donc pas de l''interdiction du financement monétaire de l''article 123.
+    Les titres ayant été achetés sur le marché secondaire, et les statuts de la BCE prévoyant déjà une indemnisation
+    des banques centrales nationales pour certaines pertes, l''opération serait possible dans le cadre des traités
+    actuels, par décision de l''Eurosystème.'
+  porte_par:
+  - qui: Jean-Luc Mélenchon (La France insoumise)
+    source: S17
+  affirmations:
+  - F25
+  - F26
+  - F27
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+- id: A10
+  question: Q1
+  position: nuance
+  enonce: 'Le levier juridique n''est pas une décision française isolée : c''est la BCE, de façon collégiale, qui
+    peut geler ou transformer ces titres, et la France doit donc obtenir cette décision de ses partenaires. La position
+    de La France insoumise est que l''État français doit porter cette demande au niveau européen, et non annuler
+    seul.'
+  porte_par:
+  - qui: Jean-Luc Mélenchon (La France insoumise)
+    source: S5
+  affirmations:
+  - F28
+  - F29
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+- id: A11
+  question: Q1
+  position: pour
+  enonce: L'article 123 vise les crédits aux États et l'achat direct de leurs titres ; les titres de la Banque de
+    France ont été achetés sur le marché secondaire et le texte ne mentionne pas l'annulation. Une banque centrale
+    peut donc, sur le plan comptable, renoncer à réclamer le remboursement de ses propres titres, sans toucher à
+    la part détenue par les investisseurs privés.
+  porte_par:
+  - qui: Aurore Lalucq, Raphaël Glucksmann et eurodéputés S&D (tribune de septembre 2020)
+    source: S19
+  - qui: Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)
+    source: S20
+  affirmations:
+  - F30
+  - F33
+  - F34
+  - F35
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: ouvert
+- id: A12
+  question: Q1
+  position: nuance
+  enonce: 'La réponse ne dépend pas de la France seule : la BCE lit l''article 123 comme interdisant l''annulation,
+    et la Banque de France agit au sein de l''Eurosystème. Une annulation ne serait donc pas acquise en droit ;
+    elle ne rapporterait pas non plus de trésorerie à l''État et appelle une discussion avec les partenaires européens.'
+  porte_par:
+  - qui: Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)
+    source: S20
+  affirmations:
+  - F30
+  - F31
+  - F32
+  - F36
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: ouvert

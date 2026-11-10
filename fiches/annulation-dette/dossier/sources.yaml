@@ -1,1 +1,182 @@
-[]
+- id: S1
+  titre: Lettre de la présidente de la BCE à une eurodéputée sur l'annulation de dettes publiques (courrier ecb.dr.cor20210205)
+  auteur: Banque centrale européenne (Christine Lagarde)
+  date: '2021-02-05'
+  adresse: https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf
+  niveau: 1
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S2
+  titre: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat
+  auteur: Euronews (Eleonora Vasques)
+  date: '2026-08-27'
+  adresse: https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S3
+  titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+  auteur: Euronews
+  date: '2026-09-11'
+  adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S4
+  titre: '« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?'
+  auteur: Thierry Bonneau, professeur de droit (Université Paris-Panthéon-Assas), Le Club des Juristes
+  date: '2021-02-11'
+  adresse: https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/
+  niveau: 2
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S5
+  titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de
+    nombreuses difficultés'
+  auteur: Public Sénat (Guillaume Jacquot)
+  date: '2026-08-25'
+  adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S6
+  titre: '"Annuler" la dette : pourquoi c''est impossible et dangereux'
+  auteur: Fondation IFRAP
+  date: '2026-09-01'
+  adresse: https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux
+  niveau: 3
+  ajoutee_par: expert-droite
+  statut: a-verifier
+  note_verif: null
+- id: S7
+  titre: La dette, un sujet politique
+  auteur: Jérôme Gleizes, chronique « L'économie à contre-courant », Politis
+  date: '2026-09-14'
+  adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: a-verifier
+  note_verif: null
+- id: S8
+  titre: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 123
+  auteur: Union européenne (Journal officiel C 326 du 26.10.2012)
+  date: '2012-10-26'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E123
+  niveau: 1
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S9
+  titre: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 130
+  auteur: Union européenne (Journal officiel C 326 du 26.10.2012)
+  date: '2012-10-26'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12012E130
+  niveau: 1
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S10
+  titre: 'Jordan Bardella sur X : « Matthieu Pigasse raconte n''importe quoi. »'
+  auteur: Jordan Bardella, président du Rassemblement national
+  date: '2026-08-23'
+  adresse: https://x.com/J_Bardella/status/2091477140793373045
+  niveau: 3
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S11
+  titre: Annuler une partie de la dette de la France ? La proposition de LFI face aux obstacles juridiques et politiques
+  auteur: De Facto (observatoire de l'information, fact-check relayant l'AFP)
+  date: '2026-08-25'
+  adresse: https://defacto-observatoire.fr/Medias/Factuel/Fact-checks/Annuler-une-partie-de-la-dette-de-la-France-La-proposition-de-LFI-face-aux-obstacles-juridiques-et-politiques/
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S12
+  titre: Jean-Luc Mélenchon propose d'annuler la dette, ce serait « illégal, dangereux et inutile », met en garde
+    la Banque de France
+  auteur: Boursorama avec Media Services (AFP)
+  date: '2026-09-11'
+  adresse: https://www.boursorama.com/actualite-economique/actualites/jean-luc-melenchon-propose-d-annuler-la-dette-ce-serait-illegal-dangereux-et-inutile-met-en-garde-la-banque-de-france-40b8c3bc3be532dc9b54c8cd44573dea
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: a-verifier
+  note_verif: null
+- id: S13
+  titre: Brochure programme de la campagne Poutou 2022
+  auteur: NPA (Nouveau Parti anticapitaliste)
+  date: '2022-02-24'
+  adresse: https://npa-lanticapitaliste.org/sites/default/files/brochure-programme-poutou-2022_2.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S14
+  titre: 'Communiqué de presse n° 192/18 : arrêt dans l''affaire C-493/17, Weiss e.a.'
+  auteur: Cour de justice de l'Union européenne
+  date: '2018-12-11'
+  adresse: https://curia.europa.eu/site/upload/docs/application/pdf/2018-12/cp180192fr.pdf
+  niveau: 1
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S15
+  titre: Protocole n° 4 sur les statuts du SEBC et de la BCE (version consolidée)
+  auteur: Union européenne (EUR-Lex)
+  date: non trouvée
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/PRO/04
+  niveau: 1
+  ajoutee_par: expert-extreme-gauche
+  statut: a-verifier
+  note_verif: null
+- id: S16
+  titre: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée)
+  auteur: Union européenne (Journal officiel C 202)
+  date: '2016-06-07'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123
+  niveau: 1
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S17
+  titre: 'Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe'
+  auteur: Jean-Luc Mélenchon
+  date: '2022-06-01'
+  adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S18
+  titre: Entretien avec Le Monde (Fabio Panetta, membre du directoire de la BCE)
+  auteur: Banque centrale européenne
+  date: '2020-06-16'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2020/html/ecb.in200616~2fdb438ac4.fr.html
+  niveau: 1
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null
+- id: S19
+  titre: Pourquoi il faut annuler la dette détenue par la Banque centrale européenne (tribune)
+  auteur: Aurore Lalucq, Raphaël Glucksmann et autres eurodéputés (Le JDD)
+  date: 2020-09
+  adresse: https://www.lejdd.fr/Economie/tribune-pourquoi-il-faut-annuler-la-dette-detenue-par-la-banque-centrale-europeenne-3991402
+  niveau: 3
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null
+- id: S20
+  titre: L'annulation de la dette voulue par LFI creuse les divergences entre PS et Place publique
+  auteur: Yahoo Actualités (reprise d'un entretien d'Olivier Faure à Libération)
+  date: '2026-08-28'
+  adresse: https://fr.news.yahoo.com/sport/l-annulation-dette-voulue-lfi-105408424.html
+  niveau: 4
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null

@@ -8,7 +8,8 @@ Commandes (lancer depuis la racine du dépôt) :
   init <fiche> --question "..." --type fait|estimation|valeur --theme ... --sujet ...
   valider <fichier-entree>                 contrôle un dépôt sans rien écrire
   fusionner <fiche> <fichier-entree>...    contrôle puis intègre au dossier
-  lot <fiche> verif [--taille N]           prépare le lot du vérificateur
+  lot <fiche> verif [--taille N]           lot(s) du vérificateur ; avec --taille : sources seules,
+                                           puis relancer sans --taille pour les verdicts
   lot <fiche> confrontation --agent NOM    prépare le lot d'un expert
   lot <fiche> redaction                    vue consolidée pour le rédacteur
   etat <fiche>                             état et condition d'arrêt
@@ -330,7 +331,9 @@ def lot(fiche, sorte, agent=None, taille=0):
         ecrits = []
         for i, part in enumerate(decoupe or [[]], 1):
             data = {"sources_a_verifier": part}
-            if i == len(decoupe or [[]]):
+            if not taille and not a_verif or (not taille and i == len(decoupe or [[]])):
+                # verdicts seulement dans un lot non découpé ; avec --taille, les lots ne portent
+                # que les sources, et un lot final (relancer sans --taille) attribue les verdicts
                 data["verdicts_a_attribuer"] = restant
                 data["objections_a_trancher"] = objections
             p = lots / f"verif-{dt.datetime.now():%H%M%S}-{i}.yaml"

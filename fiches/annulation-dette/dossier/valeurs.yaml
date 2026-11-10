@@ -1,1 +1,34 @@
-[]
+- id: V1
+  question: Q1
+  auteur: expert-centre
+  enonce: La famille Centre met en priorité le respect des traités et de l'indépendance de la banque centrale, jugés
+    garants de la confiance des épargnants et des prêteurs envers la dette française.
+  passage: 1
+- id: V2
+  question: Q1
+  auteur: expert-ecologistes
+  enonce: Priorité à la capacité des pouvoirs publics de financer la transition écologique sans dépendre des marchés
+    financiers, ce qui conduit à contester que les traités et l'indépendance de la banque centrale soient des limites
+    intangibles.
+  passage: 1
+- id: V3
+  question: Q1
+  auteur: expert-extreme-droite
+  enonce: La famille met en avant la souveraineté nationale et le rejet d'une dette effacée au détriment de la crédibilité
+    financière de l'État ; aucun texte consulté ne tranche la question de la légalité elle-même.
+  passage: 1
+- id: V4
+  question: Q1
+  auteur: expert-gauche-radicale
+  enonce: La gauche radicale met en priorité la capacité de la puissance publique à dépenser pour l'investissement
+    social et écologique, et considère que la dette détenue par la banque centrale est une dette que la collectivité
+    se doit à elle-même ; elle accorde moins de poids à l'indépendance de la banque centrale et à l'interprétation
+    stricte des traités.
+  passage: 1
+- id: V5
+  question: Q1
+  auteur: expert-sociaux-democrates
+  enonce: La famille met en priorité la crédibilité budgétaire de la France et la construction européenne (agir
+    avec les partenaires, dans le cadre des traités), tout en cherchant des marges de manœuvre pour les services
+    publics et l'investissement.
+  passage: 1
