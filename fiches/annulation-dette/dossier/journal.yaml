@@ -19,3 +19,17 @@
   agent: coordinateur
   phase: '3'
   action: debut de la phase 3 (vérification de la bibliothèque commune)
+- date: '2026-11-10T20:09:47'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S1→conforme, S2→conforme, S3→conforme, S4→conforme, S5→conforme, S6→conforme, S7→conforme, S8→inaccessible,
+    S9→inaccessible, S10→inaccessible, F1→Vrai, F2→Vrai, F3→Vrai, F4→Vrai, F5→Plutôt vrai, F6→Vrai, F7→Vrai, F8→Vrai,
+    F9→Vrai
+- date: '2026-11-10T20:09:47'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T20:09:47'
+  agent: coordinateur
+  phase: '2'
+  action: debut de la phase 2

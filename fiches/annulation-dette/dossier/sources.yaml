@@ -5,8 +5,10 @@
   adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_123/oj/fra
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Article 123 TFUE, version consolidée JO C 202 du 7.6.2016, p. C 202/99 ; les deux extraits figurent
+    au paragraphe 1 (seule différence : apostrophe typographique dans « d’accorder »). Même périmètre que F1 et
+    F2.'
 - id: S2
   titre: Traité sur le fonctionnement de l'Union européenne, article 130 (version consolidée, JO C 202 du 7.6.2016)
   auteur: Union européenne (EUR-Lex)
@@ -14,8 +16,8 @@
   adresse: https://eur-lex.europa.eu/eli/treaty/tfeu_2016/art_130/oj/fra
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Article 130 TFUE, même version consolidée ; l'extrait figure mot pour mot. Même périmètre que F3.
 - id: S3
   titre: Arrêt de la Cour (grande chambre) du 16 juin 2015, Peter Gauweiler e.a. contre Deutscher Bundestag, affaire
     C-62/14
@@ -24,8 +26,10 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Arrêt de la Cour (grande chambre) du 16 juin 2015, C-62/14, Gauweiler ; l'extrait figure dans le dispositif,
+    qui vise le communiqué mentionné au procès-verbal de la 340e réunion du conseil des gouverneurs des 5 et 6 septembre
+    2012.
 - id: S4
   titre: Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17
   auteur: Cour de justice de l'Union européenne
@@ -33,8 +37,10 @@
   adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Arrêt de la Cour (grande chambre) du 11 décembre 2018, C-493/17, Weiss ; l'extrait figure au point
+    1 du dispositif. Le point 2 déclare la cinquième question irrecevable, et la décision 2015/774 est visée « telle
+    que modifiée par la décision (UE) 2017/100 ».
 - id: S5
   titre: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP (Informations rapides
     n° 79)
@@ -43,8 +49,10 @@
   adresse: https://www.insee.fr/en/statistiques/8960468
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Insee, Informations rapides n° 79 du 27 mars 2026 ; les deux extraits figurent (115,6 % du PIB après
+    117,2 % au troisième trimestre ; 3 460,5 Md€ au sens de Maastricht). Une publication plus récente (trimestres
+    2026) peut exister ; non vérifié ici.
 - id: S6
   titre: Glossary, entrée « Secondary market »
   auteur: Banque nationale de Belgique (membre de l'Eurosystème)
@@ -52,8 +60,10 @@
   adresse: https://www.nbb.be/en/glossary?letter=s
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Glossaire de la Banque nationale de Belgique, lettre S ; l'entrée « Secondary market » reprend l'extrait
+    mot pour mot. La définition du marché primaire (« Market where new loans are issued ») figure à la lettre P
+    du même glossaire (https://www.nbb.be/en/glossary?letter=p), ouverte pour contrôle.
 - id: S7
   titre: Glossary, entrée « European System of Central Banks (ESCB) »
   auteur: Banque nationale de Belgique (membre de l'Eurosystème)
@@ -61,8 +71,10 @@
   adresse: https://www.nbb.be/en/glossary?letter=e
   niveau: 1
   ajoutee_par: bibliothecaire
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Glossaire de la Banque nationale de Belgique, lettre E ; l'entrée ESCB précise « Composed of the European
+    Central Bank (ECB) and the national central banks (NCBs) of all EU Member States » puis l'extrait annoncé, mot
+    pour mot.
 - id: S8
   titre: (à établir)
   auteur: (à établir)
@@ -70,12 +82,16 @@
   adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
   niveau: null
   ajoutee_par: bibliothecaire
-  statut: demandee
+  statut: inaccessible
   demande:
     pourquoi: part et montant de la dette publique française détenue par la Banque de France, fin 2025 (communiqué
       de la Banque de France)
     erreur: '403'
-  note_verif: null
+  note_verif: 'Réessayé le 10 novembre 2026 : 403. Autres adresses officielles essayées : page « Précisions sur
+    le programme de détention » en français (403) ; Stat Info Banque de France « Émission et détention de titres
+    français 2025T4 » (ouvert, mais il donne la part des non-résidents, 54,6 % pour les titres longs des administrations
+    publiques fin 2025, pas la détention par la Banque de France). Les tableaux BCE (PSPP/PEPP par pays) portent
+    sur l''Eurosystème, périmètre différent ; non retenus.'
 - id: S9
   titre: (à établir)
   auteur: (à établir)
@@ -83,12 +99,13 @@
   adresse: https://www.banque-france.fr/en/node/1924173
   niveau: null
   ajoutee_par: bibliothecaire
-  statut: demandee
+  statut: inaccessible
   demande:
     pourquoi: 'même information : détention de la dette publique par la Banque de France (page de précisions sur
       le programme de détention)'
     erreur: '403'
-  note_verif: null
+  note_verif: 'Réessayé le 10 novembre 2026 : 403 ; la version française de la même page (banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-par-la-banque-de-france)
+    renvoie aussi 403. Même information non trouvée à une autre adresse officielle ouvrable.'
 - id: S10
   titre: (à établir)
   auteur: (à établir)
@@ -96,9 +113,11 @@
   adresse: https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf
   niveau: null
   ajoutee_par: bibliothecaire
-  statut: demandee
+  statut: inaccessible
   demande:
     pourquoi: répartition de la dette négociable de l'État par groupe de porteurs, dont la Banque de France, au
       quatrième trimestre 2025
     erreur: '403'
-  note_verif: null
+  note_verif: 'Réessayé le 10 novembre 2026 : 403. Essayés aussi : version anglaise du même bulletin (432_Monthly
+    bulletin May 2026, 403) et bulletin de juin 2026 n° 433 (403). Le tableau « répartition par groupe de porteurs
+    » repose sur des données Banque de France, elles aussi inaccessibles (voir S8).'

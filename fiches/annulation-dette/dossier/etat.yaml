@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '3'
+phase: '2'
 passage: 1
 phases:
   1-bis:
@@ -11,6 +11,10 @@ phases:
     debut: '2026-11-10T20:07:34'
     passages: 1
     note: vérification de la bibliothèque commune
+    fin: '2026-11-10T20:09:47'
+  '2':
+    debut: '2026-11-10T20:09:47'
+    passages: 1
 incertitudes:
 - agent: bibliothecaire
   texte: 'Part et montant de la dette publique française détenue par la Banque de France : aucune source ouverte
@@ -40,3 +44,8 @@ agents:
   jetons: 126533
   outils: 30
   duree_ms: 216072
+- phase: '3'
+  agent: verificateur-bibliotheque
+  jetons: 46507
+  outils: 15
+  duree_ms: 120402
