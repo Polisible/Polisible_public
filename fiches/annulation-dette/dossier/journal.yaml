@@ -122,3 +122,28 @@
   agent: coordinateur
   phase: '3'
   action: 'debut de la phase 3 (second passage : affirmations de la confrontation)'
+- date: '2026-11-10T20:16:55'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S17→conforme, F15→Vrai, F16→Vrai
+- date: '2026-11-10T20:16:55'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T20:16:55'
+  agent: coordinateur
+  phase: '5'
+  action: debut de la phase 5
+- date: '2026-11-10T20:16:55'
+  agent: coordinateur
+  phase: '5'
+  action: Nombre de passages fixé par le fondateur (1) atteint. Condition 1 non remplie (contre-argument A7 au dernier
+    passage) ; conditions 2 et 3 remplies. Dossier déclaré stable pour ce test seulement ; aucun désaccord bloqué.
+- date: '2026-11-10T20:16:55'
+  agent: coordinateur
+  phase: '5'
+  action: fin de la phase 5
+- date: '2026-11-10T20:16:55'
+  agent: coordinateur
+  phase: '6'
+  action: debut de la phase 6

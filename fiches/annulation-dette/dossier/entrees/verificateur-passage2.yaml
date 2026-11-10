@@ -1,0 +1,15 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S17
+    statut: conforme
+    note: "Texte intégral de l'arrêt C-493/17 (Weiss e.a., grande chambre) sur EUR-Lex, ouvert le 10 novembre 2026 ; les deux extraits figurent mot pour mot aux points 144 et 146. La date du 11 décembre 2018 n'apparaît pas dans les passages extraits ni dans les métadonnées de la page, mais le numéro CELEX 62017CJ0493 correspond bien à cet arrêt."
+affirmations:
+  - id: F15
+    verdict: "Vrai"
+    explication: "Au point 146, la Cour rappelle (en citant l'arrêt Gauweiler, C-62/14, point 118) que la conservation jusqu'à l'échéance n'implique aucune renonciation au paiement par l'État émetteur. Précision de périmètre : la Cour vise la conservation par le SEBC (Système européen de banques centrales) des obligations acquises dans le cadre du PSPP, pas tout détenteur."
+  - id: F16
+    verdict: "Vrai"
+    explication: "Le point 144 de l'arrêt du 11 décembre 2018 conclut que la décision 2015/774 n'a pas pour effet de soustraire les États membres concernés à l'incitation à conduire une politique budgétaire saine. C'est l'appréciation juridique de la Cour sur ce programme, fondée notamment sur le risque d'exclusion ou de revente des obligations d'un État dont la notation se dégrade (point 143)."
+objections: []

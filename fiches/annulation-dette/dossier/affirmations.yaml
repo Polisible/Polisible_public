@@ -239,9 +239,12 @@
   declaration: false
   auteur: expert-centre
   passage: 2
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Vrai
+  explication: 'Au point 146, la Cour rappelle (en citant l''arrêt Gauweiler, C-62/14, point 118) que la conservation
+    jusqu''à l''échéance n''implique aucune renonciation au paiement par l''État émetteur. Précision de périmètre
+    : la Cour vise la conservation par le SEBC (Système européen de banques centrales) des obligations acquises
+    dans le cadre du PSPP, pas tout détenteur.'
+  statut: verifiee
 - id: F16
   enonce: Le programme d'achats PSPP (décision 2015/774) ne soustrait pas les États membres concernés à l'incitation
     à conduire une politique budgétaire saine (arrêt C-493/17, point 144).
@@ -253,6 +256,9 @@
   declaration: false
   auteur: expert-centre
   passage: 2
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Vrai
+  explication: Le point 144 de l'arrêt du 11 décembre 2018 conclut que la décision 2015/774 n'a pas pour effet de
+    soustraire les États membres concernés à l'incitation à conduire une politique budgétaire saine. C'est l'appréciation
+    juridique de la Cour sur ce programme, fondée notamment sur le risque d'exclusion ou de revente des obligations
+    d'un État dont la notation se dégrade (point 143).
+  statut: verifiee

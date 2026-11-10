@@ -9,9 +9,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1-bis. Cadrage | 2026-11-10T20:03:44 | 2026-11-10T20:07:34 | 3 min 50 s | 1 | 1 | 126533 | bibliothèque commune |
 | 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 2 | 95701 | vérification de la bibliothèque commune |
 | 2. Contributions indépendantes | 2026-11-10T20:09:47 | 2026-11-10T20:11:41 | 1 min 54 s | 1 | 7 | 211044 |  |
-| 3-bis. Vérification | 2026-11-10T20:11:42 | 2026-11-10T20:14:34 | 2 min 52 s | 1 | 0 | — |  |
+| 3-bis. Vérification | 2026-11-10T20:11:42 | 2026-11-10T20:14:34 | 2 min 52 s | 1 | 1 | 23912 |  |
 | 4. Confrontation | 2026-11-10T20:14:34 | 2026-11-10T20:16:13 | 1 min 39 s | 1 | 7 | 231410 | un passage, 7 experts (premier passage : tous) |
-| 3-ter. Vérification | 2026-11-10T20:16:13 | — | — | 1 | 0 | — | second passage : affirmations de la confrontation |
+| 3-ter. Vérification | 2026-11-10T20:16:13 | 2026-11-10T20:16:55 | 0 min 42 s | 1 | 0 | — | second passage : affirmations de la confrontation |
+| 5. Stabilisation | 2026-11-10T20:16:55 | 2026-11-10T20:16:55 | 0 min 00 s | 1 | 0 | — |  |
+| 6. Rédaction | 2026-11-10T20:16:55 | — | — | 1 | 0 | — |  |
 
 ## Par agent
 
@@ -34,3 +36,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-extreme-droite | 32216 | 3 | 0 min 20 s |
 | 4 | expert-droite | 32879 | 3 | 0 min 24 s |
 | 4 | expert-centre | 41873 | 10 | 1 min 04 s |
+| 3-bis | verificateur-passage2 | 23912 | 5 | 0 min 29 s |

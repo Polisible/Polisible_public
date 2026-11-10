@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '3'
+phase: '6'
 passage: 2
 phases:
   1-bis:
@@ -29,6 +29,14 @@ phases:
     debut: '2026-11-10T20:16:13'
     passages: 1
     note: 'second passage : affirmations de la confrontation'
+    fin: '2026-11-10T20:16:55'
+  '5':
+    debut: '2026-11-10T20:16:55'
+    passages: 1
+    fin: '2026-11-10T20:16:55'
+  '6':
+    debut: '2026-11-10T20:16:55'
+    passages: 1
 incertitudes:
 - agent: bibliothecaire
   texte: 'Part et montant de la dette publique française détenue par la Banque de France : aucune source ouverte
@@ -237,3 +245,8 @@ agents:
   jetons: 41873
   outils: 10
   duree_ms: 64447
+- phase: 3-bis
+  agent: verificateur-passage2
+  jetons: 23912
+  outils: 5
+  duree_ms: 29493
