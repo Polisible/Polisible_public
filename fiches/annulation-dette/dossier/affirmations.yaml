@@ -479,6 +479,10 @@
   - source: S23
     extrait: L’Europe, selon le rapport Draghi, a besoin de 800 milliards d’euros d’investissements supplémentaires
       chaque année
+  - source: S44
+    extrait: To meet the objectives laid out in this report, a minimum annual additional investment of EUR 750 to
+      800 billion is needed, based on the latest Commission esti- mates, corresponding to 4.4-4.7% of EU GDP in
+      2023.
   declaration: false
   auteur: expert-ecologistes
   passage: 1
@@ -589,6 +593,8 @@
   sources:
   - source: S33
     extrait: met fin à "la primauté" du droit européen sur le droit national, à la base de la construction européenne...
+  - source: S45
+    extrait: de poser solennellement le principe de supériorité de la Constitution sur toute autre norme, même internationale
   declaration: true
   auteur: expert-extreme-droite
   passage: 1

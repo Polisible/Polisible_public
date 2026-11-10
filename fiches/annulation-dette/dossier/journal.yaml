@@ -182,3 +182,25 @@
   agent: coordinateur
   phase: '3'
   action: debut de la phase 3
+- date: '2026-11-10T21:19:11'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S1→conforme, S16→conforme, S17→conforme, S18→conforme, S19→conforme, S20→conforme, S21→conforme
+- date: '2026-11-10T21:19:11'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S22→conforme, S23→conforme, S24→conforme, S25→conforme, S26→conforme, S27→conforme, S28→inaccessible,
+    S44 ajoutée pour F32
+- date: '2026-11-10T21:19:12'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S29→non-conforme, S30→conforme, S31→conforme, S32→conforme, S33→conforme, S34→inaccessible,
+    S35→conforme, S45 ajoutée pour F40
+- date: '2026-11-10T21:19:12'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S36→conforme, S37→conforme, S38→conforme, S39→conforme, S40→conforme, S41→conforme, S42→conforme
+- date: '2026-11-10T21:19:12'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S43→conforme
