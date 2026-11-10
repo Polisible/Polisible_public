@@ -8,7 +8,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. Cadrage | 2026-11-10T20:31:37 | 2026-11-10T20:33:04 | 1 min 27 s | 1 | 7 | 142650 | 40 questions proposées ; regroupement soumis au fondateur |
 | 1-bis. Cadrage | 2026-11-10T20:59:01 | 2026-11-10T21:05:58 | 6 min 57 s | 1 | 1 | 121320 | bibliothèque commune, 7 questions |
-| 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 2 | 87345 | vérification de la bibliothèque |
+| 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | — | — | 1 | 0 | — |  |
 
 ## Par agent
@@ -25,3 +25,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1-bis | bibliothecaire | 121320 | 51 | 6 min 33 s |
 | 3 | verificateur-bibliotheque-1 | 38503 | 11 | 1 min 05 s |
 | 3 | verificateur-bibliotheque-2 | 48842 | 16 | 2 min 02 s |
+| 3 | verificateur-bibliotheque-verdicts | 34184 | 5 | 0 min 53 s |
