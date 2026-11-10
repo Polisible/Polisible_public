@@ -1,0 +1,8 @@
+fiche: annulation-dette
+phase: 1-bis
+passage: 1
+phases:
+  1-bis:
+    debut: '2026-11-10T20:03:44'
+    passages: 1
+    note: bibliothèque commune
