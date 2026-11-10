@@ -1,0 +1,8 @@
+agent: expert-extreme-droite
+phase: 4
+corrections:
+  - {vise: A7, action: retirer}
+incertitudes:
+  - "A7 retiré : son raisonnement (articles 123 et 130) repose sur le gouverneur de la Banque de France et l'AFP, pas sur un texte du RN, de l'UDR ou de Reconquête, et reprend A1 et A4. Aucun texte de la famille consulté ne traite la question juridique de Q1."
+  - "A6 : l'énoncé attribue à Jordan Bardella l'idée que l'annulation ferait monter les taux ; F18 ne couvre que la détention par l'État et les dividendes. Le point sur les taux n'est pas rattaché à une affirmation vérifiée dans le lot, à contrôler par le vérificateur."
+  - "Je n'ai rouvert aucune source pendant cette confrontation : pas d'objection de fait nouvelle déposée, faute d'élément vérifié."

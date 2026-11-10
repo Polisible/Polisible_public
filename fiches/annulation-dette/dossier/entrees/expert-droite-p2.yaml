@@ -1,0 +1,16 @@
+agent: expert-droite
+phase: 4
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "L'article 32.4 des statuts du SEBC, cité par A9, porte sur l'indemnisation de pertes de banques centrales nationales liées à des opérations de politique monétaire ; il ne dit rien d'une annulation de titres publics. La BCE a écrit en 2021 que l'annulation enfreindrait l'interdiction du financement monétaire, et un membre de son directoire a dit en 2020 que ne pas demander le remboursement de titres souverains achetés en serait un : l'argument d'une annulation possible « dans le cadre des traités actuels » ne suit donc pas de ce texte."
+    porte_par:
+      - {qui: "Christine Lagarde, présidente de la BCE (lettre du 5 février 2021)", source: S1}
+      - {qui: "Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)", source: S18}
+    affirmations: [F26, F31, F1]
+    repond_a: A9
+incertitudes:
+  - "Aucune erreur de fait nouvelle n'est posée : les points soulevés par le vérificateur sur mes affirmations (F10 : sources officielles à joindre, art. 130 TFUE et art. 7 des statuts du SEBC ; F11 : écrire « selon Euronews » ; F6 : source de niveau 1 sur la pratique d'achat) sont fondés et je ne les conteste pas."
+  - "Le contre-argument à A9 est un raisonnement, pas un fait : le texte de l'article 32.4 n'a pas été rouvert pour cette phase, je m'appuie sur l'extrait déjà au dossier (F26)."
+  - "Les lectures de Christine Lagarde et de Fabio Panetta sont des positions institutionnelles ; aucune décision de justice ne tranche expressément le cas de l'annulation."
