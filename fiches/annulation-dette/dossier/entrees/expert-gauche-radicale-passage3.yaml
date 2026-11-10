@@ -1,0 +1,37 @@
+agent: expert-gauche-radicale
+phase: 4
+arguments:
+  - ref: a1
+    question: Q42
+    position: contre
+    enonce: "A2 présente l'opération comme une renonciation unilatérale de l'État ; or l'opération examinée porte sur des titres détenus par l'Eurosystème, dont le sort relève du conseil des gouverneurs. Le signal envoyé aux prêteurs privés n'est donc pas celui d'un défaut de l'État sur sa signature."
+    raisonnement: "A2 conclut à une prime de risque parce que l'État changerait seul les règles. Mais les arguments A1 et A3 rappellent que la décision appartient au conseil des gouverneurs (F5) et que les créanciers de marché ne sont pas touchés (F46). Le risque de non-remboursement pour les prêteurs privés, que rémunère le taux, n'est donc pas démontré comme modifié ; l'estimation d'une hausse reste sans chiffrage (F26)."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914", parti: "LFI", source: S39}
+    affirmations: [F5, F46, F26]
+    repond_a: A2
+  - ref: a2
+    question: Q44
+    position: contre
+    enonce: "A3 qualifie d'instruction une décision que le conseil des gouverneurs prendrait lui-même ; la demande d'un gouvernement ou d'un parlement, tant que la BCE la décide librement, n'est pas une instruction acceptée."
+    raisonnement: "F3 interdit à la BCE de solliciter ou d'accepter des instructions ; elle n'interdit pas qu'un gouvernement formule une demande politique, que le conseil des gouverneurs (F5) reste libre de refuser. F4 porte sur la législation nationale et les statuts des banques centrales, non sur les décisions du conseil des gouverneurs. L'atteinte à l'indépendance ne suit donc des affirmations citées que si la BCE accepte une instruction, ce qu'A3 suppose sans l'établir."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (invitation faite au gouvernement d'exiger un changement)", parti: "LFI", source: S39}
+    affirmations: [F3, F4, F5]
+    repond_a: A3
+examen:
+  - {question: Q41, conclusion: "A1 conclut que les traités interdisent l'opération, mais F1, F2 et F45 ne visent que le crédit et l'achat direct, et F27 est classée Invérifiable : l'argument relève de l'interprétation, d'où A20. Faits d'A1, A9 et A32 exacts. Rien d'autre à contester."}
+  - {question: Q42, conclusion: "A2 : F25 exact (verdict Plutôt vrai), mais la conclusion (prime de risque) repose sur F26, sans estimation fiable, et suppose une renonciation unilatérale que F5 contredit (contre-argument a1)."}
+  - {question: Q43, conclusion: "A6, A13 et A16 supposent que les versements de la Banque de France baissent d'autant que les intérêts supprimés ; F18 à F20 n'établissent pas ce lien et F21 montre un partage du revenu monétaire variable. Objection O1 déjà posée, rien d'ajouté."}
+  - {question: Q44, conclusion: "A3 : F3, F4 et F5 sont exacts, mais F4 ne concerne pas les décisions du conseil des gouverneurs et F3 vise l'acceptation d'instructions (contre-argument a2). A33 s'appuie sur F58 (Débat entre experts), ce que je n'ai pas à contester."}
+  - {question: Q45, conclusion: "A4 : F24 et F25 exacts ; la conclusion selon laquelle les engagements envers les vendeurs demeurent ne suit pas, ceux-ci ayant été payés et la créance étant détenue par la banque centrale. A7 et A17 relèvent d'une valeur (F28, F43) : rien à contester sur les faits."}
+  - {question: Q46, conclusion: "A5 s'appuie sur F27 (Invérifiable) pour dire que décider seul s'affranchit des traités ; A35 (F3, F5, F60) est cohérent avec les faits cités. Désaccord de valeur sur la souveraineté, noté en valeurs."}
+  - {question: Q47, conclusion: "A6 renvoie à Q43 (même réserve que ci-dessus). A8 reconnaît que le plan ne mentionne pas l'annulation ; F29 et F30 ne contredisent pas notre position. A14 : F22, F37 à F39 exacts, mais ils ne portent pas sur l'effet d'une annulation. Reste un désaccord de valeur."}
+valeurs:
+  - {question: Q45, enonce: "La gauche radicale distingue la dette envers une institution publique, dont les États sont propriétaires, de celle envers des épargnants et investisseurs privés, que A7 et A4 traitent à égalité au nom de la parole de l'État."}
+  - {question: Q46, enonce: "La gauche radicale met en priorité la décision politique démocratique sur les règles fixées par des institutions indépendantes ; A5 et A35 mettent en priorité le respect des règles communes de la zone euro."}
+  - {question: Q47, enonce: "La gauche radicale préfère dégager des marges par l'annulation de la part de la banque centrale et par les recettes plutôt que par des économies sur la dépense (contre A8 et A14)."}
+incertitudes:
+  - "A21 (PCF) : le raisonnement écrit que l'annulation partielle se heurte aux traités, alors que l'énoncé dit que l'interdiction n'est pas établie ; la formulation est plus tranchée que la source ne le permet."
+  - "F46 : le fait que les créanciers de marché ne soient pas touchés reste surtout sous-entendu dans Public Sénat (verdict Plutôt vrai) ; a1 en dépend."
+  - "Le lien entre intérêts supprimés et baisse des versements de la Banque de France reste non chiffré (objection O1 en attente)."

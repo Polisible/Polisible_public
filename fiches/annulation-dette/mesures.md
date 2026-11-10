@@ -12,7 +12,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
 | 3-bis. Vérification | 2026-11-10T21:16:23 | 2026-11-10T21:23:28 | 7 min 05 s | 1 | 7 | 296601 |  |
 | 4. Confrontation | 2026-11-10T21:23:28 | 2026-11-10T21:25:20 | 1 min 52 s | 1 | 7 | 346216 | passage 1 de confrontation (sur 3 au plus), 7 experts |
-| 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 0 | — | objection O1 et éléments du passage 1 de confrontation |
+| 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 1 | 22373 | objection O1 et éléments du passage 1 de confrontation |
 
 ## Par agent
 
@@ -50,3 +50,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-ecologistes | 47726 | 7 | 0 min 23 s |
 | 4 | expert-centre | 50096 | 8 | 0 min 29 s |
 | 4 | expert-gauche-radicale | 72857 | 14 | 1 min 06 s |
+| 3-ter | verificateur-objection-O1 | 22373 | 4 | 0 min 33 s |
