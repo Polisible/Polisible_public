@@ -1,1 +1,20 @@
-[]
+- id: V1
+  question: Q1
+  auteur: expert-centre
+  enonce: Le centre place en priorité la crédibilité de la signature de la France, le respect des traités et l'indépendance
+    de la banque centrale, plutôt que la souveraineté budgétaire nationale contre le cadre européen.
+  passage: 1
+- id: V2
+  question: Q1
+  auteur: expert-droite
+  enonce: 'Ma famille met en priorité la discipline budgétaire et la crédibilité de la signature de la France :
+    le respect des traités et de l''indépendance de la banque centrale est vu comme une garantie, non comme un obstacle
+    à contourner.'
+  passage: 1
+- id: V3
+  question: Q1
+  auteur: expert-gauche-radicale
+  enonce: Pour la gauche radicale, les verrous des traités sont un choix institutionnel modifiable, non une loi
+    de l'économie ; elle met en priorité la capacité des États à décider de leurs dépenses sans dépendre des marchés
+    financiers.
+  passage: 1

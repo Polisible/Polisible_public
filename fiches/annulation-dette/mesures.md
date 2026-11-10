@@ -8,7 +8,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1-bis. Cadrage | 2026-11-10T20:03:44 | 2026-11-10T20:07:34 | 3 min 50 s | 1 | 1 | 126533 | bibliothèque commune |
 | 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 1 | 46507 | vérification de la bibliothèque commune |
-| 2. Contributions indépendantes | 2026-11-10T20:09:47 | — | — | 1 | 6 | 170782 |  |
+| 2. Contributions indépendantes | 2026-11-10T20:09:47 | 2026-11-10T20:11:41 | 1 min 54 s | 1 | 7 | 211044 |  |
+| 3-bis. Vérification | 2026-11-10T20:11:42 | — | — | 1 | 0 | — |  |
 
 ## Par agent
 
@@ -22,3 +23,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 2 | expert-droite | 28670 | 9 | 0 min 53 s |
 | 2 | expert-extreme-gauche | 31190 | 9 | 0 min 53 s |
 | 2 | expert-extreme-droite | 31901 | 9 | 1 min 02 s |
+| 2 | expert-gauche-radicale | 40262 | 10 | 1 min 20 s |

@@ -144,3 +144,73 @@
     nationales de tous les États membres de l'Union, soit l'Eurosystème plus les banques centrales des États qui
     n'ont pas adopté l'euro. L'énoncé sur l'Eurosystème découle de cette définition.
   statut: verifiee
+- id: F10
+  enonce: Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette
+    détenue par la banque centrale de « violation pure du traité ».
+  type: fait
+  sources:
+  - source: S11
+    extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+      européenne.
+  declaration: true
+  auteur: expert-centre
+  passage: 1
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F11
+  enonce: Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le
+    marché secondaire, auprès d'institutions financières, et non directement à l'État.
+  type: fait
+  sources:
+  - source: S13
+    extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+  declaration: false
+  auteur: expert-droite
+  passage: 1
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F12
+  enonce: 'Une décision d''annuler spécifiquement la dette française détenue par l''Eurosystème ne pourrait pas
+    être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE.'
+  type: fait
+  sources:
+  - source: S12
+    extrait: Une décision de « mettre au frigo » ou d’annuler spécifiquement (ou prioritairement) la dette française
+      ne pourrait être prise unilatéralement par la France.
+  declaration: false
+  auteur: expert-droite
+  passage: 1
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F13
+  enonce: Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur le
+    marché secondaire (auprès d'institutions financières), non auprès de l'État.
+  type: fait
+  sources:
+  - source: S13
+    extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+  declaration: false
+  auteur: expert-gauche-radicale
+  passage: 1
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F14
+  enonce: Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE peut
+    et doit mettre au congélateur les dettes des États.
+  type: fait
+  sources:
+  - source: S13
+    extrait: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en commençant
+      par celles de la période Covid. »
+  declaration: true
+  auteur: expert-gauche-radicale
+  passage: 1
+  verdict: null
+  explication: null
+  statut: en-attente

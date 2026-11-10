@@ -1,1 +1,142 @@
-[]
+- id: A1
+  question: Q1
+  position: contre
+  enonce: Effacer des titres de dette publique détenus par la Banque de France reviendrait à faire supporter à la
+    banque centrale la charge d'une dette de l'État sans contrepartie. Les traités interdisent à la banque centrale
+    de financer l'État, par achat direct de titres comme par tout autre crédit.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  affirmations:
+  - F1
+  - F2
+  - F4
+  - F5
+  - F10
+  raisonnement: 'L''article 123 interdit à la banque centrale de financer le secteur public (achat direct de dette,
+    découverts, crédits). Les achats sur le marché secondaire ne sont admis que parce qu''ils ne sont pas un financement
+    de l''État (C-62/14, C-493/17). Une annulation retire à l''État une dette sans qu''il la rembourse : l''effet
+    économique est celui d''un financement monétaire définitif, ce que la logique de l''article 123 vise à empêcher.
+    La conclusion juridique est donc l''impossibilité sans modifier les traités.'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+- id: A2
+  question: Q1
+  position: contre
+  enonce: Les titres détenus par la Banque de France l'ont été dans le cadre de la politique de l'Eurosystème, décidée
+    par la BCE. Un gouvernement national ne peut ni les effacer ni l'ordonner.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  affirmations:
+  - F3
+  - F9
+  - F10
+  raisonnement: La Banque de France est membre de l'Eurosystème et la politique monétaire relève de ses organes
+    de décision. L'article 130 interdit à une banque centrale nationale d'accepter des instructions d'un gouvernement.
+    Une loi française ordonnant l'annulation reviendrait à donner une instruction à la Banque de France, et à décider
+    seul d'une opération qui engage l'ensemble de l'Eurosystème. Elle supposerait donc une décision européenne,
+    ou une modification des traités, et non une décision française.
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+- id: A3
+  question: Q1
+  position: contre
+  enonce: 'Annuler cette dette ne dépend pas du gouvernement français et heurte l''interdiction du financement monétaire
+    des États : ce n''est donc pas juridiquement possible dans le cadre actuel des traités.'
+  porte_par:
+  - qui: Fondation IFRAP (think tank libéral)
+    source: S12
+  affirmations:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F11
+  - F12
+  raisonnement: 'Les titres ont été achetés sur le marché secondaire, ce que les traités permettent (F4, F5) parce
+    qu''ils interdisent l''achat direct à l''État (F1) et tout crédit aux autorités publiques (F2). Annuler ces
+    titres reviendrait à transformer ces achats en financement sans contrepartie de l''État, ce que l''article 123
+    vise à empêcher. En outre, la Banque de France et la BCE ne peuvent recevoir d''instruction d''un gouvernement
+    (F3) et la décision relèverait du Conseil des gouverneurs (f2) : un gouvernement français seul ne peut ni l''ordonner
+    ni la décider. Seule une révision des traités, à l''unanimité des États, changerait ce cadre.'
+  repond_a: null
+  auteur: expert-droite
+  passage: 1
+  statut: ouvert
+- id: A4
+  question: Q1
+  position: contre
+  enonce: Effacer une créance de la Banque de France sur l'État reviendrait à un financement monétaire de l'État,
+    que les traités interdisent, et la France ne peut pas l'imposer seule à sa banque centrale.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  affirmations:
+  - F1
+  - F2
+  - F3
+  - F9
+  raisonnement: 'L''article 123 interdit toute forme de crédit ou de découvert de la banque centrale à l''État (F1,
+    F2) : abandonner une créance détenue sur lui revient à lui faire un don équivalent, donc à un crédit sans contrepartie.
+    L''article 130 interdit au gouvernement de donner des instructions à la banque centrale (F3), et la Banque de
+    France fait partie de l''Eurosystème (F9) : le gouvernement ne peut donc pas décider seul l''effacement. Limite
+    : le texte des articles 123 et 130 n''emploie pas le mot « annuler » ; la conclusion repose sur l''interprétation
+    de l''interdiction du crédit, non sur une mention explicite.'
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+- id: A5
+  question: Q1
+  position: pour
+  enonce: Les traités interdisent d'acheter la dette à l'État ou de lui prêter, pas de conserver ou de transformer
+    des titres déjà achetés sur le marché secondaire. Garder indéfiniment ces titres, à taux nul, ne serait ni un
+    achat direct ni un crédit nouveau.
+  porte_par:
+  - qui: Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)
+    source: S16
+  affirmations:
+  - F1
+  - F2
+  - F8
+  - F13
+  - F4
+  raisonnement: L'article 123 vise l'acquisition directe auprès de l'émetteur et les crédits (F1, F2). Les titres
+    en cause ont été achetés sur le marché secondaire (f1, F8), pratique que la Cour de justice a jugée compatible
+    avec l'article 123 (F4). Le texte n'interdit donc pas, tel qu'il est écrit, de renoncer à les revendre ou de
+    les convertir en titres perpétuels à taux nul ; la proposition de 2020 en conclut qu'aucune modification des
+    traités n'est nécessaire.
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+- id: A6
+  question: Q1
+  position: nuance
+  enonce: 'Une annulation décidée seule par la France ne serait pas possible : la décision relèverait du Système
+    européen de banques centrales. La voie défendue est donc européenne : obtenir que la BCE congèle ces dettes
+    et, à terme, réviser les traités et les statuts de la BCE.'
+  porte_par:
+  - qui: Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)
+    source: S16
+  - qui: Jean-Luc Mélenchon (discours du 23 août 2026)
+    source: S13
+  affirmations:
+  - F3
+  - F9
+  - F14
+  raisonnement: Les banques centrales nationales ne peuvent recevoir d'instructions d'un gouvernement (F3) et la
+    Banque de France agit au sein du SEBC (F9). Un gouvernement ne peut donc pas imposer l'effacement ; il peut
+    seulement l'exiger politiquement de la BCE et œuvrer à modifier le cadre européen. C'est la formulation de la
+    résolution de 2020 (inviter le gouvernement à exiger de l'UE que la BCE agisse) et celle de la déclaration d'août
+    2026 (f2, où le sujet est la BCE).
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert

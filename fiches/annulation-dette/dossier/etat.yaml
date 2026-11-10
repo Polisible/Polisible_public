@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '2'
+phase: '3'
 passage: 1
 phases:
   1-bis:
@@ -14,6 +14,10 @@ phases:
     fin: '2026-11-10T20:09:47'
   '2':
     debut: '2026-11-10T20:09:47'
+    passages: 1
+    fin: '2026-11-10T20:11:41'
+  3-bis:
+    debut: '2026-11-10T20:11:42'
     passages: 1
 incertitudes:
 - agent: bibliothecaire
@@ -38,6 +42,75 @@ incertitudes:
 - agent: bibliothecaire
   texte: 'La proposition de Jean-Luc Mélenchon d''août 2026 n''est pas traitée ici : aucune source de position n''est
     déposée.'
+- agent: expert-centre
+  texte: 'Aucun texte juridique de niveau 1 ouvert ne dit expressément qu''une annulation relève de l''article 123
+    : c''est une interprétation (Lagarde, presse), pas un arrêt.'
+- agent: expert-centre
+  texte: Ni la CJUE ni le Conseil constitutionnel ne semblent avoir jugé directement une annulation de dette détenue
+    ; non cherché dans la jurisprudence.
+- agent: expert-centre
+  texte: Part exacte de la dette détenue par la Banque de France non établie (sources 403).
+- agent: expert-centre
+  texte: La déclaration de Lagarde est rapportée par la presse (niveau 4), non par un texte de la BCE.
+- agent: expert-centre
+  texte: Le statut du SEBC (art. 21 du protocole n° 4) n'a pas été ouvert.
+- agent: expert-droite
+  texte: Aucune position publique de LR sur Q1 n'a été trouvée dans une source ouverte ; l'argument est attribué
+    à la Fondation IFRAP (think tank, non parti). Un mot attribué à Bruno Retailleau vu dans une recherche n'a pas
+    été ouvert.
+- agent: expert-droite
+  texte: 'Date de l''article IFRAP non trouvée dans les métadonnées : 2026-09-01 est une approximation à corriger
+    par le vérificateur.'
+- agent: expert-droite
+  texte: Le chaînage « annulation = financement monétaire » est l'interprétation de l'IFRAP, pas un texte du traité
+    ; aucune décision de la Cour ne porte sur ce cas précis.
+- agent: expert-droite
+  texte: 'Révision des traités à l''unanimité : affirmation du raisonnement non sourcée par une source ouverte (article
+    48 TUE).'
+- agent: expert-ecologistes
+  texte: 'Absence de position trouvée : elle peut exister dans une interview ou un communiqué que la recherche n''a
+    pas remontés.'
+- agent: expert-ecologistes
+  texte: Les montants détenus varient selon les médias (18 % de la dette, 500 à 635 milliards d'euros) ; seul le
+    communiqué de la Banque de France, inaccessible pour moi, les établirait.
+- agent: expert-extreme-droite
+  texte: 'Je n''ai trouvé aucune position juridique propre du RN, de l''UDR ou de Reconquête sur Q1 : seule la réaction
+    de Jordan Bardella (« n''importe quoi », fin août 2026, Euronews s1) est datée. L''argument a1 est donc attribué
+    à Christine Lagarde, pas à la famille ; le coordinateur peut le traiter comme argument de la famille ou non.'
+- agent: expert-extreme-droite
+  texte: Bardella a aussi avancé que l'effacement serait neutre pour l'État (dividendes), mais je ne l'ai lu que
+    via un site de vulgarisation assisté par IA, que je n'ai pas retenu comme source. Cela relève d'une autre question
+    que Q1.
+- agent: expert-extreme-droite
+  texte: 'Le point de savoir si l''interdiction de l''article 123 couvre l''annulation d''une créance déjà détenue
+    (achat sur le marché secondaire, F4, F5) est une interprétation : aucun arrêt ouvert ne la tranche.'
+- agent: expert-extreme-gauche
+  texte: 'Je n''ai pas pu ouvrir les pages S8, S9, S10 de la bibliothèque (erreur 403) : aucune donnée officielle
+    sur la part détenue par la Banque de France n''est citée ici.'
+- agent: expert-extreme-gauche
+  texte: Je n'ai pas trouvé de programme 2027 publié de LO ; l'absence de position juridique est constatée sur les
+    sources accessibles, pas prouvée.
+- agent: expert-extreme-gauche
+  texte: Le périmètre exact du NPA (L'Anticapitaliste ou Révolutionnaires) et la date de la note de Tendance CLAIRE
+    restent à confirmer.
+- agent: expert-gauche-radicale
+  texte: Les sources officielles S8, S9, S10 de la bibliothèque (Banque de France, AFT) étaient inaccessibles (403)
+    ; je n'ai pas pu vérifier la part détenue ni la position de la Banque de France.
+- agent: expert-gauche-radicale
+  texte: Je n'ai pas trouvé de texte LFI de 2026 (programme, proposition de loi) qui détaille la base juridique
+    ; la base écrite est la résolution de 2020, dont l'objet est de demander à la BCE de racheter et de convertir,
+    non d'annuler.
+- agent: expert-gauche-radicale
+  texte: Il n'est pas établi que 'congeler' (dette perpétuelle à taux nul) et 'annuler' soient juridiquement équivalents
+    au regard de l'article 123 ; la CJUE n'a pas statué sur ce point.
+- agent: expert-gauche-radicale
+  texte: La date du 23 août 2026 est déduite de 'dimanche' dans un article du 25 août ; à vérifier.
+- agent: expert-sociaux-democrates
+  texte: 'Aucune source ouverte ne donne la position du PS ou de Place publique : aucun argument déposé faute de
+    porteur sourcé (un argument juridique fondé sur les articles 123 et 130 existe dans la bibliothèque mais sans
+    attribution à un parti).'
+- agent: expert-sociaux-democrates
+  texte: La part exacte de dette détenue par la Banque de France n'est pas établie ici (sources inaccessibles).
 agents:
 - phase: 1-bis
   agent: bibliothecaire
@@ -79,3 +152,8 @@ agents:
   jetons: 31901
   outils: 9
   duree_ms: 62909
+- phase: '2'
+  agent: expert-gauche-radicale
+  jetons: 40262
+  outils: 10
+  duree_ms: 80489

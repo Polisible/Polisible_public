@@ -1,0 +1,52 @@
+agent: expert-gauche-radicale
+phase: 2
+sources:
+  - ref: s1
+    titre: "Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale européenne et de sa transformation en dette perpétuelle"
+    auteur: "Groupe La France insoumise, Assemblée nationale (XVe législature)"
+    date: "2020-05-11"
+    adresse: "https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf"
+    niveau: 3
+  - ref: s2
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur le marché secondaire (auprès d'institutions financières), non auprès de l'État."
+    type: fait
+    sources:
+      - {source: s2, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières, puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États."}
+  - ref: f2
+    enonce: "Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE peut et doit mettre au congélateur les dettes des États."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s2, extrait: "« Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en commençant par celles de la période Covid. »"}
+arguments:
+  - ref: a1
+    question: Q1
+    position: pour
+    enonce: "Les traités interdisent d'acheter la dette à l'État ou de lui prêter, pas de conserver ou de transformer des titres déjà achetés sur le marché secondaire. Garder indéfiniment ces titres, à taux nul, ne serait ni un achat direct ni un crédit nouveau."
+    raisonnement: "L'article 123 vise l'acquisition directe auprès de l'émetteur et les crédits (F1, F2). Les titres en cause ont été achetés sur le marché secondaire (f1, F8), pratique que la Cour de justice a jugée compatible avec l'article 123 (F4). Le texte n'interdit donc pas, tel qu'il est écrit, de renoncer à les revendre ou de les convertir en titres perpétuels à taux nul ; la proposition de 2020 en conclut qu'aucune modification des traités n'est nécessaire."
+    porte_par:
+      - {qui: "Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)", source: s1}
+    affirmations: [F1, F2, F8, f1, F4]
+  - ref: a2
+    question: Q1
+    position: nuance
+    enonce: "Une annulation décidée seule par la France ne serait pas possible : la décision relèverait du Système européen de banques centrales. La voie défendue est donc européenne : obtenir que la BCE congèle ces dettes et, à terme, réviser les traités et les statuts de la BCE."
+    raisonnement: "Les banques centrales nationales ne peuvent recevoir d'instructions d'un gouvernement (F3) et la Banque de France agit au sein du SEBC (F9). Un gouvernement ne peut donc pas imposer l'effacement ; il peut seulement l'exiger politiquement de la BCE et œuvrer à modifier le cadre européen. C'est la formulation de la résolution de 2020 (inviter le gouvernement à exiger de l'UE que la BCE agisse) et celle de la déclaration d'août 2026 (f2, où le sujet est la BCE)."
+    porte_par:
+      - {qui: "Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)", source: s1}
+      - {qui: "Jean-Luc Mélenchon (discours du 23 août 2026)", source: s2}
+    affirmations: [F3, F9, f2]
+valeurs:
+  - {question: Q1, enonce: "Pour la gauche radicale, les verrous des traités sont un choix institutionnel modifiable, non une loi de l'économie ; elle met en priorité la capacité des États à décider de leurs dépenses sans dépendre des marchés financiers."}
+incertitudes:
+  - "Les sources officielles S8, S9, S10 de la bibliothèque (Banque de France, AFT) étaient inaccessibles (403) ; je n'ai pas pu vérifier la part détenue ni la position de la Banque de France."
+  - "Je n'ai pas trouvé de texte LFI de 2026 (programme, proposition de loi) qui détaille la base juridique ; la base écrite est la résolution de 2020, dont l'objet est de demander à la BCE de racheter et de convertir, non d'annuler."
+  - "Il n'est pas établi que 'congeler' (dette perpétuelle à taux nul) et 'annuler' soient juridiquement équivalents au regard de l'article 123 ; la CJUE n'a pas statué sur ce point."
+  - "La date du 23 août 2026 est déduite de 'dimanche' dans un article du 25 août ; à vérifier."

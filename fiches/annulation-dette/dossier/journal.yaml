@@ -33,3 +33,39 @@
   agent: coordinateur
   phase: '2'
   action: debut de la phase 2
+- date: '2026-11-10T20:11:41'
+  agent: expert-centre
+  phase: '2'
+  action: 'a ajouté S11, F10, A1, A2, V1 ; incertitudes signalées : 5'
+- date: '2026-11-10T20:11:41'
+  agent: expert-droite
+  phase: '2'
+  action: 'a ajouté S12, S13, F11, F12, A3, V2 ; incertitudes signalées : 4'
+- date: '2026-11-10T20:11:41'
+  agent: expert-ecologistes
+  phase: '2'
+  action: 'a ajouté sans position sur Q1, S14 (demandée) ; incertitudes signalées : 2'
+- date: '2026-11-10T20:11:41'
+  agent: expert-extreme-droite
+  phase: '2'
+  action: 'a ajouté S15, A4 ; incertitudes signalées : 3'
+- date: '2026-11-10T20:11:41'
+  agent: expert-extreme-gauche
+  phase: '2'
+  action: 'a ajouté sans position sur Q1 ; incertitudes signalées : 3'
+- date: '2026-11-10T20:11:41'
+  agent: expert-gauche-radicale
+  phase: '2'
+  action: 'a ajouté S16, F13, F14, A5, A6, V3 ; incertitudes signalées : 4'
+- date: '2026-11-10T20:11:41'
+  agent: expert-sociaux-democrates
+  phase: '2'
+  action: 'a ajouté sans position sur Q1 ; incertitudes signalées : 2'
+- date: '2026-11-10T20:11:41'
+  agent: coordinateur
+  phase: '2'
+  action: fin de la phase 2
+- date: '2026-11-10T20:11:42'
+  agent: coordinateur
+  phase: '3'
+  action: debut de la phase 3

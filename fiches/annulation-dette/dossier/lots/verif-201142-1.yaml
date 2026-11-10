@@ -1,0 +1,152 @@
+sources_a_verifier:
+- source:
+    id: S11
+    titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+    auteur: Euronews
+    date: '2026-09-11'
+    adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F10
+    enonce: Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette
+      détenue par la banque centrale de « violation pure du traité ».
+    type: fait
+    extrait_annonce: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur
+      l'Union européenne.
+- source:
+    id: S12
+    titre: '"Annuler" la dette : pourquoi c''est impossible et dangereux'
+    auteur: Fondation IFRAP
+    date: '2026-09-01'
+    adresse: https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F12
+    enonce: 'Une décision d''annuler spécifiquement la dette française détenue par l''Eurosystème ne pourrait pas
+      être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE.'
+    type: fait
+    extrait_annonce: Une décision de « mettre au frigo » ou d’annuler spécifiquement (ou prioritairement) la dette
+      française ne pourrait être prise unilatéralement par la France.
+- source:
+    id: S13
+    titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à
+      de nombreuses difficultés'
+    auteur: Public Sénat
+    date: '2026-08-25'
+    adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F11
+    enonce: Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le
+      marché secondaire, auprès d'institutions financières, et non directement à l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+  - affirmation: F13
+    enonce: Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur
+      le marché secondaire (auprès d'institutions financières), non auprès de l'État.
+    type: fait
+    extrait_annonce: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+  - affirmation: F14
+    enonce: Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE
+      peut et doit mettre au congélateur les dettes des États.
+    type: fait
+    extrait_annonce: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États,
+      en commençant par celles de la période Covid. »
+- source:
+    id: S14
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-par-la-banque-de-france
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: même communiqué, version page web
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S15
+    titre: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat
+    auteur: Euronews
+    date: '2026-08-27'
+    adresse: https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S16
+    titre: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque
+      centrale européenne et de sa transformation en dette perpétuelle
+    auteur: Groupe La France insoumise, Assemblée nationale (XVe législature)
+    date: '2020-05-11'
+    adresse: https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler: []
+verdicts_a_attribuer:
+- id: F10
+  enonce: Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette
+    détenue par la banque centrale de « violation pure du traité ».
+  type: fait
+  sources:
+  - source: S11
+    niveau: 4
+    statut: a-verifier
+    note_verif: null
+    extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+      européenne.
+- id: F11
+  enonce: Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le
+    marché secondaire, auprès d'institutions financières, et non directement à l'État.
+  type: fait
+  sources:
+  - source: S13
+    niveau: 4
+    statut: a-verifier
+    note_verif: null
+    extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+- id: F12
+  enonce: 'Une décision d''annuler spécifiquement la dette française détenue par l''Eurosystème ne pourrait pas
+    être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE.'
+  type: fait
+  sources:
+  - source: S12
+    niveau: 3
+    statut: a-verifier
+    note_verif: null
+    extrait: Une décision de « mettre au frigo » ou d’annuler spécifiquement (ou prioritairement) la dette française
+      ne pourrait être prise unilatéralement par la France.
+- id: F13
+  enonce: Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur le
+    marché secondaire (auprès d'institutions financières), non auprès de l'État.
+  type: fait
+  sources:
+  - source: S13
+    niveau: 4
+    statut: a-verifier
+    note_verif: null
+    extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+      puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+- id: F14
+  enonce: Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE peut
+    et doit mettre au congélateur les dettes des États.
+  type: fait
+  sources:
+  - source: S13
+    niveau: 4
+    statut: a-verifier
+    note_verif: null
+    extrait: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en commençant
+      par celles de la période Covid. »
+objections_a_trancher: []
