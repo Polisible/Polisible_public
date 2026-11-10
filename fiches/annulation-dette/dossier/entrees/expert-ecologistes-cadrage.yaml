@@ -1,0 +1,26 @@
+agent: expert-ecologistes
+phase: 1
+questions_proposees:
+  - enonce: "Les titres de dette publique française détenus par la Banque de France pour l'Eurosystème peuvent-ils être annulés ou gelés en dette perpétuelle sans modifier les traités européens ?"
+    type: fait
+    pourquoi: "Tout le débat dépend de la possibilité juridique (interdiction du financement monétaire des États, indépendance de la banque centrale)."
+  - enonce: "Annuler ou geler la part de dette détenue par l'Eurosystème réduirait-il durablement la charge d'intérêts de l'État et son besoin de financement ?"
+    type: estimation
+    pourquoi: "Les montants détenus sont importants, mais leur effet sur les intérêts et sur le déficit annuel est contesté ; il conditionne l'intérêt réel de la mesure."
+  - enonce: "Une telle mesure ferait-elle monter les taux d'emprunt de la France ou affaiblirait-elle la crédibilité de l'euro ?"
+    type: estimation
+    pourquoi: "C'est le risque central avancé contre la mesure ; il faut distinguer l'effet sur la dette détenue par la banque centrale de celui sur la dette détenue par les investisseurs privés."
+  - enonce: "Le service de la dette doit-il être réduit en priorité pour dégager des marges d'action en faveur de la transition écologique et des services publics ?"
+    type: valeur
+    pourquoi: "Cela renvoie à l'arbitrage entre remboursement et investissements de long terme (climat, biodiversité, justice sociale)."
+  - enonce: "Faut-il que la dette finançant des investissements de transition écologique soit traitée différemment (règle d'or verte, cantonnement, exclusion des règles budgétaires) du reste de la dette publique ?"
+    type: valeur
+    pourquoi: "Piste alternative à l'annulation, souvent défendue pour préserver l'investissement de long terme sans remettre en cause les créanciers."
+  - enonce: "La dette détenue par des créanciers privés (banques, assureurs, non-résidents) peut-elle être restructurée ou allégée sans conséquence grave pour les épargnants français ?"
+    type: estimation
+    pourquoi: "Distingue l'annulation limitée à la banque centrale d'une annulation plus large, et pose la question des effets sur l'épargne (assurance-vie, banques)."
+incertitudes:
+  - "Je n'ai pas ouvert les sources de la recherche : le contexte (proposition d'août 2026, montant détenu entre 500 et 640 milliards d'euros, variante dette perpétuelle) vient d'un résumé de recherche, pas d'une source vérifiée."
+  - "Position exacte des Écologistes sur l'annulation de la dette détenue par l'Eurosystème : non vérifiée ; la famille peut être divisée, donc ce cadrage est un choix de questions et pas une position."
+  - "La question 5 (règle d'or verte) n'a pas été vérifiée comme étant dans le débat de l'été 2026."
+  - "Le montant et la part de la dette publique détenue par l'Eurosystème varient selon les sources et les dates ; la question 2 ne les fixe donc pas."

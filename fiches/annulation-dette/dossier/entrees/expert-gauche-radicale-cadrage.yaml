@@ -1,0 +1,23 @@
+agent: expert-gauche-radicale
+phase: 1
+questions_proposees:
+  - enonce: "La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être annulée sans modifier les traités européens ?"
+    type: fait
+    pourquoi: "Question centrale du débat d'août 2026 : les traités interdisent le financement monétaire des États, et la lecture de cette interdiction est contestée."
+  - enonce: "Annuler (ou geler en dette perpétuelle) la dette détenue par la Banque de France laisserait-il inchangées la charge d'intérêts et la dette nette de l'État ?"
+    type: estimation
+    pourquoi: "Ces titres sont détenus par une banque centrale dont l'État est actionnaire : il faut établir ce que l'opération change réellement dans les comptes publics."
+  - enonce: "Une telle annulation ferait-elle monter les taux d'emprunt de la France ou entamerait-elle la crédibilité de l'euro ?"
+    type: estimation
+    pourquoi: "L'objection la plus courante porte sur la réaction des marchés et de la BCE ; nous jugeons que les effets sont surestimés."
+  - enonce: "La dette publique doit-elle être traitée comme une dette ordinaire, à rembourser en totalité à ses détenteurs ?"
+    type: valeur
+    pourquoi: "Désaccord de fond sur la nature de la dette : obligation morale et contractuelle, ou instrument de politique économique dont les créanciers et les conditions peuvent être rediscutés."
+  - enonce: "Faut-il que l'État puisse réduire sa dette sans accord préalable de ses partenaires de la zone euro ?"
+    type: valeur
+    pourquoi: "Oppose la souveraineté budgétaire nationale à la cohérence des règles communes de la zone euro."
+incertitudes:
+  - "Le montant détenu par la Banque de France pour l'Eurosystème varie selon les sources (environ 500 à 635 milliards d'euros) ; à fixer par le vérificateur."
+  - "Je n'ai ouvert aucune page : une seule recherche web a confirmé que le sujet est dans le débat (réactions de la Banque de France, de la BCE, de Matthieu Pigasse)."
+  - "Les positions exactes de LFI et du PCF sur l'annulation et la dette perpétuelle ne sont pas vérifiées ; les deux partis peuvent diverger."
+  - "La formulation de la première question suppose que l'annulation passerait par la Banque de France ; l'option dette perpétuelle pourrait appeler une question distincte."

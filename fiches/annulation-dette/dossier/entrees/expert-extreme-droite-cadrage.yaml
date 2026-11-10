@@ -1,0 +1,25 @@
+agent: expert-extreme-droite
+phase: 1
+questions_proposees:
+  - enonce: "L'annulation de la part de la dette publique française détenue par la Banque de France est-elle compatible avec les traités européens ?"
+    type: fait
+    pourquoi: "La souveraineté budgétaire se heurte à l'interdiction du financement monétaire des États (article 123 du TFUE) ; la question juridique précède tout débat sur l'opportunité."
+  - enonce: "Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il monter durablement les taux d'intérêt auxquels la France emprunte ?"
+    type: estimation
+    pourquoi: "L'effet sur la confiance des prêteurs et sur le coût de la dette est l'argument central des opposants comme des partisans de la mesure."
+  - enonce: "Une annulation de dette ferait-elle réellement baisser les intérêts payés chaque année par l'État ?"
+    type: estimation
+    pourquoi: "Les intérêts versés à la Banque de France sont en partie reversés à l'État sous forme de bénéfices : l'économie réelle est contestée."
+  - enonce: "La France doit-elle honorer l'intégralité de ses dettes envers ses créanciers, y compris la Banque de France ?"
+    type: valeur
+    pourquoi: "Oppose la parole de l'État et la crédibilité financière au principe que la dette ne doit pas contraindre la souveraineté nationale."
+  - enonce: "Les décisions sur la dette publique française doivent-elles relever de la seule décision nationale plutôt que de règles ou d'institutions européennes ?"
+    type: valeur
+    pourquoi: "Touche à la souveraineté nationale : qui, du Parlement français ou de la BCE et des traités, doit avoir le dernier mot sur le sort de la dette."
+  - enonce: "La Banque de France détient-elle une part de la dette publique française au titre de ses achats pour l'Eurosystème ?"
+    type: fait
+    pourquoi: "Établir le montant et la nature de cette part est le préalable à toute discussion sur son annulation."
+incertitudes:
+  - "Aucune recherche web menée : je n'ai pas vérifié que ces questions sont dans le débat depuis août 2026."
+  - "Je ne connais pas la position publique actuelle du RN, de l'UDR ni de Reconquête sur la proposition de Jean-Luc Mélenchon ; elle pourra relever de sans_position en phase 2."
+  - "Les questions 1 et 3 supposent que la proposition vise bien la part détenue pour l'Eurosystème, selon le contexte fourni par le coordinateur."

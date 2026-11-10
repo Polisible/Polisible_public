@@ -1,0 +1,25 @@
+agent: expert-extreme-gauche
+phase: 1
+questions_proposees:
+  - enonce: "La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être annulée ou gelée en dette perpétuelle sans modifier les traités européens ?"
+    type: fait
+    pourquoi: "Le traité interdit le financement monétaire des États ; la faisabilité juridique est le premier point de désaccord."
+  - enonce: "Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il baisser durablement la charge d'intérêts de l'État ?"
+    type: estimation
+    pourquoi: "L'effet réel sur les intérêts payés dépend de la manière dont la Banque de France est rémunérée et de ses bilans, et les estimations divergent."
+  - enonce: "Une telle opération ferait-elle monter les taux auxquels la France emprunte ou la défiance des marchés ?"
+    type: estimation
+    pourquoi: "Les partisans y voient un effet limité ; les opposants un risque pour la crédibilité de la signature de l'État."
+  - enonce: "La dette publique détenue par des créanciers privés (banques, assurances, non-résidents) devrait-elle elle aussi être annulée, restructurée ou auditée ?"
+    type: valeur
+    pourquoi: "Question de principe sur qui doit supporter le coût de la dette : les créanciers ou les contribuables et les services publics."
+  - enonce: "L'annulation d'une partie de la dette publique est-elle un moyen légitime de financer des dépenses sociales et écologiques sans austérité ?"
+    type: valeur
+    pourquoi: "Elle oppose le choix de rompre avec les règles budgétaires et la priorité aux besoins sociaux à celui du remboursement intégral des engagements."
+  - enonce: "L'annulation d'une dette par une banque centrale est-elle déjà arrivée ou proposée par des institutions (BCE, FMI, économistes) ?"
+    type: fait
+    pourquoi: "Les précédents (annulations de dettes, appel de 2021 de plus de 100 économistes) sont invoqués par les partisans et contestés par les opposants."
+incertitudes:
+  - "Les termes exacts de la proposition d'août 2026 (annulation ou dette perpétuelle, périmètre, calendrier) sont repris du contexte fourni par le coordinateur, sans recherche web : à confirmer à la phase 2."
+  - "Je n'ai pas vérifié que chaque question figure encore dans le débat de novembre 2026, ni la portée exacte de l'appel d'économistes de 2021 cité dans la dernière question."
+  - "LO et le NPA peuvent diverger de La France insoumise sur ces propositions (par exemple sur la place du cadre européen), et leurs positions publiques sont à rechercher."

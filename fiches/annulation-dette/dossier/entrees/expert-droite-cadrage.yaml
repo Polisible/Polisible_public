@@ -1,0 +1,23 @@
+agent: expert-droite
+phase: 1
+questions_proposees:
+  - enonce: "Les traités européens interdisent-ils à la Banque de France et à l'Eurosystème d'annuler ou de transformer en dette perpétuelle les titres publics qu'ils détiennent ?"
+    type: fait
+    pourquoi: "Toute la proposition dépend de sa légalité, notamment de l'interdiction du financement monétaire des États."
+  - enonce: "Annuler ou geler la part de la dette détenue par l'Eurosystème ferait-il monter les taux auxquels l'État français emprunte ?"
+    type: estimation
+    pourquoi: "Le coût de financement futur de l'État dépend de la confiance des prêteurs dans la parole de la France."
+  - enonce: "Cette mesure réduirait-elle de façon durable la charge de la dette de l'État, compte tenu des déficits annuels qui continueraient de s'ajouter ?"
+    type: estimation
+    pourquoi: "Il faut mesurer ce que la mesure change réellement par rapport aux déficits et au besoin de financement annuel."
+  - enonce: "Cette mesure affaiblirait-elle la crédibilité de l'euro ou l'indépendance de la Banque centrale européenne ?"
+    type: estimation
+    pourquoi: "Une monnaie commune repose sur la règle qu'aucun État ne fait effacer ses dettes par sa banque centrale."
+  - enonce: "Un État doit-il toujours honorer intégralement ses dettes, sans les annuler ?"
+    type: valeur
+    pourquoi: "La famille de droite place la responsabilité budgétaire et la parole donnée avant les arrangements sur la dette."
+incertitudes:
+  - "Une recherche unique (août 2026) confirme que la proposition est dans le débat ; je n'ai ouvert aucune page, donc rien n'est cité comme source."
+  - "La part de la dette détenue par l'Eurosystème varie selon les résumés de presse (environ 18 % ; 500 à 640 milliards d'euros) : à établir par le vérificateur."
+  - "Je n'ai pas vérifié les déclarations attribuées par la presse au gouverneur de la Banque de France."
+  - "Le périmètre exact (titres détenus par la Banque de France seule ou par l'Eurosystème) reste à préciser dans le libellé."
