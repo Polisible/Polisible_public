@@ -10,7 +10,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 1-bis. Cadrage | 2026-11-10T20:59:01 | 2026-11-10T21:05:58 | 6 min 57 s | 1 | 1 | 121320 | bibliothèque commune, 7 questions |
 | 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
-| 3-bis. Vérification | 2026-11-10T21:16:23 | — | — | 1 | 6 | 294231 |  |
+| 3-bis. Vérification | 2026-11-10T21:16:23 | 2026-11-10T21:23:28 | 7 min 05 s | 1 | 7 | 296601 |  |
+| 4. Confrontation | 2026-11-10T21:23:28 | — | — | 1 | 0 | — | passage 1 de confrontation (sur 3 au plus), 7 experts |
 
 ## Par agent
 
@@ -40,3 +41,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3-bis | verificateur-passage1-1 | 49736 | 17 | 2 min 03 s |
 | 3-bis | verificateur-passage1-3 | 52512 | 21 | 2 min 12 s |
 | 3-bis | verificateur-passage1-verdicts | 72096 | 17 | 3 min 25 s |
+| 3-bis | verificateur-sources-ajoutees | 2370 | 3 | 0 min 31 s |

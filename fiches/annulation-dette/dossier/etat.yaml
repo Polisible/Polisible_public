@@ -1,8 +1,8 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '3'
-passage: 1
+phase: '4'
+passage: 2
 phases:
   '1':
     debut: '2026-11-10T20:31:37'
@@ -26,6 +26,11 @@ phases:
   3-bis:
     debut: '2026-11-10T21:16:23'
     passages: 1
+    fin: '2026-11-10T21:23:28'
+  '4':
+    debut: '2026-11-10T21:23:28'
+    passages: 1
+    note: passage 1 de confrontation (sur 3 au plus), 7 experts
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -147,6 +152,11 @@ agents:
   jetons: 72096
   outils: 17
   duree_ms: 205435
+- phase: 3-bis
+  agent: verificateur-sources-ajoutees
+  jetons: 2370
+  outils: 3
+  duree_ms: 31995
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

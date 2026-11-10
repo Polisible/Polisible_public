@@ -213,3 +213,19 @@
     F45→Vrai, F46→Plutôt vrai, F47→Pas d'estimation fiable, F48→Vrai, F49→Pas d'estimation fiable, F50→Vrai, F51→valeur,
     sans verdict, F52→valeur, sans verdict, F53→valeur, sans verdict, F54→valeur, sans verdict, F55→valeur, sans
     verdict, F56→valeur, sans verdict, F57→Vrai, F58→Débat entre experts, F59→Vrai, F60→Vrai
+- date: '2026-11-10T21:23:28'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S46 ajoutée pour F31, S47 ajoutée pour F31, S48 ajoutée pour F58
+- date: '2026-11-10T21:23:28'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T21:23:28'
+  agent: coordinateur
+  phase: '4'
+  action: debut de la phase 4 (passage 1 de confrontation (sur 3 au plus), 7 experts)
+- date: '2026-11-10T21:23:28'
+  agent: coordinateur
+  phase: '4'
+  action: début du passage 2

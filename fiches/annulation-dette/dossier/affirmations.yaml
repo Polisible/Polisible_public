@@ -482,6 +482,10 @@
   sources:
   - source: S23
     extrait: dont environ 640 milliards de titres publics français
+  - source: S46
+    extrait: France 401,150 -147 359,487 5.91 5.88 8.60
+  - source: S47
+    extrait: France -34 237,484 6.60 7.67
   declaration: false
   auteur: expert-ecologistes
   passage: 1
@@ -908,6 +912,9 @@
   sources:
   - source: S43
     extrait: une banque centrale peut fonctionner avec des fonds propres négatifs sans difficulté.
+  - source: S48
+    extrait: In any case, the ECB can operate effectively and fulfil its primary mandate of maintaining price stability
+      regardless of any losses.
   declaration: false
   auteur: expert-sociaux-democrates
   passage: 1

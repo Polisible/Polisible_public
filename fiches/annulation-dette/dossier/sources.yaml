@@ -596,3 +596,30 @@
   ajoutee_par: verificateur
   statut: conforme
   note_verif: ajoutée par le vérificateur
+- id: S46
+  titre: Asset purchase programmes
+  auteur: Banque centrale européenne
+  date: '2026-11-03'
+  adresse: https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S47
+  titre: Pandemic Emergency Purchase Programme
+  auteur: Banque centrale européenne
+  date: 2026-11
+  adresse: https://www.ecb.europa.eu/mopo/implement/pepp/html/index.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S48
+  titre: Financial statements of the ECB for 2024
+  auteur: Banque centrale européenne
+  date: '2025-02-20'
+  adresse: https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250220~eca25e4e21.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
