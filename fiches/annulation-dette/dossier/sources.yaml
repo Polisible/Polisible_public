@@ -193,3 +193,13 @@
   note_verif: 'Bon document : proposition de résolution n° 2914, XVe législature, enregistrée le 11 mai 2020, présentée
     par Jean-Luc Mélenchon et les députés du groupe La France insoumise ; titre conforme. Aucune affirmation de
     ce lot ne la cite.'
+- id: S17
+  titre: Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17 (texte intégral,
+    EUR-Lex)
+  auteur: Cour de justice de l'Union européenne
+  date: '2018-12-11'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493
+  niveau: 1
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null

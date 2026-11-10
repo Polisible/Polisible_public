@@ -227,3 +227,32 @@
     discours de clôture des universités d'été de LFI à Châteauneuf-sur-Isère. L'enregistrement du discours n'a pas
     été consulté ; la presse suffit ici pour rapporter une déclaration.
   statut: verifiee
+- id: F15
+  enonce: Conserver des obligations jusqu'à leur échéance n'implique aucune renonciation au paiement de sa dette
+    par l'État émetteur une fois le terme échu (arrêt C-493/17, point 146).
+  type: fait
+  sources:
+  - source: S17
+    extrait: une telle pratique n’est nullement exclue par l’article 18, paragraphe 1, du protocole sur le SEBC
+      et la BCE et qu’elle n’implique aucune renonciation au paiement, par l’État membre émetteur, de sa dette une
+      fois le terme de l’obligation échue
+  declaration: false
+  auteur: expert-centre
+  passage: 2
+  verdict: null
+  explication: null
+  statut: en-attente
+- id: F16
+  enonce: Le programme d'achats PSPP (décision 2015/774) ne soustrait pas les États membres concernés à l'incitation
+    à conduire une politique budgétaire saine (arrêt C-493/17, point 144).
+  type: fait
+  sources:
+  - source: S17
+    extrait: la décision 2015/774 n’a pas pour effet de soustraire les États membres concernés à l’incitation à
+      conduire une politique budgétaire saine
+  declaration: false
+  auteur: expert-centre
+  passage: 2
+  verdict: null
+  explication: null
+  statut: en-attente

@@ -95,9 +95,10 @@
 - id: A5
   question: Q1
   position: pour
-  enonce: Les traités interdisent d'acheter la dette à l'État ou de lui prêter, pas de conserver ou de transformer
-    des titres déjà achetés sur le marché secondaire. Garder indéfiniment ces titres, à taux nul, ne serait ni un
-    achat direct ni un crédit nouveau.
+  enonce: 'Les traités interdisent d''acheter la dette à l''État ou de lui prêter ; ils ne mentionnent ni la conservation
+    ni la conversion de titres déjà achetés sur le marché secondaire. La proposition de 2020 en déduit que garder
+    ces titres indéfiniment, à taux nul, ne serait ni un achat direct ni un crédit nouveau. Aucun arrêt cité ne
+    juge cette conversion elle-même : l''arrêt C-62/14 porte sur l''achat sur le marché secondaire.'
   porte_par:
   - qui: Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)
     source: S16
@@ -115,7 +116,7 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A6
   question: Q1
   position: nuance
@@ -139,4 +140,27 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
+  statut: ouvert
+- id: A7
+  question: Q1
+  position: contre
+  enonce: L'arrêt C-493/17 admet de conserver des titres jusqu'à leur échéance parce que l'État les rembourse alors.
+    Cela ne justifie pas de les garder indéfiniment à taux nul, ni de les annuler.
+  porte_par:
+  - qui: Cour de justice de l'UE, arrêt C-493/17 du 11 décembre 2018 (points 144 et 146), dont l'argument tire sa
+      conséquence
+    source: S17
+  affirmations:
+  - F15
+  - F16
+  raisonnement: 'A5 déduit de la validité des achats secondaires que renoncer à vendre ou convertir les titres en
+    perpétuel est permis. Or la Cour a validé la conservation jusqu''à l''échéance en relevant qu''elle n''implique
+    aucune renonciation au paiement de la dette (f1), et a examiné si le programme laisse subsister l''incitation
+    à une politique budgétaire saine (f2). Un titre perpétuel à taux nul ou effacé supprime justement le paiement
+    : la raison pour laquelle la Cour a admis la conservation ne vaut plus. L''argument de A5 n''est donc pas couvert
+    par la jurisprudence citée (F4) ; au mieux la question reste ouverte, aucune décision de la Cour ne traitant
+    d''une annulation ou d''une conversion en perpétuel.'
+  repond_a: A5
+  auteur: expert-centre
+  passage: 2
   statut: ouvert

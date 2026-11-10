@@ -1,0 +1,34 @@
+agent: expert-centre
+phase: 4
+sources:
+  - ref: s1
+    titre: "Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17 (texte intégral, EUR-Lex)"
+    auteur: "Cour de justice de l'Union européenne"
+    date: "2018-12-11"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:62017CJ0493"
+    niveau: 1
+affirmations:
+  - ref: f1
+    enonce: "Conserver des obligations jusqu'à leur échéance n'implique aucune renonciation au paiement de sa dette par l'État émetteur une fois le terme échu (arrêt C-493/17, point 146)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "une telle pratique n’est nullement exclue par l’article 18, paragraphe 1, du protocole sur le SEBC et la BCE et qu’elle n’implique aucune renonciation au paiement, par l’État membre émetteur, de sa dette une fois le terme de l’obligation échue"}
+  - ref: f2
+    enonce: "Le programme d'achats PSPP (décision 2015/774) ne soustrait pas les États membres concernés à l'incitation à conduire une politique budgétaire saine (arrêt C-493/17, point 144)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "la décision 2015/774 n’a pas pour effet de soustraire les États membres concernés à l’incitation à conduire une politique budgétaire saine"}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    repond_a: A5
+    enonce: "L'arrêt C-493/17 admet de conserver des titres jusqu'à leur échéance parce que l'État les rembourse alors. Cela ne justifie pas de les garder indéfiniment à taux nul, ni de les annuler."
+    raisonnement: "A5 déduit de la validité des achats secondaires que renoncer à vendre ou convertir les titres en perpétuel est permis. Or la Cour a validé la conservation jusqu'à l'échéance en relevant qu'elle n'implique aucune renonciation au paiement de la dette (f1), et a examiné si le programme laisse subsister l'incitation à une politique budgétaire saine (f2). Un titre perpétuel à taux nul ou effacé supprime justement le paiement : la raison pour laquelle la Cour a admis la conservation ne vaut plus. L'argument de A5 n'est donc pas couvert par la jurisprudence citée (F4) ; au mieux la question reste ouverte, aucune décision de la Cour ne traitant d'une annulation ou d'une conversion en perpétuel."
+    porte_par:
+      - {qui: "Cour de justice de l'UE, arrêt C-493/17 du 11 décembre 2018 (points 144 et 146), dont l'argument tire sa conséquence", source: s1}
+    affirmations: [f1, f2]
+incertitudes:
+  - "Ma contribution de phase 2 (A1, A2, A4) attribue à Lagarde une déclaration « du 11 septembre 2026 » : le vérificateur indique que la conférence de presse a eu lieu le 10 septembre 2026 (date de l'article Euronews : le 11). Je n'ai pas ouvert la transcription ; la date de porte_par est à lire 10 septembre. Je ne peux pas la corriger par ce dépôt."
+  - "Le contre-argument vise la portée de la jurisprudence ; il ne dit pas que la Cour a jugé une conversion en perpétuel illégale, elle ne s'est pas prononcée."
+  - "Les points 144 et 146 sont cités d'après la version EUR-Lex en français ; numérotation lue dans le texte ouvert."

@@ -10,7 +10,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 2 | 95701 | vérification de la bibliothèque commune |
 | 2. Contributions indépendantes | 2026-11-10T20:09:47 | 2026-11-10T20:11:41 | 1 min 54 s | 1 | 7 | 211044 |  |
 | 3-bis. Vérification | 2026-11-10T20:11:42 | 2026-11-10T20:14:34 | 2 min 52 s | 1 | 0 | — |  |
-| 4. Confrontation | 2026-11-10T20:14:34 | — | — | 1 | 6 | 189537 | un passage, 7 experts (premier passage : tous) |
+| 4. Confrontation | 2026-11-10T20:14:34 | 2026-11-10T20:16:13 | 1 min 39 s | 1 | 7 | 231410 | un passage, 7 experts (premier passage : tous) |
+| 3-ter. Vérification | 2026-11-10T20:16:13 | — | — | 1 | 0 | — | second passage : affirmations de la confrontation |
 
 ## Par agent
 
@@ -32,3 +33,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-gauche-radicale | 31465 | 3 | 0 min 14 s |
 | 4 | expert-extreme-droite | 32216 | 3 | 0 min 20 s |
 | 4 | expert-droite | 32879 | 3 | 0 min 24 s |
+| 4 | expert-centre | 41873 | 10 | 1 min 04 s |

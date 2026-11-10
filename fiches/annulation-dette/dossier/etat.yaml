@@ -1,5 +1,5 @@
 fiche: annulation-dette
-phase: '4'
+phase: '3'
 passage: 2
 phases:
   1-bis:
@@ -24,6 +24,11 @@ phases:
     debut: '2026-11-10T20:14:34'
     passages: 1
     note: 'un passage, 7 experts (premier passage : tous)'
+    fin: '2026-11-10T20:16:13'
+  3-ter:
+    debut: '2026-11-10T20:16:13'
+    passages: 1
+    note: 'second passage : affirmations de la confrontation'
 incertitudes:
 - agent: bibliothecaire
   texte: 'Part et montant de la dette publique française détenue par la Banque de France : aucune source ouverte
@@ -116,6 +121,36 @@ incertitudes:
     attribution à un parti).'
 - agent: expert-sociaux-democrates
   texte: La part exacte de dette détenue par la Banque de France n'est pas établie ici (sources inaccessibles).
+- agent: expert-centre
+  texte: 'Ma contribution de phase 2 (A1, A2, A4) attribue à Lagarde une déclaration « du 11 septembre 2026 » :
+    le vérificateur indique que la conférence de presse a eu lieu le 10 septembre 2026 (date de l''article Euronews
+    : le 11). Je n''ai pas ouvert la transcription ; la date de porte_par est à lire 10 septembre. Je ne peux pas
+    la corriger par ce dépôt.'
+- agent: expert-centre
+  texte: Le contre-argument vise la portée de la jurisprudence ; il ne dit pas que la Cour a jugé une conversion
+    en perpétuel illégale, elle ne s'est pas prononcée.
+- agent: expert-centre
+  texte: Les points 144 et 146 sont cités d'après la version EUR-Lex en français ; numérotation lue dans le texte
+    ouvert.
+- agent: expert-droite
+  texte: 'Correction de A3 : retrait de la phrase sur la révision des traités à l''unanimité, qui n''était appuyée
+    par aucune affirmation du dossier ; je n''ai pas ouvert de source pour la remplacer.'
+- agent: expert-droite
+  texte: Je n'ai pas cherché dans les arrêts C-62/14 et C-493/17 les garde-fous que la Cour juge nécessaires, qui
+    pourraient répondre à A5 ; aucune objection déposée faute de source ouverte.
+- agent: expert-extreme-droite
+  texte: 'Erreur factuelle dans mon propre argument A4 : le champ porte_par date la déclaration de Christine Lagarde
+    du 11 septembre 2026 (date de l''article Euronews, S11) ; selon la vérification de F10, la conférence de presse
+    a eu lieu le 10 septembre 2026. À lire comme le 10 septembre.'
+- agent: expert-extreme-droite
+  texte: A4 attribue l'argument à la présidente de la BCE, qui n'est pas un parti de ma famille ; je n'ai trouvé
+    au passage 2 aucun texte daté du RN, de l'UDR ou de Reconquête sur ce point précis, et je n'en fabrique pas.
+- agent: expert-extreme-droite
+  texte: 'Aucune nouvelle source ouverte pendant cette confrontation : pas d''objection ni de contre-argument déposé,
+    faute d''élément vérifiable nouveau.'
+- agent: expert-gauche-radicale
+  texte: 'La correction de A5 précise la portée de F4 (achats, pas conversion en titres perpétuels) : aucune jurisprudence
+    trouvée sur la conversion ou l''annulation.'
 agents:
 - phase: 1-bis
   agent: bibliothecaire
@@ -197,3 +232,8 @@ agents:
   jetons: 32879
   outils: 3
   duree_ms: 24725
+- phase: '4'
+  agent: expert-centre
+  jetons: 41873
+  outils: 10
+  duree_ms: 64447
