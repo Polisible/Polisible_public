@@ -155,9 +155,12 @@
   declaration: true
   auteur: expert-centre
   passage: 1
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Plutôt vrai
+  explication: La transcription officielle de la BCE (ecb.europa.eu, ecb.is260910) confirme que Christine Lagarde
+    a dit, en anglais, que tout ce qui irait contre l'interdiction de financement de la dette serait « a pure violation
+    of the Treaty », en réponse à une question sur le gel ou l'annulation d'une part de la dette française. Mais
+    la conférence de presse a eu lieu le 10 septembre 2026 à Berlin, pas le 11 (date de l'article d'Euronews).
+  statut: verifiee
 - id: F11
   enonce: Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le
     marché secondaire, auprès d'institutions financières, et non directement à l'État.
@@ -169,9 +172,11 @@
   declaration: false
   auteur: expert-droite
   passage: 1
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Vrai
+  explication: La FAQ de la BCE sur le programme PSPP indique que l'Eurosystème n'a jamais acheté sur le marché
+    primaire, ces achats étant interdits par l'article 123 du TFUE ; cet article (F1) interdit l'achat direct à
+    l'État pour tous les programmes. Public Sénat (niveau 4) rapporte la même chose ; doublon de F13.
+  statut: verifiee
 - id: F12
   enonce: 'Une décision d''annuler spécifiquement la dette française détenue par l''Eurosystème ne pourrait pas
     être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE.'
@@ -183,9 +188,13 @@
   declaration: false
   auteur: expert-droite
   passage: 1
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Plutôt vrai
+  explication: 'Les statuts du SEBC (art. 12.1) confient la politique monétaire au Conseil des gouverneurs, et les
+    banques centrales nationales agissent selon les orientations et instructions de la BCE (art. 14.3) ; l''article
+    130 TFUE interdit les instructions des gouvernements (F3). Aucun texte ni arrêt ne traite toutefois de l''annulation
+    en particulier, et selon la présidente de la BCE (10 septembre 2026) une telle décision serait de toute façon
+    contraire à l''article 123 : la compétence du Conseil ne signifie pas qu''il pourrait la prendre.'
+  statut: verifiee
 - id: F13
   enonce: Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur le
     marché secondaire (auprès d'institutions financières), non auprès de l'État.
@@ -197,9 +206,11 @@
   declaration: false
   auteur: expert-gauche-radicale
   passage: 1
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Vrai
+  explication: 'Même contenu que F11 (doublon) : la FAQ de la BCE sur le PSPP indique qu''aucun achat n''a eu lieu
+    sur le marché primaire, en raison de l''article 123 du TFUE, qui interdit l''achat direct aux États pour tous
+    les programmes.'
+  statut: verifiee
 - id: F14
   enonce: Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE peut
     et doit mettre au congélateur les dettes des États.
@@ -211,6 +222,8 @@
   declaration: true
   auteur: expert-gauche-radicale
   passage: 1
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Vrai
+  explication: Public Sénat (25 août 2026) rapporte cette phrase, prononcée « dimanche » (23 août 2026) lors du
+    discours de clôture des universités d'été de LFI à Châteauneuf-sur-Isère. L'enregistrement du discours n'a pas
+    été consulté ; la presse suffit ici pour rapporter une déclaration.
+  statut: verifiee

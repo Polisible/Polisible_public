@@ -69,3 +69,20 @@
   agent: coordinateur
   phase: '3'
   action: debut de la phase 3
+- date: '2026-11-10T20:14:34'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S11→conforme, S12→conforme, S13→conforme, S14→inaccessible, S15→conforme, S16→conforme, F10→Plutôt
+    vrai, F11→Vrai, F12→Plutôt vrai, F13→Vrai, F14→Vrai
+- date: '2026-11-10T20:14:34'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T20:14:34'
+  agent: coordinateur
+  phase: '4'
+  action: 'debut de la phase 4 (un passage, 7 experts (premier passage : tous))'
+- date: '2026-11-10T20:14:34'
+  agent: coordinateur
+  phase: '4'
+  action: début du passage 2

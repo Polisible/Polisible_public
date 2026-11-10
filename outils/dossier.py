@@ -39,7 +39,8 @@ FICHIERS = ["questions", "arguments", "affirmations", "sources", "objections", "
 PREFIXE = {"arguments": "A", "affirmations": "F", "sources": "S", "objections": "O", "valeurs": "V", "questions": "Q"}
 ID_GLOBAL = re.compile(r"^[AFSOVQ]\d+$")
 # une affirmation porte sur le fond ; « X a dit que… » va dans porte_par (sauf declaration: true)
-DECLARATIF = re.compile(r"\b(a|ont) (déclaré|écrit|dit|jugé|qualifié|estimé|affirmé|souligné|indiqué|rappelé|averti)\b|"
+DECLARATIF = re.compile(r"\b(a|ont) (déclaré|écrit|dit|jugé|qualifié|estimé|affirmé|souligné|indiqué|rappelé|averti|proposé)\b|"
+                        r"\b(déclare|qualifie|affirme|estime|juge|écrit|souligne|dénonce)\b|"
                         r"\bselon (lui|elle|eux|un|une|le|la|les|l'|[A-Z])|\b(estime|juge|considère|affirme) que\b", re.I)
 PHASES = {"1": "Cadrage", "2": "Contributions indépendantes", "3": "Vérification",
           "4": "Confrontation", "5": "Stabilisation", "6": "Rédaction",

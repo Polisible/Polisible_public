@@ -128,8 +128,10 @@
   adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (Euronews, Olivier Tolachides, publié le 11 septembre 2026) ; l''extrait y figure mot
+    pour mot. L''article ne date pas la conférence de presse : la transcription officielle de la BCE la situe le
+    10 septembre 2026 (voir F10).'
 - id: S12
   titre: '"Annuler" la dette : pourquoi c''est impossible et dangereux'
   auteur: Fondation IFRAP
@@ -137,8 +139,11 @@
   adresse: https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux
   niveau: 3
   ajoutee_par: expert-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon titre et bon auteur (Fondation IFRAP) ; l''extrait y figure mot pour mot, suivi de la phrase
+    sur le Conseil des gouverneurs. La date du 1er septembre 2026 n''apparaît pas dans la page (pas de date en métadonnées
+    ; les notes citent des articles jusqu''au 27 août 2026) : non confirmée. Source de niveau 3 : elle restitue
+    un argument, le fait F12 a été contrôlé sur les statuts du SEBC.'
 - id: S13
   titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de
     nombreuses difficultés'
@@ -147,8 +152,10 @@
   adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
   niveau: 4
   ajoutee_par: expert-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Bon document (Public Sénat, 25 août 2026) ; les deux extraits y figurent mot pour mot. La citation
+    de Jean-Luc Mélenchon est datée « dimanche », lors du discours de clôture des universités d'été de LFI à Châteauneuf-sur-Isère,
+    soit le dimanche 23 août 2026.
 - id: S14
   titre: (à établir)
   auteur: (à établir)
@@ -156,11 +163,14 @@
   adresse: https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-par-la-banque-de-france
   niveau: null
   ajoutee_par: expert-ecologistes
-  statut: demandee
+  statut: inaccessible
   demande:
     pourquoi: même communiqué, version page web
     erreur: '403'
-  note_verif: null
+  note_verif: 'Réessayé le 10 novembre 2026 : 403. Essayé aussi : version anglaise (banque-france.fr/en/node/1924173,
+    403) et variante d''adresse « …dette-publique-detenue-par-la-banque-de-france » (403) ; le PDF CP_BDF_Dette_120926
+    est déjà signalé en 403. Titre, auteur et niveau non établis faute d''ouverture ; un résumé de moteur de recherche
+    n''a pas été retenu comme source.'
 - id: S15
   titre: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat
   auteur: Euronews
@@ -168,8 +178,9 @@
   adresse: https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-
   niveau: 4
   ajoutee_par: expert-extreme-droite
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : Euronews, Eleonora Vasques, publié le 27 août 2026, titre conforme. Aucune affirmation
+    de ce lot ne le cite.'
 - id: S16
   titre: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale
     européenne et de sa transformation en dette perpétuelle
@@ -178,5 +189,7 @@
   adresse: https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
   niveau: 3
   ajoutee_par: expert-gauche-radicale
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document : proposition de résolution n° 2914, XVe législature, enregistrée le 11 mai 2020, présentée
+    par Jean-Luc Mélenchon et les députés du groupe La France insoumise ; titre conforme. Aucune affirmation de
+    ce lot ne la cite.'

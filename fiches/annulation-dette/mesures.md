@@ -7,9 +7,10 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | Phase | Début | Fin | Durée | Passages | Agents lancés | Jetons | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1-bis. Cadrage | 2026-11-10T20:03:44 | 2026-11-10T20:07:34 | 3 min 50 s | 1 | 1 | 126533 | bibliothèque commune |
-| 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 1 | 46507 | vérification de la bibliothèque commune |
+| 3. Vérification | 2026-11-10T20:07:34 | 2026-11-10T20:09:47 | 2 min 13 s | 1 | 2 | 95701 | vérification de la bibliothèque commune |
 | 2. Contributions indépendantes | 2026-11-10T20:09:47 | 2026-11-10T20:11:41 | 1 min 54 s | 1 | 7 | 211044 |  |
-| 3-bis. Vérification | 2026-11-10T20:11:42 | — | — | 1 | 0 | — |  |
+| 3-bis. Vérification | 2026-11-10T20:11:42 | 2026-11-10T20:14:34 | 2 min 52 s | 1 | 0 | — |  |
+| 4. Confrontation | 2026-11-10T20:14:34 | — | — | 1 | 0 | — | un passage, 7 experts (premier passage : tous) |
 
 ## Par agent
 
@@ -24,3 +25,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 2 | expert-extreme-gauche | 31190 | 9 | 0 min 53 s |
 | 2 | expert-extreme-droite | 31901 | 9 | 1 min 02 s |
 | 2 | expert-gauche-radicale | 40262 | 10 | 1 min 20 s |
+| 3 | verificateur-passage1 | 49194 | 18 | 2 min 32 s |
