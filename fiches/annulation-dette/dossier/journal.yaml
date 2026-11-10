@@ -270,3 +270,7 @@
   agent: coordinateur
   phase: '3'
   action: début du passage 3
+- date: '2026-11-10T21:26:13'
+  agent: verificateur
+  phase: '3'
+  action: a tranché O1→resolue
