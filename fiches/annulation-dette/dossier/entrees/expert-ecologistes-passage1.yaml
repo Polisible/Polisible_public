@@ -1,0 +1,139 @@
+agent: expert-ecologistes
+phase: 2
+sources:
+  - ref: s1
+    titre: "La dette, un sujet politique"
+    auteur: "Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique « L'économie à contre-courant », Politis"
+    date: "2026-09-14"
+    adresse: "https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/"
+    niveau: 3
+  - ref: s2
+    titre: "La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de l'ISF pour les Verts"
+    auteur: "FranceTransactions.com (avec AFP)"
+    date: "2020-06-15"
+    adresse: "https://www.francetransactions.com/actus/actualites-socio-economiques/les-verts-proposent-leur-plan-de-reconstructionecologique.html"
+    niveau: 4
+  - ref: s3
+    titre: "Revue de Presse : présentation du plan de sortie de crise"
+    auteur: "Les Écologistes (site officiel)"
+    date: "2025-09-05"
+    adresse: "https://lesecologistes.fr/posts/2aT2dm9CmbSGn92dKF4reV/revue-de-presse-presentation-du-plan-de-sortie-de-crise"
+    niveau: 3
+  - ref: s4
+    titre: "Notre projet économique : l'essentiel d'abord"
+    auteur: "Les Écologistes, commission Économie, social et services publics"
+    date: "2026-10-26"
+    adresse: "https://commissions.lesecologistes.fr/posts/5aYbJADuyXSxpSZqMNf76o/notre-projet-economique-l-essentiel-d-abord"
+    niveau: 3
+  - ref: s5
+    titre: "Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défend Marine Tondelier"
+    auteur: "Public Sénat"
+    date: "2024-06-20"
+    adresse: "https://www.publicsenat.fr/actualites/politique/credibilite-economique-de-la-gauche-il-y-a-de-la-bonne-et-de-la-mauvaise-dette-defend-marine-tondelier"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "L'Eurosystème (BCE et banques centrales nationales) détient environ 640 milliards d'euros de titres publics français en 2026."
+    type: fait
+    sources:
+      - {source: s1, extrait: "dont environ 640 milliards de titres publics français"}
+  - ref: f2
+    enonce: "Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à 800 milliards d'euros par an (rapport Draghi, 2024)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "L’Europe, selon le rapport Draghi, a besoin de 800 milliards d’euros d’investissements supplémentaires chaque année"}
+  - ref: f3
+    enonce: "Le programme adopté par Les Écologistes en juillet 2026 prévoit, au niveau européen, une révision des traités garantissant le non-dépassement des limites planétaires et la construction d'un État social européen."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s4, extrait: "une révision des traités garantissant le non-dépassement des limites planétaires ainsi que la construction d’un État social européen (ch. 60, mesure 3, p. 190)"}
+  - ref: f4
+    enonce: "En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé par une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement de l'ISF."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s2, extrait: "Pour financer ce plan, les Verts souhaitent une annulation de la dette française auprès de laBCE"}
+  - ref: f5
+    enonce: "Le plan présenté par Les Écologistes en septembre 2025 comprenait 28,5 milliards d'euros de recettes fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s3, extrait: "Ils proposent 28,5 milliards de recettes fiscales (notamment par le biais de la taxe Zucman sur les très hauts patrimoines, la contribution exceptionnelle sur les grandes entreprises)"}
+  - ref: f6
+    enonce: "Le plan présenté par Les Écologistes en septembre 2025 prévoyait de ramener le déficit public à 3,7 % du PIB en 2030, soit une réduction plus progressive que celle du gouvernement de l'époque."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s3, extrait: "pour le ramener à 3,7 % en 2030"}
+arguments:
+  - ref: a1
+    question: Q41
+    position: nuance
+    enonce: "Le traité interdit le crédit et l'achat direct de dette auprès des États, mais pas les achats sur le marché secondaire, que le SEBC pratique depuis 2015 et que la Cour de justice a validés sous conditions. La question juridique réelle est donc de savoir si une conversion ou une annulation de titres déjà détenus relève de l'interdiction du financement monétaire, et c'est une question de décision politique de l'Eurosystème."
+    raisonnement: "L'article 123 vise deux opérations précises : le crédit direct aux États et l'acquisition directe de leur dette (F1, F2). Les titres détenus par l'Eurosystème ont été acquis sur les marchés secondaires dans un programme que la Cour a jugé compatible avec le traité sous garanties (F8, F9, F10). Un texte qui n'évoque pas le traitement ultérieur de ces titres ne tranche pas l'annulation ; l'affirmer interdite comme certaine est une interprétation, et le conseil des gouverneurs de la BCE reste l'organe qui décide (F5). Cette lecture concerne l'annulation ou la conversion décidée par la BCE elle-même, pas une décision unilatérale de l'État."
+    porte_par:
+      - {qui: "Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026", parti: "Les Écologistes", source: s1}
+    affirmations: [F1, F2, F5, F8, F9, F10]
+  - ref: a2
+    question: Q45
+    position: contre
+    enonce: "Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n'est pas due à un créancier extérieur à la sphère publique, et la marge dégagée peut financer les investissements de la transition écologique. Le remboursement intégral n'est pas une obligation de principe mais un choix de politique économique."
+    raisonnement: "Les titres publics détenus par l'Eurosystème (environ 640 milliards d'euros pour la France en 2026, f1) sont le résultat d'achats de politique monétaire, non d'un prêt consenti par un épargnant ou un investisseur privé. Les intérêts versés à la banque centrale reviennent en partie à l'État (F7, F20). Comme l'Europe a besoin de 800 milliards d'euros d'investissements supplémentaires par an (f2), maintenir cette dette au bilan pour la rembourser prive l'investissement climatique d'une marge qui existe. Le parti a déjà proposé en 2020 de lier annulation de dette auprès de la BCE et financement de la reconstruction écologique (f4)."
+    porte_par:
+      - {qui: "Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026", parti: "Les Écologistes", source: s1}
+      - {qui: "Les Verts (EELV), plan de reconstruction écologique de juin 2020, porte-parole Eva Sas", parti: "Les Écologistes", source: s2}
+    affirmations: [f1, f2, f4, F7, F20]
+  - ref: a3
+    question: Q46
+    position: nuance
+    enonce: "Ni la seule décision nationale ni les règles européennes actuelles : la dette détenue par l'Eurosystème relève d'une décision européenne, qui doit passer sous contrôle démocratique et se fixer pour objectif la transition écologique. Les règles doivent être révisées par traité plutôt que contournées par un État seul."
+    raisonnement: "Les titres en cause sont détenus au sein de l'Eurosystème, dont le conseil des gouverneurs décide (F5), et les banques centrales nationales doivent respecter les statuts du SEBC (F4) : un État ne peut pas décider seul. Mais ces règles fixent l'objectif de politique budgétaire à des organes que le parti juge insuffisamment démocratiques, alors que les besoins d'investissement sont européens (f2). La réponse du parti est donc une révision des traités avec des objectifs écologiques et sociaux (f3), pas un repli national."
+    porte_par:
+      - {qui: "Les Écologistes, programme adopté en juillet 2026 (commission Économie, social et services publics, 26 octobre 2026)", parti: "Les Écologistes", source: s4}
+      - {qui: "Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre 2026", parti: "Les Écologistes", source: s1}
+    affirmations: [F4, F5, f2, f3]
+  - ref: a4
+    question: Q47
+    position: nuance
+    enonce: "L'annulation n'est pas présentée comme une alternative aux recettes et à l'investissement, mais comme un levier à combiner avec eux. Le parti a financé son plan de 2020 par l'annulation de dette auprès de la BCE et par une fiscalité plus juste, et son plan de 2025 repose sur des recettes fiscales et un rythme de réduction du déficit plus progressif."
+    raisonnement: "Le parti ne classe pas les leviers : en 2020 il associait annulation de la dette auprès de la BCE et rétablissement de l'ISF (f4) ; en 2025 il proposait 28,5 milliards d'euros de recettes fiscales (f5) et un retour à 3,7 % de déficit en 2030, plus lent que celui du gouvernement (f6). Le critère est l'usage de la dette et de la marge dégagée : « bonne » dette quand elle finance le climat et la justice sociale, « mauvaise » dette sinon, selon la formule de sa secrétaire nationale."
+    porte_par:
+      - {qui: "Les Verts (EELV), plan de reconstruction écologique de juin 2020", parti: "Les Écologistes", source: s2}
+      - {qui: "Les Écologistes, plan de sortie de crise présenté le 4 septembre 2025", parti: "Les Écologistes", source: s3}
+      - {qui: "Marine Tondelier, secrétaire nationale, déclaration du 20 juin 2024", parti: "Les Écologistes", source: s5}
+    affirmations: [f4, f5, f6]
+valeurs:
+  - {question: Q45, enonce: "Les Écologistes mettent en priorité la capacité de la puissance publique à financer la bifurcation écologique et la justice sociale ; ils jugent que le principe de remboursement intégral s'efface quand le créancier est l'institution monétaire publique."}
+  - {question: Q46, enonce: "Ils mettent en priorité la souveraineté démocratique face aux marchés financiers, exercée à l'échelle européenne plutôt que nationale seule, avec des règles révisées pour intégrer les limites planétaires."}
+  - {question: Q47, enonce: "Ils refusent d'opposer les leviers : justice fiscale, investissement climatique et marges dégagées sur la dette sont jugés complémentaires, l'usage de l'argent comptant plus que le levier choisi."}
+sans_position:
+  - question: Q42
+    lieux_consultes:
+      - {categorie: programme, ou: "programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme complet non ouvert)", resultat: "aucune mention de la dette détenue par la BCE ni des taux d'emprunt"}
+      - {categorie: site, ou: "lesecologistes.fr : revue de presse du plan de septembre 2025", resultat: "plan sur déficit et recettes, rien sur un effet de l'annulation sur les taux"}
+      - {categorie: dirigeants, ou: "recherches presse août-novembre 2026 sur Tondelier et élus écologistes", resultat: "aucune déclaration trouvée sur la proposition d'août 2026 ; seule prise de position écologiste trouvée : chronique de Jérôme Gleizes (Politis, 14 septembre 2026), qui ne traite pas des taux"}
+      - {categorie: parlement, ou: "recherche web sur assemblee-nationale.fr (amendements, comptes rendus)", resultat: "aucun texte du groupe écologiste trouvé ; l'amendement 1047 au projet de loi de finances est de La France insoumise ; Sénat et Parlement européen non consultés"}
+  - question: Q43
+    lieux_consultes:
+      - {categorie: programme, ou: "programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme complet non ouvert)", resultat: "aucune mention de la charge d'intérêts de l'État ni des reversements de la Banque de France"}
+      - {categorie: site, ou: "lesecologistes.fr : revue de presse du plan de septembre 2025", resultat: "rien sur ce point précis"}
+      - {categorie: dirigeants, ou: "recherches presse août-novembre 2026", resultat: "aucune déclaration trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) parle de « marge de manœuvre » sans chiffrer la charge d'intérêts ni les reversements"}
+      - {categorie: parlement, ou: "recherche web sur assemblee-nationale.fr", resultat: "aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés"}
+  - question: Q44
+    lieux_consultes:
+      - {categorie: programme, ou: "programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme complet non ouvert)", resultat: "révision des traités mentionnée (f3) ; rien sur la crédibilité de l'euro ni l'indépendance de la BCE"}
+      - {categorie: site, ou: "lesecologistes.fr : revue de presse du plan de septembre 2025", resultat: "rien sur ce point"}
+      - {categorie: dirigeants, ou: "recherches presse août-novembre 2026", resultat: "aucune déclaration de dirigeant trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) écarte les « objections techniques » sans traiter l'indépendance de la BCE"}
+      - {categorie: parlement, ou: "recherche web sur assemblee-nationale.fr", resultat: "aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés"}
+sources_demandees:
+  - {adresse: "https://cf.eelv.fr/files/2021/04/Projet-2022-Monnaie-Note-de-cadrage_v2.pdf", pourquoi: "note de cadrage monnaie d'EELV (avril 2021) : annulation de dettes détenues par l'Eurosystème, avec plafond lié aux investissements écologiques (connue par un résumé de recherche seulement, non ouverte)", erreur: "404"}
+incertitudes:
+  - "Aucune déclaration officielle des Écologistes ni de Marine Tondelier sur la proposition d'août 2026 n'a été trouvée ; les arguments déposés reposent sur une chronique individuelle (Gleizes) et sur des positions de 2020 et 2025."
+  - "Jérôme Gleizes est décrit comme conseiller EELV de Paris par Politis en janvier 2023 ; son statut en 2026 n'est pas vérifié. S'il n'est plus membre, a1, a2 et a3 perdent cette attribution (a3 garde s4)."
+  - "La chronique de Gleizes (a1) contient un raisonnement juridique en une phrase : le vérificateur peut juger qu'elle ne couvre pas la conversion perpétuelle."
+  - "Le plan de juin 2020 est connu par une dépêche AFP reprise par un site financier (niveau 4), non par un texte du parti ; sa date est celle de la publication. Il parle d'annulation, pas de dette perpétuelle."
+  - "La revue de presse du site des Écologistes (s3) ne porte pas de date : septembre 2025 est déduit des dates internes (4 et 5 septembre) et du contexte ; à confirmer."
+  - "Le chiffre de 640 milliards d'euros de titres publics français (f1) et celui de 800 milliards d'investissements (f2) viennent d'une chronique ; le vérificateur doit les confronter aux sources officielles (BCE, rapport Draghi)."
+  - "Le programme complet de juillet 2026 n'a pas été ouvert ; seul un texte de présentation l'a été. Il pourrait contenir une position sur la dette BCE non vue."
+  - "Les trois positions sans_position (Q42, Q43, Q44) reposent sur une recherche web limitée ; Sénat et Parlement européen n'ont pas été consultés."
