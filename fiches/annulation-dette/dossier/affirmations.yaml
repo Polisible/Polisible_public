@@ -999,3 +999,19 @@
   explication: 'Déclaration vérifiée : la même tribune de 2021 propose « un contrat entre les Etats européens et
     la BCE », et non une décision prise par un seul État.'
   statut: verifiee
+- id: F61
+  enonce: Un document de travail des services de la BCE (2004) retient comme hypothèse plus réaliste que des pertes
+    prolongées d'une banque centrale conduiraient à une perte totale de crédibilité, la crédibilité variant avec
+    le niveau de capital.
+  type: estimation
+  sources:
+  - source: S54
+    extrait: It is hence important to distinguish between a situation where an assumed absence of central bank’s
+      concerns about balance sheet strength is shared by the public and the State, and the more realistic situation
+      where prolonged central bank losses would lead to a complete loss of credibility.
+  declaration: true
+  auteur: expert-sociaux-democrates
+  passage: 4
+  verdict: null
+  explication: null
+  statut: en-attente

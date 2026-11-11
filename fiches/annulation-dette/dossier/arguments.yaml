@@ -373,8 +373,9 @@
 - id: A10
   question: Q45
   position: non
-  enonce: Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale, qui n'est pas due
-    à un créancier extérieur à la sphère publique. La marge dégagée peut financer la transition écologique.
+  enonce: 'Un État n''a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n''est pas
+    due à un créancier extérieur à la sphère publique. Si l''annulation dégage une marge nette, celle-ci peut financer
+    des investissements de transition écologique.'
   porte_par:
   - parti: LE
     date: '2020-06-15'
@@ -385,12 +386,10 @@
   - F34
   - F7
   - F20
-  raisonnement: Les titres publics détenus par l'Eurosystème (environ 640 milliards d'euros pour la France en 2026,
-    F31) sont le résultat d'achats de politique monétaire, non d'un prêt consenti par un épargnant ou un investisseur
-    privé. Les intérêts versés à la banque centrale reviennent en partie à l'État (F7, F20). Comme l'Europe a besoin
-    de 800 milliards d'euros d'investissements supplémentaires par an (F32), maintenir cette dette au bilan pour
-    la rembourser prive l'investissement climatique d'une marge qui existe. Le parti a déjà proposé en 2020 de lier
-    annulation de dette auprès de la BCE et financement de la reconstruction écologique (F34).
+  raisonnement: Les titres détenus par l'Eurosystème résultent d'achats de politique monétaire (F31), et une part
+    des intérêts revient à l'État (F7, F20). Le remboursement oblige donc à financer la somme ailleurs. L'ampleur
+    de la marge nette n'est pas chiffrée (F41) ; si elle existe, l'Europe a besoin d'investissements supplémentaires
+    (F32), et le parti a déjà lié annulation et reconstruction écologique (F34).
   repond_a: null
   auteur: expert-ecologistes
   passage: 1
@@ -411,6 +410,16 @@
       source: S24
       personne_ou_groupe_ancien: Les Verts (EELV), plan de reconstruction écologique de juin 2020, porte-parole
         Eva Sas
+  - passage: 4
+    enonce: Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale, qui n'est pas due
+      à un créancier extérieur à la sphère publique. La marge dégagée peut financer la transition écologique.
+    raisonnement: Les titres publics détenus par l'Eurosystème (environ 640 milliards d'euros pour la France en
+      2026, F31) sont le résultat d'achats de politique monétaire, non d'un prêt consenti par un épargnant ou un
+      investisseur privé. Les intérêts versés à la banque centrale reviennent en partie à l'État (F7, F20). Comme
+      l'Europe a besoin de 800 milliards d'euros d'investissements supplémentaires par an (F32), maintenir cette
+      dette au bilan pour la rembourser prive l'investissement climatique d'une marge qui existe. Le parti a déjà
+      proposé en 2020 de lier annulation de dette auprès de la BCE et financement de la reconstruction écologique
+      (F34).
   corrige: true
 - id: A11
   question: Q46
@@ -504,7 +513,7 @@
   corrige: true
 - id: A13
   question: Q43
-  position: non
+  position: nuance
   enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
     une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source du
     dossier ne chiffre ce recul.
@@ -538,6 +547,8 @@
       source: S29
       personne_ou_groupe_ancien: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23
         août 2026, rapportée par la presse)
+  - passage: 4
+    position: non
   corrige: true
 - id: A14
   question: Q47
@@ -1263,11 +1274,10 @@
   - F1
   - F2
   - F5
-  raisonnement: Le traité interdit deux actes précis (découvert ou crédit, achat direct de titres, F1 et F2) ; l'annulation
-    d'une créance acquise sur le marché secondaire n'est pas l'un d'eux. Comme l'interdiction n'est pas explicite
-    et que le conseil des gouverneurs arrête les décisions du SEBC (F5), l'effacement relève d'une décision de la
-    BCE et non d'une impossibilité juridique. Cet argument est contesté par la BCE (F11, F13) ; il est la position
-    de 2021 d'une élue de Place publique, antérieure à la proposition de 2026.
+  raisonnement: 'Le traité interdit deux actes précis (F1, F2) ; l''annulation d''une créance acquise sur le marché
+    secondaire n''en est pas un, et le conseil des gouverneurs décide (F5). Ce silence n''établit pas l''autorisation
+    (F27) : aucun avis d''institution ne traite ce cas. La proposition de 2021 passait par un contrat avec la BCE
+    (F60), non par une décision d''un gouvernement.'
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
@@ -1283,13 +1293,19 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: Le traité interdit deux actes précis (découvert ou crédit, achat direct de titres, F1 et F2) ;
+      l'annulation d'une créance acquise sur le marché secondaire n'est pas l'un d'eux. Comme l'interdiction n'est
+      pas explicite et que le conseil des gouverneurs arrête les décisions du SEBC (F5), l'effacement relève d'une
+      décision de la BCE et non d'une impossibilité juridique. Cet argument est contesté par la BCE (F11, F13) ;
+      il est la position de 2021 d'une élue de Place publique, antérieure à la proposition de 2026.
   corrige: true
 - id: A33
   question: Q44
   position: non
-  enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes ; aucune institution ne chiffre l'effet de
-    fonds propres durablement négatifs. Si le conseil des gouverneurs décide lui-même l'effacement, aucun gouvernement
-    ne donne d'instruction.
+  enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes (F58) ; si son conseil décide lui-même l'effacement,
+    aucun gouvernement ne donne d'instruction (F3, F5). L'effet de fonds propres négatifs sur la crédibilité n'est
+    pas établi.
   porte_par:
   - personne: Aurore Lalucq
     fonction: députée européenne
@@ -1301,11 +1317,9 @@
   - F58
   - F3
   - F5
-  raisonnement: Le risque pour la crédibilité vient de l'idée qu'une perte comptable empêcherait la banque centrale
-    d'agir. Si elle peut fonctionner avec des fonds propres négatifs (F58) et si l'effacement est décidé par son
-    propre conseil des gouverneurs sans instruction d'un gouvernement (F3, F5), ni sa capacité d'action ni son indépendance
-    ne sont atteintes. Position de 2021, avant la proposition de 2026 ; elle porte sur un effacement décidé par
-    la BCE, pas imposé par un État.
+  raisonnement: Le volet indépendance découle de F3 et F5 pour une décision du conseil. Le volet capacité d'action
+    repose sur F58 (débat entre experts) ; un document des services de la BCE tient la perte de crédibilité pour
+    possible en cas de pertes prolongées (f1). Ce volet n'est donc pas démontré.
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
@@ -1321,6 +1335,15 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes ; aucune institution ne chiffre l'effet
+      de fonds propres durablement négatifs. Si le conseil des gouverneurs décide lui-même l'effacement, aucun gouvernement
+      ne donne d'instruction.
+    raisonnement: Le risque pour la crédibilité vient de l'idée qu'une perte comptable empêcherait la banque centrale
+      d'agir. Si elle peut fonctionner avec des fonds propres négatifs (F58) et si l'effacement est décidé par son
+      propre conseil des gouverneurs sans instruction d'un gouvernement (F3, F5), ni sa capacité d'action ni son
+      indépendance ne sont atteintes. Position de 2021, avant la proposition de 2026 ; elle porte sur un effacement
+      décidé par la BCE, pas imposé par un État.
   corrige: true
 - id: A34
   question: Q45
@@ -1338,10 +1361,9 @@
   affirmations:
   - F16
   - F17
-  raisonnement: 'La créance d''une banque centrale n''est pas celle d''un épargnant privé : l''État se la doit en
-    partie à lui-même (F17). Rembourser obligerait à rouler la dette au lieu d''investir, à augmenter les impôts
-    ou à baisser les dépenses ; l''effacement évite ces choix sans spolier de créancier privé. Argument de 2021
-    ; l''obligation de rembourser des créanciers privés n''est pas remise en cause par ce texte.'
+  raisonnement: La créance d'une banque centrale n'est pas celle d'un épargnant privé (F17). Rembourser oblige à
+    réemprunter, à lever l'impôt ou à réduire la dépense ; l'effacement évite ces choix sans léser de créancier
+    privé. La marge nette pour l'État n'est pas chiffrée, des intérêts lui revenant en partie (F41, F20).
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
@@ -1357,6 +1379,11 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'La créance d''une banque centrale n''est pas celle d''un épargnant privé : l''État se la doit
+      en partie à lui-même (F17). Rembourser obligerait à rouler la dette au lieu d''investir, à augmenter les impôts
+      ou à baisser les dépenses ; l''effacement évite ces choix sans spolier de créancier privé. Argument de 2021
+      ; l''obligation de rembourser des créanciers privés n''est pas remise en cause par ce texte.'
   corrige: true
 - id: A35
   question: Q46
@@ -1396,8 +1423,8 @@
 - id: A36
   question: Q47
   position: nuance
-  enonce: 'L''effacement se substitue aux autres leviers s''il est conditionné : les États s''engagent à investir
-    les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile.'
+  enonce: 'L''effacement ne se substitue aux autres leviers que s''il est conditionné : les États s''engagent à
+    investir les montants effacés. La marge nette qu''il dégagerait n''est pas chiffrée.'
   porte_par:
   - personne: Aurore Lalucq
     fonction: députée européenne
@@ -1408,10 +1435,10 @@
   affirmations:
   - F59
   - F17
-  raisonnement: 'Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17 pour l''ampleur
-    de la détention). L''effacement évite ces trois choix, mais le texte de 2021 en fait un échange : le même montant
-    doit être investi dans la reconstruction écologique et sociale (F59). L''effacement n''est donc pas présenté
-    comme préférable en soi, mais comme un contrat avec un usage défini.'
+  raisonnement: 'Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17). Le texte
+    de 2021 fait de l''effacement un échange : le même montant est investi dans la reconstruction écologique et
+    sociale (F59). La marge nette n''est pas établie (F41, F20) : l''effacement n''est pas présenté comme préférable
+    en soi.'
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
@@ -1425,6 +1452,13 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    enonce: 'L''effacement se substitue aux autres leviers s''il est conditionné : les États s''engagent à investir
+      les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile.'
+    raisonnement: 'Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17 pour l''ampleur
+      de la détention). L''effacement évite ces trois choix, mais le texte de 2021 en fait un échange : le même
+      montant doit être investi dans la reconstruction écologique et sociale (F59). L''effacement n''est donc pas
+      présenté comme préférable en soi, mais comme un contrat avec un usage défini.'
   corrige: true
 - id: A37
   question: Q41
@@ -1793,9 +1827,9 @@
   - F5
   - F60
   - F26
-  raisonnement: 'La prime de risque tient à un État qui « change les règles » seul. Si la décision est prise par
-    la BCE elle-même (F5, F60), sans instruction d''un gouvernement (F3), cette prémisse manque. F26 n''a pas d''estimation
-    fiable : le gain « rogné » par un surcoût n''est pas démontré.'
+  raisonnement: La prime de risque tient à un État qui « change les règles » seul. Si la BCE décide (F5, F60), sans
+    instruction d'un gouvernement (F3), cette prémisse manque. Un doute sur le financement monétaire (F9) peut subsister
+    ; aucune estimation n'existe dans un sens ou l'autre (F26).
   repond_a: A2
   auteur: expert-sociaux-democrates
   passage: 3
@@ -1813,6 +1847,10 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'La prime de risque tient à un État qui « change les règles » seul. Si la décision est prise par
+      la BCE elle-même (F5, F60), sans instruction d''un gouvernement (F3), cette prémisse manque. F26 n''a pas
+      d''estimation fiable : le gain « rogné » par un surcoût n''est pas démontré.'
   corrige: true
 - id: A48
   question: Q44
@@ -1831,8 +1869,9 @@
   - F5
   - F27
   raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
-    n''est donnée. L''atteinte à la crédibilité suppose en outre que l''opération soit contraire aux traités (F27),
-    ce qui est invérifiable : la compatibilité est disputée.'
+    n''est donnée. Pour la crédibilité, la compatibilité avec les traités est disputée (F27) : le doute sur le financement
+    monétaire (F9) n''est pas établi, mais pas écarté non plus. L''atteinte à la crédibilité n''est démontrée dans
+    aucun sens.'
   repond_a: A3
   auteur: expert-sociaux-democrates
   passage: 3
@@ -1849,6 +1888,10 @@
     - parti: PP
       source: S43
       personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
+      n''est donnée. L''atteinte à la crédibilité suppose en outre que l''opération soit contraire aux traités (F27),
+      ce qui est invérifiable : la compatibilité est disputée.'
   corrige: true
 - id: A49
   question: Q45

@@ -678,3 +678,12 @@
   note_verif: 'Bon document (Politis, 29 mai 2024). Il indique qu''en 2019 Aurore Lalucq « rejoint Place publique
     et est élue au Parlement européen », et qu''elle est eurodéputée sur la liste PS-Place publique en 2024 : 2021
     est encadré par ces deux dates, sans être établi directement.'
+- id: S54
+  titre: The Role of Central Bank Capital Revisited (ECB Working Paper Series No. 392)
+  auteur: Ulrich Bindseil, Andres Manzanares, Benedict Weller (BCE)
+  date: '2004-09-01'
+  adresse: https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp392.pdf
+  niveau: 2
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null

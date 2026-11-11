@@ -454,3 +454,32 @@
   phase: '5'
   action: 30 thèses, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20,
     R21, R22, R23, R24, R25, R26
+- date: '2026-11-11T12:06:56'
+  agent: expert-centre
+  phase: '5'
+  action: 'a ajouté 9 réponses aux relances, 0 contestations ; incertitudes signalées : 2'
+- date: '2026-11-11T12:06:57'
+  agent: expert-droite
+  phase: '5'
+  action: 'a ajouté 2 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T12:06:58'
+  agent: expert-ecologistes
+  phase: '5'
+  action: 'a ajouté corriger A10, 2 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T12:06:59'
+  agent: expert-extreme-droite
+  phase: '5'
+  action: 'a ajouté corriger A13, 1 réponses aux relances, 0 contestations ; incertitudes signalées : 2'
+- date: '2026-11-11T12:07:00'
+  agent: expert-extreme-gauche
+  phase: '5'
+  action: 'a ajouté 3 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T12:07:01'
+  agent: expert-gauche-radicale
+  phase: '5'
+  action: 'a ajouté 9 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T12:07:01'
+  agent: expert-sociaux-democrates
+  phase: '5'
+  action: 'a ajouté S54, F61, corriger A32, corriger A47, corriger A33, corriger A48, corriger A34, corriger A36,
+    7 réponses aux relances, 0 contestations ; incertitudes signalées : 2'

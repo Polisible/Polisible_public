@@ -382,6 +382,11 @@ agents:
   jetons: 41005
   outils: 12
   duree_ms: 57044
+- phase: 5-bis
+  agent: expert-sociaux-democrates
+  jetons: 53985
+  outils: 13
+  duree_ms: 92673
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -838,5 +843,35 @@ incertitudes:
 - agent: expert-sociaux-democrates
   texte: 'V27 et V33 retirées : doublons de V15 sans porteur propre ; la distinction créancier privé/public n''est
     pas formulée comme priorité dans S43.'
+- agent: expert-centre
+  texte: Le bulletin n° 260/6 de la Banque de France (S9) a renvoyé une erreur 403 à l'ouverture ; sa teneur n'a
+    été reprise que d'après le dossier.
+- agent: expert-centre
+  texte: La recherche d'une source isolant la part des titres d'État dans le résultat de la Banque de France n'a
+    pas été exhaustive.
+- agent: expert-droite
+  texte: 'Absence de position publique de LR sur la dette détenue par la banque centrale en 2026 : constatée dans
+    la presse consultée, pas dans les textes parlementaires ou le site du parti, non consultés pour cette relance.'
+- agent: expert-ecologistes
+  texte: Aucune estimation institutionnelle de la marge nette n'a été trouvée ; la recherche n'a pas été étendue
+    au-delà du dossier.
+- agent: expert-extreme-droite
+  texte: Aucune source ouverte n'isole la part des intérêts des titres de l'État dans le résultat de la Banque de
+    France.
+- agent: expert-extreme-droite
+  texte: Je ne sais pas si le revenu monétaire mis en commun dans l'Eurosystème empêche tout lien direct entre intérêts
+    perçus sur titres français et versements à l'État.
+- agent: expert-extreme-gauche
+  texte: 'Aucune source officielle ouverte pour les trois présupposés (dette née de cadeaux fiscaux, intérêts en
+    emplois, aides ayant creusé la dette) : une recherche rapide n''a pas donné de source ouverte.'
+- agent: expert-gauche-radicale
+  texte: 'Aucune recherche nouvelle n''a été faite : les réponses constatent l''absence de source dans le dossier
+    et dans les textes déjà ouverts.'
+- agent: expert-sociaux-democrates
+  texte: f1 est un document de travail de 2004, non une position officielle de la BCE ; il ne traite pas d'un effacement
+    décidé par le conseil des gouverneurs.
+- agent: expert-sociaux-democrates
+  texte: Aucune source d'institution n'a été trouvée sur le cas précis de l'annulation de titres déjà détenus, sur
+    la marge nette ni sur l'effet sur la crédibilité.
 examen_obligatoire: true
 titre_fiche: L'annulation de la dette publique détenue par la Banque de France
