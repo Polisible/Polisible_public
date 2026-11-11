@@ -1,0 +1,63 @@
+agent: expert-droite
+phase: 6
+corrections:
+  - vise: A7
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Un État doit rembourser sa dette, y compris quand le créancier est la banque centrale : l'État engage son peuple, et renoncer à une dette ferait perdre la confiance qui permet d'emprunter."
+    raisonnement: "Une dette est un engagement pris au nom des contribuables. Si l'État peut s'en délier, aucun engagement futur n'est crédible. Une dette lourde appelle une redéfinition des priorités de dépense, non sa disparition ; cette position date de décembre 2020 et ne porte pas sur la proposition d'août 2026."
+    porte_par:
+      - {personne: "Jean-François Husson", fonction: "sénateur, rapporteur de la commission des finances du Sénat", parti: LR, date: "2020-12-28", source: S21}
+  - vise: A8
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Pour dégager des marges budgétaires, la voie retenue est de réduire la dépense publique et de viser un excédent primaire, plutôt que de toucher au stock de dette."
+    raisonnement: "Le plan présenté le 12 octobre 2026 finance l'effort par des économies sur l'État et les dépenses sociales (F30), avec un déficit sous 3 % en 2031. Les marges viennent de la dépense maîtrisée. Le plan ne mentionne pas l'annulation : l'argument en est une lecture par le choix des moyens."
+    porte_par:
+      - {personne: "Bruno Retailleau", fonction: "candidat à l'élection présidentielle de 2027", parti: LR, date: "2026-10-12", source: S22}
+  - {vise: A41, action: retirer, normalise: true}
+  - {vise: A42, action: retirer, normalise: true}
+  - vise: V4
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la parole donnée de l'État : honorer ses dettes conditionne la confiance des citoyens et des prêteurs, quel que soit le créancier."
+    porte_par:
+      - {personne: "Jean-François Husson", fonction: "sénateur, rapporteur de la commission des finances du Sénat", parti: LR, date: "2020-12-28", source: S21}
+  - vise: V20
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la parole donnée par l'État : une dette se rembourse quel que soit le créancier, car y renoncer ferait perdre la confiance."
+    porte_par:
+      - {personne: "Jean-François Husson", fonction: "sénateur, rapporteur de la commission des finances du Sénat", parti: LR, date: "2020-12-28", source: S21}
+  - vise: V28
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la continuité des engagements de l'État envers ses contribuables et ses prêteurs : la parole donnée ne dépend pas du créancier."
+    porte_par:
+      - {personne: "Jean-François Husson", fonction: "sénateur, rapporteur de la commission des finances du Sénat", parti: LR, date: "2020-12-28", source: S21}
+  - vise: V5
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la maîtrise de la dépense publique et au retour à l'équilibre des comptes plutôt qu'à un allègement de la dette."
+    porte_par:
+      - {personne: "Bruno Retailleau", fonction: "candidat à l'élection présidentielle de 2027", parti: LR, date: "2026-10-12", source: S22}
+  - vise: V21
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la maîtrise de la dépense et au retour à l'excédent primaire plutôt qu'à un allègement du stock de dette."
+    porte_par:
+      - {personne: "Bruno Retailleau", fonction: "candidat à l'élection présidentielle de 2027", parti: LR, date: "2026-10-12", source: S22}
+  - vise: V30
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la maîtrise de la dépense et au rétablissement d'un excédent primaire avant tout allègement du stock de dette."
+    porte_par:
+      - {personne: "Bruno Retailleau", fonction: "candidat à l'élection présidentielle de 2027", parti: LR, date: "2026-10-12", source: S22}
+  - {vise: V29, action: retirer, normalise: true}
+incertitudes:
+  - "A41 et A42 retirés : S21 (Husson, 2020) ne parle ni des taux ni de la catégorie « autres français » ; aucun autre porteur LR sourcé n'a été cherché hors lot."
+  - "A8 : le plan de Retailleau ne mentionne pas l'annulation ; la position non est une lecture par le choix des moyens, déjà signalée dans le raisonnement."
+  - "V4, V20, V28 (Q45) et V5, V21, V30 (Q47) disent la même chose : doublons possibles à fusionner."
+  - "V5 reformulée : la phrase sur la réforme de l'État n'est pas dans S22."

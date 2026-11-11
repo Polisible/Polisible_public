@@ -1,0 +1,40 @@
+agent: expert-extreme-droite
+phase: 6
+corrections:
+  - vise: A13
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source du dossier ne chiffre ce recul."
+    porte_par:
+      - {personne: "Jordan Bardella", fonction: "président du Rassemblement national", parti: RN, date: "2026-08-23", source: S29}
+  - vise: A14
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Pour dégager des marges budgétaires, l'annulation de dette n'est pas préférable aux économies : la voie du RN est la réduction des dépenses, dont celles liées à l'immigration, jointe à une règle d'or votée par référendum."
+    porte_par:
+      - {personne: "Marine Le Pen", fonction: "candidate à l'élection présidentielle de 2027", parti: RN, date: "2026-10-06", source: S31}
+      - {personne: "Marine Le Pen", fonction: "présidente du groupe RN à l'Assemblée nationale et candidate à l'élection présidentielle de 2027", parti: RN, date: "2026-10-01", source: S32}
+  - vise: A15
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Les choix budgétaires doivent relever des Français plutôt que de règles européennes, par la primauté du droit national et une règle d'or adoptée par référendum. La règle proposée est un plafond de déficit, non l'annulation unilatérale d'engagements."
+    porte_par:
+      - {personne: "Marine Le Pen", fonction: "présidente du groupe RN à l'Assemblée nationale et candidate à l'élection présidentielle de 2027", parti: RN, date: "2026-10-01", source: S32}
+      - {personne: "Marine Le Pen", fonction: "députée", parti: RN, date: "2024-01-25", source: S45}
+  - vise: V9
+    action: retirer
+    normalise: true
+  - vise: V22
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la souveraineté nationale : les choix budgétaires relèvent des Français, par la primauté du droit national et une règle d'or votée par référendum."
+    porte_par:
+      - {personne: "Marine Le Pen", fonction: "présidente du groupe RN à l'Assemblée nationale et candidate à l'élection présidentielle de 2027", parti: RN, date: "2026-10-01", source: S32}
+      - {personne: "Marine Le Pen", fonction: "députée", parti: RN, date: "2024-01-25", source: S45}
+incertitudes:
+  - "A13 : la source S29 (niveau 4, analyse assistée par IA) rapporte la réponse de Jordan Bardella sur X ; la date du 23 août 2026 est celle de la réponse rapportée, la page est du 24 août."
+  - "A15 : position oui retenue car la question oppose décision nationale et règles européennes ; la nuance (plafond de déficit) figure dans l'énoncé."
+  - "S45 établit Marine Le Pen et le groupe Rassemblement National, pas sa présidence du groupe en 2024 : fonction limitée à députée."
