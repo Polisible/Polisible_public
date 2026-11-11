@@ -172,7 +172,9 @@ def main():
                     w(f"- Portée : {ex['portee']['texte']}")
                 for c in x.get("contre_examen", []):
                     if c["avis"] == "conteste":
-                        w(f"- *Contre-examen ({c['critere']})* : {c['justification']} Proposition : {c.get('proposition')}")
+                        dec = (f" — rapporteur : {c['decision_rapporteur']} ({c.get('motif_rapporteur', '')})"
+                               if c.get("decision_rapporteur") else "")
+                        w(f"- *Contre-examen ({c['critere']})* : {c['justification']} Proposition : {c.get('proposition')}{dec}")
                 for c in x.get("contestations", []):
                     w(f"- *Contestation ({c['critere']}, {c['nature']})* : {c['contenu']} — décision : {c.get('decision') or 'en attente'}"
                       + (f" ({c['motif']})" if c.get("motif") else ""))
