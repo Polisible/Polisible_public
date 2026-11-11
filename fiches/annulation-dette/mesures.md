@@ -18,7 +18,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 2 | 349768 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
 | 6-bis. Rédaction | 2026-11-11T09:36:47 | 2026-11-11T09:43:09 | 6 min 22 s | 1 | 9 | 486230 | normalisation au format de fiche |
 | 6-ter. Rédaction | 2026-11-11T09:43:24 | 2026-11-11T09:48:12 | 4 min 48 s | 1 | 0 | — | textes du rédacteur ; fiche assemblée par rendre_fiche.py |
-| 5-bis. Stabilisation | 2026-11-11T11:57:18 | — | — | 1 | 14 | 741393 | commission : instruction |
+| 5-bis. Stabilisation | 2026-11-11T11:57:18 | — | — | 1 | 15 | 843241 | commission : instruction |
 
 ## Par agent
 
@@ -94,3 +94,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 5-bis | expert-extreme-droite-tour2 | 27327 | 5 | 0 min 17 s |
 | 5-bis | expert-gauche-radicale-tour2 | 43525 | 6 | 0 min 19 s |
 | 5-bis | expert-centre-tour2 | 42677 | 6 | 0 min 21 s |
+| 5-bis | rapporteur-conclusion | 101848 | 17 | 3 min 50 s |

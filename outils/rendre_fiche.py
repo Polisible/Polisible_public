@@ -142,6 +142,9 @@ def main():
         if rep:  # docs/commission.md § 8 : la réponse de la commission d'abord
             cert = f" — **{rep['certitude']}**" if rep.get("certitude") else ""
             w(f"**Réponse de la commission**{cert}. {rep['texte']}"); w("")
+            for c in rep.get("contre_examen", []):
+                if c["avis"] == "conteste":
+                    w(f"> *Désaccord au sein de la commission* : {c['justification']} — remonté au fondateur."); w("")
         else:
             w(f"**Réponse rapide.** {rr.get(q['id'], '*(à rédiger)*')}"); w("")
         ths = [x for x in TH if x["question"] == q["id"]]

@@ -131,8 +131,12 @@ def fusionner(fiche, chemin):
             faits.append(f"{len(e['reponses'])} réponses")
     else:
         th = {t["id"]: t for t in D["theses"]}
+        rq = {r["question"]: r for r in D["reponses"]}
         for c in e.get("contre_examen", []) or []:
-            if c["these"] in th:
+            if c["these"] in rq:  # avis sur une réponse à une question
+                rq[c["these"]].setdefault("contre_examen", []).append(
+                    {k: c.get(k) for k in ("critere", "avis", "justification", "proposition")})
+            elif c["these"] in th:
                 th[c["these"]].setdefault("contre_examen", []).append(
                     {k: c.get(k) for k in ("critere", "avis", "justification", "proposition")})
         for c in e.get("decisions_contestations", []) or []:
