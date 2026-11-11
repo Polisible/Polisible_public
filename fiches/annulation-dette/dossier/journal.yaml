@@ -524,3 +524,16 @@
   agent: contradicteur
   phase: '5'
   action: 'contre-examen : 15 contestations'
+- date: '2026-11-11T14:38:32'
+  agent: rapporteur
+  phase: '5'
+  action: 37 thèses, 7 réponses
+- date: '2026-11-11T14:38:47'
+  agent: coordinateur
+  phase: 5-bis
+  action: 'fin de la phase 5-bis (commission : instruction, contre-examen, 2 tours de relances, conclusion, contrôle
+    final ; 1 désaccord remonté (T10, regroupement))'
+- date: '2026-11-11T14:38:47'
+  agent: coordinateur
+  phase: '6'
+  action: debut de la phase 6 (textes du rédacteur après la commission)

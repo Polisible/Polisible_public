@@ -17,10 +17,11 @@
   certitude: Pas d'estimation fiable
   texte: 'Aucune institution n''a estimé l''effet de l''opération sur les taux auxquels la France emprunte : les
     deux affirmations du dossier, en sens contraires, sont sans estimation fiable (F26, F47). T6 (PP), nuancée,
-    tient : l''effet dépend de la voie, une décision du conseil des gouverneurs par contrat n''étant pas une rupture
-    unilatérale (F3, F5, F60), et personne ne le chiffre (F26). Pour le oui, T4 (HOR, RE) ne tient pas : la prime
-    de risque qu''elle annonce ne repose que sur F26. Pour le non, T5 (LFI) ne tient pas pour la même raison (F47),
-    et limiter l''opération à l''Eurosystème (F46) n''écarte pas un doute sur le financement monétaire (F9).'
+    tient en partie : une décision du conseil des gouverneurs par contrat n''est pas une rupture unilatérale (F3,
+    F5, F60), mais personne n''estime si elle change l''effet sur les taux (F26), et un doute sur le financement
+    monétaire subsiste (F9). Pour le oui, T4 (HOR, RE) ne tient pas : la prime de risque qu''elle annonce ne repose
+    que sur F26. Pour le non, T5 (LFI) ne tient pas pour la même raison (F47), et limiter l''opération à l''Eurosystème
+    (F46) n''écarte pas ce doute (F9).'
   contre_examen:
   - critere: conclusion
     avis: conteste
@@ -31,6 +32,9 @@
     proposition: 'Reprendre la phrase sur T6 selon la décision sur T6 (tient en partie) et n''attribuer à T6 que
       ce que sa portée établit : la rupture unilatérale ne s''applique pas à une décision du conseil (F3, F5, F60),
       sans estimation de l''effet (F26).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: T6 tient désormais en partie (T6/conclusion) ; la réponse ne lui attribue que ce que sa portée
+      établit (F3, F5, F60, F26) et note le doute subsistant (F9), avec la même rigueur que pour T4 et T5.
 - question: Q43
   certitude: Pas d'estimation fiable
   texte: 'Aucune source ne chiffre l''effet net de l''opération sur la charge d''intérêts, faute d''isoler la part
@@ -49,13 +53,13 @@
     proposition: null
 - question: Q44
   certitude: Pas d'estimation fiable
-  texte: 'Sur l''indépendance, le traité tranche selon la voie : une opération imposée par une loi nationale serait
-    une instruction interdite, une décision libre du conseil des gouverneurs non (F3, F4, F5). Sur la crédibilité
-    de l''euro, aucune institution n''a estimé l''effet de l''opération (F27) ; l''effet de pertes durables d''une
-    banque centrale est débattu (F58, F61). T14 (RE, nuancée) et T10 (RE, oui) tiennent sur cette distinction (F3,
-    F4, F5). T11 (RE) ne tient pas : la défiance supposée n''est estimée par personne (F27). Pour le non, T12 (LFI)
-    et T13 (PP) tiennent en partie : l''absence d''instruction est établie (F3, F5), l''absence d''effet sur la
-    crédibilité non (F53, F58). T32 (PP) ne tient pas, faute d''estimation (F27).'
+  texte: 'La question a deux volets ; la certitude indiquée ne vaut que pour la crédibilité de l''euro, dont l''effet
+    n''est estimé par aucune institution (F27), l''effet de pertes durables d''une banque centrale étant débattu
+    (F58, F61). L''indépendance relève du traité : une loi nationale imposant l''opération serait une instruction
+    interdite, une décision libre du conseil des gouverneurs non (F3, F4, F5) ; aucune source n''établit la voie
+    que suivrait la proposition (T10, T12, T13). T14 (RE, nuancée) tient sur cette distinction (F3, F4, F5). T10
+    (RE, oui), T12 (LFI, non) et T13 (PP, non) tiennent en partie, chacune supposant une voie non établie (F3, F5).
+    T11 (RE, oui) et T32 (PP, nuancée) ne tiennent pas, faute d''estimation (F27).'
   contre_examen:
   - critere: conclusion
     avis: conteste
@@ -68,15 +72,20 @@
     proposition: Préciser dans le texte que la certitude vaut pour le volet crédibilité, et que le volet indépendance
       dépend de la voie, non établie (R9, R11, R29) ; ou remonter au fondateur le format d'une question à deux volets.
       Reprendre la phrase sur T10 selon la décision sur T10/regroupement.
+    decision_rapporteur: acceptee
+    motif_rapporteur: Le texte précise que la certitude « Pas d'estimation fiable » vaut pour le seul volet crédibilité
+      (F27, F58, F61), et que le volet indépendance relève du traité (F3, F4, F5) sous condition d'une voie non
+      établie (T10, T12, T13). Le format d'une question à deux volets est signalé au fondateur dans les incertitudes.
+      T10 tient en partie, comme T12 et T13.
 - question: Q45
   certitude: null
-  texte: 'Question de valeur : la commission ne répond pas (T15, T17). Rembourser intégralement (T15, HOR) revient
-    à traiter ces titres comme les autres, déjà remboursés à échéance (F48, F31) ; l''atteinte à la signature de
-    la France qu''elle invoque n''est pas estimée (F26). T16 (LR) ne tient pas : la perte de confiance des prêteurs
-    qu''elle suppose n''est estimée par personne (F26). Ne pas rembourser la banque centrale (T17, PCF, PP ; T33,
-    NPA) suppose qu''aucun créancier privé n''est lésé, ce qui est établi : les vendeurs ont été payés (F24, F44).
-    La marge que cela dégagerait n''est pas chiffrée (T18, F41). T19 (NPA) ne tient pas : l''origine de la dette
-    dans des cadeaux fiscaux n''est pas établie (F43).'
+  texte: 'Question de valeur : la commission ne répond pas (T15, T17). Rembourser intégralement (T15, HOR) traite
+    ces titres comme les autres, remboursés à échéance (F48, F31) ; l''atteinte invoquée à la signature n''est pas
+    estimée (F26). T16 (LR) ne tient pas : la perte de confiance supposée n''est pas estimée (F26). Ne pas rembourser
+    la banque centrale (T17, PCF, PP) suppose qu''aucun créancier privé n''est lésé : c''est établi, les vendeurs
+    ont été payés (F24, F44). T33 (NPA) part du même fait, mais son critère de légitimité repose sur un présupposé
+    non établi (F43). La marge dégagée n''est pas chiffrée (T18, F41). T19 (NPA) ne tient pas : l''origine de la
+    dette dans des cadeaux fiscaux n''est pas établie (F43).'
   contre_examen:
   - critere: conclusion
     avis: conteste
@@ -86,15 +95,18 @@
       de T15 (F26), T16 (F26) et T19 (F43), mais tait celui de T33 : rigueur inégale.'
     proposition: 'Distinguer T33 de T17 : indiquer pour T33, comme pour T15, T16 et T19, que son critère (la légitimité,
       F43) repose sur un présupposé non établi (réponse à R18).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'T33 est distinguée de T17 : son critère de légitimité repose sur un présupposé non établi
+      (F43, appui partiel, réponse à R18), énoncé comme ceux de T15, T16 et T19.'
 - question: Q46
   certitude: null
-  texte: 'Question de valeur : la commission ne répond pas (T21, T23). Choisir la décision nationale (T23, RN) suppose
-    la primauté du droit national, que propose un texte de 2024 (F40), et une règle d''or plafonnant le déficit
-    (F39). Choisir les règles européennes s''appuie sur un présupposé établi : la décision appartient au conseil
-    des gouverneurs, qui n''accepte pas d''instructions (T21, PP ; F3, F5). Ne sont pas établis le partage entre
-    membres du risque des titres français (T20, RE ; objection O1) ni la nécessité de réviser les traités pour annuler
-    (T34, PCF ; F45, F27). T22 (LE) et T35 (LFI) tiennent comme priorités : réviser les règles plutôt que les contourner
-    (F33), ou les soumettre au contrôle démocratique (F56).'
+  texte: 'Question de valeur : la commission ne répond pas (T21, T23). Choisir la décision nationale (T23, RN) s''appuie
+    sur des propositions vérifiées, primauté du droit national (F40) et règle d''or plafonnant le déficit (F39),
+    muettes sur les titres de l''Eurosystème (T23). Choisir les règles européennes s''appuie sur un présupposé établi
+    : la décision appartient au conseil des gouverneurs, qui n''accepte pas d''instructions (T21, PP ; F3, F5).
+    Ne sont pas établis le partage du risque des titres français entre membres (T20, RE ; objection O1) ni la nécessité
+    de réviser les traités pour annuler (T34, PCF ; F45, F27). T22 (LE) et T35 (LFI) tiennent comme priorités :
+    réviser les règles (F33), ou les soumettre au contrôle démocratique (F56).'
   contre_examen:
   - critere: conclusion
     avis: conteste
@@ -104,14 +116,18 @@
       Même méthode non appliquée à une position.
     proposition: Indiquer pour T23, comme pour T21, le statut de ses présupposés (F39, F40 vérifiés) et ce qu'ils
       ne couvrent pas (portée de T23).
+    decision_rapporteur: acceptee
+    motif_rapporteur: La réponse donne pour T23, comme pour T21, le statut de ses présupposés (F39, F40, vérifiés)
+      et la limite de sa portée (titres détenus par l'Eurosystème).
 - question: Q47
   certitude: null
   texte: 'Question de valeur : la commission ne répond pas (T24, T28). Préférer l''annulation suppose une marge
-    nette qu''aucune source ne chiffre (F41, F49) : T27 (LFI) et T26 (NPA) ne tiennent pas, faute d''appui (F47,
-    F20). Préférer les économies suppose qu''elles soient obtenues, ce qu''aucune institution n''établit : T24 (HOR,
-    RE) et T25 (RN) tiennent en partie (F41, F37) ; T36 (LR) ne tient pas, le plan ne mentionnant pas l''annulation
-    (F29, F30). Combiner les leviers (T28, LE ; T29, PP) tient en partie : l''usage d''une marge non chiffrée en
-    est le critère (F34, F59). T37 (PCF) et T30 (LO) ne tiennent pas, leurs appuis n''étant pas établis (F49, F42).'
+    nette non chiffrée (F41, F49) : T27 (LFI) ne tient pas, son « coût nul » reposant sur F47. T26 (NPA), visant
+    les dettes jugées illégitimes, ne tient pas : l''effet supposé sur les intérêts n''est pas établi (F26). Pour
+    les économies, T24 (HOR, RE) tient en partie, son gain net incertain étant établi (F41) ; T25 (RN) et T36 (LR)
+    ne tiennent pas, leur présupposé central n''étant porté par rien (F22, F29, F30). Combiner les leviers (T28,
+    LE ; T29, PP) tient en partie, selon l''usage d''une marge non chiffrée (F34, F59). T37 (PCF) et T30 (LO) ne
+    tiennent pas (F49, F42).'
   contre_examen:
   - critere: conclusion
     avis: conteste
@@ -123,3 +139,6 @@
       T25, cette différence ne découle pas des examens (voir T25/appui).
     proposition: Rattacher T26 à son propre présupposé (F26, réponse à R22) ; reprendre la phrase sur T25 selon
       la décision sur T25/appui ; pour T24, nommer la raison qui la distingue (gain net incertain, établi par F41).
+    decision_rapporteur: acceptee
+    motif_rapporteur: T26 est rattachée à son propre présupposé (F26, réponse à R22) ; T25 ne tient pas (T25/appui)
+      ; la raison qui distingue T24, un gain net incertain établi par F41, est nommée.

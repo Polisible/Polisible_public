@@ -117,7 +117,8 @@ def fusionner(fiche, chemin):
                 for t in e["theses"]:
                     if t["id"] == dc.get("these"):
                         for c in t.get("contre_examen", []):
-                            if c["critere"] == dc.get("critere") and c["avis"] == "conteste":
+                            if c["critere"] == dc.get("critere") and c["avis"] == "conteste" \
+                                    and not c.get("decision_rapporteur"):  # ne jamais écraser une décision passée
                                 c["decision_rapporteur"], c["motif_rapporteur"] = dc.get("decision"), dc.get("motif")
             D["theses"] = e["theses"]
             faits.append(f"{len(e['theses'])} thèses")

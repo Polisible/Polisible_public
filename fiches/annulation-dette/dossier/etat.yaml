@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: 5-bis
+phase: '6'
 passage: 4
 phases:
   '1':
@@ -65,7 +65,13 @@ phases:
   5-bis:
     debut: '2026-11-11T11:57:18'
     passages: 1
-    note: 'commission : instruction'
+    note: 'commission : instruction, contre-examen, 2 tours de relances, conclusion, contrôle final ; 1 désaccord
+      remonté (T10, regroupement)'
+    fin: '2026-11-11T14:38:47'
+  6-quater:
+    debut: '2026-11-11T14:38:47'
+    passages: 1
+    note: textes du rédacteur après la commission
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -427,6 +433,11 @@ agents:
   jetons: 148050
   outils: 19
   duree_ms: 390043
+- phase: 5-bis
+  agent: rapporteur-final
+  jetons: 107482
+  outils: 21
+  duree_ms: 245611
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
