@@ -6,6 +6,13 @@
     la déclare contraire aux traités (F13, F14), sans décision de la Cour (F27). Pour le non, T1 (RE), la plus solide
     (F9), ne tient pas : elle étend l''interdiction à un cas qu''aucune source ne vise (F27) ; T2 (PCF) aussi. Pour
     le oui, T3 (LFI, PP) ne tient pas : elle prend le silence du texte (F45, F57) pour une permission.'
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'La réponse découle des examens : certitude Invérifiable (F27, F45) ; T1, T2 et T3 « ne tiennent
+      pas » pour des lacunes symétriques (extension de l''interdiction, silence pris pour permission) ; T1 désignée
+      la plus solide du non par ses objections « en partie » contre « sans réponse » pour T2.'
+    proposition: null
 - question: Q42
   certitude: Pas d'estimation fiable
   texte: 'Aucune institution n''a estimé l''effet de l''opération sur les taux auxquels la France emprunte : les
@@ -14,6 +21,16 @@
     unilatérale (F3, F5, F60), et personne ne le chiffre (F26). Pour le oui, T4 (HOR, RE) ne tient pas : la prime
     de risque qu''elle annonce ne repose que sur F26. Pour le non, T5 (LFI) ne tient pas pour la même raison (F47),
     et limiter l''opération à l''Eurosystème (F46) n''écarte pas un doute sur le financement monétaire (F9).'
+  contre_examen:
+  - critere: conclusion
+    avis: conteste
+    justification: 'La réponse affirme, sous une certitude « Pas d''estimation fiable » (F26, F47), que T6 « tient
+      » et que « l''effet dépend de la voie » : c''est une affirmation d''effet qu''aucune estimation ne porte (voir
+      T6/appui, T6/raisonnement), alors que T4 et T5 sont écartées précisément faute d''estimation. La même rigueur
+      n''est pas appliquée à la thèse nuancée.'
+    proposition: 'Reprendre la phrase sur T6 selon la décision sur T6 (tient en partie) et n''attribuer à T6 que
+      ce que sa portée établit : la rupture unilatérale ne s''applique pas à une décision du conseil (F3, F5, F60),
+      sans estimation de l''effet (F26).'
 - question: Q43
   certitude: Pas d'estimation fiable
   texte: 'Aucune source ne chiffre l''effet net de l''opération sur la charge d''intérêts, faute d''isoler la part
@@ -23,6 +40,13 @@
     plausible mais non chiffré (F41). Pour le non, T7 (HOR) ne tient pas : un gain net inconnu n''exclut pas une
     baisse durable (F41, F49). Pour le oui, T9 (PCF) ne tient pas : elle suppose une marge nette qu''aucune source
     n''établit (F49).'
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'La réponse découle des examens : certitude Pas d''estimation fiable (F41, F49) ; T8 et T31 «
+      tiennent en partie », T7 et T9 « ne tiennent pas » pour des raisons symétriques (un gain net inconnu n''exclut
+      ni n''établit une baisse durable).'
+    proposition: null
 - question: Q44
   certitude: Pas d'estimation fiable
   texte: 'Sur l''indépendance, le traité tranche selon la voie : une opération imposée par une loi nationale serait
@@ -32,6 +56,18 @@
     F4, F5). T11 (RE) ne tient pas : la défiance supposée n''est estimée par personne (F27). Pour le non, T12 (LFI)
     et T13 (PP) tiennent en partie : l''absence d''instruction est établie (F3, F5), l''absence d''effet sur la
     crédibilité non (F53, F58). T32 (PP) ne tient pas, faute d''estimation (F27).'
+  contre_examen:
+  - critere: conclusion
+    avis: conteste
+    justification: 'Point soumis par le rapporteur. 1) Une seule certitude, « Pas d''estimation fiable », couvre
+      deux volets : elle vaut pour la crédibilité (F27, F58, F61), non pour l''indépendance, que la réponse tranche
+      par des textes (F3, F4, F5), sous condition d''une voie qu''aucune source n''établit (réponses à R9, R11,
+      R29). 2) La réponse classe T10 (oui) parmi les thèses qui « tiennent » et T12, T13 (non) parmi celles qui
+      « tiennent en partie », pour le même raisonnement conditionnel : la même rigueur n''est pas appliquée aux
+      deux positions (voir T10, T13).'
+    proposition: Préciser dans le texte que la certitude vaut pour le volet crédibilité, et que le volet indépendance
+      dépend de la voie, non établie (R9, R11, R29) ; ou remonter au fondateur le format d'une question à deux volets.
+      Reprendre la phrase sur T10 selon la décision sur T10/regroupement.
 - question: Q45
   certitude: null
   texte: 'Question de valeur : la commission ne répond pas (T15, T17). Rembourser intégralement (T15, HOR) revient
@@ -41,6 +77,15 @@
     NPA) suppose qu''aucun créancier privé n''est lésé, ce qui est établi : les vendeurs ont été payés (F24, F44).
     La marge que cela dégagerait n''est pas chiffrée (T18, F41). T19 (NPA) ne tient pas : l''origine de la dette
     dans des cadeaux fiscaux n''est pas établie (F43).'
+  contre_examen:
+  - critere: conclusion
+    avis: conteste
+    justification: 'La réponse range T33 avec T17 sous un présupposé « établi » (vendeurs payés, F24, F44). Or l''examen
+      de T33 dit que le présupposé qui donne la réponse « non », l''illégitimité d''une part de la dette, n''est
+      porté par aucune affirmation (appui partiel, F43, réponse à R18). La réponse donne le présupposé non établi
+      de T15 (F26), T16 (F26) et T19 (F43), mais tait celui de T33 : rigueur inégale.'
+    proposition: 'Distinguer T33 de T17 : indiquer pour T33, comme pour T15, T16 et T19, que son critère (la légitimité,
+      F43) repose sur un présupposé non établi (réponse à R18).'
 - question: Q46
   certitude: null
   texte: 'Question de valeur : la commission ne répond pas (T21, T23). Choisir la décision nationale (T23, RN) suppose
@@ -50,6 +95,15 @@
     membres du risque des titres français (T20, RE ; objection O1) ni la nécessité de réviser les traités pour annuler
     (T34, PCF ; F45, F27). T22 (LE) et T35 (LFI) tiennent comme priorités : réviser les règles plutôt que les contourner
     (F33), ou les soumettre au contrôle démocratique (F56).'
+  contre_examen:
+  - critere: conclusion
+    avis: conteste
+    justification: La réponse qualifie le présupposé de T21 (« établi », F3, F5) et ceux de T20 et T34 (« pas établis
+      »), mais ne donne aucun statut aux présupposés de T23, pourtant vérifiés (F39 Vrai, F40 Plutôt vrai, appui
+      solide), ni la limite de sa portée (ces propositions ne visent pas les titres détenus par l'Eurosystème).
+      Même méthode non appliquée à une position.
+    proposition: Indiquer pour T23, comme pour T21, le statut de ses présupposés (F39, F40 vérifiés) et ce qu'ils
+      ne couvrent pas (portée de T23).
 - question: Q47
   certitude: null
   texte: 'Question de valeur : la commission ne répond pas (T24, T28). Préférer l''annulation suppose une marge
@@ -58,3 +112,14 @@
     RE) et T25 (RN) tiennent en partie (F41, F37) ; T36 (LR) ne tient pas, le plan ne mentionnant pas l''annulation
     (F29, F30). Combiner les leviers (T28, LE ; T29, PP) tient en partie : l''usage d''une marge non chiffrée en
     est le critère (F34, F59). T37 (PCF) et T30 (LO) ne tiennent pas, leurs appuis n''étant pas établis (F49, F42).'
+  contre_examen:
+  - critere: conclusion
+    avis: conteste
+    justification: 1) T26 est rattachée à la marge nette non chiffrée (F41, F49), alors que son examen écarte la
+      seule part de la banque centrale et retient comme présupposé central non porté le montant des intérêts versés
+      aux créanciers privés et l'effet sur l'emprunt (F26, réponse à R22). 2) La réponse dit que les deux préférences
+      reposent sur un présupposé non établi (marge nette ; économies obtenues), puis conclut « ne tiennent pas »
+      d'un côté (T26, T27) et « tiennent en partie » de l'autre (T24, T25) sans dire ce qui les distingue ; pour
+      T25, cette différence ne découle pas des examens (voir T25/appui).
+    proposition: Rattacher T26 à son propre présupposé (F26, réponse à R22) ; reprendre la phrase sur T25 selon
+      la décision sur T25/appui ; pour T24, nommer la raison qui la distingue (gain net incertain, établi par F41).

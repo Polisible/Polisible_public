@@ -93,6 +93,12 @@
     motif_rapporteur: 'A46 vise l''inférence même de A21 (de l''achat auprès d''investisseurs, F24, F44, à l''interdiction)
       ; aucun argument de T2 n''y répond : « sans réponse », conclusion inchangée. Relance complétée (Que répondez-vous
       à T3 ?), comme R1.'
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après R27 : objections « sans réponse », l''expert concédant que F24 et F44
+      établissent la régularité de l''achat, non l''interdiction du traitement ultérieur (A46) ; lacune essentielle
+      symétrique de T1 et T3 (F45, F27).'
+    proposition: null
   versions:
   - pertinence:
       valeur: oui
@@ -323,6 +329,34 @@
       supposée, F9, A51), l''autre partie (aucun chiffrage, F26) étant établie ; « essentielle: false » est cohérent
       avec T10, T12, T13.'
     proposition: null
+  - critere: appui
+    avis: conteste
+    justification: L'énoncé conclut sur l'effet sur les taux (« l'effet dépend de la voie »). F3, F5 et F60 (Vrai)
+      établissent la voie juridique, non une réaction différente des prêteurs ; F26 n'établit que l'absence de chiffrage.
+      T32, de même structure pour la crédibilité (le mécanisme vaut pour une décision imposée, pas pour une décision
+      du conseil, F3, F5), reçoit « faible » parce que l'effet n'est porté par aucune estimation (réponse à R13).
+      Même lacune, appréciation plus favorable ; la réponse à R6 concède d'ailleurs qu'un doute (F9) peut subsister
+      dans la voie du conseil.
+    proposition: 'appui : partiel — la voie de décision (F3, F5, F60, Vrai) et l''absence de chiffrage (F26) sont
+      établies ; que l''effet sur les taux diffère selon la voie n''est porté par aucune estimation (F26), A47 corrigé
+      admettant qu''un doute sur le financement monétaire peut subsister (F9, réponse à R6).'
+  - critere: raisonnement
+    avis: conteste
+    justification: 'La portée retenue (« le mécanisme de rupture unilatérale ne s''applique pas » à une décision
+      du conseil, F3, F5, F60) est plus étroite que l''énoncé (« l''effet sur les taux dépend de la voie »). Passer
+      de l''un à l''autre suppose que les prêteurs ne réagissent qu''à une rupture unilatérale : cause supposée,
+      que A51 et la réponse à R6 contestent (F9, F11, F13). C''est la lacune limitée confirmée au premier contre-examen
+      ; la correction de A47 ne l''a pas levée, l''énoncé de T6 étant resté le même.'
+    proposition: 'raisonnement : lacune, essentielle: false — Cause supposée : de ce qu''une décision du conseil
+      n''est pas une rupture unilatérale (F3, F5, F60), la thèse tire que l''effet sur les taux dépend de la voie,
+      alors que A47 corrigé admet qu''un doute sur le financement monétaire peut subsister (F9) ; la partie « personne
+      ne chiffre l''effet » est établie (F26).'
+  - critere: conclusion
+    avis: conteste
+    justification: Conséquence de T6/appui et T6/raisonnement (§ 3). Sans cette correction, Q42 compte une seule
+      thèse qui « tient », sur une affirmation d'effet qu'aucune estimation ne porte (F26), alors que T32, de même
+      structure sur Q44, « ne tient pas ».
+    proposition: tient en partie
 - id: T7
   question: Q43
   position: non
@@ -404,6 +438,11 @@
     decision_rapporteur: acceptee
     motif_rapporteur: Le lien entre intérêts perçus et versements est F41, rendu plausible par O1 sans être vérifié
       ; formulation « rend plausible » reprise pour T7, T31, T8 et T24.
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après séparation de A13 : appui faible (F41, F49 seuls portent la réponse «
+      non »), lacune essentielle symétrique de T9, portée reformulée (« rend plausible », F41, O1).'
+    proposition: null
 - id: T31
   question: Q43
   position: nuance
@@ -440,6 +479,13 @@
     conclusion: tient en partie
   portee_par:
   - RN
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : appui partiel comme T8 (F19, F20 établis, F41 rendu plausible par O1) ; lacune
+      limitée au raisonnement de A13 (« d''autant », « faible ou nul »), l''énoncé corrigé (réponse à R7) s''en
+      tenant à « moins que le montant brut ».'
+    proposition: null
 - id: T8
   question: Q43
   position: nuance
@@ -503,6 +549,11 @@
     proposition: tient en partie
     decision_rapporteur: acceptee
     motif_rapporteur: 'Conséquence de l''appui partiel : « tient en partie » (§ 3).'
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après R30 : appui partiel (F41, sans source isolant la part des intérêts), raisonnement
+      valide (F48, F19, F21), même appréciation que T31 et T24.'
+    proposition: null
   versions:
   - pertinence:
       valeur: oui
@@ -640,6 +691,31 @@
     decision_rapporteur: acceptee
     motif_rapporteur: A52 et A53 ne sont pas des arguments de T10 ; selon la règle commune, les objections de T12
       (A45) et T32 (A48) sont sans réponse. Conclusion inchangée ; relance complétée comme R11, R12, R13.
+  - critere: regroupement
+    avis: conteste
+    justification: 'Depuis la correction de A3 (réponse à R29), A3 et A52 (T14) ont la même conclusion par le même
+      raisonnement : une opération imposée par une loi nationale serait une instruction interdite (F3, F4), une
+      décision libre du conseil des gouverneurs non (F5). Les énoncés de T10 et T14 disent la même chose. § 2 :
+      même conclusion et même raisonnement font une seule thèse ; la séparation produit deux positions (oui, nuance)
+      pour un raisonnement unique, et la réponse à Q44 compte une thèse « oui » qui tient.'
+    proposition: Rattacher A3 à T14 (position nuance, énoncé inchangé, portée par RE) et supprimer T10. Examen de
+      T14 inchangé (appui solide, raisonnement valide, tient).
+  - critere: raisonnement
+    avis: conteste
+    justification: 'À titre subsidiaire, si T10 reste une thèse « oui » : la réponse « oui » (l''opération affaiblirait
+      l''indépendance) suppose que la proposition suive la voie d''une loi nationale, ce qu''aucune source n''établit
+      (réponses à R9 et R29). C''est exactement la lacune retenue pour T12 (« ne dit pas que la proposition suit
+      cette voie », essentielle: false), dans l''autre sens ; T10 reçoit « valide ». Même lacune, appréciation plus
+      favorable.'
+    proposition: 'raisonnement : lacune, essentielle: false — De F3 et F4 découle qu''une opération imposée par
+      une loi nationale serait une instruction interdite, et de F5 qu''une décision libre n''en serait pas une ;
+      la réponse « oui » suppose que la proposition suive la première voie, ce qu''aucune source n''établit (réponses
+      à R9, R29), comme T12 pour la seconde.'
+  - critere: conclusion
+    avis: conteste
+    justification: 'Conséquence de T10/regroupement (thèse supprimée) ou, à défaut, de T10/raisonnement : une lacune
+      limitée donne « tient en partie » (§ 3), comme T12 et T13, conditionnelles en sens inverse.'
+    proposition: T10 supprimée (A3 dans T14) ; à défaut, tient en partie.
   versions:
   - pertinence:
       valeur: oui
@@ -772,6 +848,12 @@
       (F53), objection de T14 (A52, F4) sans réponse ; appréciation identique à T10 et T13 pour un volet crédibilité
       sans estimation.'
     proposition: null
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : la lacune limitée (voie de la proposition non établie, F4, réponse à R11)
+      est l''appréciation juste pour une thèse conditionnelle classée non ; elle doit valoir aussi pour T10 et T13
+      (voir ces thèses).'
+    proposition: null
 - id: T13
   question: Q44
   position: non
@@ -811,6 +893,15 @@
     justification: 'Examen confirmé : appui partiel (F58 Débat entre experts), lacune limitée au volet crédibilité,
       objection T11 (A40) sans réponse ; même traitement que T10 et T12.'
     proposition: null
+  - critere: raisonnement
+    avis: conteste
+    justification: 'T13 (non) conclut qu''un effacement décidé par le conseil n''atteint pas l''indépendance (F3,
+      F5), sans établir que la proposition suit cette voie ; sa portée le relève (« ni que la proposition de 2026
+      suive cette voie »). T12, même raisonnement conditionnel et même position, reçoit pour ce motif une lacune
+      (essentielle: false, réponse à R11) ; T13 reçoit « valide ». La règle doit être la même pour T10, T12 et T13.'
+    proposition: 'raisonnement : lacune, essentielle: false — La distinction entre décision du conseil et instruction
+      (F3, F5) est valide, mais la réponse « non » suppose que la proposition suive cette voie, ce qu''aucune source
+      n''établit (portée ; réponses à R9, R11, R29). Conclusion inchangée (tient en partie, appui partiel).'
 - id: T14
   question: Q44
   position: nuance
@@ -869,6 +960,11 @@
     motif_rapporteur: 'Le volet crédibilité sans estimation est désormais T32 ; appui faible, symétrique de T11
       dont l''effet de sens contraire repose aussi sur F27 seul. T14 réduite à A52 n''a plus de volet crédibilité
       : appui solide (F3, F4, F5).'
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : T14, réduite à A52, conclut seulement que l''atteinte dépend de la voie (F3,
+      F4, F5), position nuance, sans lacune ; A3 corrigé peut la rejoindre (voir T10/regroupement).'
+    proposition: null
 - id: T32
   question: Q44
   position: nuance
@@ -904,6 +1000,13 @@
     conclusion: ne tient pas
   portee_par:
   - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : appui faible et lacune essentielle symétriques de T11 (effet sur la crédibilité
+      porté par aucune estimation, F27), objection T11 (A53) sans réponse. T32 sert de terme de comparaison pour
+      T6 (Q42).'
+    proposition: null
 - id: T15
   question: Q45
   position: oui
@@ -1060,6 +1163,12 @@
     conclusion: tient en partie
   portee_par:
   - NPA
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : réfutation de A4 par F24, présupposé d''illégitimité non porté (F43 dans A17,
+      réponse à R18), objection T15 (A50) sans réponse ; même grille que T17.'
+    proposition: null
 - id: T18
   question: Q45
   position: non
@@ -1249,6 +1358,11 @@
     decision_rapporteur: acceptee
     motif_rapporteur: 'Appliquée à la thèse où se trouve la lacune : T34 « tient en partie ». T21 réduite à A35
       (F3, F5, F60) « tient ».'
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après séparation de A29 : T21 réduite à A35 repose sur F3, F5, F60 (Vrai) sans
+      la lacune de révision des traités, désormais portée par T34.'
+    proposition: null
 - id: T34
   question: Q46
   position: non
@@ -1304,6 +1418,13 @@
       valeur: répondues
       justification: Aucun argument d'une autre thèse ne vise le raisonnement de A29 (F51).
     conclusion: tient en partie
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après R28 : lacune limitée à la nécessité d''une révision (F1, F2 ne visent
+      pas des titres déjà détenus, F45, F27), même nature que T2, le niveau européen découlant de la priorité affirmée
+      (F51, F56).'
+    proposition: null
 - id: T22
   question: Q46
   position: nuance
@@ -1345,6 +1466,11 @@
     decision_rapporteur: acceptee
     motif_rapporteur: A11 conclut à une décision européenne (F4, F5, F33), A28 au contrôle démocratique contre des
       institutions indépendantes (F1, F2, F56) ; T22 garde A11, T35 reçoit A28.
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après séparation de A28 : présupposés vérifiés (F4, F5, F33 Vrai, F32 Plutôt
+      vrai), conclusion limitée à la priorité affirmée.'
+    proposition: null
 - id: T35
   question: Q46
   position: nuance
@@ -1377,6 +1503,12 @@
     conclusion: tient
   portee_par:
   - LFI
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : présupposé factuel vérifié (F1, F2), F56 est une valeur, conclusion sans extension
+      aux titres déjà détenus (portée).'
+    proposition: null
 - id: T23
   question: Q46
   position: oui
@@ -1458,6 +1590,12 @@
     decision_rapporteur: acceptee
     motif_rapporteur: La thèse dit « incertain », ce que F41 établit ; portée reformulée, et l'appui mentionne désormais
       F41. Relance de même nature que R7 posée à T24.
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé après R31 : la raison centrale (gain net incertain) est établie par l''absence
+      d''estimation (F41) ; la croissance par la baisse du coût du travail, non portée (réponse à R20), justifie
+      l''appui partiel.'
+    proposition: null
   versions:
   - pertinence:
       valeur: oui
@@ -1555,6 +1693,31 @@
     decision_rapporteur: acceptee
     motif_rapporteur: 'Même présupposé non établi que T24 (effet du levier retenu) : appui partiel pour T25 et T36
       ; relance de même nature que R20 posée aux deux.'
+  - critere: raisonnement
+    avis: confirme
+    justification: 'La différence avec T36 est fondée : A14 corrigé (réponse à R32) donne une raison propre contre
+      l''annulation (la cause visée, le déficit, F22), quand A8 la déduit du seul silence du plan (F29, F30). La
+      lacune d''attribution au plan (F37, F38, F39) ne porte donc pas sur la conclusion. Mais cette raison propre
+      doit alors être examinée dans l''appui (voir T25/appui).'
+    proposition: null
+  - critere: appui
+    avis: conteste
+    justification: 'Depuis R32, la conclusion repose sur un présupposé central : l''annulation de la part de l''Eurosystème
+      ne traiterait pas le déficit. Aucune affirmation ne le porte (F22 donne le montant de la charge, non cet effet)
+      ; T31 (A13, même parti) et T8 tiennent même pour plausible une baisse de la charge d''intérêts, non chiffrée
+      (F41). F37, F38, F39 décrivent le plan, point secondaire de l''énoncé. T26 a reçu « faible » pour la même
+      structure (présupposé central non porté, F26 ; F20 vérifié sur un point secondaire), et T24 n''est pas comparable,
+      sa raison centrale (gain net incertain) étant établie par F41. Ma proposition antérieure (« partiel », par
+      analogie avec T24) précédait cette correction de A14.'
+    proposition: 'appui : faible — le présupposé central, que l''annulation ne traiterait pas le déficit, n''est
+      porté par aucune affirmation (F22 donne la charge, non cet effet ; T31 et T8 tiennent une baisse de la charge
+      pour plausible, F41) ; F37, F38, F39 établissent le contenu du plan, point secondaire, et la réalisation des
+      économies n''est pas établie (réponse à R32).'
+  - critere: conclusion
+    avis: conteste
+    justification: 'Conséquence de T25/appui : appui faible donne « ne tient pas » (§ 3), comme T26 dont le présupposé
+      central n''est pas davantage porté.'
+    proposition: ne tient pas
   versions:
   - pertinence:
       valeur: oui
@@ -1652,6 +1815,16 @@
       valeur: répondues
       justification: Aucun argument d'une autre thèse ne vise le raisonnement de A8 (F30).
     conclusion: ne tient pas
+  contre_examen:
+  - critere: appui
+    avis: conteste
+    justification: Lacune essentielle confirmée (silence du plan pris pour un refus, F29, F30, réponses à R21 et
+      R33), et sa différence avec T25 est fondée. Mais avec la règle de T26, une thèse dont le seul point central
+      (les économies dégagent les marges, réponse à R33) n'est porté par aucune affirmation, F29 et F30 ne décrivant
+      que le plan, a un appui faible. Conclusion inchangée (ne tient pas).
+    proposition: 'appui : faible — F29 et F30 établissent le contenu du plan ; que ses économies soient obtenues
+      et dégagent des marges n''est porté par aucune affirmation (réponse à R33), et aucune source datée ne donne
+      la position du parti sur l''annulation (réponse à R21). Conclusion inchangée.'
 - id: T26
   question: Q47
   position: oui
@@ -1807,6 +1980,12 @@
     conclusion: ne tient pas
   portee_par:
   - PCF
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : la seule affirmation d''effet est F49 (Pas d''estimation fiable), F55 est
+      une valeur ; même appréciation que T27.'
+    proposition: null
 - id: T29
   question: Q47
   position: nuance
