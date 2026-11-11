@@ -17,7 +17,8 @@ CONCL_LIB = {"tient": "Tient", "tient en partie": "Tient en partie", "ne tient p
 
 def desaccord(x):
     """Désaccord persistant : contre-examen contesté sur la conclusion, ou contestation remontée au fondateur."""
-    return any(c["avis"] == "conteste" and c["critere"] == "conclusion" for c in x.get("contre_examen", [])) \
+    return any(c["avis"] == "conteste" and c.get("decision_rapporteur") == "refusee"
+               for c in x.get("contre_examen", [])) \
         or any(c.get("decision") == "remontee-fondateur" for c in x.get("contestations", []))
 ID = re.compile(r"\[(?:[QAFSVO]\d+(?:,\s*)?)+\]")
 
@@ -143,8 +144,9 @@ def main():
             cert = f" — **{rep['certitude']}**" if rep.get("certitude") else ""
             w(f"**Réponse de la commission**{cert}. {rep['texte']}"); w("")
             for c in rep.get("contre_examen", []):
-                if c["avis"] == "conteste":
-                    w(f"> *Désaccord au sein de la commission* : {c['justification']} — remonté au fondateur."); w("")
+                if c["avis"] == "conteste" and c.get("decision_rapporteur") != "acceptee":
+                    w(f"> *Désaccord au sein de la commission* : {c['justification']} — rapporteur : "
+                      f"{c.get('motif_rapporteur') or 'pas de réponse'} — remonté au fondateur."); w("")
         else:
             w(f"**Réponse rapide.** {rr.get(q['id'], '*(à rédiger)*')}"); w("")
         ths = [x for x in TH if x["question"] == q["id"]]
