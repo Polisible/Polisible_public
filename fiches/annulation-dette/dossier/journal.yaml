@@ -445,3 +445,7 @@
   agent: coordinateur
   phase: '6'
   action: fin de la phase 6 (textes du rédacteur ; fiche assemblée par rendre_fiche.py)
+- date: '2026-11-11T11:57:19'
+  agent: coordinateur
+  phase: 5-bis
+  action: 'debut de la phase 5-bis (commission : instruction)'

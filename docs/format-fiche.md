@@ -161,7 +161,7 @@ Style : celui des consignes communes (phrases courtes, aucun qualificatif, même
 2. Lecture rapide.
 3. Contexte et définitions.
 4. Chiffres clés.
-5. Les questions, dans l'ordre des numéros : réponse rapide, fil des arguments, « Ce qu'en disent les institutions », familles sans position.
+5. Les questions, dans l'ordre des numéros : réponse de la commission (avec sa certitude), « Pourquoi » (thèses classées : tient, tient en partie, ne tient pas), « Qui défend quoi » (tableau), « En détail » (examen de chaque thèse, contre-examen, contestations), puis le fil des arguments, « Ce qu'en disent les institutions » et les familles sans position (voir `docs/commission.md` § 8).
 6. Les valeurs en jeu.
 7. Pour aller plus loin : les sources de niveau 1 et 2 citées.
 8. Informations sur la fiche : date, version, nombre de passages de confrontation, condition d'arrêt, lien vers le journal et le dossier, tableau des sources, manques signalés.

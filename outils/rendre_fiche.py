@@ -12,6 +12,13 @@ import dossier as d
 LIM = {"lecture_rapide": 250, "contexte": 150, "definition": 40, "chiffre": 20, "reponse_rapide": 80, "valeurs": 60}
 VERDICT_LIB = {None: "sans verdict", "": "sans verdict"}
 POS_LIB = {"oui": "Oui", "non": "Non", "nuance": "Nuancé"}
+CONCL_LIB = {"tient": "Tient", "tient en partie": "Tient en partie", "ne tient pas": "Ne tient pas"}
+
+
+def desaccord(x):
+    """Désaccord persistant : contre-examen contesté sur la conclusion, ou contestation remontée au fondateur."""
+    return any(c["avis"] == "conteste" and c["critere"] == "conclusion" for c in x.get("contre_examen", [])) \
+        or any(c.get("decision") == "remontee-fondateur" for c in x.get("contestations", []))
 ID = re.compile(r"\[(?:[QAFSVO]\d+(?:,\s*)?)+\]")
 
 
@@ -69,6 +76,8 @@ def main():
         print("TEXTES VALIDES"); return
 
     qs = [q for q in D["questions"] if q["statut"] == "validee"]
+    TH = d.charger(F, "theses") or []
+    REP = {x["question"]: x for x in (d.charger(F, "reponses") or [])}
     num = {q["id"]: i for i, q in enumerate(qs, 1)}
     args = [x for x in D["arguments"] if x.get("statut") != "retire"]
     vus = {}  # affirmation -> numéro de question de première apparition
@@ -129,7 +138,46 @@ def main():
         n = num[q["id"]]
         w(f"## Question {n} — {q['enonce']}"); w("")
         w(f"Type : {q['type'].capitalize()} [{q['id']}]"); w("")
-        w(f"**Réponse rapide.** {rr.get(q['id'], '*(à rédiger)*')}"); w("")
+        rep = REP.get(q["id"])
+        if rep:  # docs/commission.md § 8 : la réponse de la commission d'abord
+            cert = f" — **{rep['certitude']}**" if rep.get("certitude") else ""
+            w(f"**Réponse de la commission**{cert}. {rep['texte']}"); w("")
+        else:
+            w(f"**Réponse rapide.** {rr.get(q['id'], '*(à rédiger)*')}"); w("")
+        ths = [x for x in TH if x["question"] == q["id"]]
+        if ths:
+            w("### Pourquoi"); w("")
+            for concl in ("tient", "tient en partie", "ne tient pas"):
+                for x in [x for x in ths if x.get("examen", {}).get("conclusion") == concl]:
+                    ex = x["examen"]
+                    raison = ex["portee"]["texte"]
+                    w(f"- **[{x['id']}] {CONCL_LIB[concl]}** ({POS_LIB[x['position']]}) — {x['enonce']} *{raison}*"
+                      + (" *(examen contesté, voir le détail)*" if desaccord(x) else ""))
+            w("")
+            w("### Qui défend quoi"); w("")
+            w("| Position | Thèse | Partis | Examen |"); w("| --- | --- | --- | --- |")
+            for x in sorted(ths, key=lambda x: ("oui", "non", "nuance").index(x["position"])):
+                w(f"| {POS_LIB[x['position']]} | [{x['id']}] {x['enonce']} | {', '.join(x.get('portee_par', [])) or '—'} | "
+                  f"{CONCL_LIB.get(x.get('examen', {}).get('conclusion'), '—')} |")
+            w("")
+            w("### En détail"); w("")
+            for x in ths:
+                ex = x.get("examen", {})
+                w(f"**[{x['id']}] {x['enonce']}** — arguments {', '.join(x['arguments'])}")
+                for k, lib in (("pertinence", "Pertinence"), ("appui", "Appui"), ("raisonnement", "Raisonnement"),
+                               ("objections", "Objections")):
+                    if k in ex:
+                        w(f"- {lib} : {ex[k]['valeur']} — {ex[k]['justification']}")
+                if "portee" in ex:
+                    w(f"- Portée : {ex['portee']['texte']}")
+                for c in x.get("contre_examen", []):
+                    if c["avis"] == "conteste":
+                        w(f"- *Contre-examen ({c['critere']})* : {c['justification']} Proposition : {c.get('proposition')}")
+                for c in x.get("contestations", []):
+                    w(f"- *Contestation ({c['critere']}, {c['nature']})* : {c['contenu']} — décision : {c.get('decision') or 'en attente'}"
+                      + (f" ({c['motif']})" if c.get("motif") else ""))
+                w("")
+            w("#### Les arguments"); w("")
         actifs = {x["id"] for x in args}
         # une réponse à un argument retiré devient une racine (sinon elle disparaîtrait du fil)
         racines = [x for x in args if x["question"] == q["id"] and x.get("repond_a") not in actifs]
