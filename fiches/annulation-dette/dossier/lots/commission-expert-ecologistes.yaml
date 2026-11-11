@@ -1,0 +1,334 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T18
+  partis:
+  - LE
+  - LFI
+  - PP
+  question_posee: Votre thèse T18 présuppose que l'annulation dégagerait une marge nette pour l'État, ce que le
+    dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu
+    des versements de la Banque de France à l'État (F19, F20) ?
+  id: R17
+  statut: repondue
+  reponses:
+  - agent: expert-ecologistes
+    texte: 'Nous n''avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France
+      à l''État (F19, F20). Nous ne la supposons plus établie : A10 est corrigé pour dire que le remboursement oblige
+      à financer la somme ailleurs, et que la marge dépend du solde net des intérêts reversés.'
+    elements:
+    - A10
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas de source qui chiffre cette marge nette : F41 reste sans estimation fiable. Le caractère
+      net de la marge est un présupposé que ma famille n''a pas chiffré.'
+    elements: []
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas de source qui chiffre la marge nette compte tenu des versements de la Banque de France
+      (F19, F20) ; F41 reste sans estimation. A34 est corrigé : il ne présente plus la marge comme acquise. Ce qui
+      reste établi : l''ampleur de la détention (F17) et le fait que le remboursement doit être financé.'
+    elements:
+    - A34
+- these: T28
+  partis:
+  - LE
+  - PCF
+  question_posee: Votre thèse T28 présuppose que l'annulation dégagerait une marge nette, ce que le dossier n'établit
+    pas (F49 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements
+    de la Banque de France à l'État (F19, F20) ?
+  id: R24
+  statut: repondue
+  reponses:
+  - agent: expert-ecologistes
+    texte: 'Nous n''avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France
+      (F19, F20). A12 ne repose pas sur un montant : il pose que l''usage de toute marge éventuelle est le critère
+      (F34, F35). Le chiffrage de cette marge reste non établi (F49) et nous ne l''affirmons pas.'
+    elements:
+    - A12
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui chiffre cette marge nette (F49 sans estimation fiable) ; A12 et A31 ne l'avancent
+      pas et le critère qu'ils posent est l'usage de la marge, si elle existe.
+    elements: []
+tes_theses:
+- id: T18
+  question: Q45
+  position: non
+  enonce: Rembourser intégralement la banque centrale oblige à réemprunter, à lever l'impôt ou à réduire la dépense,
+    sans qu'un créancier privé soit en jeu. Si une marge nette est dégagée, elle peut servir à investir, notamment
+    dans la transition écologique.
+  arguments:
+  - A10
+  - A27
+  - A34
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A10, A27 et A34 répondent à la question du remboursement quand le créancier est la banque centrale
+        (F17, F53).
+    appui:
+      valeur: partiel
+      justification: 'Présupposés établis : ampleur de la détention (F31, F16, Plutôt vrai ; F17, Vrai), reversements
+        à l''État (F7, F20, Vrai), besoins d''investissement (F32, Plutôt vrai) ; la marge nette, désormais conditionnelle
+        dans A10 et A34 (réponses à R17), reste supposée par A27 et n''est pas établie (F41).'
+    raisonnement:
+      valeur: valide
+      justification: Si la marge nette existe, la conclusion découle de la priorité donnée à l'investissement (F53,
+        F32) ; la thèse reconnaît que les intérêts reviennent en partie à l'État (F20, F41).
+    portee:
+      texte: établit l'ampleur de la dette détenue par l'Eurosystème (F31, F17) et que son remboursement doit être
+        financé ; ne prouve pas que l'annulation dégagerait une marge nette pour l'État.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A10, A27 ou A34 (F53).
+    conclusion: tient en partie
+  portee_par:
+  - LE
+  - LFI
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : présupposé de marge nette non établi traité dans l''appui (F41), comme pour
+      T28 et T29 ; regroupement de A10, A27, A34 cohérent (coût du remboursement et usage de la marge, F17, F31,
+      F53).'
+    proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A10, A27 et A34 répondent à la question du remboursement quand le créancier est la banque centrale
+        (F17, F53).
+    appui:
+      valeur: partiel
+      justification: 'Présupposés établis : ampleur de la détention (F31, F16, Plutôt vrai ; F17, Vrai), reversements
+        à l''État (F7, F20, Vrai), besoins d''investissement (F32, Plutôt vrai) ; le présupposé d''une marge nette
+        dégagée n''est pas établi (F41, Pas d''estimation fiable).'
+    raisonnement:
+      valeur: valide
+      justification: Si la marge nette existe, la conclusion découle de la priorité donnée à l'investissement (F53,
+        F32) ; la thèse reconnaît que les intérêts reviennent en partie à l'État (F20).
+    portee:
+      texte: établit l'ampleur de la dette détenue par l'Eurosystème (F31, F17) et que son remboursement doit être
+        financé ; ne prouve pas que l'annulation dégagerait une marge nette pour l'État.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A10, A27 ou A34 (F53).
+    conclusion: tient en partie
+- id: T22
+  question: Q46
+  position: nuance
+  enonce: La dette détenue par l'Eurosystème relève d'une décision européenne, non d'une décision nationale seule.
+    Les règles doivent être révisées par traité pour viser les limites planétaires, plutôt que contournées par un
+    État.
+  arguments:
+  - A11
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A11 porte sur le niveau de décision et sur les règles européennes (F4, F5, F33), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F4, F5, F33 (Vrai), F32 (Plutôt vrai).'
+    raisonnement:
+      valeur: valide
+      justification: Du cadre actuel (F4, F5) et de la priorité donnée aux objectifs écologiques (F33), la conclusion
+        découle.
+    portee:
+      texte: établit que la décision relève aujourd'hui de l'Eurosystème (F4, F5) et que le programme de 2026 propose
+        une révision des traités (F33) ; ne prouve pas qu'une telle révision soit atteignable.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A11 (F33).
+    conclusion: tient
+  portee_par:
+  - LE
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'L''énoncé attribue à tous les porteurs que la dette « relève d''une décision européenne, non
+      nationale seule » : c''est la conclusion de A11 (F4, F5, F33). A28 ne dit pas cela ; il conclut que la politique
+      de la dette relève « du contrôle démocratique plutôt que de règles fixées par des institutions indépendantes
+      », par un autre chemin (F1, F2, F56 : les traités comme carcan).'
+    proposition: Deux thèses (A11 ; A28), ou un énoncé limité au point commun (exiger un changement des règles européennes
+      plutôt qu'une décision unilatérale), chaque raisonnement étant restitué.
+    decision_rapporteur: acceptee
+    motif_rapporteur: A11 conclut à une décision européenne (F4, F5, F33), A28 au contrôle démocratique contre des
+      institutions indépendantes (F1, F2, F56) ; T22 garde A11, T35 reçoit A28.
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A11 et A28 portent sur le niveau de décision et sur les règles européennes (F4, F5, F56), objet
+        de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F1, F2, F4, F5, F33 (Vrai), F32 (Plutôt vrai) ; F56
+        est une valeur.'
+    raisonnement:
+      valeur: valide
+      justification: Du cadre actuel (F4, F5) et de la priorité donnée au contrôle démocratique et aux objectifs
+        écologiques (F56, F33), la conclusion découle.
+    portee:
+      texte: établit que la décision relève aujourd'hui de l'Eurosystème (F4, F5) et que les partis concernés proposent
+        une révision des traités (F33) ; ne prouve pas qu'une telle révision soit atteignable.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A11 ou A28 (F33).
+    conclusion: tient
+- id: T28
+  question: Q47
+  position: nuance
+  enonce: L'annulation de dette auprès de la BCE n'est pas une alternative aux recettes fiscales et à l'investissement,
+    mais un levier à combiner avec eux. Le critère est l'usage de la dette et de la marge éventuelle.
+  arguments:
+  - A12
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A12 compare l'annulation aux recettes et aux économies (F34, F35, F36), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Les positions du parti sont établies (F34, F35, F36, Vrai) ; présenter l'annulation comme un
+        levier suppose une marge nette, que le dossier n'établit pas (F41, F49) et que la réponse à R24 ne chiffre
+        pas.
+    raisonnement:
+      valeur: valide
+      justification: La thèse ne classe pas les leviers et ne chiffre pas la marge ; sa conclusion suit de la priorité
+        affirmée sur l'usage de la dette (F34, F35).
+    portee:
+      texte: établit que le parti associe annulation et hausse des recettes (F34, F35) et vise un retour progressif
+        du déficit (F36) ; ne prouve pas que l'annulation dégagerait une marge nette, ni de quel montant (F41).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A12 (F34).
+    conclusion: tient en partie
+  portee_par:
+  - LE
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A12 et A31 combinent les leviers pour des raisons différentes : A12 parce que le critère est
+      l''usage de la dette (« bonne » ou « mauvaise » dette, F34, F35, F36) ; A31 parce que l''annulation, qui dégagerait
+      des marges (F49), ne suffit pas seule (F55). L''énoncé prête à tous le « critère de l''usage de la marge »,
+      qui est celui de A12 (et proche de A36, T29).'
+    proposition: Deux thèses (A12 ; A31), ou un énoncé limité au point commun (l'annulation est un levier à combiner
+      avec les recettes), le critère d'usage étant attribué à son seul porteur.
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'A12 combine les leviers par le critère d''usage de la dette (F34, F35, F36), A31 parce que
+      l''annulation ne suffit pas seule (F49, F55) ; T28 garde A12, T37 reçoit A31 (appui faible : seul F49, Pas
+      d''estimation fiable).'
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A12 et A31 comparent l'annulation aux recettes et aux économies (F34, F35), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Les positions des partis sont établies (F34, F35, F36, Vrai) ; le présupposé d'une marge dégagée
+        par l'annulation repose sur F49 (Pas d'estimation fiable), sans le porter seul.
+    raisonnement:
+      valeur: valide
+      justification: La thèse ne classe pas les leviers et ne prétend pas chiffrer la marge ; sa conclusion suit
+        des priorités affirmées (F55, F34).
+    portee:
+      texte: établit que les partis concernés associent annulation et hausse des recettes (F34, F35) ; ne prouve
+        pas que l'annulation dégagerait une marge nette, ni de quel montant (F49).
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A12 ou A31 (F49).
+    conclusion: tient en partie
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?
+tes_arguments:
+- id: A10
+  question: Q45
+  position: non
+  enonce: 'Un État n''a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n''est pas
+    due à un créancier extérieur à la sphère publique. Si l''annulation dégage une marge nette, celle-ci peut financer
+    des investissements de transition écologique.'
+  raisonnement: Les titres détenus par l'Eurosystème résultent d'achats de politique monétaire (F31), et une part
+    des intérêts revient à l'État (F7, F20). Le remboursement oblige donc à financer la somme ailleurs. L'ampleur
+    de la marge nette n'est pas chiffrée (F41) ; si elle existe, l'Europe a besoin d'investissements supplémentaires
+    (F32), et le parti a déjà lié annulation et reconstruction écologique (F34).
+  repond_a: null
+  partis:
+  - LE
+  affirmations:
+  - 'F31 [fait, Plutôt vrai] L''Eurosystème (BCE et banques centrales nationales) détient environ 640 milliards
+    d''euros de titres publics français en 2026. — La chronique de Politis (14 septembre 2026) ne cite pas d''origine,
+    mais les données de la BCE ouvertes le 10 novembre 2026 donnent un ordre de grandeur voisin : achats nets cumulés
+    de titres publics français de 359,5 milliards d''euros au titre du PSPP et 237,5 milliards au titre du PEPP
+    fin octobre 2026, soit environ 597 milliards (au coût amorti, émetteurs publics français y compris hors État),
+    après environ 400 milliards pour le seul PSPP fin 2025. Le chiffre de 640 milliards correspond au début de 2026
+    ; le stock baisse au fil de l''année.'
+  - F32 [fait, Plutôt vrai] Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à
+    800 milliards d'euros par an (rapport Draghi, 2024). — Le rapport Draghi (Commission européenne, septembre 2024)
+    chiffre l'investissement supplémentaire nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit
+    4,4 à 4,7 % du PIB de l'UE de 2023, d'après les estimations de la Commission. Le chiffre de 800 milliards est
+    le haut de cette fourchette.
+  - F34 [fait, Vrai] En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé
+    par une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
+    de l'ISF.
+  - F7 [fait, Vrai] Le revenu monétaire des banques centrales nationales est réparti à la fin de chaque exercice
+    (Q43).
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43).'
+- id: A11
+  question: Q46
+  position: nuance
+  enonce: La dette détenue par l'Eurosystème relève d'une décision européenne, non d'une décision nationale seule.
+    Les règles doivent être révisées par traité pour viser les limites planétaires, plutôt que contournées par un
+    État.
+  raisonnement: 'Les titres en cause sont détenus au sein de l''Eurosystème, dont le conseil des gouverneurs décide
+    (F5), et les banques centrales nationales doivent respecter les statuts du SEBC (F4) : un État ne peut pas décider
+    seul. Mais ces règles fixent l''objectif de politique budgétaire à des organes que le parti juge insuffisamment
+    démocratiques, alors que les besoins d''investissement sont européens (F32). La réponse du parti est donc une
+    révision des traités avec des objectifs écologiques et sociaux (F33), pas un repli national.'
+  repond_a: null
+  partis:
+  - LE
+  affirmations:
+  - F4 [fait, Vrai] Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale,
+    y compris les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
+  - F5 [fait, Vrai] Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires
+    aux missions du SEBC (qui décide, Q41).
+  - F32 [fait, Plutôt vrai] Les investissements supplémentaires nécessaires à l'Union européenne sont estimés à
+    800 milliards d'euros par an (rapport Draghi, 2024). — Le rapport Draghi (Commission européenne, septembre 2024)
+    chiffre l'investissement supplémentaire nécessaire à « un minimum » de 750 à 800 milliards d'euros par an, soit
+    4,4 à 4,7 % du PIB de l'UE de 2023, d'après les estimations de la Commission. Le chiffre de 800 milliards est
+    le haut de cette fourchette.
+  - F33 [fait, Vrai] Le programme adopté par Les Écologistes en juillet 2026 prévoit, au niveau européen, une révision
+    des traités garantissant le non-dépassement des limites planétaires et la construction d'un État social européen.
+- id: A12
+  question: Q47
+  position: nuance
+  enonce: L'annulation de dette auprès de la BCE n'est pas présentée comme une alternative aux recettes fiscales
+    et à l'investissement, mais comme un levier à combiner avec eux. Le critère est l'usage de la marge dégagée.
+  raisonnement: 'Le parti ne classe pas les leviers : en 2020 il associait annulation de la dette auprès de la BCE
+    et rétablissement de l''ISF (F34) ; en 2025 il proposait 28,5 milliards d''euros de recettes fiscales (F35)
+    et un retour à 3,7 % de déficit en 2030, plus lent que celui du gouvernement (F36). Le critère est l''usage
+    de la dette et de la marge dégagée : « bonne » dette quand elle finance le climat et la justice sociale, « mauvaise
+    » dette sinon, selon la formule de sa secrétaire nationale.'
+  repond_a: null
+  partis:
+  - LE
+  affirmations:
+  - F34 [fait, Vrai] En juin 2020, le parti Les Verts (EELV) a présenté un plan de reconstruction écologique financé
+    par une annulation de la dette française auprès de la BCE et par une fiscalité plus juste, dont le rétablissement
+    de l'ISF.
+  - F35 [fait, Vrai] Le plan présenté par Les Écologistes en septembre 2025 comprenait 28,5 milliards d'euros de
+    recettes fiscales, notamment par la taxe Zucman et une contribution exceptionnelle sur les grandes entreprises.
+  - F36 [fait, Vrai] Le plan présenté par Les Écologistes en septembre 2025 prévoyait de ramener le déficit public
+    à 3,7 % du PIB en 2030, soit une réduction plus progressive que celle du gouvernement de l'époque.

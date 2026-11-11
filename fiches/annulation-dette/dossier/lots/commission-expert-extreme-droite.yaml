@@ -1,0 +1,289 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T7
+  partis:
+  - RN
+  - HOR
+  question_posee: Votre thèse T7 suppose que les versements de la Banque de France à l'État baisseraient au point
+    d'annuler l'essentiel du gain, ce que le dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une
+    source qui isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France ?
+  id: R7
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: Aucune source isolant la part des intérêts sur les titres de l'État dans le résultat de la Banque de
+      France n'a été trouvée. La recherche n'a donné que les versements à l'État (36,8 Md€ de 2015 à 2025, selon
+      la présentation du rapport annuel 2025) et le résultat net 2025, sans ventilation par type d'actif. Le bulletin
+      n° 260/6 (S9) n'a pas pu être ouvert (403). Le lien entre intérêts perçus et sommes reversées reste plausible
+      mais non chiffré.
+    elements: []
+  - agent: expert-extreme-droite
+    texte: 'Je ne peux pas répondre : je n''ai trouvé aucune source ouverte qui isole la part des intérêts sur les
+      titres de l''État dans le résultat de la Banque de France. Les documents où ce détail se trouverait (Comprendre
+      les comptes 2025, bulletin n° 260/6, communiqué de mars 2026) renvoient une erreur 403 via l''outil ; le rapport
+      du Sénat r24-902 n''en traite pas. Je reconnais que A13 ne soutient que « moins que le montant brut » (F19,
+      F20), pas « faible ou nul » : je corrige la position de A13 en nuance.'
+    elements: []
+- these: T25
+  partis:
+  - RN
+  question_posee: Votre thèse T25 présuppose que les économies prévues (F37, F38) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R32
+  statut: posee
+tes_theses:
+- id: T31
+  question: Q43
+  position: nuance
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source ne
+    chiffre ce recul.
+  arguments:
+  - A13
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A13 porte sur la charge d'intérêts compte tenu des reversements de la Banque de France (F19,
+        F20), objet de Q43.
+    appui:
+      valeur: partiel
+      justification: Les versements à l'État sont établis (F19, F20, Vrai) ; leur dépendance aux intérêts perçus
+        repose sur F41 (Pas d'estimation fiable), rendue plausible par la résolution de l'objection O1 (S9) et non
+        chiffrée selon la réponse à R7 ; l'énoncé ne chiffre rien, F41 ne porte donc pas seul la thèse.
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Le raisonnement de A13 affirme encore que le résultat baisse « d'autant » et que le gain serait
+        « faible ou nul », plus que ne portent F19, F20 et F41 et que l'effet « à due concurrence » écarté par O1
+        ; la conclusion de l'énoncé, limitée à « moins que le montant brut », n'en dépend pas.
+    portee:
+      texte: établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et rend plausible que
+        ces versements dépendent en partie des intérêts perçus (F41) ; ne prouve pas l'ampleur du recul, ni que
+        le gain serait faible ou nul.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A13 ; l'objection O1 du vérificateur
+        sur F41 est résolue sans changer son verdict.
+    conclusion: tient en partie
+  portee_par:
+  - RN
+- id: T23
+  question: Q46
+  position: oui
+  enonce: Les choix budgétaires doivent relever des Français, par la primauté du droit national et une règle d'or
+    adoptée par référendum. La règle proposée plafonne le déficit et n'autorise pas à ne pas honorer la dette.
+  arguments:
+  - A15
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A15 porte sur le niveau de décision, national ou européen (F39, F40), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F39 (Vrai) et F40 (Plutôt vrai, la formule de l''AFP
+        étant proche du texte de la proposition).'
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la décision nationale (F40) et à la discipline budgétaire (F39), la
+        conclusion découle, sans en tirer plus.
+    portee:
+      texte: établit que la règle d'or par référendum et la primauté de la Constitution sont proposées (F39, F40)
+        ; ne prouve pas que ces propositions s'appliqueraient à des titres détenus par l'Eurosystème.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A15 (F39).
+    conclusion: tient
+  portee_par:
+  - RN
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : présupposés vérifiés (F39 Vrai, F40 Plutôt vrai), conclusion limitée à ce
+      qu''ils portent ; la portée signale que les propositions ne visent pas les titres de l''Eurosystème.'
+    proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A15 porte sur le niveau de décision, national ou européen (F39, F40), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F39 (Vrai) et F40 (Plutôt vrai, la formule de l''AFP
+        étant proche du texte de la proposition).'
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la décision nationale (F40) et à la discipline budgétaire (F39), la
+        conclusion découle, sans en tirer plus.
+    portee:
+      texte: établit que la règle d'or par référendum et la primauté de la Constitution sont proposées (F39, F40)
+        ; ne prouve pas que ces propositions s'appliqueraient à des titres détenus par l'Eurosystème.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A15 (F39).
+    conclusion: tient
+- id: T25
+  question: Q47
+  position: non
+  enonce: 'L''annulation n''est pas préférable aux économies : seule une baisse durable du déficit stabilise la
+    dette, et une annulation n''en traiterait pas la cause. La voie retenue est la réduction des dépenses, rendue
+    contraignante par une règle d''or votée par référendum.'
+  arguments:
+  - A14
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A14 compare l'annulation aux économies (F37, F39), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Le plan et la charge de la dette sont établis (F22, F37, F38, F39, Vrai) ; que les économies
+        prévues, dont 15 milliards liés à l'immigration (F38), soient obtenues et dégagent les marges annoncées
+        n'est porté par aucune affirmation, comme l'effet du levier retenu dans T24.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée au traitement du déficit et de la règle d'or proposée (F37, F39), la
+        conclusion découle ; A14 écarte l'annulation explicitement.
+    portee:
+      texte: établit que le plan présenté le 6 octobre 2026 fait reposer la baisse de la dette sur 140 milliards
+        d'économies et une règle d'or (F37, F39) ; ne prouve pas que ces économies seraient obtenues, ni qu'elles
+        dégageraient davantage de marges que l'annulation.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A14 (F37).
+    conclusion: tient en partie
+  portee_par:
+  - RN
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A8 et A14 ne suivent pas le même raisonnement : A8 déduit la position sur l''annulation du choix
+      des moyens d''un plan qui n''en parle pas (F29, F30), ce que l''argument reconnaît ; A14 l''écarte explicitement
+      parce qu''elle ne traiterait pas la cause du déficit (F22, F37, F39). L''énoncé prête aux deux porteurs la
+      règle d''or et l''argument de la cause du déficit.'
+    proposition: 'Deux thèses : A8 (silence du plan, lacune « silence d''un texte » à apprécier sur l''essentiel
+      de sa conclusion) et A14 (cause du déficit), chacune examinée avec la grille.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: A14 écarte l'annulation explicitement (F37, F39), A8 la déduit du silence du plan (F29, F30)
+      ; T25 garde A14, T36 reçoit A8, dont la lacune porte sur l'essentiel de la réponse à Q47.
+  - critere: appui
+    avis: conteste
+    justification: F37 et F38 établissent ce que le plan prévoit, non que les économies seraient obtenues ni qu'elles
+      dégageraient les marges annoncées ; la portée le reconnaît (F38). T24 a reçu « partiel » pour le même type
+      de présupposé non établi sur l'effet du levier retenu (croissance par la baisse du coût du travail). Même
+      lacune, appréciation plus favorable.
+    proposition: 'appui : partiel — les plans et la charge de la dette sont établis (F22, F29, F30, F37, F38, F39,
+      Vrai) ; l''effet attendu des économies, dont 15 milliards liés à l''immigration (F38), n''est porté par aucune
+      affirmation. Conclusion inchangée (tient en partie). Relance de même nature que R20.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même présupposé non établi que T24 (effet du levier retenu) : appui partiel pour T25 et T36
+      ; relance de même nature que R20 posée aux deux.'
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A8 et A14 comparent l'annulation aux économies (F30, F37), objet de Q47.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F22, F29, F30, F37, F38, F39 (Vrai), qui décrivent
+        les plans et la charge de la dette.'
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Pour A8, la position sur l'annulation est déduite du silence du plan (F29, F30), ce que l'argument
+        reconnaît ; A14 l'énonce explicitement (F37, F39).
+    portee:
+      texte: établit que les plans présentés en octobre 2026 font reposer l'effort sur les économies (F30, F37)
+        ; ne prouve pas que tous les partis qui portent la thèse aient écarté l'annulation, ni que les économies
+        prévues seraient obtenues (F38).
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A8 ou A14 (F37).
+    conclusion: tient en partie
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?
+tes_arguments:
+- id: A13
+  question: Q43
+  position: nuance
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source du
+    dossier ne chiffre ce recul.
+  raisonnement: 'L''État est à la fois débiteur (intérêts payés) et bénéficiaire du résultat de la Banque de France
+    (dividende, impôt sur les bénéfices). Si les intérêts disparaissent, le résultat de la Banque de France baisse
+    d''autant, donc ses versements à l''État aussi : sur l''ensemble État plus Banque de France, le gain serait
+    faible ou nul. La Banque de France verse déjà à l''État des montants importants (36,8 Md€ depuis 2015), qui
+    seraient réduits.'
+  repond_a: null
+  partis:
+  - RN
+  affirmations:
+  - 'F41 [estimation, Pas d''estimation fiable] Les intérêts que l''État paie à la Banque de France sur les titres
+    qu''elle détient contribuent à son résultat, dont une part revient à l''État (dividende et impôt). — La seule
+    source (site de niveau 4, analyse assistée par IA, 24 août 2026) est non conforme : elle rapporte un argument
+    de Jordan Bardella sans établir le mécanisme ni mentionner l''impôt. Les documents de la Banque de France au
+    dossier (F19, F20, F21) établissent que la Banque verse un impôt et des dividendes à l''État et que son revenu
+    monétaire est partagé dans l''Eurosystème, mais aucune source rattachée n''isole la part due aux intérêts sur
+    les titres de l''État.'
+  - F19 [fait, Vrai] Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard
+    d'euros avant d'atteindre un résultat net de 8,1 milliards (Q43).
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43).'
+- id: A14
+  question: Q47
+  position: non
+  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies : la
+    voie du RN est la réduction des dépenses, dont celles liées à l''immigration, jointe à une règle d''or votée
+    par référendum.'
+  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse sur le budget parce que le déficit continue d'alimenter
+    la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition du
+    retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une annulation
+    de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
+  repond_a: null
+  partis:
+  - RN
+  affirmations:
+  - F22 [fait, Vrai] En 2025, la charge de la dette de l'ensemble des administrations publiques atteint 65,7 milliards
+    d'euros, soit 2,2 points de PIB (Cour des comptes, juin 2026) (Q43).
+  - F37 [fait, Vrai] Le RN propose, dans son plan présenté le 6 octobre 2026, 140 milliards d'euros d'économies
+    d'ici 2032, pour ramener la dette de 121 % du PIB en 2027 à 112 % en 2032.
+  - F38 [fait, Vrai] Le plan du RN présenté le 6 octobre 2026 attend de la maîtrise de l'immigration 15 milliards
+    d'euros d'économies en 2027.
+  - F39 [fait, Vrai] Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum,
+    pour limiter le déficit public.
+- id: A15
+  question: Q46
+  position: oui
+  enonce: Les choix budgétaires doivent relever des Français plutôt que de règles européennes, par la primauté du
+    droit national et une règle d'or adoptée par référendum. La règle proposée est un plafond de déficit, non l'annulation
+    unilatérale d'engagements.
+  raisonnement: 'Selon Marine Le Pen, la règle d''or sert à éviter « la mise sous tutelle de la France » : la contrainte
+    budgétaire est choisie par les Français plutôt qu''imposée de l''extérieur par les créanciers ou par des règles
+    européennes. La proposition de loi constitutionnelle de 2024 affirme en parallèle la primauté du droit national
+    sur le droit européen. Ces deux textes situent la décision au niveau national, avec une discipline budgétaire,
+    sans affirmer que l''État puisse ne pas honorer sa dette.'
+  repond_a: null
+  partis:
+  - RN
+  affirmations:
+  - F39 [fait, Vrai] Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum,
+    pour limiter le déficit public.
+  - 'F40 [fait, Plutôt vrai] La proposition de loi constitutionnelle déposée par Marine Le Pen en 2024 met fin à
+    la primauté du droit européen sur le droit national. — La proposition de loi constitutionnelle n° 2120 du 25
+    janvier 2024 (Assemblée nationale) vise à poser « la supériorité de la Constitution sur toute autre norme, même
+    internationale ». La formule « met fin à la primauté du droit européen » est la description qu''en fait l''AFP
+    (5 septembre 2026), pas le texte lui-même : le sens est proche, la formulation est une interprétation.'

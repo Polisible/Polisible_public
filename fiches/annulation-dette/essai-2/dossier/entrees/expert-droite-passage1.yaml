@@ -1,0 +1,45 @@
+agent: expert-droite
+phase: 2
+sources:
+  - ref: s1
+    titre: "\"Annuler\" la dette : pourquoi c'est impossible et dangereux"
+    auteur: "Fondation IFRAP"
+    date: "2026-09-01"
+    adresse: "https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux"
+    niveau: 3
+  - ref: s2
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement à l'État."
+    type: fait
+    sources:
+      - {source: s2, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières, puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États."}
+  - ref: f2
+    enonce: "Une décision d'annuler spécifiquement la dette française détenue par l'Eurosystème ne pourrait pas être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Une décision de « mettre au frigo » ou d’annuler spécifiquement (ou prioritairement) la dette française ne pourrait être prise unilatéralement par la France."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "Annuler cette dette ne dépend pas du gouvernement français et heurte l'interdiction du financement monétaire des États : ce n'est donc pas juridiquement possible dans le cadre actuel des traités."
+    raisonnement: "Les titres ont été achetés sur le marché secondaire, ce que les traités permettent (F4, F5) parce qu'ils interdisent l'achat direct à l'État (F1) et tout crédit aux autorités publiques (F2). Annuler ces titres reviendrait à transformer ces achats en financement sans contrepartie de l'État, ce que l'article 123 vise à empêcher. En outre, la Banque de France et la BCE ne peuvent recevoir d'instruction d'un gouvernement (F3) et la décision relèverait du Conseil des gouverneurs (f2) : un gouvernement français seul ne peut ni l'ordonner ni la décider. Seule une révision des traités, à l'unanimité des États, changerait ce cadre."
+    porte_par:
+      - {qui: "Fondation IFRAP (think tank libéral)", source: s1}
+    affirmations: [F1, F2, F3, F4, F5, f1, f2]
+valeurs:
+  - {question: Q1, enonce: "Ma famille met en priorité la discipline budgétaire et la crédibilité de la signature de la France : le respect des traités et de l'indépendance de la banque centrale est vu comme une garantie, non comme un obstacle à contourner."}
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué de la Banque de France sur la dette (S8), position juridique", erreur: "403"}
+  - {adresse: "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf", pourquoi: "part de dette détenue par l'Eurosystème (S10)", erreur: "403"}
+incertitudes:
+  - "Aucune position publique de LR sur Q1 n'a été trouvée dans une source ouverte ; l'argument est attribué à la Fondation IFRAP (think tank, non parti). Un mot attribué à Bruno Retailleau vu dans une recherche n'a pas été ouvert."
+  - "Date de l'article IFRAP non trouvée dans les métadonnées : 2026-09-01 est une approximation à corriger par le vérificateur."
+  - "Le chaînage « annulation = financement monétaire » est l'interprétation de l'IFRAP, pas un texte du traité ; aucune décision de la Cour ne porte sur ce cas précis."
+  - "Révision des traités à l'unanimité : affirmation du raisonnement non sourcée par une source ouverte (article 48 TUE)."

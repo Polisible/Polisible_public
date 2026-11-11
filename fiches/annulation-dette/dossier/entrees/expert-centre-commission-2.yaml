@@ -1,0 +1,17 @@
+agent: expert-centre
+phase: 5
+reponses_relances:
+  - relance: R29
+    texte: "Rien n'écarte l'objection de A45 et A48 : une décision que le conseil des gouverneurs reste libre de prendre ou de refuser n'est pas une instruction au sens de F3 (F5). A3 ne vaut que si l'opération est imposée par l'État, notamment par une loi nationale (F3, F4). Aucune source ne dit que la proposition suit cette voie. Je corrige A3 pour la limiter à ce cas."
+    elements: [A3]
+  - relance: R31
+    texte: "Je ne peux pas répondre : aucune source ouverte n'isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France (même réponse qu'à R7). Le lien entre intérêts perçus et sommes reversées reste plausible mais non chiffré (F41). A6 ne soutient donc qu'un gain net incertain, non un gain nul."
+    elements: []
+corrections:
+  - vise: A3
+    action: corriger
+    enonce: "Si l'État impose à la banque centrale d'effacer ses actifs, ce serait une instruction d'un gouvernement, que le traité interdit. Une décision libre du conseil des gouverneurs n'en est pas une."
+    raisonnement: "Le traité interdit à la BCE et aux banques centrales nationales d'accepter des instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4). Une opération imposée par une loi nationale relèverait de cette interdiction. Le conseil des gouverneurs reste libre de décider (F5) : dans ce cas, l'argument ne s'applique pas."
+incertitudes:
+  - "Aucune source ouverte ne dit quelle voie (loi nationale ou décision du conseil des gouverneurs) suivrait la proposition."
+  - "Aucune source isolant la part des intérêts sur titres d'État dans le résultat de la Banque de France n'a été trouvée."

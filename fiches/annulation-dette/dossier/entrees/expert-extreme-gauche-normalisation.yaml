@@ -1,0 +1,62 @@
+agent: expert-extreme-gauche
+phase: 6
+sources:
+  - {ref: s1, titre: "Dette publique : tract « Cette dette n'est pas la nôtre, nous n'avons pas à la payer ! »", auteur: "NPA (Nouveau Parti anticapitaliste)", date: "2011-12", adresse: "https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf", niveau: 3}
+  - {ref: s2, titre: "Brochure d'été 2026", auteur: "Lutte ouvrière", date: "2026-06", adresse: "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf", niveau: 3}
+  - {ref: s3, titre: "Lutte ouvrière, hebdomadaire n° 3031", auteur: "Lutte ouvrière", date: "2026-09-04", adresse: "https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf", niveau: 3}
+corrections:
+  - vise: A16
+    action: retirer
+    normalise: true
+  - vise: A17
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Un État ne doit pas rembourser une dette illégitime, construite par des cadeaux aux plus riches et aux grandes entreprises. Un audit citoyen établit qui a prêté, à quel taux et quelle part est remboursée, et un moratoire suspend les paiements."
+    porte_par:
+      - {parti: NPA, date: "2011-12", source: s1}
+  - vise: A18
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "Les marges budgétaires viennent des recettes tirées des profits et de l'arrêt des aides aux entreprises, non d'économies sur les budgets utiles à la population. L'annulation d'une part précise de la dette n'est pas proposée."
+    raisonnement: "Si la dette a été creusée par des aides aux entreprises (270 milliards d'euros par an d'aides et d'exonérations, chiffre cité par LO), alors supprimer ces aides et taxer les profits est préférable aux économies sur les services publics, que cette position refuse. L'annulation n'est pas retenue comme voie principale."
+    porte_par:
+      - {personne: "Nathalie Arthaud", fonction: "candidate à l'élection présidentielle de 2027", parti: LO, date: "2026-06", source: s2}
+  - vise: A19
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "L'annulation de la dette publique est préférable à l'austérité : elle libère l'argent des intérêts pour des investissements et des emplois utiles à la population. Elle doit porter sur les dettes illégitimes, non sur la seule part de la banque centrale."
+    porte_par:
+      - {parti: NPA, date: "2011-12", source: s1}
+  - vise: A43
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Les vendeurs des titres rachetés par la banque centrale ont été payés au moment de l'achat : la dette de l'État n'est pas leur créance. Le critère retenu est la légitimité de la dette, que l'audit établit, non l'identité du créancier."
+    porte_par:
+      - {parti: NPA, date: "2011-12", source: s1}
+  - vise: V10
+    action: corriger
+    normalise: true
+    enonce: "Priorité à faire payer la dette de l'État par la bourgeoisie et les banques, qui en profitent, plutôt que par les travailleurs."
+    porte_par:
+      - {parti: LO, date: "2026-09-04", source: s3}
+  - vise: V11
+    action: retirer
+    normalise: true
+  - vise: V23
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la mise à contribution du capital et des profits, et au refus de faire payer la dette à la population par des économies."
+    porte_par:
+      - {personne: "Nathalie Arthaud", fonction: "candidate à l'élection présidentielle de 2027", parti: LO, date: "2026-06", source: s2}
+  - vise: V31
+    action: retirer
+    normalise: true
+incertitudes:
+  - "A16 retiré : le seul porteur au dossier est Tendance CLAIRE (S38), dont la page ne s'ouvre pas (contenu vide) ; le tract NPA S37 ne traite pas du reversement des intérêts de la Banque de France."
+  - "A19 et A43 : le tract NPA de 2011 (S37) établit le refus de la dette illégitime, l'audit et le moratoire, mais pas explicitement le passage sur la seule part de la banque centrale, qui date d'une époque antérieure à ces achats de titres ; la date du tract est au mois (2011-12), non confirmée au jour."
+  - "V10 : la source est l'hebdomadaire LO du 4 septembre 2026 ; je n'ai pas établi l'auteur de l'article, donc porteur = parti seul."
+  - "V11 et V31 retirés faute de porteur sourcé précis (V11 attribuait à toute la famille ; V31 renvoie à des arguments d'autres familles)."

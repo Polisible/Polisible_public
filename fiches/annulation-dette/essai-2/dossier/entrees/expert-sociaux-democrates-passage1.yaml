@@ -1,0 +1,11 @@
+agent: expert-sociaux-democrates
+phase: 2
+sans_position:
+  - {question: Q1, recherche: "recherche web août-septembre 2026 sur la réaction du PS et de Place publique à la proposition d'annulation ; aucune déclaration de ces partis trouvée, donc aucun argument attribuable déposé"}
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué de la Banque de France du 12 septembre 2026 : part de dette détenue", erreur: "403"}
+  - {adresse: "https://www.banque-france.fr/en/node/1924173", pourquoi: "page Banque de France sur la dette détenue", erreur: "403"}
+  - {adresse: "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf", pourquoi: "bulletin mensuel AFT de mai 2026 : détention de la dette par l'Eurosystème", erreur: "403"}
+incertitudes:
+  - "Aucune source ouverte ne donne la position du PS ou de Place publique : aucun argument déposé faute de porteur sourcé (un argument juridique fondé sur les articles 123 et 130 existe dans la bibliothèque mais sans attribution à un parti)."
+  - "La part exacte de dette détenue par la Banque de France n'est pas établie ici (sources inaccessibles)."

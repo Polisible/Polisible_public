@@ -1,0 +1,539 @@
+questions:
+- id: Q1
+  enonce: Peut-on juridiquement annuler la dette publique détenue par la Banque de France ?
+  type: fait
+  fiche: annulation-dette
+  sujet: La dette
+  theme: Économie et finances publiques
+  proposee_par: fondateur
+  statut: validee
+  sans_position:
+  - auteur: expert-ecologistes
+    recherche: 'Recherche web (août à novembre 2026) de déclarations ou textes des Écologistes (Tondelier, Rousseau,
+      programme 2027) sur l''annulation de la dette détenue par la Banque de France ; articles Public Sénat (25
+      août 2026) et Euronews (27 août 2026) ouverts : aucune mention des Écologistes. Aucune position publique trouvée,
+      aucun argument fabriqué.'
+  - auteur: expert-extreme-gauche
+    recherche: 'Position juridique de LO et du NPA sur l''annulation de la dette détenue par la Banque de France
+      (compatibilité avec les articles 123 et 130 du TFUE) : recherches web sur la proposition de Mélenchon d''août
+      2026, NPA (page de suivi des programmes 2027 ouverte, qui ne précise ni créanciers ni calendrier), Lutte ouvrière.
+      Aucun texte daté de LO ou du NPA ne traite de la légalité de cette mesure. Le seul texte trouvé (note de Tendance
+      CLAIRE, courant du NPA, non datée, écrite après 2020) porte sur l''utilité de la mesure, pas sur sa légalité.'
+  - auteur: expert-sociaux-democrates
+    recherche: recherche web août-septembre 2026 sur la réaction du PS et de Place publique à la proposition d'annulation
+      ; aucune déclaration de ces partis trouvée, donc aucun argument attribuable déposé
+tes_arguments:
+- id: A3
+  auteur: expert-droite
+  question: Q1
+  position: contre
+  enonce: 'Annuler cette dette ne dépend pas du gouvernement français et heurte l''interdiction du financement monétaire
+    des États : ce n''est donc pas juridiquement possible dans le cadre actuel des traités.'
+  raisonnement: 'Les titres ont été achetés sur le marché secondaire, ce que les traités permettent (F4, F5) parce
+    qu''ils interdisent l''achat direct à l''État (F1) et tout crédit aux autorités publiques (F2). Annuler ces
+    titres reviendrait à transformer ces achats en financement sans contrepartie de l''État, ce que l''article 123
+    vise à empêcher. En outre, la Banque de France et la BCE ne peuvent recevoir d''instruction d''un gouvernement
+    (F3) et la décision relèverait du Conseil des gouverneurs (f2) : un gouvernement français seul ne peut ni l''ordonner
+    ni la décider. Seule une révision des traités, à l''unanimité des États, changerait ce cadre.'
+  porte_par:
+  - qui: Fondation IFRAP (think tank libéral)
+    source: S12
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F1
+    enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter
+      directement aux autorités publiques les instruments de leur dette.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE dispose que l'acquisition directe, auprès des autorités publiques,
+      des instruments de leur dette par la BCE ou les banques centrales nationales est interdite. L'interdiction
+      vise l'achat direct, c'est-à-dire sur le marché primaire.
+    sources:
+    - source: S1
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite
+      statut_source: conforme
+  - id: F2
+    enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+      autre crédit aux administrations centrales et aux autres autorités publiques.
+    type: fait
+    verdict: Vrai
+    explication: Le même paragraphe interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre type de crédit aux administrations centrales, aux autres autorités publiques et à d'autres entités
+      publiques de l'Union et des États membres. Le paragraphe 2 exclut de ce champ les établissements publics de
+      crédit.
+    sources:
+    - source: S1
+      extrait: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de
+        l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F3
+    enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    verdict: Vrai
+    explication: L'article 130 du TFUE dispose que ni la BCE, ni une banque centrale nationale, ni un membre de
+      leurs organes de décision ne peuvent solliciter ni accepter des instructions des gouvernements des États membres,
+      entre autres.
+    sources:
+    - source: S2
+      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+        organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes
+        de l'Union, des gouvernements des États membres ou de tout autre organisme.
+      statut_source: conforme
+  - id: F4
+    enonce: Dans l'arrêt C-62/14 du 16 juin 2015, la Cour (grande chambre) dit pour droit que les articles 119,
+      123 § 1 et 127 TFUE autorisent le SEBC à adopter un programme d'achat d'obligations souveraines sur les marchés
+      secondaires, tel que celui annoncé en septembre 2012 (programme OMT).
+    type: fait
+    verdict: Vrai
+    explication: Le dispositif de l'arrêt C-62/14 du 16 juin 2015 (grande chambre) dit pour droit que les articles
+      119, 123 § 1 et 127 §§ 1 et 2 TFUE, avec les articles 17 à 24 des statuts du SEBC, autorisent le SEBC à adopter
+      un tel programme d'achat sur les marchés secondaires. Le programme visé est celui annoncé dans le communiqué
+      cité au procès-verbal de la réunion des 5 et 6 septembre 2012 (opérations monétaires sur titres, OMT).
+    sources:
+    - source: S3
+      extrait: ils autorisent le Système européen de banques centrales (SEBC) à adopter un programme d’achat d’obligations
+        souveraines sur les marchés secondaires
+      statut_source: conforme
+  - id: F5
+    enonce: Dans l'arrêt C-493/17 du 11 décembre 2018, la Cour (grande chambre) dit pour droit que l'examen des
+      questions posées n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de
+      la BCE, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
+    type: fait
+    verdict: Plutôt vrai
+    explication: Le dispositif de l'arrêt C-493/17 du 11 décembre 2018 dit pour droit que l'examen des première
+      à quatrième questions n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774,
+      telle que modifiée par la décision (UE) 2017/100. L'énoncé parle des « questions posées » sans préciser que
+      la cinquième question a été déclarée irrecevable, donc non examinée.
+    sources:
+    - source: S4
+      extrait: L’examen des première à quatrième questions préjudicielles n’a révélé aucun élément de nature à affecter
+        la validité de la décision (UE) 2015/774 de la Banque centrale européenne
+      statut_source: conforme
+  - id: F11
+    enonce: Les titres de dette publique française détenus pour le compte de l'Eurosystème ont été achetés sur le
+      marché secondaire, auprès d'institutions financières, et non directement à l'État.
+    type: fait
+    verdict: Vrai
+    explication: La FAQ de la BCE sur le programme PSPP indique que l'Eurosystème n'a jamais acheté sur le marché
+      primaire, ces achats étant interdits par l'article 123 du TFUE ; cet article (F1) interdit l'achat direct
+      à l'État pour tous les programmes. Public Sénat (niveau 4) rapporte la même chose ; doublon de F13.
+    sources:
+    - source: S13
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+        puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+  - id: F12
+    enonce: 'Une décision d''annuler spécifiquement la dette française détenue par l''Eurosystème ne pourrait pas
+      être prise unilatéralement par la France : elle relèverait du Conseil des gouverneurs de la BCE.'
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Les statuts du SEBC (art. 12.1) confient la politique monétaire au Conseil des gouverneurs, et
+      les banques centrales nationales agissent selon les orientations et instructions de la BCE (art. 14.3) ; l''article
+      130 TFUE interdit les instructions des gouvernements (F3). Aucun texte ni arrêt ne traite toutefois de l''annulation
+      en particulier, et selon la présidente de la BCE (10 septembre 2026) une telle décision serait de toute façon
+      contraire à l''article 123 : la compétence du Conseil ne signifie pas qu''il pourrait la prendre.'
+    sources:
+    - source: S12
+      extrait: Une décision de « mettre au frigo » ou d’annuler spécifiquement (ou prioritairement) la dette française
+        ne pourrait être prise unilatéralement par la France.
+      statut_source: conforme
+arguments_des_autres:
+- id: A1
+  auteur: expert-centre
+  question: Q1
+  position: contre
+  enonce: Effacer des titres de dette publique détenus par la Banque de France reviendrait à faire supporter à la
+    banque centrale la charge d'une dette de l'État sans contrepartie. Les traités interdisent à la banque centrale
+    de financer l'État, par achat direct de titres comme par tout autre crédit.
+  raisonnement: 'L''article 123 interdit à la banque centrale de financer le secteur public (achat direct de dette,
+    découverts, crédits). Les achats sur le marché secondaire ne sont admis que parce qu''ils ne sont pas un financement
+    de l''État (C-62/14, C-493/17). Une annulation retire à l''État une dette sans qu''il la rembourse : l''effet
+    économique est celui d''un financement monétaire définitif, ce que la logique de l''article 123 vise à empêcher.
+    La conclusion juridique est donc l''impossibilité sans modifier les traités.'
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F1
+    enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter
+      directement aux autorités publiques les instruments de leur dette.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE dispose que l'acquisition directe, auprès des autorités publiques,
+      des instruments de leur dette par la BCE ou les banques centrales nationales est interdite. L'interdiction
+      vise l'achat direct, c'est-à-dire sur le marché primaire.
+    sources:
+    - source: S1
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite
+      statut_source: conforme
+  - id: F2
+    enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+      autre crédit aux administrations centrales et aux autres autorités publiques.
+    type: fait
+    verdict: Vrai
+    explication: Le même paragraphe interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre type de crédit aux administrations centrales, aux autres autorités publiques et à d'autres entités
+      publiques de l'Union et des États membres. Le paragraphe 2 exclut de ce champ les établissements publics de
+      crédit.
+    sources:
+    - source: S1
+      extrait: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de
+        l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F4
+    enonce: Dans l'arrêt C-62/14 du 16 juin 2015, la Cour (grande chambre) dit pour droit que les articles 119,
+      123 § 1 et 127 TFUE autorisent le SEBC à adopter un programme d'achat d'obligations souveraines sur les marchés
+      secondaires, tel que celui annoncé en septembre 2012 (programme OMT).
+    type: fait
+    verdict: Vrai
+    explication: Le dispositif de l'arrêt C-62/14 du 16 juin 2015 (grande chambre) dit pour droit que les articles
+      119, 123 § 1 et 127 §§ 1 et 2 TFUE, avec les articles 17 à 24 des statuts du SEBC, autorisent le SEBC à adopter
+      un tel programme d'achat sur les marchés secondaires. Le programme visé est celui annoncé dans le communiqué
+      cité au procès-verbal de la réunion des 5 et 6 septembre 2012 (opérations monétaires sur titres, OMT).
+    sources:
+    - source: S3
+      extrait: ils autorisent le Système européen de banques centrales (SEBC) à adopter un programme d’achat d’obligations
+        souveraines sur les marchés secondaires
+      statut_source: conforme
+  - id: F5
+    enonce: Dans l'arrêt C-493/17 du 11 décembre 2018, la Cour (grande chambre) dit pour droit que l'examen des
+      questions posées n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774 de
+      la BCE, relative au programme d'achats d'actifs du secteur public sur les marchés secondaires.
+    type: fait
+    verdict: Plutôt vrai
+    explication: Le dispositif de l'arrêt C-493/17 du 11 décembre 2018 dit pour droit que l'examen des première
+      à quatrième questions n'a révélé aucun élément de nature à affecter la validité de la décision (UE) 2015/774,
+      telle que modifiée par la décision (UE) 2017/100. L'énoncé parle des « questions posées » sans préciser que
+      la cinquième question a été déclarée irrecevable, donc non examinée.
+    sources:
+    - source: S4
+      extrait: L’examen des première à quatrième questions préjudicielles n’a révélé aucun élément de nature à affecter
+        la validité de la décision (UE) 2015/774 de la Banque centrale européenne
+      statut_source: conforme
+  - id: F10
+    enonce: Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette
+      détenue par la banque centrale de « violation pure du traité ».
+    type: fait
+    verdict: Plutôt vrai
+    explication: La transcription officielle de la BCE (ecb.europa.eu, ecb.is260910) confirme que Christine Lagarde
+      a dit, en anglais, que tout ce qui irait contre l'interdiction de financement de la dette serait « a pure
+      violation of the Treaty », en réponse à une question sur le gel ou l'annulation d'une part de la dette française.
+      Mais la conférence de presse a eu lieu le 10 septembre 2026 à Berlin, pas le 11 (date de l'article d'Euronews).
+    sources:
+    - source: S11
+      extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+        européenne.
+      statut_source: conforme
+- id: A2
+  auteur: expert-centre
+  question: Q1
+  position: contre
+  enonce: Les titres détenus par la Banque de France l'ont été dans le cadre de la politique de l'Eurosystème, décidée
+    par la BCE. Un gouvernement national ne peut ni les effacer ni l'ordonner.
+  raisonnement: La Banque de France est membre de l'Eurosystème et la politique monétaire relève de ses organes
+    de décision. L'article 130 interdit à une banque centrale nationale d'accepter des instructions d'un gouvernement.
+    Une loi française ordonnant l'annulation reviendrait à donner une instruction à la Banque de France, et à décider
+    seul d'une opération qui engage l'ensemble de l'Eurosystème. Elle supposerait donc une décision européenne,
+    ou une modification des traités, et non une décision française.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F3
+    enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    verdict: Vrai
+    explication: L'article 130 du TFUE dispose que ni la BCE, ni une banque centrale nationale, ni un membre de
+      leurs organes de décision ne peuvent solliciter ni accepter des instructions des gouvernements des États membres,
+      entre autres.
+    sources:
+    - source: S2
+      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+        organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes
+        de l'Union, des gouvernements des États membres ou de tout autre organisme.
+      statut_source: conforme
+  - id: F9
+    enonce: Le SEBC comprend la BCE et les banques centrales de tous les États membres ; l'Eurosystème ne comprend
+      que la BCE et les banques centrales des États ayant adopté l'euro.
+    type: fait
+    verdict: Vrai
+    explication: Le glossaire de la Banque nationale de Belgique définit le SEBC comme la BCE et les banques centrales
+      nationales de tous les États membres de l'Union, soit l'Eurosystème plus les banques centrales des États qui
+      n'ont pas adopté l'euro. L'énoncé sur l'Eurosystème découle de cette définition.
+    sources:
+    - source: S7
+      extrait: it includes, in addition to the members of the Eurosystem, the NCBs of those Member States that have
+        not yet adopted the euro.
+      statut_source: conforme
+  - id: F10
+    enonce: Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette
+      détenue par la banque centrale de « violation pure du traité ».
+    type: fait
+    verdict: Plutôt vrai
+    explication: La transcription officielle de la BCE (ecb.europa.eu, ecb.is260910) confirme que Christine Lagarde
+      a dit, en anglais, que tout ce qui irait contre l'interdiction de financement de la dette serait « a pure
+      violation of the Treaty », en réponse à une question sur le gel ou l'annulation d'une part de la dette française.
+      Mais la conférence de presse a eu lieu le 10 septembre 2026 à Berlin, pas le 11 (date de l'article d'Euronews).
+    sources:
+    - source: S11
+      extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+        européenne.
+      statut_source: conforme
+- id: A4
+  auteur: expert-extreme-droite
+  question: Q1
+  position: contre
+  enonce: Effacer une créance de la Banque de France sur l'État reviendrait à un financement monétaire de l'État,
+    que les traités interdisent, et la France ne peut pas l'imposer seule à sa banque centrale.
+  raisonnement: 'L''article 123 interdit toute forme de crédit ou de découvert de la banque centrale à l''État (F1,
+    F2) : abandonner une créance détenue sur lui revient à lui faire un don équivalent, donc à un crédit sans contrepartie.
+    L''article 130 interdit au gouvernement de donner des instructions à la banque centrale (F3), et la Banque de
+    France fait partie de l''Eurosystème (F9) : le gouvernement ne peut donc pas décider seul l''effacement. Limite
+    : le texte des articles 123 et 130 n''emploie pas le mot « annuler » ; la conclusion repose sur l''interprétation
+    de l''interdiction du crédit, non sur une mention explicite.'
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)
+    source: S11
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F1
+    enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter
+      directement aux autorités publiques les instruments de leur dette.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE dispose que l'acquisition directe, auprès des autorités publiques,
+      des instruments de leur dette par la BCE ou les banques centrales nationales est interdite. L'interdiction
+      vise l'achat direct, c'est-à-dire sur le marché primaire.
+    sources:
+    - source: S1
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite
+      statut_source: conforme
+  - id: F2
+    enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+      autre crédit aux administrations centrales et aux autres autorités publiques.
+    type: fait
+    verdict: Vrai
+    explication: Le même paragraphe interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre type de crédit aux administrations centrales, aux autres autorités publiques et à d'autres entités
+      publiques de l'Union et des États membres. Le paragraphe 2 exclut de ce champ les établissements publics de
+      crédit.
+    sources:
+    - source: S1
+      extrait: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de
+        l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F3
+    enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    verdict: Vrai
+    explication: L'article 130 du TFUE dispose que ni la BCE, ni une banque centrale nationale, ni un membre de
+      leurs organes de décision ne peuvent solliciter ni accepter des instructions des gouvernements des États membres,
+      entre autres.
+    sources:
+    - source: S2
+      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+        organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes
+        de l'Union, des gouvernements des États membres ou de tout autre organisme.
+      statut_source: conforme
+  - id: F9
+    enonce: Le SEBC comprend la BCE et les banques centrales de tous les États membres ; l'Eurosystème ne comprend
+      que la BCE et les banques centrales des États ayant adopté l'euro.
+    type: fait
+    verdict: Vrai
+    explication: Le glossaire de la Banque nationale de Belgique définit le SEBC comme la BCE et les banques centrales
+      nationales de tous les États membres de l'Union, soit l'Eurosystème plus les banques centrales des États qui
+      n'ont pas adopté l'euro. L'énoncé sur l'Eurosystème découle de cette définition.
+    sources:
+    - source: S7
+      extrait: it includes, in addition to the members of the Eurosystem, the NCBs of those Member States that have
+        not yet adopted the euro.
+      statut_source: conforme
+- id: A5
+  auteur: expert-gauche-radicale
+  question: Q1
+  position: pour
+  enonce: Les traités interdisent d'acheter la dette à l'État ou de lui prêter, pas de conserver ou de transformer
+    des titres déjà achetés sur le marché secondaire. Garder indéfiniment ces titres, à taux nul, ne serait ni un
+    achat direct ni un crédit nouveau.
+  raisonnement: L'article 123 vise l'acquisition directe auprès de l'émetteur et les crédits (F1, F2). Les titres
+    en cause ont été achetés sur le marché secondaire (f1, F8), pratique que la Cour de justice a jugée compatible
+    avec l'article 123 (F4). Le texte n'interdit donc pas, tel qu'il est écrit, de renoncer à les revendre ou de
+    les convertir en titres perpétuels à taux nul ; la proposition de 2020 en conclut qu'aucune modification des
+    traités n'est nécessaire.
+  porte_par:
+  - qui: Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)
+    source: S16
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F1
+    enonce: L'article 123, paragraphe 1, du TFUE interdit à la BCE et aux banques centrales nationales d'acheter
+      directement aux autorités publiques les instruments de leur dette.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE dispose que l'acquisition directe, auprès des autorités publiques,
+      des instruments de leur dette par la BCE ou les banques centrales nationales est interdite. L'interdiction
+      vise l'achat direct, c'est-à-dire sur le marché primaire.
+    sources:
+    - source: S1
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite
+      statut_source: conforme
+  - id: F2
+    enonce: Le même article interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout
+      autre crédit aux administrations centrales et aux autres autorités publiques.
+    type: fait
+    verdict: Vrai
+    explication: Le même paragraphe interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre type de crédit aux administrations centrales, aux autres autorités publiques et à d'autres entités
+      publiques de l'Union et des États membres. Le paragraphe 2 exclut de ce champ les établissements publics de
+      crédit.
+    sources:
+    - source: S1
+      extrait: d’accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de
+        l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F8
+    enonce: Le marché secondaire est le marché où sont échangés des instruments financiers déjà en circulation,
+      par opposition au marché primaire où ils sont émis.
+    type: fait
+    verdict: Vrai
+    explication: Le glossaire de la Banque nationale de Belgique définit le marché secondaire comme le marché des
+      instruments financiers en circulation et, dans une autre entrée (lettre P), le marché primaire comme le marché
+      où de nouveaux emprunts sont émis. La seconde moitié de l'énoncé s'appuie sur cette entrée, qui n'est pas
+      la source citée (S6).
+    sources:
+    - source: S6
+      extrait: Market where transactions are carried out concerning financial instruments in circulation.
+      statut_source: conforme
+  - id: F13
+    enonce: Les titres de dette française détenus par les banques centrales de l'Eurosystème ont été acquis sur
+      le marché secondaire (auprès d'institutions financières), non auprès de l'État.
+    type: fait
+    verdict: Vrai
+    explication: 'Même contenu que F11 (doublon) : la FAQ de la BCE sur le PSPP indique qu''aucun achat n''a eu
+      lieu sur le marché primaire, en raison de l''article 123 du TFUE, qui interdit l''achat direct aux États pour
+      tous les programmes.'
+    sources:
+    - source: S13
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+        puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+  - id: F4
+    enonce: Dans l'arrêt C-62/14 du 16 juin 2015, la Cour (grande chambre) dit pour droit que les articles 119,
+      123 § 1 et 127 TFUE autorisent le SEBC à adopter un programme d'achat d'obligations souveraines sur les marchés
+      secondaires, tel que celui annoncé en septembre 2012 (programme OMT).
+    type: fait
+    verdict: Vrai
+    explication: Le dispositif de l'arrêt C-62/14 du 16 juin 2015 (grande chambre) dit pour droit que les articles
+      119, 123 § 1 et 127 §§ 1 et 2 TFUE, avec les articles 17 à 24 des statuts du SEBC, autorisent le SEBC à adopter
+      un tel programme d'achat sur les marchés secondaires. Le programme visé est celui annoncé dans le communiqué
+      cité au procès-verbal de la réunion des 5 et 6 septembre 2012 (opérations monétaires sur titres, OMT).
+    sources:
+    - source: S3
+      extrait: ils autorisent le Système européen de banques centrales (SEBC) à adopter un programme d’achat d’obligations
+        souveraines sur les marchés secondaires
+      statut_source: conforme
+- id: A6
+  auteur: expert-gauche-radicale
+  question: Q1
+  position: nuance
+  enonce: 'Une annulation décidée seule par la France ne serait pas possible : la décision relèverait du Système
+    européen de banques centrales. La voie défendue est donc européenne : obtenir que la BCE congèle ces dettes
+    et, à terme, réviser les traités et les statuts de la BCE.'
+  raisonnement: Les banques centrales nationales ne peuvent recevoir d'instructions d'un gouvernement (F3) et la
+    Banque de France agit au sein du SEBC (F9). Un gouvernement ne peut donc pas imposer l'effacement ; il peut
+    seulement l'exiger politiquement de la BCE et œuvrer à modifier le cadre européen. C'est la formulation de la
+    résolution de 2020 (inviter le gouvernement à exiger de l'UE que la BCE agisse) et celle de la déclaration d'août
+    2026 (f2, où le sujet est la BCE).
+  porte_par:
+  - qui: Groupe La France insoumise (proposition de résolution n° 2914, 11 mai 2020)
+    source: S16
+  - qui: Jean-Luc Mélenchon (discours du 23 août 2026)
+    source: S13
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F3
+    enonce: L'article 130 du TFUE interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    verdict: Vrai
+    explication: L'article 130 du TFUE dispose que ni la BCE, ni une banque centrale nationale, ni un membre de
+      leurs organes de décision ne peuvent solliciter ni accepter des instructions des gouvernements des États membres,
+      entre autres.
+    sources:
+    - source: S2
+      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+        organes de décision ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes
+        de l'Union, des gouvernements des États membres ou de tout autre organisme.
+      statut_source: conforme
+  - id: F9
+    enonce: Le SEBC comprend la BCE et les banques centrales de tous les États membres ; l'Eurosystème ne comprend
+      que la BCE et les banques centrales des États ayant adopté l'euro.
+    type: fait
+    verdict: Vrai
+    explication: Le glossaire de la Banque nationale de Belgique définit le SEBC comme la BCE et les banques centrales
+      nationales de tous les États membres de l'Union, soit l'Eurosystème plus les banques centrales des États qui
+      n'ont pas adopté l'euro. L'énoncé sur l'Eurosystème découle de cette définition.
+    sources:
+    - source: S7
+      extrait: it includes, in addition to the members of the Eurosystem, the NCBs of those Member States that have
+        not yet adopted the euro.
+      statut_source: conforme
+  - id: F14
+    enonce: Le 23 août 2026, à la clôture des universités d'été de LFI, Jean-Luc Mélenchon a déclaré que la BCE
+      peut et doit mettre au congélateur les dettes des États.
+    type: fait
+    verdict: Vrai
+    explication: Public Sénat (25 août 2026) rapporte cette phrase, prononcée « dimanche » (23 août 2026) lors du
+      discours de clôture des universités d'été de LFI à Châteauneuf-sur-Isère. L'enregistrement du discours n'a
+      pas été consulté ; la presse suffit ici pour rapporter une déclaration.
+    sources:
+    - source: S13
+      extrait: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en
+        commençant par celles de la période Covid. »
+      statut_source: conforme
+objections_deja_posees: []
+tes_sources_demandees: []
+sources:
+  S1: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée, JO C 202 du 7.6.2016)
+    (Union européenne (EUR-Lex), 2016-06-07, niveau 1) — conforme
+  S2: Traité sur le fonctionnement de l'Union européenne, article 130 (version consolidée, JO C 202 du 7.6.2016)
+    (Union européenne (EUR-Lex), 2016-06-07, niveau 1) — conforme
+  S3: Arrêt de la Cour (grande chambre) du 16 juin 2015, Peter Gauweiler e.a. contre Deutscher Bundestag, affaire
+    C-62/14 (Cour de justice de l'Union européenne, 2015-06-16, niveau 1) — conforme
+  S4: Arrêt de la Cour (grande chambre) du 11 décembre 2018, Heinrich Weiss e.a., affaire C-493/17 (Cour de justice
+    de l'Union européenne, 2018-12-11, niveau 1) — conforme
+  S5: At the end of the fourth quarter of 2025, the public debt ratio stood at 115.6% of GDP (Informations rapides
+    n° 79) (Insee, 2026-03-27, niveau 1) — conforme
+  S6: Glossary, entrée « Secondary market » (Banque nationale de Belgique (membre de l'Eurosystème), non datée (glossaire
+    consulté le 2026-11-10), niveau 1) — conforme
+  S7: Glossary, entrée « European System of Central Banks (ESCB) » (Banque nationale de Belgique (membre de l'Eurosystème),
+    non datée (glossaire consulté le 2026-11-10), niveau 1) — conforme
+  S8: (à établir) ((à établir), (à établir), niveau None) — inaccessible
+  S9: (à établir) ((à établir), (à établir), niveau None) — inaccessible
+  S10: (à établir) ((à établir), (à établir), niveau None) — inaccessible
+  S11: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française (Euronews, 2026-09-11,
+    niveau 4) — conforme
+  S12: '"Annuler" la dette : pourquoi c''est impossible et dangereux (Fondation IFRAP, 2026-09-01, niveau 3) — conforme'
+  S13: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses
+    difficultés (Public Sénat, 2026-08-25, niveau 4) — conforme'
+  S14: (à établir) ((à établir), (à établir), niveau None) — inaccessible
+  S15: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat (Euronews,
+    2026-08-27, niveau 4) — conforme
+  S16: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale
+    européenne et de sa transformation en dette perpétuelle (Groupe La France insoumise, Assemblée nationale (XVe
+    législature), 2020-05-11, niveau 3) — conforme

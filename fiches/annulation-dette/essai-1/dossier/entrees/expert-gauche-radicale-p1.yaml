@@ -1,0 +1,77 @@
+agent: expert-gauche-radicale
+phase: 2
+sources:
+  - ref: s1
+    titre: "Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée)"
+    auteur: "Union européenne (Journal officiel C 202)"
+    date: "2016-06-07"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123"
+    niveau: 1
+  - ref: s2
+    titre: "Protocole (n° 4) sur les statuts du SEBC et de la BCE, articles 32 et 33 (version consolidée)"
+    auteur: "Union européenne (Journal officiel C 202)"
+    date: "2016-06-07"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/PRO/04"
+    niveau: 1
+  - ref: s3
+    titre: "Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe"
+    auteur: "Jean-Luc Mélenchon"
+    date: "2022-06-01"
+    adresse: "https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf"
+    niveau: 3
+  - ref: s4
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat (Guillaume Jacquot)"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "L'article 123 du traité sur le fonctionnement de l'Union européenne interdit à la BCE et aux banques centrales nationales d'accorder des crédits aux États et d'acquérir directement auprès d'eux leurs titres de dette ; il ne mentionne pas l'annulation de titres déjà détenus."
+    type: fait
+    sources:
+      - {source: s1, extrait: "l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales, des instruments de leur dette est également interdite."}
+  - ref: f2
+    enonce: "Selon les statuts du SEBC et de la BCE (article 32.4), le conseil des gouverneurs de la BCE peut, dans des circonstances exceptionnelles, indemniser les banques centrales nationales pour des pertes particulières liées aux opérations de politique monétaire menées pour le compte du SEBC."
+    type: fait
+    sources:
+      - {source: s2, extrait: "Le conseil des gouverneurs peut décider d'indemniser les banques centrales nationales pour les frais encourus à l'occasion de l'émission de billets ou, dans des circonstances exceptionnelles, pour des pertes particulières afférentes aux opérations de politique monétaire réalisées pour le compte du SEBC."}
+  - ref: f3
+    enonce: "Les titres de dette française détenus par la Banque de France au titre de la politique monétaire ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s4, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières, puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États."}
+  - ref: f4
+    enonce: "Fin août 2026, Jean-Luc Mélenchon a déclaré que la BCE peut et doit mettre au congélateur les dettes des États, en commençant par celles de la période Covid."
+    type: fait
+    sources:
+      - {source: s4, extrait: "« Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en commençant par celles de la période Covid. »"}
+  - ref: f5
+    enonce: "En 2020, une proposition de résolution de La France insoumise invitait le gouvernement à peser au niveau européen pour faire évoluer les règles sur les dettes publiques détenues par la BCE."
+    type: fait
+    sources:
+      - {source: s4, extrait: "Une proposition de résolution avait été déposée pour inviter le gouvernement à peser au niveau européen pour faire évoluer les règles."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: pour
+    enonce: "L'annulation de titres déjà détenus par une banque centrale n'est ni un crédit à l'État ni un achat direct de ses titres : elle ne relève donc pas de l'interdiction du financement monétaire de l'article 123. Les titres ayant été achetés sur le marché secondaire, et les statuts de la BCE prévoyant déjà une indemnisation des banques centrales nationales pour certaines pertes, l'opération serait possible dans le cadre des traités actuels, par décision de l'Eurosystème."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon (La France insoumise)", source: s3}
+    affirmations: [f1, f2, f3]
+  - ref: a2
+    question: Q1
+    position: nuance
+    enonce: "Le levier juridique n'est pas une décision française isolée : c'est la BCE, de façon collégiale, qui peut geler ou transformer ces titres, et la France doit donc obtenir cette décision de ses partenaires. La position de La France insoumise est que l'État français doit porter cette demande au niveau européen, et non annuler seul."
+    porte_par:
+      - {qui: "Jean-Luc Mélenchon (La France insoumise)", source: s4}
+    affirmations: [f4, f5]
+valeurs:
+  - {question: Q1, enonce: "La gauche radicale met en priorité la capacité de la puissance publique à dépenser pour l'investissement social et écologique, et considère que la dette détenue par la banque centrale est une dette que la collectivité se doit à elle-même ; elle accorde moins de poids à l'indépendance de la banque centrale et à l'interprétation stricte des traités."}
+incertitudes:
+  - "Le livret s3 est en ligne sous une adresse datée de juin 2022 mais son contenu date de la crise Covid (2020) ; la date indiquée est celle de l'adresse, pas celle d'une publication vérifiée. Il porte sur les dettes détenues par la BCE en général, pas sur le seul cas de la Banque de France en 2026."
+  - "Le livret affirme que l'article 32.4 permet à la BCE de compenser les pertes par la création monétaire ; le texte ouvert (f2) parle d'indemnisation décidée par le conseil des gouverneurs en circonstances exceptionnelles, sans mentionner la création monétaire ni l'annulation de titres. Le vérificateur devra trancher sur la portée."
+  - "Je n'ai pas trouvé de texte de programme de 2026 de La France insoumise détaillant la procédure juridique ; la position de 2026 repose sur des déclarations rapportées par la presse (niveau 4)."
+  - "Je n'ai pas ouvert la jurisprudence de la Cour de justice de l'Union européenne sur les achats de titres (arrêts Gauweiler 2015, Weiss 2018 et 2020), qui borne l'interprétation de l'article 123."
+  - "Des responsables contestent la légalité de la proposition (Christine Lagarde, selon Euronews du 11 septembre 2026 : « violation pure du traité » ; le ministre de l'Économie Roland Lescure ; Thierry Breton) : je n'ai pas ouvert leurs propos d'origine et ne les ai pas versés comme affirmations."
+  - "La part exacte de dette détenue (18 % ou 20 % selon les articles) et son montant ne relèvent pas de Q1 et n'ont pas été vérifiés auprès d'une source de niveau 1."

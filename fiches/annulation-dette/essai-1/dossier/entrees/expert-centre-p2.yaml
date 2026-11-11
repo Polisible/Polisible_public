@@ -1,0 +1,31 @@
+agent: expert-centre
+phase: 4
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "Le traité (article 123) ne mentionne pas l'annulation, mais la BCE lit l'interdiction du financement monétaire comme couvrant aussi l'annulation de titres déjà détenus : acheter des titres sur le marché secondaire puis renoncer à leur remboursement équivaudrait, selon elle, à financer l'État. L'article 32.4 des statuts ne prévoit que l'indemnisation de pertes sur opérations de politique monétaire, pas l'effacement d'une créance sur un État."
+    porte_par:
+      - {qui: "Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)", source: S18}
+      - {qui: "Christine Lagarde, présidente de la BCE (lettre du 5 février 2021)", source: S1}
+    affirmations: [F31, F1, F26]
+    repond_a: A9
+  - ref: a2
+    question: Q1
+    position: contre
+    enonce: "Le raisonnement selon lequel une banque centrale peut simplement renoncer à réclamer le remboursement de ses titres est celui que la BCE a écarté : en juin 2020, un membre de son directoire a dit que décider de ne pas demander le remboursement d'obligations souveraines achetées serait du financement monétaire. Le fait que les titres aient été achetés sur le marché secondaire ne répond donc pas à cette objection."
+    porte_par:
+      - {qui: "Fabio Panetta, membre du directoire de la BCE (entretien du 16 juin 2020)", source: S18}
+    affirmations: [F31, F34]
+    repond_a: A11
+corrections:
+  - vise: A1
+    action: corriger
+    enonce: "L'annulation de titres publics détenus par la Banque de France serait, selon la BCE, un financement monétaire de l'État interdit par l'article 123 du TFUE ; la Banque de France, membre de l'Eurosystème, ne peut pas la décider seule. Selon les experts cités par l'AFP, seul le Conseil des gouverneurs de la BCE pourrait l'ordonner, ce qui demanderait à la BCE de revenir sur sa lecture du traité ou de le faire modifier."
+valeurs:
+  - {question: Q1, enonce: "Ma famille met en priorité la crédibilité de la signature de la France et le respect du cadre européen : même si le texte de l'article 123 laisse un doute, elle préfère s'en tenir à l'interprétation de la BCE plutôt que de tester les limites des traités."}
+incertitudes:
+  - "A1 (corrigé) : la phrase sur le rôle du Conseil des gouverneurs vient de F17 (De Facto, niveau 4, d'après l'AFP) ; je n'ai pas rouvert de source en phase 4."
+  - "Je n'ai pas vérifié si l'article 32.4 des statuts a déjà été utilisé pour des opérations proches d'une annulation ; je ne l'affirme donc pas."
+  - "F35 (Olivier Faure) : la date « fin août 2026 » n'est pas confirmée par la source Yahoo ; déjà relevé par le vérificateur, non repris en objection."
+  - "Aucune décision de justice ne tranche la question : la lecture de la BCE (F1, F31) est une position d'institution, pas une jurisprudence."

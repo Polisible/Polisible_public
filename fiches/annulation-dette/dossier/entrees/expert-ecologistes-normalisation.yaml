@@ -1,0 +1,50 @@
+agent: expert-ecologistes
+phase: 6
+corrections:
+  - {vise: A9, action: retirer, normalise: true}
+  - vise: A10
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale, qui n'est pas due à un créancier extérieur à la sphère publique. La marge dégagée peut financer la transition écologique."
+    porte_par:
+      - {parti: LE, date: "2020-06-15", source: S24}
+  - vise: A11
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "La dette détenue par l'Eurosystème relève d'une décision européenne, non d'une décision nationale seule. Les règles doivent être révisées par traité pour viser les limites planétaires, plutôt que contournées par un État."
+    porte_par:
+      - {parti: LE, date: "2026-07", source: S26}
+  - vise: A12
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "L'annulation de dette auprès de la BCE n'est pas présentée comme une alternative aux recettes fiscales et à l'investissement, mais comme un levier à combiner avec eux. Le critère est l'usage de la marge dégagée."
+    porte_par:
+      - {parti: LE, date: "2020-06-15", source: S24}
+      - {parti: LE, date: "2025-09-04", source: S25}
+      - {personne: "Marine Tondelier", fonction: "secrétaire nationale", parti: LE, date: "2024-06-20", source: S27}
+  - vise: V6
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la capacité de la puissance publique de financer la transition écologique et une fiscalité plus juste, avant le remboursement intégral d'une dette détenue par la banque centrale."
+    porte_par:
+      - {parti: LE, date: "2020-06-15", source: S24}
+  - vise: V7
+    action: corriger
+    normalise: true
+    enonce: "Priorité à une révision des traités européens garantissant le respect des limites planétaires et un État social européen, plutôt qu'à une décision nationale seule."
+    porte_par:
+      - {parti: LE, date: "2026-07", source: S26}
+  - vise: V8
+    action: corriger
+    normalise: true
+    enonce: "Priorité à l'usage de la dette et de la marge dégagée, au service du climat et de la justice sociale, plutôt qu'au choix d'un levier budgétaire unique."
+    porte_par:
+      - {personne: "Marine Tondelier", fonction: "secrétaire nationale", parti: LE, date: "2024-06-20", source: S27}
+incertitudes:
+  - "A9 retiré : son seul porteur, Jérôme Gleizes, a rejoint en janvier 2026 la liste de Sophia Chikirou (LFI) à Paris selon Public Sénat (2026-01-30) ; son appartenance à LE en septembre 2026 n'est pas établie."
+  - "A10 : le raisonnement cite F31 et F32, tirés de la chronique de Gleizes, et F31 est jugé insuffisant par le vérificateur ; le raisonnement n'est pas modifié ici."
+  - "Date du programme de LE (S26) : « juillet 2026 » d'après la page de commission publiée le 26 octobre 2026 ; le programme lui-même n'a pas été ouvert."
+  - "Fonction de Marine Tondelier (secrétaire nationale en juin 2024) : S27 la désigne seulement comme « cheffe de file des écologistes »."

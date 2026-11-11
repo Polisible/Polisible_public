@@ -1,0 +1,102 @@
+agent: expert-sociaux-democrates
+phase: 2
+sources:
+  - ref: s1
+    titre: "Article 123 du traité sur le fonctionnement de l'Union européenne (version consolidée)"
+    auteur: "Union européenne (Journal officiel, EUR-Lex)"
+    date: "2016-06-07"
+    adresse: "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123"
+    niveau: 1
+  - ref: s2
+    titre: "Entretien avec Le Monde (Fabio Panetta, membre du directoire de la BCE)"
+    auteur: "Banque centrale européenne"
+    date: "2020-06-16"
+    adresse: "https://www.ecb.europa.eu/press/inter/date/2020/html/ecb.in200616~2fdb438ac4.fr.html"
+    niveau: 1
+  - ref: s3
+    titre: "Réponse de la BCE à une députée européenne sur l'annulation de dettes publiques"
+    auteur: "Banque centrale européenne"
+    date: "2021-02-05"
+    adresse: "https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf"
+    niveau: 1
+  - ref: s4
+    titre: "Pourquoi il faut annuler la dette détenue par la Banque centrale européenne (tribune)"
+    auteur: "Aurore Lalucq, Raphaël Glucksmann et autres eurodéputés (Le JDD)"
+    date: "2020-09"
+    adresse: "https://www.lejdd.fr/Economie/tribune-pourquoi-il-faut-annuler-la-dette-detenue-par-la-banque-centrale-europeenne-3991402"
+    niveau: 3
+  - ref: s5
+    titre: "L'annulation de la dette voulue par LFI creuse les divergences entre PS et Place publique"
+    auteur: "Yahoo Actualités (reprise d'un entretien d'Olivier Faure à Libération)"
+    date: "2026-08-28"
+    adresse: "https://fr.news.yahoo.com/sport/l-annulation-dette-voulue-lfi-105408424.html"
+    niveau: 4
+  - ref: s6
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "L'article 123 §1 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou tout autre crédit aux administrations centrales, et interdit aussi l'acquisition directe de leurs titres de dette auprès d'elles."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après dénommées \"banques centrales nationales\", d'accorder des découverts ou tout autre type de crédit aux institutions, organes ou organismes de l'Union, aux administrations centrales"}
+  - ref: f2
+    enonce: "En juin 2020, Fabio Panetta, membre du directoire de la BCE, a déclaré qu'acheter des obligations souveraines et décider de ne pas en demander le remboursement serait du financement monétaire."
+    type: fait
+    sources:
+      - {source: s2, extrait: "Si nous achetions des obligations souveraines et décidions de ne pas demander leur remboursement, ce serait du financement monétaire."}
+  - ref: f3
+    enonce: "Dans une lettre de 2021, la BCE a écrit que l'annulation de dettes publiques par la BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire de l'article 123."
+    type: fait
+    sources:
+      - {source: s3, extrait: "l'annulation de dettes publiques par la BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire énoncée à l'article 123 du traité sur le fonctionnement de l'Union européenne."}
+  - ref: f4
+    enonce: "Une tribune de septembre 2020, signée notamment par les eurodéputés S&D Aurore Lalucq et Raphaël Glucksmann, affirme que l'annulation de la dette détenue par la BCE est possible en vertu des traités européens."
+    type: fait
+    sources:
+      - {source: s4, extrait: "Cette solution est non seulement possible en vertu des traités européens mais, surtout, c’est la seule qui nous permette de sortir de cette crise sans risquer d’en déclencher une nouvelle."}
+  - ref: f5
+    enonce: "Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s6, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières, puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États."}
+  - ref: f6
+    enonce: "Selon Yahoo Actualités, Olivier Faure a déclaré à Libération, fin août 2026, qu'une banque centrale peut ne plus réclamer le remboursement des titres qu'elle détient, hors part des investisseurs privés."
+    type: fait
+    sources:
+      - {source: s5, extrait: "« Une banque centrale peut ne plus réclamer le remboursement des titres qu'elle détient. On ne parle pas de la part détenue par les investisseurs privés, il est donc inutile de pousser des hauts cris »"}
+  - ref: f7
+    enonce: "Selon Yahoo Actualités, Olivier Faure a ajouté que l'opération est une réduction comptable du déficit qui ne procure pas l'équivalent en trésorerie."
+    type: fait
+    sources:
+      - {source: s5, extrait: "« C'est une réduction comptable du déficit, mais qui ne donne pas - hélas - l'équivalent en cash »"}
+arguments:
+  - ref: a1
+    question: Q1
+    position: pour
+    enonce: "L'article 123 vise les crédits aux États et l'achat direct de leurs titres ; les titres de la Banque de France ont été achetés sur le marché secondaire et le texte ne mentionne pas l'annulation. Une banque centrale peut donc, sur le plan comptable, renoncer à réclamer le remboursement de ses propres titres, sans toucher à la part détenue par les investisseurs privés."
+    porte_par:
+      - {qui: "Aurore Lalucq, Raphaël Glucksmann et eurodéputés S&D (tribune de septembre 2020)", source: s4}
+      - {qui: "Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)", source: s5}
+    affirmations: [f1, f4, f5, f6]
+  - ref: a2
+    question: Q1
+    position: nuance
+    enonce: "La réponse ne dépend pas de la France seule : la BCE lit l'article 123 comme interdisant l'annulation, et la Banque de France agit au sein de l'Eurosystème. Une annulation ne serait donc pas acquise en droit ; elle ne rapporterait pas non plus de trésorerie à l'État et appelle une discussion avec les partenaires européens."
+    porte_par:
+      - {qui: "Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)", source: s5}
+    affirmations: [f1, f2, f3, f7]
+valeurs:
+  - {question: Q1, enonce: "La famille met en priorité la crédibilité budgétaire de la France et la construction européenne (agir avec les partenaires, dans le cadre des traités), tout en cherchant des marges de manœuvre pour les services publics et l'investissement."}
+incertitudes:
+  - "Aucun texte de la famille (PS, Place publique) invoquant l'article 123 pour s'opposer à la mesure n'a été trouvé : l'opposition de Carole Delga (« n'importe quoi ») et d'Aurore Lalucq (« ce n'est pas le bon moment ») est rapportée sans argument juridique. Je n'ai donc écrit aucun argument « contre » attribué à la famille."
+  - "La famille est divisée et a évolué : Aurore Lalucq (co-présidente de Place publique) a signé la tribune de 2020 puis s'oppose en 2026 selon Yahoo ; Raphaël Glucksmann n'a pas réagi publiquement à ma connaissance ; Olivier Faure juge « le débat posé » sans soutenir la mesure. L'argument a1 reflète donc des textes de 2020 pour Lalucq et Glucksmann, pas leur position de 2026."
+  - "L'entretien de Faure à Libération n'a pas été ouvert (source primaire non trouvée) : citation reprise via Yahoo Actualités. Cet article mentionne « jeudi 27 avril » alors que le contexte (débat du Medef, 27 août 2026) indique août ; sa date de publication (2026-08-28) est une estimation de ma part, non confirmée par les métadonnées."
+  - "La tribune du JDD n'a pas de date dans la page ouverte ; « septembre 2020 » vient de l'article Yahoo (s5). Sa liste de signataires est tronquée dans ma lecture."
+  - "La date de la lettre de la BCE (s3) est déduite du nom du fichier (cor20210205) ; le texte ouvert ne la donne pas. Elle est de 2021 d'après le contenu."
+  - "Texte consolidé de l'article 123 : date 2016-06-07 reprise du Journal officiel C 202 ; le paragraphe 2 n'a pas été lu. Les articles 130 (indépendance) et 125 n'ont pas été ouverts."
+  - "Question non traitée : savoir si le « gel » en titres perpétuels à taux nul que décrit la presse pour la proposition de Mélenchon diffère juridiquement d'une annulation ; je n'ai pas ouvert le programme de LFI."
+  - "Pas trouvé de décision de la CJUE sur l'annulation de titres détenus par l'Eurosystème ; arrêts Pringle (C-370/12) ouvert seulement dans son sommaire, sans passage utile."

@@ -1,0 +1,122 @@
+agent: expert-centre
+phase: 2
+sources:
+  - ref: s1
+    titre: "Dette : « la crise financière assurée » en cas d'annulation partielle, selon le ministre de l'Economie"
+    auteur: "MoneyVox avec AFP"
+    date: "2026-08-24"
+    adresse: "https://www.moneyvox.fr/actu/110103/dette-la-crise-financiere-assuree-en-cas-annulation-partielle-selon-le-ministre-de-economie"
+    niveau: 4
+  - ref: s2
+    titre: "Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûterait)"
+    auteur: "Selectra"
+    date: "2026-08-28"
+    adresse: "https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne"
+    niveau: 4
+  - ref: s3
+    titre: "Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française"
+    auteur: "Euronews (Olivier Tolachides)"
+    date: "2026-09-11"
+    adresse: "https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+    niveau: 4
+  - ref: s4
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s4, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières"}
+  - ref: f2
+    enonce: "Le 24 août 2026, le taux d'intérêt de la France à 10 ans était de 4,11 %, après avoir dépassé 4,14 % le jeudi précédent, son plus haut niveau depuis 2008."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Lundi, le taux d'intérêt de la France à 10 ans était à 4,11%, après avoir dépassé jeudi 4,14%, au plus depuis 2008."}
+  - ref: f3
+    enonce: "Une annulation unilatérale d'une partie de la dette publique ferait monter les taux auxquels la France emprunte, car les prêteurs réclameraient une prime de risque supplémentaire."
+    type: estimation
+    sources:
+      - {source: s1, extrait: "Le risque, pour le ministre de l'Economie, est également de faire grimper les taux d'intérêt"}
+  - ref: f4
+    enonce: "L'annulation ou la conversion en dette perpétuelle à taux nul de titres achetés par l'Eurosystème est contraire aux traités européens."
+    type: fait
+    sources:
+      - {source: s1, extrait: "c'est illégal, non conforme aux traités européens"}
+arguments:
+  - ref: a1
+    question: Q41
+    position: contre
+    enonce: "Les traités ne permettent pas cette opération. Effacer ou geler à taux nul des titres que l'Eurosystème a rachetés reviendrait à faire financer l'État par sa banque centrale, ce que l'article 123 interdit, et la décision ne relèverait de toute façon pas du gouvernement."
+    raisonnement: "L'article 123 interdit crédits et achats directs de dette aux États (F1, F2). La Cour a validé les rachats sur le marché secondaire (F8, F10), mais à condition de garanties contre le financement monétaire (F9) : les titres ont été achetés à des investisseurs (f1) et non offerts à l'État. Les annuler ou les convertir en perpétuel à taux nul reviendrait à donner à l'État, après coup, un avantage que le traité lui refuse au départ. Enfin, les décisions du SEBC appartiennent au conseil des gouverneurs (F5), qui ne peut recevoir d'instructions des gouvernements (F3) : un État ne peut ni l'ordonner ni modifier seul le cadre (F4)."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)", parti: "Renaissance", source: s1}
+    affirmations: [F1, F2, F3, F4, F5, F8, F9, F10, f1, f4]
+  - ref: a2
+    question: Q42
+    position: pour
+    enonce: "Oui, les taux monteraient. Un État qui renonce unilatéralement à une part de sa dette, en contournant les traités, signale aux prêteurs qu'il peut changer les règles ; ils demanderaient un taux plus élevé pour compenser."
+    raisonnement: "La France emprunte à un taux déjà au plus haut depuis 2008 (f2) ; toute hausse supplémentaire se répercute sur l'ensemble de la dette renouvelée. L'opération, juridiquement contestée (f4), serait lue comme un défaut partiel ou un risque de rupture avec les règles de la zone euro. Les prêteurs, qui n'ont aucune raison de croire que le précédent ne se reproduira pas, réclameraient une prime de risque (f3), et l'accès aux marchés pourrait se compliquer. Le gain sur les intérêts de la dette gelée serait ainsi rogné par le surcoût sur la dette future."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)", parti: "Renaissance", source: s1}
+      - {qui: "Édouard Philippe (débat du Medef, 27 août 2026)", parti: "Horizons", source: s2}
+    affirmations: [f2, f3, f4]
+  - ref: a3
+    question: Q44
+    position: pour
+    enonce: "Oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de l'euro repose sur le respect des règles communes par tous."
+    raisonnement: "Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4). Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs (F5), afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur que si chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (f4), reviendrait à n'en plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)", parti: "Renaissance", source: s1}
+    affirmations: [F3, F4, F5, f4]
+  - ref: a4
+    question: Q45
+    position: pour
+    enonce: "Oui. Même détenue par la banque centrale, la dette a été achetée à des investisseurs, qui ont été payés avec de la monnaie créée ; l'effacer unilatéralement porterait atteinte à la signature de la France."
+    raisonnement: "Les titres ont été achetés sur le marché secondaire (f1) : la banque centrale a payé les vendeurs, et ses engagements envers eux demeurent. Distinguer les créanciers que l'on rembourse de ceux que l'on ne rembourse pas ferait de la parole de l'État un choix variable. Le respect intégral des engagements est ce qui permet à la France d'emprunter durablement (f2 : le coût de l'emprunt est déjà élevé)."
+    porte_par:
+      - {qui: "Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette)", parti: "Horizons", source: s2}
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: s1}
+    affirmations: [f1, f2]
+  - ref: a5
+    question: Q46
+    position: contre
+    enonce: "Non. Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs ; les règles européennes y limitent la décision nationale, et la quitter reviendrait de fait à sortir de l'euro."
+    raisonnement: "L'État a lui-même accepté les traités : il doit veiller à la compatibilité de sa législation avec eux (F4) et ne peut pas donner d'instructions à la banque centrale (F3). Une décision nationale unilatérale sur des titres détenus par l'Eurosystème engagerait les autres membres, qui supportent leur part du bilan commun. S'en affranchir sur ce sujet, c'est dire qu'on ne respecte plus les règles communes (f4)."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)", parti: "Renaissance", source: s1}
+    affirmations: [F3, F4, f4]
+  - ref: a6
+    question: Q47
+    position: contre
+    enonce: "Non. L'annulation ne crée pas de vraie marge : l'État reçoit déjà des bénéfices de la Banque de France. Équilibrer les comptes, alléger le coût du travail et soutenir la compétitivité sont les leviers retenus."
+    raisonnement: "La Banque de France verse des sommes à l'État (F20, F19 : impôt de 1,5 milliard d'euros et résultat net de 8,1 milliards en 2025, F18). Si l'opération réduit les intérêts payés par l'État, elle réduit aussi ce que la banque lui verse, de sorte que la marge nette est inférieure au gain brut (voir Q43). Pour dégager une marge durable, les leviers sont les économies, un budget équilibré, et la croissance par la baisse du coût du travail."
+    porte_par:
+      - {qui: "Édouard Philippe (débat du Medef, 27 août 2026 : équilibrer les comptes, sans annulation)", parti: "Horizons", source: s2}
+      - {qui: "Gabriel Attal (débat du Medef, 27 août 2026 : annuler les hausses du coût du travail depuis 2024)", parti: "Renaissance", source: s2}
+    affirmations: [F18, F19, F20]
+valeurs:
+  - {question: Q45, enonce: "La famille Centre met en priorité la crédibilité de la signature de l'État et le respect des engagements pris, y compris quand le détenteur est une banque centrale."}
+  - {question: Q46, enonce: "Elle met en priorité le respect des règles communes de la zone euro, vues comme une protection pour tous les États membres plutôt que comme une contrainte."}
+  - {question: Q47, enonce: "Elle préfère les leviers durables (économies, compétitivité, croissance) à une opération comptable qu'elle juge sans marge réelle ni sécurité juridique."}
+sans_position:
+  - question: Q43
+    lieux_consultes:
+      - {categorie: programme, ou: "programmes en cours 2027 de Renaissance, MoDem, Horizons, UDI (recherche web)", resultat: "aucun texte trouvé qui traite des intérêts reversés par la Banque de France"}
+      - {categorie: site, ou: "sites des partis (recherche web, août-novembre 2026)", resultat: "aucune publication trouvée sur ce point précis"}
+      - {categorie: dirigeants, ou: "presse août-septembre 2026 (Lescure, Attal, Philippe, Lecornu, Bayrou)", resultat: "critiques générales (crise financière, perte de confiance, interdit bancaire) mais aucune déclaration retrouvée sur le solde intérêts économisés / bénéfices reversés"}
+      - {categorie: parlement, ou: "recherche web sur propositions de loi, amendements, débat demandé par LFI le 9 septembre 2026 (LCP)", resultat: "aucun texte du Centre trouvé sur ce point"}
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué de la Banque de France du 12 septembre 2026 sur la dette détenue (S13 de la bibliothèque), utile pour Q41-Q43", erreur: "403"}
+  - {adresse: "https://www.sudradio.fr/societe/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques", pourquoi: "réactions politiques dont celle attribuée à Gabriel Attal (Renaissance)", erreur: "404"}
+incertitudes:
+  - "Les appartenances partisanes de Roland Lescure (Renaissance) et de Gabriel Attal (Renaissance) sont de connaissance générale ; je ne les ai pas établies par une source ouverte. Celle d'Édouard Philippe (Horizons) vient d'un site secondaire (ÉlyséeScope), non cité."
+  - "Les déclarations de Lescure et de Philippe sont rapportées par la presse (AFP, Selectra, niveau 4), pas par un texte de leur parti ; leur formulation exacte est à vérifier."
+  - "Je n'ai retrouvé aucune position du MoDem ni de l'UDI sur le sujet (recherche web limitée) ; François Bayrou a annoncé ne pas être candidat en 2027."
+  - "Sébastien Lecornu, Premier ministre, a déclaré que l'opération détruirait la confiance (Euronews, 11 septembre 2026, source s3 ouverte) ; je n'ai pas pu établir son rattachement partisan, donc je ne l'ai pas utilisé dans porte_par."
+  - "Q43 : je n'ai trouvé aucun Centre publiquement positionné sur le solde net des intérêts ; l'effet net dépend de la différence entre gel et annulation, et de la recapitalisation éventuelle de la Banque de France. Le raisonnement de a6 sur ce point est celui que l'on déduit des faits, non une position attribuée."
+  - "L'affirmation f4 (contraire aux traités) est une interprétation juridique ; la Cour de justice ne s'est pas prononcée sur cette opération précise."
+  - "Le montant détenu par la Banque de France varie selon les sources (environ 500 à 635 milliards d'euros) ; je n'ai pas retenu de chiffre."

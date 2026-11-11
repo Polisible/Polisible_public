@@ -1,0 +1,89 @@
+agent: expert-droite
+phase: 2
+sources:
+  - ref: s1
+    titre: "Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson"
+    auteur: "Public Sénat"
+    date: "2020-12-28"
+    adresse: "https://www.publicsenat.fr/actualites/societe/annulation-de-la-dette-ce-serait-dangereux-selon-jean-francois-husson-186411"
+    niveau: 4
+  - ref: s2
+    titre: "Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 milliards d’euros, s’il est élu"
+    auteur: "Public Sénat (Guillaume Jacquot)"
+    date: "2026-10-12"
+    adresse: "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Un État doit honorer ses dettes : en s'engageant, il engage son peuple, c'est-à-dire ses contribuables, et la parole donnée doit garder sa valeur."
+    type: valeur
+    sources:
+      - {source: s1, extrait: "Si les États veulent retrouver la confiance de leur peuple, il faut qu’ils honorent leurs dettes car, en s’engageant, l’État engage son peuple, qui n’est autre que ses contributeurs."}
+  - ref: f2
+    enonce: "Le plan de redressement budgétaire de Bruno Retailleau, présenté le 12 octobre 2026, prévoit un effort de 197 milliards d'euros sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel de l'effort allant à l'amélioration du solde."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s2, extrait: "Sa trajectoire prévoit un effort « inédit » de 197 milliards d’euros sur cinq ans, dont 56 milliards d’euros d’allègement de la fiscalité qui bénéficiera à la fois aux entreprises (30 milliards d’euros) et aux ménages (21 milliards), l’essentiel de l’effort allant à l’amélioration du solde."}
+  - ref: f3
+    enonce: "Ce plan fait reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et sur les dépenses sociales."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s2, extrait: "L’essentiel de l’effort repose sur l’État, dont il questionne le périmètre, et sur les dépenses sociales."}
+arguments:
+  - ref: a1
+    question: Q45
+    position: contre
+    enonce: "Un État doit rembourser sa dette, y compris quand le créancier est un organisme public comme la banque centrale : la parole de l'État engage les contribuables, et y renoncer ferait perdre la confiance qui permet d'emprunter."
+    raisonnement: "Pour ce défenseur de la rigueur budgétaire, une dette est un engagement pris au nom du peuple. Si l'État peut s'en délier dès qu'elle devient pesante, aucun engagement futur ne sera crédible ; la bonne réponse à une dette lourde est de redéfinir les priorités de dépense, non de la faire disparaître. Position exprimée en décembre 2020 sur l'annulation des dettes détenues par la BCE, pas sur la proposition d'août 2026."
+    porte_par:
+      - {qui: "Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien du 28 décembre 2020)", parti: "LR", source: s1}
+    affirmations: [f1]
+  - ref: a2
+    question: Q47
+    position: contre
+    enonce: "Pour dégager des marges budgétaires, la voie retenue par le candidat LR est de réduire la dépense publique et de rétablir un excédent primaire, plutôt que de toucher à la dette elle-même."
+    raisonnement: "Le candidat juge la France « quasiment en faillite », avec un taux à 10 ans proche de 5 % (Public Sénat, 12 octobre 2026). Son plan finance l'effort par des économies sur l'État et les dépenses sociales, et vise un excédent primaire en 2030 puis un déficit sous 3 % en 2031 : les marges viennent de la dépense maîtrisée, non d'un allègement du stock de dette. Attention : le plan ne mentionne pas l'annulation ; cet argument en est la lecture par le choix des moyens."
+    porte_par:
+      - {qui: "Bruno Retailleau, candidat LR à la présidentielle 2027 (plan présenté le 12 octobre 2026)", parti: "LR", source: s2}
+    affirmations: [f2, f3]
+valeurs:
+  - {question: Q45, enonce: "Pour cette famille, la parole donnée de l'État est un principe : honorer ses dettes est la condition de la confiance des citoyens et des prêteurs, quel que soit le créancier."}
+  - {question: Q47, enonce: "Pour cette famille, la priorité est la maîtrise de la dépense publique et le retour à l'équilibre ; une marge obtenue par effacement de dette ne remplace pas la réforme de l'État."}
+sans_position:
+  - question: Q41
+    lieux_consultes:
+      - {categorie: programme, ou: "plan budgétaire Retailleau du 12 octobre 2026 (Public Sénat) ; programme 2027 complet non publié d'après la recherche", resultat: "rien sur l'annulation ni sur les traités à ce sujet"}
+      - {categorie: site, ou: "site du parti : recherche web, pas de page ouverte", resultat: "aucun communiqué trouvé"}
+      - {categorie: dirigeants, ou: "presse, 27 août au 10 novembre 2026 (débat Medef, LCP et Public Sénat)", resultat: "Retailleau parle de « faillite » et d'économies ; aucune déclaration vérifiée sur la légalité de l'annulation"}
+      - {categorie: parlement, ou: "recherche web sur Sénat et Assemblée, 2026", resultat: "aucun texte, amendement ou vote identifié"}
+  - question: Q42
+    lieux_consultes:
+      - {categorie: programme, ou: "plan Retailleau du 12 octobre 2026", resultat: "aucune estimation d'effet de l'annulation sur les taux"}
+      - {categorie: site, ou: "site du parti : recherche web", resultat: "rien trouvé"}
+      - {categorie: dirigeants, ou: "presse, août-novembre 2026", resultat: "aucune déclaration vérifiée de dirigeant LR sur l'effet de cette proposition sur les taux"}
+      - {categorie: parlement, ou: "recherche web Sénat et Assemblée, 2026", resultat: "rien identifié"}
+  - question: Q43
+    lieux_consultes:
+      - {categorie: programme, ou: "plan Retailleau du 12 octobre 2026", resultat: "rien sur les intérêts reversés par la Banque de France"}
+      - {categorie: site, ou: "site du parti : recherche web", resultat: "rien trouvé"}
+      - {categorie: dirigeants, ou: "presse, août-novembre 2026", resultat: "rien de vérifié"}
+      - {categorie: parlement, ou: "recherche web Sénat et Assemblée, 2026", resultat: "rien identifié ; rapport sénatorial S10 (2025) cité en bibliothèque, non posé comme position LR"}
+  - question: Q44
+    lieux_consultes:
+      - {categorie: programme, ou: "plan Retailleau du 12 octobre 2026", resultat: "rien sur la BCE ni l'euro à ce propos"}
+      - {categorie: site, ou: "site du parti : recherche web", resultat: "rien trouvé"}
+      - {categorie: dirigeants, ou: "presse, août-novembre 2026", resultat: "aucune déclaration vérifiée de dirigeant LR sur l'indépendance de la BCE à propos de cette proposition"}
+      - {categorie: parlement, ou: "recherche web Sénat et Assemblée, 2026", resultat: "rien identifié"}
+  - question: Q46
+    lieux_consultes:
+      - {categorie: programme, ou: "plan Retailleau du 12 octobre 2026", resultat: "engage à ramener le déficit sous le plafond de 3 % des traités en 2031 et à inscrire une règle d'or par référendum ; ne traite pas de la compétence nationale ou européenne sur la dette"}
+      - {categorie: site, ou: "site du parti : recherche web", resultat: "rien trouvé"}
+      - {categorie: dirigeants, ou: "presse, août-novembre 2026", resultat: "aucune déclaration vérifiée sur cette question"}
+      - {categorie: parlement, ou: "recherche web Sénat et Assemblée, 2026", resultat: "rien identifié"}
+incertitudes:
+  - "Recherche sur LR limitée : recherche web et ouverture de 12 pages ; les sites officiels du parti, du groupe LR du Sénat et de l'Assemblée n'ont pas été consultés directement. Les sans_position sont donc à confirmer avec ces lieux."
+  - "Une citation attribuée à Bruno Retailleau (« discours délirants » sur l'annulation, débat Medef du 27 août 2026) n'apparaît que sur un site de fiabilité douteuse (leparisienmatin.fr) ; ni LCP ni Public Sénat ne la rapportent. Non citée."
+  - "Position de Jean-François Husson datée de décembre 2020 et portant sur l'annulation des dettes détenues par la BCE en général, pas sur la proposition de 2026."
+  - "L'argument de Q47 est une lecture du choix des moyens du plan Retailleau ; le plan ne mentionne pas l'annulation."

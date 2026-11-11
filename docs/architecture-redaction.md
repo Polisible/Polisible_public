@@ -11,7 +11,7 @@ Ce document décrit comment plusieurs IA, chacune avec son rôle, construisent e
 **Six principes**
 
 1. **Les experts ne négocient pas.** Chacun argumente et contre-argumente depuis le point de vue de sa famille politique. Le but n'est pas un compromis, mais que tous les arguments et contre-arguments aient été exprimés.
-2. **Les sources décident des faits, pas l'accord des agents.** Huit IA d'accord peuvent avoir tort ensemble. Seul le vérificateur, à partir des sources, tranche une question de fait.
+2. **Les sources décident des faits, pas l'accord des agents.** Sept IA d'accord peuvent avoir tort ensemble. Seul le vérificateur, à partir des sources, tranche une question de fait.
 3. **Ceux qui argumentent n'écrivent pas la fiche.** Le rédacteur, sans camp, écrit à partir de ce qui a survécu à la vérification.
 4. **Pas de nombre de tours fixé.** Le travail s'arrête quand il n'y a plus rien de nouveau à dire et plus aucune objection factuelle en suspens.
 5. **Tout est tracé.** Chaque argument, objection et vérification est enregistré : on peut montrer comment une fiche a été construite. Le journal étant public, il ne contient que de courtes citations des sources (une phrase au plus), jamais le texte d'un article.
@@ -21,24 +21,25 @@ Ce document décrit comment plusieurs IA, chacune avec son rôle, construisent e
 
 Le système n'est pas une chaîne d'étapes, mais un dossier central que chaque agent enrichit selon son rôle. Chacun réagit à ce que les autres y ont ajouté, aussi longtemps qu'il reste quelque chose à dire ou à vérifier.
 
-&#91;embedded content: architecture · 12 agents et le fondateur autour d'un dossier partagé\]
+&#91;embedded content: architecture · 11 agents et le fondateur autour d'un dossier partagé\]
 
 Le coordinateur organise sans argumenter, les experts argumentent sans trancher les faits, le vérificateur tranche les faits sans argumenter, et le rédacteur écrit sans rien ajouter. Le fondateur arbitre les blocages et vérifie avant publication.
 
 ## Les rôles
 
-Douze agents et un humain. Chaque rôle a un objectif et des interdits : c'est la séparation des rôles qui garantit l'équité, pas la bonne volonté de chaque agent.
+Onze agents et un humain. Chaque rôle a un objectif et des interdits : c'est la séparation des rôles qui garantit l'équité, pas la bonne volonté de chaque agent.
 
 | Rôle | Objectif | Ce qu'il n'a pas le droit de faire |
 | --- | --- | --- |
 | **Coordinateur** | Découpe le thème en questions, tient le dossier, distribue le travail, détecte les boucles, décide quand le dossier est stable | Produire un argument, juger un fait, écrire la fiche |
-| **Huit experts**, un par famille politique | Apporter la meilleure version des arguments de sa famille sur chaque question, avec leurs sources ; contester les arguments et les sources des autres ; défendre les siens ; proposer des questions manquantes | Inventer une source, modifier l'apport d'un autre, trancher un fait |
+| **Sept experts**, un par famille politique | Apporter la meilleure version des arguments de sa famille sur chaque question, avec leurs sources ; contester les arguments et les sources des autres ; défendre les siens ; proposer des questions manquantes | Inventer une source, modifier l'apport d'un autre, trancher un fait |
 | **Vérificateur** | Ouvrir chaque source citée, lui donner un statut, trancher les objections factuelles, attribuer les verdicts aux affirmations | Argumenter, prendre parti, se prononcer sur une valeur |
 | **Rédacteur** | Écrire la fiche dans la structure à quatre niveaux et à deux niveaux de lecture, à partir du dossier stabilisé | Ajouter une affirmation ou une source absente du dossier, changer un verdict |
+| **Commission** : rapporteur et contradicteur | Regrouper les arguments en thèses, les examiner avec la grille publique, interroger les familles, répondre aux questions de fait et d'estimation (voir `docs/commission.md`) | Juger une valeur, ajouter un fait absent du dossier, appliquer la grille différemment selon le camp |
 | **Relecteur de symétrie** | Vérifier le vocabulaire, la méthode et l'équité de traitement ; renvoyer au rédacteur ce qui ne va pas | Réécrire lui-même, modifier un verdict |
 | **Fondateur** (humain) | Valider la liste des questions, trancher les désaccords que les agents ne peuvent pas résoudre, vérifier les sources, publier | Rédiger lui-même un passage |
 
-Les huit experts correspondent aux huit familles politiques définies dans les consignes. Chacun s'appuie d'abord sur les textes, les données et les experts que sa famille reconnaît, tout en restant soumis à la même exigence de preuve que les autres.
+Les sept experts correspondent aux sept familles politiques définies dans les consignes, nommées comme le fait la science politique. Une famille n'est pas homogène : chaque expert signale les divergences internes à sa famille comme des arguments distincts, attribués au parti qui les porte. Si, au cadrage, une divergence forte apparaît sur le thème, le coordinateur propose au fondateur de dédoubler la famille pour cette fiche (un expert par courant). Chacun s'appuie d'abord sur les textes, les données et les experts que sa famille reconnaît, tout en restant soumis à la même exigence de preuve que les autres.
 
 ## La structure d'une fiche
 
@@ -233,3 +234,22 @@ Trois points seront tranchés par la fiche de test, pas par avance.
 1. **La consommation** : l'abonnement Pro suffit-il pour une fiche complète ? Sinon, quelles parties alléger (moins de familles par question, passages espacés) ou faut-il envisager l'API, avec un budget ?
 2. **La publication du journal** : décidé le 8 novembre 2026 : chaque fiche affiche par défaut un résumé du journal, et le journal complet est téléchargeable.
 3. **Le rôle des experts sur les questions de valeur** : sur une question de valeur, chaque famille expose ce qu'elle priorise ; faut-il quand même une confrontation, ou seulement une présentation de chaque position ?
+
+## Ajustements après la fiche test (10 novembre 2026)
+
+La fiche test sur l'annulation de la dette détenue par la Banque de France a conduit aux règles suivantes, validées par le fondateur.
+
+- **Sept familles** nommées comme le fait la science politique ; un expert par famille, dédoublé si une divergence interne forte apparaît sur le thème.
+- **Bibliothèque commune.** Avant les contributions, un bibliothécaire sans camp rassemble les seuls textes de base (droit en vigueur, décisions de justice, statistiques officielles, définitions), de niveau 1 ou 2. Elle s'ajoute aux sources des experts et ne les remplace jamais : chacun reste libre de chercher et citer les sources que sa famille lit.
+- **Même outil d'accès pour tous.** Tous les agents ouvrent les pages avec le même outil ; une page qu'un expert n'a pas pu ouvrir est « demandée » et le vérificateur réessaie, pour qu'aucun camp ne soit pénalisé par un blocage technique.
+- **Affirmations sur le fond.** Une affirmation porte sur ce qui est vérifiable (« le traité interdit… »), pas sur le fait que quelqu'un l'a dit ; qui défend l'argument est indiqué à part. Le vérificateur juge le fond, y compris quand la réponse honnête est « invérifiable » ou « débat entre experts ».
+- **Un argument contient un raisonnement.** Une prise de position sans raisonnement n'est pas un argument. Une famille sans position publique sur une question le déclare, et la fiche l'affiche.
+- **Toutes les questions d'un coup** pour chaque expert (deux lancements au-delà de huit questions).
+- **Confrontation ciblée** : après le premier passage, seuls les experts visés par un élément nouveau, ou qui ont eux-mêmes apporté du nouveau, sont relancés.
+- **Manques du rédacteur** : ils retournent au bibliothécaire ou au vérificateur, puis le rédacteur produit une nouvelle version ; les affirmations vérifiées d'un argument retiré restent utilisables pour le contexte.
+- **Choix des questions** : au cadrage, mélanger les types (fait, estimation, valeur). Une question purement juridique sans décision de justice appelle souvent « oui et non » ; elle est utile, mais ne doit pas porter seule une fiche.
+- **Qui porte un argument** (décision du fondateur, 10 novembre 2026) : un argument d'expert n'est porté que par un parti de sa famille ou l'un de ses membres. Une institution ou un groupe de réflexion « proche » ne porte jamais l'argument d'une famille, pour ne pas lui prêter un avis qui n'est pas le sien. Les positions officielles des institutions sont recensées à part par le bibliothécaire et présentées comme telles.
+- **Recherche minimale avant « sans position »** : programme, site du parti, déclarations des dirigeants et élus, travaux parlementaires (textes, amendements, votes), pour chaque parti de la famille. Une position ancienne mais publique compte, datée.
+- **Découpage des questions** (décision du fondateur, 10 novembre 2026). Une question mérite d'être séparée si elle est **disputée** (au moins deux réponses sérieuses s'opposent), si elle **tient seule** (un lecteur peut se la poser et la réponse lui est utile en elle-même) et si l'on peut **y rattacher une position** (un parti ou un candidat peut y répondre oui ou non). Sinon, c'est une affirmation qui sert d'appui dans une question, ou un élément de contexte.
+- **Nombre de passages de confrontation** : trois au plus pour l'instant (décision du fondateur, 10 novembre 2026). Si la condition d'arrêt n'est pas remplie au troisième, le coordinateur le dit au journal et au fondateur.
+- **Commission** (décision du fondateur, 11 novembre 2026) : la fiche n'est pas une liste d'arguments mais la réponse d'un groupe neutre aux questions. Après une passe de confrontation libre, la commission (rapporteur et contradicteur) regroupe les arguments en thèses, les examine avec une grille publique, relance les familles (deux tours au plus), recueille leur droit de réponse et répond aux questions de fait et d'estimation. Elle ne répond jamais à une question de valeur. Règles complètes : `docs/commission.md`. Format : `docs/format-fiche.md`.

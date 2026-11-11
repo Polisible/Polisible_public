@@ -1,0 +1,33 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S22
+    statut: conforme
+    note: "Bon document : Public Sénat, article signé Guillaume Jacquot, publié le 12/10/2026. F29 : l'extrait figure mot pour mot (« un effort « inédit » de 197 milliards d'euros sur cinq ans, dont 56 milliards d'euros d'allègement de la fiscalité… ») et dit la même chose que l'énoncé, présentation du plan « ce 12 octobre » comprise ; F30 : l'extrait figure mot pour mot dans le chapeau et dit la même chose. L'appartenance est établie par la source (« Le candidat des Républicains », « candidat LR »)."
+  - id: S23
+    statut: conforme
+    note: "Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026, rubrique « L'économie à contre-courant ». F31 : l'extrait figure (« dont environ 640 milliards de titres publics français », rapporté au bilan de l'Eurosystème de 6 000 milliards « en 2026 ») mais c'est le chiffre d'un chroniqueur, sans source citée, qui ne suffit pas à établir un fait ; F32 : l'extrait figure, mais le rapport Draghi (ouvert, voir sources_ajoutees) dit « un minimum de 750 à 800 milliards » par an, et non 800. La page ne mentionne ni EELV ni Les Écologistes : l'appartenance partisane de Jérôme Gleizes n'est pas établie par cette source."
+  - id: S24
+    statut: conforme
+    note: "Bon document : FranceTransactions.com (avec AFP), publié le lundi 15 juin 2020 ; la date des métadonnées (jour de consultation) est sans valeur. F34 : l'extrait figure (« les Verts souhaitent une annulation de la dette française auprès de laBCE , une fiscalité \"plus juste\" avec notamment le rétablissement de l'ISF ») et dit la même chose que l'énoncé, plan de « reconstruction écologique » compris. L'appartenance est établie par la source (« projet de société d'EELV », porte-parole du parti Eva Sas)."
+  - id: S25
+    statut: conforme
+    note: "Bon document : revue de presse du site officiel des Écologistes ; date absente des métadonnées, mais les articles repris sont datés du 04/09 et 05/09 (contexte Bayrou), cohérent avec septembre 2025. F35 et F36 : les deux extraits figurent mot pour mot ; F36 « plus progressive que celle du gouvernement » correspond à « ils proposent de réduire plus progressivement le déficit », formulé par rapport à François Bayrou ; il s'agit d'un extrait de presse reproduit par le parti, le titre du média d'origine n'apparaissant que partiellement. L'appartenance est établie (site lesecologistes.fr, « les écologistes »)."
+  - id: S26
+    statut: conforme
+    note: "Bon document : page de la commission Économie, social, services publics des Écologistes, « Publié le 26 oct. 2026 ». F33 : l'extrait figure mot pour mot avec la référence (ch. 60, mesure 3, p. 190), et la page indique « Le programme adopté en juillet 2026 » ; c'est un résumé de commission qui renvoie au programme (PDF lesecologistes.fr), lui-même non ouvert ici. L'appartenance est établie (site et commission du parti)."
+  - id: S27
+    statut: conforme
+    note: "Bon document : Public Sénat, 20 juin 2024, titre exact ; la citation « Il y a de la bonne et de la mauvaise dette » attribuée à Marine Tondelier figure dans le titre. Aucune affirmation du lot à contrôler. L'appartenance est établie par la source (« la cheffe de file des écologistes Marine Tondelier »)."
+  - id: S28
+    statut: inaccessible
+    note: "Adresse cf.eelv.fr réessayée : 404. Copie archivée (web.archive.org) : connexion réinitialisée ; une recherche n'a trouvé aucune autre adresse pour ce PDF (seules d'autres notes de cadrage du même dossier cf.eelv.fr apparaissent). Titre, auteur et contenu non établis : le résumé de recherche ne vaut pas source."
+sources_ajoutees:
+  - titre: "The future of European competitiveness – Part A: A competitiveness strategy for Europe"
+    auteur: "Mario Draghi, rapport remis à la Commission européenne (le document précise qu'il ne représente pas la position officielle de la Commission)"
+    date: "2024-09"
+    adresse: "https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en"
+    niveau: 2
+    pour: F32
+    extrait: "To meet the objectives laid out in this report, a minimum annual additional investment of EUR 750 to 800 billion is needed, based on the latest Commission esti- mates, corresponding to 4.4-4.7% of EU GDP in 2023."

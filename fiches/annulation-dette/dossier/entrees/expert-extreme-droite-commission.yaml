@@ -1,0 +1,14 @@
+agent: expert-extreme-droite
+phase: 5
+reponses_relances:
+  - relance: R7
+    texte: "Je ne peux pas répondre : je n'ai trouvé aucune source ouverte qui isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France. Les documents où ce détail se trouverait (Comprendre les comptes 2025, bulletin n° 260/6, communiqué de mars 2026) renvoient une erreur 403 via l'outil ; le rapport du Sénat r24-902 n'en traite pas. Je reconnais que A13 ne soutient que « moins que le montant brut » (F19, F20), pas « faible ou nul » : je corrige la position de A13 en nuance."
+    elements: []
+corrections:
+  - {vise: A13, action: corriger, position: nuance}
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-03/Comprendre-les-comptes-2025.pdf", pourquoi: "composition du revenu monétaire et du résultat 2025 : part des intérêts des titres publics", erreur: "403"}
+  - {adresse: "https://www.banque-france.fr/system/files/2026-02/BDF260_6_Partage_revenu-monetaire.pdf", pourquoi: "partage du revenu monétaire entre banques centrales, intérêts des portefeuilles de titres", erreur: "403"}
+incertitudes:
+  - "Aucune source ouverte n'isole la part des intérêts des titres de l'État dans le résultat de la Banque de France."
+  - "Je ne sais pas si le revenu monétaire mis en commun dans l'Eurosystème empêche tout lien direct entre intérêts perçus sur titres français et versements à l'État."

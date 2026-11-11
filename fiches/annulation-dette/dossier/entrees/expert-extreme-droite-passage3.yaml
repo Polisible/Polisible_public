@@ -1,0 +1,19 @@
+agent: expert-extreme-droite
+phase: 4
+examen:
+  - {question: Q41, conclusion: "Rien à contester sur les faits : F1, F2, F5, F8-F10, F45 sont vrais. A1 (Renaissance) conclut à une interdiction, mais son raisonnement par analogie (avantage donné après coup) reste une interprétation, que A1 elle-même dit disputée et que F27 classe invérifiable ; A21 passe de F1, F2, F44 à « se heurte aux traités » sans que ces faits l'établissent, ce qu'elle reconnaît aussi. Aucune de ces positions ne conteste un fait exact."}
+  - {question: Q42, conclusion: "Rien à contester : A2 (hausse) et A22 (pas d'effet) reposent chacune sur une estimation sans chiffrage (F26, F47 : Pas d'estimation fiable) et le disent dans leur énoncé ; F25 est exact pour la matinée du 24 août 2026. Les deux raisonnements suivent leurs prémisses, ils divergent sur l'hypothèse de départ."}
+  - {question: Q43, conclusion: "A16, A23 et A6 vont dans le sens de A13. Après l'objection O1, je corrige A13 : la baisse des versements à l'État est partielle (impôt et dividende ne reprennent qu'une part du résultat), non « d'autant ». A24 conclut à des marges « immédiates » (F49 sans chiffrage) sans tenir compte des reversements, ce qu'elle renvoie à A23 : conclusion plus forte que ses affirmations, déjà signalée par le dossier."}
+  - {question: Q44, conclusion: "Rien à contester sur les faits (F3, F4, F5 vrais ; F58 en débat entre experts). A3 admet que la compatibilité est disputée et ne conclut que sur une décision prise sans le conseil des gouverneurs ; A25 et A33 ne valent que pour une décision de la BCE elle-même, ce qu'elles précisent : les deux lectures ne portent pas sur la même opération."}
+  - {question: Q45, conclusion: "Rien à contester : question de valeur. Les faits cités sont exacts (F24 achat sur le marché secondaire, F17, F20, F31 ordre de grandeur) ; la distinction entre créancier public et privé (A10, A26, A34) et l'exigence de remboursement intégral (A4, A7) sont des choix de valeurs. A17 fonde le refus sur l'illégitimité de la dette, critère distinct et qui ne dépend pas du créancier."}
+  - {question: Q46, conclusion: "Rien à contester sur les faits. A5 et A35 concluent qu'un État seul ne peut décider ; cela suit de F3 et F5 pour l'effet juridique sur la créance, mais le choix entre décision nationale et règle européenne reste un désaccord de valeurs (voir valeurs). A11, A28, A29 proposent une révision des traités, voie compatible avec F4."}
+  - {question: Q47, conclusion: "Rien à contester sur les faits : A6 s'appuie sur F19, F20 (exacts) mais le gain net n'est pas chiffré ; A8 est présentée par son auteur comme une lecture du plan ; A18 repose sur F42 (Invérifiable) et A19 sur un chiffre de 2011 daté, tous deux signalés. A12, A30, A31, A36 sont des choix de valeurs ou conditionnés, sans erreur de fait relevée."}
+corrections:
+  - vise: A13
+    action: corriger
+    enonce: "Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car une part des intérêts reçus par la Banque de France revient à l'État par l'impôt et le dividende (36,8 Md€ versés depuis 2015) ; l'ampleur de ce recul n'est chiffrée par aucune source du dossier."
+valeurs:
+  - {question: Q46, enonce: "Le RN met en priorité la souveraineté nationale : les choix budgétaires doivent relever des Français, par la primauté du droit national et une règle d'or votée par référendum, plutôt que de règles ou de créanciers extérieurs."}
+incertitudes:
+  - "Je n'ai pas de source du dossier qui chiffre la part des intérêts reversée à l'État (impôt, dividende) ni l'effet du partage du revenu monétaire dans l'Eurosystème : la correction de A13 reste qualitative."
+  - "Le RN n'a pas d'argument au dossier sur Q41, Q42, Q44, Q45 : je n'en ajoute pas."

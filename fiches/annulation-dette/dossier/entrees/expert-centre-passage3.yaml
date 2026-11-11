@@ -1,0 +1,60 @@
+agent: expert-centre
+phase: 4
+arguments:
+  - ref: a1
+    question: Q41
+    position: contre
+    enonce: "L'absence du mot « annulation » dans les traités ne vaut pas autorisation : l'article 123 est appliqué selon son objet (éviter le financement monétaire des États), et les arrêts cités pour la compatibilité portent sur les achats, pas sur le sort ultérieur des titres."
+    raisonnement: "F45 (le texte ne mentionne pas l'annulation) établit seulement un silence. F10 porte sur la validité de la décision 2015/774, donc sur les achats, et F9 montre que la Cour valide ces achats à condition de garanties contre le financement monétaire : elle raisonne par l'effet, non par la liste des actes interdits. Rien dans F8-F10 ne dit qu'effacer ou geler à taux nul des titres déjà détenus, au profit d'un État, respecte ces garanties. Enfin l'argument suppose une décision du conseil des gouverneurs (F5), alors que la proposition en débat est portée par un gouvernement et un parlement nationaux (F3)."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F45, F9, F10, F5, F3]
+    repond_a: A20
+  - ref: a2
+    question: Q42
+    position: pour
+    enonce: "Limiter l'opération à la part de l'Eurosystème ne suffit pas à conclure que les taux ne bougent pas : un prêteur évalue aussi la fiabilité des règles, pas seulement le risque de non-paiement sur ses propres titres."
+    raisonnement: "A22 passe de F46 (périmètre limité aux titres de l'Eurosystème) à F47 (aucun effet sur le coût d'emprunt). Or F46 décrit le périmètre, pas la réaction des prêteurs à un précédent juridiquement disputé, et F47 est une estimation sans chiffrage ni institution : la prémisse qui porte la conclusion n'est pas établie. A22 reconnaît elle-même que des économistes la contestent."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F46, F47]
+    repond_a: A22
+  - ref: a3
+    question: Q43
+    position: contre
+    enonce: "Supprimer le service des titres de l'Eurosystème ne produit pas des marges « immédiates » égales aux intérêts : la Banque de France reverse déjà des sommes à l'État, dont le montant dépend de son résultat."
+    raisonnement: "A24 tire des marges immédiates de F22 (charge totale de 65,7 Md€ en 2025). Mais F22 porte sur l'ensemble des créanciers, pas sur la part de la banque centrale, et F19 et F20 établissent que la Banque de France verse impôt et dividendes à l'État. La part de ces versements due aux intérêts sur les titres de l'État n'est chiffrée par aucune source (F41, F49 sans estimation) : le gain net est donc inconnu, non démontré positif."
+    porte_par:
+      - {qui: "Édouard Philippe (débat du Medef, 27 août 2026)", parti: "Horizons", source: S17}
+    affirmations: [F22, F19, F20, F49]
+    repond_a: A24
+  - ref: a4
+    question: Q44
+    position: pour
+    enonce: "Que la banque centrale puisse fonctionner avec des fonds propres négatifs ne répond qu'à la question de sa solvabilité, pas à celle de la crédibilité de l'euro, qui dépend aussi de la perception d'un financement monétaire des États."
+    raisonnement: "A33 conclut que la capacité d'action et l'indépendance sont préservées en s'appuyant sur F58, qualifiée par le vérificateur de « Débat entre experts » : la BCE y dit pouvoir remplir son mandat malgré des pertes, sans dire que des fonds propres durablement négatifs seraient sans effet. Surtout, la crédibilité tient à l'interdiction du financement monétaire (F9) : un effacement au profit d'États peut être lu comme un contournement, que la solvabilité de la BCE ne dissipe pas. A33 le reconnaît en limitant son argument à un effacement décidé par la BCE elle-même."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F58, F9]
+    repond_a: A33
+examen:
+  - {question: Q41, conclusion: "A20 et A32 vont de F45/F57 (texte silencieux) à la compatibilité, ce que F9-F10 ne soutiennent pas : contre-argument a1. A9 reste prudent et ne conclut pas. A21 converge avec A1. Faits F1-F10, F44 : rien à contester."}
+  - {question: Q42, conclusion: "A22 conclut à l'absence d'effet à partir d'un simple périmètre (F46) et d'une estimation sans source institutionnelle (F47) : contre-argument a2. Pas d'autre position opposée."}
+  - {question: Q43, conclusion: "A24 déduit des marges immédiates de F22 sans tenir compte des versements de la Banque de France (F19, F20) : contre-argument a3. A13, A16 et A23 vont dans le même sens que mon camp ; leurs faits F18-F22 sont corrects, F41 est déjà contestée (O1), rien d'ajouter. Je corrige mon propre A6."}
+  - {question: Q44, conclusion: "A33 repose sur F58 (débat entre experts) et ne traite que la solvabilité : contre-argument a4. A25 se limite à une décision du conseil des gouverneurs lui-même, ce que A3 ne conteste pas ; son appui sur F53 est une valeur, pas un fait."}
+  - {question: Q45, conclusion: "Désaccord de valeur (A10, A17, A26, A27, A34). Un point de fait : A34 applique à la Banque de France la part de 24,4 % de la catégorie « autres français », qui n'est pas limitée à elle (F16) ; F17 reste exact. Pas d'objection, voir valeurs."}
+  - {question: Q46, conclusion: "A15 et A28 relèvent d'un désaccord de valeur sur le niveau de décision ; F39 et F40 (Plutôt vrai, formulation de l'AFP) ne sont pas contestés. A11, A29 et A35 convergent avec A5. Rien à contester."}
+  - {question: Q47, conclusion: "A19, A30, A36 : choix de valeurs. A30 s'appuie sur F47 (effet sur les taux) pour conclure à une marge, ce qui ne dit rien du gain net (voir a3). A18 repose sur F42 déjà jugée Invérifiable. F29-F30, F35-F37 : rien à contester."}
+corrections:
+  - vise: A6
+    action: corriger
+    enonce: "Non. Le gain net de l'annulation pour l'État est incertain : la Banque de France lui verse déjà des bénéfices (impôt et dividendes) qui reposent en partie sur les intérêts qu'elle perçoit, sans qu'aucune source n'en chiffre la part. Équilibrer les comptes, alléger le coût du travail et soutenir la compétitivité sont les leviers retenus."
+valeurs:
+  - {question: Q45, enonce: "Le centre met en priorité la continuité de la signature de l'État : un engagement honoré ne se module pas selon l'identité du créancier."}
+  - {question: Q46, enonce: "Dans une union monétaire, le centre place la discipline commune au-dessus de la liberté de décision nationale sur des actifs détenus en commun."}
+  - {question: Q47, enonce: "Le centre préfère les économies, l'équilibre des comptes et la compétitivité à l'effacement d'une dette, et ne classe pas l'annulation comme levier."}
+incertitudes:
+  - "Le contre-argument a1 raisonne à partir de F9 et F10 sans rouvrir l'arrêt Weiss ; je n'affirme pas ce que la Cour dit des conditions précises, seulement que F10 vise la décision d'achat."
+  - "F25 (taux du 24 août 2026) date de plus de deux mois et vient de la presse ; non réactualisé."
+  - "L'appartenance de Gabriel Attal à Renaissance (A6) n'est pas établie par S20 ; je ne l'ai pas revérifiée dans S17, et je n'utilise pas S20."
+  - "Dans A6 corrigé, la part des intérêts sur titres de l'État dans le résultat de la Banque de France n'est établie par aucune source (F41)."

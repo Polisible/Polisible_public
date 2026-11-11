@@ -1,0 +1,29 @@
+agent: expert-sociaux-democrates
+phase: 4
+arguments:
+  - ref: a1
+    question: Q45
+    position: contre
+    enonce: "A42 a raison que 24,4 % (F17) englobe plus que la Banque de France ; mais l'argument ne dépend pas de ce chiffre : il porte sur la nature du créancier, et la part visée par la proposition en débat est évaluée à 18 % dans le texte de Public Sénat (F46)."
+    raisonnement: "A34 écrit déjà que la catégorie n'est pas limitée à la Banque de France ; la conclusion « ne pas rembourser intégralement » repose sur la nature publique du créancier (F24 : les vendeurs ont été payés), non sur le pourcentage. Que la part soit de 18 % ou de près d'un quart (F16, ordre de grandeur sourcé), le raisonnement est le même ; F17 ne sert qu'à situer l'ordre de grandeur."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: S43}
+    affirmations: [F46, F16, F24]
+    repond_a: A42
+examen:
+  - {question: Q41, conclusion: "A1 et A37 : F45 établit un silence du texte, A37 le reconnaît ; l'inférence par l'objet de l'article 123 (F9) reste une lecture que la Cour n'a pas validée pour des titres déjà détenus (F27 invérifiable). A46 et A20 déjà posés ; rien de nouveau à contester."}
+  - {question: Q42, conclusion: "A2, A38 et A41 reposent sur F26 (pas d'estimation fiable) et sur un précédent « unilatéral » ; A47 et A44 ont déjà répondu sur ce point, sans élément nouveau de leur part. Rien à contester."}
+  - {question: Q43, conclusion: "A39, A13 et A16 : le gain net est inconnu (F41, F49 sans estimation) et O1 est résolue ; ma famille n'a pas d'argument sur Q43. Rien à contester."}
+  - {question: Q44, conclusion: "A40 est fondé : F58 est « Débat entre experts » et ne couvre pas des fonds propres durablement négatifs ; je corrige A33. A3 suppose une instruction, ce que A48 et A45 ont déjà contesté ; rien d'autre."}
+  - {question: Q45, conclusion: "A42 : le chiffre de 24,4 % est plus large que la Banque de France ; répondu par a1 (le raisonnement porte sur la nature du créancier). A4, A7 et A10 : désaccord de valeur, ou déjà traité par A49."}
+  - {question: Q46, conclusion: "A5 : l'argument tiré de F27 présuppose une contrariété aux traités qui est invérifiable ; A35 prévoit déjà un contrat avec la BCE. Rien de nouveau à contester."}
+  - {question: Q47, conclusion: "A6, A8 et A14 : leviers alternatifs, sans erreur de fait relevée ; A6 renvoie à Q43 où le gain net est inconnu. Désaccord de valeur sur la priorité."}
+corrections:
+  - vise: A33
+    action: corriger
+    enonce: "La BCE affirme pouvoir remplir son mandat malgré des pertes (F58) ; des fonds propres durablement négatifs ne sont pas chiffrés par une institution. Si l'effacement est décidé par le conseil des gouverneurs lui-même, aucune instruction d'un gouvernement n'est donnée (F3, F5) ; l'argument ne vaut pas pour un effacement imposé par un État."
+valeurs:
+  - {question: Q45, enonce: "Ma famille met en priorité la différence entre un créancier privé, qu'on rembourse, et la banque centrale, institution publique, assortie d'un engagement d'investir les montants concernés."}
+incertitudes:
+  - "La part exacte de la Banque de France dans la catégorie « autres français » n'est pas isolée ; 18 % vient de Public Sénat (niveau 4)."
+  - "L'effet de fonds propres durablement négatifs sur la BCE n'est chiffré par aucune source du dossier."

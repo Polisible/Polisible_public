@@ -1,0 +1,106 @@
+agent: expert-extreme-gauche
+phase: 2
+sources:
+  - ref: s1
+    titre: "Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud)"
+    auteur: "Lutte ouvrière"
+    date: "2026-06-01"
+    adresse: "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
+    niveau: 3
+  - ref: s2
+    titre: "Lutte ouvrière, hebdomadaire n° 3031"
+    auteur: "Lutte ouvrière"
+    date: "2026-09-04"
+    adresse: "https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf"
+    niveau: 3
+  - ref: s3
+    titre: "Dette publique : tract « Cette dette n'est pas la nôtre, nous n'avons pas à la payer ! »"
+    auteur: "NPA (Nouveau Parti anticapitaliste)"
+    date: "2011-12-01"
+    adresse: "https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf"
+    niveau: 3
+  - ref: s4
+    titre: "Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation"
+    auteur: "Tendance CLAIRE (courant du NPA)"
+    date: "2021-01-01"
+    adresse: "https://tendanceclaire.org/utils/pdf.php?id=1675"
+    niveau: 3
+affirmations:
+  - ref: f1
+    enonce: "Les aides publiques et exonérations versées chaque année aux entreprises privées atteignent 270 milliards d'euros (chiffre cité par Lutte ouvrière, en 2026)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "270 milliards d’aides publiques et d’exonérations diverses versés chaque année"}
+  - ref: f2
+    enonce: "Une dette construite par des cadeaux fiscaux aux plus riches et aux grandes entreprises est illégitime et n'a pas à être payée."
+    type: valeur
+    sources:
+      - {source: s3, extrait: "n’a pas à être payée"}
+arguments:
+  - ref: a1
+    question: Q43
+    position: contre
+    enonce: "Annuler la part détenue par la Banque de France ne réduirait pas durablement la charge réelle de l'État : l'État étant actionnaire de la banque centrale, les intérêts qu'il lui verse lui reviennent. La charge qui pèse sur les contribuables est celle versée aux banques, assurances et investisseurs privés, nationaux et étrangers."
+    raisonnement: "Si les intérêts payés à la Banque de France reviennent à l'État sous forme d'impôt et de dividende, leur suppression retire autant de recettes que de dépenses : le gain net est faible ou nul. L'effort d'annulation viserait donc la part de la dette qui ne coûte presque rien, et laisserait intacte celle qui coûte (créanciers privés)."
+    porte_par:
+      - {qui: "Tendance CLAIRE (courant du NPA)", parti: "NPA", source: s4}
+    affirmations: [F20, F19, F17]
+  - ref: a2
+    question: Q45
+    position: contre
+    enonce: "Un État ne doit pas rembourser une dette construite par des cadeaux fiscaux et des aides aux plus riches et aux grandes entreprises : elle est illégitime. Avant toute décision, un audit citoyen doit établir qui a prêté, à quel taux, quelle part est déjà remboursée, et un moratoire suspend les paiements."
+    raisonnement: "Si la dette résulte de choix de politique qui ont profité aux créanciers et aux entreprises plutôt qu'à la population, l'obligation de la rembourser intégralement ne va pas de soi. Le critère n'est pas l'identité du créancier mais la légitimité de la dette, que l'audit doit établir ; ce critère conduit à ne pas rembourser les dettes illégitimes, banque centrale ou non."
+    porte_par:
+      - {qui: "NPA (tract sur la dette)", parti: "NPA", source: s3}
+    affirmations: [f2]
+  - ref: a3
+    question: Q47
+    position: nuance
+    enonce: "Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise."
+    raisonnement: "Si la dette a été creusée par des aides aux entreprises (270 milliards d'euros par an de aides et exonérations selon Lutte ouvrière), alors dégager des marges en supprimant ces aides et en taxant les profits est préférable aux économies sur les services publics, que cette position refuse. Elle ne retient pas l'annulation comme voie principale."
+    porte_par:
+      - {qui: "Lutte ouvrière, campagne de Nathalie Arthaud", parti: "LO", source: s1}
+    affirmations: [f1]
+  - ref: a4
+    question: Q47
+    position: pour
+    enonce: "L'annulation de la dette publique est préférable à l'austérité : elle libère l'argent des intérêts pour des investissements et des emplois utiles à la population, et met fin au pouvoir des marchés. Elle doit toutefois porter sur les dettes illégitimes, pas sur la seule part de la banque centrale."
+    raisonnement: "Si les intérêts payés aux créanciers privés absorbent des sommes qui financeraient des emplois publics (le tract NPA les chiffre à l'équivalent d'un million d'emplois en 2011), alors l'annulation dégage plus de marges que des économies qui frappent la population. La part détenue par la banque centrale étant reversée à l'État, annuler seulement celle-ci est jugé une diversion."
+    porte_par:
+      - {qui: "NPA (tract sur la dette) ; Tendance CLAIRE (courant du NPA)", parti: "NPA", source: s3}
+    affirmations: [F20]
+valeurs:
+  - {question: Q45, enonce: "Lutte ouvrière met en priorité que la dette de l'État soit payée par la bourgeoisie et les banques, qui en profitent, non par les travailleurs (hebdomadaire du 4 septembre 2026)."}
+  - {question: Q47, enonce: "L'extrême gauche met en priorité le refus de l'austérité pour les travailleurs, quelle que soit la voie choisie (annulation, taxation des profits, fin des aides aux entreprises)."}
+sans_position:
+  - question: Q41
+    lieux_consultes:
+      - {categorie: programme, ou: "LO : brochure d'été 2026 de la campagne de Nathalie Arthaud ; NPA-L'Anticapitaliste : orientations 2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires : rien trouvé", resultat: "Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités sur ce point."}
+      - {categorie: site, ou: "lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la dette, 2011-2012) ; tendanceclaire.org", resultat: "Positions générales sur la dette (voir autres questions), rien de précis sur ce point."}
+      - {categorie: dirigeants, ou: "recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition de J.-L. Mélenchon", resultat: "Aucune réaction trouvée."}
+      - {categorie: parlement, ou: "propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche sur la dette et la Banque de France", resultat: "Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou européens."}
+  - question: Q42
+    lieux_consultes:
+      - {categorie: programme, ou: "LO : brochure d'été 2026 de la campagne de Nathalie Arthaud ; NPA-L'Anticapitaliste : orientations 2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires : rien trouvé", resultat: "Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités sur ce point."}
+      - {categorie: site, ou: "lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la dette, 2011-2012) ; tendanceclaire.org", resultat: "Positions générales sur la dette (voir autres questions), rien de précis sur ce point."}
+      - {categorie: dirigeants, ou: "recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition de J.-L. Mélenchon", resultat: "Aucune réaction trouvée."}
+      - {categorie: parlement, ou: "propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche sur la dette et la Banque de France", resultat: "Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou européens."}
+  - question: Q44
+    lieux_consultes:
+      - {categorie: programme, ou: "LO : brochure d'été 2026 de la campagne de Nathalie Arthaud ; NPA-L'Anticapitaliste : orientations 2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires : rien trouvé", resultat: "Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités sur ce point."}
+      - {categorie: site, ou: "lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la dette, 2011-2012) ; tendanceclaire.org", resultat: "Positions générales sur la dette (voir autres questions), rien de précis sur ce point."}
+      - {categorie: dirigeants, ou: "recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition de J.-L. Mélenchon", resultat: "Aucune réaction trouvée."}
+      - {categorie: parlement, ou: "propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche sur la dette et la Banque de France", resultat: "Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou européens."}
+  - question: Q46
+    lieux_consultes:
+      - {categorie: programme, ou: "LO : brochure d'été 2026 de la campagne de Nathalie Arthaud ; NPA-L'Anticapitaliste : orientations 2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires : rien trouvé", resultat: "Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités sur ce point."}
+      - {categorie: site, ou: "lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la dette, 2011-2012) ; tendanceclaire.org", resultat: "Positions générales sur la dette (voir autres questions), rien de précis sur ce point."}
+      - {categorie: dirigeants, ou: "recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition de J.-L. Mélenchon", resultat: "Aucune réaction trouvée."}
+      - {categorie: parlement, ou: "propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche sur la dette et la Banque de France", resultat: "Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou européens."}
+incertitudes:
+  - "Tendance CLAIRE : date du texte non trouvée (2021 estimée d'après le contexte Covid) ; je n'ai pas vérifié son statut actuel au sein du NPA ni de quel NPA (L'Anticapitaliste ou Révolutionnaires) elle relève."
+  - "Tract NPA s3 : date non trouvée (2011-2012 estimée d'après les chiffres de 2010 et la mention de la campagne de 2012). Texte ancien, pas une position 2026."
+  - "Ni LO ni le NPA n'ont, d'après mes recherches, réagi à la proposition de J.-L. Mélenchon sur la part détenue par la Banque de France : les arguments déposés sont des positions générales sur la dette."
+  - "L'argument a1 suppose que les intérêts reviennent à l'État ; la bibliothèque (F21) montre que la Banque de France a été bénéficiaire nette du partage du revenu monétaire en 2023-2024 : l'ampleur du retour à l'État est à vérifier."
+  - "Le chiffre de 270 milliards d'euros (f1) est tiré d'un texte militant (niveau 3) : le vérificateur doit le contrôler, je n'ai pas trouvé de source officielle."
+  - "Le tract NPA s3 ne parle pas de la banque centrale ; la position du NPA sur ce point précis vient du seul texte de Tendance CLAIRE."

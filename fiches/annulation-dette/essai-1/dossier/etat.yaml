@@ -1,0 +1,359 @@
+fiche: annulation-dette
+phase: '6'
+passage: 2
+phases:
+  '1':
+    debut: '2026-11-10T18:58:39'
+    passages: 1
+    note: question imposée par le fondateur, pas de cadrage par les experts
+    fin: '2026-11-10T18:58:39'
+  '2':
+    debut: '2026-11-10T18:58:39'
+    passages: 1
+    fin: '2026-11-10T19:03:48'
+  '3':
+    debut: '2026-11-10T19:03:48'
+    fin: '2026-11-10T19:07:57'
+    passages: 1
+  '4':
+    debut: '2026-11-10T19:07:57'
+    passages: 1
+    note: un seul passage, fixé par le fondateur
+    fin: '2026-11-10T19:09:56'
+  3-bis:
+    debut: '2026-11-10T19:09:56'
+    passages: 1
+    fin: '2026-11-10T19:10:41'
+    note: 'second passage : 3 affirmations nouvelles de la confrontation'
+  '5':
+    debut: '2026-11-10T19:10:41'
+    passages: 1
+    fin: '2026-11-10T19:10:42'
+  '6':
+    debut: '2026-11-10T19:10:42'
+    passages: 1
+    fin: '2026-11-10T19:15:10'
+    note: 12 manques signalés, non traités (voir bilan)
+agents:
+- phase: '2'
+  agent: expert-centre
+  jetons: 90141
+  outils: 14
+  duree_ms: 83037
+- phase: '2'
+  agent: expert-droite
+  jetons: 95274
+  outils: 18
+  duree_ms: 97080
+- phase: '2'
+  agent: expert-gauche-radicale
+  jetons: 102013
+  outils: 13
+  duree_ms: 97337
+- phase: '2'
+  agent: expert-ecologistes
+  jetons: 102744
+  outils: 19
+  duree_ms: 121183
+- phase: '2'
+  agent: expert-extreme-droite
+  jetons: 103549
+  outils: 24
+  duree_ms: 156889
+- phase: '2'
+  agent: expert-extreme-gauche
+  jetons: 134597
+  outils: 33
+  duree_ms: 213874
+- phase: '2'
+  agent: expert-sociaux-democrates
+  jetons: 128368
+  outils: 36
+  duree_ms: 237754
+- phase: '3'
+  agent: verificateur-lot1
+  jetons: 90105
+  outils: 14
+  duree_ms: 62204
+- phase: '3'
+  agent: verificateur-lot3
+  jetons: 81252
+  outils: 11
+  duree_ms: 62904
+- phase: '3'
+  agent: verificateur-lot2
+  jetons: 88824
+  outils: 19
+  duree_ms: 88762
+- phase: '3'
+  agent: verificateur-verdicts
+  jetons: 97109
+  outils: 9
+  duree_ms: 122252
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 87248
+  outils: 8
+  duree_ms: 19945
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: 88795
+  outils: 10
+  duree_ms: 29851
+- phase: '4'
+  agent: expert-droite
+  jetons: 88282
+  outils: 9
+  duree_ms: 30212
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: 89011
+  outils: 9
+  duree_ms: 35034
+- phase: '4'
+  agent: expert-centre
+  jetons: 90194
+  outils: 10
+  duree_ms: 38892
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 93212
+  outils: 13
+  duree_ms: 53778
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 96875
+  outils: 13
+  duree_ms: 63682
+- phase: 3-bis
+  agent: verificateur-passage2
+  jetons: 73561
+  outils: 8
+  duree_ms: 30441
+- phase: '6'
+  agent: redacteur
+  jetons: 125048
+  outils: 8
+  duree_ms: 232169
+incertitudes:
+- agent: expert-centre
+  texte: La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas.
+- agent: expert-centre
+  texte: Les propos de Breton (s2) et de Lagarde (s3) sont connus par Euronews (niveau 4) ; la tribune des Echos
+    et la conférence de presse n'ont pas été ouvertes.
+- agent: expert-centre
+  texte: 'Je n''ai pas pu ouvrir le texte de l''article 123 TFUE ni l''arrêt Gauweiler (Légifrance/EUR-Lex/Curia
+    inaccessibles ici) : aucun verdict de la CJUE sur l''annulation elle-même n''est cité, et je n''en connais pas.'
+- agent: expert-centre
+  texte: 'Je n''ai trouvé aucun texte d''un parti du Centre (Renaissance, MoDem, Horizons, UDI) sur le volet juridique
+    ; l''attribution à Thierry Breton ne dit pas de quel parti il parle. La déclaration du ministre Roland Lescure
+    (BFMTV, via Euronews) porte sur les risques, pas sur la légalité : non retenue.'
+- agent: expert-centre
+  texte: Le chiffre de la part détenue varie selon les sources (18 % ou 20 % ; environ 500 à 600 milliards d'euros)
+    ; je n'ai pas de source de niveau 1 sur ce montant, à confier au vérificateur.
+- agent: expert-centre
+  texte: Le point de savoir si un article 123 modifié ou un accord de tous les États membres serait nécessaire n'est
+    pas sourcé ici.
+- agent: expert-droite
+  texte: Aucune prise de position publique de Les Républicains (parti ou dirigeants) sur cette proposition précise
+    n'a été trouvée ; les porte_par sont des institutions, un ancien commissaire européen et un groupe de réflexion
+    (IFRAP), pas un texte du parti LR.
+- agent: expert-droite
+  texte: 'La date exacte de la note de l''IFRAP n''apparaît pas dans les métadonnées de la page : « 2026-09-01 »
+    est une estimation (la note évoque l''été 2026), à corriger par le vérificateur.'
+- agent: expert-droite
+  texte: 'Le texte de l''article 123 TFUE n''a pas pu être relu directement (page EUR-Lex ouverte en anglais, passages
+    non retrouvés) : f2 s''appuie sur un commentaire juridique de 2021.'
+- agent: expert-droite
+  texte: 'Le texte de l''article 123 n''interdit pas expressément l''annulation de titres déjà détenus ; la conclusion
+    d''illégalité repose sur l''objectif du traité et l''interprétation de la BCE, non sur une décision de la CJUE
+    : aucun arrêt trouvé sur ce point précis.'
+- agent: expert-droite
+  texte: L'argument de la nécessité d'une modification des traités (a2) n'est pas sourcé par un texte juridique
+    précis (article, règle d'unanimité) ; à vérifier.
+- agent: expert-droite
+  texte: Le gouverneur de la Banque de France a qualifié l'idée d'« illégale, dangereuse et inutile » (cité par
+    l'IFRAP), mais je n'ai pas ouvert de source primaire pour cette déclaration.
+- agent: expert-ecologistes
+  texte: 'Aucune position publique du parti Les Écologistes ou de Marine Tondelier sur l''annulation de la dette
+    détenue par la Banque de France n''a été trouvée (recherches du 10 novembre 2026). L''argument a1 est attribué
+    à un économiste dans une chronique, pas à un parti : son rattachement à la famille écologiste n''est pas établi
+    par mes sources.'
+- agent: expert-ecologistes
+  texte: La chronique de Politis affirme que « les objections techniques ont été largement réfutées » sans citer
+    de source juridique ; elle ne démontre pas que l'annulation (et non l'achat) est conforme à l'article 123. L'extrait
+    du Club des juristes (2021) porte sur l'achat par la BCE, pas sur l'annulation ; je n'ai pas ouvert la conclusion
+    de cet article, que d'autres résumés disent défavorable à l'annulation.
+- agent: expert-ecologistes
+  texte: 'Pas ouvert avec succès : arrêt CJUE Gauweiler (C-62/14), connexion refusée au moment de l''ouverture ;
+    Légifrance, EUR-Lex et Banque de France inaccessibles ou non tentés. Le texte de l''article 123 n''est donc
+    pas cité de première main (niveau 1).'
+- agent: expert-ecologistes
+  texte: 'Points contraires lus mais non repris comme arguments de ma famille : Christine Lagarde (11 septembre
+    2026) parle de « violation pure du traité » (Euronews) ; un avocat (Kohen, 19 août 2026) juge que la France
+    ne peut ordonner unilatéralement à la Banque de France d''abandonner la créance. Le vérificateur devrait les
+    traiter.'
+- agent: expert-ecologistes
+  texte: 'Part de dette concernée : 18 % (Public Sénat, Euronews) ou 20 % (chapeau de Public Sénat) ; Politis indique
+    environ 640 milliards d''euros de titres publics français à l''Eurosystème en 2026. Écarts non résolus.'
+- agent: expert-extreme-droite
+  texte: 'Aucune position publique du RN, de l''UDR ou de Reconquête sur la légalité de l''annulation n''a été trouvée
+    : la seule réaction datée est celle de Jordan Bardella (23 août 2026), qui porte sur l''utilité et le coût.
+    Les positions de l''UDR et de Reconquête n''ont pas été trouvées.'
+- agent: expert-extreme-droite
+  texte: 'L''argument a2 n''est pas porté par un parti de la famille : il est reproduit parce qu''il est le cadre
+    juridique de la question ; le coordinateur peut le retirer si la règle porte_par l''exclut.'
+- agent: expert-extreme-droite
+  texte: La date de publication de l'article De Facto (s4) n'apparaît pas dans les métadonnées ; 2026-08-25 est
+    une estimation (l'article cite des captures du 21 août 2026 et des déclarations du 18 août), à corriger par
+    le vérificateur.
+- agent: expert-extreme-droite
+  texte: Le contexte indique une proposition en août 2026 ; Public Sénat (25 août 2026) la rattache à une vidéo
+    de Jean-Luc Mélenchon datée de juin et relancée en août. La date exacte de la proposition n'est pas établie
+    ici.
+- agent: expert-extreme-droite
+  texte: L'article du Conseil des gouverneurs et la procédure exacte de décision (statuts du SEBC, règle de majorité)
+    n'ont pas été ouverts dans les textes ; l'affirmation f4 repose sur des experts cités dans une presse de niveau
+    4.
+- agent: expert-extreme-droite
+  texte: Les articles 123 et 130 ont été ouverts sur EUR-Lex (version consolidée 2012) ; l'existence d'une version
+    plus récente n'a pas été vérifiée. La jurisprudence de la Cour de justice (arrêts Pringle, Gauweiler, Weiss)
+    n'a pas été consultée.
+- agent: expert-extreme-droite
+  texte: L'extrait de f5 est la première phrase de la réponse de Bardella ; la mention des dividendes figure dans
+    la suite du message (ouvert sur la page X), non dans l'extrait cité.
+- agent: expert-extreme-droite
+  texte: La part exacte de dette détenue par la Banque de France (18 % ou 20 % selon les sources) n'est pas tranchée
+    ici.
+- agent: expert-extreme-gauche
+  texte: 'Aucune position publique de l''extrême gauche sur la mesure précise de Mélenchon (part détenue par la
+    Banque de France, août 2026) n''a été trouvée : la brochure d''été 2026 de Lutte ouvrière ouverte (lutte-ouvriere.org)
+    critique la dette comme profitant aux banques mais ne contient ni appel à l''annulation ni mention de la Banque
+    de France ou de la BCE ; les pages NPA-L''Anticapitaliste de 2026 ouvertes ne traitent pas de ce point (vidéos
+    Poutou et Besancenot de 2026 : contenu non consulté).'
+- agent: expert-extreme-gauche
+  texte: Le NPA-L'Anticapitaliste (page dettedelafrance.fr, secondaire, non retenue comme source) recense « Annuler
+    les dettes publiques » pour 2027 sans préciser les créanciers ni l'horizon ; le document source du NPA n'a pas
+    été retrouvé.
+- agent: expert-extreme-gauche
+  texte: 'L''argument a1 s''appuie sur un programme de 2022 (archive) : les deux demandes (arrêt du paiement, rupture
+    avec les traités) sont citées séparément par le NPA ; leur lien dans a1 est une lecture, pas une phrase du texte.
+    À confirmer avec un document 2026 du NPA ou de LO.'
+- agent: expert-extreme-gauche
+  texte: 'Aucun texte de LO ou du NPA ne soutient que l''annulation serait juridiquement possible dans le cadre
+    actuel des traités : l''extrême gauche n''a donc pas d''argument « pour » sur le plan strictement juridique
+    dans ce dépôt.'
+- agent: expert-extreme-gauche
+  texte: 'Date de la lettre de la BCE (s2) déduite du nom du fichier (cor20210205) : le texte ouvert ne donne ni
+    date ni signataire ; l''objet (annulation par la BCE) vise la BCE, pas expressément la part détenue par la Banque
+    de France au sein de l''Eurosystème.'
+- agent: expert-extreme-gauche
+  texte: 'Date de la version consolidée du protocole n° 4 (s4) non trouvée sur la page ouverte : champ date omis
+    (référence CELEX 12016M/PRO/04).'
+- agent: expert-extreme-gauche
+  texte: Les articles 123 et 130 du traité n'ont pas pu être ouverts directement (EUR-Lex non lu pour le TFUE) ;
+    l'article 123 n'est cité que via la BCE.
+- agent: expert-extreme-gauche
+  texte: Le texte intégral de l'arrêt Weiss n'a pas été ouvert, seulement le communiqué de la Cour ; il porte sur
+    les achats sur le marché secondaire, pas sur l'annulation de titres détenus.
+- agent: expert-gauche-radicale
+  texte: Le livret s3 est en ligne sous une adresse datée de juin 2022 mais son contenu date de la crise Covid (2020)
+    ; la date indiquée est celle de l'adresse, pas celle d'une publication vérifiée. Il porte sur les dettes détenues
+    par la BCE en général, pas sur le seul cas de la Banque de France en 2026.
+- agent: expert-gauche-radicale
+  texte: Le livret affirme que l'article 32.4 permet à la BCE de compenser les pertes par la création monétaire
+    ; le texte ouvert (f2) parle d'indemnisation décidée par le conseil des gouverneurs en circonstances exceptionnelles,
+    sans mentionner la création monétaire ni l'annulation de titres. Le vérificateur devra trancher sur la portée.
+- agent: expert-gauche-radicale
+  texte: Je n'ai pas trouvé de texte de programme de 2026 de La France insoumise détaillant la procédure juridique
+    ; la position de 2026 repose sur des déclarations rapportées par la presse (niveau 4).
+- agent: expert-gauche-radicale
+  texte: Je n'ai pas ouvert la jurisprudence de la Cour de justice de l'Union européenne sur les achats de titres
+    (arrêts Gauweiler 2015, Weiss 2018 et 2020), qui borne l'interprétation de l'article 123.
+- agent: expert-gauche-radicale
+  texte: 'Des responsables contestent la légalité de la proposition (Christine Lagarde, selon Euronews du 11 septembre
+    2026 : « violation pure du traité » ; le ministre de l''Économie Roland Lescure ; Thierry Breton) : je n''ai
+    pas ouvert leurs propos d''origine et ne les ai pas versés comme affirmations.'
+- agent: expert-gauche-radicale
+  texte: La part exacte de dette détenue (18 % ou 20 % selon les articles) et son montant ne relèvent pas de Q1
+    et n'ont pas été vérifiés auprès d'une source de niveau 1.
+- agent: expert-sociaux-democrates
+  texte: 'Aucun texte de la famille (PS, Place publique) invoquant l''article 123 pour s''opposer à la mesure n''a
+    été trouvé : l''opposition de Carole Delga (« n''importe quoi ») et d''Aurore Lalucq (« ce n''est pas le bon
+    moment ») est rapportée sans argument juridique. Je n''ai donc écrit aucun argument « contre » attribué à la
+    famille.'
+- agent: expert-sociaux-democrates
+  texte: 'La famille est divisée et a évolué : Aurore Lalucq (co-présidente de Place publique) a signé la tribune
+    de 2020 puis s''oppose en 2026 selon Yahoo ; Raphaël Glucksmann n''a pas réagi publiquement à ma connaissance
+    ; Olivier Faure juge « le débat posé » sans soutenir la mesure. L''argument a1 reflète donc des textes de 2020
+    pour Lalucq et Glucksmann, pas leur position de 2026.'
+- agent: expert-sociaux-democrates
+  texte: 'L''entretien de Faure à Libération n''a pas été ouvert (source primaire non trouvée) : citation reprise
+    via Yahoo Actualités. Cet article mentionne « jeudi 27 avril » alors que le contexte (débat du Medef, 27 août
+    2026) indique août ; sa date de publication (2026-08-28) est une estimation de ma part, non confirmée par les
+    métadonnées.'
+- agent: expert-sociaux-democrates
+  texte: La tribune du JDD n'a pas de date dans la page ouverte ; « septembre 2020 » vient de l'article Yahoo (s5).
+    Sa liste de signataires est tronquée dans ma lecture.
+- agent: expert-sociaux-democrates
+  texte: La date de la lettre de la BCE (s3) est déduite du nom du fichier (cor20210205) ; le texte ouvert ne la
+    donne pas. Elle est de 2021 d'après le contenu.
+- agent: expert-sociaux-democrates
+  texte: 'Texte consolidé de l''article 123 : date 2016-06-07 reprise du Journal officiel C 202 ; le paragraphe
+    2 n''a pas été lu. Les articles 130 (indépendance) et 125 n''ont pas été ouverts.'
+- agent: expert-sociaux-democrates
+  texte: 'Question non traitée : savoir si le « gel » en titres perpétuels à taux nul que décrit la presse pour
+    la proposition de Mélenchon diffère juridiquement d''une annulation ; je n''ai pas ouvert le programme de LFI.'
+- agent: expert-sociaux-democrates
+  texte: Pas trouvé de décision de la CJUE sur l'annulation de titres détenus par l'Eurosystème ; arrêts Pringle
+    (C-370/12) ouvert seulement dans son sommaire, sans passage utile.
+- agent: expert-centre
+  texte: 'A1 (corrigé) : la phrase sur le rôle du Conseil des gouverneurs vient de F17 (De Facto, niveau 4, d''après
+    l''AFP) ; je n''ai pas rouvert de source en phase 4.'
+- agent: expert-centre
+  texte: Je n'ai pas vérifié si l'article 32.4 des statuts a déjà été utilisé pour des opérations proches d'une
+    annulation ; je ne l'affirme donc pas.
+- agent: expert-centre
+  texte: 'F35 (Olivier Faure) : la date « fin août 2026 » n''est pas confirmée par la source Yahoo ; déjà relevé
+    par le vérificateur, non repris en objection.'
+- agent: expert-centre
+  texte: 'Aucune décision de justice ne tranche la question : la lecture de la BCE (F1, F31) est une position d''institution,
+    pas une jurisprudence.'
+- agent: expert-droite
+  texte: 'Aucune erreur de fait nouvelle n''est posée : les points soulevés par le vérificateur sur mes affirmations
+    (F10 : sources officielles à joindre, art. 130 TFUE et art. 7 des statuts du SEBC ; F11 : écrire « selon Euronews
+    » ; F6 : source de niveau 1 sur la pratique d''achat) sont fondés et je ne les conteste pas.'
+- agent: expert-droite
+  texte: 'Le contre-argument à A9 est un raisonnement, pas un fait : le texte de l''article 32.4 n''a pas été rouvert
+    pour cette phase, je m''appuie sur l''extrait déjà au dossier (F26).'
+- agent: expert-droite
+  texte: Les lectures de Christine Lagarde et de Fabio Panetta sont des positions institutionnelles ; aucune décision
+    de justice ne tranche expressément le cas de l'annulation.
+- agent: expert-ecologistes
+  texte: A1 et la correction de A5 reposent sur une seule chronique (S7) pour la position de ma famille ; aucun
+    texte du parti Les Écologistes sur la question juridique n'a été relu pour cette phase.
+- agent: expert-ecologistes
+  texte: Je n'ai pas vérifié si une décision de justice postérieure à 2018 aborde l'annulation de titres déjà détenus.
+- agent: expert-ecologistes
+  texte: L'arrêt Weiss n'a pas été relu en entier ; je m'appuie sur le renvoi qu'en fait Bonneau (S4).
+- agent: expert-extreme-droite
+  texte: 'A7 retiré : son raisonnement (articles 123 et 130) repose sur le gouverneur de la Banque de France et
+    l''AFP, pas sur un texte du RN, de l''UDR ou de Reconquête, et reprend A1 et A4. Aucun texte de la famille consulté
+    ne traite la question juridique de Q1.'
+- agent: expert-extreme-droite
+  texte: 'A6 : l''énoncé attribue à Jordan Bardella l''idée que l''annulation ferait monter les taux ; F18 ne couvre
+    que la détention par l''État et les dividendes. Le point sur les taux n''est pas rattaché à une affirmation
+    vérifiée dans le lot, à contrôler par le vérificateur.'
+- agent: expert-extreme-droite
+  texte: 'Je n''ai rouvert aucune source pendant cette confrontation : pas d''objection de fait nouvelle déposée,
+    faute d''élément vérifié.'
+- agent: expert-gauche-radicale
+  texte: 'A9 était formulé trop fermement (« serait possible dans le cadre des traités actuels ») : la seule source
+    du camp est une contribution de 2022 de Jean-Luc Mélenchon (niveau 3), contredite par la lettre de la BCE de
+    2021 et par Panetta (2020). Correction déposée.'
+- agent: expert-gauche-radicale
+  texte: L'arrêt Weiss (communiqué S14) porte sur les achats, pas sur l'annulation ; je n'en tire aucune conclusion
+    sur la légalité de l'annulation.
+- agent: expert-gauche-radicale
+  texte: 'F29 (proposition de résolution de 2020) : auteur et date toujours non établis ; non confirmé par une source
+    de niveau 1.'

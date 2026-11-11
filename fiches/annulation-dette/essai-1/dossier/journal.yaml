@@ -1,0 +1,151 @@
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: question Q1 ajoutée, validée par fondateur (message du 10 novembre 2026)
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: debut de la phase 1 (question imposée par le fondateur, pas de cadrage par les experts)
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '1'
+  action: fin de la phase 1
+- date: '2026-11-10T18:58:39'
+  agent: coordinateur
+  phase: '2'
+  action: debut de la phase 2
+- date: '2026-11-10T19:03:33'
+  agent: expert-centre
+  phase: '2'
+  action: 'a ajouté S1, S2, S3, S4, S5, F1, F2, F3, F4, F5, A1, A2, V1 ; incertitudes signalées : 6'
+- date: '2026-11-10T19:03:33'
+  agent: expert-droite
+  phase: '2'
+  action: 'a ajouté S6, F6, F7, F8, F9, F10, F11, A3, A4 ; incertitudes signalées : 6'
+- date: '2026-11-10T19:03:33'
+  agent: expert-ecologistes
+  phase: '2'
+  action: 'a ajouté S7, F12, F13, A5, V2 ; incertitudes signalées : 5'
+- date: '2026-11-10T19:03:34'
+  agent: expert-extreme-droite
+  phase: '2'
+  action: 'a ajouté S8, S9, S10, S11, S12, F14, F15, F16, F17, F18, F19, A6, A7, V3 ; incertitudes signalées : 8'
+- date: '2026-11-10T19:03:34'
+  agent: expert-extreme-gauche
+  phase: '2'
+  action: 'a ajouté S13, S14, S15, F20, F21, F22, F23, F24, A8 ; incertitudes signalées : 8'
+- date: '2026-11-10T19:03:34'
+  agent: expert-gauche-radicale
+  phase: '2'
+  action: 'a ajouté S16, S17, F25, F26, F27, F28, F29, A9, A10, V4 ; incertitudes signalées : 6'
+- date: '2026-11-10T19:03:34'
+  agent: expert-sociaux-democrates
+  phase: '2'
+  action: 'a ajouté S18, S19, S20, F30, F31, F32, F33, F34, F35, F36, A11, A12, V5 ; incertitudes signalées : 8'
+- date: '2026-11-10T19:03:48'
+  agent: coordinateur
+  phase: '2'
+  action: fin de la phase 2
+- date: '2026-11-10T19:03:48'
+  agent: coordinateur
+  phase: '3'
+  action: debut de la phase 3
+- date: '2026-11-10T19:05:38'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S1→conforme, S2→conforme, S3→conforme, S4→conforme, S5→conforme, S6→conforme, S7→conforme
+- date: '2026-11-10T19:05:38'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S8→conforme, S9→conforme, S10→conforme, S11→conforme, S12→conforme, S13→conforme, S14→conforme
+- date: '2026-11-10T19:05:39'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S15→conforme, S16→conforme, S17→conforme, S18→conforme, S19→conforme, S20→conforme
+- date: '2026-11-10T19:07:57'
+  agent: verificateur
+  phase: '3'
+  action: a tranché F1→Vrai, F2→Plutôt vrai, F3→Plutôt vrai, F4→Vrai, F5→Vrai, F6→Plutôt vrai, F7→Vrai, F8→Vrai,
+    F9→Vrai, F10→Plutôt vrai, F11→Plutôt vrai, F12→Vrai, F13→Plutôt vrai, F14→Vrai, F15→Vrai, F16→Vrai, F17→Vrai,
+    F18→Vrai, F19→Plutôt vrai, F20→Vrai, F21→Vrai, F22→Vrai, F23→Vrai, F24→Vrai, F25→Vrai, F26→Vrai, F27→Plutôt
+    vrai, F28→Vrai, F29→Plutôt vrai, F30→Vrai, F31→Vrai, F32→Vrai, F33→Plutôt vrai, F34→Plutôt vrai, F35→Plutôt
+    vrai, F36→Vrai
+- date: '2026-11-10T19:07:57'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T19:07:57'
+  agent: coordinateur
+  phase: '4'
+  action: debut de la phase 4 (un seul passage, fixé par le fondateur)
+- date: '2026-11-10T19:07:58'
+  agent: coordinateur
+  phase: '4'
+  action: début du passage 2
+- date: '2026-11-10T19:09:47'
+  agent: expert-centre
+  phase: '4'
+  action: 'a ajouté A13, A14, V6, corriger A1 ; incertitudes signalées : 4'
+- date: '2026-11-10T19:09:47'
+  agent: expert-droite
+  phase: '4'
+  action: 'a ajouté A15 ; incertitudes signalées : 3'
+- date: '2026-11-10T19:09:47'
+  agent: expert-ecologistes
+  phase: '4'
+  action: 'a ajouté F37, F38, F39, A16, V7, corriger A5 ; incertitudes signalées : 3'
+- date: '2026-11-10T19:09:47'
+  agent: expert-extreme-droite
+  phase: '4'
+  action: 'a ajouté retirer A7 ; incertitudes signalées : 3'
+- date: '2026-11-10T19:09:48'
+  agent: expert-extreme-gauche
+  phase: '4'
+  action: a ajouté rien de nouveau
+- date: '2026-11-10T19:09:48'
+  agent: expert-gauche-radicale
+  phase: '4'
+  action: 'a ajouté V8, corriger A9 ; incertitudes signalées : 3'
+- date: '2026-11-10T19:09:48'
+  agent: expert-sociaux-democrates
+  phase: '4'
+  action: a ajouté rien de nouveau
+- date: '2026-11-10T19:09:56'
+  agent: coordinateur
+  phase: '4'
+  action: fin de la phase 4
+- date: '2026-11-10T19:09:56'
+  agent: coordinateur
+  phase: '3'
+  action: 'debut de la phase 3 (second passage : 3 affirmations nouvelles de la confrontation)'
+- date: '2026-11-10T19:10:41'
+  agent: verificateur
+  phase: '3'
+  action: a tranché F37→Vrai, F38→Vrai, F39→Vrai
+- date: '2026-11-10T19:10:41'
+  agent: coordinateur
+  phase: '3'
+  action: fin de la phase 3
+- date: '2026-11-10T19:10:41'
+  agent: coordinateur
+  phase: '5'
+  action: debut de la phase 5
+- date: '2026-11-10T19:10:42'
+  agent: coordinateur
+  phase: '5'
+  action: 'Nombre de passages fixé par le fondateur (1) atteint. Condition d''arrêt 1 non remplie : le passage de
+    confrontation a apporté 4 contre-arguments (A13–A16). Conditions 2 et 3 remplies (aucune objection factuelle
+    ouverte ; positions pour, contre et nuancées présentes). Dossier déclaré stable pour ce test seulement, par
+    décision du fondateur de limiter à un passage ; aucun désaccord bloqué à remonter.'
+- date: '2026-11-10T19:10:42'
+  agent: coordinateur
+  phase: '5'
+  action: fin de la phase 5
+- date: '2026-11-10T19:10:42'
+  agent: coordinateur
+  phase: '6'
+  action: debut de la phase 6
+- date: '2026-11-10T19:15:10'
+  agent: coordinateur
+  phase: '6'
+  action: fin de la phase 6 (12 manques signalés, non traités (voir bilan))

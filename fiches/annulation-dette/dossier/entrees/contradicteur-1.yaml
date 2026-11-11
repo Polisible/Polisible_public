@@ -1,0 +1,195 @@
+agent: contradicteur
+role: contradicteur
+# Contre-examen de l'instruction du rapporteur (docs/commission.md § 6.1).
+# Règle de décompte des objections retenue pour tout le lot : une objection est une thèse qui vise le
+# raisonnement de la thèse examinée, au-delà du seul champ repond_a ; une réponse ne compte que si elle
+# vient d'un argument de la thèse examinée. Le rapporteur l'applique pour T1, T3, T4 et T15 ; elle est
+# appliquée ici à T2, T5 et T10, où l'examen s'en écarte.
+contre_examen:
+# ------------------------------------------------------------------ Q41
+- these: T1
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé sur les cinq critères. La lacune essentielle (F9 ne dit rien du sort de titres déjà détenus, F27 Invérifiable) est appréciée comme le silence pris pour permission de T3 ; le décompte de A37 comme réponse partielle à A46 est fondé sur le contenu (F9)."
+- these: T2
+  critere: objections
+  avis: conteste
+  justification: "A46 (T3) réfute précisément l'inférence de A21 : déduire l'interdiction de l'achat auprès d'investisseurs (F24, F44). Cette même objection est comptée contre T1 (en partie, grâce à A37) ; écrire « répondues » pour T2, qui n'y répond par aucun argument, traite la même lacune plus favorablement et s'écarte de la règle de décompte suivie pour T1, T3, T4 et T15."
+  proposition: "objections : sans réponse — T3 (A46) objecte que l'achat sur le marché secondaire (F24, F44) établit la régularité de l'achat, non l'interdiction du traitement ultérieur ; aucun argument de T2 n'y répond. Conclusion inchangée (ne tient pas). Compléter R2 par « Que répondez-vous à T3 (A46) ? », comme R1 pour T1."
+- these: T3
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : appui solide (F45, F57, F1, F2, F5), lacune essentielle symétrique de T1 (silence d'un texte pris pour une permission, F27 Invérifiable), objections en partie (A46 répond à A37 sur le silence, pas sur la proposition portée par un gouvernement, F3)."
+# ------------------------------------------------------------------ Q42
+- these: T4
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé. Le décompte des objections au-delà de repond_a est fondé : A51 répond à A44 et nomme A47 dans son raisonnement (F5, F9, F46), A38 répond à A22 ; « répondues » est juste, à condition d'appliquer la même règle à T5 (voir T5/objections). Appui faible (F26) et lacune essentielle symétriques de T5 (F47)."
+- these: T5
+  critere: objections
+  avis: conteste
+  justification: "Avec la règle appliquée à T4 (A51 comptée comme réponse à A47 hors repond_a), A44 doit être comptée comme réponse en substance à A38 : A38 objecte que les prêteurs évaluent la fiabilité des règles ; A44 répond que la décision relève du conseil des gouverneurs (F5), non de la signature de l'État, et A51 lui-même lit A44 ainsi (« comme le disent A44 et A47 »). Seule A51 reste sans réponse."
+  proposition: "objections : en partie — T4 objecte par A38 et A51 ; A44 répond à A38 sur la fiabilité des règles (F5, F46), aucun argument de T5 ne répond à A51 sur le scénario national (F11, F46). Conclusion inchangée (ne tient pas, appui faible)."
+- these: T6
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : la lacune porte sur la seule partie « l'effet dépend de la voie » (cause supposée, F9, A51), l'autre partie (aucun chiffrage, F26) étant établie ; « essentielle: false » est cohérent avec T10, T12, T13."
+# ------------------------------------------------------------------ Q43
+- these: T7
+  critere: regroupement
+  avis: conteste
+  justification: "A13 et A39 n'ont ni la même conclusion ni le même raisonnement : A13 raisonne sur l'ensemble État plus Banque de France (le résultat baisse « d'autant », gain « faible ou nul », point visé par O1) ; A39 réfute A24 en montrant que F22 ne porte pas sur la part de la banque centrale et conclut que le gain est « inconnu, non démontré positif » (F41, F49). L'énoncé de T7 fusionne les deux (« faible, nul ou inconnu »), et l'examen retourne la conclusion prudente de A39 contre la thèse."
+  proposition: "Deux thèses : l'une avec A13 (gain faible ou nul par consolidation, F41, O1), l'autre avec A39 (gain net non démontré, réponse à T9), chacune examinée avec la grille ; la position de la seconde est à réexaminer au regard de sa conclusion."
+- these: T7
+  critere: appui
+  avis: conteste
+  justification: "La conclusion « non » (gain faible ou nul) n'est portée que par F41 (Pas d'estimation fiable) ; F19 et F20 établissent l'existence de versements, pas leur baisse au point d'annuler le gain. T9 a la même structure (F49 porte seul la conclusion, F22 ne porte que sur l'existence d'une charge) et a reçu « faible » : même lacune, appréciation différente."
+  proposition: "appui : faible — la réduction ou l'annulation du gain repose sur F41 (Pas d'estimation fiable), qui ne peut porter seule la thèse ; F19 et F20 établissent seulement l'existence des versements. Conclusion inchangée (ne tient pas)."
+- these: T7
+  critere: raisonnement
+  avis: confirme
+  justification: "Lacune essentielle confirmée : la partie valide de la thèse (gain net inférieur au brut ou inconnu, F19, F20, F41) ne porte pas la réponse « non » ; elle est compatible avec une réduction durable. C'est la situation inverse de T10 ou T13, où la partie valide porte une part de la réponse. Appréciation symétrique de T9."
+- these: T7
+  critere: portee
+  avis: conteste
+  justification: "La portée tient pour établi que le gain net est inférieur au gain brut ; or ce lien suppose que les intérêts perçus contribuent aux versements, ce qui est F41 (Pas d'estimation fiable), rendu plausible par O1 (S9) sans être vérifié. Le rapporteur le dit lui-même dans l'appui de T7. Même remarque pour T8 et T24."
+  proposition: "établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et rend plausible que ces versements dépendent en partie des intérêts perçus (F41, O1) ; ne prouve pas que la charge nette ne baisserait pas durablement."
+- these: T8
+  critere: appui
+  avis: conteste
+  justification: "L'économie nette inférieure à l'économie brute repose sur le lien entre intérêts perçus et sommes reversées. Pour T7, le rapporteur écrit que ce lien « repose sur F41 (Pas d'estimation fiable) » et en tire un appui partiel ; T8 utilise le même lien (F18, F19, F20, F21) et reçoit « solide ». Même prémisse non établie, appréciation différente."
+  proposition: "appui : partiel — F18 à F22, F48 et F50 sont vérifiés (Vrai) ; l'économie nette inférieure à la brute suppose que les intérêts perçus contribuent aux versements à l'État (F41, Pas d'estimation fiable, rendu plausible par O1). Poser à la famille qui porte T8 la même relance que R7 (source isolant la part de ces intérêts)."
+- these: T8
+  critere: portee
+  avis: conteste
+  justification: "Même raison que pour T7/portee : l'infériorité du net au brut n'est pas établie par une affirmation vérifiée (F41)."
+  proposition: "établit que la conversion éviterait de refinancer sur le marché les titres non réinvestis (F48) et que la Banque de France reverse une partie de ses bénéfices, de façon variable (F19, F21) ; ne prouve pas le montant ni le signe durable de l'économie nette, faute d'estimation (F41)."
+- these: T8
+  critere: conclusion
+  avis: conteste
+  justification: "Conséquence de T8/appui : avec un appui partiel, la règle du § 3 donne « tient en partie »."
+  proposition: "tient en partie"
+- these: T9
+  critere: raisonnement
+  avis: conteste
+  justification: "La valeur (lacune essentielle) est confirmée, symétrique de T7, mais la justification est inexacte : T9 ne néglige pas les reversements, son énoncé dit que « le gain net dépend des reversements de la Banque de France » (A24). La lacune est ailleurs : passer de la charge totale (F22) et d'une marge brute à une réduction durable de la charge, alors que la thèse admet que le net dépend de versements non chiffrés (F41, F49)."
+  proposition: "raisonnement : lacune, essentielle: true — Conclusion plus large que les prémisses : de la charge totale (F22) et d'une marge brute, la thèse conclut à une réduction durable de la charge, alors qu'elle reconnaît que le gain net dépend des reversements (F19, F20), qu'aucune source ne chiffre (F41, F49)."
+# ------------------------------------------------------------------ Q44
+- these: T10
+  critere: objections
+  avis: conteste
+  justification: "Les réponses comptées (A52, A53) ne sont pas des arguments de T10 : A52 est dans T14, A53 dans T11. Pour T5, T12, T13 et T14, le rapporteur écrit « aucun argument de T… n'y répond » ; T10, qui ne contient que A3, ne répond ni à A45 (T12) ni à A48 (T14). La règle n'est pas la même."
+  proposition: "objections : sans réponse — T12 (A45) et T14 (A48) objectent qu'une décision libre du conseil des gouverneurs n'est pas une instruction (F3, F5) ; aucun argument de T10 n'y répond. Conclusion inchangée (tient en partie). Compléter R9 par « Que répondez-vous à T12 (A45) et T14 (A48) ? », comme R11, R12 et R13."
+- these: T11
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : A40 et A53 suivent le même raisonnement (perception d'un financement monétaire, F9) ; appui faible et lacune essentielle (cause supposée, F27) sont appréciés comme T4 et T5 pour l'effet sur les taux."
+- these: T12
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : volet indépendance valide (F3, F5), volet crédibilité porté par une valeur (F53), objection de T14 (A52, F4) sans réponse ; appréciation identique à T10 et T13 pour un volet crédibilité sans estimation."
+- these: T13
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : appui partiel (F58 Débat entre experts), lacune limitée au volet crédibilité, objection T11 (A40) sans réponse ; même traitement que T10 et T12."
+- these: T14
+  critere: regroupement
+  avis: conteste
+  justification: "A48 et A52 ne suivent pas le même raisonnement : A48 (réponse à A3) conclut que la crédibilité n'est pas atteinte si le conseil des gouverneurs décide (F3, F5, F27) ; A52 (réponse à A45) conclut que l'indépendance est atteinte si l'effacement passe par une loi nationale (F4) et ne dit rien de la crédibilité. L'énoncé attribue à tous les porteurs la phrase sur la crédibilité, que A53 (T11), porté par le même parti que A52, conteste directement."
+  proposition: "Deux thèses : l'une avec A52 (l'atteinte à l'indépendance dépend de la voie, F3, F4, F5), l'autre avec A48 (pas d'atteinte à la crédibilité pour une décision du conseil, F3, F5, F27), chacune examinée avec la grille ; l'objection T11 (A53) ne vise que la seconde."
+- these: T14
+  critere: appui
+  avis: conteste
+  justification: "Le volet crédibilité de T14 (« ne vaudrait que pour une décision imposée ») n'est porté par aucune estimation, comme ceux de T10 (F27), T12 (F53) et T13 (F58), tous jugés « partiel ». F27 établit seulement que la compatibilité est disputée, pas l'absence d'effet. Même lacune, appréciation plus favorable."
+  proposition: "appui : partiel — le volet indépendance repose sur F3, F4, F5 (Vrai) ; le volet crédibilité n'est porté par aucune estimation, F27 (Invérifiable) établissant seulement que la compatibilité est disputée. Conclusion inchangée (tient en partie)."
+# ------------------------------------------------------------------ Q45
+- these: T15
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé. Le décompte au-delà de repond_a est fondé : A50 répond à A43 et nomme A49 (F24, F48). « En partie » est juste tant que A43 reste dans T19 ; si A43 en sort (voir T19/regroupement), le critère de légitimité n'est plus une objection adressée à T15 (A17 ne vise pas A4) et l'objection devient « répondues », sans changer la conclusion. Appui partiel (F26) cohérent avec T16."
+- these: T16
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : seul F28 (valeur) et un présupposé de confiance non établi (F26) ; appréciation identique à T19 pour une thèse de valeur sans présupposé vérifié."
+- these: T17
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé. « Ne lèse aucun créancier privé » s'entend au sens étroit, établi par F24 et F46 (Plutôt vrai) ; les effets indirects sur les prêteurs, symétriques de l'atteinte à la signature de T15 (F26), ne sont pas affirmés par T17 et la portée le relève. Objection T15 (A50, F48) sans réponse."
+- these: T18
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : présupposé de marge nette non établi traité dans l'appui (F41), comme pour T28 et T29 ; regroupement de A10, A27, A34 cohérent (coût du remboursement et usage de la marge, F17, F31, F53)."
+- these: T19
+  critere: regroupement
+  avis: conteste
+  justification: "A43 ne partage pas le raisonnement de A17 : son raisonnement est la réfutation de A4 par F24 (vendeurs payés, créancier actuel la banque centrale), identique à celui de A49 (T17) ; le critère de légitimité n'y figure que dans l'énoncé, sans prémisse. A17 raisonne sur la légitimité de la dette (F43). Le regroupement fait compter F24 comme « point secondaire » de T19 et crée une objection de légitimité contre T15 qu'aucun argument ne développe. A43 ne peut pas non plus rejoindre T17, puisqu'il écarte le critère de l'identité du créancier (F51)."
+  proposition: "Isoler A43 dans une thèse propre (réfutation de A4 par F24, critère de légitimité affirmé), examinée avec la même grille que A49 ; T19 réduite à A17. Effets : objections de T19 « répondues » (A50 ne vise pas A17), objections de T15 à réexaminer (voir T15) ; conclusions de T15 et T19 inchangées."
+# ------------------------------------------------------------------ Q46
+- these: T20
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : appui partiel justifié par O1 (S9) sur le partage du bilan et par F27 ; la conclusion « décider seul, c'est s'affranchir des règles communes » découle de F3 et F4 sans dépendre de F27."
+- these: T21
+  critere: regroupement
+  avis: conteste
+  justification: "A29 et A35 arrivent à la même conclusion par deux chemins : A35 par la répartition des compétences (F3, F5 : une décision nationale n'a pas d'effet sur la créance) et un contrat avec la BCE (F60) ; A29 par l'interdiction du financement direct (F1, F2) et la propriété commune (F51), d'où une révision des traités (F56). L'énoncé fusionne « accord » et « révision des règles »."
+  proposition: "Deux thèses (A35 ; A29), ou un énoncé limité au raisonnement commun (la décision n'appartient pas à un État seul, F3, F5), la révision des traités étant examinée à part."
+- these: T21
+  critere: raisonnement
+  avis: conteste
+  justification: "A29 passe de F1 et F2 (interdiction du financement direct) à la nécessité de réviser les règles pour annuler, inférence identique à celle de A21 qui vaut à T2 une lacune « conclusion plus large que les prémisses » (F45, F27 Invérifiable). La justification du rapporteur ne vise que A35 (F3, F5). La lacune ne touche qu'une partie de la conclusion de T21 (la révision), le niveau européen découlant de F3 et F5."
+  proposition: "raisonnement : lacune, essentielle: false — Le niveau européen de la décision découle de F3 et F5 ; la nécessité d'une révision des règles suppose, comme T2, que l'interdiction du financement direct (F1, F2) vise l'annulation de titres déjà détenus, ce que le dossier n'établit pas (F45, F27)."
+- these: T21
+  critere: conclusion
+  avis: conteste
+  justification: "Conséquence de T21/raisonnement : une lacune limitée à une partie de la conclusion donne « tient en partie » (§ 3)."
+  proposition: "tient en partie"
+- these: T22
+  critere: regroupement
+  avis: conteste
+  justification: "L'énoncé attribue à tous les porteurs que la dette « relève d'une décision européenne, non nationale seule » : c'est la conclusion de A11 (F4, F5, F33). A28 ne dit pas cela ; il conclut que la politique de la dette relève « du contrôle démocratique plutôt que de règles fixées par des institutions indépendantes », par un autre chemin (F1, F2, F56 : les traités comme carcan)."
+  proposition: "Deux thèses (A11 ; A28), ou un énoncé limité au point commun (exiger un changement des règles européennes plutôt qu'une décision unilatérale), chaque raisonnement étant restitué."
+- these: T23
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : présupposés vérifiés (F39 Vrai, F40 Plutôt vrai), conclusion limitée à ce qu'ils portent ; la portée signale que les propositions ne visent pas les titres de l'Eurosystème."
+# ------------------------------------------------------------------ Q47
+- these: T24
+  critere: portee
+  avis: conteste
+  justification: "Même raison que T7/portee et T8/portee : l'infériorité du gain net au gain brut n'est pas établie par F19 et F20 seuls, elle suppose F41 (Pas d'estimation fiable). La thèse elle-même dit seulement que le gain est « incertain », ce que F41 établit."
+  proposition: "établit que la Banque de France verse des sommes à l'État (F18, F19, F20) et qu'aucune source ne chiffre l'effet de l'annulation sur ces versements (F41) ; ne prouve pas que les leviers retenus dégageraient davantage de marges."
+- these: T25
+  critere: regroupement
+  avis: conteste
+  justification: "A8 et A14 ne suivent pas le même raisonnement : A8 déduit la position sur l'annulation du choix des moyens d'un plan qui n'en parle pas (F29, F30), ce que l'argument reconnaît ; A14 l'écarte explicitement parce qu'elle ne traiterait pas la cause du déficit (F22, F37, F39). L'énoncé prête aux deux porteurs la règle d'or et l'argument de la cause du déficit."
+  proposition: "Deux thèses : A8 (silence du plan, lacune « silence d'un texte » à apprécier sur l'essentiel de sa conclusion) et A14 (cause du déficit), chacune examinée avec la grille."
+- these: T25
+  critere: appui
+  avis: conteste
+  justification: "F37 et F38 établissent ce que le plan prévoit, non que les économies seraient obtenues ni qu'elles dégageraient les marges annoncées ; la portée le reconnaît (F38). T24 a reçu « partiel » pour le même type de présupposé non établi sur l'effet du levier retenu (croissance par la baisse du coût du travail). Même lacune, appréciation plus favorable."
+  proposition: "appui : partiel — les plans et la charge de la dette sont établis (F22, F29, F30, F37, F38, F39, Vrai) ; l'effet attendu des économies, dont 15 milliards liés à l'immigration (F38), n'est porté par aucune affirmation. Conclusion inchangée (tient en partie). Relance de même nature que R20."
+- these: T26
+  critere: raisonnement
+  avis: conteste
+  justification: "La lacune nommée est un présupposé non établi (effet sur les conditions d'emprunt, F26), déjà compté dans l'appui. Pour les thèses de valeur T16, T18, T19, T28 et T29, le rapporteur traite le présupposé non établi dans l'appui et juge le raisonnement valide ; A19, construit en « si … alors » comme A17, reçoit ici une double sanction. Même structure, appréciation plus sévère."
+  proposition: "raisonnement : valide — De la priorité donnée à l'emploi et à l'investissement sur l'austérité, la conclusion découle si son présupposé est vrai ; ce présupposé (montant des intérêts, effet sur l'emprunt, F26) n'est pas établi et relève de l'appui. Conclusion inchangée (ne tient pas, appui faible)."
+- these: T27
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : la lacune n'est pas un simple présupposé mais l'usage de F47 (coût d'emprunt) pour conclure à l'absence de coût et à une marge, que les reversements réduisent (F19, F20) ; même nature que l'usage de F22 par T9."
+- these: T28
+  critere: regroupement
+  avis: conteste
+  justification: "A12 et A31 combinent les leviers pour des raisons différentes : A12 parce que le critère est l'usage de la dette (« bonne » ou « mauvaise » dette, F34, F35, F36) ; A31 parce que l'annulation, qui dégagerait des marges (F49), ne suffit pas seule (F55). L'énoncé prête à tous le « critère de l'usage de la marge », qui est celui de A12 (et proche de A36, T29)."
+  proposition: "Deux thèses (A12 ; A31), ou un énoncé limité au point commun (l'annulation est un levier à combiner avec les recettes), le critère d'usage étant attribué à son seul porteur."
+- these: T29
+  critere: conclusion
+  avis: confirme
+  justification: "Examen confirmé : présupposé de marge nette non établi (F41) traité dans l'appui comme pour T18 et T28 ; conclusion limitée à l'usage conditionné des montants (F59)."
+- these: T30
+  critere: raisonnement
+  avis: conteste
+  justification: "La lacune nommée (la dette creusée par les aides, sans affirmation) est un présupposé non établi, déjà sanctionné dans l'appui (F42 Invérifiable). T19 a exactement la même structure (« si la dette résulte de cadeaux fiscaux », F43) et reçoit « valide » avec le défaut porté dans l'appui. Même lacune, appréciation différente."
+  proposition: "raisonnement : valide — Si les aides aux entreprises ont creusé la dette, la préférence pour leur suppression découle de la priorité affirmée ; ce présupposé et le montant (F42 Invérifiable) ne sont pas établis et relèvent de l'appui. Conclusion inchangée (ne tient pas, appui faible)."
+decisions_contestations: []

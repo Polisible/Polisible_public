@@ -1,0 +1,8 @@
+agent: expert-gauche-radicale
+phase: 4
+corrections:
+  - vise: A5
+    action: corriger
+    enonce: "Les traités interdisent d'acheter la dette à l'État ou de lui prêter ; ils ne mentionnent ni la conservation ni la conversion de titres déjà achetés sur le marché secondaire. La proposition de 2020 en déduit que garder ces titres indéfiniment, à taux nul, ne serait ni un achat direct ni un crédit nouveau. Aucun arrêt cité ne juge cette conversion elle-même : l'arrêt C-62/14 porte sur l'achat sur le marché secondaire."
+incertitudes:
+  - "La correction de A5 précise la portée de F4 (achats, pas conversion en titres perpétuels) : aucune jurisprudence trouvée sur la conversion ou l'annulation."

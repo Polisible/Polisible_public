@@ -1,0 +1,55 @@
+agent: bibliothecaire
+phase: 6
+corrections:
+  - vise: F11
+    action: corriger
+    normalise: true
+    porteur:
+      personne: "Christine Lagarde"
+      fonction: "présidente de la Banque centrale européenne"
+      institution: BCE
+      date: "2026-09-12"
+      source: S4
+    questions: [Q41, Q44]
+  - vise: F12
+    action: corriger
+    normalise: true
+    porteur:
+      personne: "Christine Lagarde"
+      fonction: "présidente de la Banque centrale européenne"
+      institution: BCE
+      date: "2021-02-07"
+      source: S5
+    questions: [Q41]
+  - vise: F13
+    action: corriger
+    normalise: true
+    porteur:
+      personne: "Christine Lagarde"
+      fonction: "présidente de la Banque centrale européenne"
+      institution: BCE
+      date: "2021-02-07"
+      source: S5
+    questions: [Q41, Q44]
+  - vise: F14
+    action: corriger
+    normalise: true
+    porteur:
+      personne: "Christine Lagarde"
+      fonction: "présidente de la Banque centrale européenne"
+      institution: BCE
+      date: "2021-07-02"
+      source: S6
+    questions: [Q41]
+  - vise: F15
+    action: corriger
+    normalise: true
+    porteur:
+      personne: "Christine Lagarde"
+      fonction: "présidente de la Banque centrale européenne"
+      institution: BCE
+      date: "2021-07-02"
+      source: S6
+    questions: [Q41]
+incertitudes:
+  - "Porteurs F11 à F15 : personne, fonction, date et institution repris des métadonnées du lot (S4, S5, S6) ; les sources n'ont pas été rouvertes pour cette normalisation. La fonction « présidente de la Banque centrale européenne » reprend la formulation des sources (« présidente de la BCE »), développée selon § 3."

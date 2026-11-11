@@ -1,0 +1,6 @@
+agent: expert-extreme-droite
+phase: 4
+incertitudes:
+  - "Erreur factuelle dans mon propre argument A4 : le champ porte_par date la déclaration de Christine Lagarde du 11 septembre 2026 (date de l'article Euronews, S11) ; selon la vérification de F10, la conférence de presse a eu lieu le 10 septembre 2026. À lire comme le 10 septembre."
+  - "A4 attribue l'argument à la présidente de la BCE, qui n'est pas un parti de ma famille ; je n'ai trouvé au passage 2 aucun texte daté du RN, de l'UDR ou de Reconquête sur ce point précis, et je n'en fabrique pas."
+  - "Aucune nouvelle source ouverte pendant cette confrontation : pas d'objection ni de contre-argument déposé, faute d'élément vérifiable nouveau."

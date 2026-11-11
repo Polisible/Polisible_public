@@ -1,0 +1,701 @@
+questions:
+- id: Q1
+  enonce: Peut-on juridiquement annuler la dette publique détenue par la Banque de France ?
+  type: fait
+  fiche: annulation-dette
+  sujet: La dette
+  theme: Économie et finances publiques
+  proposee_par: fondateur
+  statut: validee
+tes_arguments:
+- id: A6
+  auteur: expert-extreme-droite
+  question: Q1
+  position: contre
+  enonce: 'Le président du Rassemblement national rejette l''annulation de la dette détenue par la Banque de France,
+    qu''il juge sans effet sur les finances publiques puisque l''État reçoit les intérêts sous forme de dividendes,
+    et propre à faire monter les taux demandés à la France. Cet argument porte sur l''utilité de la mesure, non
+    sur sa légalité : aucun texte de la famille consulté ne discute la question juridique.'
+  porte_par:
+  - qui: Jordan Bardella, président du Rassemblement national (23 août 2026)
+    source: S10
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F18
+    enonce: Le 23 août 2026, Jordan Bardella a écrit que la Banque de France est détenue par l'État et que les intérêts
+      que l'État lui verse lui sont reversés sous forme de dividendes.
+    type: fait
+    verdict: Vrai
+    explication: La publication de Jordan Bardella sur X du 23 août 2026 (S10) contient les deux affirmations. C'est
+      un fait sur la déclaration, qui n'établit pas son contenu (détention par l'État, versement de dividendes).
+    sources:
+    - source: S10
+      extrait: La Banque de France est détenue par l'État.
+      statut_source: conforme
+- id: A7
+  auteur: expert-extreme-droite
+  question: Q1
+  position: contre
+  enonce: 'Les textes européens fixent le cadre de la question : l''article 123 interdit le financement direct des
+    États par les banques centrales, et l''article 130 interdit tout ordre d''un gouvernement à la banque centrale.
+    Une annulation décidée par la France seule se heurterait à ces deux articles ; elle n''est envisageable que
+    par une décision du Conseil des gouverneurs de la BCE. Cette lecture est celle du gouverneur de la Banque de
+    France et des juristes cités par l''AFP, non d''un texte du RN, de l''UDR ou de Reconquête.'
+  porte_par:
+  - qui: Emmanuel Moulin, gouverneur de la Banque de France (11 septembre 2026), repris ici comme base du raisonnement
+      contre ; aucun texte d'un parti de la famille n'a été trouvé
+    source: S12
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F14
+    enonce: L'article 123 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des crédits aux
+      administrations publiques des États membres et d'acquérir directement leur dette.
+    type: fait
+    verdict: Vrai
+    explication: Le texte de l'article 123 du TFUE (S8, EUR-Lex) interdit les découverts et les crédits aux administrations
+      publiques des États membres ainsi que l'acquisition directe de leurs titres de dette.
+    sources:
+    - source: S8
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite.
+      statut_source: conforme
+  - id: F15
+    enonce: L'article 130 du TFUE interdit aux banques centrales de solliciter ou d'accepter des instructions des
+      gouvernements des États membres, et les gouvernements s'engagent à ne pas chercher à les influencer.
+    type: fait
+    verdict: Vrai
+    explication: 'Le texte de l''article 130 du TFUE (S9, EUR-Lex) contient les deux éléments : l''interdiction
+      de solliciter ou d''accepter des instructions, et l''engagement des gouvernements à ne pas chercher à influencer
+      les organes de décision.'
+    sources:
+    - source: S9
+      extrait: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque de leurs
+        organes de décision ne peuvent solliciter ni accepter des instructions
+      statut_source: conforme
+  - id: F16
+    enonce: Le 11 septembre 2026, le gouverneur de la Banque de France, Emmanuel Moulin, a déclaré sur RTL que l'annulation
+      proposée par Jean-Luc Mélenchon était illégale car contraire aux traités.
+    type: fait
+    verdict: Vrai
+    explication: Boursorama avec Media Services (S12, 11 septembre 2026) cite mot pour mot Emmanuel Moulin, gouverneur
+      de la Banque de France, « ce vendredi 11 septembre » sur RTL. C'est un fait sur la déclaration, pas sur la
+      légalité elle-même.
+    sources:
+    - source: S12
+      extrait: '"Elle est illégale parce qu''elle est contraire aux traités"'
+      statut_source: conforme
+  - id: F17
+    enonce: Selon des experts interrogés par l'AFP en août 2026, seul le Conseil des gouverneurs de la BCE pourrait
+      décider d'effacer la part de dette détenue par l'Eurosystème, et une telle décision est jugée très improbable.
+    type: fait
+    verdict: Vrai
+    explication: Le fact-check de l'AFP repris par De Facto (S11) contient l'extrait, suivi de « Une approbation
+      hautement improbable » ; les experts ont été interrogés les 17, 18 et 19 août 2026. La page est datée du 2
+      septembre 2026, pas du 25 août, ce qui ne change pas l'énoncé.
+    sources:
+    - source: S11
+      extrait: Des experts soulignent aussi que seul le Conseil des gouverneurs de la BCE pourrait décider d'effacer
+        cette part de la dette.
+      statut_source: conforme
+  - id: F19
+    enonce: La dette détenue par la Banque de France provient de rachats d'obligations sur le marché secondaire,
+      car les traités interdisent à la BCE de financer directement les États.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Même cas que F6 : seule source, Public Sénat (S5, niveau 4), cohérent avec l''article 123 (S8,
+      S16). L''énoncé vise toute « la dette détenue par la Banque de France », un périmètre plus large que les seuls
+      achats de politique monétaire (F27 est mieux formulé) ; c''est un doublon de F6, F13, F27 et F34.'
+    sources:
+    - source: S5
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières,
+        puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+arguments_des_autres:
+- id: A1
+  auteur: expert-centre
+  question: Q1
+  position: contre
+  enonce: L'annulation de titres publics détenus par la Banque de France serait un financement monétaire de l'État,
+    interdit par l'article 123 du TFUE ; la BCE l'a dit, et la Banque de France, membre de l'Eurosystème, ne peut
+    pas la décider seule. Elle supposerait donc de modifier les traités européens, pas seulement une loi française.
+  porte_par:
+  - qui: Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026, rapportée par Euronews)
+    source: S2
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F1
+    enonce: Dans une lettre de 2021, la présidente de la BCE a écrit que l'annulation de dettes publiques par la
+      BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire (article
+      123 du traité sur le fonctionnement de l'Union européenne, TFUE).
+    type: fait
+    verdict: Vrai
+    explication: La lettre de Christine Lagarde à Manon Aubry du 5 février 2021 (S1, site de la BCE) contient cette
+      phrase mot pour mot, avec le renvoi à l'article 123 du TFUE.
+    sources:
+    - source: S1
+      extrait: l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle enfreindrait
+        l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement de l’Union
+        européenne.
+      statut_source: conforme
+  - id: F2
+    enonce: Le 11 septembre 2026, Christine Lagarde a jugé la proposition de Jean-Luc Mélenchon « vraiment pas une
+      bonne idée » et, selon Euronews, a estimé qu'elle constituerait une « violation pure du traité ».
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Euronews (S3, 11 septembre 2026) rapporte les deux formules ; c''est un fait sur la déclaration,
+      pas sur son contenu. La date du 11 septembre est celle de l''article : la déclaration a été faite à la conférence
+      de presse de la BCE, dont la date n''est pas confirmée par la source, ce qui est une imprécision à corriger
+      (écrire « en septembre 2026 » ou dater la conférence de presse).'
+    sources:
+    - source: S3
+      extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+        européenne.
+      statut_source: conforme
+  - id: F3
+    enonce: Les titres de dette française visés par la proposition sont détenus par la Banque de France pour le
+      compte de la BCE (Eurosystème) et représentent environ 18 % de la dette publique, selon Public Sénat ; Jean-Luc
+      Mélenchon a employé ce chiffre en août 2026.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Public Sénat (S5, 25 août 2026) donne bien le chiffre de 18 %, mais l''attribue à une vidéo de
+      Jean-Luc Mélenchon datant de juin et devenue virale en août : « a employé ce chiffre en août 2026 » est inexact.
+      La part de 18 % n''est établie que par un article de presse (niveau 4) alors que la Banque de France ou l''Agence
+      France Trésor (niveau 1) publient ces données ; à découper et à sourcer au niveau 1.'
+    sources:
+    - source: S5
+      extrait: l’ancien député encourage l’annulation des 18 % de dette française détenus par la Banque de France
+        pour le compte de la Banque centrale européenne (BCE).
+      statut_source: conforme
+  - id: F4
+    enonce: Selon Euronews, Thierry Breton a écrit dans une tribune (Les Echos, août 2026) qu'une telle annulation
+      serait juridiquement impossible, la Banque de France faisant partie de l'Eurosystème et ne pouvant pas annuler
+      d'obligations de sa propre initiative.
+    type: fait
+    verdict: Vrai
+    explication: Euronews (S2, 27 août 2026) rapporte la tribune de Thierry Breton publiée « mardi » dans Les Echos,
+      soit en août 2026, avec ce contenu. L'énoncé rapporte une déclaration et l'attribue à Euronews, ce qui correspond
+      à la source.
+    sources:
+    - source: S2
+      extrait: soulignant qu'une telle décision serait juridiquement impossible, la Banque de France faisant partie
+        de l'Eurosystème régi par la Banque centrale européenne et ne pouvant annuler ou effacer des obligations
+        de sa propre initiative.
+      statut_source: conforme
+- id: A2
+  auteur: expert-centre
+  question: Q1
+  position: nuance
+  enonce: 'Le texte de l''article 123 ne vise pas expressément l''annulation : le juriste Thierry Bonneau le relève,
+    mais conclut que l''esprit de l''interdiction (empêcher qu''une banque centrale finance durablement un État)
+    ne permet pas de la juger conforme. Le point juridique n''est donc pas tranché par une décision de justice ;
+    la position de la BCE reste que c''est interdit.'
+  porte_par:
+  - qui: Thierry Bonneau, professeur de droit (Le Club des Juristes, 2021)
+    source: S4
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F5
+    enonce: Selon un professeur de droit financier (2021), l'article 123 du TFUE n'interdit pas expressément l'annulation
+      de la dette souveraine détenue par la BCE.
+    type: fait
+    verdict: Vrai
+    explication: Thierry Bonneau écrit le 11 février 2021 sur le site du Club des juristes (S4) que l'article 123
+      « n'interdit pas expressément l'annulation de la dette souveraine détenue par la BCE ». C'est un fait sur
+      une analyse juridique, pas sur l'état du droit ; la qualité de « professeur de droit financier » n'est pas
+      mentionnée dans la note de contrôle.
+    sources:
+    - source: S4
+      extrait: En revanche, il n’interdit pas expressément l’annulation de la dette souvera
+      statut_source: conforme
+  - id: F1
+    enonce: Dans une lettre de 2021, la présidente de la BCE a écrit que l'annulation de dettes publiques par la
+      BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire (article
+      123 du traité sur le fonctionnement de l'Union européenne, TFUE).
+    type: fait
+    verdict: Vrai
+    explication: La lettre de Christine Lagarde à Manon Aubry du 5 février 2021 (S1, site de la BCE) contient cette
+      phrase mot pour mot, avec le renvoi à l'article 123 du TFUE.
+    sources:
+    - source: S1
+      extrait: l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle enfreindrait
+        l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement de l’Union
+        européenne.
+      statut_source: conforme
+- id: A3
+  auteur: expert-droite
+  question: Q1
+  position: contre
+  enonce: L'article 123 du TFUE vise à empêcher le financement monétaire des États. Annuler des titres publics que
+    l'Eurosystème a rachetés reviendrait à faire disparaître la dette de l'État sans contrepartie, ce que la présidente
+    de la BCE, Christine Lagarde, juge contraire au traité.
+  porte_par:
+  - qui: Christine Lagarde, présidente de la BCE (septembre 2026)
+    source: S3
+  - qui: Fondation IFRAP (note 2026)
+    source: S6
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F6
+    enonce: Les titres publics français détenus par l'Eurosystème ont été acquis sur le marché secondaire, auprès
+      d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    verdict: Plutôt vrai
+    explication: Public Sénat (S5, niveau 4) l'affirme, et c'est cohérent avec l'article 123 du TFUE (S8, S16),
+      qui interdit l'acquisition directe, ainsi qu'avec le communiqué de la CJUE sur le programme PSPP (S14). Mais
+      la pratique d'achat elle-même n'est établie ici que par la presse, alors que la BCE ou la Banque de France
+      la décrivent ; à sourcer au niveau 1.
+    sources:
+    - source: S5
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+        puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+  - id: F7
+    enonce: L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe de leurs titres
+      de dette par la BCE et les banques centrales nationales ; il n'interdit pas, dans son texte, les achats sur
+      le marché secondaire.
+    type: fait
+    verdict: Vrai
+    explication: Le texte de l'article 123 (S8, S16) interdit les crédits et « l'acquisition directe » ; il ne vise
+      pas le marché secondaire, ce que relève aussi Thierry Bonneau (S4). La jurisprudence de la CJUE (Weiss, S14)
+      encadre toutefois ces achats, d'où l'importance de garder « dans son texte ».
+    sources:
+    - source: S4
+      extrait: l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe,
+        auprès d’eux, des instruments de leur dette.
+      statut_source: conforme
+  - id: F8
+    enonce: En septembre 2026, la présidente de la BCE, Christine Lagarde, a estimé que l'annulation proposée constituerait
+      une violation du traité.
+    type: fait
+    verdict: Vrai
+    explication: Euronews (S3, 11 septembre 2026) rapporte que Christine Lagarde a estimé que cela constituerait
+      une « violation pure du traité ». C'est un fait sur la déclaration, qui date bien de septembre 2026.
+    sources:
+    - source: S3
+      extrait: La présidente de la BCE estime même que cela constituerait une "violation pure du traité" sur l'Union
+        européenne.
+      statut_source: conforme
+  - id: F9
+    enonce: En 2021, Christine Lagarde a qualifié l'annulation de dettes publiques détenues par la BCE de violation
+      du traité européen qui interdit le financement monétaire des États.
+    type: fait
+    verdict: Vrai
+    explication: 'Public Sénat (S5) rapporte en 2026 cette qualification faite en 2021. La lettre de Christine Lagarde
+      du 5 février 2021 (S1, niveau 1) confirme la position sur le fond : l''annulation « enfreindrait l''interdiction
+      du financement monétaire ».'
+    sources:
+    - source: S5
+      extrait: une violation du traité européen qui interdit strictement le financement monétaire des Etats
+      statut_source: conforme
+- id: A4
+  auteur: expert-droite
+  question: Q1
+  position: contre
+  enonce: 'La décision n''appartient pas à la France : les titres ont été acquis dans le cadre de programmes de
+    l''Eurosystème, la Banque de France n''est pas sous l''autorité du gouvernement, et aucune banque nationale
+    ne peut effacer ces titres seule. Une annulation supposerait donc une décision européenne, c''est-à-dire un
+    changement du cadre des traités.'
+  porte_par:
+  - qui: Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026)
+    source: S2
+  - qui: Fondation IFRAP (note 2026)
+    source: S6
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F10
+    enonce: La Banque de France fait partie de l'Eurosystème et n'agit pas sur instruction du gouvernement.
+    type: fait
+    verdict: Plutôt vrai
+    explication: La seule source citée est la Fondation IFRAP (S6, niveau 3), qui ne suffit pas seule. L'interdiction
+      faite aux banques centrales nationales de recevoir des instructions des gouvernements est établie par l'article
+      130 du TFUE (S9) et l'article 7 des statuts du SEBC (S15) ; il faut joindre ces sources, et une source officielle
+      sur l'appartenance de la Banque de France à l'Eurosystème.
+    sources:
+    - source: S6
+      extrait: La Banque de France participe à l'Eurosystème mais n'agit pas sur instruction du gouvernement.
+      statut_source: conforme
+  - id: F11
+    enonce: En août 2026, Thierry Breton a soutenu dans une tribune que la Banque de France ne peut pas annuler
+      d'elle-même des obligations, en tant que membre de l'Eurosystème.
+    type: fait
+    verdict: Plutôt vrai
+    explication: Le contenu et le mois (août 2026) sont établis seulement par le compte rendu d'Euronews (S2, 27
+      août 2026), pas par la tribune elle-même dans Les Echos. Il faut écrire « selon Euronews » (comme en F4),
+      ou citer la tribune d'origine.
+    sources:
+    - source: S2
+      extrait: ne pouvant annuler ou effacer des obligations de sa propre initiative.
+      statut_source: conforme
+- id: A5
+  auteur: expert-ecologistes
+  question: Q1
+  position: nuance
+  enonce: L'article 123 du TFUE vise le crédit direct aux États et l'achat direct de leurs titres ; les titres détenus
+    par l'Eurosystème ont été rachetés sur le marché secondaire, ce que le traité n'interdit pas. Pour cette lecture,
+    le texte ne ferme donc pas expressément la porte à l'annulation ou au gel de ces titres, et le débat devient
+    d'abord politique.
+  porte_par:
+  - qui: Jérôme Gleizes, économiste, chronique dans Politis (14 septembre 2026), à titre personnel
+    source: S7
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F12
+    enonce: L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe, auprès d'eux,
+      des instruments de leur dette ; il ne mentionne pas expressément l'annulation d'une dette détenue par une
+      banque centrale.
+    type: fait
+    verdict: Vrai
+    explication: L'extrait de Thierry Bonneau (S4) est confirmé par le texte de l'article 123 (S16, niveau 1), qui
+      ne contient aucune mention de l'annulation.
+    sources:
+    - source: S4
+      extrait: l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe,
+        auprès d’eux, des instruments de leur dette.
+      statut_source: conforme
+  - id: F13
+    enonce: Les titres publics français détenus par l'Eurosystème proviennent d'achats effectués sur le marché secondaire,
+      auprès d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Même cas que F6 : affirmé par Public Sénat (S5, niveau 4), cohérent avec l''article 123 (S8, S16)
+      et le communiqué Weiss (S14), mais il faudrait une source de niveau 1 sur la pratique d''achat. F13 reprend
+      F6, F19, F27 et F34 : c''est un doublon.'
+    sources:
+    - source: S5
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières
+      statut_source: conforme
+- id: A8
+  auteur: expert-extreme-gauche
+  question: Q1
+  position: nuance
+  enonce: 'Le NPA ne présente pas l''annulation comme un geste que le droit actuel permettrait à la France seule
+    : il l''inscrit dans une rupture avec les traités européens, donc la question n''est pas pour lui celle de la
+    conformité aux traités. Ce cadre ne contredit pas la lecture de la BCE selon laquelle l''annulation est aujourd''hui
+    contraire à l''article 123.'
+  porte_par:
+  - qui: NPA (Nouveau Parti anticapitaliste), programme de la campagne Poutou 2022
+    source: S13
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F20
+    enonce: La brochure programme de la campagne Poutou 2022 du NPA demande l'arrêt immédiat du paiement de la dette
+      publique et de ses intérêts.
+    type: fait
+    verdict: Vrai
+    explication: La brochure programme de Philippe Poutou pour 2022 (S13, site du NPA) contient l'extrait, dans
+      la partie « Annuler la dette », qui porte sur la dette publique. C'est un fait sur un texte de campagne ;
+      la date du 24 février 2022 annoncée pour la source n'est pas confirmée, mais l'énoncé ne la reprend pas.
+    sources:
+    - source: S13
+      extrait: Nous voulons l’arrêt immédiat du paiement de la dette et de ses intérêts,
+      statut_source: conforme
+  - id: F21
+    enonce: La même brochure du NPA demande une rupture avec les traités européens.
+    type: fait
+    verdict: Vrai
+    explication: La même brochure (S13) contient la formule « Rupture avec les traités européens… ».
+    sources:
+    - source: S13
+      extrait: Rupture avec les traités européens antidémocratiques et favorisant la concurrence libre et non faussée
+      statut_source: conforme
+  - id: F22
+    enonce: Selon la BCE (courrier de février 2021), l'annulation de dettes publiques par la BCE n'est pas compatible
+      avec l'article 123 du traité sur le fonctionnement de l'Union européenne.
+    type: fait
+    verdict: Vrai
+    explication: La lettre de février 2021 signée par la présidente de la BCE (S1, niveau 1) contient cette position
+      avec le renvoi à l'article 123.
+    sources:
+    - source: S1
+      extrait: l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle enfreindrait
+        l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement de l’Union
+        européenne.
+      statut_source: conforme
+  - id: F23
+    enonce: Les traités et les statuts du SEBC interdisent à une banque centrale nationale de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    verdict: Vrai
+    explication: L'article 7 des statuts du SEBC (S15) vise expressément les banques centrales nationales et les
+      gouvernements des États membres ; l'article 130 du TFUE (S9) dit la même chose dans le traité.
+    sources:
+    - source: S15
+      extrait: ni la BCE, ni une banque centrale nationale, ni un membre quelconque de leurs organes de décision
+        ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes de l’Union, des
+        gouvernements des États membres ou de tout autre organisme.
+      statut_source: conforme
+- id: A9
+  auteur: expert-gauche-radicale
+  question: Q1
+  position: pour
+  enonce: 'L''annulation de titres déjà détenus par une banque centrale n''est ni un crédit à l''État ni un achat
+    direct de ses titres : elle ne relève donc pas de l''interdiction du financement monétaire de l''article 123.
+    Les titres ayant été achetés sur le marché secondaire, et les statuts de la BCE prévoyant déjà une indemnisation
+    des banques centrales nationales pour certaines pertes, l''opération serait possible dans le cadre des traités
+    actuels, par décision de l''Eurosystème.'
+  porte_par:
+  - qui: Jean-Luc Mélenchon (La France insoumise)
+    source: S17
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F25
+    enonce: L'article 123 du traité sur le fonctionnement de l'Union européenne interdit à la BCE et aux banques
+      centrales nationales d'accorder des crédits aux États et d'acquérir directement auprès d'eux leurs titres
+      de dette ; il ne mentionne pas l'annulation de titres déjà détenus.
+    type: fait
+    verdict: Vrai
+    explication: Le texte de l'article 123 (S16, JO C 202 du 7 juin 2016) contient les deux interdictions et ne
+      mentionne pas l'annulation de titres déjà détenus.
+    sources:
+    - source: S16
+      extrait: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales nationales,
+        des instruments de leur dette est également interdite.
+      statut_source: conforme
+  - id: F26
+    enonce: Selon les statuts du SEBC et de la BCE (article 32.4), le conseil des gouverneurs de la BCE peut, dans
+      des circonstances exceptionnelles, indemniser les banques centrales nationales pour des pertes particulières
+      liées aux opérations de politique monétaire menées pour le compte du SEBC.
+    type: fait
+    verdict: Vrai
+    explication: L'article 32.4 des statuts du SEBC et de la BCE (S15) prévoit cette faculté d'indemniser, décidée
+      par le conseil des gouverneurs dans des circonstances exceptionnelles.
+    sources:
+    - source: S15
+      extrait: Le conseil des gouverneurs peut décider d'indemniser les banques centrales nationales pour les frais
+        encourus à l'occasion de l'émission de billets ou, dans des circonstances exceptionnelles, pour des pertes
+        particulières afférentes aux opérations de politique monétaire réalisées pour le compte du SEBC.
+      statut_source: conforme
+  - id: F27
+    enonce: Les titres de dette française détenus par la Banque de France au titre de la politique monétaire ont
+      été achetés sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Même cas que F6 : seule source, Public Sénat (S5, niveau 4), cohérent avec l''article 123 (S8,
+      S16) et le communiqué Weiss (S14) ; il faudrait une source de niveau 1 sur la pratique d''achat. Parmi les
+      doublons F6, F13, F19 et F34, c''est la formulation au périmètre le plus juste.'
+    sources:
+    - source: S5
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c'est-à-dire auprès d'institutions financières,
+        puisque les traités de l'Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+- id: A10
+  auteur: expert-gauche-radicale
+  question: Q1
+  position: nuance
+  enonce: 'Le levier juridique n''est pas une décision française isolée : c''est la BCE, de façon collégiale, qui
+    peut geler ou transformer ces titres, et la France doit donc obtenir cette décision de ses partenaires. La position
+    de La France insoumise est que l''État français doit porter cette demande au niveau européen, et non annuler
+    seul.'
+  porte_par:
+  - qui: Jean-Luc Mélenchon (La France insoumise)
+    source: S5
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F28
+    enonce: Fin août 2026, Jean-Luc Mélenchon a déclaré que la BCE peut et doit mettre au congélateur les dettes
+      des États, en commençant par celles de la période Covid.
+    type: fait
+    verdict: Vrai
+    explication: Public Sénat (S5, 25 août 2026) cite ces mots dans le discours de clôture des universités d'été
+      de LFI, le dimanche précédant l'article, donc fin août 2026. C'est un fait sur la déclaration.
+    sources:
+    - source: S5
+      extrait: « Oui, la Banque centrale européenne peut et doit mettre au congélateur les dettes des États, en
+        commençant par celles de la période Covid. »
+      statut_source: conforme
+  - id: F29
+    enonce: En 2020, une proposition de résolution de La France insoumise invitait le gouvernement à peser au niveau
+      européen pour faire évoluer les règles sur les dettes publiques détenues par la BCE.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Public Sénat (S5) mentionne la proposition de résolution, mais ne date pas explicitement son dépôt
+      et ne l''attribue pas nommément à LFI (contexte : « sa famille exigeait en 2020 »). La date et l''auteur ne
+      sont donc pas confirmés ; le site de l''Assemblée nationale (niveau 1) permettrait de les établir.'
+    sources:
+    - source: S5
+      extrait: Une proposition de résolution avait été déposée pour inviter le gouvernement à peser au niveau européen
+        pour faire évoluer les règles.
+      statut_source: conforme
+- id: A11
+  auteur: expert-sociaux-democrates
+  question: Q1
+  position: pour
+  enonce: L'article 123 vise les crédits aux États et l'achat direct de leurs titres ; les titres de la Banque de
+    France ont été achetés sur le marché secondaire et le texte ne mentionne pas l'annulation. Une banque centrale
+    peut donc, sur le plan comptable, renoncer à réclamer le remboursement de ses propres titres, sans toucher à
+    la part détenue par les investisseurs privés.
+  porte_par:
+  - qui: Aurore Lalucq, Raphaël Glucksmann et eurodéputés S&D (tribune de septembre 2020)
+    source: S19
+  - qui: Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)
+    source: S20
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F30
+    enonce: L'article 123 §1 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre crédit aux administrations centrales, et interdit aussi l'acquisition directe de leurs titres
+      de dette auprès d'elles.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE (S16) contient les deux interdictions.
+    sources:
+    - source: S16
+      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
+        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
+        organes ou organismes de l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F33
+    enonce: Une tribune de septembre 2020, signée notamment par les eurodéputés S&D Aurore Lalucq et Raphaël Glucksmann,
+      affirme que l'annulation de la dette détenue par la BCE est possible en vertu des traités européens.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'La tribune du JDD (S19) contient l''extrait, et Aurore Lalucq et Raphaël Glucksmann en sont signataires.
+      La page n''affiche pas de date : rouverte pour ce seul point, elle évoque au futur « la fin du mois de septembre
+      2020 », ce qui la situe en 2020 avant cette date, mais le mois de septembre n''est pas confirmé.'
+    sources:
+    - source: S19
+      extrait: Cette solution est non seulement possible en vertu des traités européens mais, surtout, c’est la
+        seule qui nous permette de sortir de cette crise sans risquer d’en déclencher une nouvelle.
+      statut_source: conforme
+  - id: F34
+    enonce: Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire, auprès
+      d'institutions financières, et non directement auprès de l'État.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Même cas que F6 : seule source, Public Sénat (S5, niveau 4), cohérent avec l''article 123 (S8,
+      S16) et le communiqué Weiss (S14) ; il faudrait une source de niveau 1. C''est un doublon de F6, F13, F19
+      et F27.'
+    sources:
+    - source: S5
+      extrait: Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières,
+        puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États.
+      statut_source: conforme
+  - id: F35
+    enonce: Selon Yahoo Actualités, Olivier Faure a déclaré à Libération, fin août 2026, qu'une banque centrale
+      peut ne plus réclamer le remboursement des titres qu'elle détient, hors part des investisseurs privés.
+    type: fait
+    verdict: Plutôt vrai
+    explication: 'Yahoo Actualités (S20) cite ces mots d''Olivier Faure à Libération, mot pour mot. La page n''a
+      pas de date de publication et situe l''entretien un « jeudi 27 avril », probablement une coquille : la date
+      « fin août 2026 » n''est pas confirmée par la source.'
+    sources:
+    - source: S20
+      extrait: « Une banque centrale peut ne plus réclamer le remboursement des titres qu'elle détient. On ne parle
+        pas de la part détenue par les investisseurs privés, il est donc inutile de pousser des hauts cris »
+      statut_source: conforme
+- id: A12
+  auteur: expert-sociaux-democrates
+  question: Q1
+  position: nuance
+  enonce: 'La réponse ne dépend pas de la France seule : la BCE lit l''article 123 comme interdisant l''annulation,
+    et la Banque de France agit au sein de l''Eurosystème. Une annulation ne serait donc pas acquise en droit ;
+    elle ne rapporterait pas non plus de trésorerie à l''État et appelle une discussion avec les partenaires européens.'
+  porte_par:
+  - qui: Olivier Faure, premier secrétaire du PS (entretien à Libération, août 2026, rapporté par la presse)
+    source: S20
+  repond_a: null
+  statut: ouvert
+  affirmations:
+  - id: F30
+    enonce: L'article 123 §1 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre crédit aux administrations centrales, et interdit aussi l'acquisition directe de leurs titres
+      de dette auprès d'elles.
+    type: fait
+    verdict: Vrai
+    explication: L'article 123, paragraphe 1, du TFUE (S16) contient les deux interdictions.
+    sources:
+    - source: S16
+      extrait: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres, ci-après
+        dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit aux institutions,
+        organes ou organismes de l'Union, aux administrations centrales
+      statut_source: conforme
+  - id: F31
+    enonce: En juin 2020, Fabio Panetta, membre du directoire de la BCE, a déclaré qu'acheter des obligations souveraines
+      et décider de ne pas en demander le remboursement serait du financement monétaire.
+    type: fait
+    verdict: Vrai
+    explication: Sur le site de la BCE (S18), l'entretien est publié le 16 juin 2020 et accordé par « Fabio Panetta,
+      membre du directoire de la BCE » (j'ai rouvert la page pour confirmer ce seul point) ; la phrase y figure
+      mot pour mot.
+    sources:
+    - source: S18
+      extrait: Si nous achetions des obligations souveraines et décidions de ne pas demander leur remboursement,
+        ce serait du financement monétaire.
+      statut_source: conforme
+  - id: F32
+    enonce: Dans une lettre de 2021, la BCE a écrit que l'annulation de dettes publiques par la BCE n'est pas compatible
+      avec les traités, car elle enfreindrait l'interdiction du financement monétaire de l'article 123.
+    type: fait
+    verdict: Vrai
+    explication: La lettre du 5 février 2021, signée par la présidente de la BCE sur papier de la BCE (S1), contient
+      cette phrase mot pour mot.
+    sources:
+    - source: S1
+      extrait: l'annulation de dettes publiques par la BCE n'est pas compatible avec les traités, car elle enfreindrait
+        l'interdiction du financement monétaire énoncée à l'article 123 du traité sur le fonctionnement de l'Union
+        européenne.
+      statut_source: conforme
+  - id: F36
+    enonce: Selon Yahoo Actualités, Olivier Faure a ajouté que l'opération est une réduction comptable du déficit
+      qui ne procure pas l'équivalent en trésorerie.
+    type: fait
+    verdict: Vrai
+    explication: Yahoo Actualités (S20) cite ces mots d'Olivier Faure mot pour mot, et l'énoncé ne contient pas
+      de date. C'est un fait sur la déclaration, pas sur ses effets comptables.
+    sources:
+    - source: S20
+      extrait: « C'est une réduction comptable du déficit, mais qui ne donne pas - hélas - l'équivalent en cash
+        »
+      statut_source: conforme
+objections_deja_posees: []
+sources:
+  S1: Lettre de la présidente de la BCE à une eurodéputée sur l'annulation de dettes publiques (courrier ecb.dr.cor20210205)
+    (Banque centrale européenne (Christine Lagarde), 2021-02-05, niveau 1) — conforme
+  S2: La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat (Euronews
+    (Eleonora Vasques), 2026-08-27, niveau 4) — conforme
+  S3: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française (Euronews, 2026-09-11,
+    niveau 4) — conforme
+  S4: '« Milliards magiques » : le droit permet-il une annulation de la dette COVID ? (Thierry Bonneau, professeur
+    de droit (Université Paris-Panthéon-Assas), Le Club des Juristes, 2021-02-11, niveau 2) — conforme'
+  S5: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses
+    difficultés (Public Sénat (Guillaume Jacquot), 2026-08-25, niveau 4) — conforme'
+  S6: '"Annuler" la dette : pourquoi c''est impossible et dangereux (Fondation IFRAP, 2026-09-01, niveau 3) — conforme'
+  S7: La dette, un sujet politique (Jérôme Gleizes, chronique « L'économie à contre-courant », Politis, 2026-09-14,
+    niveau 3) — conforme
+  S8: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 123 (Union européenne (Journal
+    officiel C 326 du 26.10.2012), 2012-10-26, niveau 1) — conforme
+  S9: Traité sur le fonctionnement de l'Union européenne (version consolidée), article 130 (Union européenne (Journal
+    officiel C 326 du 26.10.2012), 2012-10-26, niveau 1) — conforme
+  S10: 'Jordan Bardella sur X : « Matthieu Pigasse raconte n''importe quoi. » (Jordan Bardella, président du Rassemblement
+    national, 2026-08-23, niveau 3) — conforme'
+  S11: Annuler une partie de la dette de la France ? La proposition de LFI face aux obstacles juridiques et politiques
+    (De Facto (observatoire de l'information, fact-check relayant l'AFP), 2026-09-02, niveau 4) — conforme
+  S12: Jean-Luc Mélenchon propose d'annuler la dette, ce serait « illégal, dangereux et inutile », met en garde
+    la Banque de France (Boursorama avec Media Services (AFP), 2026-09-11, niveau 4) — conforme
+  S13: Brochure programme de la campagne Poutou 2022 (NPA (Nouveau Parti anticapitaliste), 2022-02-24, niveau 3)
+    — conforme
+  S14: 'Communiqué de presse n° 192/18 : arrêt dans l''affaire C-493/17, Weiss e.a. (Cour de justice de l''Union
+    européenne, 2018-12-11, niveau 1) — conforme'
+  S15: Protocole n° 4 sur les statuts du SEBC et de la BCE (version consolidée) (Union européenne (EUR-Lex), non
+    trouvée, niveau 1) — conforme
+  S16: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée) (Union européenne (Journal
+    officiel C 202), 2016-06-07, niveau 1) — conforme
+  S17: 'Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe
+    (Jean-Luc Mélenchon, 2022-06-01, niveau 3) — conforme'
+  S18: Entretien avec Le Monde (Fabio Panetta, membre du directoire de la BCE) (Banque centrale européenne, 2020-06-16,
+    niveau 1) — conforme
+  S19: Pourquoi il faut annuler la dette détenue par la Banque centrale européenne (tribune) (Aurore Lalucq, Raphaël
+    Glucksmann et autres eurodéputés (Le JDD), 2020-09, niveau 3) — conforme
+  S20: L'annulation de la dette voulue par LFI creuse les divergences entre PS et Place publique (Yahoo Actualités
+    (reprise d'un entretien d'Olivier Faure à Libération), 2026-08-28, niveau 4) — conforme

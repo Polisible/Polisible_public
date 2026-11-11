@@ -1,0 +1,21 @@
+- id: O1
+  vise: F41
+  auteur: expert-gauche-radicale
+  nature: fait
+  contenu: L'énoncé et l'argument A13 supposent que le résultat de la Banque de France baisse d'autant que les intérêts
+    qu'elle ne perçoit plus, donc que ses versements à l'État baissent d'autant.
+  sources: []
+  ce_que_la_source_ne_dit_pas: 'La source (S29, niveau 4) ne mentionne pas le partage du revenu monétaire dans l''Eurosystème,
+    établi par le Bulletin de la Banque de France n° 260/6 (F21, S9) : une partie du revenu des titres de politique
+    monétaire est mise en commun puis redistribuée entre banques centrales nationales, ce qui interdit de tenir
+    pour acquis que le résultat de la Banque de France diminue de la totalité des intérêts.'
+  passage: 2
+  statut: resolue
+  resolution: 'Objection non fondée sur son point central : S9 (Bulletin de la Banque de France n° 260/6, 2025)
+    indique que, si les revenus et risques des titres supranationaux, d''entreprises et obligations sécurisées achetés
+    après 2014 sont partagés, « ils ne le sont pas pour les titres d''État acquis depuis 2015 » ; seule une part
+    forfaitaire, rémunérée au taux de référence, est mutualisée lorsque ces actifs sont financés par des passifs
+    partagés. Le partage du revenu monétaire ne permet donc pas d''écarter l''idée que les intérêts sur les titres
+    d''État détenus restent pour l''essentiel à la Banque de France, mais il nuance un effet « à due concurrence
+    » ; F41 n''affirme d''ailleurs pas cet effet intégral. Le verdict de F41 (Pas d''estimation fiable) est inchangé,
+    faute de source conforme isolant la part de ces intérêts dans le résultat.'

@@ -1,0 +1,88 @@
+agent: expert-droite
+phase: 2
+sources:
+  - ref: s1
+    titre: "Dette publique : la piste d’une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+  - ref: s2
+    titre: "Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française"
+    auteur: "Euronews (Olivier Tolachides)"
+    date: "2026-09-11"
+    adresse: "https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+    niveau: 4
+  - ref: s3
+    titre: "« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?"
+    auteur: "Thierry Bonneau, Le Club des Juristes"
+    date: "2021-02-11"
+    adresse: "https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/"
+    niveau: 2
+  - ref: s4
+    titre: "\"Annuler\" la dette : pourquoi c'est impossible et dangereux"
+    auteur: "Fondation IFRAP"
+    date: "2026-09-01"
+    adresse: "https://www.ifrap.org/budget-et-fiscalite/annuler-la-dette-pourquoi-cest-impossible-et-dangereux"
+    niveau: 3
+  - ref: s5
+    titre: "La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat"
+    auteur: "Euronews (Eleonora Vasques)"
+    date: "2026-08-27"
+    adresse: "https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Les titres publics français détenus par l'Eurosystème ont été acquis sur le marché secondaire, auprès d'institutions financières, et non directement auprès de l'État."
+    type: fait
+    sources:
+      - {source: s1, extrait: "Ces opérations ont eu lieu sur le marché secondaire, c’est-à-dire auprès d’institutions financières, puisque les traités de l’Union européenne interdisent à la BCE de financer directement les États."}
+  - ref: f2
+    enonce: "L'article 123 du TFUE interdit les crédits consentis aux États et l'acquisition directe de leurs titres de dette par la BCE et les banques centrales nationales ; il n'interdit pas, dans son texte, les achats sur le marché secondaire."
+    type: fait
+    sources:
+      - {source: s3, extrait: "l’article 123 du TFUE interdit seulement les crédits consentis aux États et l’acquisition directe, auprès d’eux, des instruments de leur dette."}
+  - ref: f3
+    enonce: "En septembre 2026, la présidente de la BCE, Christine Lagarde, a estimé que l'annulation proposée constituerait une violation du traité."
+    type: fait
+    sources:
+      - {source: s2, extrait: "La présidente de la BCE estime même que cela constituerait une \"violation pure du traité\" sur l'Union européenne."}
+  - ref: f4
+    enonce: "En 2021, Christine Lagarde a qualifié l'annulation de dettes publiques détenues par la BCE de violation du traité européen qui interdit le financement monétaire des États."
+    type: fait
+    sources:
+      - {source: s1, extrait: "une violation du traité européen qui interdit strictement le financement monétaire des Etats"}
+  - ref: f5
+    enonce: "La Banque de France fait partie de l'Eurosystème et n'agit pas sur instruction du gouvernement."
+    type: fait
+    sources:
+      - {source: s4, extrait: "La Banque de France participe à l'Eurosystème mais n'agit pas sur instruction du gouvernement."}
+  - ref: f6
+    enonce: "En août 2026, Thierry Breton a soutenu dans une tribune que la Banque de France ne peut pas annuler d'elle-même des obligations, en tant que membre de l'Eurosystème."
+    type: fait
+    sources:
+      - {source: s5, extrait: "ne pouvant annuler ou effacer des obligations de sa propre initiative."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "L'article 123 du TFUE vise à empêcher le financement monétaire des États. Annuler des titres publics que l'Eurosystème a rachetés reviendrait à faire disparaître la dette de l'État sans contrepartie, ce que la présidente de la BCE, Christine Lagarde, juge contraire au traité."
+    porte_par:
+      - {qui: "Christine Lagarde, présidente de la BCE (septembre 2026)", source: s2}
+      - {qui: "Fondation IFRAP (note 2026)", source: s4}
+    affirmations: [f1, f2, f3, f4]
+  - ref: a2
+    question: Q1
+    position: contre
+    enonce: "La décision n'appartient pas à la France : les titres ont été acquis dans le cadre de programmes de l'Eurosystème, la Banque de France n'est pas sous l'autorité du gouvernement, et aucune banque nationale ne peut effacer ces titres seule. Une annulation supposerait donc une décision européenne, c'est-à-dire un changement du cadre des traités."
+    porte_par:
+      - {qui: "Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026)", source: s5}
+      - {qui: "Fondation IFRAP (note 2026)", source: s4}
+    affirmations: [f5, f6]
+incertitudes:
+  - "Aucune prise de position publique de Les Républicains (parti ou dirigeants) sur cette proposition précise n'a été trouvée ; les porte_par sont des institutions, un ancien commissaire européen et un groupe de réflexion (IFRAP), pas un texte du parti LR."
+  - "La date exacte de la note de l'IFRAP n'apparaît pas dans les métadonnées de la page : « 2026-09-01 » est une estimation (la note évoque l'été 2026), à corriger par le vérificateur."
+  - "Le texte de l'article 123 TFUE n'a pas pu être relu directement (page EUR-Lex ouverte en anglais, passages non retrouvés) : f2 s'appuie sur un commentaire juridique de 2021."
+  - "Le texte de l'article 123 n'interdit pas expressément l'annulation de titres déjà détenus ; la conclusion d'illégalité repose sur l'objectif du traité et l'interprétation de la BCE, non sur une décision de la CJUE : aucun arrêt trouvé sur ce point précis."
+  - "L'argument de la nécessité d'une modification des traités (a2) n'est pas sourcé par un texte juridique précis (article, règle d'unanimité) ; à vérifier."
+  - "Le gouverneur de la Banque de France a qualifié l'idée d'« illégale, dangereuse et inutile » (cité par l'IFRAP), mais je n'ai pas ouvert de source primaire pour cette déclaration."

@@ -1,0 +1,27 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S1
+    statut: conforme
+    note: "Bon document : lettre de Christine Lagarde à Manon Aubry, datée du 5 février 2021 (L/CL/21/22). F1, F22, F32 : extrait présent mot pour mot, même sens (incompatibilité avec les traités au titre de l'article 123 TFUE)."
+  - id: S2
+    statut: conforme
+    note: "Bon article Euronews du 27 août 2026. F4 : extrait présent, Euronews rapporte la tribune de Thierry Breton publiée « mardi » dans Les Echos, même sens. F11 : extrait présent, même sens, mais le fait n'est établi que par le compte rendu d'Euronews, pas par la tribune elle-même."
+  - id: S3
+    statut: conforme
+    note: "Bon article Euronews du 11 septembre 2026. F2 : « vraiment pas une bonne idée » et « violation pure du traité » présents, même sens ; la date du 11 septembre est celle de l'article, la déclaration ayant eu lieu à la conférence de presse de la BCE. F8 : extrait présent, même sens."
+  - id: S4
+    statut: conforme
+    note: "Bon document : Thierry Bonneau, Club des Juristes, 11 février 2021. F5 : extrait présent (« il n'interdit pas expressément l'annulation de la dette souveraine détenue par la BCE »), même sens. F7 et F12 : extrait présent ; la partie de F7 sur le marché secondaire est une déduction que l'auteur tire du texte et de la jurisprudence de la CJUE, tout en soutenant plus loin que l'article 123 a une portée moins limitée que celle admise par la jurisprudence."
+  - id: S5
+    statut: conforme
+    note: "Bon article Public Sénat du 25 août 2026. F6, F13, F19, F27, F34 : extrait présent, même sens. F3 : les 18 % figurent, mais attribués à une vidéo de juin devenue virale en août, et non à un propos d'août. F9 : extrait présent, c'est le compte rendu par Public Sénat d'une déclaration de Lagarde en 2021. F28 : citation présente (discours du dimanche de clôture des universités d'été de LFI). F29 : extrait présent, mais la source ne date pas explicitement le dépôt de la résolution ni ne l'attribue nommément à LFI (contexte : « sa famille exigeait en 2020 »)."
+  - id: S6
+    statut: conforme
+    note: "Bon titre et auteur (Fondation IFRAP) ; date du 1er septembre 2026 non vérifiable sur la page, qui cite un texte du 2 septembre 2026, donc publiée au plus tôt ce jour-là. F10 : extrait présent mot pour mot, même sens ; source de niveau 3, qui ne suffit pas seule à établir un fait."
+  - id: S7
+    statut: conforme
+    note: "Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026. Aucune affirmation à contrôler dans ce lot."
+affirmations: []
+objections: []

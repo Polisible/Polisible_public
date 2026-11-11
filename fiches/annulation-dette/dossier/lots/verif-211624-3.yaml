@@ -1,0 +1,116 @@
+sources_a_verifier:
+- source:
+    id: S29
+    titre: 'Annuler la dette détenue par la BCE : mécanismes, ordres de grandeur'
+    auteur: dettedelafrance.fr (analyse assistée par IA, selon la page)
+    date: '2026-08-24'
+    adresse: https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-ce-que-dit-l-economie
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F41
+    enonce: Les intérêts que l'État paie à la Banque de France sur les titres qu'elle détient contribuent à son
+      résultat, dont une part revient à l'État (dividende et impôt).
+    type: estimation
+    declaration: false
+    extrait_annonce: Il a argué que la Banque de France étant détenue par l'État, les intérêts versés sont reversés
+      sous forme de dividendes.
+- source:
+    id: S30
+    titre: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques'
+    auteur: La Gazette France (dépêche)
+    date: '2026-08-24'
+    adresse: https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler: []
+- source:
+    id: S31
+    titre: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par Marine Le Pen pour
+      « redresser » les finances publiques'
+    auteur: Public Sénat (Stéphane Duguet)
+    date: '2026-10-06'
+    adresse: https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F37
+    enonce: Le RN propose, dans son plan présenté le 6 octobre 2026, 140 milliards d'euros d'économies d'ici 2032,
+      pour ramener la dette de 121 % du PIB en 2027 à 112 % en 2032.
+    type: fait
+    declaration: true
+    extrait_annonce: Un « effort radical » assumé par Marine Le Pen pour faire passer la dette française de « 121
+      % en 2027 à 112 % en 2032 ».
+  - affirmation: F38
+    enonce: Le plan du RN présenté le 6 octobre 2026 attend de la maîtrise de l'immigration 15 milliards d'euros
+      d'économies en 2027.
+    type: fait
+    declaration: true
+    extrait_annonce: on retrouve l'immigration qui permettrait d'économiser 15 milliards d'euros en 2027 et « 29
+      milliards en année pleine »
+- source:
+    id: S32
+    titre: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire adopter par référendum'
+    auteur: LCP - Assemblée nationale (Maxence Kagni)
+    date: '2026-10-02'
+    adresse: https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F39
+    enonce: Marine Le Pen propose d'inscrire une règle d'or budgétaire dans la Constitution par référendum, pour
+      limiter le déficit public.
+    type: fait
+    declaration: true
+    extrait_annonce: veut instaurer une "règle d'or budgétaire" qu'elle proposera aux Français d'approuver par référendum,
+      si elle est élue à l'Élysée.
+- source:
+    id: S33
+    titre: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise majeure
+    auteur: La Gazette France (dépêche)
+    date: '2026-09-05'
+    adresse: https://www.lagazettefrance.fr/article/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure
+    niveau: 4
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F40
+    enonce: La proposition de loi constitutionnelle déposée par Marine Le Pen en 2024 met fin à la primauté du droit
+      européen sur le droit national.
+    type: fait
+    declaration: true
+    extrait_annonce: met fin à "la primauté" du droit européen sur le droit national, à la base de la construction
+      européenne...
+- source:
+    id: S34
+    titre: (à établir)
+    auteur: (à établir)
+    date: (à établir)
+    adresse: https://www.blick.ch/fr/monde/france/bardella-evoque-un-rachat-de-dette-francaise-par-la-bce-id21397239.html
+    niveau: null
+    statut: demandee
+    demande:
+      pourquoi: interview de Jordan Bardella à The Economist sur un rachat de dette française par la BCE (pertinent
+        pour Q44), date à établir
+      erreur: '403'
+  a_controler: []
+- source:
+    id: S35
+    titre: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud)
+    auteur: Lutte ouvrière
+    date: '2026-06-01'
+    adresse: https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F42
+    enonce: Les aides publiques et exonérations versées chaque année aux entreprises privées atteignent 270 milliards
+      d'euros (chiffre cité par Lutte ouvrière, en 2026).
+    type: fait
+    declaration: false
+    extrait_annonce: 270 milliards d’aides publiques et d’exonérations diverses versés chaque année

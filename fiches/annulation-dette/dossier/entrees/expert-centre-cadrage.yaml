@@ -1,0 +1,25 @@
+agent: expert-centre
+phase: 1
+questions_proposees:
+  - enonce: "Les traités européens interdisent-ils à la Banque de France d'annuler les titres de dette publique française qu'elle détient pour l'Eurosystème ?"
+    type: fait
+    pourquoi: "Le cadre juridique (interdiction du financement monétaire des États, indépendance de la banque centrale) conditionne toute la faisabilité de la proposition."
+  - enonce: "Annuler ou geler en dette perpétuelle la dette détenue par l'Eurosystème ferait-il monter les taux auxquels l'État français emprunte ?"
+    type: estimation
+    pourquoi: "L'effet sur la confiance des investisseurs privés est l'argument central des opposants comme des partisans, et il se chiffre."
+  - enonce: "Cette opération réduirait-elle réellement la charge de la dette pour l'État, compte tenu de la remise à l'État des intérêts perçus par la Banque de France ?"
+    type: estimation
+    pourquoi: "L'effet budgétaire net dépend des intérêts, des pertes de la banque centrale et de la recapitalisation éventuelle."
+  - enonce: "Une annulation partielle de la dette publique, même limitée à la part détenue par la banque centrale, affaiblirait-elle la crédibilité de la France et de l'euro ?"
+    type: estimation
+    pourquoi: "Elle porte sur l'effet de précédent et sur la stabilité de la zone euro, au-delà du cas français."
+  - enonce: "Un État doit-il honorer l'intégralité de ses engagements de dette, y compris lorsque son créancier est sa propre banque centrale ?"
+    type: valeur
+    pourquoi: "Elle oppose le principe de respect des engagements et de la discipline budgétaire à l'idée qu'une dette détenue par la banque centrale a un statut distinct."
+  - enonce: "La réduction du déficit par des réformes et des économies est-elle préférable à toute forme d'annulation de dette ?"
+    type: valeur
+    pourquoi: "Elle pose le choix entre rétablir les comptes par l'effort budgétaire et alléger le stock de dette par une opération monétaire."
+incertitudes:
+  - "Montant et part exacts de la dette française détenue par l'Eurosystème : les chiffres varient selon les sources (de 18 % à environ 640 milliards d'euros), à vérifier avec la Banque de France."
+  - "Une seule recherche faite : elle confirme que le débat existe depuis août 2026 (Euronews, Public Sénat), mais je n'ai ouvert aucune source ni vérifié la déclaration attribuée au gouverneur de la Banque de France."
+  - "Position publique du centre sur ces questions non recherchée en phase 1 ; les questions 4 à 6 relèvent de ce que la famille met en avant, sans position vérifiée."

@@ -1,0 +1,13 @@
+agent: verificateur
+role: verificateur
+phase: 3
+affirmations:
+  - id: F37
+    verdict: "Vrai"
+    explication: "Le texte de Thierry Bonneau (Club des Juristes, 11 février 2021) contient l'extrait : l'article 123 « n'a donc pas une portée aussi limitée que celle admise par la jurisprudence ». La phrase précédente renvoie « contra » à « CJUE, 11 décembre 2018, point 101 et s. », arrêt que l'auteur identifie plus haut comme l'affaire C-493/17, Weiss. La conclusion porte sur les achats de la BCE sur le marché secondaire, analysés par l'auteur comme des opérations de crédit."
+  - id: F38
+    verdict: "Vrai"
+    explication: "La chronique de Jérôme Gleizes (Politis, 14 septembre 2026) contient l'extrait exact. L'auteur ajoute aussitôt : « c'est le Quantitative Easing (QE), pratiqué massivement depuis 2015 ». L'énoncé rapporte fidèlement ce que l'auteur écrit."
+  - id: F39
+    verdict: "Vrai"
+    explication: "L'extrait figure dans la même chronique (Politis, 14 septembre 2026), juste après le passage sur le QE ; il introduit l'évolution du bilan de l'Eurosystème. L'énoncé rapporte un jugement de l'auteur, et le verdict porte seulement sur le fait qu'il l'a écrit."

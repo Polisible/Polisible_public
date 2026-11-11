@@ -1,0 +1,92 @@
+agent: expert-sociaux-democrates
+phase: 6
+sources:
+  - ref: s1
+    titre: "Élections européennes : Aurore Lalucq : \"Dans cette campagne, nous assumons de parler d’Europe\""
+    auteur: "Politis"
+    date: "2024-05-29"
+    adresse: "https://www.politis.fr/articles/2024/05/elections-europennes-aurore-lalucq-ps-place-publique-dans-cette-campagne-nous-assumons-de-parler-deurope/"
+    niveau: 4
+corrections:
+  - vise: A32
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Aucune disposition des traités ne mentionne l'annulation : l'article 123 interdit le crédit et l'achat direct de titres aux États, non l'abandon d'une créance déjà inscrite au bilan. La décision relèverait du conseil des gouverneurs de la BCE."
+    porte_par: &lalucq
+      - {personne: "Aurore Lalucq", fonction: "députée européenne", parti: PP, date: "2021-02-05", source: S43, appartenance: s1}
+  - vise: A33
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "La BCE affirme pouvoir remplir son mandat malgré des pertes ; aucune institution ne chiffre l'effet de fonds propres durablement négatifs. Si le conseil des gouverneurs décide lui-même l'effacement, aucun gouvernement ne donne d'instruction."
+    porte_par: *lalucq
+  - vise: A34
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente 24,4 % de la dette négociable de l'État. Rembourser la banque centrale oblige à trouver la somme ailleurs : nouvel emprunt, impôts ou baisse des dépenses."
+    porte_par: *lalucq
+  - vise: A35
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Un État seul ne peut pas annuler : la décision appartient à la BCE, qui n'accepte pas d'instructions des gouvernements. Elle se prend par un accord entre les États européens et la BCE, non par une décision nationale."
+    porte_par: *lalucq
+  - vise: A36
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "L'effacement se substitue aux autres leviers s'il est conditionné : les États s'engagent à investir les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile."
+    porte_par: *lalucq
+  - vise: A46
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "L'article 123 vise deux actes précis, le crédit direct et l'achat direct. Que l'effacement d'une créance acquise sur le marché secondaire soit un financement interdit est une interprétation, non une conséquence du texte."
+    raisonnement: "Déduire l'interdiction de ce que les titres ont été achetés à des investisseurs (F24) établit que l'achat initial était régulier, pas que le traitement ultérieur du titre est interdit. Le traité ne mentionne pas ce cas (F57) et F27 reste invérifiable ; l'« avantage après coup » est une lecture que la Cour n'a pas validée."
+    porte_par: *lalucq
+  - vise: A47
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "Une proposition passant par une décision du conseil des gouverneurs et un contrat avec les États n'est pas une opération unilatérale. Le signal de rupture unilatérale ne s'y applique pas, et personne ne chiffre l'ampleur de l'effet sur les taux."
+    raisonnement: "La prime de risque tient à un État qui « change les règles » seul. Si la décision est prise par la BCE elle-même (F5, F60), sans instruction d'un gouvernement (F3), cette prémisse manque. F26 n'a pas d'estimation fiable : le gain « rogné » par un surcoût n'est pas démontré."
+    porte_par: *lalucq
+  - vise: A48
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "L'atteinte à la crédibilité de l'euro vaut pour une décision imposée par un gouvernement. Elle ne s'applique pas à un effacement arrêté par le conseil des gouverneurs lui-même."
+    raisonnement: "F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction n'est donnée. L'atteinte à la crédibilité suppose en outre que l'opération soit contraire aux traités (F27), ce qui est invérifiable : la compatibilité est disputée."
+    porte_par: *lalucq
+  - vise: A49
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Les vendeurs des titres ont été payés par la banque centrale (F24). Effacer la créance de la banque centrale sur l'État ne retire rien à ces vendeurs, qui n'ont plus de créance."
+    raisonnement: "Ayant vendu, les vendeurs ont été réglés. Le créancier de l'État est la banque centrale, dont les engagements envers des tiers ne sont pas ceux de l'État. Distinguer ce créancier des détenteurs privés n'est donc pas une parole variable envers un prêteur privé."
+    porte_par: *lalucq
+  - vise: A54
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Le chiffre de 24,4 % (F17) englobe plus que la Banque de France, mais l'argument ne dépend pas de lui. Il porte sur la nature publique du créancier, quelle que soit la part, de 18 % (F46) à près d'un quart."
+    raisonnement: "La conclusion « ne pas rembourser intégralement » repose sur la nature publique du créancier (F24 : les vendeurs ont été payés), non sur le pourcentage. Que la part soit de 18 % ou de près d'un quart (F16), le raisonnement est le même ; F17 situe seulement l'ordre de grandeur."
+    porte_par: *lalucq
+  - vise: V15
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la capacité d'investir dans la transition plutôt qu'au principe du remboursement intégral d'une créance détenue par une institution publique."
+    porte_par: *lalucq
+  - vise: V16
+    action: corriger
+    normalise: true
+    enonce: "Priorité à une décision européenne coordonnée plutôt qu'à une décision nationale isolée."
+    porte_par: *lalucq
+  - {vise: V27, action: retirer, normalise: true}
+  - {vise: V33, action: retirer, normalise: true}
+incertitudes:
+  - "S43 ne date pas la tribune (« Publié aujourd'hui ») ; 2021-02-05 vient du dossier. Lalucq est signataire à titre individuel d'une tribune collective d'économistes."
+  - "L'appartenance de Lalucq à PP repose sur une chronologie de Politis (2019, « Elle rejoint Place publique ») ; elle est seulement établie pour 2019 et après, pas explicitement en 2021."
+  - "V27 et V33 retirées : doublons de V15 sans porteur propre ; la distinction créancier privé/public n'est pas formulée comme priorité dans S43."

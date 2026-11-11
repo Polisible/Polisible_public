@@ -1,0 +1,23 @@
+agent: expert-extreme-gauche
+phase: 4
+examen:
+  - {question: Q41, conclusion: "Rien de nouveau à contester : A1 et A37 reposent sur des faits exacts (F1-F5, F8-F10, F45) et leur conclusion (contraire aux traités) est déjà qualifiée d'interprétation disputée (F27). Ma famille ne défend pas de position sur ce point précis (A21 est celle du PCF)."}
+  - {question: Q42, conclusion: "A2, A38 et A41 concluent à une hausse possible des taux, mais F26 reste sans chiffrage ; cela rend la hausse non démontrée, pas démontrée fausse. Je ne conteste aucun fait ; aucun argument de ma famille ne porte sur cette question."}
+  - {question: Q43, conclusion: "A6, A13 et A39 : les faits (F19, F20) sont exacts, mais leur conclusion (gain net réduit) suppose que les versements de la Banque de France baissent avec les intérêts perçus ; l'objection O1 résolue (S9) rappelle que les revenus des titres d'État acquis depuis 2015 ne sont pas partagés dans l'Eurosystème, sans chiffrer la part. Rien de nouveau à objecter. Je corrige mon propre A16, qui affirmait un gain « faible ou nul » sans source chiffrée."}
+  - {question: Q44, conclusion: "A3 suppose qu'une décision serait une instruction ; A45 et A48 y répondent déjà. A40 (fonds propres négatifs ne répondent pas à la crédibilité) est cohérent avec F58 classée Débat entre experts. Rien de nouveau à contester."}
+  - {question: Q45, conclusion: "A4, A7 et A42 : F24 est exact et A43/A49 y répondent déjà. A42 a raison que F17 (24,4 %) couvre une catégorie plus large que la Banque de France (F16) ; cette limite s'applique aussi à mon A16, qui cite F17. Pas d'autre élément nouveau."}
+  - {question: Q46, conclusion: "A5 s'appuie sur F3, F4 et F27 ; F27 est invérifiable et A5 le dit elle-même (interprétation contestée). Rien à contester."}
+  - {question: Q47, conclusion: "A6, A8 et A14 : faits exacts (F18-F20, F22, F29, F37-F39) ; ils portent sur le choix des moyens, c'est un désaccord de valeur (voir valeurs). Je signale une erreur de mon camp : le chiffre de 270 milliards d'euros de A18 (F42) est invérifiable."}
+corrections:
+  - vise: A16
+    action: corriger
+    enonce: "Annuler la part détenue par la Banque de France pourrait réduire la charge réelle de l'État de moins que son montant brut : l'État étant actionnaire de la banque centrale, une partie des intérêts qu'il lui verse lui revient (impôt, dividende). L'ampleur de ce recul n'est chiffrée par aucune source du dossier. La charge qui pèse sur les contribuables est surtout celle versée aux créanciers privés, nationaux et étrangers."
+  - vise: A18
+    action: corriger
+    enonce: "Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise. Le montant des aides qu'elle cite (270 milliards d'euros) n'est établi par aucune source officielle : les estimations publiques connues vont de 111,9 à 211 milliards selon le périmètre."
+valeurs:
+  - {question: Q47, enonce: "Ma famille place le partage de la charge avant le choix des moyens : la marge doit venir des profits, des aides aux entreprises et des créanciers privés, pas des dépenses utiles à la population ; la règle d'or et la réduction des dépenses (A8, A14) sont un choix opposé."}
+incertitudes:
+  - "Aucun contre-argument du lot ne vise mes arguments (repond_a) : rien à défendre."
+  - "La correction de A16 retire une conclusion non sourcée ; je n'ai ouvert aucune nouvelle source pour ce passage."
+  - "Je n'ai pas vérifié la fourchette 111,9 à 211 milliards au-delà de ce que rapporte le lot (explication de F42)."

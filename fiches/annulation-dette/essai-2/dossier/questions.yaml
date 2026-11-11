@@ -1,0 +1,23 @@
+- id: Q1
+  enonce: Peut-on juridiquement annuler la dette publique détenue par la Banque de France ?
+  type: fait
+  fiche: annulation-dette
+  sujet: La dette
+  theme: Économie et finances publiques
+  proposee_par: fondateur
+  statut: validee
+  sans_position:
+  - auteur: expert-ecologistes
+    recherche: 'Recherche web (août à novembre 2026) de déclarations ou textes des Écologistes (Tondelier, Rousseau,
+      programme 2027) sur l''annulation de la dette détenue par la Banque de France ; articles Public Sénat (25
+      août 2026) et Euronews (27 août 2026) ouverts : aucune mention des Écologistes. Aucune position publique trouvée,
+      aucun argument fabriqué.'
+  - auteur: expert-extreme-gauche
+    recherche: 'Position juridique de LO et du NPA sur l''annulation de la dette détenue par la Banque de France
+      (compatibilité avec les articles 123 et 130 du TFUE) : recherches web sur la proposition de Mélenchon d''août
+      2026, NPA (page de suivi des programmes 2027 ouverte, qui ne précise ni créanciers ni calendrier), Lutte ouvrière.
+      Aucun texte daté de LO ou du NPA ne traite de la légalité de cette mesure. Le seul texte trouvé (note de Tendance
+      CLAIRE, courant du NPA, non datée, écrite après 2020) porte sur l''utilité de la mesure, pas sur sa légalité.'
+  - auteur: expert-sociaux-democrates
+    recherche: recherche web août-septembre 2026 sur la réaction du PS et de Place publique à la proposition d'annulation
+      ; aucune déclaration de ces partis trouvée, donc aucun argument attribuable déposé

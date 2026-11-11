@@ -1,0 +1,534 @@
+- these: T1
+  partis:
+  - RE
+  question_posee: Votre thèse T1 suppose que l'annulation ou la conversion de titres déjà détenus entre dans l'interdiction
+    du financement monétaire, ce que le dossier n'établit pas (F27 Invérifiable). Avez-vous une source (décision
+    de la Cour, avis juridique d'une institution) qui traite ce cas précis ? Que répondez-vous à T3 (A46) ?
+  id: R1
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune décision de la Cour de justice ni avis juridique d''institution traitant l''annulation ou la
+      conversion de titres déjà détenus n''a été trouvé. A37 le reconnaissait : la thèse repose sur le raisonnement
+      par l''objet de l''article 123 (F9), pas sur un précédent (F27 reste Invérifiable). Sur T3 (A46) : l''« avantage
+      après coup » est une lecture, non validée par la Cour ; on ne peut pas la présenter comme établie.'
+    elements: []
+- these: T2
+  partis:
+  - PCF
+  question_posee: Votre thèse T2 suppose que l'annulation ou la conversion de titres déjà détenus entre dans l'interdiction
+    du financement direct, ce que le dossier n'établit pas (F27 Invérifiable, F45). Avez-vous une source (décision
+    de la Cour, avis juridique d'une institution) qui traite ce cas précis ?
+  id: R2
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas trouvé de décision de la Cour ni d''avis juridique d''institution qui traite l''annulation
+      ou la conversion de titres déjà détenus. Je ne peux pas combler cette lacune : A21 repose sur F1, F2 et F44,
+      qui établissent l''interdiction du financement direct, non son extension à ce cas (F45, F27 Invérifiable).'
+    elements: []
+- these: T3
+  partis:
+  - LFI
+  - PP
+  question_posee: Votre thèse T3 suppose que le silence des traités sur l'annulation ou la conversion de titres
+    déjà détenus vaut permission, ce que le dossier n'établit pas (F27 Invérifiable, F45). Avez-vous une source
+    (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? Que répondez-vous à T1 (A37)
+    sur une proposition portée par un gouvernement ?
+  id: R3
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas de source d''institution qui traite ce cas précis ; A20 corrigé au passage 4 présente déjà
+      la compatibilité comme une interprétation que LFI soutient, non comme un point jugé. Sur T1 (A37) et le scénario
+      d''un gouvernement : je n''ai trouvé aucun texte de LFI ou du PP qui l''écarte ou le traite ; je ne le fabrique
+      pas.'
+    elements: []
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas de source (arrêt, avis d''institution) qui traite ce cas précis ; je n''en ai pas trouvé.
+      F45 et F57 établissent un silence du texte, pas une autorisation : A32 est corrigé en ce sens. La thèse se
+      limite à dire que l''interdiction n''est pas démontrée (F27). Sur T1 (A37) : la proposition de 2021 passait
+      par un contrat avec la BCE (F60), non par une décision d''un gouvernement ; la proposition de 2026 portée
+      par un gouvernement n''est pas défendue par A32.'
+    elements:
+    - A32
+- these: T4
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T4 repose sur F26 (Pas d'estimation fiable). Avez-vous une estimation d'institution,
+    datée et avec sa méthode, de l'effet de l'opération sur les taux d'emprunt de la France ?
+  id: R4
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune estimation d''institution, datée et méthodée, de l''effet de l''opération sur les taux d''emprunt
+      de la France n''a été trouvée : F26 reste la seule pièce. On ne peut pas répondre à cette relance.'
+    elements: []
+- these: T5
+  partis:
+  - LFI
+  question_posee: Votre thèse T5 repose sur F47 (Pas d'estimation fiable). Avez-vous une estimation d'institution,
+    datée et avec sa méthode, de l'effet de l'opération sur les taux d'emprunt de la France ? Que répondez-vous
+    à T4 (A38, A51) ?
+  id: R5
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas d''estimation d''institution, datée et méthodée, de l''effet sur les taux : F47 reste un
+      avis sans estimation, comme A22 corrigé le dit. Sur T4 (A38, A51), je n''apporte pas de nouveau fait ; le
+      risque de précédent juridique n''est pas écarté par F46, qui ne décrit que le périmètre.'
+    elements: []
+- these: T6
+  partis:
+  - PP
+  question_posee: Que répondez-vous à T4 (A51), selon laquelle le scénario d'une décision du conseil des gouverneurs
+    suppose un changement de position de la BCE et laisse subsister un doute sur le financement monétaire (F9) ?
+  id: R6
+  statut: repondue
+  reponses:
+  - agent: expert-sociaux-democrates
+    texte: 'T4 (A51) a raison : le scénario d''une décision du conseil suppose que la BCE change de position (F11,
+      F13), et un doute sur le financement monétaire (F9) peut subsister. A47 est corrigé : il ne dit plus qu''aucun
+      autre motif de prime n''existe. Reste établi qu''aucune estimation de l''effet sur les taux n''existe (F26).'
+    elements:
+    - A47
+- these: T7
+  partis:
+  - RN
+  - HOR
+  question_posee: Votre thèse T7 suppose que les versements de la Banque de France à l'État baisseraient au point
+    d'annuler l'essentiel du gain, ce que le dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une
+    source qui isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France ?
+  id: R7
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: Aucune source isolant la part des intérêts sur les titres de l'État dans le résultat de la Banque de
+      France n'a été trouvée. La recherche n'a donné que les versements à l'État (36,8 Md€ de 2015 à 2025, selon
+      la présentation du rapport annuel 2025) et le résultat net 2025, sans ventilation par type d'actif. Le bulletin
+      n° 260/6 (S9) n'a pas pu être ouvert (403). Le lien entre intérêts perçus et sommes reversées reste plausible
+      mais non chiffré.
+    elements: []
+  - agent: expert-extreme-droite
+    texte: 'Je ne peux pas répondre : je n''ai trouvé aucune source ouverte qui isole la part des intérêts sur les
+      titres de l''État dans le résultat de la Banque de France. Les documents où ce détail se trouverait (Comprendre
+      les comptes 2025, bulletin n° 260/6, communiqué de mars 2026) renvoient une erreur 403 via l''outil ; le rapport
+      du Sénat r24-902 n''en traite pas. Je reconnais que A13 ne soutient que « moins que le montant brut » (F19,
+      F20), pas « faible ou nul » : je corrige la position de A13 en nuance.'
+    elements: []
+- these: T9
+  partis:
+  - PCF
+  question_posee: Votre thèse T9 suppose une marge nette positive, ce que le dossier n'établit pas (F49 Pas d'estimation
+    fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements de la Banque de France à l'État
+    (F19, F20) ? Que répondez-vous à T7 (A39) ?
+  id: R8
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui chiffre la marge nette ; A24 corrigé ne parle plus que de marges brutes, non
+      chiffrées. Sur T7 (A39), je reconnais que le gain net dépend des reversements de la Banque de France (F19,
+      F20) et que le dossier ne l'établit pas (F41).
+    elements: []
+- these: T10
+  partis:
+  - RE
+  question_posee: Le volet crédibilité de votre thèse T10 n'est porté par aucune estimation (F27 Invérifiable).
+    Avez-vous une source d'institution sur l'effet d'une telle opération sur la crédibilité de l'euro ? Sur quelle
+    source fondez-vous l'idée que l'opération serait imposée par l'État plutôt que décidée par le conseil des gouverneurs
+    (F5) ?
+  id: R9
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune source d''institution sur l''effet d''une telle opération sur la crédibilité de l''euro n''a
+      été trouvée. Le volet crédibilité de A3 n''est donc pas établi. Sur la voie : aucune source ne dit que l''opération
+      serait imposée par l''État plutôt que décidée par le conseil des gouverneurs ; A3 vaut seulement dans le cas
+      d''une loi nationale (F3, F5), comme l''examen le note.'
+    elements: []
+- these: T11
+  partis:
+  - RE
+  question_posee: Votre thèse T11 suppose une réaction des détenteurs d'euros qu'aucune affirmation n'établit (F27
+    Invérifiable). Avez-vous une source d'institution sur l'effet d'une telle opération sur la crédibilité de l'euro
+    ?
+  id: R10
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: Aucune source d'institution sur la réaction des détenteurs d'euros ou sur la crédibilité de l'euro n'a
+      été trouvée. La réaction supposée par T11 n'est pas établie ; elle reste une hypothèse fondée sur F9 et F27.
+    elements: []
+- these: T12
+  partis:
+  - LFI
+  question_posee: 'Le volet crédibilité de votre thèse T12 repose sur F53, une valeur. Avez-vous une source d''institution
+    sur l''effet d''une telle opération sur la crédibilité de l''euro ? Que répondez-vous à T14 (A52) : la proposition
+    passe-t-elle par une décision du conseil des gouverneurs ou par une loi nationale (F4) ?'
+  id: R11
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas de source d''institution sur l''effet de l''opération sur la crédibilité de l''euro : ce
+      volet reste une position de valeur (F53). Sur T14 (A52) : la distinction entre demande et instruction ne vaut
+      que pour une décision libre du conseil des gouverneurs (F5) ; si une loi nationale vise les titres, F4 impose
+      le contrôle de compatibilité. Je n''ai pas de texte de LFI qui dise quelle voie la proposition suit.'
+    elements: []
+- these: T13
+  partis:
+  - PP
+  question_posee: Votre thèse T13 repose sur F58 (Débat entre experts). Avez-vous une source d'institution sur les
+    effets de fonds propres durablement négatifs d'une banque centrale ? Que répondez-vous à T11 (A40) ?
+  id: R12
+  statut: repondue
+  reponses:
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas trouvé d''institution qui établisse que des fonds propres durablement négatifs soient sans
+      effet. J''ai trouvé l''inverse : un document des services de la BCE de 2004 (f1). Sur T11 (A40) : la solvabilité
+      ne répond pas à la perception d''un financement monétaire (F9). A33 est corrigé : le volet crédibilité n''est
+      plus affirmé.'
+    elements:
+    - A33
+    - f1
+- these: T14
+  partis:
+  - PP
+  - RE
+  question_posee: Le volet crédibilité de votre thèse T14 n'est porté par aucune estimation. Avez-vous une source
+    d'institution sur l'effet d'une décision du conseil des gouverneurs sur la crédibilité de l'euro ? Que répondez-vous
+    à T11 (A53) ?
+  id: R13
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune source d''institution sur l''effet d''une décision du conseil des gouverneurs sur la crédibilité
+      de l''euro n''a été trouvée. Sur T11 (A53) : l''objection n''a pas reçu de réponse, et A48 ne peut pas l''écarter
+      ; le volet crédibilité de T14 reste une hypothèse, non une affirmation établie.'
+    elements: []
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas d''estimation d''institution sur l''effet, pour la crédibilité de l''euro, d''une décision
+      du conseil des gouverneurs. Le seul document trouvé (f1) porte sur les pertes d''une banque centrale, pas
+      sur ce cas. Sur T11 (A53) : une légalité disputée peut créer un doute (F27), que A48 ne peut écarter ; A48
+      est corrigé pour dire que l''atteinte n''est démontrée dans aucun sens.'
+    elements:
+    - A48
+    - f1
+- these: T15
+  partis:
+  - HOR
+  question_posee: Votre thèse T15 présuppose qu'une annulation limitée à la banque centrale porterait atteinte à
+    la signature de la France, ce que le dossier n'établit pas (F26 Pas d'estimation fiable). Avez-vous une source
+    ? Que répondez-vous à T19 (A43) sur le critère de légitimité ?
+  id: R14
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune source n''établit qu''une annulation limitée à la banque centrale porterait atteinte à la signature
+      de la France (F26 reste la seule pièce). Sur T19 (A43) et le critère de légitimité : A50 ne répond pas sur
+      ce point, car cette réponse relève d''un choix de valeurs (qui a été payé, qui supporte la perte), non d''un
+      fait que l''on pourrait sourcer.'
+    elements: []
+- these: T16
+  partis:
+  - LR
+  question_posee: Votre thèse T16 présuppose qu'une annulation limitée à la banque centrale ferait perdre la confiance
+    des prêteurs, ce que le dossier n'établit pas (F26 Pas d'estimation fiable). Avez-vous une source ?
+  id: R15
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai pas de source qui établisse la perte de confiance des prêteurs en cas d'annulation limitée à
+      la banque centrale. A7 repose sur la priorité de F28 (déclaration de décembre 2020), pas sur ce fait ; l'estimation
+      F26 reste sans estimation fiable. Je ne dépose aucun fait nouveau et ne retire pas A7, qui exprime une valeur.
+    elements: []
+- these: T17
+  partis:
+  - PCF
+  - PP
+  question_posee: Que répondez-vous à T15 (A50), selon laquelle la part de l'Eurosystème est déjà remboursée à échéance
+    comme les autres titres (F48, F31) ?
+  id: R16
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'A50 décrit le droit actuel : ces titres arrivent à échéance comme les autres (F48, F31). Cela ne répond
+      pas à la question posée par T17, qui porte sur ce que l''État doit faire quand le créancier est la banque
+      centrale (valeur Q45). Je n''ai pas de fait nouveau à opposer.'
+    elements: []
+  - agent: expert-sociaux-democrates
+    texte: 'A50 (F48, F31) établit que les titres de l''Eurosystème arrivent à échéance et sont remboursés comme
+      les autres, depuis la fin des réinvestissements du PEPP. Cela ne contredit pas T17 : celle-ci porte sur l''absence
+      de créancier privé lésé (F24), non sur le calendrier. Que modifier les conditions pour un détenteur public
+      change le contrat est un désaccord de droit et de valeur, que je ne tranche pas par un fait nouveau.'
+    elements: []
+- these: T18
+  partis:
+  - LE
+  - LFI
+  - PP
+  question_posee: Votre thèse T18 présuppose que l'annulation dégagerait une marge nette pour l'État, ce que le
+    dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu
+    des versements de la Banque de France à l'État (F19, F20) ?
+  id: R17
+  statut: repondue
+  reponses:
+  - agent: expert-ecologistes
+    texte: 'Nous n''avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France
+      à l''État (F19, F20). Nous ne la supposons plus établie : A10 est corrigé pour dire que le remboursement oblige
+      à financer la somme ailleurs, et que la marge dépend du solde net des intérêts reversés.'
+    elements:
+    - A10
+  - agent: expert-gauche-radicale
+    texte: 'Je n''ai pas de source qui chiffre cette marge nette : F41 reste sans estimation fiable. Le caractère
+      net de la marge est un présupposé que ma famille n''a pas chiffré.'
+    elements: []
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas de source qui chiffre la marge nette compte tenu des versements de la Banque de France
+      (F19, F20) ; F41 reste sans estimation. A34 est corrigé : il ne présente plus la marge comme acquise. Ce qui
+      reste établi : l''ampleur de la détention (F17) et le fait que le remboursement doit être financé.'
+    elements:
+    - A34
+- these: T19
+  partis:
+  - NPA
+  question_posee: Votre thèse T19 présuppose que la dette française a été construite par des cadeaux fiscaux, ce
+    que le dossier n'établit pas (F43 est une valeur). Avez-vous une source officielle ou universitaire ? Que répondez-vous
+    à T15 (A50) ?
+  id: R18
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle ou universitaire établissant que la dette française a été construite par des cadeaux
+      fiscaux : non trouvée. Le NPA l''avance comme une position (tract de 2011, F43), pas comme un constat chiffré.
+      Sur T15 (A50) : F48 n''est pas contesté, les titres de l''Eurosystème arrivent à échéance et sont remboursés.
+      Le désaccord porte sur le critère : le NPA juge qu''une dette se rembourse selon sa légitimité, établie par
+      un audit, non selon le détenteur ni l''échéance.'
+    elements: []
+- these: T20
+  partis:
+  - RE
+  question_posee: Votre thèse T20 présuppose que les autres membres supportent une part du risque des titres français
+    détenus ; la résolution de l'objection O1 indique que les revenus et risques des titres d'État acquis depuis
+    2015 ne sont pas partagés (S9). Avez-vous une source qui établit ce partage ? Et une source sur la contrariété
+    aux traités (F27 Invérifiable) ?
+  id: R19
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Aucune source n''établit un partage entre membres du risque des titres français détenus. La résolution
+      de l''objection O1 (S9) indique le contraire pour les titres d''État acquis depuis 2015 : le partage du risque
+      de T20 n''est pas établi pour ces titres. De même, aucune source ne tranche la contrariété aux traités (F27
+      Invérifiable). Seul reste l''engagement de l''État à respecter les règles communes (F3, F4).'
+    elements: []
+- these: T24
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T24 présuppose que la baisse du coût du travail dégagerait des marges par la croissance,
+    ce qu'aucune affirmation du dossier n'établit (F18, F20 portent sur la Banque de France). Avez-vous une source
+    d'institution ?
+  id: R20
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: Aucune source d'institution établissant que la baisse du coût du travail dégagerait des marges par la
+      croissance n'a été trouvée dans cette phase. Le choix des leviers dans A6 est une priorité, non un fait établi
+      ; seul le volet « gain net inférieur au gain brut » (F19, F20) est porté par des affirmations vérifiées.
+    elements: []
+- these: T25
+  partis:
+  - LR
+  question_posee: Dans votre thèse T25, la position sur l'annulation est déduite du silence du plan (F29, F30).
+    Avez-vous une source datée où le parti se prononce sur l'annulation ou le gel de la dette détenue par la banque
+    centrale ?
+  id: R21
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai trouvé aucune source datée où LR se prononce sur l'annulation ou le gel de la dette détenue par
+      la banque centrale en 2026. Les recherches (presse, août à novembre 2026, réactions à la proposition d'août
+      2026) n'en donnent pas ; la position de A8 reste déduite du silence du plan (F29, F30), comme A8 l'indique.
+      La seule position datée de LR sur l'annulation est celle de décembre 2020 (S21), antérieure à la proposition
+      de 2026.
+    elements: []
+- these: T26
+  partis:
+  - NPA
+  question_posee: Votre thèse T26 repose sur le montant des intérêts versés aux créanciers privés et leur équivalent
+    en emplois, qu'aucune affirmation du dossier n'établit (seul F20 est vérifié). Avez-vous une source officielle
+    datée ? Quel effet attendez-vous sur les conditions d'emprunt (F26) ?
+  id: R22
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle datée sur le montant des intérêts versés aux créanciers privés et leur équivalent
+      en emplois : non trouvée à ce jour, le chiffre du tract NPA (2011) reste une affirmation du parti. Sur l''effet
+      attendu sur les conditions d''emprunt (F26) : aucune estimation de la part du NPA n''a été trouvée, et le
+      dossier n''en contient pas. Nous ne pouvons pas répondre.'
+    elements: []
+- these: T27
+  partis:
+  - LFI
+  question_posee: Votre thèse T27 repose sur F47 (Pas d'estimation fiable). Avez-vous une source qui établit que
+    l'opération ne coûterait rien et chiffre la marge nette, compte tenu des versements de la Banque de France à
+    l'État (F19, F20) ?
+  id: R23
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui établisse que l'opération ne coûterait rien, ni qui chiffre la marge nette
+      (F47 sans estimation fiable ; F19, F20). Le point est signalé comme non établi.
+    elements: []
+- these: T28
+  partis:
+  - LE
+  - PCF
+  question_posee: Votre thèse T28 présuppose que l'annulation dégagerait une marge nette, ce que le dossier n'établit
+    pas (F49 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements
+    de la Banque de France à l'État (F19, F20) ?
+  id: R24
+  statut: repondue
+  reponses:
+  - agent: expert-ecologistes
+    texte: 'Nous n''avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France
+      (F19, F20). A12 ne repose pas sur un montant : il pose que l''usage de toute marge éventuelle est le critère
+      (F34, F35). Le chiffrage de cette marge reste non établi (F49) et nous ne l''affirmons pas.'
+    elements:
+    - A12
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui chiffre cette marge nette (F49 sans estimation fiable) ; A12 et A31 ne l'avancent
+      pas et le critère qu'ils posent est l'usage de la marge, si elle existe.
+    elements: []
+- these: T29
+  partis:
+  - PP
+  question_posee: Votre thèse T29 présuppose que l'effacement dégagerait une marge nette, ce que le dossier n'établit
+    pas (F41 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements
+    de la Banque de France à l'État (F19, F20) ?
+  id: R25
+  statut: repondue
+  reponses:
+  - agent: expert-sociaux-democrates
+    texte: 'Je n''ai pas de source qui chiffre la marge nette (F19, F20, F41). A36 est corrigé : la thèse ne dit
+      plus que l''effacement dégage une marge, elle conditionne son usage à l''engagement d''investir (F59).'
+    elements:
+    - A36
+- these: T30
+  partis:
+  - LO
+  question_posee: 'Votre thèse T30 repose sur F42 (Invérifiable : 270 milliards sans origine ni méthode) et suppose
+    que ces aides ont creusé la dette. Avez-vous une source officielle pour ce montant et pour ce lien ?'
+  id: R26
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle pour les 270 milliards d''euros d''aides cités par LO (F42) : non trouvée ; les estimations
+      publiques du dossier sont inférieures et dépendent du périmètre. Source établissant que ces aides ont creusé
+      la dette : non trouvée non plus. LO présente ce lien comme sa position, pas comme un fait établi.'
+    elements: []
+- these: T2
+  partis:
+  - PCF
+  question_posee: Que répondez-vous à T3 (A46), selon laquelle l'achat des titres sur le marché secondaire (F24,
+    F44) établit la régularité de l'achat, non l'interdiction de leur traitement ultérieur ? (même question que
+    R1 pour T1)
+  id: R27
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'A46 a raison sur un point : F24 et F44 établissent que les achats ont respecté l''interdiction du financement
+      direct, non que le traitement ultérieur des titres est interdit. A21 passe de l''un à l''autre sans prémisse
+      intermédiaire, et je n''ai pas de décision ni d''avis d''institution qui comble ce pas. Je ne peux pas y répondre
+      par un fait nouveau.'
+    elements: []
+- these: T34
+  partis:
+  - PCF
+  question_posee: Votre thèse T34 suppose qu'annuler des titres déjà détenus exige de réviser les traités, donc
+    que l'interdiction du financement direct (F1, F2) vise ce cas, ce que le dossier n'établit pas (F45, F27 Invérifiable).
+    Avez-vous une source (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? (même
+    question que R2)
+  id: R28
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai trouvé aucune décision de la Cour ni aucun avis juridique d'institution qui traite l'annulation
+      ou la conversion de titres déjà détenus. A29 ne repose donc que sur F1 et F2, qui établissent l'interdiction
+      du financement direct, non son extension à ce cas (F45, F27 Invérifiable). La nécessité d'une révision reste
+      une position de la famille, non un point établi.
+    elements: []
+- these: T10
+  partis:
+  - RE
+  question_posee: Que répondez-vous à T12 (A45) et à T32 (A48), selon lesquelles une décision libre du conseil des
+    gouverneurs (F5) n'est pas une instruction au sens de F3 ? (même question que R11, R12, R13)
+  id: R29
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Rien n''écarte l''objection de A45 et A48 : une décision que le conseil des gouverneurs reste libre
+      de prendre ou de refuser n''est pas une instruction au sens de F3 (F5). A3 ne vaut que si l''opération est
+      imposée par l''État, notamment par une loi nationale (F3, F4). Aucune source ne dit que la proposition suit
+      cette voie. Je corrige A3 pour la limiter à ce cas.'
+    elements:
+    - A3
+- these: T8
+  partis:
+  - LFI
+  question_posee: Votre thèse T8 suppose que les intérêts perçus par la Banque de France sur les titres de l'État
+    contribuent aux sommes qu'elle reverse à l'État (F41 Pas d'estimation fiable). Avez-vous une source qui isole
+    la part de ces intérêts dans son résultat ? (même question que R7)
+  id: R30
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui isole la part des intérêts sur titres de l'État dans le résultat de la Banque
+      de France. Le lien entre ces intérêts et les sommes reversées (F19, F20) reste non établi (F41), comme le
+      dit déjà A23 en parlant de flux variable (F21). Je ne peux pas le chiffrer.
+    elements: []
+- these: T24
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T24 suppose que les sommes versées par la Banque de France à l'État reposent en partie
+    sur ces intérêts (F41 Pas d'estimation fiable). Avez-vous une source qui isole la part de ces intérêts dans
+    son résultat ? (même question que R7)
+  id: R31
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Je ne peux pas répondre : aucune source ouverte n''isole la part des intérêts sur les titres de l''État
+      dans le résultat de la Banque de France (même réponse qu''à R7). Le lien entre intérêts perçus et sommes reversées
+      reste plausible mais non chiffré (F41). A6 ne soutient donc qu''un gain net incertain, non un gain nul.'
+    elements: []
+- these: T25
+  partis:
+  - RN
+  question_posee: Votre thèse T25 présuppose que les économies prévues (F37, F38) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R32
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-droite
+    texte: 'Je ne peux pas répondre : je n''ai pas de source d''institution établissant que les économies du plan
+      du RN seraient obtenues ni les marges qu''elles dégageraient ; F37 et F38 établissent seulement ce que le
+      plan prévoit. Je corrige A14 pour qu''il soit présenté comme l''argument d''un plan, non comme la démonstration
+      de ses effets.'
+    elements: []
+- these: T36
+  partis:
+  - LR
+  question_posee: Votre thèse T36 présuppose que les économies du plan (F29, F30) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R33
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai pas de source d'institution (Cour des comptes, Haut Conseil des finances publiques, Insee, OFCE)
+      qui établisse que les économies du plan du 12 octobre 2026 (F29, F30) seraient obtenues et dégageraient les
+      marges annoncées. Je ne dépose aucun fait nouveau. A8 s'en tient à ce que le plan prévoit (F29, F30) et reste,
+      comme elle l'indique, une lecture par le choix des moyens ; la réalisation des économies n'est pas établie.
+    elements: []

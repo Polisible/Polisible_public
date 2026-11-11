@@ -1,0 +1,83 @@
+agent: expert-centre
+phase: 2
+sources:
+  - ref: s1
+    titre: "Lettre de la présidente de la BCE à une eurodéputée sur l'annulation de dettes publiques (courrier ecb.dr.cor20210205)"
+    auteur: "Banque centrale européenne (Christine Lagarde)"
+    date: "2021-02-05"
+    adresse: "https://www.ecb.europa.eu/ecb/access_to_documents/document/correspondence/shared/data/ecb.dr.cor20210205Aubry.fr.pdf"
+    niveau: 1
+  - ref: s2
+    titre: "La dette française peut-elle vraiment être annulée ? La proposition de Mélenchon relance le débat"
+    auteur: "Euronews (Eleonora Vasques)"
+    date: "2026-08-27"
+    adresse: "https://fr.euronews.com/2026/08/27/la-dette-francaise-peut-elle-vraiment-etre-annulee-la-proposition-de-melenchon-relance-le-"
+    niveau: 4
+  - ref: s3
+    titre: "Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française"
+    auteur: "Euronews"
+    date: "2026-09-11"
+    adresse: "https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+    niveau: 4
+  - ref: s4
+    titre: "« Milliards magiques » : le droit permet-il une annulation de la dette COVID ?"
+    auteur: "Thierry Bonneau, professeur de droit (Université Paris-Panthéon-Assas), Le Club des Juristes"
+    date: "2021-02-11"
+    adresse: "https://www.leclubdesjuristes.com/archives-cdj/milliards-magiques-le-droit-permet-il-une-annulation-de-la-dette-covid-3344/"
+    niveau: 2
+  - ref: s5
+    titre: "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés"
+    auteur: "Public Sénat (Guillaume Jacquot)"
+    date: "2026-08-25"
+    adresse: "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Dans une lettre de 2021, la présidente de la BCE a écrit que l'annulation de dettes publiques par la BCE n'est pas compatible avec les traités, car elle enfreindrait l'interdiction du financement monétaire (article 123 du traité sur le fonctionnement de l'Union européenne, TFUE)."
+    type: fait
+    sources:
+      - {source: s1, extrait: "l’annulation de dettes publiques par la BCE n’est pas compatible avec les traités, car elle enfreindrait l’interdiction du financement monétaire énoncée à l’article 123 du traité sur le fonctionnement de l’Union européenne."}
+  - ref: f2
+    enonce: "Le 11 septembre 2026, Christine Lagarde a jugé la proposition de Jean-Luc Mélenchon « vraiment pas une bonne idée » et, selon Euronews, a estimé qu'elle constituerait une « violation pure du traité »."
+    type: fait
+    sources:
+      - {source: s3, extrait: "La présidente de la BCE estime même que cela constituerait une \"violation pure du traité\" sur l'Union européenne."}
+  - ref: f3
+    enonce: "Les titres de dette française visés par la proposition sont détenus par la Banque de France pour le compte de la BCE (Eurosystème) et représentent environ 18 % de la dette publique, selon Public Sénat ; Jean-Luc Mélenchon a employé ce chiffre en août 2026."
+    type: fait
+    sources:
+      - {source: s5, extrait: "l’ancien député encourage l’annulation des 18 % de dette française détenus par la Banque de France pour le compte de la Banque centrale européenne (BCE)."}
+  - ref: f4
+    enonce: "Selon Euronews, Thierry Breton a écrit dans une tribune (Les Echos, août 2026) qu'une telle annulation serait juridiquement impossible, la Banque de France faisant partie de l'Eurosystème et ne pouvant pas annuler d'obligations de sa propre initiative."
+    type: fait
+    sources:
+      - {source: s2, extrait: "soulignant qu'une telle décision serait juridiquement impossible, la Banque de France faisant partie de l'Eurosystème régi par la Banque centrale européenne et ne pouvant annuler ou effacer des obligations de sa propre initiative."}
+  - ref: f5
+    enonce: "Selon un professeur de droit financier (2021), l'article 123 du TFUE n'interdit pas expressément l'annulation de la dette souveraine détenue par la BCE."
+    type: fait
+    sources:
+      - {source: s4, extrait: "En revanche, il n’interdit pas expressément l’annulation de la dette souvera"}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "L'annulation de titres publics détenus par la Banque de France serait un financement monétaire de l'État, interdit par l'article 123 du TFUE ; la BCE l'a dit, et la Banque de France, membre de l'Eurosystème, ne peut pas la décider seule. Elle supposerait donc de modifier les traités européens, pas seulement une loi française."
+    porte_par:
+      - {qui: "Thierry Breton, ancien commissaire européen (tribune dans Les Echos, août 2026, rapportée par Euronews)", source: s2}
+    affirmations: [f1, f2, f3, f4]
+  - ref: a2
+    question: Q1
+    position: nuance
+    enonce: "Le texte de l'article 123 ne vise pas expressément l'annulation : le juriste Thierry Bonneau le relève, mais conclut que l'esprit de l'interdiction (empêcher qu'une banque centrale finance durablement un État) ne permet pas de la juger conforme. Le point juridique n'est donc pas tranché par une décision de justice ; la position de la BCE reste que c'est interdit."
+    porte_par:
+      - {qui: "Thierry Bonneau, professeur de droit (Le Club des Juristes, 2021)", source: s4}
+    affirmations: [f5, f1]
+valeurs:
+  - {question: Q1, enonce: "La famille Centre met en priorité le respect des traités et de l'indépendance de la banque centrale, jugés garants de la confiance des épargnants et des prêteurs envers la dette française."}
+incertitudes:
+  - "La date de la lettre BCE (s1) est déduite du nom du fichier (2021-02-05) ; le PDF ouvert ne l'affiche pas."
+  - "Les propos de Breton (s2) et de Lagarde (s3) sont connus par Euronews (niveau 4) ; la tribune des Echos et la conférence de presse n'ont pas été ouvertes."
+  - "Je n'ai pas pu ouvrir le texte de l'article 123 TFUE ni l'arrêt Gauweiler (Légifrance/EUR-Lex/Curia inaccessibles ici) : aucun verdict de la CJUE sur l'annulation elle-même n'est cité, et je n'en connais pas."
+  - "Je n'ai trouvé aucun texte d'un parti du Centre (Renaissance, MoDem, Horizons, UDI) sur le volet juridique ; l'attribution à Thierry Breton ne dit pas de quel parti il parle. La déclaration du ministre Roland Lescure (BFMTV, via Euronews) porte sur les risques, pas sur la légalité : non retenue."
+  - "Le chiffre de la part détenue varie selon les sources (18 % ou 20 % ; environ 500 à 600 milliards d'euros) ; je n'ai pas de source de niveau 1 sur ce montant, à confier au vérificateur."
+  - "Le point de savoir si un article 123 modifié ou un accord de tous les États membres serait nécessaire n'est pas sourcé ici."

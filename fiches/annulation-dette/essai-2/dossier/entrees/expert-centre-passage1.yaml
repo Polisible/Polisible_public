@@ -1,0 +1,45 @@
+agent: expert-centre
+phase: 2
+sources:
+  - ref: s1
+    titre: "Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française"
+    auteur: "Euronews"
+    date: "2026-09-11"
+    adresse: "https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise"
+    niveau: 4
+affirmations:
+  - ref: f1
+    enonce: "Le 11 septembre 2026, la présidente de la BCE, Christine Lagarde, a qualifié l'annulation de la dette détenue par la banque centrale de « violation pure du traité »."
+    type: fait
+    declaration: true
+    sources:
+      - {source: s1, extrait: "La présidente de la BCE estime même que cela constituerait une \"violation pure du traité\" sur l'Union européenne."}
+arguments:
+  - ref: a1
+    question: Q1
+    position: contre
+    enonce: "Effacer des titres de dette publique détenus par la Banque de France reviendrait à faire supporter à la banque centrale la charge d'une dette de l'État sans contrepartie. Les traités interdisent à la banque centrale de financer l'État, par achat direct de titres comme par tout autre crédit."
+    raisonnement: "L'article 123 interdit à la banque centrale de financer le secteur public (achat direct de dette, découverts, crédits). Les achats sur le marché secondaire ne sont admis que parce qu'ils ne sont pas un financement de l'État (C-62/14, C-493/17). Une annulation retire à l'État une dette sans qu'il la rembourse : l'effet économique est celui d'un financement monétaire définitif, ce que la logique de l'article 123 vise à empêcher. La conclusion juridique est donc l'impossibilité sans modifier les traités."
+    porte_par:
+      - {qui: "Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)", source: s1}
+    affirmations: [F1, F2, F4, F5, f1]
+  - ref: a2
+    question: Q1
+    position: contre
+    enonce: "Les titres détenus par la Banque de France l'ont été dans le cadre de la politique de l'Eurosystème, décidée par la BCE. Un gouvernement national ne peut ni les effacer ni l'ordonner."
+    raisonnement: "La Banque de France est membre de l'Eurosystème et la politique monétaire relève de ses organes de décision. L'article 130 interdit à une banque centrale nationale d'accepter des instructions d'un gouvernement. Une loi française ordonnant l'annulation reviendrait à donner une instruction à la Banque de France, et à décider seul d'une opération qui engage l'ensemble de l'Eurosystème. Elle supposerait donc une décision européenne, ou une modification des traités, et non une décision française."
+    porte_par:
+      - {qui: "Christine Lagarde, présidente de la BCE (déclaration du 11 septembre 2026, rapportée par la presse)", source: s1}
+    affirmations: [F3, F9, f1]
+valeurs:
+  - {question: Q1, enonce: "Le centre place en priorité la crédibilité de la signature de la France, le respect des traités et l'indépendance de la banque centrale, plutôt que la souveraineté budgétaire nationale contre le cadre européen."}
+sources_demandees:
+  - {adresse: "https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf", pourquoi: "communiqué de la Banque de France du 12 septembre 2026 sur la dette (position juridique et part détenue)", erreur: "403"}
+  - {adresse: "https://www.banque-france.fr/en/node/1924173", pourquoi: "page Banque de France sur la dette détenue", erreur: "403"}
+  - {adresse: "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/432_Bulletin%20mensuel%20mai%202026.pdf", pourquoi: "part de la dette négociable détenue par l'Eurosystème / Banque de France", erreur: "403"}
+incertitudes:
+  - "Aucun texte juridique de niveau 1 ouvert ne dit expressément qu'une annulation relève de l'article 123 : c'est une interprétation (Lagarde, presse), pas un arrêt."
+  - "Ni la CJUE ni le Conseil constitutionnel ne semblent avoir jugé directement une annulation de dette détenue ; non cherché dans la jurisprudence."
+  - "Part exacte de la dette détenue par la Banque de France non établie (sources 403)."
+  - "La déclaration de Lagarde est rapportée par la presse (niveau 4), non par un texte de la BCE."
+  - "Le statut du SEBC (art. 21 du protocole n° 4) n'a pas été ouvert."

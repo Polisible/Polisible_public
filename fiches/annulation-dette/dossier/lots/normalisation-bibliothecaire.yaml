@@ -1,0 +1,254 @@
+consigne: 'Mets tes éléments au format de docs/format-fiche.md (§ 3, 5, 10) par des `corrections` : position oui/non/nuance
+  par rapport à la question ; porte_par complet (personne, fonction au moment de la déclaration, parti en sigle,
+  date, source, appartenance si la source ne l''établit pas) ; valeurs : « Priorité à… » + porte_par, sinon retirer.
+  Mets normalise: true dans chaque correction.'
+questions:
+  Q41: Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la dette
+    française détenue par la Banque de France pour l'Eurosystème ?
+  Q42: Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+  Q43: L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la Banque
+    de France reverse à l'État ?
+  Q44: Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?
+  Q45: Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale
+    ?
+  Q46: Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des règles
+    européennes ?
+  Q47: Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies,
+    à la hausse des recettes ou à la recherche de croissance ?
+arguments: []
+valeurs: []
+affirmations_institutions:
+- id: F11
+  enonce: Christine Lagarde, présidente de la BCE, déclare le 12 septembre 2026 que l'annulation de la dette française
+    détenue par la Banque de France serait financièrement très dangereuse et contraire aux traités (Q41, Q44).
+  sources:
+  - source: S4
+    extrait: C'est financièrement très dangereux et il se trouve que c'est aussi une violation des traités européens.
+  porteur: null
+- id: F12
+  enonce: Christine Lagarde déclare le 7 février 2021 que l'annulation de la dette publique détenue par la BCE,
+    demandée par une pétition d'économistes, est inenvisageable (Q41).
+  sources:
+  - source: S5
+    extrait: L'annulation de cette dette est inenvisageable.
+  porteur: null
+- id: F13
+  enonce: Christine Lagarde déclare le 7 février 2021 que cette annulation violerait le traité européen qui interdit
+    le financement monétaire des États (Q41, Q44).
+  sources:
+  - source: S5
+    extrait: Ce serait une violation du traité européen qui interdit strictement le financement monétaire des Etats.
+  porteur: null
+- id: F14
+  enonce: Christine Lagarde déclare le 2 juillet 2021 que l'annulation des dettes publiques serait contraire à la
+    législation et aux traités (Q41).
+  sources:
+  - source: S6
+    extrait: D'abord, c'est contraire à la législation et représenterait une violation des traités.
+  porteur: null
+- id: F15
+  enonce: Christine Lagarde déclare le 2 juillet 2021 que la plupart des « dettes COVID » achetées par la politique
+    monétaire sont inscrites au bilan de la Banque de France (Q41).
+  sources:
+  - source: S6
+    extrait: La plupart des « dettes COVID » contractées par l'Etat français et achetées sur le marché secondaire
+      dans le cadre de la politique monétaire sont inscrites au bilan de la Banque de France
+  porteur: null
+sources:
+  S1: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4 (Union européenne
+    (EUR-Lex), 2016) https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+  S2: Arrêt de la Cour (grande chambre) Gauweiler e.a., affaire C-62/14 (Cour de justice de l'Union européenne,
+    2015-06-16) https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+  S3: Arrêt de la Cour (grande chambre) Weiss e.a., affaire C-493/17 (Cour de justice de l'Union européenne, 2018-12-11)
+    https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+  S4: Entretien avec Ouest-France (Christine Lagarde, présidente de la BCE) (Banque centrale européenne, 2026-09-12)
+    https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260912~3cc706f4d6.fr.html
+  S5: Entretien avec Le Journal du Dimanche (Christine Lagarde, présidente de la BCE) (Banque centrale européenne,
+    2021-02-07) https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210207~f6e34f3b90.fr.html
+  S6: Entretien avec La Provence (Christine Lagarde, présidente de la BCE) (Banque centrale européenne, 2021-07-02)
+    https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210702~a6ca02cf8e.fr.html
+  S7: Comprendre les comptes annuels et les équilibres financiers 2025 (Banque de France, 2026-03) https://www.banque-france.fr/system/files/2026-03/Comprendre-les-comptes-2025.pdf
+  S8: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apurement du repo (Banque de France,
+    2026-03-24) https://www.banque-france.fr/system/files/2026-04/CP_Rapport%20Annuel%202025_240326.pdf'
+  S9: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du revenu moné (Banque de France,
+    2025-10) https://www.banque-france.fr/system/files/2026-02/BDF260_6_Partage_revenu-monetaire.pdf'
+  S10: 'Sur les enjeux associés à la structure de détention de la dette de l''État (rapport d''infor (Sénat, commission
+    des finances (rapporteur : Albéric de Montgolfier), 2025) https://www.senat.fr/rap/r24-902/r24-902_mono.html'
+  S11: La situation et les perspectives des finances publiques (synthèse du rapport) (Cour des comptes, 2026-06)
+    https://www.ccomptes.fr/sites/default/files/2026-06/20260625-synthese-RSPFP-2026.pdf
+  S12: (à établir) ((à établir), (à établir)) https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-detenue-par-la-banque-de-france
+  S13: (à établir) ((à établir), (à établir)) https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+  S14: (à établir) ((à établir), (à établir)) https://www.banque-france.fr/fr/interventions-gouverneur/
+  S15: (à établir) ((à établir), (à établir)) https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019306205
+  S16: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le ministre d (MoneyVox avec
+    AFP, 2026-08-24) https://www.moneyvox.fr/actu/110103/dette-la-crise-financiere-assuree-en-cas-annulation-partielle-selon-le-ministre-de-economie'
+  S17: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûtera (Selectra, 2026-08-28)
+    https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne'
+  S18: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française (Euronews (Olivier
+    Tolachides), 2026-09-11) https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+  S19: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se  (Public Sénat,
+    2026-08-25) https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes'
+  S20: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques (AFP (dépêche reprise
+    par La Gazette France ; originale Sud Radio), 2026-08-24) https://www.sudradio.fr/societe/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques'
+  S21: 'Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson (Public Sénat, 2020-12-28)
+    https://www.publicsenat.fr/actualites/societe/annulation-de-la-dette-ce-serait-dangereux-selon-jean-francois-husson-186411'
+  S22: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 mil (Public Sénat
+    (Guillaume Jacquot), 2026-10-12) https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu'
+  S23: La dette, un sujet politique (Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique
+    « L'économie à contre-courant », Politis, 2026-09-14) https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+  S24: La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de (FranceTransactions.com
+    (avec AFP), 2020-06-15) https://www.francetransactions.com/actus/actualites-socio-economiques/les-verts-proposent-leur-plan-de-reconstructionecologique.html
+  S25: 'Revue de Presse : présentation du plan de sortie de crise (Les Écologistes (site officiel), 2025-09-05)
+    https://lesecologistes.fr/posts/2aT2dm9CmbSGn92dKF4reV/revue-de-presse-presentation-du-plan-de-sortie-de-crise'
+  S26: 'Notre projet économique : l''essentiel d''abord (Les Écologistes, commission Économie, social et services
+    publics, 2026-10-26) https://commissions.lesecologistes.fr/posts/5aYbJADuyXSxpSZqMNf76o/notre-projet-economique-l-essentiel-d-abord'
+  S27: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défe (Public Sénat,
+    2024-06-20) https://www.publicsenat.fr/actualites/politique/credibilite-economique-de-la-gauche-il-y-a-de-la-bonne-et-de-la-mauvaise-dette-defend-marine-tondelier'
+  S28: (à établir) ((à établir), (à établir)) https://cf.eelv.fr/files/2021/04/Projet-2022-Monnaie-Note-de-cadrage_v2.pdf
+  S29: 'Annuler la dette détenue par la BCE : mécanismes, ordres de grandeur (dettedelafrance.fr (analyse assistée
+    par IA, selon la page), 2026-08-24) https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-ce-que-dit-l-economie'
+  S30: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques (La Gazette France
+    (dépêche), 2026-08-24) https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques'
+  S31: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par Marine Le  (Public Sénat
+    (Stéphane Duguet), 2026-10-06) https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f'
+  S32: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire adopter par (LCP - Assemblée
+    nationale (Maxence Kagni), 2026-10-02) https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par'
+  S33: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise majeure (La Gazette France
+    (dépêche), 2026-09-05) https://www.lagazettefrance.fr/article/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure
+  S34: (à établir) ((à établir), (à établir)) https://www.blick.ch/fr/monde/france/bardella-evoque-un-rachat-de-dette-francaise-par-la-bce-id21397239.html
+  S35: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud) (Lutte ouvrière, 2026-06-01) https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf
+  S36: Lutte ouvrière, hebdomadaire n° 3031 (Lutte ouvrière, 2026-09-04) https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf
+  S37: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la payer ! » (NPA (Nouveau
+    Parti anticapitaliste), 2011-12-01) https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf'
+  S38: Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation (Tendance CLAIRE (courant
+    du NPA), 2021-04-25) https://tendanceclaire.org/utils/pdf.php?id=1675
+  S39: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique pa (Jean-Luc Mélenchon
+    et les députés LFI signataires (Assemblée nationale, XVe législature), 2020-05-11) https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
+  S40: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon) (Jean-Luc Mélenchon
+    (site melenchon.fr), 2022-06-06) https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+  S41: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou (Assemblée nationale,
+    2021-03-22) https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2020-2021/deuxieme-seance-du-lundi-22-mars-2021.pdf'
+  S42: Looking back at PEPP implementation since the end of reinvestments (Banque centrale européenne (blog, I.
+    Rahmouni-Rousseau et I. Schnabel), 2025-04-29) https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250429~ce32da0a4c.fr.html
+  S43: « L’annulation des dettes publiques que la BCE détient constituerait un premier signal for (Collectif d'économistes,
+    dont Aurore Lalucq (Parlement européen, Place publique), 2021-02-05) https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf
+  S44: 'The future of European competitiveness – Part A: A competitiveness strategy for Europe (Mario Draghi, rapport
+    remis à la Commission européenne (le document précise qu''il ne représente pas la position officielle de la
+    Commission), 2024-09) https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en'
+  S45: Proposition de loi constitutionnelle Citoyenneté-Identité-Immigration, n° 2120 (Assemblée nationale (présentée
+    par Mme Marine Le Pen et les membres du groupe Rassemblement National), 2024-01-25) https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf
+  S46: Asset purchase programmes (Banque centrale européenne, 2026-11-03) https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html
+  S47: Pandemic Emergency Purchase Programme (Banque centrale européenne, 2026-11) https://www.ecb.europa.eu/mopo/implement/pepp/html/index.en.html
+  S48: Financial statements of the ECB for 2024 (Banque centrale européenne, 2025-02-20) https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250220~eca25e4e21.en.html
+notes_du_verificateur:
+  S1: 'Version consolidée 2016 du TFUE avec ses protocoles, en français (EUR-Lex). F45 : l''extrait figure mot pour
+    mot à l''article 123 §1, et l''article 21.1 du protocole n° 4 dit la même chose ; aucun des deux textes ne parle
+    d''annulation ni de conversion de titres déjà détenus, ce qui confirme la seconde moitié de F45 sur la lettre
+    du texte (la jurisprudence de la CJUE n''est pas dans cette source). Aucune personne citée, donc pas d''appartenance
+    partisane en jeu.'
+  S10: 'Bon document : rapport d''information de la commission des finances du Sénat, rapporteur Albéric de Montgolfier,
+    examiné et déposé le 24 septembre 2025 (date précisable : 2025-09-24). F16 : l''extrait figure mot pour mot,
+    au conditionnel (« détiendrait »), dans la partie qui commente la structure de détention au premier trimestre
+    2025 ; même sens. F17 : le chiffre de 24,4 % figure dans le tableau « Autres français (dont la Banque de France
+    pour le compte de la BCE) », titres de la dette négociable de l''État au premier trimestre 2025 en valeur de
+    marché ; même périmètre.'
+  S16: 'Bon document (MoneyVox avec AFP, publié le 24 août 2026 à 10h00), les trois extraits y figurent mot pour
+    mot. F25 : même chose (10 ans, 4,11 % le lundi 24 août, plus de 4,14 % le jeudi, record depuis 2008), mais c''est
+    une valeur de la matinée. F26 et F27 sont seulement l''avis attribué à Roland Lescure (BFMTV/RMC) : la source
+    montre qu''il l''a dit, sans établir l''effet sur les taux ni l''illégalité. Partis : Roland Lescure est seulement
+    présenté comme « ministre de l''Economie » ; son appartenance à Renaissance (porte_par) n''est PAS établie par
+    cette source, et Jean-Luc Mélenchon y est désigné comme candidat, sans parti.'
+  S20: 'L''adresse Sud Radio renvoie toujours 404 (essai refait, ainsi que la reprise Boursedirect, 404 aussi).
+    J''ai ouvert la même dépêche AFP, publiée le 24 août 2026, à https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+    : il faudrait remplacer l''adresse au dossier. Elle dit que « Gabriel Attal a dénoncé mi-août un discours "délirant"
+    », sans citer son parti : son appartenance à Renaissance n''est PAS établie par cette source.'
+  S22: 'Bon document : Public Sénat, article signé Guillaume Jacquot, publié le 12/10/2026. F29 : l''extrait figure
+    mot pour mot (« un effort « inédit » de 197 milliards d''euros sur cinq ans, dont 56 milliards d''euros d''allègement
+    de la fiscalité… ») et dit la même chose que l''énoncé, présentation du plan « ce 12 octobre » comprise ; F30
+    : l''extrait figure mot pour mot dans le chapeau et dit la même chose. L''appartenance est établie par la source
+    (« Le candidat des Républicains », « candidat LR »).'
+  S23: 'Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026, rubrique « L''économie à contre-courant
+    ». F31 : l''extrait figure (« dont environ 640 milliards de titres publics français », rapporté au bilan de
+    l''Eurosystème de 6 000 milliards « en 2026 ») mais c''est le chiffre d''un chroniqueur, sans source citée,
+    qui ne suffit pas à établir un fait ; F32 : l''extrait figure, mais le rapport Draghi (ouvert, voir sources_ajoutees)
+    dit « un minimum de 750 à 800 milliards » par an, et non 800. La page ne mentionne ni EELV ni Les Écologistes
+    : l''appartenance partisane de Jérôme Gleizes n''est pas établie par cette source.'
+  S24: 'Bon document : FranceTransactions.com (avec AFP), publié le lundi 15 juin 2020 ; la date des métadonnées
+    (jour de consultation) est sans valeur. F34 : l''extrait figure (« les Verts souhaitent une annulation de la
+    dette française auprès de laBCE , une fiscalité "plus juste" avec notamment le rétablissement de l''ISF ») et
+    dit la même chose que l''énoncé, plan de « reconstruction écologique » compris. L''appartenance est établie
+    par la source (« projet de société d''EELV », porte-parole du parti Eva Sas).'
+  S25: 'Bon document : revue de presse du site officiel des Écologistes ; date absente des métadonnées, mais les
+    articles repris sont datés du 04/09 et 05/09 (contexte Bayrou), cohérent avec septembre 2025. F35 et F36 : les
+    deux extraits figurent mot pour mot ; F36 « plus progressive que celle du gouvernement » correspond à « ils
+    proposent de réduire plus progressivement le déficit », formulé par rapport à François Bayrou ; il s''agit d''un
+    extrait de presse reproduit par le parti, le titre du média d''origine n''apparaissant que partiellement. L''appartenance
+    est établie (site lesecologistes.fr, « les écologistes »).'
+  S26: 'Bon document : page de la commission Économie, social, services publics des Écologistes, « Publié le 26
+    oct. 2026 ». F33 : l''extrait figure mot pour mot avec la référence (ch. 60, mesure 3, p. 190), et la page indique
+    « Le programme adopté en juillet 2026 » ; c''est un résumé de commission qui renvoie au programme (PDF lesecologistes.fr),
+    lui-même non ouvert ici. L''appartenance est établie (site et commission du parti).'
+  S27: 'Bon document : Public Sénat, 20 juin 2024, titre exact ; la citation « Il y a de la bonne et de la mauvaise
+    dette » attribuée à Marine Tondelier figure dans le titre. Aucune affirmation du lot à contrôler. L''appartenance
+    est établie par la source (« la cheffe de file des écologistes Marine Tondelier »).'
+  S29: 'Bon document (titre et date du 24 août 2026 conformes ; l''adresse redirige vers une version longue de l''URL),
+    page signalée « analyse assistée par IA ». F41 : l''extrait figure mot pour mot, mais il rapporte un argument
+    de Jordan Bardella publié sur X (« Il a argué que… »), sans établir le mécanisme, et ne mentionne pas l''impôt
+    ; un site de niveau 4 ne peut fonder cette estimation. Appartenance établie : la page présente Jordan Bardella
+    comme « président du Rassemblement national ».'
+  S30: 'Bon document : dépêche AFP reprise par La Gazette France, publiée le 24 août 2026, titre conforme ; aucune
+    affirmation à contrôler. Appartenance : la dépêche nomme La France insoumise (LFI) à propos des universités
+    d''été où Matthieu Pigasse était invité, sans dire en toutes lettres, dans les passages lus, que Jean-Luc Mélenchon
+    dirige LFI.'
+  S31: 'Bon document : Public Sénat, Stéphane Duguet, 6 octobre 2026. F37 : 140 milliards d''économies d''ici 2032
+    et l''extrait « de 121 % en 2027 à 112 % en 2032 » figurent mot pour mot ; F38 : l''extrait sur l''immigration
+    (15 milliards en 2027, 29 milliards en année pleine) figure mot pour mot ; les deux disent la même chose, présentés
+    lors de la conférence de presse du 6 octobre 2026 au siège du parti. Appartenance établie : Marine Le Pen est
+    présentée comme « candidate du Rassemblement national », et le plan comme « présenté par le RN ».'
+  S32: 'Bon document : LCP, Maxence Kagni, vendredi 2 octobre 2026 (date lue dans la signature, absente des métadonnées).
+    F39 : l''extrait figure mot pour mot ; l''article précise aussi qu''elle propose d''inscrire la règle d''or
+    « dans la Constitution » par référendum, en fixant « un déficit maximum », d''après sa tribune dans L''Opinion
+    du 1er octobre 2026 : même périmètre que l''affirmation. Appartenance établie : « La candidate du Rassemblement
+    national à l''élection présidentielle ».'
+  S33: 'Bon document : dépêche AFP reprise par La Gazette France, 5 septembre 2026. F40 : l''extrait figure mot
+    pour mot ; la formule « met fin à la primauté du droit européen » est la description de l''AFP, le texte officiel
+    (n° 2120 du 25 janvier 2024, ajouté en source) parlant de « supériorité de la Constitution sur toute autre norme,
+    même internationale » : même sens, autre formulation. Appartenance établie : « La candidate RN à l''élection
+    présidentielle ».'
+  S35: 'Bon document : brochure de Lutte ouvrière pour la candidature de Nathalie Arthaud à la présidentielle 2027
+    ; le PDF ne porte pas de date en métadonnées, mais son adresse (2026/06) et sa mention de la fête de mai 2026
+    concordent avec juin 2026. F42 : l''extrait figure mot pour mot ; la source dit « aux capitalistes privés »
+    là où l''affirmation dit « entreprises privées », et elle établit seulement que LO cite ce chiffre, pas son
+    exactitude (niveau 3). Appartenance établie : la brochure est signée de Nathalie Arthaud, sous le sigle LO.'
+  S36: 'Bon document : hebdomadaire Lutte ouvrière n° 3031 du 4 septembre 2026 (numéro et date imprimés dans le
+    PDF). Aucune affirmation à contrôler : la source sert seulement de lieu consulté (sans_position) ; elle contient
+    une prise de position générale (« la dette est celle de la bourgeoisie et que c''est à elle de payer »). L''appartenance
+    à Lutte ouvrière est établie (journal du parti, soutien à la campagne de Nathalie Arthaud).'
+  S37: 'Bon document : tract du NPA (adresse npa2009.org imprimée) sur la dette ; la date exacte du 2011-12-01 n''est
+    pas imprimée, mais le contenu (gouvernement Fillon, « octobre 2011 », candidat socialiste « pour 2012 ») situe
+    le tract fin 2011, sans confirmer le jour. F43 (valeur) : l''extrait figure (« Pour le NPA, la réponse est claire,
+    une dette construite par les cadeaux faits aux plus riches et aux grandes entreprises est illégitime et n''a
+    pas à être payée ») et dit la même chose que l''énoncé (le mot « fiscaux » de l''énoncé est repris d''autres
+    passages du tract). L''appartenance au NPA est établie par la source (« Pour le NPA »).'
+  S39: 'Bon document : proposition de résolution n° 2914, enregistrée le 11 mai 2020, présentée par Jean-Luc Mélenchon
+    et 16 autres députés. F50 : l''extrait figure mot pour mot dans les considérants ; il établit que c''est l''objectif
+    déclaré par les auteurs, pas un effet constaté. F56 (valeur) : l''extrait figure et dit la même chose que l''énoncé.
+    Appartenance partisane : le PDF liste les noms des signataires sans mentionner le groupe La France insoumise
+    ; le rattachement à LFI n''est pas établi par cette source.'
+  S41: 'Bon document : compte rendu intégral, 2e séance du lundi 22 mars 2021, débat « La dette publique : la payer
+    ou l''annuler ? » à l''initiative du groupe GDR. Les quatre extraits (F49 « dégager immédiatement des marges
+    financières très importantes », F51, F52, F55) figurent dans l''intervention de Fabien Roussel et disent la
+    même chose que les énoncés ; pour F49 (estimation), c''est l''appréciation d''un orateur, sans chiffrage ni
+    méthode, et non une estimation d''institution. Appartenance : la source établit « M. Fabien Roussel (GDR) »
+    et qu''il parle au nom des « députés communistes » ; le sigle PCF n''y figure pas en toutes lettres.'
+  S42: 'Bon document : billet du blog de la BCE du 29 avril 2025, par Imène Rahmouni-Rousseau et Isabel Schnabel
+    (texte en anglais, « Pas disponible en français » sur l''adresse .fr). F48 : l''extrait figure (« At the end
+    of 2024 [...] reinvestments under the pandemic emergency purchase programme (PEPP) came to an end ») et dit
+    la même chose que l''énoncé, même programme et même date. Source officielle, sans personne partisane citée.'
+  S43: 'Bon document : copie PDF (hébergée par EconomiX) de la tribune collective du Monde au titre annoncé ; la
+    date du 2021-02-05 n''apparaît pas dans le PDF (« Publié aujourd''hui »), elle n''est donc pas confirmée par
+    cette copie. F57, F58, F59, F60 : les quatre extraits figurent mot pour mot et disent la même chose que les
+    énoncés (F58 est bien la position des signataires, présentée comme reconnue par « un très grand nombre d''économistes
+    », pas une démonstration ; F57 reprend aussi la phrase sur le mot « annulation » absent du traité et du protocole
+    SEBC). Appartenance partisane : la source présente Aurore Lalucq comme « (Parlement européen) » seulement ;
+    son rattachement à Place publique n''est pas établi par cette source.'

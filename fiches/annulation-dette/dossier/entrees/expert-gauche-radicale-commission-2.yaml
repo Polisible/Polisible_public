@@ -1,0 +1,14 @@
+agent: expert-gauche-radicale
+phase: 5
+reponses_relances:
+  - relance: R27
+    texte: "A46 a raison sur un point : F24 et F44 établissent que les achats ont respecté l'interdiction du financement direct, non que le traitement ultérieur des titres est interdit. A21 passe de l'un à l'autre sans prémisse intermédiaire, et je n'ai pas de décision ni d'avis d'institution qui comble ce pas. Je ne peux pas y répondre par un fait nouveau."
+    elements: []
+  - relance: R28
+    texte: "Je n'ai trouvé aucune décision de la Cour ni aucun avis juridique d'institution qui traite l'annulation ou la conversion de titres déjà détenus. A29 ne repose donc que sur F1 et F2, qui établissent l'interdiction du financement direct, non son extension à ce cas (F45, F27 Invérifiable). La nécessité d'une révision reste une position de la famille, non un point établi."
+    elements: []
+  - relance: R30
+    texte: "Je n'ai pas de source qui isole la part des intérêts sur titres de l'État dans le résultat de la Banque de France. Le lien entre ces intérêts et les sommes reversées (F19, F20) reste non établi (F41), comme le dit déjà A23 en parlant de flux variable (F21). Je ne peux pas le chiffrer."
+    elements: []
+incertitudes:
+  - "Je n'ai pas relu le texte de A46 et de A37 hors de la relance : je réponds à la formulation de R27."

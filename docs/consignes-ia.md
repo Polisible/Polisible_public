@@ -34,7 +34,7 @@ Un écart trouvé au contrôle ou à votre vérification renvoie toujours la fic
 | 2 | Étape 3, rédaction | Le résultat de la conversation 1 |
 | 3 à 10 | Étape 4, une relecture par famille politique | La fiche de la conversation 2 |
 | 11 | Étape 4 bis, symétrie | La fiche de la conversation 2 |
-| 12 | Étape 4 ter, intégration | La fiche, les huit relectures et le test de symétrie |
+| 12 | Étape 4 ter, intégration | La fiche, les sept relectures et le test de symétrie |
 | 13 | Étape 5, contrôle des sources | La fiche intégrée de la conversation 12 |
 | — | Étape 6, vérification humaine | Aucune IA : c'est vous |
 
@@ -155,18 +155,19 @@ RÈGLES
 
 ## Étape 4 — Relecture contradictoire
 
-La fiche est relue huit fois, chaque fois dans une nouvelle conversation, du point de vue d'une grande famille de pensée. Le relecteur ne réécrit rien : il dresse une liste de problèmes.
+La fiche est relue sept fois, chaque fois dans une nouvelle conversation, du point de vue d'une grande famille de pensée. Le relecteur ne réécrit rien : il dresse une liste de problèmes.
 
 | Famille politique | Exemples de partis | Priorités à indiquer dans la consigne |
 | --- | --- | --- |
 | Extrême gauche | NPA, Lutte ouvrière | Rupture avec le capitalisme, défense des travailleurs, internationalisme |
 | Gauche radicale | LFI, PCF | Justice sociale, rôle fort de l'État, critique des marchés financiers et des traités européens |
-| Gauche sociale-démocrate | PS | Redistribution, services publics, construction européenne |
-| Écologie politique | Les Écologistes | Climat, biodiversité, effets à long terme, justice sociale |
-| Centre gauche | Place publique | Progrès social, construction européenne, économie de marché régulée |
-| Centre et centre droit | Renaissance, MoDem, Horizons | Équilibre des comptes, compétitivité, réformes, construction européenne |
-| Droite conservatrice et gaulliste | LR | Ordre et autorité, responsabilité budgétaire, valeurs traditionnelles |
-| Droite radicale et extrême droite | RN, UDR, Reconquête | Souveraineté nationale, identité, contrôle de l'immigration, sécurité |
+| Sociaux-démocrates | PS, Place publique | Redistribution, services publics, construction européenne, économie de marché régulée |
+| Écologistes | Les Écologistes | Climat, biodiversité, effets à long terme, justice sociale |
+| Centre | Renaissance, MoDem, Horizons, UDI | Équilibre des comptes, compétitivité, réformes, construction européenne |
+| Droite | LR | Ordre et autorité, responsabilité budgétaire, valeurs traditionnelles |
+| Extrême droite | RN, UDR, Reconquête | Souveraineté nationale, identité, contrôle de l'immigration, sécurité |
+
+**Mise à jour du 10 novembre 2026.** Les familles sont passées de huit à sept et sont nommées comme le fait la science politique française (par exemple « extrême droite », terme employé par les politologues, plutôt que « droite radicale », traduction de l'anglais *radical right*). Une famille n'étant pas homogène, chaque expert signale les divergences internes à sa famille, attribuées au parti qui les porte ; sur une fiche où une divergence forte apparaît, la famille peut être dédoublée, sur validation du fondateur.
 
 Ces descriptions sont volontairement générales : le relecteur représente un lecteur exigeant de chaque famille, pas la ligne officielle d'un parti. Les noms de familles et de partis servent seulement à orienter le relecteur ; ils ne servent jamais à désigner un camp dans une fiche, où les camps sont désignés par les partis ou personnes qui portent chaque argument. Comme le reste de ces consignes, ils sont publiés sur le site.
 
@@ -220,7 +221,7 @@ B. Problèmes, au même format que l'étape 4.
 ```text
 ÉTAPE 4 TER — INTÉGRATION DES CORRECTIONS
 
-Pièces jointes : la fiche, les huit relectures contradictoires, le test de symétrie.
+Pièces jointes : la fiche, les sept relectures contradictoires, le test de symétrie.
 
 1. Pour chaque problème signalé, décide : accepté ou refusé, avec une phrase de justification. Refuse toute correction qui n'est pas appuyée par une source, ou qui changerait un verdict sans raison factuelle.
 2. Si deux relecteurs se contredisent, tranche d'après les sources et mentionne le désaccord dans « Ce qu'on ne sait pas » s'il porte sur le fond.
@@ -290,7 +291,7 @@ Ces consignes sont une première version : les trois fiches pilotes serviront à
 Points à observer pendant les pilotes :
 
 - **Temps réel par fiche**, étape par étape, comparé à l'estimation de 2 à 3 heures pour votre part.
-- **Qualité des relectures** : les huit points de vue trouvent-ils de vrais problèmes, ou répètent-ils les mêmes ? Si deux se ressemblent trop, on les fusionne.
+- **Qualité des relectures** : les sept points de vue trouvent-ils de vrais problèmes, ou répètent-ils les mêmes ? Si deux se ressemblent trop, on les fusionne.
 - **Sources inventées ou mal lues** : combien l'étape 5 en attrape, combien vous en trouvez encore à l'étape 6. Si vous en trouvez souvent, on renforce les étapes 2 et 3.
 - **Format des affirmations** : est-il assez structuré pour que Claude Code le convertisse sans perte en fichier du site ? Sinon, on passera à un format plus strict avant le développement.
 - **Lisibilité** : faites lire une fiche à un proche non initié et notez où il décroche.

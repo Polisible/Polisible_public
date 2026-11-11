@@ -1,0 +1,127 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T7
+  partis:
+  - RN
+  - HOR
+  question_posee: Votre thèse T7 suppose que les versements de la Banque de France à l'État baisseraient au point
+    d'annuler l'essentiel du gain, ce que le dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une
+    source qui isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France ?
+  id: R7
+  statut: posee
+tes_theses:
+- id: T7
+  question: Q43
+  position: non
+  enonce: 'L''opération ne réduirait pas durablement la charge nette de l''État : la Banque de France lui reverse
+    une part de ses bénéfices, qui baisserait avec les intérêts perçus. Le gain net serait faible, nul ou inconnu.'
+  arguments:
+  - A13
+  - A39
+  repond_a:
+  - T9
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A13 et A39 portent sur la charge d'intérêts compte tenu des reversements de la Banque de France
+        (F19, F20), objet de Q43.
+    appui:
+      valeur: partiel
+      justification: Les reversements sont établis (F19, F20, Vrai) ; le lien entre intérêts perçus et sommes reversées
+        repose sur F41 (Pas d'estimation fiable), que la résolution de l'objection O1 rend plausible sans le chiffrer
+        (S9).
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : F19 et F20 montrent que le gain net est inférieur
+        au gain brut, non qu''il soit faible ou nul ; A39 conclut lui-même que le gain est « inconnu », ce qui ne
+        permet pas de répondre non (F41).'
+    portee:
+      texte: établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et que le gain net est
+        donc inférieur au gain brut ; ne prouve pas que la charge nette ne baisserait pas durablement.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A13 ou A39 ; l'objection O1 du vérificateur sur F41 est résolue sans
+        changer son verdict.
+    conclusion: ne tient pas
+  portee_par:
+  - HOR
+  - RN
+- id: T23
+  question: Q46
+  position: oui
+  enonce: Les choix budgétaires doivent relever des Français, par la primauté du droit national et une règle d'or
+    adoptée par référendum. La règle proposée plafonne le déficit et n'autorise pas à ne pas honorer la dette.
+  arguments:
+  - A15
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A15 porte sur le niveau de décision, national ou européen (F39, F40), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F39 (Vrai) et F40 (Plutôt vrai, la formule de l''AFP
+        étant proche du texte de la proposition).'
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la décision nationale (F40) et à la discipline budgétaire (F39), la
+        conclusion découle, sans en tirer plus.
+    portee:
+      texte: établit que la règle d'or par référendum et la primauté de la Constitution sont proposées (F39, F40)
+        ; ne prouve pas que ces propositions s'appliqueraient à des titres détenus par l'Eurosystème.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A15 (F39).
+    conclusion: tient
+  portee_par:
+  - RN
+- id: T25
+  question: Q47
+  position: non
+  enonce: Pour dégager des marges, la voie préférable est de réduire la dépense publique et de viser un excédent
+    primaire, rendu contraignant par une règle d'or. L'annulation ne traiterait pas la cause du déficit.
+  arguments:
+  - A8
+  - A14
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A8 et A14 comparent l'annulation aux économies (F30, F37), objet de Q47.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F22, F29, F30, F37, F38, F39 (Vrai), qui décrivent
+        les plans et la charge de la dette.'
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Pour A8, la position sur l'annulation est déduite du silence du plan (F29, F30), ce que l'argument
+        reconnaît ; A14 l'énonce explicitement (F37, F39).
+    portee:
+      texte: établit que les plans présentés en octobre 2026 font reposer l'effort sur les économies (F30, F37)
+        ; ne prouve pas que tous les partis qui portent la thèse aient écarté l'annulation, ni que les économies
+        prévues seraient obtenues (F38).
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A8 ou A14 (F37).
+    conclusion: tient en partie
+  portee_par:
+  - LR
+  - RN
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?

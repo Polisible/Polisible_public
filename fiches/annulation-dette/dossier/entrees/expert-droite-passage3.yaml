@@ -1,0 +1,35 @@
+agent: expert-droite
+phase: 4
+arguments:
+  - ref: a1
+    question: Q42
+    position: pour
+    enonce: "Le raisonnement de A22 ne suit pas : le taux ne rémunère pas seulement le risque sur la part annulée, il reflète aussi la confiance des prêteurs dans le respect des règles. Une opération juridiquement contestée peut donc peser sur les taux même si les créanciers privés sont payés."
+    raisonnement: "A22 déduit l'absence d'effet du fait que les créanciers privés restent remboursés, mais F47 n'est qu'un avis de ses auteurs, sans estimation d'institution, et F27 établit que la conformité aux traités est disputée. Un prêteur qui voit un État traiter une catégorie de créanciers autrement peut craindre que d'autres règles changent aussi ; A22 ne répond pas à ce risque de précédent (F26)."
+    porte_par:
+      - {qui: "Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien du 28 décembre 2020)", parti: "LR", source: S21}
+    affirmations: [F26, F27, F47]
+    repond_a: A22
+  - ref: a2
+    question: Q45
+    position: contre
+    enonce: "A34 tire de F17 que la dette serait en bonne partie due à des institutions publiques, mais cette catégorie n'est pas limitée à la Banque de France ; la conclusion « ne pas rembourser » dépasse donc ce que le chiffre montre."
+    raisonnement: "F17 mesure la catégorie « autres français », qui inclut la Banque de France pour le compte de la BCE sans s'y réduire (F16 le précise). Le chiffre de 24,4 % surestime donc la part détenue pour l'Eurosystème. Et la qualité publique du créancier ne répond pas à l'argument de A4 : les titres ont été achetés à des investisseurs (F24)."
+    porte_par:
+      - {qui: "Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien du 28 décembre 2020)", parti: "LR", source: S21}
+    affirmations: [F16, F17, F24]
+    repond_a: A34
+examen:
+  - {question: Q41, conclusion: "A1, A9, A20, A21, A32 reposent sur F1, F2, F5, F8-F10 exacts ; tous reconnaissent que la contrariété aux traités est une interprétation (F27, F45). Rien à contester sur les faits ; le désaccord est d'interprétation juridique."}
+  - {question: Q42, conclusion: "A22 conclut à l'absence d'effet sur les taux sur la seule base de F47, avis d'auteurs sans chiffrage ; le risque de précédent n'est pas traité (contre-argument a1). A2 est de notre côté."}
+  - {question: Q43, conclusion: "A13, A16, A23, A24 reposent sur F19, F20, F22 exacts et reconnaissent que le gain net est inférieur au gain brut ; O1 est déjà posée sur F41, rien de nouveau à ajouter. A24 admet que F49 n'est pas chiffré."}
+  - {question: Q44, conclusion: "A25 et A33 se limitent à une décision prise par le conseil des gouverneurs, ce qui est cohérent avec F3 et F5 ; F58 est un point débattu (Débat entre experts). Rien à contester sur les faits."}
+  - {question: Q45, conclusion: "A34 sur-interprète F17 (catégorie plus large que la Banque de France, contre-argument a2). A10, A17, A26, A27 relèvent de valeurs (F43, F51-F53) ou de faits exacts ; l'écart avec notre position est un désaccord de valeur."}
+  - {question: Q46, conclusion: "A5, A11, A15, A28, A29, A35 s'appuient sur F3-F5, F39, F40 exacts ; A15 précise que la règle d'or n'implique pas d'annuler. Rien à contester."}
+  - {question: Q47, conclusion: "A19, A30, A12, A31, A36 reposent sur des valeurs ou sur F47/F49 non chiffrés, déjà qualifiés Pas d'estimation fiable ; A18 s'appuie sur F42 déjà Invérifiable. Rien de nouveau à contester."}
+valeurs:
+  - {question: Q45, enonce: "Notre famille met en priorité la parole donnée par l'État : une dette se rembourse quel que soit le créancier, y compris public, car le précédent engage la confiance future."}
+  - {question: Q47, enonce: "Notre famille privilégie la maîtrise de la dépense et le retour à l'excédent primaire plutôt qu'un allègement du stock de dette."}
+incertitudes:
+  - "A1 et a2 s'appuient sur S21, position de 2020 de Jean-François Husson sur l'annulation, pas sur la proposition de 2026."
+  - "Je n'ai pas rouvert de source : les examens portent sur le lot et les verdicts qu'il indique."

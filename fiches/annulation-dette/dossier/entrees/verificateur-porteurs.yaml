@@ -1,0 +1,41 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S49
+    statut: conforme
+    note: "Bon document (LégiFiscal, 5 octobre 2025). Il établit que Roland Lescure « était député Renaissance » avant sa nomination au ministère de l'Économie, le 5 octobre 2025, soit dix mois avant la déclaration du 24 août 2026 ; la page ne dit rien du parti en 2026 et c'est une source de niveau 4."
+  - id: S50
+    statut: conforme
+    note: "Bon document (LCP, Raphaël Marchal, 22 mai 2026). Il appelle Gabriel Attal « le secrétaire général de Renaissance » et dit qu'il a officialisé sa candidature à la présidentielle de 2027, trois mois avant la déclaration du 27 août 2026."
+  - id: S51
+    statut: conforme
+    date_corrigee: "2024-09-03"
+    note: "Bon document, mais publié le 3 septembre 2024 (mis à jour le 12 janvier 2025), pas en 2026. Il désigne Édouard Philippe comme « président du parti Horizons » et candidat à la prochaine présidentielle (2027) : l'appartenance est établie en 2024, deux ans avant la déclaration du 27 août 2026, et non à cette date."
+  - id: S52
+    statut: conforme
+    note: "Bon document (Public Sénat, 20 novembre 2018). « Le député du Nord Fabien Roussel » est choisi pour prendre la tête du Parti communiste : l'appartenance au PCF est établie en 2018, deux ans et quatre mois avant l'intervention du 22 mars 2021."
+  - id: S53
+    statut: conforme
+    note: "Bon document (Politis, 29 mai 2024). Il indique qu'en 2019 Aurore Lalucq « rejoint Place publique et est élue au Parlement européen », et qu'elle est eurodéputée sur la liste PS-Place publique en 2024 : 2021 est encadré par ces deux dates, sans être établi directement."
+porteurs:
+  - vise: A12
+    index: 2
+    fonction: "cheffe de file des écologistes"
+    note: "S27 : « explique la cheffe de file des écologistes Marine Tondelier » ; la source ne dit pas « secrétaire nationale »."
+  - vise: A2
+    index: 1
+    fonction: "candidat à l'élection présidentielle de 2027"
+    note: "S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; « président du parti Horizons » n'est établi que par S51, en septembre 2024."
+  - vise: A6
+    index: 0
+    fonction: "candidat à l'élection présidentielle de 2027"
+    note: "S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; « président du parti Horizons » n'est établi que par S51, en septembre 2024."
+  - vise: A6
+    index: 1
+    fonction: "candidat à l'élection présidentielle de 2027"
+    note: "S17 : « ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; S50 : « a officialisé sa candidature à l'élection présidentielle de 2027 » (22 mai 2026), où il est aussi « le secrétaire général de Renaissance »."
+  - vise: A20
+    index: 1
+    fonction: "candidat à l'élection présidentielle de 2022"
+    note: "S40 : « Jean-Luc Mélenchon est le premier candidat à l'élection présidentielle à avoir été invité » dans la partie « L'élection présidentielle 2022 » ; « ancien » n'y figure pas."

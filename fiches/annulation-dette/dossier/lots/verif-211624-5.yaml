@@ -1,0 +1,38 @@
+sources_a_verifier:
+- source:
+    id: S43
+    titre: « L’annulation des dettes publiques que la BCE détient constituerait un premier signal fort de la reconquête
+      par l’Europe de son destin » (tribune collective, Le Monde)
+    auteur: Collectif d'économistes, dont Aurore Lalucq (Parlement européen, Place publique)
+    date: '2021-02-05'
+    adresse: https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf
+    niveau: 3
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F57
+    enonce: Les traités européens n'interdisent pas explicitement l'annulation de dettes publiques détenues par
+      la BCE (le mot « annulation » ne figure ni dans le traité ni dans le protocole sur le SEBC).
+    type: fait
+    declaration: false
+    extrait_annonce: l’annulation n’est pas explicitement interdite par les traités européens.
+  - affirmation: F58
+    enonce: Une banque centrale peut fonctionner avec des fonds propres négatifs sans que sa capacité d'action en
+      soit affectée.
+    type: estimation
+    declaration: false
+    extrait_annonce: une banque centrale peut fonctionner avec des fonds propres négatifs sans difficulté.
+  - affirmation: F59
+    enonce: Le texte de 2021 propose que la BCE efface ses créances sur les États (ou les convertisse en dettes
+      perpétuelles sans intérêt) en échange de l'engagement des États d'investir les mêmes montants dans la reconstruction
+      écologique et sociale.
+    type: fait
+    declaration: true
+    extrait_annonce: tandis que les Etats s’engagent à investir les mêmes montants dans la reconstruction écologique
+      et sociale.
+  - affirmation: F60
+    enonce: Le texte de 2021 propose un contrat entre les États européens et la BCE, et non une décision prise par
+      un seul État.
+    type: fait
+    declaration: true
+    extrait_annonce: 'Notre proposition est donc simple : passons un contrat entre les Etats européens et la BCE.'

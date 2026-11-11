@@ -1,0 +1,835 @@
+- id: Q1
+  enonce: Les traités européens interdisent-ils à la Banque de France d'annuler les titres de dette publique française
+    qu'elle détient pour l'Eurosystème ?
+  type: fait
+  pourquoi: Le cadre juridique (interdiction du financement monétaire des États, indépendance de la banque centrale)
+    conditionne toute la faisabilité de la proposition.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q41
+- id: Q2
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par l'Eurosystème ferait-il monter les taux auxquels
+    l'État français emprunte ?
+  type: estimation
+  pourquoi: L'effet sur la confiance des investisseurs privés est l'argument central des opposants comme des partisans,
+    et il se chiffre.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q42
+- id: Q3
+  enonce: Cette opération réduirait-elle réellement la charge de la dette pour l'État, compte tenu de la remise
+    à l'État des intérêts perçus par la Banque de France ?
+  type: estimation
+  pourquoi: L'effet budgétaire net dépend des intérêts, des pertes de la banque centrale et de la recapitalisation
+    éventuelle.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q43
+- id: Q4
+  enonce: Une annulation partielle de la dette publique, même limitée à la part détenue par la banque centrale,
+    affaiblirait-elle la crédibilité de la France et de l'euro ?
+  type: estimation
+  pourquoi: Elle porte sur l'effet de précédent et sur la stabilité de la zone euro, au-delà du cas français.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q44
+- id: Q5
+  enonce: Un État doit-il honorer l'intégralité de ses engagements de dette, y compris lorsque son créancier est
+    sa propre banque centrale ?
+  type: valeur
+  pourquoi: Elle oppose le principe de respect des engagements et de la discipline budgétaire à l'idée qu'une dette
+    détenue par la banque centrale a un statut distinct.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q45
+- id: Q6
+  enonce: La réduction du déficit par des réformes et des économies est-elle préférable à toute forme d'annulation
+    de dette ?
+  type: valeur
+  pourquoi: Elle pose le choix entre rétablir les comptes par l'effort budgétaire et alléger le stock de dette par
+    une opération monétaire.
+  proposee_par:
+  - expert-centre
+  statut: fusionnee dans Q47
+- id: Q7
+  enonce: Les traités européens interdisent-ils à la Banque de France et à l'Eurosystème d'annuler ou de transformer
+    en dette perpétuelle les titres publics qu'ils détiennent ?
+  type: fait
+  pourquoi: Toute la proposition dépend de sa légalité, notamment de l'interdiction du financement monétaire des
+    États.
+  proposee_par:
+  - expert-droite
+  statut: fusionnee dans Q41
+- id: Q8
+  enonce: Annuler ou geler la part de la dette détenue par l'Eurosystème ferait-il monter les taux auxquels l'État
+    français emprunte ?
+  type: estimation
+  pourquoi: Le coût de financement futur de l'État dépend de la confiance des prêteurs dans la parole de la France.
+  proposee_par:
+  - expert-droite
+  statut: fusionnee dans Q42
+- id: Q9
+  enonce: Cette mesure réduirait-elle de façon durable la charge de la dette de l'État, compte tenu des déficits
+    annuels qui continueraient de s'ajouter ?
+  type: estimation
+  pourquoi: Il faut mesurer ce que la mesure change réellement par rapport aux déficits et au besoin de financement
+    annuel.
+  proposee_par:
+  - expert-droite
+  statut: fusionnee dans Q43
+- id: Q10
+  enonce: Cette mesure affaiblirait-elle la crédibilité de l'euro ou l'indépendance de la Banque centrale européenne
+    ?
+  type: estimation
+  pourquoi: Une monnaie commune repose sur la règle qu'aucun État ne fait effacer ses dettes par sa banque centrale.
+  proposee_par:
+  - expert-droite
+  statut: fusionnee dans Q44
+- id: Q11
+  enonce: Un État doit-il toujours honorer intégralement ses dettes, sans les annuler ?
+  type: valeur
+  pourquoi: La famille de droite place la responsabilité budgétaire et la parole donnée avant les arrangements sur
+    la dette.
+  proposee_par:
+  - expert-droite
+  statut: fusionnee dans Q45
+- id: Q12
+  enonce: Les titres de dette publique française détenus par la Banque de France pour l'Eurosystème peuvent-ils
+    être annulés ou gelés en dette perpétuelle sans modifier les traités européens ?
+  type: fait
+  pourquoi: Tout le débat dépend de la possibilité juridique (interdiction du financement monétaire des États, indépendance
+    de la banque centrale).
+  proposee_par:
+  - expert-ecologistes
+  statut: fusionnee dans Q41
+- id: Q13
+  enonce: Annuler ou geler la part de dette détenue par l'Eurosystème réduirait-il durablement la charge d'intérêts
+    de l'État et son besoin de financement ?
+  type: estimation
+  pourquoi: Les montants détenus sont importants, mais leur effet sur les intérêts et sur le déficit annuel est
+    contesté ; il conditionne l'intérêt réel de la mesure.
+  proposee_par:
+  - expert-ecologistes
+  statut: fusionnee dans Q43
+- id: Q14
+  enonce: Une telle mesure ferait-elle monter les taux d'emprunt de la France ou affaiblirait-elle la crédibilité
+    de l'euro ?
+  type: estimation
+  pourquoi: C'est le risque central avancé contre la mesure ; il faut distinguer l'effet sur la dette détenue par
+    la banque centrale de celui sur la dette détenue par les investisseurs privés.
+  proposee_par:
+  - expert-ecologistes
+  statut: fusionnee dans Q44
+- id: Q15
+  enonce: Le service de la dette doit-il être réduit en priorité pour dégager des marges d'action en faveur de la
+    transition écologique et des services publics ?
+  type: valeur
+  pourquoi: Cela renvoie à l'arbitrage entre remboursement et investissements de long terme (climat, biodiversité,
+    justice sociale).
+  proposee_par:
+  - expert-ecologistes
+  statut: fusionnee dans Q47
+- id: Q16
+  enonce: Faut-il que la dette finançant des investissements de transition écologique soit traitée différemment
+    (règle d'or verte, cantonnement, exclusion des règles budgétaires) du reste de la dette publique ?
+  type: valeur
+  pourquoi: Piste alternative à l'annulation, souvent défendue pour préserver l'investissement de long terme sans
+    remettre en cause les créanciers.
+  proposee_par:
+  - expert-ecologistes
+  statut: ecartee
+  raison: 'Traitement à part de la dette de transition écologique : relève d''une fiche sur les règles budgétaires.'
+- id: Q17
+  enonce: La dette détenue par des créanciers privés (banques, assureurs, non-résidents) peut-elle être restructurée
+    ou allégée sans conséquence grave pour les épargnants français ?
+  type: estimation
+  pourquoi: Distingue l'annulation limitée à la banque centrale d'une annulation plus large, et pose la question
+    des effets sur l'épargne (assurance-vie, banques).
+  proposee_par:
+  - expert-ecologistes
+  statut: ecartee
+  raison: 'Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche « restructuration
+    de la dette ».'
+- id: Q18
+  enonce: L'annulation de la part de la dette publique française détenue par la Banque de France est-elle compatible
+    avec les traités européens ?
+  type: fait
+  pourquoi: La souveraineté budgétaire se heurte à l'interdiction du financement monétaire des États (article 123
+    du TFUE) ; la question juridique précède tout débat sur l'opportunité.
+  proposee_par:
+  - expert-extreme-droite
+  statut: fusionnee dans Q41
+- id: Q19
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il monter durablement
+    les taux d'intérêt auxquels la France emprunte ?
+  type: estimation
+  pourquoi: L'effet sur la confiance des prêteurs et sur le coût de la dette est l'argument central des opposants
+    comme des partisans de la mesure.
+  proposee_par:
+  - expert-extreme-droite
+  statut: fusionnee dans Q42
+- id: Q20
+  enonce: Une annulation de dette ferait-elle réellement baisser les intérêts payés chaque année par l'État ?
+  type: estimation
+  pourquoi: 'Les intérêts versés à la Banque de France sont en partie reversés à l''État sous forme de bénéfices
+    : l''économie réelle est contestée.'
+  proposee_par:
+  - expert-extreme-droite
+  statut: fusionnee dans Q43
+- id: Q21
+  enonce: La France doit-elle honorer l'intégralité de ses dettes envers ses créanciers, y compris la Banque de
+    France ?
+  type: valeur
+  pourquoi: Oppose la parole de l'État et la crédibilité financière au principe que la dette ne doit pas contraindre
+    la souveraineté nationale.
+  proposee_par:
+  - expert-extreme-droite
+  statut: fusionnee dans Q45
+- id: Q22
+  enonce: Les décisions sur la dette publique française doivent-elles relever de la seule décision nationale plutôt
+    que de règles ou d'institutions européennes ?
+  type: valeur
+  pourquoi: 'Touche à la souveraineté nationale : qui, du Parlement français ou de la BCE et des traités, doit avoir
+    le dernier mot sur le sort de la dette.'
+  proposee_par:
+  - expert-extreme-droite
+  statut: fusionnee dans Q46
+- id: Q23
+  enonce: La Banque de France détient-elle une part de la dette publique française au titre de ses achats pour l'Eurosystème
+    ?
+  type: fait
+  pourquoi: Établir le montant et la nature de cette part est le préalable à toute discussion sur son annulation.
+  proposee_par:
+  - expert-extreme-droite
+  statut: ecartee
+  raison: 'Fait non disputé : la part détenue est un chiffre de contexte, établi par le bibliothécaire.'
+- id: Q24
+  enonce: La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être
+    annulée ou gelée en dette perpétuelle sans modifier les traités européens ?
+  type: fait
+  pourquoi: Le traité interdit le financement monétaire des États ; la faisabilité juridique est le premier point
+    de désaccord.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: fusionnee dans Q41
+- id: Q25
+  enonce: Annuler ou geler en dette perpétuelle la dette détenue par la Banque de France ferait-il baisser durablement
+    la charge d'intérêts de l'État ?
+  type: estimation
+  pourquoi: L'effet réel sur les intérêts payés dépend de la manière dont la Banque de France est rémunérée et de
+    ses bilans, et les estimations divergent.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: fusionnee dans Q43
+- id: Q26
+  enonce: Une telle opération ferait-elle monter les taux auxquels la France emprunte ou la défiance des marchés
+    ?
+  type: estimation
+  pourquoi: Les partisans y voient un effet limité ; les opposants un risque pour la crédibilité de la signature
+    de l'État.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: fusionnee dans Q42
+- id: Q27
+  enonce: La dette publique détenue par des créanciers privés (banques, assurances, non-résidents) devrait-elle
+    elle aussi être annulée, restructurée ou auditée ?
+  type: valeur
+  pourquoi: 'Question de principe sur qui doit supporter le coût de la dette : les créanciers ou les contribuables
+    et les services publics.'
+  proposee_par:
+  - expert-extreme-gauche
+  statut: ecartee
+  raison: 'Dette détenue par des créanciers privés : autre aspect du sujet, à traiter dans une fiche « restructuration
+    de la dette ».'
+- id: Q28
+  enonce: L'annulation d'une partie de la dette publique est-elle un moyen légitime de financer des dépenses sociales
+    et écologiques sans austérité ?
+  type: valeur
+  pourquoi: Elle oppose le choix de rompre avec les règles budgétaires et la priorité aux besoins sociaux à celui
+    du remboursement intégral des engagements.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: fusionnee dans Q47
+- id: Q29
+  enonce: L'annulation d'une dette par une banque centrale est-elle déjà arrivée ou proposée par des institutions
+    (BCE, FMI, économistes) ?
+  type: fait
+  pourquoi: Les précédents (annulations de dettes, appel de 2021 de plus de 100 économistes) sont invoqués par les
+    partisans et contestés par les opposants.
+  proposee_par:
+  - expert-extreme-gauche
+  statut: ecartee
+  raison: 'Fait non disputé : les précédents sont un appui des questions sur la légalité et les effets, établis
+    par le bibliothécaire.'
+- id: Q30
+  enonce: La part de la dette publique française détenue par la Banque de France pour l'Eurosystème peut-elle être
+    annulée sans modifier les traités européens ?
+  type: fait
+  pourquoi: 'Question centrale du débat d''août 2026 : les traités interdisent le financement monétaire des États,
+    et la lecture de cette interdiction est contestée.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: fusionnee dans Q41
+- id: Q31
+  enonce: Annuler (ou geler en dette perpétuelle) la dette détenue par la Banque de France laisserait-il inchangées
+    la charge d'intérêts et la dette nette de l'État ?
+  type: estimation
+  pourquoi: 'Ces titres sont détenus par une banque centrale dont l''État est actionnaire : il faut établir ce que
+    l''opération change réellement dans les comptes publics.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: fusionnee dans Q43
+- id: Q32
+  enonce: Une telle annulation ferait-elle monter les taux d'emprunt de la France ou entamerait-elle la crédibilité
+    de l'euro ?
+  type: estimation
+  pourquoi: L'objection la plus courante porte sur la réaction des marchés et de la BCE ; nous jugeons que les effets
+    sont surestimés.
+  proposee_par:
+  - expert-gauche-radicale
+  statut: fusionnee dans Q44
+- id: Q33
+  enonce: La dette publique doit-elle être traitée comme une dette ordinaire, à rembourser en totalité à ses détenteurs
+    ?
+  type: valeur
+  pourquoi: 'Désaccord de fond sur la nature de la dette : obligation morale et contractuelle, ou instrument de
+    politique économique dont les créanciers et les conditions peuvent être rediscutés.'
+  proposee_par:
+  - expert-gauche-radicale
+  statut: fusionnee dans Q45
+- id: Q34
+  enonce: Faut-il que l'État puisse réduire sa dette sans accord préalable de ses partenaires de la zone euro ?
+  type: valeur
+  pourquoi: Oppose la souveraineté budgétaire nationale à la cohérence des règles communes de la zone euro.
+  proposee_par:
+  - expert-gauche-radicale
+  statut: fusionnee dans Q46
+- id: Q35
+  enonce: L'article 123 du traité sur le fonctionnement de l'Union européenne interdit-il à la France d'obtenir
+    l'annulation ou la conversion en dette perpétuelle de la part de sa dette détenue par l'Eurosystème ?
+  type: fait
+  pourquoi: Le cadre juridique européen conditionne toute la proposition et la construction européenne est une priorité
+    de cette famille.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q41
+- id: Q36
+  enonce: L'annulation de la dette détenue par la Banque de France pour l'Eurosystème ferait-elle monter les taux
+    d'emprunt de la France sur les marchés ?
+  type: estimation
+  pourquoi: Le coût de financement de l'État pèse directement sur le budget des services publics et sur la redistribution.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q42
+- id: Q37
+  enonce: Annuler cette part de dette allégerait-elle de façon significative la charge d'intérêts de l'État ?
+  type: estimation
+  pourquoi: Il faut savoir si l'effet budgétaire réel justifie le risque, la Banque de France reversant déjà à l'État
+    une partie de ses revenus.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q43
+- id: Q38
+  enonce: Une annulation de dette publique, même partielle, affaiblirait-elle la crédibilité de la zone euro et
+    de la BCE ?
+  type: estimation
+  pourquoi: Elle touche à la stabilité monétaire européenne et à l'indépendance de la banque centrale.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q44
+- id: Q39
+  enonce: Faut-il privilégier la croissance et la réforme fiscale (recettes) plutôt que l'annulation de dette pour
+    retrouver des marges budgétaires ?
+  type: valeur
+  pourquoi: Elle oppose deux choix de politique budgétaire pour financer les services publics et la transition.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q47
+- id: Q40
+  enonce: Une partie de la dette publique française pourrait-elle être restructurée sans accord des autres États
+    de la zone euro ?
+  type: fait
+  pourquoi: Elle précise si la France peut agir seule ou si toute option suppose une décision européenne.
+  proposee_par:
+  - expert-sociaux-democrates
+  statut: fusionnee dans Q41
+- id: Q41
+  enonce: Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la dette
+    française détenue par la Banque de France pour l'Eurosystème ?
+  type: fait
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-droite
+  - expert-ecologistes
+  - expert-extreme-droite
+  - expert-extreme-gauche
+  - expert-gauche-radicale
+  - expert-sociaux-democrates
+  fusion_de:
+  - Q1
+  - Q7
+  - Q12
+  - Q18
+  - Q24
+  - Q30
+  - Q35
+  - Q40
+  statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan budgétaire Retailleau du 12 octobre 2026 (Public Sénat) ; programme 2027 complet non publié d'après
+        la recherche
+      resultat: rien sur l'annulation ni sur les traités à ce sujet
+    - categorie: site
+      ou: 'site du parti : recherche web, pas de page ouverte'
+      resultat: aucun communiqué trouvé
+    - categorie: dirigeants
+      ou: presse, 27 août au 10 novembre 2026 (débat Medef, LCP et Public Sénat)
+      resultat: Retailleau parle de « faillite » et d'économies ; aucune déclaration vérifiée sur la légalité de
+        l'annulation
+    - categorie: parlement
+      ou: recherche web sur Sénat et Assemblée, 2026
+      resultat: aucun texte, amendement ou vote identifié
+    partis: &id001
+    - LR
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: 'RN : plan et contre-budget du 6 octobre 2026 (presse) ; Reconquête et UDR : programmes 2027 non publiés
+        ou non trouvés'
+      resultat: rien sur le cadre juridique de l'annulation de dette détenue par l'Eurosystème
+    - categorie: site
+      ou: rassemblementnational.fr (accueil, communiqués), parti-reconquete.fr (accueil) ; site UDR inaccessible
+        (erreur 502)
+      resultat: aucun passage sur la dette, la Banque de France ou la BCE ; UDR non consulté
+    - categorie: dirigeants
+      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Tanguy, Zemmour, Ciotti'
+      resultat: Bardella juge la proposition fausse sur le plan économique (voir Q43) ; rien sur la compatibilité
+        avec les traités ; rien trouvé pour Zemmour et Ciotti sur ce sujet
+    - categorie: parlement
+      ou: recherche web sur propositions de loi, amendements, questions au gouvernement 2025-2026
+      resultat: rien trouvé de l'UDR ou du RN sur ce point
+    partis: &id002
+    - REC
+    - RN
+    - UDR
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
+    partis: &id003
+    - LO
+    - NPA
+- id: Q42
+  enonce: Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+  type: estimation
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-droite
+  - expert-ecologistes
+  - expert-extreme-droite
+  - expert-extreme-gauche
+  - expert-gauche-radicale
+  - expert-sociaux-democrates
+  fusion_de:
+  - Q2
+  - Q8
+  - Q14
+  - Q19
+  - Q26
+  - Q32
+  - Q36
+  statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: aucune estimation d'effet de l'annulation sur les taux
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée de dirigeant LR sur l'effet de cette proposition sur les taux
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+    partis: *id001
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: aucune mention de la dette détenue par la BCE ni des taux d'emprunt
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: plan sur déficit et recettes, rien sur un effet de l'annulation sur les taux
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026 sur Tondelier et élus écologistes
+      resultat: 'aucune déclaration trouvée sur la proposition d''août 2026 ; seule prise de position écologiste
+        trouvée : chronique de Jérôme Gleizes (Politis, 14 septembre 2026), qui ne traite pas des taux'
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr (amendements, comptes rendus)
+      resultat: aucun texte du groupe écologiste trouvé ; l'amendement 1047 au projet de loi de finances est de
+        La France insoumise ; Sénat et Parlement européen non consultés
+    partis: &id004
+    - LE
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse)
+      resultat: cite la hausse des taux comme conséquence du budget du gouvernement, pas de l'annulation
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: presse août-novembre 2026
+      resultat: aucune déclaration RN, Reconquête ou UDR sur l'effet de l'annulation sur les taux
+    - categorie: parlement
+      ou: recherche web sur textes et questions 2025-2026
+      resultat: rien trouvé
+    partis: *id002
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
+    partis: *id003
+  - auteur: expert-sociaux-democrates
+    lieux_consultes:
+    - categorie: programme
+      ou: 'PS : projet 2027 présenté en avril 2026 (compte rendu LCP, 144 pages, ouvert) ; Place publique : programme
+        non localisé'
+      resultat: aucune mention de la dette détenue par la BCE trouvée dans le compte rendu ; texte intégral non
+        consulté
+    - categorie: site
+      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
+      resultat: aucun communiqué trouvé sur la dette détenue par la BCE
+    - categorie: dirigeants
+      ou: presse août-novembre 2026 (Faure, Vallaud, Glucksmann ; Medef 27 août 2026, via Selectra)
+      resultat: Glucksmann ironise sur les leçons de deux anciens Premiers ministres, sans position sur les taux
+        ; rien de Faure sur la proposition
+    - categorie: parlement
+      ou: Assemblée nationale, comptes rendus et amendements ; Parlement européen
+      resultat: aucun texte socialiste sur ce point trouvé ; tribune de 2021 d'A. Lalucq muette sur l'effet sur
+        les taux
+    partis: &id005
+    - PP
+    - PS
+- id: Q43
+  enonce: L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la
+    Banque de France reverse à l'État ?
+  type: estimation
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-droite
+  - expert-ecologistes
+  - expert-extreme-droite
+  - expert-extreme-gauche
+  - expert-gauche-radicale
+  - expert-sociaux-democrates
+  fusion_de:
+  - Q3
+  - Q9
+  - Q13
+  - Q20
+  - Q25
+  - Q31
+  - Q37
+  statut: validee
+  sans_position:
+  - auteur: expert-centre
+    lieux_consultes:
+    - categorie: programme
+      ou: programmes en cours 2027 de Renaissance, MoDem, Horizons, UDI (recherche web)
+      resultat: aucun texte trouvé qui traite des intérêts reversés par la Banque de France
+    - categorie: site
+      ou: sites des partis (recherche web, août-novembre 2026)
+      resultat: aucune publication trouvée sur ce point précis
+    - categorie: dirigeants
+      ou: presse août-septembre 2026 (Lescure, Attal, Philippe, Lecornu, Bayrou)
+      resultat: critiques générales (crise financière, perte de confiance, interdit bancaire) mais aucune déclaration
+        retrouvée sur le solde intérêts économisés / bénéfices reversés
+    - categorie: parlement
+      ou: recherche web sur propositions de loi, amendements, débat demandé par LFI le 9 septembre 2026 (LCP)
+      resultat: aucun texte du Centre trouvé sur ce point
+    partis:
+    - HOR
+    - MoDem
+    - RE
+    - UDI
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: rien sur les intérêts reversés par la Banque de France
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: rien de vérifié
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié ; rapport sénatorial S10 (2025) cité en bibliothèque, non posé comme position LR
+    partis: *id001
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: aucune mention de la charge d'intérêts de l'État ni des reversements de la Banque de France
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: rien sur ce point précis
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026
+      resultat: aucune déclaration trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) parle de « marge
+        de manœuvre » sans chiffrer la charge d'intérêts ni les reversements
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr
+      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+    partis: *id004
+  - auteur: expert-sociaux-democrates
+    lieux_consultes:
+    - categorie: programme
+      ou: 'PS : projet 2027 (avril 2026) ; Place publique : programme non localisé'
+      resultat: rien trouvé sur les intérêts reversés par la Banque de France
+    - categorie: site
+      ou: parti-socialiste.fr et site de Place publique, recherche web 2026
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse août-novembre 2026
+      resultat: le groupe PS de l'Assemblée évoque le 16 septembre 2026 la nécessité de réduire la charge de la
+        dette, sans lien trouvé avec la proposition de la Banque de France
+    - categorie: parlement
+      ou: Assemblée nationale, Sénat, Parlement européen
+      resultat: rien trouvé ; la tribune de 2021 ne traite pas des reversements de la Banque de France
+    partis: *id005
+- id: Q44
+  enonce: Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?
+  type: estimation
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-droite
+  - expert-ecologistes
+  - expert-gauche-radicale
+  - expert-sociaux-democrates
+  fusion_de:
+  - Q4
+  - Q10
+  - Q14
+  - Q32
+  - Q38
+  statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: rien sur la BCE ni l'euro à ce propos
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée de dirigeant LR sur l'indépendance de la BCE à propos de cette proposition
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+    partis: *id001
+  - auteur: expert-ecologistes
+    lieux_consultes:
+    - categorie: programme
+      ou: 'programme adopté en juillet 2026 : présentation de la commission Économie du 26 octobre 2026 (programme
+        complet non ouvert)'
+      resultat: révision des traités mentionnée (f3) ; rien sur la crédibilité de l'euro ni l'indépendance de la
+        BCE
+    - categorie: site
+      ou: 'lesecologistes.fr : revue de presse du plan de septembre 2025'
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: recherches presse août-novembre 2026
+      resultat: aucune déclaration de dirigeant trouvée ; la chronique de Jérôme Gleizes (14 septembre 2026) écarte
+        les « objections techniques » sans traiter l'indépendance de la BCE
+    - categorie: parlement
+      ou: recherche web sur assemblee-nationale.fr
+      resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+    partis: *id004
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse), programmes Reconquête et UDR
+      resultat: rien sur la crédibilité de l'euro ou l'indépendance de la BCE dans cette proposition
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: presse août-novembre 2026 ; interview de Bardella à The Economist évoquant un rachat de dette par la BCE
+        (article Blick inaccessible, voir sources_demandees)
+      resultat: pas de position établie sur l'indépendance de la BCE face à l'annulation
+    - categorie: parlement
+      ou: recherche web 2025-2026
+      resultat: rien trouvé
+    partis: *id002
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
+    partis: *id003
+- id: Q45
+  enonce: Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale
+    ?
+  type: valeur
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-droite
+  - expert-extreme-droite
+  - expert-gauche-radicale
+  fusion_de:
+  - Q5
+  - Q11
+  - Q21
+  - Q33
+  statut: validee
+  sans_position:
+  - auteur: expert-extreme-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan RN du 6 octobre 2026 (presse) ; programmes Reconquête et UDR
+      resultat: pas de position de principe sur le remboursement d'une dette détenue par la banque centrale
+    - categorie: site
+      ou: rassemblementnational.fr, parti-reconquete.fr
+      resultat: rien sur ce point
+    - categorie: dirigeants
+      ou: 'presse août-novembre 2026 : Bardella, Le Pen, Zemmour, Ciotti'
+      resultat: Bardella conteste l'effet de l'opération (Q43) mais ne formule pas de principe ; rien d'autre trouvé
+    - categorie: parlement
+      ou: recherche web 2025-2026
+      resultat: rien trouvé
+    partis: *id002
+- id: Q46
+  enonce: Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des
+    règles européennes ?
+  type: valeur
+  fiche: annulation-dette
+  proposee_par:
+  - expert-extreme-droite
+  - expert-gauche-radicale
+  fusion_de:
+  - Q22
+  - Q34
+  statut: validee
+  sans_position:
+  - auteur: expert-droite
+    lieux_consultes:
+    - categorie: programme
+      ou: plan Retailleau du 12 octobre 2026
+      resultat: engage à ramener le déficit sous le plafond de 3 % des traités en 2031 et à inscrire une règle d'or
+        par référendum ; ne traite pas de la compétence nationale ou européenne sur la dette
+    - categorie: site
+      ou: 'site du parti : recherche web'
+      resultat: rien trouvé
+    - categorie: dirigeants
+      ou: presse, août-novembre 2026
+      resultat: aucune déclaration vérifiée sur cette question
+    - categorie: parlement
+      ou: recherche web Sénat et Assemblée, 2026
+      resultat: rien identifié
+    partis: *id001
+  - auteur: expert-extreme-gauche
+    lieux_consultes:
+    - categorie: programme
+      ou: 'LO : brochure d''été 2026 de la campagne de Nathalie Arthaud ; NPA-L''Anticapitaliste : orientations
+        2027 relayées par le suivi dettedelafrance.fr (niveau 4, lu pour orientation seulement) ; NPA-Révolutionnaires
+        : rien trouvé'
+      resultat: Aucun texte ne traite de la dette détenue par la Banque de France pour l'Eurosystème, ni des traités
+        sur ce point.
+    - categorie: site
+      ou: lutte-ouvriere.org (hebdomadaire n° 3031 du 4 septembre 2026) ; npa-lanticapitaliste.org (tract sur la
+        dette, 2011-2012) ; tendanceclaire.org
+      resultat: Positions générales sur la dette (voir autres questions), rien de précis sur ce point.
+    - categorie: dirigeants
+      ou: 'recherche presse août-novembre 2026 : réactions de LO, de N. Arthaud, du NPA, de P. Poutou à la proposition
+        de J.-L. Mélenchon'
+      resultat: Aucune réaction trouvée.
+    - categorie: parlement
+      ou: 'propositions de loi, amendements, votes (Assemblée nationale, Sénat, Parlement européen) : recherche
+        sur la dette et la Banque de France'
+      resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
+        européens.
+    partis: *id003
+- id: Q47
+  enonce: Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies,
+    à la hausse des recettes ou à la recherche de croissance ?
+  type: valeur
+  fiche: annulation-dette
+  proposee_par:
+  - expert-centre
+  - expert-ecologistes
+  - expert-extreme-gauche
+  - expert-sociaux-democrates
+  fusion_de:
+  - Q6
+  - Q39
+  - Q15
+  - Q28
+  statut: validee

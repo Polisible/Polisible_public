@@ -1,0 +1,29 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S1
+    statut: conforme
+    note: "Version consolidée 2016 du TFUE avec ses protocoles, en français (EUR-Lex). F45 : l'extrait figure mot pour mot à l'article 123 §1, et l'article 21.1 du protocole n° 4 dit la même chose ; aucun des deux textes ne parle d'annulation ni de conversion de titres déjà détenus, ce qui confirme la seconde moitié de F45 sur la lettre du texte (la jurisprudence de la CJUE n'est pas dans cette source). Aucune personne citée, donc pas d'appartenance partisane en jeu."
+  - id: S16
+    statut: conforme
+    note: "Bon document (MoneyVox avec AFP, publié le 24 août 2026 à 10h00), les trois extraits y figurent mot pour mot. F25 : même chose (10 ans, 4,11 % le lundi 24 août, plus de 4,14 % le jeudi, record depuis 2008), mais c'est une valeur de la matinée. F26 et F27 sont seulement l'avis attribué à Roland Lescure (BFMTV/RMC) : la source montre qu'il l'a dit, sans établir l'effet sur les taux ni l'illégalité. Partis : Roland Lescure est seulement présenté comme « ministre de l'Economie » ; son appartenance à Renaissance (porte_par) n'est PAS établie par cette source, et Jean-Luc Mélenchon y est désigné comme candidat, sans parti."
+  - id: S17
+    statut: conforme
+    note: "Bon document (Selectra, Matias Perea, 28 août 2026), sur le débat du Medef du 27 août ; aucune affirmation à contrôler. Le tableau attribue à Édouard Philippe « Équilibrer les comptes, en refusant toute annulation de dette » et à Gabriel Attal « Annuler les hausses du coût du travail intervenues depuis 2024 », ce qui correspond aux porte_par. Partis : la page ne donne aucune étiquette, donc Horizons (Philippe) et Renaissance (Attal) ne sont PAS établis par cette source."
+  - id: S18
+    statut: conforme
+    note: "Bon document (Euronews, Olivier Tolachides, 11 septembre 2026) ; aucune affirmation à contrôler. La source établit que Jean-Luc Mélenchon est « leader de La France insoumise (LFI) », et que Christine Lagarde, présidente de la BCE, s'est exprimée contre la proposition lors d'une conférence de presse."
+  - id: S19
+    statut: conforme
+    note: "Bon document (Public Sénat, 25 août 2026) ; la source établit que Jean-Luc Mélenchon est « leader de la France insoumise (LFI) ». F24 et F44 : extrait mot pour mot, même chose (achats de 2010 puis de 2020 pour le compte de la BCE). F46 : extrait présent (18 %, mais le chapô dit « 20 % ») ; que les autres créanciers ne soient pas concernés n'est que sous-entendu, par un économiste cité. F47 : extrait présent, mais c'est l'avis de Jean-Luc Mélenchon que l'article dit contesté par des économistes (hausse des taux possible), pas une estimation qu'il établit. F54 : l'extrait ne dit pas la même chose (le mot austérité est absent de la page)."
+  - id: S20
+    statut: conforme
+    titre: "Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques"
+    auteur: "AFP (dépêche reprise par La Gazette France ; originale Sud Radio)"
+    niveau: 4
+    date_corrigee: "2026-08-24"
+    note: "L'adresse Sud Radio renvoie toujours 404 (essai refait, ainsi que la reprise Boursedirect, 404 aussi). J'ai ouvert la même dépêche AFP, publiée le 24 août 2026, à https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques : il faudrait remplacer l'adresse au dossier. Elle dit que « Gabriel Attal a dénoncé mi-août un discours \"délirant\" », sans citer son parti : son appartenance à Renaissance n'est PAS établie par cette source."
+  - id: S21
+    statut: conforme
+    note: "Bon document (Public Sénat, 28 décembre 2020) ; la source établit que Jean-François Husson est « sénateur LR et rapporteur de la commission des finances ». F28 : l'extrait figure mot pour mot ; en revanche, rien n'y dit « la parole donnée doit garder sa valeur », que je n'ai pas cherché ailleurs dans la page. La déclaration date de 2020, et non de la campagne de 2026."

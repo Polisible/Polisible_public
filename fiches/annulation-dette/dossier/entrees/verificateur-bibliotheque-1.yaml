@@ -1,0 +1,28 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S1
+    statut: conforme
+    note: "Version consolidée 2016 du TFUE avec ses protocoles, en français sur EUR-Lex. F1 : extrait présent à l'article 123, paragraphe 1, même sens. F2 : extrait présent dans la même phrase de l'article 123, paragraphe 1, même sens. F3 : extrait présent à l'article 130 TFUE (repris à l'article 7 des statuts), qui vise notamment les gouvernements des États membres, même sens. F4 : extrait présent à l'article 131 TFUE (repris à l'article 14.1 des statuts), même sens. F5 : extrait présent à l'article 12.1 des statuts du SEBC et de la BCE, même sens. F6 : extrait présent à l'article 18.1 des statuts, suivi de « intervenir sur les marchés de capitaux », même sens. F7 : extrait présent à l'article 32.1 des statuts, même sens."
+  - id: S2
+    statut: conforme
+    note: "Arrêt de la Cour (grande chambre) du 16 juin 2015, Gauweiler e.a., C-62/14, version française sur EUR-Lex. F8 : extrait présent dans le dispositif, qui vise les articles 119, 123 § 1 et 127 TFUE et un programme « tel que celui annoncé » en septembre 2012 (opérations monétaires sur titres), même sens."
+  - id: S3
+    statut: conforme
+    note: "Arrêt de la Cour (grande chambre) du 11 décembre 2018, Weiss e.a., C-493/17, version française sur EUR-Lex. F9 : extrait présent au point 107 des motifs, même sens. F10 : extrait présent au point 1 du dispositif, suivi de « du 4 mars 2015, concernant un programme d'achats d'actifs du secteur public sur les marchés secondaires », même sens."
+  - id: S4
+    statut: conforme
+    note: "Entretien de Christine Lagarde avec Ouest-France, publié par la BCE et daté du 12 septembre 2026. F11 : extrait présent, en réponse à la question sur l'annulation de la dette française détenue par la Banque de France, et dit la même chose (« violation des traités européens »)."
+  - id: S5
+    statut: conforme
+    note: "Entretien de Christine Lagarde avec Le Journal du Dimanche, publié par la BCE et daté du 7 février 2021. F12 : extrait présent, en réponse à la question sur la pétition de 100 économistes demandant l'effacement des dettes publiques détenues par la BCE, même sens. F13 : extrait présent dans la phrase suivante, même sens."
+  - id: S6
+    statut: conforme
+    note: "Entretien de Christine Lagarde avec La Provence, publié par la BCE et daté du 2 juillet 2021. F14 : extrait présent, en réponse à une question sur l'annulation de « la dette souveraine générée par les Etats », même sens. F15 : extrait présent (suivi d'un renvoi de note « ** »), même sens."
+  - id: S7
+    statut: conforme
+    note: "Document Banque de France « Comprendre les comptes annuels et les équilibres financiers » de l'exercice 2025, publié en mars 2026 (titre lu en pied de page, pas dans les métadonnées). F19 : extrait présent, même exercice 2025 et même unité. F20 : extrait présent (« contributeur important au budget de l'État »), même sens ; le document précise que ce total sur 2015-2025 réunit impôt sur les sociétés, dividendes et restitution d'excédents."
+  - id: S8
+    statut: conforme
+    note: "Communiqué de presse de la Banque de France daté « Paris, le 24 mars 2026 », titre conforme. F18 : extrait présent mot pour mot, pour l'exercice 2025, même sens."

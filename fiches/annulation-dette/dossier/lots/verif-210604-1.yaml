@@ -1,0 +1,188 @@
+sources_a_verifier:
+- source:
+    id: S1
+    titre: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4) sur les statuts
+      du SEBC et de la BCE
+    auteur: Union européenne (EUR-Lex)
+    date: '2016'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F1
+    enonce: Le traité interdit à la BCE et aux banques centrales nationales d'accorder des découverts ou crédits
+      aux administrations publiques (Q41).
+    type: fait
+    extrait_annonce: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres,
+      ci-après dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit
+      aux institutions, organes ou organismes de l'Union, aux administrations centrales
+  - affirmation: F2
+    enonce: Le traité interdit l'acquisition directe, auprès des États, de leurs titres de dette par la BCE ou les
+      banques centrales nationales (Q41).
+    type: fait
+    extrait_annonce: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales
+      nationales, des instruments de leur dette est également interdite.
+  - affirmation: F3
+    enonce: Le traité dispose que ni la BCE, ni une banque centrale nationale, ni un membre de leurs organes de
+      décision ne peuvent solliciter ni accepter d'instructions des gouvernements (Q41, Q44).
+    type: fait
+    extrait_annonce: ni la Banque centrale européenne, ni une banque centrale nationale, ni un membre quelconque
+      de leurs organes de décision ne peuvent solliciter ni accepter des instructions
+  - affirmation: F4
+    enonce: Le traité prévoit que chaque État membre veille à la compatibilité de sa législation nationale, y compris
+      les statuts de sa banque centrale, avec les traités et les statuts du SEBC (Q41, Q44).
+    type: fait
+    extrait_annonce: Chaque État membre veille à la compatibilité de sa législation nationale, y compris les statuts
+      de sa banque centrale nationale, avec les traités et les statuts du SEBC et de la BCE.
+  - affirmation: F5
+    enonce: Le conseil des gouverneurs de la BCE arrête les orientations et prend les décisions nécessaires aux
+      missions du SEBC (qui décide, Q41).
+    type: fait
+    extrait_annonce: Le conseil des gouverneurs arrête les orientations et prend les décisions nécessaires à l'accomplissement
+      des missions confiées au SEBC par les traités et les présents statuts.
+  - affirmation: F6
+    enonce: La BCE et les banques centrales nationales peuvent intervenir sur les marchés de capitaux pour atteindre
+      les objectifs du SEBC (Q41).
+    type: fait
+    extrait_annonce: 'Afin d''atteindre les objectifs du SEBC et d''accomplir ses missions, la BCE et les banques
+      centrales nationales peuvent:'
+  - affirmation: F7
+    enonce: Le revenu monétaire des banques centrales nationales est réparti à la fin de chaque exercice (Q43).
+    type: fait
+    extrait_annonce: Le revenu dégagé par les banques centrales nationales dans l'exercice des missions de politique
+      monétaire du SEBC, ci-après dénommé "revenu monétaire", est réparti à la fin de chaque exercice conformément
+      au présent article.
+- source:
+    id: S2
+    titre: Arrêt de la Cour (grande chambre) Gauweiler e.a., affaire C-62/14
+    auteur: Cour de justice de l'Union européenne
+    date: '2015-06-16'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F8
+    enonce: Dans l'arrêt Gauweiler (C-62/14, 16 juin 2015), la Cour dit pour droit que le SEBC est autorisé à adopter
+      un programme d'achat d'obligations souveraines sur les marchés secondaires (Q41).
+    type: fait
+    extrait_annonce: doivent être interprétés en ce sens qu'ils autorisent le Système européen de banques centrales
+      (SEBC) à adopter un programme d'achat d'obligations souveraines sur les marchés secondaires
+- source:
+    id: S3
+    titre: Arrêt de la Cour (grande chambre) Weiss e.a., affaire C-493/17
+    auteur: Cour de justice de l'Union européenne
+    date: '2018-12-11'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F9
+    enonce: Dans l'arrêt Weiss (C-493/17, 11 décembre 2018), la Cour rappelle que le SEBC doit concilier ses interventions
+      avec l'interdiction du financement monétaire de l'article 123 TFUE (Q41).
+    type: fait
+    extrait_annonce: le SEBC doit entourer son intervention de garanties suffisantes pour concilier celle-ci avec
+      l'interdiction du financement monétaire découlant de l'article 123 TFUE
+  - affirmation: F10
+    enonce: Dans l'arrêt Weiss (C-493/17), la Cour dit pour droit que l'examen des questions n'a révélé aucun élément
+      affectant la validité de la décision (UE) 2015/774 de la BCE (Q41).
+    type: fait
+    extrait_annonce: L'examen des première à quatrième questions préjudicielles n'a révélé aucun élément de nature
+      à affecter la validité de la décision (UE) 2015/774 de la Banque centrale européenne
+- source:
+    id: S4
+    titre: Entretien avec Ouest-France (Christine Lagarde, présidente de la BCE)
+    auteur: Banque centrale européenne
+    date: '2026-09-12'
+    adresse: https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260912~3cc706f4d6.fr.html
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F11
+    enonce: Christine Lagarde, présidente de la BCE, déclare le 12 septembre 2026 que l'annulation de la dette française
+      détenue par la Banque de France serait financièrement très dangereuse et contraire aux traités (Q41, Q44).
+    type: fait
+    extrait_annonce: C'est financièrement très dangereux et il se trouve que c'est aussi une violation des traités
+      européens.
+- source:
+    id: S5
+    titre: Entretien avec Le Journal du Dimanche (Christine Lagarde, présidente de la BCE)
+    auteur: Banque centrale européenne
+    date: '2021-02-07'
+    adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210207~f6e34f3b90.fr.html
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F12
+    enonce: Christine Lagarde déclare le 7 février 2021 que l'annulation de la dette publique détenue par la BCE,
+      demandée par une pétition d'économistes, est inenvisageable (Q41).
+    type: fait
+    extrait_annonce: L'annulation de cette dette est inenvisageable.
+  - affirmation: F13
+    enonce: Christine Lagarde déclare le 7 février 2021 que cette annulation violerait le traité européen qui interdit
+      le financement monétaire des États (Q41, Q44).
+    type: fait
+    extrait_annonce: Ce serait une violation du traité européen qui interdit strictement le financement monétaire
+      des Etats.
+- source:
+    id: S6
+    titre: Entretien avec La Provence (Christine Lagarde, présidente de la BCE)
+    auteur: Banque centrale européenne
+    date: '2021-07-02'
+    adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210702~a6ca02cf8e.fr.html
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F14
+    enonce: Christine Lagarde déclare le 2 juillet 2021 que l'annulation des dettes publiques serait contraire à
+      la législation et aux traités (Q41).
+    type: fait
+    extrait_annonce: D'abord, c'est contraire à la législation et représenterait une violation des traités.
+  - affirmation: F15
+    enonce: Christine Lagarde déclare le 2 juillet 2021 que la plupart des « dettes COVID » achetées par la politique
+      monétaire sont inscrites au bilan de la Banque de France (Q41).
+    type: fait
+    extrait_annonce: La plupart des « dettes COVID » contractées par l'Etat français et achetées sur le marché secondaire
+      dans le cadre de la politique monétaire sont inscrites au bilan de la Banque de France
+- source:
+    id: S7
+    titre: Comprendre les comptes annuels et les équilibres financiers 2025
+    auteur: Banque de France
+    date: 2026-03
+    adresse: https://www.banque-france.fr/system/files/2026-03/Comprendre-les-comptes-2025.pdf
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F19
+    enonce: Pour l'exercice 2025, la Banque de France verse un impôt sur les bénéfices de 1,5 milliard d'euros avant
+      d'atteindre un résultat net de 8,1 milliards (Q43).
+    type: fait
+    extrait_annonce: Après paiement de l'impôt sur les bénéfices (1,5 milliard d'euros), le résultat net ressort
+      à 8,1 milliards d'euros.
+  - affirmation: F20
+    enonce: 'La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés depuis
+      2015 (Q43).'
+    type: fait
+    extrait_annonce: avec un total de 36,8 milliards d'euros versés depuis 2015
+- source:
+    id: S8
+    titre: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apurement du report à nouveau
+      négatif de 2024'
+    auteur: Banque de France
+    date: '2026-03-24'
+    adresse: https://www.banque-france.fr/system/files/2026-04/CP_Rapport%20Annuel%202025_240326.pdf
+    niveau: 1
+    statut: a-verifier
+    demande: null
+  a_controler:
+  - affirmation: F18
+    enonce: Le 24 mars 2026, la Banque de France annonce un bénéfice net de 8,1 milliards d'euros pour l'exercice
+      2025 (Q43).
+    type: fait
+    extrait_annonce: La Banque de France enregistre un bénéfice net de 8,1 Mds €.

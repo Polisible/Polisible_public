@@ -1,0 +1,702 @@
+- id: S1
+  titre: Traité sur le fonctionnement de l'Union européenne (version consolidée) et protocole (n° 4) sur les statuts
+    du SEBC et de la BCE
+  auteur: Union européenne (EUR-Lex)
+  date: '2016'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E/TXT
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Version consolidée 2016 du TFUE avec ses protocoles, en français (EUR-Lex). F45 : l''extrait figure
+    mot pour mot à l''article 123 §1, et l''article 21.1 du protocole n° 4 dit la même chose ; aucun des deux textes
+    ne parle d''annulation ni de conversion de titres déjà détenus, ce qui confirme la seconde moitié de F45 sur
+    la lettre du texte (la jurisprudence de la CJUE n''est pas dans cette source). Aucune personne citée, donc pas
+    d''appartenance partisane en jeu.'
+- id: S2
+  titre: Arrêt de la Cour (grande chambre) Gauweiler e.a., affaire C-62/14
+  auteur: Cour de justice de l'Union européenne
+  date: '2015-06-16'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62014CJ0062
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Arrêt de la Cour (grande chambre) du 16 juin 2015, Gauweiler e.a., C-62/14, version française sur
+    EUR-Lex. F8 : extrait présent dans le dispositif, qui vise les articles 119, 123 § 1 et 127 TFUE et un programme
+    « tel que celui annoncé » en septembre 2012 (opérations monétaires sur titres), même sens.'
+- id: S3
+  titre: Arrêt de la Cour (grande chambre) Weiss e.a., affaire C-493/17
+  auteur: Cour de justice de l'Union européenne
+  date: '2018-12-11'
+  adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:62017CJ0493
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Arrêt de la Cour (grande chambre) du 11 décembre 2018, Weiss e.a., C-493/17, version française sur
+    EUR-Lex. F9 : extrait présent au point 107 des motifs, même sens. F10 : extrait présent au point 1 du dispositif,
+    suivi de « du 4 mars 2015, concernant un programme d''achats d''actifs du secteur public sur les marchés secondaires
+    », même sens.'
+- id: S4
+  titre: Entretien avec Ouest-France (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2026-09-12'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2026/html/ecb.in260912~3cc706f4d6.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Entretien de Christine Lagarde avec Ouest-France, publié par la BCE et daté du 12 septembre 2026.
+    F11 : extrait présent, en réponse à la question sur l''annulation de la dette française détenue par la Banque
+    de France, et dit la même chose (« violation des traités européens »).'
+- id: S5
+  titre: Entretien avec Le Journal du Dimanche (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2021-02-07'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210207~f6e34f3b90.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Entretien de Christine Lagarde avec Le Journal du Dimanche, publié par la BCE et daté du 7 février
+    2021. F12 : extrait présent, en réponse à la question sur la pétition de 100 économistes demandant l''effacement
+    des dettes publiques détenues par la BCE, même sens. F13 : extrait présent dans la phrase suivante, même sens.'
+- id: S6
+  titre: Entretien avec La Provence (Christine Lagarde, présidente de la BCE)
+  auteur: Banque centrale européenne
+  date: '2021-07-02'
+  adresse: https://www.ecb.europa.eu/press/inter/date/2021/html/ecb.in210702~a6ca02cf8e.fr.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Entretien de Christine Lagarde avec La Provence, publié par la BCE et daté du 2 juillet 2021. F14
+    : extrait présent, en réponse à une question sur l''annulation de « la dette souveraine générée par les Etats
+    », même sens. F15 : extrait présent (suivi d''un renvoi de note « ** »), même sens.'
+- id: S7
+  titre: Comprendre les comptes annuels et les équilibres financiers 2025
+  auteur: Banque de France
+  date: 2026-03
+  adresse: https://www.banque-france.fr/system/files/2026-03/Comprendre-les-comptes-2025.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Document Banque de France « Comprendre les comptes annuels et les équilibres financiers » de l''exercice
+    2025, publié en mars 2026 (titre lu en pied de page, pas dans les métadonnées). F19 : extrait présent, même
+    exercice 2025 et même unité. F20 : extrait présent (« contributeur important au budget de l''État »), même sens
+    ; le document précise que ce total sur 2015-2025 réunit impôt sur les sociétés, dividendes et restitution d''excédents.'
+- id: S8
+  titre: 'Communiqué de presse : Un résultat net positif (+8,1 Mds €) qui permet l''apurement du report à nouveau
+    négatif de 2024'
+  auteur: Banque de France
+  date: '2026-03-24'
+  adresse: https://www.banque-france.fr/system/files/2026-04/CP_Rapport%20Annuel%202025_240326.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Communiqué de presse de la Banque de France daté « Paris, le 24 mars 2026 », titre conforme. F18
+    : extrait présent mot pour mot, pour l''exercice 2025, même sens.'
+- id: S9
+  titre: 'Bulletin de la Banque de France n° 260/6 (septembre-octobre 2025) : partage du revenu monétaire'
+  auteur: Banque de France
+  date: 2025-10
+  adresse: https://www.banque-france.fr/system/files/2026-02/BDF260_6_Partage_revenu-monetaire.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Bon document : Bulletin de la Banque de France n° 260/6, septembre-octobre 2025, sur le partage du
+    revenu monétaire (adresse déposée en février 2026, date du document inchangée). F21 : l''extrait figure mot
+    pour mot (note sous le graphique, sources banques centrales nationales) et dit la même chose que l''affirmation,
+    même période 2015-2022 puis 2023-2024.'
+- id: S10
+  titre: Sur les enjeux associés à la structure de détention de la dette de l'État (rapport d'information)
+  auteur: 'Sénat, commission des finances (rapporteur : Albéric de Montgolfier)'
+  date: '2025'
+  adresse: https://www.senat.fr/rap/r24-902/r24-902_mono.html
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Bon document : rapport d''information de la commission des finances du Sénat, rapporteur Albéric
+    de Montgolfier, examiné et déposé le 24 septembre 2025 (date précisable : 2025-09-24). F16 : l''extrait figure
+    mot pour mot, au conditionnel (« détiendrait »), dans la partie qui commente la structure de détention au premier
+    trimestre 2025 ; même sens. F17 : le chiffre de 24,4 % figure dans le tableau « Autres français (dont la Banque
+    de France pour le compte de la BCE) », titres de la dette négociable de l''État au premier trimestre 2025 en
+    valeur de marché ; même périmètre.'
+- id: S11
+  titre: La situation et les perspectives des finances publiques (synthèse du rapport)
+  auteur: Cour des comptes
+  date: 2026-06
+  adresse: https://www.ccomptes.fr/sites/default/files/2026-06/20260625-synthese-RSPFP-2026.pdf
+  niveau: 1
+  ajoutee_par: bibliothecaire
+  statut: conforme
+  note_verif: 'Bon document : synthèse du rapport de la Cour des comptes sur la situation et les perspectives des
+    finances publiques, juin 2026. F22 : l''extrait figure et dit la même chose (charge de la dette de l''ensemble
+    des administrations publiques en 2025, 65,7 Md€, 2,2 points de PIB, plus de 9 % par rapport à 2024). F23 : le
+    chiffre de 77,4 Md€ (2,5 points de PIB, +11,7 Md€) figure comme prévision de charge de la dette des administrations
+    publiques pour 2026, mais la synthèse ne l''attribue pas explicitement à la loi de finances pour 2026 (la mention
+    de la LFI promulguée le 19 février porte sur la dépense hors charge de la dette, 1 735 Md€) : écart de périmètre
+    sur la mention « dans la loi de finances pour 2026 ».'
+- id: S12
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/fr/communiques-de-presse/precisions-sur-le-programme-de-detention-de-la-dette-publique-detenue-par-la-banque-de-france
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: inaccessible
+  demande:
+    pourquoi: 'communiqué de la Banque de France sur la dette publique détenue par la banque centrale (stock au
+      titre de l''APP et du PEPP : 546 Md€ au 31 déc. 2025, 488 Md€ au 30 juin 2026, selon un résumé de recherche
+      non vérifié) ; texte à ouvrir pour Q41'
+    erreur: '403'
+  note_verif: Erreur 403 à deux reprises sur l'adresse demandée ; également 403 sur deux autres adresses du même
+    communiqué trouvées par recherche (variante « …dette-publique-par-la-banque-de-france » et banque-france.fr/en/node/1924173).
+    Les chiffres 546 Md€ (31 décembre 2025) et 488 Md€ (30 juin 2026) n'apparaissent que dans des résumés de recherche,
+    non vérifiés ; aucune autre adresse officielle ne les reprend dans ce que j'ai pu ouvrir (le document « Comprendre
+    les comptes 2025 » de la Banque de France, ouvert, ne contient pas « 546 »). Aucune affirmation rattachée.
+- id: S13
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/system/files/2026-09/CP_BDF_Dette_120926.pdf
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: inaccessible
+  demande:
+    pourquoi: communiqué de la Banque de France daté du 12 septembre 2026 d'après son nom de fichier, sur la dette
+      ; contenu non vérifié
+    erreur: '403'
+  note_verif: Erreur 403 à deux reprises ; d'après les résultats de recherche (non vérifiés), ce PDF serait la version
+    imprimable du même communiqué du 12 septembre 2026 que S12 (« Précisions sur le programme de détention de la
+    dette publique par la Banque de France »). Aucune autre adresse ouvrable trouvée ; aucune affirmation rattachée.
+- id: S14
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.banque-france.fr/fr/interventions-gouverneur/
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: inaccessible
+  demande:
+    pourquoi: 'intervention du gouverneur de la Banque de France du 11 septembre 2026 sur RTL, titre recensé par
+      recherche : « L''annulation de la dette est illégale, dangereuse et inutile » ; adresse exacte de la page
+      à retrouver, et prise de position à vérifier pour Q41 et Q44'
+    erreur: '403'
+  note_verif: Erreur 403 sur la page d'index, sur la page trouvée par recherche (banque-france.fr/fr/interventions-gouverneur/rtl-lannulation-de-la-dette-est-illegale-dangereuse-et-inutile)
+    et sur la transcription PDF (banque-france.fr/system/files/2026-09/interview-em_2026-09-11_rtl.pdf). Les résultats
+    de recherche, non vérifiés, attribuent cette intervention du 11 septembre 2026 au gouverneur Emmanuel Moulin
+    (le nom de fichier « interview-em » va dans ce sens) ; la prise de position reste à vérifier sur le texte, aucune
+    version sur rtl.fr n'a été trouvée.
+- id: S15
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000019306205
+  niveau: null
+  ajoutee_par: bibliothecaire
+  statut: inaccessible
+  demande:
+    pourquoi: article L142-2 du code monétaire et financier (affectation du bénéfice de la Banque de France et dividende
+      revenant à l'État), version en vigueur, pour Q43
+    erreur: '403'
+  note_verif: Légifrance renvoie 403 à deux reprises. J'ai ouvert une compilation du statut de la Banque de France
+    publiée par la Banque de France (banque-france.fr/system/files/2023-08/…code-monetaire-et-financier-statut-banque-de-france.pdf),
+    où l'article L. 142-2 prévoit que le Conseil général arrête « le projet d'affectation du bénéfice et de fixation
+    du dividende revenant à l'État » ; mais cette compilation est à jour d'août 2008 (loi n° 2008-776), ce n'est
+    donc pas la version en vigueur demandée. Aucune affirmation rattachée, rien n'est ajouté.
+- id: S16
+  titre: 'Dette : « la crise financière assurée » en cas d''annulation partielle, selon le ministre de l''Economie'
+  auteur: MoneyVox avec AFP
+  date: '2026-08-24'
+  adresse: https://www.moneyvox.fr/actu/110103/dette-la-crise-financiere-assuree-en-cas-annulation-partielle-selon-le-ministre-de-economie
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: 'Bon document (MoneyVox avec AFP, publié le 24 août 2026 à 10h00), les trois extraits y figurent mot
+    pour mot. F25 : même chose (10 ans, 4,11 % le lundi 24 août, plus de 4,14 % le jeudi, record depuis 2008), mais
+    c''est une valeur de la matinée. F26 et F27 sont seulement l''avis attribué à Roland Lescure (BFMTV/RMC) : la
+    source montre qu''il l''a dit, sans établir l''effet sur les taux ni l''illégalité. Partis : Roland Lescure
+    est seulement présenté comme « ministre de l''Economie » ; son appartenance à Renaissance (porte_par) n''est
+    PAS établie par cette source, et Jean-Luc Mélenchon y est désigné comme candidat, sans parti.'
+- id: S17
+  titre: 'Dette : ce que les 7 candidats ont proposé devant le Medef (et ce que chacune vous coûterait)'
+  auteur: Selectra
+  date: '2026-08-28'
+  adresse: https://selectra.info/finance/actualites/marche/debat-medef-2027-dette-propositions-candidats-consequences-epargne
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: 'Bon document (Selectra, Matias Perea, 28 août 2026), sur le débat du Medef du 27 août ; aucune affirmation
+    à contrôler. Le tableau attribue à Édouard Philippe « Équilibrer les comptes, en refusant toute annulation de
+    dette » et à Gabriel Attal « Annuler les hausses du coût du travail intervenues depuis 2024 », ce qui correspond
+    aux porte_par. Partis : la page ne donne aucune étiquette, donc Horizons (Philippe) et Renaissance (Attal) ne
+    sont PAS établis par cette source.'
+- id: S18
+  titre: Christine Lagarde contre la proposition de Jean-Luc Mélenchon d'annuler la dette française
+  auteur: Euronews (Olivier Tolachides)
+  date: '2026-09-11'
+  adresse: https://fr.euronews.com/2026/09/11/christine-lagarde-contre-la-proposition-de-jean-luc-melenchon-dannuler-la-dette-francaise
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: Bon document (Euronews, Olivier Tolachides, 11 septembre 2026) ; aucune affirmation à contrôler. La
+    source établit que Jean-Luc Mélenchon est « leader de La France insoumise (LFI) », et que Christine Lagarde,
+    présidente de la BCE, s'est exprimée contre la proposition lors d'une conférence de presse.
+- id: S19
+  titre: 'Dette publique : la piste d''une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de
+    nombreuses difficultés'
+  auteur: Public Sénat
+  date: '2026-08-25'
+  adresse: https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: 'Bon document (Public Sénat, 25 août 2026) ; la source établit que Jean-Luc Mélenchon est « leader
+    de la France insoumise (LFI) ». F24 et F44 : extrait mot pour mot, même chose (achats de 2010 puis de 2020 pour
+    le compte de la BCE). F46 : extrait présent (18 %, mais le chapô dit « 20 % ») ; que les autres créanciers ne
+    soient pas concernés n''est que sous-entendu, par un économiste cité. F47 : extrait présent, mais c''est l''avis
+    de Jean-Luc Mélenchon que l''article dit contesté par des économistes (hausse des taux possible), pas une estimation
+    qu''il établit. F54 : l''extrait ne dit pas la même chose (le mot austérité est absent de la page).'
+- id: S20
+  titre: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques'
+  auteur: AFP (dépêche reprise par La Gazette France ; originale Sud Radio)
+  date: '2026-08-24'
+  adresse: https://www.sudradio.fr/societe/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  demande:
+    pourquoi: réactions politiques dont celle attribuée à Gabriel Attal (Renaissance)
+    erreur: '404'
+  note_verif: 'L''adresse Sud Radio renvoie toujours 404 (essai refait, ainsi que la reprise Boursedirect, 404 aussi).
+    J''ai ouvert la même dépêche AFP, publiée le 24 août 2026, à https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+    : il faudrait remplacer l''adresse au dossier. Elle dit que « Gabriel Attal a dénoncé mi-août un discours "délirant"
+    », sans citer son parti : son appartenance à Renaissance n''est PAS établie par cette source.'
+- id: S21
+  titre: 'Annulation de la dette : « Ce serait dangereux », selon Jean-François Husson'
+  auteur: Public Sénat
+  date: '2020-12-28'
+  adresse: https://www.publicsenat.fr/actualites/societe/annulation-de-la-dette-ce-serait-dangereux-selon-jean-francois-husson-186411
+  niveau: 4
+  ajoutee_par: expert-droite
+  statut: conforme
+  note_verif: 'Bon document (Public Sénat, 28 décembre 2020) ; la source établit que Jean-François Husson est «
+    sénateur LR et rapporteur de la commission des finances ». F28 : l''extrait figure mot pour mot ; en revanche,
+    rien n''y dit « la parole donnée doit garder sa valeur », que je n''ai pas cherché ailleurs dans la page. La
+    déclaration date de 2020, et non de la campagne de 2026.'
+- id: S22
+  titre: 'Présidentielle 2027 : Bruno Retailleau s’engage sur un plan d’économies de près de 200 milliards d’euros,
+    s’il est élu'
+  auteur: Public Sénat (Guillaume Jacquot)
+  date: '2026-10-12'
+  adresse: https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu
+  niveau: 4
+  ajoutee_par: expert-droite
+  statut: conforme
+  note_verif: 'Bon document : Public Sénat, article signé Guillaume Jacquot, publié le 12/10/2026. F29 : l''extrait
+    figure mot pour mot (« un effort « inédit » de 197 milliards d''euros sur cinq ans, dont 56 milliards d''euros
+    d''allègement de la fiscalité… ») et dit la même chose que l''énoncé, présentation du plan « ce 12 octobre »
+    comprise ; F30 : l''extrait figure mot pour mot dans le chapeau et dit la même chose. L''appartenance est établie
+    par la source (« Le candidat des Républicains », « candidat LR »).'
+- id: S23
+  titre: La dette, un sujet politique
+  auteur: Jérôme Gleizes (conseiller EELV de Paris selon Politis, 4 janvier 2023), chronique « L'économie à contre-courant
+    », Politis
+  date: '2026-09-14'
+  adresse: https://www.politis.fr/articles/2026/09/economie-la-dette-un-sujet-politique/
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: conforme
+  note_verif: 'Bon document : chronique de Jérôme Gleizes, Politis, 14 septembre 2026, rubrique « L''économie à
+    contre-courant ». F31 : l''extrait figure (« dont environ 640 milliards de titres publics français », rapporté
+    au bilan de l''Eurosystème de 6 000 milliards « en 2026 ») mais c''est le chiffre d''un chroniqueur, sans source
+    citée, qui ne suffit pas à établir un fait ; F32 : l''extrait figure, mais le rapport Draghi (ouvert, voir sources_ajoutees)
+    dit « un minimum de 750 à 800 milliards » par an, et non 800. La page ne mentionne ni EELV ni Les Écologistes
+    : l''appartenance partisane de Jérôme Gleizes n''est pas établie par cette source.'
+- id: S24
+  titre: La reconstruction écologique passe par l'annulation de la dette par la BCE et le retour de l'ISF pour les
+    Verts
+  auteur: FranceTransactions.com (avec AFP)
+  date: '2020-06-15'
+  adresse: https://www.francetransactions.com/actus/actualites-socio-economiques/les-verts-proposent-leur-plan-de-reconstructionecologique.html
+  niveau: 4
+  ajoutee_par: expert-ecologistes
+  statut: conforme
+  note_verif: 'Bon document : FranceTransactions.com (avec AFP), publié le lundi 15 juin 2020 ; la date des métadonnées
+    (jour de consultation) est sans valeur. F34 : l''extrait figure (« les Verts souhaitent une annulation de la
+    dette française auprès de laBCE , une fiscalité "plus juste" avec notamment le rétablissement de l''ISF ») et
+    dit la même chose que l''énoncé, plan de « reconstruction écologique » compris. L''appartenance est établie
+    par la source (« projet de société d''EELV », porte-parole du parti Eva Sas).'
+- id: S25
+  titre: 'Revue de Presse : présentation du plan de sortie de crise'
+  auteur: Les Écologistes (site officiel)
+  date: '2025-09-05'
+  adresse: https://lesecologistes.fr/posts/2aT2dm9CmbSGn92dKF4reV/revue-de-presse-presentation-du-plan-de-sortie-de-crise
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: conforme
+  note_verif: 'Bon document : revue de presse du site officiel des Écologistes ; date absente des métadonnées, mais
+    les articles repris sont datés du 04/09 et 05/09 (contexte Bayrou), cohérent avec septembre 2025. F35 et F36
+    : les deux extraits figurent mot pour mot ; F36 « plus progressive que celle du gouvernement » correspond à
+    « ils proposent de réduire plus progressivement le déficit », formulé par rapport à François Bayrou ; il s''agit
+    d''un extrait de presse reproduit par le parti, le titre du média d''origine n''apparaissant que partiellement.
+    L''appartenance est établie (site lesecologistes.fr, « les écologistes »).'
+- id: S26
+  titre: 'Notre projet économique : l''essentiel d''abord'
+  auteur: Les Écologistes, commission Économie, social et services publics
+  date: '2026-10-26'
+  adresse: https://commissions.lesecologistes.fr/posts/5aYbJADuyXSxpSZqMNf76o/notre-projet-economique-l-essentiel-d-abord
+  niveau: 3
+  ajoutee_par: expert-ecologistes
+  statut: conforme
+  note_verif: 'Bon document : page de la commission Économie, social, services publics des Écologistes, « Publié
+    le 26 oct. 2026 ». F33 : l''extrait figure mot pour mot avec la référence (ch. 60, mesure 3, p. 190), et la
+    page indique « Le programme adopté en juillet 2026 » ; c''est un résumé de commission qui renvoie au programme
+    (PDF lesecologistes.fr), lui-même non ouvert ici. L''appartenance est établie (site et commission du parti).'
+- id: S27
+  titre: 'Crédibilité économique de la gauche : « Il y a de la bonne et de la mauvaise dette », défend Marine Tondelier'
+  auteur: Public Sénat
+  date: '2024-06-20'
+  adresse: https://www.publicsenat.fr/actualites/politique/credibilite-economique-de-la-gauche-il-y-a-de-la-bonne-et-de-la-mauvaise-dette-defend-marine-tondelier
+  niveau: 4
+  ajoutee_par: expert-ecologistes
+  statut: conforme
+  note_verif: 'Bon document : Public Sénat, 20 juin 2024, titre exact ; la citation « Il y a de la bonne et de la
+    mauvaise dette » attribuée à Marine Tondelier figure dans le titre. Aucune affirmation du lot à contrôler. L''appartenance
+    est établie par la source (« la cheffe de file des écologistes Marine Tondelier »).'
+- id: S28
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://cf.eelv.fr/files/2021/04/Projet-2022-Monnaie-Note-de-cadrage_v2.pdf
+  niveau: null
+  ajoutee_par: expert-ecologistes
+  statut: inaccessible
+  demande:
+    pourquoi: 'note de cadrage monnaie d''EELV (avril 2021) : annulation de dettes détenues par l''Eurosystème,
+      avec plafond lié aux investissements écologiques (connue par un résumé de recherche seulement, non ouverte)'
+    erreur: '404'
+  note_verif: 'Adresse cf.eelv.fr réessayée : 404. Copie archivée (web.archive.org) : connexion réinitialisée ;
+    une recherche n''a trouvé aucune autre adresse pour ce PDF (seules d''autres notes de cadrage du même dossier
+    cf.eelv.fr apparaissent). Titre, auteur et contenu non établis : le résumé de recherche ne vaut pas source.'
+- id: S29
+  titre: 'Annuler la dette détenue par la BCE : mécanismes, ordres de grandeur'
+  auteur: dettedelafrance.fr (analyse assistée par IA, selon la page)
+  date: '2026-08-24'
+  adresse: https://dettedelafrance.fr/actualites/annuler-la-dette-detenue-par-la-bce-ce-que-dit-l-economie
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: non-conforme
+  note_verif: 'Bon document (titre et date du 24 août 2026 conformes ; l''adresse redirige vers une version longue
+    de l''URL), page signalée « analyse assistée par IA ». F41 : l''extrait figure mot pour mot, mais il rapporte
+    un argument de Jordan Bardella publié sur X (« Il a argué que… »), sans établir le mécanisme, et ne mentionne
+    pas l''impôt ; un site de niveau 4 ne peut fonder cette estimation. Appartenance établie : la page présente
+    Jordan Bardella comme « président du Rassemblement national ».'
+- id: S30
+  titre: 'Annuler une partie de la dette : la proposition de Mélenchon sous le feu des critiques'
+  auteur: La Gazette France (dépêche)
+  date: '2026-08-24'
+  adresse: https://www.lagazettefrance.fr/article/annuler-une-partie-de-la-dette-la-proposition-de-melenchon-sous-le-feu-des-critiques
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: conforme
+  note_verif: 'Bon document : dépêche AFP reprise par La Gazette France, publiée le 24 août 2026, titre conforme
+    ; aucune affirmation à contrôler. Appartenance : la dépêche nomme La France insoumise (LFI) à propos des universités
+    d''été où Matthieu Pigasse était invité, sans dire en toutes lettres, dans les passages lus, que Jean-Luc Mélenchon
+    dirige LFI.'
+- id: S31
+  titre: '140 milliards d''euros d''économies d''ici 2032 : « l''effort radical » proposé par Marine Le Pen pour
+    « redresser » les finances publiques'
+  auteur: Public Sénat (Stéphane Duguet)
+  date: '2026-10-06'
+  adresse: https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: conforme
+  note_verif: 'Bon document : Public Sénat, Stéphane Duguet, 6 octobre 2026. F37 : 140 milliards d''économies d''ici
+    2032 et l''extrait « de 121 % en 2027 à 112 % en 2032 » figurent mot pour mot ; F38 : l''extrait sur l''immigration
+    (15 milliards en 2027, 29 milliards en année pleine) figure mot pour mot ; les deux disent la même chose, présentés
+    lors de la conférence de presse du 6 octobre 2026 au siège du parti. Appartenance établie : Marine Le Pen est
+    présentée comme « candidate du Rassemblement national », et le plan comme « présenté par le RN ».'
+- id: S32
+  titre: 'Budget : comment fonctionnerait la « règle d''or » que Marine Le Pen veut faire adopter par référendum'
+  auteur: LCP - Assemblée nationale (Maxence Kagni)
+  date: '2026-10-02'
+  adresse: https://lcp.fr/actualites/budget-comment-fonctionnerait-la-regle-d-or-que-marine-le-pen-veut-faire-adopter-par
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: conforme
+  note_verif: 'Bon document : LCP, Maxence Kagni, vendredi 2 octobre 2026 (date lue dans la signature, absente des
+    métadonnées). F39 : l''extrait figure mot pour mot ; l''article précise aussi qu''elle propose d''inscrire la
+    règle d''or « dans la Constitution » par référendum, en fixant « un déficit maximum », d''après sa tribune dans
+    L''Opinion du 1er octobre 2026 : même périmètre que l''affirmation. Appartenance établie : « La candidate du
+    Rassemblement national à l''élection présidentielle ».'
+- id: S33
+  titre: En révisant la Constitution par référendum, le RN au pouvoir ouvrirait une crise majeure
+  auteur: La Gazette France (dépêche)
+  date: '2026-09-05'
+  adresse: https://www.lagazettefrance.fr/article/en-revisant-la-constitution-par-referendum-le-rn-au-pouvoir-ouvrirait-une-crise-majeure
+  niveau: 4
+  ajoutee_par: expert-extreme-droite
+  statut: conforme
+  note_verif: 'Bon document : dépêche AFP reprise par La Gazette France, 5 septembre 2026. F40 : l''extrait figure
+    mot pour mot ; la formule « met fin à la primauté du droit européen » est la description de l''AFP, le texte
+    officiel (n° 2120 du 25 janvier 2024, ajouté en source) parlant de « supériorité de la Constitution sur toute
+    autre norme, même internationale » : même sens, autre formulation. Appartenance établie : « La candidate RN
+    à l''élection présidentielle ».'
+- id: S34
+  titre: (à établir)
+  auteur: (à établir)
+  date: (à établir)
+  adresse: https://www.blick.ch/fr/monde/france/bardella-evoque-un-rachat-de-dette-francaise-par-la-bce-id21397239.html
+  niveau: null
+  ajoutee_par: expert-extreme-droite
+  statut: inaccessible
+  demande:
+    pourquoi: interview de Jordan Bardella à The Economist sur un rachat de dette française par la BCE (pertinent
+      pour Q44), date à établir
+    erreur: '403'
+  note_verif: Blick renvoie 403 à deux essais ; l'article original de The Economist (economist.com/europe/2025/11/05/jordan-bardella-starts-to-lay-out-his-plans,
+    repéré par recherche) renvoie aussi 403 ; une copie sur un site miroir n'a pas été utilisée (contournement).
+    D'après les résultats de recherche seulement (non vérifié), l'entretien daterait du 5 ou 6 novembre 2025.
+- id: S35
+  titre: Brochure d'été 2026 (campagne présidentielle de Nathalie Arthaud)
+  auteur: Lutte ouvrière
+  date: '2026-06-01'
+  adresse: https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: conforme
+  note_verif: 'Bon document : brochure de Lutte ouvrière pour la candidature de Nathalie Arthaud à la présidentielle
+    2027 ; le PDF ne porte pas de date en métadonnées, mais son adresse (2026/06) et sa mention de la fête de mai
+    2026 concordent avec juin 2026. F42 : l''extrait figure mot pour mot ; la source dit « aux capitalistes privés
+    » là où l''affirmation dit « entreprises privées », et elle établit seulement que LO cite ce chiffre, pas son
+    exactitude (niveau 3). Appartenance établie : la brochure est signée de Nathalie Arthaud, sous le sigle LO.'
+- id: S36
+  titre: Lutte ouvrière, hebdomadaire n° 3031
+  auteur: Lutte ouvrière
+  date: '2026-09-04'
+  adresse: https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: conforme
+  note_verif: 'Bon document : hebdomadaire Lutte ouvrière n° 3031 du 4 septembre 2026 (numéro et date imprimés dans
+    le PDF). Aucune affirmation à contrôler : la source sert seulement de lieu consulté (sans_position) ; elle contient
+    une prise de position générale (« la dette est celle de la bourgeoisie et que c''est à elle de payer »). L''appartenance
+    à Lutte ouvrière est établie (journal du parti, soutien à la campagne de Nathalie Arthaud).'
+- id: S37
+  titre: 'Dette publique : tract « Cette dette n''est pas la nôtre, nous n''avons pas à la payer ! »'
+  auteur: NPA (Nouveau Parti anticapitaliste)
+  date: '2011-12-01'
+  adresse: https://npa-lanticapitaliste.org/sites/default/files/4PDette.pdf
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: conforme
+  note_verif: 'Bon document : tract du NPA (adresse npa2009.org imprimée) sur la dette ; la date exacte du 2011-12-01
+    n''est pas imprimée, mais le contenu (gouvernement Fillon, « octobre 2011 », candidat socialiste « pour 2012
+    ») situe le tract fin 2011, sans confirmer le jour. F43 (valeur) : l''extrait figure (« Pour le NPA, la réponse
+    est claire, une dette construite par les cadeaux faits aux plus riches et aux grandes entreprises est illégitime
+    et n''a pas à être payée ») et dit la même chose que l''énoncé (le mot « fiscaux » de l''énoncé est repris d''autres
+    passages du tract). L''appartenance au NPA est établie par la source (« Pour le NPA »).'
+- id: S38
+  titre: Pourquoi il faut annuler la dette publique... et qui doit payer cette annulation
+  auteur: Tendance CLAIRE (courant du NPA)
+  date: '2021-04-25'
+  adresse: https://tendanceclaire.org/utils/pdf.php?id=1675
+  niveau: 3
+  ajoutee_par: expert-extreme-gauche
+  statut: conforme
+  note_verif: 'Bon titre et bon auteur (Tendance CLAIRE), mais le texte est signé « Tendance CLAIRE, le 25 avril
+    2021 », pas le 1er janvier 2021. Aucune affirmation du lot à contrôler (la source est citée pour porte_par avec
+    F19 et F20, non vérifiées ici). Le rattachement de Tendance CLAIRE au NPA n''est pas établi par cette source
+    : le mot « NPA » n''y figure pas.'
+- id: S39
+  titre: Proposition de résolution n° 2914 déclarant la nécessité du rachat de la dette publique par la Banque centrale
+    européenne et de sa transformation en dette perpétuelle
+  auteur: Jean-Luc Mélenchon et les députés LFI signataires (Assemblée nationale, XVe législature)
+  date: '2020-05-11'
+  adresse: https://questions.assemblee-nationale.fr/dyn/15/textes/l15b2914_proposition-resolution.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: conforme
+  note_verif: 'Bon document : proposition de résolution n° 2914, enregistrée le 11 mai 2020, présentée par Jean-Luc
+    Mélenchon et 16 autres députés. F50 : l''extrait figure mot pour mot dans les considérants ; il établit que
+    c''est l''objectif déclaré par les auteurs, pas un effet constaté. F56 (valeur) : l''extrait figure et dit la
+    même chose que l''énoncé. Appartenance partisane : le PDF liste les noms des signataires sans mentionner le
+    groupe La France insoumise ; le rattachement à LFI n''est pas établi par cette source.'
+- id: S40
+  titre: Livret Dette, « Faire tomber le mur de la dette » (préface signée Jean-Luc Mélenchon)
+  auteur: Jean-Luc Mélenchon (site melenchon.fr)
+  date: '2022-06-06'
+  adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: conforme
+  note_verif: 'Bon document : livret « Faire tomber le mur de la dette », contributions de Jean-Luc Mélenchon, texte
+    d''ouverture signé « Jean-Luc Mélenchon, 6 juin 2022 ». F53, F54 et F56 (valeurs) : les trois extraits figurent
+    mot pour mot (F54 : « Nous ne pouvons pas nous payer un nouveau cycle austéritaire ») et disent la même chose
+    que les énoncés. Le lien avec LFI est établi par la source (discours lors de la niche parlementaire « du groupe
+    La France Insoumise » défendus par Jean-Luc Mélenchon ; mention de la Nouvelle Union populaire écologique et
+    sociale).'
+- id: S41
+  titre: 'Compte rendu intégral, 2e séance du 22 mars 2021 : débat « La dette publique : la payer ou l''annuler
+    ? » (initiative du groupe GDR, intervention de Fabien Roussel)'
+  auteur: Assemblée nationale
+  date: '2021-03-22'
+  adresse: https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2020-2021/deuxieme-seance-du-lundi-22-mars-2021.pdf
+  niveau: 3
+  ajoutee_par: expert-gauche-radicale
+  statut: conforme
+  note_verif: 'Bon document : compte rendu intégral, 2e séance du lundi 22 mars 2021, débat « La dette publique
+    : la payer ou l''annuler ? » à l''initiative du groupe GDR. Les quatre extraits (F49 « dégager immédiatement
+    des marges financières très importantes », F51, F52, F55) figurent dans l''intervention de Fabien Roussel et
+    disent la même chose que les énoncés ; pour F49 (estimation), c''est l''appréciation d''un orateur, sans chiffrage
+    ni méthode, et non une estimation d''institution. Appartenance : la source établit « M. Fabien Roussel (GDR)
+    » et qu''il parle au nom des « députés communistes » ; le sigle PCF n''y figure pas en toutes lettres.'
+- id: S42
+  titre: Looking back at PEPP implementation since the end of reinvestments
+  auteur: Banque centrale européenne (blog, I. Rahmouni-Rousseau et I. Schnabel)
+  date: '2025-04-29'
+  adresse: https://www.ecb.europa.eu/press/blog/date/2025/html/ecb.blog20250429~ce32da0a4c.fr.html
+  niveau: 1
+  ajoutee_par: expert-gauche-radicale
+  statut: conforme
+  note_verif: 'Bon document : billet du blog de la BCE du 29 avril 2025, par Imène Rahmouni-Rousseau et Isabel Schnabel
+    (texte en anglais, « Pas disponible en français » sur l''adresse .fr). F48 : l''extrait figure (« At the end
+    of 2024 [...] reinvestments under the pandemic emergency purchase programme (PEPP) came to an end ») et dit
+    la même chose que l''énoncé, même programme et même date. Source officielle, sans personne partisane citée.'
+- id: S43
+  titre: « L’annulation des dettes publiques que la BCE détient constituerait un premier signal fort de la reconquête
+    par l’Europe de son destin » (tribune collective, Le Monde)
+  auteur: Collectif d'économistes, dont Aurore Lalucq (Parlement européen, Place publique)
+  date: '2021-02-05'
+  adresse: https://www.economix.fr/uploads/source/media/LeMondeAnnulationtribune.pdf
+  niveau: 3
+  ajoutee_par: expert-sociaux-democrates
+  statut: conforme
+  note_verif: 'Bon document : copie PDF (hébergée par EconomiX) de la tribune collective du Monde au titre annoncé
+    ; la date du 2021-02-05 n''apparaît pas dans le PDF (« Publié aujourd''hui »), elle n''est donc pas confirmée
+    par cette copie. F57, F58, F59, F60 : les quatre extraits figurent mot pour mot et disent la même chose que
+    les énoncés (F58 est bien la position des signataires, présentée comme reconnue par « un très grand nombre d''économistes
+    », pas une démonstration ; F57 reprend aussi la phrase sur le mot « annulation » absent du traité et du protocole
+    SEBC). Appartenance partisane : la source présente Aurore Lalucq comme « (Parlement européen) » seulement ;
+    son rattachement à Place publique n''est pas établi par cette source.'
+- id: S44
+  titre: 'The future of European competitiveness – Part A: A competitiveness strategy for Europe'
+  auteur: Mario Draghi, rapport remis à la Commission européenne (le document précise qu'il ne représente pas la
+    position officielle de la Commission)
+  date: 2024-09
+  adresse: https://commission.europa.eu/document/download/97e481fd-2dc3-412d-be4c-f152a8232961_en
+  niveau: 2
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S45
+  titre: Proposition de loi constitutionnelle Citoyenneté-Identité-Immigration, n° 2120
+  auteur: Assemblée nationale (présentée par Mme Marine Le Pen et les membres du groupe Rassemblement National)
+  date: '2024-01-25'
+  adresse: https://www.assemblee-nationale.fr/dyn/16/textes/l16b2120_proposition-loi.pdf
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S46
+  titre: Asset purchase programmes
+  auteur: Banque centrale européenne
+  date: '2026-11-03'
+  adresse: https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S47
+  titre: Pandemic Emergency Purchase Programme
+  auteur: Banque centrale européenne
+  date: 2026-11
+  adresse: https://www.ecb.europa.eu/mopo/implement/pepp/html/index.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S48
+  titre: Financial statements of the ECB for 2024
+  auteur: Banque centrale européenne
+  date: '2025-02-20'
+  adresse: https://www.ecb.europa.eu//press/pr/date/2025/html/ecb.pr250220~eca25e4e21.en.html
+  niveau: 1
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur
+- id: S49
+  titre: 'Roland Lescure : nouveau ministre de l''Economie et des Finances'
+  auteur: LégiFiscal
+  date: '2025-10-05'
+  adresse: https://www.legifiscal.fr/actualites-fiscales/4261-roland-lescure-nouveau-ministre-economie-finances.html
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: Bon document (LégiFiscal, 5 octobre 2025). Il établit que Roland Lescure « était député Renaissance
+    » avant sa nomination au ministère de l'Économie, le 5 octobre 2025, soit dix mois avant la déclaration du 24
+    août 2026 ; la page ne dit rien du parti en 2026 et c'est une source de niveau 4.
+- id: S50
+  titre: 'Présidentielle 2027: Gabriel Attal officialise sa candidature'
+  auteur: LCP - Assemblée nationale
+  date: '2026-05-22'
+  adresse: https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: Bon document (LCP, Raphaël Marchal, 22 mai 2026). Il appelle Gabriel Attal « le secrétaire général
+    de Renaissance » et dit qu'il a officialisé sa candidature à la présidentielle de 2027, trois mois avant la
+    déclaration du 27 août 2026.
+- id: S51
+  titre: Édouard Philippe annonce officiellement sa candidature à la prochaine élection présidentielle
+  auteur: Europe 1
+  date: '2024-09-03'
+  adresse: https://www.europe1.fr/politique/edouard-philippe-annonce-officiellement-sa-candidature-a-la-prochaine-election-presidentielle-4265431
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: conforme
+  note_verif: 'Bon document, mais publié le 3 septembre 2024 (mis à jour le 12 janvier 2025), pas en 2026. Il désigne
+    Édouard Philippe comme « président du parti Horizons » et candidat à la prochaine présidentielle (2027) : l''appartenance
+    est établie en 2024, deux ans avant la déclaration du 27 août 2026, et non à cette date.'
+- id: S52
+  titre: Fabien Roussel va succéder à Pierre Laurent à la tête du PCF
+  auteur: Public Sénat
+  date: '2018-11-20'
+  adresse: https://www.publicsenat.fr/actualites/politique/fabien-roussel-va-succeder-a-pierre-laurent-a-la-tete-du-pcf-135660
+  niveau: 4
+  ajoutee_par: expert-gauche-radicale
+  statut: conforme
+  note_verif: 'Bon document (Public Sénat, 20 novembre 2018). « Le député du Nord Fabien Roussel » est choisi pour
+    prendre la tête du Parti communiste : l''appartenance au PCF est établie en 2018, deux ans et quatre mois avant
+    l''intervention du 22 mars 2021.'
+- id: S53
+  titre: 'Élections européennes : Aurore Lalucq : "Dans cette campagne, nous assumons de parler d’Europe"'
+  auteur: Politis
+  date: '2024-05-29'
+  adresse: https://www.politis.fr/articles/2024/05/elections-europennes-aurore-lalucq-ps-place-publique-dans-cette-campagne-nous-assumons-de-parler-deurope/
+  niveau: 4
+  ajoutee_par: expert-sociaux-democrates
+  statut: conforme
+  note_verif: 'Bon document (Politis, 29 mai 2024). Il indique qu''en 2019 Aurore Lalucq « rejoint Place publique
+    et est élue au Parlement européen », et qu''elle est eurodéputée sur la liste PS-Place publique en 2024 : 2021
+    est encadré par ces deux dates, sans être établi directement.'
+- id: S54
+  titre: The Role of Central Bank Capital Revisited (ECB Working Paper Series No. 392)
+  auteur: Ulrich Bindseil, Andres Manzanares, Benedict Weller (BCE)
+  date: '2004-09-01'
+  adresse: https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp392.pdf
+  niveau: 2
+  ajoutee_par: expert-sociaux-democrates
+  statut: conforme
+  note_verif: 'Bon document : ECB Working Paper Series n° 392, septembre 2004, U. Bindseil, A. Manzanares et B.
+    Weller ; il précise que les opinions sont celles des auteurs et ne reflètent pas nécessairement celles de la
+    BCE. L''extrait figure mot pour mot dans le résumé non technique, suivi de l''idée que la crédibilité est positivement
+    corrélée au niveau de capital lorsque le modèle intègre certaines extensions. Le document porte sur les pertes
+    et le capital d''une banque centrale en général, pas sur une annulation de titres de dette publique.'
+- id: S55
+  titre: Why are central banks reporting losses? Does it matter? (BIS Bulletin No 68)
+  auteur: Banque des règlements internationaux (S. Bell, M. Chui, T. Gomes, P. Moser-Boehm, A. Pierres Tejada)
+  date: '2023-02-07'
+  adresse: https://www.bis.org/publications/bulletin-68-why-are-central-banks-reporting-losses-does-it-matter
+  niveau: 2
+  ajoutee_par: verificateur
+  statut: conforme
+  note_verif: ajoutée par le vérificateur

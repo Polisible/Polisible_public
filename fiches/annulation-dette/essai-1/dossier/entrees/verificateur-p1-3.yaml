@@ -1,0 +1,22 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S15
+    statut: conforme
+    note: "Bon document (statuts du SEBC et de la BCE, version consolidée, EUR-Lex), date non affichée par la page. F23 : extrait présent mot pour mot (article 7), il vise expressément les banques centrales nationales et les gouvernements des États membres, même périmètre. F26 : extrait présent mot pour mot dans l'article 32.4, même périmètre (indemnisation possible, décidée par le conseil des gouverneurs, dans des circonstances exceptionnelles)."
+  - id: S16
+    statut: conforme
+    note: "Bon document (TFUE, article 123, JO C 202 du 7.6.2016). F25 : extrait présent mot pour mot, et le texte de l'article (court, lu en entier par recherche) ne contient aucune mention de l'annulation, ce qui appuie la seconde partie. F30 : extrait présent mot pour mot dans le paragraphe 1, qui contient aussi l'interdiction d'acquisition directe, même périmètre."
+  - id: S17
+    statut: conforme
+    note: "Bon document : le titre « Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe » figure en tête du PDF ; la date n'est pas dans les métadonnées, seul le chemin de l'adresse (2022/06) la corrobore. Aucune affirmation à contrôler dans ce lot."
+  - id: S18
+    statut: conforme
+    note: "Bon document (« Entretien avec Le Monde », site de la BCE, daté du 16 juin 2020 dans les métadonnées). F31 : extrait présent mot pour mot, en réponse à une question sur l'annulation des dettes détenues par la BCE, même sens ; le nom de Fabio Panetta n'a pas été recherché dans la page, il est repris du titre annoncé."
+  - id: S19
+    statut: conforme
+    note: "Bon document (tribune du JDD, signataires dont Aurore Lalucq et Raphaël Glucksmann, eurodéputés S&D) ; la date de septembre 2020 n'apparaît pas dans les métadonnées et n'a pas été confirmée. F33 : extrait présent mot pour mot, même sens (annulation de la dette détenue par la BCE présentée comme possible en vertu des traités) ; la liste des signataires inclut aussi des eurodéputés écologistes, d'où le « notamment » justifié."
+  - id: S20
+    statut: conforme
+    note: "Bon article (Yahoo Actualités, entretien d'Olivier Faure à Libération), mais la page ne donne pas de date de publication et situe l'entretien un « jeudi 27 avril », ce qui ne confirme pas la date annoncée (2026-08-28) ni la mention « fin août 2026 » de F35 (le 27 août 2026 est bien un jeudi, « avril » semble une coquille, non vérifiée). F35 : extrait présent mot pour mot, même sens, mais la datation n'est pas établie par la source. F36 : extrait présent mot pour mot, même sens."

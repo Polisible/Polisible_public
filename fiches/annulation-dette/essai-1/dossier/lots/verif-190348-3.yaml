@@ -1,0 +1,104 @@
+sources_a_verifier:
+- source:
+    id: S15
+    titre: Protocole n° 4 sur les statuts du SEBC et de la BCE (version consolidée)
+    auteur: Union européenne (EUR-Lex)
+    date: non trouvée
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016M/PRO/04
+    niveau: 1
+  a_controler:
+  - affirmation: F23
+    enonce: Les traités et les statuts du SEBC interdisent à une banque centrale nationale de solliciter ou d'accepter
+      des instructions des gouvernements des États membres.
+    type: fait
+    extrait_annonce: ni la BCE, ni une banque centrale nationale, ni un membre quelconque de leurs organes de décision
+      ne peuvent solliciter ni accepter des instructions des institutions, organes ou organismes de l’Union, des
+      gouvernements des États membres ou de tout autre organisme.
+  - affirmation: F26
+    enonce: Selon les statuts du SEBC et de la BCE (article 32.4), le conseil des gouverneurs de la BCE peut, dans
+      des circonstances exceptionnelles, indemniser les banques centrales nationales pour des pertes particulières
+      liées aux opérations de politique monétaire menées pour le compte du SEBC.
+    type: fait
+    extrait_annonce: Le conseil des gouverneurs peut décider d'indemniser les banques centrales nationales pour
+      les frais encourus à l'occasion de l'émission de billets ou, dans des circonstances exceptionnelles, pour
+      des pertes particulières afférentes aux opérations de politique monétaire réalisées pour le compte du SEBC.
+- source:
+    id: S16
+    titre: Traité sur le fonctionnement de l'Union européenne, article 123 (version consolidée)
+    auteur: Union européenne (Journal officiel C 202)
+    date: '2016-06-07'
+    adresse: https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:12016E123
+    niveau: 1
+  a_controler:
+  - affirmation: F25
+    enonce: L'article 123 du traité sur le fonctionnement de l'Union européenne interdit à la BCE et aux banques
+      centrales nationales d'accorder des crédits aux États et d'acquérir directement auprès d'eux leurs titres
+      de dette ; il ne mentionne pas l'annulation de titres déjà détenus.
+    type: fait
+    extrait_annonce: l'acquisition directe, auprès d'eux, par la Banque centrale européenne ou les banques centrales
+      nationales, des instruments de leur dette est également interdite.
+  - affirmation: F30
+    enonce: L'article 123 §1 du TFUE interdit à la BCE et aux banques centrales nationales d'accorder des découverts
+      ou tout autre crédit aux administrations centrales, et interdit aussi l'acquisition directe de leurs titres
+      de dette auprès d'elles.
+    type: fait
+    extrait_annonce: Il est interdit à la Banque centrale européenne et aux banques centrales des États membres,
+      ci-après dénommées "banques centrales nationales", d'accorder des découverts ou tout autre type de crédit
+      aux institutions, organes ou organismes de l'Union, aux administrations centrales
+- source:
+    id: S17
+    titre: 'Faire tomber le mur de la dette : contributions de Jean-Luc Mélenchon sur la dette en France et en Europe'
+    auteur: Jean-Luc Mélenchon
+    date: '2022-06-01'
+    adresse: https://melenchon.fr/wp-content/uploads/2022/06/1.-LIVRET-Dette-D-1.pdf
+    niveau: 3
+  a_controler: []
+- source:
+    id: S18
+    titre: Entretien avec Le Monde (Fabio Panetta, membre du directoire de la BCE)
+    auteur: Banque centrale européenne
+    date: '2020-06-16'
+    adresse: https://www.ecb.europa.eu/press/inter/date/2020/html/ecb.in200616~2fdb438ac4.fr.html
+    niveau: 1
+  a_controler:
+  - affirmation: F31
+    enonce: En juin 2020, Fabio Panetta, membre du directoire de la BCE, a déclaré qu'acheter des obligations souveraines
+      et décider de ne pas en demander le remboursement serait du financement monétaire.
+    type: fait
+    extrait_annonce: Si nous achetions des obligations souveraines et décidions de ne pas demander leur remboursement,
+      ce serait du financement monétaire.
+- source:
+    id: S19
+    titre: Pourquoi il faut annuler la dette détenue par la Banque centrale européenne (tribune)
+    auteur: Aurore Lalucq, Raphaël Glucksmann et autres eurodéputés (Le JDD)
+    date: 2020-09
+    adresse: https://www.lejdd.fr/Economie/tribune-pourquoi-il-faut-annuler-la-dette-detenue-par-la-banque-centrale-europeenne-3991402
+    niveau: 3
+  a_controler:
+  - affirmation: F33
+    enonce: Une tribune de septembre 2020, signée notamment par les eurodéputés S&D Aurore Lalucq et Raphaël Glucksmann,
+      affirme que l'annulation de la dette détenue par la BCE est possible en vertu des traités européens.
+    type: fait
+    extrait_annonce: Cette solution est non seulement possible en vertu des traités européens mais, surtout, c’est
+      la seule qui nous permette de sortir de cette crise sans risquer d’en déclencher une nouvelle.
+- source:
+    id: S20
+    titre: L'annulation de la dette voulue par LFI creuse les divergences entre PS et Place publique
+    auteur: Yahoo Actualités (reprise d'un entretien d'Olivier Faure à Libération)
+    date: '2026-08-28'
+    adresse: https://fr.news.yahoo.com/sport/l-annulation-dette-voulue-lfi-105408424.html
+    niveau: 4
+  a_controler:
+  - affirmation: F35
+    enonce: Selon Yahoo Actualités, Olivier Faure a déclaré à Libération, fin août 2026, qu'une banque centrale
+      peut ne plus réclamer le remboursement des titres qu'elle détient, hors part des investisseurs privés.
+    type: fait
+    extrait_annonce: « Une banque centrale peut ne plus réclamer le remboursement des titres qu'elle détient. On
+      ne parle pas de la part détenue par les investisseurs privés, il est donc inutile de pousser des hauts cris
+      »
+  - affirmation: F36
+    enonce: Selon Yahoo Actualités, Olivier Faure a ajouté que l'opération est une réduction comptable du déficit
+      qui ne procure pas l'équivalent en trésorerie.
+    type: fait
+    extrait_annonce: « C'est une réduction comptable du déficit, mais qui ne donne pas - hélas - l'équivalent en
+      cash »

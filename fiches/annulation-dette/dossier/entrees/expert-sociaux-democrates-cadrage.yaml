@@ -1,0 +1,14 @@
+agent: expert-sociaux-democrates
+phase: 1
+questions_proposees:
+  - {enonce: "L'article 123 du traité sur le fonctionnement de l'Union européenne interdit-il à la France d'obtenir l'annulation ou la conversion en dette perpétuelle de la part de sa dette détenue par l'Eurosystème ?", type: fait, pourquoi: "Le cadre juridique européen conditionne toute la proposition et la construction européenne est une priorité de cette famille."}
+  - {enonce: "L'annulation de la dette détenue par la Banque de France pour l'Eurosystème ferait-elle monter les taux d'emprunt de la France sur les marchés ?", type: estimation, pourquoi: "Le coût de financement de l'État pèse directement sur le budget des services publics et sur la redistribution."}
+  - {enonce: "Annuler cette part de dette allégerait-elle de façon significative la charge d'intérêts de l'État ?", type: estimation, pourquoi: "Il faut savoir si l'effet budgétaire réel justifie le risque, la Banque de France reversant déjà à l'État une partie de ses revenus."}
+  - {enonce: "Une annulation de dette publique, même partielle, affaiblirait-elle la crédibilité de la zone euro et de la BCE ?", type: estimation, pourquoi: "Elle touche à la stabilité monétaire européenne et à l'indépendance de la banque centrale."}
+  - {enonce: "Faut-il privilégier la croissance et la réforme fiscale (recettes) plutôt que l'annulation de dette pour retrouver des marges budgétaires ?", type: valeur, pourquoi: "Elle oppose deux choix de politique budgétaire pour financer les services publics et la transition."}
+  - {enonce: "Une partie de la dette publique française pourrait-elle être restructurée sans accord des autres États de la zone euro ?", type: fait, pourquoi: "Elle précise si la France peut agir seule ou si toute option suppose une décision européenne."}
+incertitudes:
+  - "Chiffres de la part détenue par l'Eurosystème (environ 18 % de la dette, 500 à 640 milliards d'euros selon les sources de presse) non vérifiés ; aucune page ouverte, seulement une recherche."
+  - "Position exacte du PS et de Place publique sur la proposition non recherchée à ce stade ; les questions ne préjugent pas de leur avis."
+  - "Les réactions de Lagarde et du gouverneur de la Banque de France viennent de résumés de recherche, non ouverts."
+  - "Les questions 1 et 6 se recoupent en partie ; le coordinateur peut en fusionner une."

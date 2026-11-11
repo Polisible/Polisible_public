@@ -1,0 +1,947 @@
+fiche: annulation-dette
+theme: Économie et finances publiques
+sujet: La dette
+phase: '6'
+passage: 4
+phases:
+  '1':
+    debut: '2026-11-10T20:31:37'
+    passages: 1
+    note: 40 questions proposées ; regroupement soumis au fondateur
+    fin: '2026-11-10T20:33:04'
+  1-bis:
+    debut: '2026-11-10T20:59:01'
+    passages: 1
+    note: bibliothèque commune, 7 questions
+    fin: '2026-11-10T21:05:58'
+  '3':
+    debut: '2026-11-10T21:05:59'
+    passages: 1
+    note: vérification de la bibliothèque
+    fin: '2026-11-10T21:09:29'
+  '2':
+    debut: '2026-11-10T21:09:29'
+    passages: 1
+    fin: '2026-11-10T21:16:23'
+  3-bis:
+    debut: '2026-11-10T21:16:23'
+    passages: 1
+    fin: '2026-11-10T21:23:28'
+  '4':
+    debut: '2026-11-10T21:23:28'
+    passages: 1
+    note: passages 1 et 2 de confrontation ; inclut l'interruption par la limite d'usage de l'abonnement (environ
+      21 h 30 → 0 h 51 UTC), donc la durée n'est pas une durée de travail
+    fin: '2026-11-11T00:52:16'
+  3-ter:
+    debut: '2026-11-10T21:25:20'
+    passages: 1
+    note: 'objection O1 ; fin non relevée par le coordinateur (agent : 33 s)'
+  4-bis:
+    debut: '2026-11-11T00:52:32'
+    passages: 1
+    note: passage 3 de confrontation, ciblé (5 experts)
+    fin: '2026-11-11T00:54:24'
+  '5':
+    debut: '2026-11-11T00:54:37'
+    passages: 1
+    fin: '2026-11-11T00:54:37'
+    note: plafond de 3 passages atteint, condition 1 non remplie
+  '6':
+    debut: '2026-11-11T00:54:38'
+    passages: 1
+    fin: '2026-11-11T01:06:57'
+    note: 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot
+  6-bis:
+    debut: '2026-11-11T09:36:47'
+    passages: 1
+    note: normalisation au format de fiche
+    fin: '2026-11-11T09:43:09'
+  6-ter:
+    debut: '2026-11-11T09:43:24'
+    passages: 1
+    note: textes du rédacteur ; fiche assemblée par rendre_fiche.py
+    fin: '2026-11-11T09:48:12'
+  5-bis:
+    debut: '2026-11-11T11:57:18'
+    passages: 1
+    note: 'commission : instruction, contre-examen, 2 tours de relances, conclusion, contrôle final ; 1 désaccord
+      remonté (T10, regroupement)'
+    fin: '2026-11-11T14:38:47'
+  6-quater:
+    debut: '2026-11-11T14:38:47'
+    passages: 1
+    note: textes du rédacteur après la commission
+    fin: '2026-11-11T14:41:59'
+agents:
+- phase: '1'
+  agent: expert-extreme-gauche
+  jetons: 18425
+  outils: 3
+  duree_ms: 15986
+- phase: '1'
+  agent: expert-extreme-droite
+  jetons: 18377
+  outils: 3
+  duree_ms: 18854
+- phase: '1'
+  agent: expert-gauche-radicale
+  jetons: 20622
+  outils: 4
+  duree_ms: 22177
+- phase: '1'
+  agent: expert-sociaux-democrates
+  jetons: 20991
+  outils: 4
+  duree_ms: 23593
+- phase: '1'
+  agent: expert-droite
+  jetons: 21614
+  outils: 4
+  duree_ms: 26714
+- phase: '1'
+  agent: expert-centre
+  jetons: 21439
+  outils: 5
+  duree_ms: 27168
+- phase: '1'
+  agent: expert-ecologistes
+  jetons: 21182
+  outils: 5
+  duree_ms: 27213
+- phase: 1-bis
+  agent: bibliothecaire
+  jetons: 121320
+  outils: 51
+  duree_ms: 393689
+- phase: '3'
+  agent: verificateur-bibliotheque-1
+  jetons: 38503
+  outils: 11
+  duree_ms: 65222
+- phase: '3'
+  agent: verificateur-bibliotheque-2
+  jetons: 48842
+  outils: 16
+  duree_ms: 122023
+- phase: '3'
+  agent: verificateur-bibliotheque-verdicts
+  jetons: 34184
+  outils: 5
+  duree_ms: 53407
+- phase: '2'
+  agent: expert-extreme-gauche
+  jetons: 67087
+  outils: 17
+  duree_ms: 149189
+- phase: '2'
+  agent: expert-extreme-droite
+  jetons: 78478
+  outils: 22
+  duree_ms: 150592
+- phase: '2'
+  agent: expert-droite
+  jetons: 70923
+  outils: 19
+  duree_ms: 156263
+- phase: '2'
+  agent: expert-centre
+  jetons: 66106
+  outils: 16
+  duree_ms: 164216
+- phase: '2'
+  agent: expert-sociaux-democrates
+  jetons: 71291
+  outils: 22
+  duree_ms: 170733
+- phase: '2'
+  agent: expert-ecologistes
+  jetons: 111515
+  outils: 42
+  duree_ms: 290009
+- phase: '2'
+  agent: expert-gauche-radicale
+  jetons: 109270
+  outils: 29
+  duree_ms: 363551
+- phase: 3-bis
+  agent: verificateur-passage1-5
+  jetons: 23686
+  outils: 6
+  duree_ms: 31895
+- phase: 3-bis
+  agent: verificateur-passage1-4
+  jetons: 49181
+  outils: 15
+  duree_ms: 89003
+- phase: 3-bis
+  agent: verificateur-passage1-2
+  jetons: 47020
+  outils: 18
+  duree_ms: 121216
+- phase: 3-bis
+  agent: verificateur-passage1-1
+  jetons: 49736
+  outils: 17
+  duree_ms: 123965
+- phase: 3-bis
+  agent: verificateur-passage1-3
+  jetons: 52512
+  outils: 21
+  duree_ms: 132608
+- phase: 3-bis
+  agent: verificateur-passage1-verdicts
+  jetons: 72096
+  outils: 17
+  duree_ms: 205435
+- phase: 3-bis
+  agent: verificateur-sources-ajoutees
+  jetons: 2370
+  outils: 3
+  duree_ms: 31995
+- phase: '4'
+  agent: expert-droite
+  jetons: 40309
+  outils: 4
+  duree_ms: 14274
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: 41695
+  outils: 6
+  duree_ms: 17679
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 47788
+  outils: 6
+  duree_ms: 19487
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: 45745
+  outils: 6
+  duree_ms: 21088
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 47726
+  outils: 7
+  duree_ms: 23957
+- phase: '4'
+  agent: expert-centre
+  jetons: 50096
+  outils: 8
+  duree_ms: 29908
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 72857
+  outils: 14
+  duree_ms: 66106
+- phase: 3-ter
+  agent: verificateur-objection-O1
+  jetons: 22373
+  outils: 4
+  duree_ms: 33471
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 54778
+  outils: 4
+  duree_ms: 25750
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 55040
+  outils: 4
+  duree_ms: 26678
+- phase: '4'
+  agent: expert-centre
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-droite
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-droite
+  jetons: 65772
+  outils: 4
+  duree_ms: 22243
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: 66424
+  outils: 4
+  duree_ms: 26269
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 67292
+  outils: 5
+  duree_ms: 30531
+- phase: '4'
+  agent: expert-centre
+  jetons: 74478
+  outils: 5
+  duree_ms: 56532
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 78525
+  outils: 9
+  duree_ms: 84457
+- phase: '6'
+  agent: redacteur
+  jetons: 231825
+  outils: 20
+  duree_ms: 698701
+- phase: 6-bis
+  agent: expert-extreme-droite
+  jetons: 42056
+  outils: 7
+  duree_ms: 41853
+- phase: 6-bis
+  agent: expert-droite
+  jetons: 47190
+  outils: 9
+  duree_ms: 43169
+- phase: 6-bis
+  agent: bibliothecaire
+  jetons: 49393
+  outils: 12
+  duree_ms: 43902
+- phase: 6-bis
+  agent: expert-extreme-gauche
+  jetons: 46012
+  outils: 8
+  duree_ms: 55658
+- phase: 6-bis
+  agent: expert-ecologistes
+  jetons: 48548
+  outils: 9
+  duree_ms: 59081
+- phase: 6-bis
+  agent: expert-sociaux-democrates
+  jetons: 53395
+  outils: 12
+  duree_ms: 70611
+- phase: 6-bis
+  agent: expert-centre
+  jetons: 62379
+  outils: 14
+  duree_ms: 84963
+- phase: 6-bis
+  agent: expert-gauche-radicale
+  jetons: 73845
+  outils: 15
+  duree_ms: 129490
+- phase: 6-bis
+  agent: verificateur-porteurs
+  jetons: 63412
+  outils: 17
+  duree_ms: 153319
+- phase: '6'
+  agent: redacteur-textes
+  jetons: 117943
+  outils: 19
+  duree_ms: 239200
+- phase: 5-bis
+  agent: rapporteur-instruction
+  jetons: 162765
+  outils: 9
+  duree_ms: 416019
+- phase: 5-bis
+  agent: expert-ecologistes
+  jetons: 31425
+  outils: 7
+  duree_ms: 24594
+- phase: 5-bis
+  agent: expert-gauche-radicale
+  jetons: 40356
+  outils: 10
+  duree_ms: 37632
+- phase: 5-bis
+  agent: expert-extreme-gauche
+  jetons: 34817
+  outils: 9
+  duree_ms: 39409
+- phase: 5-bis
+  agent: expert-extreme-droite
+  jetons: 35367
+  outils: 13
+  duree_ms: 52416
+- phase: 5-bis
+  agent: expert-droite
+  jetons: 38429
+  outils: 12
+  duree_ms: 55861
+- phase: 5-bis
+  agent: expert-centre
+  jetons: 41005
+  outils: 12
+  duree_ms: 57044
+- phase: 5-bis
+  agent: expert-sociaux-democrates
+  jetons: 53985
+  outils: 13
+  duree_ms: 92673
+- phase: 5-bis
+  agent: verificateur-commission
+  jetons: 31589
+  outils: 12
+  duree_ms: 69592
+- phase: 5-bis
+  agent: contradicteur-1
+  jetons: 135826
+  outils: 11
+  duree_ms: 466450
+- phase: 5-bis
+  agent: expert-droite-tour2
+  jetons: 22300
+  outils: 3
+  duree_ms: 10729
+- phase: 5-bis
+  agent: expert-extreme-droite-tour2
+  jetons: 27327
+  outils: 5
+  duree_ms: 17634
+- phase: 5-bis
+  agent: expert-gauche-radicale-tour2
+  jetons: 43525
+  outils: 6
+  duree_ms: 19834
+- phase: 5-bis
+  agent: expert-centre-tour2
+  jetons: 42677
+  outils: 6
+  duree_ms: 21277
+- phase: 5-bis
+  agent: rapporteur-conclusion
+  jetons: 101848
+  outils: 17
+  duree_ms: 230349
+- phase: 5-bis
+  agent: contradicteur-2
+  jetons: 148050
+  outils: 19
+  duree_ms: 390043
+- phase: 5-bis
+  agent: rapporteur-final
+  jetons: 107482
+  outils: 21
+  duree_ms: 245611
+- phase: '6'
+  agent: redacteur-mise-a-jour
+  jetons: 60446
+  outils: 29
+  duree_ms: 173592
+incertitudes:
+- agent: expert-centre
+  texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
+    sources (de 18 % à environ 640 milliards d''euros), à vérifier avec la Banque de France.'
+- agent: expert-centre
+  texte: 'Une seule recherche faite : elle confirme que le débat existe depuis août 2026 (Euronews, Public Sénat),
+    mais je n''ai ouvert aucune source ni vérifié la déclaration attribuée au gouverneur de la Banque de France.'
+- agent: expert-centre
+  texte: Position publique du centre sur ces questions non recherchée en phase 1 ; les questions 4 à 6 relèvent
+    de ce que la famille met en avant, sans position vérifiée.
+- agent: expert-droite
+  texte: Une recherche unique (août 2026) confirme que la proposition est dans le débat ; je n'ai ouvert aucune
+    page, donc rien n'est cité comme source.
+- agent: expert-droite
+  texte: 'La part de la dette détenue par l''Eurosystème varie selon les résumés de presse (environ 18 % ; 500 à
+    640 milliards d''euros) : à établir par le vérificateur.'
+- agent: expert-droite
+  texte: Je n'ai pas vérifié les déclarations attribuées par la presse au gouverneur de la Banque de France.
+- agent: expert-droite
+  texte: Le périmètre exact (titres détenus par la Banque de France seule ou par l'Eurosystème) reste à préciser
+    dans le libellé.
+- agent: expert-ecologistes
+  texte: 'Je n''ai pas ouvert les sources de la recherche : le contexte (proposition d''août 2026, montant détenu
+    entre 500 et 640 milliards d''euros, variante dette perpétuelle) vient d''un résumé de recherche, pas d''une
+    source vérifiée.'
+- agent: expert-ecologistes
+  texte: 'Position exacte des Écologistes sur l''annulation de la dette détenue par l''Eurosystème : non vérifiée
+    ; la famille peut être divisée, donc ce cadrage est un choix de questions et pas une position.'
+- agent: expert-ecologistes
+  texte: La question 5 (règle d'or verte) n'a pas été vérifiée comme étant dans le débat de l'été 2026.
+- agent: expert-ecologistes
+  texte: Le montant et la part de la dette publique détenue par l'Eurosystème varient selon les sources et les dates
+    ; la question 2 ne les fixe donc pas.
+- agent: expert-extreme-droite
+  texte: 'Aucune recherche web menée : je n''ai pas vérifié que ces questions sont dans le débat depuis août 2026.'
+- agent: expert-extreme-droite
+  texte: Je ne connais pas la position publique actuelle du RN, de l'UDR ni de Reconquête sur la proposition de
+    Jean-Luc Mélenchon ; elle pourra relever de sans_position en phase 2.
+- agent: expert-extreme-droite
+  texte: Les questions 1 et 3 supposent que la proposition vise bien la part détenue pour l'Eurosystème, selon le
+    contexte fourni par le coordinateur.
+- agent: expert-extreme-gauche
+  texte: 'Les termes exacts de la proposition d''août 2026 (annulation ou dette perpétuelle, périmètre, calendrier)
+    sont repris du contexte fourni par le coordinateur, sans recherche web : à confirmer à la phase 2.'
+- agent: expert-extreme-gauche
+  texte: Je n'ai pas vérifié que chaque question figure encore dans le débat de novembre 2026, ni la portée exacte
+    de l'appel d'économistes de 2021 cité dans la dernière question.
+- agent: expert-extreme-gauche
+  texte: LO et le NPA peuvent diverger de La France insoumise sur ces propositions (par exemple sur la place du
+    cadre européen), et leurs positions publiques sont à rechercher.
+- agent: expert-gauche-radicale
+  texte: Le montant détenu par la Banque de France pour l'Eurosystème varie selon les sources (environ 500 à 635
+    milliards d'euros) ; à fixer par le vérificateur.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai ouvert aucune page : une seule recherche web a confirmé que le sujet est dans le débat (réactions
+    de la Banque de France, de la BCE, de Matthieu Pigasse).'
+- agent: expert-gauche-radicale
+  texte: Les positions exactes de LFI et du PCF sur l'annulation et la dette perpétuelle ne sont pas vérifiées ;
+    les deux partis peuvent diverger.
+- agent: expert-gauche-radicale
+  texte: La formulation de la première question suppose que l'annulation passerait par la Banque de France ; l'option
+    dette perpétuelle pourrait appeler une question distincte.
+- agent: expert-sociaux-democrates
+  texte: Chiffres de la part détenue par l'Eurosystème (environ 18 % de la dette, 500 à 640 milliards d'euros selon
+    les sources de presse) non vérifiés ; aucune page ouverte, seulement une recherche.
+- agent: expert-sociaux-democrates
+  texte: Position exacte du PS et de Place publique sur la proposition non recherchée à ce stade ; les questions
+    ne préjugent pas de leur avis.
+- agent: expert-sociaux-democrates
+  texte: Les réactions de Lagarde et du gouverneur de la Banque de France viennent de résumés de recherche, non
+    ouverts.
+- agent: expert-sociaux-democrates
+  texte: Les questions 1 et 6 se recoupent en partie ; le coordinateur peut en fusionner une.
+- agent: bibliothecaire
+  texte: Aucun précédent d'annulation, par une banque centrale, de dette publique qu'elle détient n'a été trouvé
+    dans les sources ouvertes ; la recherche n'est pas exhaustive.
+- agent: bibliothecaire
+  texte: 'Les pages de la Banque de France et de Légifrance refusent l''accès (403) : le stock de dette française
+    détenue par la Banque de France (546 Md€ fin 2025, 488 Md€ au 30 juin 2026) n''est pas vérifié et n''est pas
+    dans le dossier.'
+- agent: bibliothecaire
+  texte: 'Le rapport du Sénat (r24-902) : date de publication non confirmée (session 2024-2025) ; les 24,4 % et
+    le quart des OAT portent sur le premier trimestre 2025.'
+- agent: bibliothecaire
+  texte: 'Cour des comptes : le rapport est daté du 25 juin 2026 selon le nom du fichier, mais la synthèse porte
+    la mention « Juillet 2026 » ; la page de publication n''a pas été ouverte. Le texte du PDF est sur deux colonnes
+    : les extraits f22 et f23 sont des fragments, à vérifier.'
+- agent: bibliothecaire
+  texte: 'Cour des comptes, f23 : le périmètre exact de la prévision de 77,4 Md€ (État ou administrations publiques)
+    n''est pas établi par l''extrait.'
+- agent: bibliothecaire
+  texte: 'Traité : la date de la version consolidée (2016) est celle de l''intitulé du fichier EUR-Lex, non relevée
+    sur la page. L''extrait de l''article 123 est tronqué à « administrations centrales ».'
+- agent: bibliothecaire
+  texte: 'Statuts du SEBC : l''extrait de l''article 18.1 se termine par deux points, la phrase se poursuit dans
+    le texte officiel. Le numéro de paragraphe de l''extrait de l''arrêt Weiss (C-493/17) n''est pas relevé.'
+- agent: bibliothecaire
+  texte: 'Prises de position de la BCE : le dossier retient les entretiens ouverts (2021 et 2026). L''entretien
+    La Croix du 30 septembre 2026 a été ouvert mais ne contient pas de passage sur l''annulation : il n''est pas
+    retenu.'
+- agent: bibliothecaire
+  texte: 'Q42 et Q45 à Q47 : la bibliothèque ne contient pas de texte de base sur les taux d''intérêt ni sur les
+    règles nationales ou européennes au-delà du traité ; les estimations relèvent des experts.'
+- agent: expert-centre
+  texte: Les appartenances partisanes de Roland Lescure (Renaissance) et de Gabriel Attal (Renaissance) sont de
+    connaissance générale ; je ne les ai pas établies par une source ouverte. Celle d'Édouard Philippe (Horizons)
+    vient d'un site secondaire (ÉlyséeScope), non cité.
+- agent: expert-centre
+  texte: Les déclarations de Lescure et de Philippe sont rapportées par la presse (AFP, Selectra, niveau 4), pas
+    par un texte de leur parti ; leur formulation exacte est à vérifier.
+- agent: expert-centre
+  texte: Je n'ai retrouvé aucune position du MoDem ni de l'UDI sur le sujet (recherche web limitée) ; François Bayrou
+    a annoncé ne pas être candidat en 2027.
+- agent: expert-centre
+  texte: Sébastien Lecornu, Premier ministre, a déclaré que l'opération détruirait la confiance (Euronews, 11 septembre
+    2026, source s3 ouverte) ; je n'ai pas pu établir son rattachement partisan, donc je ne l'ai pas utilisé dans
+    porte_par.
+- agent: expert-centre
+  texte: 'Q43 : je n''ai trouvé aucun Centre publiquement positionné sur le solde net des intérêts ; l''effet net
+    dépend de la différence entre gel et annulation, et de la recapitalisation éventuelle de la Banque de France.
+    Le raisonnement de a6 sur ce point est celui que l''on déduit des faits, non une position attribuée.'
+- agent: expert-centre
+  texte: L'affirmation f4 (contraire aux traités) est une interprétation juridique ; la Cour de justice ne s'est
+    pas prononcée sur cette opération précise.
+- agent: expert-centre
+  texte: Le montant détenu par la Banque de France varie selon les sources (environ 500 à 635 milliards d'euros)
+    ; je n'ai pas retenu de chiffre.
+- agent: expert-droite
+  texte: 'Recherche sur LR limitée : recherche web et ouverture de 12 pages ; les sites officiels du parti, du groupe
+    LR du Sénat et de l''Assemblée n''ont pas été consultés directement. Les sans_position sont donc à confirmer
+    avec ces lieux.'
+- agent: expert-droite
+  texte: Une citation attribuée à Bruno Retailleau (« discours délirants » sur l'annulation, débat Medef du 27 août
+    2026) n'apparaît que sur un site de fiabilité douteuse (leparisienmatin.fr) ; ni LCP ni Public Sénat ne la rapportent.
+    Non citée.
+- agent: expert-droite
+  texte: Position de Jean-François Husson datée de décembre 2020 et portant sur l'annulation des dettes détenues
+    par la BCE en général, pas sur la proposition de 2026.
+- agent: expert-droite
+  texte: L'argument de Q47 est une lecture du choix des moyens du plan Retailleau ; le plan ne mentionne pas l'annulation.
+- agent: expert-ecologistes
+  texte: Aucune déclaration officielle des Écologistes ni de Marine Tondelier sur la proposition d'août 2026 n'a
+    été trouvée ; les arguments déposés reposent sur une chronique individuelle (Gleizes) et sur des positions de
+    2020 et 2025.
+- agent: expert-ecologistes
+  texte: Jérôme Gleizes est décrit comme conseiller EELV de Paris par Politis en janvier 2023 ; son statut en 2026
+    n'est pas vérifié. S'il n'est plus membre, a1, a2 et a3 perdent cette attribution (a3 garde s4).
+- agent: expert-ecologistes
+  texte: 'La chronique de Gleizes (a1) contient un raisonnement juridique en une phrase : le vérificateur peut juger
+    qu''elle ne couvre pas la conversion perpétuelle.'
+- agent: expert-ecologistes
+  texte: Le plan de juin 2020 est connu par une dépêche AFP reprise par un site financier (niveau 4), non par un
+    texte du parti ; sa date est celle de la publication. Il parle d'annulation, pas de dette perpétuelle.
+- agent: expert-ecologistes
+  texte: 'La revue de presse du site des Écologistes (s3) ne porte pas de date : septembre 2025 est déduit des dates
+    internes (4 et 5 septembre) et du contexte ; à confirmer.'
+- agent: expert-ecologistes
+  texte: Le chiffre de 640 milliards d'euros de titres publics français (f1) et celui de 800 milliards d'investissements
+    (f2) viennent d'une chronique ; le vérificateur doit les confronter aux sources officielles (BCE, rapport Draghi).
+- agent: expert-ecologistes
+  texte: Le programme complet de juillet 2026 n'a pas été ouvert ; seul un texte de présentation l'a été. Il pourrait
+    contenir une position sur la dette BCE non vue.
+- agent: expert-ecologistes
+  texte: Les trois positions sans_position (Q42, Q43, Q44) reposent sur une recherche web limitée ; Sénat et Parlement
+    européen n'ont pas été consultés.
+- agent: expert-extreme-droite
+  texte: 'L''argument de Bardella sur les dividendes ne m''est connu que par des relais de presse ; le message d''origine
+    sur X n''a pas été retrouvé. La source s2 se présente comme une analyse assistée par IA : à remplacer si possible
+    par la dépêche d''origine (s3 confirme l''échange et la formule « raconter n''importe quoi », pas l''argument
+    sur les dividendes).'
+- agent: expert-extreme-droite
+  texte: 'f5 est classée estimation : l''ampleur de la compensation entre intérêts économisés et versements perdus
+    n''est pas chiffrée par moi ; la bibliothèque (F21) montre que la Banque de France est devenue bénéficiaire
+    nette du partage du revenu monétaire en 2023-2024, ce qui peut nuancer l''argument.'
+- agent: expert-extreme-droite
+  texte: Les textes du RN (plan du 6 octobre 2026, proposition de loi constitutionnelle de 2024) sont cités par
+    la presse ; je n'ai pas ouvert les textes d'origine.
+- agent: expert-extreme-droite
+  texte: 'Q46 : l''argument est une reconstitution de deux positions publiques du RN (règle d''or, primauté du droit
+    national) ; le RN ne s''est pas exprimé sur la décision nationale en matière d''annulation. À signaler au vérificateur.'
+- agent: expert-extreme-droite
+  texte: 'Site de l''UDR inaccessible ; Reconquête et UDR : aucune position trouvée sur la dette détenue par l''Eurosystème,
+    recherche limitée à l''accueil du site et à la presse. Aucun programme 2027 de Reconquête ou de l''UDR trouvé.'
+- agent: expert-extreme-gauche
+  texte: 'Tendance CLAIRE : date du texte non trouvée (2021 estimée d''après le contexte Covid) ; je n''ai pas vérifié
+    son statut actuel au sein du NPA ni de quel NPA (L''Anticapitaliste ou Révolutionnaires) elle relève.'
+- agent: expert-extreme-gauche
+  texte: 'Tract NPA s3 : date non trouvée (2011-2012 estimée d''après les chiffres de 2010 et la mention de la campagne
+    de 2012). Texte ancien, pas une position 2026.'
+- agent: expert-extreme-gauche
+  texte: 'Ni LO ni le NPA n''ont, d''après mes recherches, réagi à la proposition de J.-L. Mélenchon sur la part
+    détenue par la Banque de France : les arguments déposés sont des positions générales sur la dette.'
+- agent: expert-extreme-gauche
+  texte: 'L''argument a1 suppose que les intérêts reviennent à l''État ; la bibliothèque (F21) montre que la Banque
+    de France a été bénéficiaire nette du partage du revenu monétaire en 2023-2024 : l''ampleur du retour à l''État
+    est à vérifier.'
+- agent: expert-extreme-gauche
+  texte: 'Le chiffre de 270 milliards d''euros (f1) est tiré d''un texte militant (niveau 3) : le vérificateur doit
+    le contrôler, je n''ai pas trouvé de source officielle.'
+- agent: expert-extreme-gauche
+  texte: Le tract NPA s3 ne parle pas de la banque centrale ; la position du NPA sur ce point précis vient du seul
+    texte de Tendance CLAIRE.
+- agent: expert-gauche-radicale
+  texte: 'Les positions du PCF reposent sur l''intervention de Fabien Roussel du 22 mars 2021 (débat GDR) : je n''ai
+    pas trouvé de texte du PCF daté de 2026 sur la proposition d''août 2026 (une page de presse secondaire seulement,
+    non retenue). Position à confirmer pour 2026.'
+- agent: expert-gauche-radicale
+  texte: 'Les chiffres de la part détenue varient selon les textes : 18 % (résolution de 2020, Public Sénat 2026),
+    20 % ou 570 milliards (Roussel 2021), 24,4 % de la dette négociable de l''État (Sénat, T1 2025, bibliothèque).
+    Périmètres à distinguer.'
+- agent: expert-gauche-radicale
+  texte: 'Q41 : le texte de 2020 (s1) et le livret de 2022 (s2) disent que l''opération ne nécessite pas de changer
+    les traités ; le livret décrit aussi les achats de la BCE comme faits « en contournant largement les traités
+    ». Je n''ai trouvé aucun avis juridique de niveau 1 ou 2 sur le gel en dette perpétuelle lui-même ; f2 est un
+    constat sur le texte, à vérifier.'
+- agent: expert-gauche-radicale
+  texte: 'Q42 : je n''ai pas trouvé d''estimation indépendante de niveau 1 ou 2 soutenant l''absence d''effet sur
+    les taux ; f4 repose sur la déclaration de Jean-Luc Mélenchon (Public Sénat, août 2026). L''article cite aussi
+    des économistes d''avis contraire.'
+- agent: expert-gauche-radicale
+  texte: 'Q43 : aucun chiffrage de l''économie d''intérêts publié par LFI ou le PCF trouvé ; l''argument a4 de LFI
+    est reconstruit à partir de la résolution de 2020 et des déclarations de 2026, qui parlent d''« aucun impact
+    financier » ; a4 et a5 ne sont pas cohérents entre eux, ce sont des positions de deux partis.'
+- agent: expert-gauche-radicale
+  texte: Le livret Dette (s2) est signé de Jean-Luc Mélenchon et daté du 6 juin 2022 ; la date de publication de
+    la mise en ligne est lue dans l'adresse (2022/06) ; le texte PDF est en deux colonnes, les extraits ont été
+    vérifiés fragment par fragment.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas pu ouvrir les pages de la Banque de France (communiqués de septembre 2026, erreur 403) :
+    elles ne sont pas citées.'
+- agent: expert-gauche-radicale
+  texte: Aucun site officiel de LFI ni du PCF n'a pu être consulté directement (recherche non concluante) ; la position
+    LFI d'août 2026 est rapportée par la presse (Public Sénat).
+- agent: expert-sociaux-democrates
+  texte: Aucune position du PS sur la proposition de 2026 (ni sur Q41 à Q47) n'a été trouvée ; seuls des textes
+    de Place publique de 2021 sont déposés.
+- agent: expert-sociaux-democrates
+  texte: La tribune est de 2021 (écrite avant la proposition de Mélenchon, et pour la zone euro entière) ; elle
+    n'est pas une réaction à 2026. Il faut vérifier si Place publique en tant que parti la reprend aujourd'hui.
+- agent: expert-sociaux-democrates
+  texte: 'Date de la tribune du Monde : 5 février 2021 d''après une recherche web, non lue dans les métadonnées
+    du PDF. Texte consulté sur un PDF de l''équipe EconomiX (copie), pas sur lemonde.fr (abonnés).'
+- agent: expert-sociaux-democrates
+  texte: 'Appartenance de A. Lalucq à Place publique : indiquée par la page LCP « La faute à l''Europe ? » (https://lcp.fr/programmes/la-faute-a-l-europe/si-la-bce-veut-bien-on-annule-tout-54200,
+    non datée) ; la tribune la signale seulement comme députée européenne (S&D).'
+- agent: expert-sociaux-democrates
+  texte: 'f2 et f1 sont contestés : la BCE (F11, F13) soutient l''inverse sur f1.'
+- agent: expert-sociaux-democrates
+  texte: Les pages PS consultées (LCP, projet de 144 pages ; budget) ne contenaient pas les mots dette, BCE ou Europe
+    ; le projet complet n'a pas été lu.
+- agent: expert-centre
+  texte: S20 (dépêche AFP du 24 août 2026) ne dit pas que Gabriel Attal appartient à Renaissance ; le rattachement
+    de A6 repose sur S17 (Selectra) et sur ma connaissance générale, à confirmer par le vérificateur.
+- agent: expert-centre
+  texte: 'F27 est Invérifiable : mes arguments A1, A2, A3 et A5 la mobilisaient comme acquise, d''où les corrections
+    ci-dessus. Je n''ai pas relu les arguments des autres familles en détail ; aucune objection de fait nouvelle
+    déposée.'
+- agent: expert-centre
+  texte: Aucune objection n'avait été posée sur mes arguments (objections_deja_posees vide) ; seuls les verdicts
+    ont motivé les corrections.
+- agent: expert-ecologistes
+  texte: 'Correction de A9 : l''arrêt Gauweiler (F8) porte sur le programme OMT de 2012, jamais activé, et l''arrêt
+    Weiss (F9, F10) sur le PSPP ; je n''ai trouvé aucune décision de la Cour sur le PEPP, sans l''avoir cherchée
+    dans la jurisprudence ouverte pour ce passage.'
+- agent: expert-ecologistes
+  texte: 'A10 : le chiffre de 640 milliards (F31) date du début de 2026 ; le stock était d''environ 597 milliards
+    fin octobre 2026 selon les données de la BCE citées au dossier.'
+- agent: expert-ecologistes
+  texte: Aucune objection reçue sur A9 à A12 ; la source S28 reste inaccessible et n'est pas utilisée.
+- agent: expert-extreme-droite
+  texte: Le mécanisme de A13 (intérêts reçus, puis résultat, puis impôt et dividendes) repose sur la seule déclaration
+    de Jordan Bardella (S29, non conforme) ; F19, F20 et S9 établissent l'impôt, les dividendes et le partage du
+    revenu monétaire dans l'Eurosystème, pas la part due aux titres de l'État.
+- agent: expert-extreme-droite
+  texte: 'L''article de Blick et celui de The Economist (S34) restent inaccessibles : je ne les cite pas.'
+- agent: expert-extreme-droite
+  texte: 'Aucune objection de fait n''est déposée : je n''ai pas relu les sources des autres camps au-delà du lot.'
+- agent: expert-extreme-gauche
+  texte: 'Correction de A18 : le chiffre de 270 milliards d''euros d''aides (verdict Invérifiable sur F42) est retiré
+    de l''argument ; le raisonnement repose sur le principe (supprimer les aides, taxer les profits), sans chiffre.'
+- agent: expert-extreme-gauche
+  texte: Aucune objection reçue sur A16, A17, A19 ; aucune erreur de fait trouvée chez les autres sur mes sources
+    ; je n'ai rien vérifié de nouveau dans ce passage.
+- agent: expert-gauche-radicale
+  texte: L'objection sur F41 repose sur F21 et sur le principe du partage du revenu monétaire ; je n'ai pas rouvert
+    S9 pour mesurer la part de revenu effectivement mutualisée sur les titres publics français.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas rouvert S39, S40 et S41 : les corrections reformulent mes énoncés d''après les verdicts du
+    lot, sans nouvel extrait.'
+- agent: expert-gauche-radicale
+  texte: A25 et A26 (propriété de la banque centrale, indépendance) sont maintenus ; la part factuelle de F51 (qui
+    détient le capital de la BCE) n'est pas vérifiée.
+- agent: expert-sociaux-democrates
+  texte: 'Aucune objection ni source demandée dans le lot : seules deux corrections de formulation sur mes propres
+    arguments (périmètre du chiffre de 24,4 % ; portée de la conclusion juridique).'
+- agent: expert-centre
+  texte: Le contre-argument a1 raisonne à partir de F9 et F10 sans rouvrir l'arrêt Weiss ; je n'affirme pas ce que
+    la Cour dit des conditions précises, seulement que F10 vise la décision d'achat.
+- agent: expert-centre
+  texte: F25 (taux du 24 août 2026) date de plus de deux mois et vient de la presse ; non réactualisé.
+- agent: expert-centre
+  texte: L'appartenance de Gabriel Attal à Renaissance (A6) n'est pas établie par S20 ; je ne l'ai pas revérifiée
+    dans S17, et je n'utilise pas S20.
+- agent: expert-centre
+  texte: Dans A6 corrigé, la part des intérêts sur titres de l'État dans le résultat de la Banque de France n'est
+    établie par aucune source (F41).
+- agent: expert-droite
+  texte: A1 et a2 s'appuient sur S21, position de 2020 de Jean-François Husson sur l'annulation, pas sur la proposition
+    de 2026.
+- agent: expert-droite
+  texte: 'Je n''ai pas rouvert de source : les examens portent sur le lot et les verdicts qu''il indique.'
+- agent: expert-ecologistes
+  texte: 'A10 cite F7 (partage du revenu monétaire entre banques centrales) à l''appui du retour d''intérêts à l''État
+    : F7 n''établit pas ce retour, seuls F19 et F20 le font ; le chiffre de 640 milliards (F31) est un ordre de
+    grandeur de début 2026, proche de 597 milliards fin octobre 2026.'
+- agent: expert-ecologistes
+  texte: Les arguments de LFI et du centre sur les taux (Q42) n'ont pas de chiffrage institutionnel ; je n'ai pas
+    cherché d'étude externe.
+- agent: expert-extreme-droite
+  texte: 'Je n''ai pas de source du dossier qui chiffre la part des intérêts reversée à l''État (impôt, dividende)
+    ni l''effet du partage du revenu monétaire dans l''Eurosystème : la correction de A13 reste qualitative.'
+- agent: expert-extreme-droite
+  texte: 'Le RN n''a pas d''argument au dossier sur Q41, Q42, Q44, Q45 : je n''en ajoute pas.'
+- agent: expert-extreme-gauche
+  texte: Je n'ai rouvert aucune source ; l'analyse porte sur le lot.
+- agent: expert-extreme-gauche
+  texte: Le montant de 270 milliards d'euros de LO n'a pas de source officielle.
+- agent: expert-gauche-radicale
+  texte: 'A21 (PCF) : le raisonnement écrit que l''annulation partielle se heurte aux traités, alors que l''énoncé
+    dit que l''interdiction n''est pas établie ; la formulation est plus tranchée que la source ne le permet.'
+- agent: expert-gauche-radicale
+  texte: 'F46 : le fait que les créanciers de marché ne soient pas touchés reste surtout sous-entendu dans Public
+    Sénat (verdict Plutôt vrai) ; a1 en dépend.'
+- agent: expert-gauche-radicale
+  texte: Le lien entre intérêts supprimés et baisse des versements de la Banque de France reste non chiffré (objection
+    O1 en attente).
+- agent: expert-sociaux-democrates
+  texte: Le périmètre exact de la catégorie « autres français » (part de la Banque de France) n'est pas isolé dans
+    les sources du dossier.
+- agent: expert-sociaux-democrates
+  texte: Le partage des pertes entre banques centrales de l'Eurosystème (A5) n'est pas établi au dossier.
+- agent: expert-centre
+  texte: Le rythme de baisse du stock de titres français de l'Eurosystème (F31) et les échéances de 2026 et 2027
+    ne sont pas chiffrés ici ; j'affirme le sens de l'évolution, pas son ampleur.
+- agent: expert-centre
+  texte: La voie juridique de la proposition de 2026 (loi nationale, démarche européenne) n'est pas établie par
+    le lot ; a3 raisonne sous condition.
+- agent: expert-centre
+  texte: F48 porte sur le PEPP ; le PSPP est traité par un autre calendrier de réinvestissements que je n'ai pas
+    vérifié.
+- agent: expert-droite
+  texte: Aucun contre-argument ne visant mes arguments, je n'ai rien défendu ni corrigé.
+- agent: expert-droite
+  texte: La valeur déposée pour Q46 est une position de principe de ma famille ; aucune source du lot ne l'attribue
+    à un parti LR précis, elle peut être écartée si le coordinateur l'exige.
+- agent: expert-extreme-gauche
+  texte: 'Aucun contre-argument du lot ne vise mes arguments (repond_a) : rien à défendre.'
+- agent: expert-extreme-gauche
+  texte: La correction de A16 retire une conclusion non sourcée ; je n'ai ouvert aucune nouvelle source pour ce
+    passage.
+- agent: expert-extreme-gauche
+  texte: Je n'ai pas vérifié la fourchette 111,9 à 211 milliards au-delà de ce que rapporte le lot (explication
+    de F42).
+- agent: expert-gauche-radicale
+  texte: Le point 146 de l'arrêt Weiss (S3) a été relu sur EUR-Lex ; son poids pour la question de l'annulation
+    reste une interprétation.
+- agent: expert-gauche-radicale
+  texte: 'A26 et A29 (F51) disent que la banque centrale appartient aux États de l''Union : pour la Banque de France,
+    le capital est détenu par l''État français ; je n''ai pas ouvert de source sur ce point, à vérifier.'
+- agent: expert-gauche-radicale
+  texte: Le communiqué S8 donne le report à nouveau 2024 (-7,7 Md€) ; je n'ai pas de source sur le montant exact
+    versé à l'État en 2025 au titre des dividendes.
+- agent: expert-sociaux-democrates
+  texte: La part exacte de la Banque de France dans la catégorie « autres français » n'est pas isolée ; 18 % vient
+    de Public Sénat (niveau 4).
+- agent: expert-sociaux-democrates
+  texte: L'effet de fonds propres durablement négatifs sur la BCE n'est chiffré par aucune source du dossier.
+- agent: bibliothecaire
+  texte: 'Porteurs F11 à F15 : personne, fonction, date et institution repris des métadonnées du lot (S4, S5, S6)
+    ; les sources n''ont pas été rouvertes pour cette normalisation. La fonction « présidente de la Banque centrale
+    européenne » reprend la formulation des sources (« présidente de la BCE »), développée selon § 3.'
+- agent: expert-centre
+  texte: 'Appartenance de Roland Lescure à Renaissance : source de niveau 4 (LégiFiscal : député Renaissance) ;
+    la page LCP ne cite que le groupe EPR. Sites gouvernementaux inaccessibles (403).'
+- agent: expert-centre
+  texte: Date de la page Europe 1 (candidature d'Édouard Philippe) non trouvée ; année 2026 indiquée, à préciser.
+- agent: expert-centre
+  texte: 'A4 : Roland Lescure retiré des porteurs, S16 ne dit rien sur le remboursement. V17 à V19 retirées (doublons
+    de V1 à V3).'
+- agent: expert-centre
+  texte: 'A6 : Gabriel Attal est conservé comme porteur du levier coût du travail ; S17 ne mentionne pas Q47 directement.'
+- agent: expert-droite
+  texte: 'A41 et A42 retirés : S21 (Husson, 2020) ne parle ni des taux ni de la catégorie « autres français » ;
+    aucun autre porteur LR sourcé n''a été cherché hors lot.'
+- agent: expert-droite
+  texte: 'A8 : le plan de Retailleau ne mentionne pas l''annulation ; la position non est une lecture par le choix
+    des moyens, déjà signalée dans le raisonnement.'
+- agent: expert-droite
+  texte: 'V4, V20, V28 (Q45) et V5, V21, V30 (Q47) disent la même chose : doublons possibles à fusionner.'
+- agent: expert-droite
+  texte: 'V5 reformulée : la phrase sur la réforme de l''État n''est pas dans S22.'
+- agent: expert-ecologistes
+  texte: 'A9 retiré : son seul porteur, Jérôme Gleizes, a rejoint en janvier 2026 la liste de Sophia Chikirou (LFI)
+    à Paris selon Public Sénat (2026-01-30) ; son appartenance à LE en septembre 2026 n''est pas établie.'
+- agent: expert-ecologistes
+  texte: 'A10 : le raisonnement cite F31 et F32, tirés de la chronique de Gleizes, et F31 est jugé insuffisant par
+    le vérificateur ; le raisonnement n''est pas modifié ici.'
+- agent: expert-ecologistes
+  texte: 'Date du programme de LE (S26) : « juillet 2026 » d''après la page de commission publiée le 26 octobre
+    2026 ; le programme lui-même n''a pas été ouvert.'
+- agent: expert-ecologistes
+  texte: 'Fonction de Marine Tondelier (secrétaire nationale en juin 2024) : S27 la désigne seulement comme « cheffe
+    de file des écologistes ».'
+- agent: expert-extreme-droite
+  texte: 'A13 : la source S29 (niveau 4, analyse assistée par IA) rapporte la réponse de Jordan Bardella sur X ;
+    la date du 23 août 2026 est celle de la réponse rapportée, la page est du 24 août.'
+- agent: expert-extreme-droite
+  texte: 'A15 : position oui retenue car la question oppose décision nationale et règles européennes ; la nuance
+    (plafond de déficit) figure dans l''énoncé.'
+- agent: expert-extreme-droite
+  texte: 'S45 établit Marine Le Pen et le groupe Rassemblement National, pas sa présidence du groupe en 2024 : fonction
+    limitée à députée.'
+- agent: expert-extreme-gauche
+  texte: 'A16 retiré : le seul porteur au dossier est Tendance CLAIRE (S38), dont la page ne s''ouvre pas (contenu
+    vide) ; le tract NPA S37 ne traite pas du reversement des intérêts de la Banque de France.'
+- agent: expert-extreme-gauche
+  texte: 'A19 et A43 : le tract NPA de 2011 (S37) établit le refus de la dette illégitime, l''audit et le moratoire,
+    mais pas explicitement le passage sur la seule part de la banque centrale, qui date d''une époque antérieure
+    à ces achats de titres ; la date du tract est au mois (2011-12), non confirmée au jour.'
+- agent: expert-extreme-gauche
+  texte: 'V10 : la source est l''hebdomadaire LO du 4 septembre 2026 ; je n''ai pas établi l''auteur de l''article,
+    donc porteur = parti seul.'
+- agent: expert-extreme-gauche
+  texte: V11 et V31 retirés faute de porteur sourcé précis (V11 attribuait à toute la famille ; V31 renvoie à des
+    arguments d'autres familles).
+- agent: expert-gauche-radicale
+  texte: 'Fonction de Jean-Luc Mélenchon le 6 juin 2022 (S40) : « ancien candidat à l''élection présidentielle de
+    2022 » est déduite du contexte, la source ne la dit pas.'
+- agent: expert-gauche-radicale
+  texte: 'Fonction « député » de Mélenchon (S39) et de Roussel (S41) : établie par le texte parlementaire et le
+    compte rendu (groupe GDR), la fonction exacte de Roussel (secrétaire national du PCF) n''est pas reprise.'
+- agent: expert-gauche-radicale
+  texte: 'A22, A23, A25, A30 : la date 2026-08-25 est celle de l''article S19 ; les propos de Mélenchon datent du
+    week-end précédent.'
+- agent: expert-gauche-radicale
+  texte: 'A30 (S40, austérité) : extrait non revérifié dans le livret ; le titre du chapitre 8 évoque le retour
+    de l''austérité en Europe.'
+- agent: expert-sociaux-democrates
+  texte: S43 ne date pas la tribune (« Publié aujourd'hui ») ; 2021-02-05 vient du dossier. Lalucq est signataire
+    à titre individuel d'une tribune collective d'économistes.
+- agent: expert-sociaux-democrates
+  texte: L'appartenance de Lalucq à PP repose sur une chronologie de Politis (2019, « Elle rejoint Place publique
+    ») ; elle est seulement établie pour 2019 et après, pas explicitement en 2021.
+- agent: expert-sociaux-democrates
+  texte: 'V27 et V33 retirées : doublons de V15 sans porteur propre ; la distinction créancier privé/public n''est
+    pas formulée comme priorité dans S43.'
+- agent: expert-centre
+  texte: Le bulletin n° 260/6 de la Banque de France (S9) a renvoyé une erreur 403 à l'ouverture ; sa teneur n'a
+    été reprise que d'après le dossier.
+- agent: expert-centre
+  texte: La recherche d'une source isolant la part des titres d'État dans le résultat de la Banque de France n'a
+    pas été exhaustive.
+- agent: expert-droite
+  texte: 'Absence de position publique de LR sur la dette détenue par la banque centrale en 2026 : constatée dans
+    la presse consultée, pas dans les textes parlementaires ou le site du parti, non consultés pour cette relance.'
+- agent: expert-ecologistes
+  texte: Aucune estimation institutionnelle de la marge nette n'a été trouvée ; la recherche n'a pas été étendue
+    au-delà du dossier.
+- agent: expert-extreme-droite
+  texte: Aucune source ouverte n'isole la part des intérêts des titres de l'État dans le résultat de la Banque de
+    France.
+- agent: expert-extreme-droite
+  texte: Je ne sais pas si le revenu monétaire mis en commun dans l'Eurosystème empêche tout lien direct entre intérêts
+    perçus sur titres français et versements à l'État.
+- agent: expert-extreme-gauche
+  texte: 'Aucune source officielle ouverte pour les trois présupposés (dette née de cadeaux fiscaux, intérêts en
+    emplois, aides ayant creusé la dette) : une recherche rapide n''a pas donné de source ouverte.'
+- agent: expert-gauche-radicale
+  texte: 'Aucune recherche nouvelle n''a été faite : les réponses constatent l''absence de source dans le dossier
+    et dans les textes déjà ouverts.'
+- agent: expert-sociaux-democrates
+  texte: f1 est un document de travail de 2004, non une position officielle de la BCE ; il ne traite pas d'un effacement
+    décidé par le conseil des gouverneurs.
+- agent: expert-sociaux-democrates
+  texte: Aucune source d'institution n'a été trouvée sur le cas précis de l'annulation de titres déjà détenus, sur
+    la marge nette ni sur l'effet sur la crédibilité.
+- agent: expert-centre
+  texte: Aucune source ouverte ne dit quelle voie (loi nationale ou décision du conseil des gouverneurs) suivrait
+    la proposition.
+- agent: expert-centre
+  texte: Aucune source isolant la part des intérêts sur titres d'État dans le résultat de la Banque de France n'a
+    été trouvée.
+- agent: expert-droite
+  texte: Je n'ai pas trouvé d'évaluation institutionnelle du plan du 12 octobre 2026 ; il peut en exister une que
+    je n'ai pas repérée.
+- agent: expert-extreme-droite
+  texte: Aucune source d'institution ne chiffre l'effet des économies prévues par le plan du RN.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas relu le texte de A46 et de A37 hors de la relance : je réponds à la formulation de R27.'
+examen_obligatoire: true
+titre_fiche: L'annulation de la dette publique détenue par la Banque de France

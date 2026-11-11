@@ -1,0 +1,19 @@
+agent: expert-centre
+phase: 4
+corrections:
+  - vise: A1
+    action: corriger
+    enonce: "Selon Renaissance, les traités ne permettent pas cette opération : effacer ou geler à taux nul des titres que l'Eurosystème a rachetés reviendrait à faire financer l'État par sa banque centrale, ce que l'article 123 interdit. Aucun texte ni arrêt n'a tranché ce cas précis (la contrariété aux traités reste une interprétation juridique disputée), et la décision ne relèverait de toute façon pas du gouvernement mais du conseil des gouverneurs."
+  - vise: A2
+    action: corriger
+    enonce: "Les taux risquent de monter. Un État qui renonce unilatéralement à une part de sa dette, par une voie juridiquement contestée, signale aux prêteurs qu'il peut changer les règles ; ils demanderaient selon Renaissance et Horizons un taux plus élevé. Il s'agit d'une estimation sans chiffrage publié : aucune institution n'a estimé l'ampleur de la hausse."
+  - vise: A3
+    action: corriger
+    enonce: "Selon Renaissance, oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de l'euro repose sur le respect des règles communes. La compatibilité de l'opération avec les traités est disputée, mais une décision prise sans le conseil des gouverneurs poserait de toute façon la question de l'indépendance."
+  - vise: A5
+    action: corriger
+    enonce: "Non, selon Renaissance. Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs ; les règles européennes limitent la décision nationale, et décider seul sur des titres détenus par l'Eurosystème reviendrait à s'affranchir des règles communes, ce que le gouvernement juge contraire aux traités (interprétation contestée par les signataires de la tribune de 2021)."
+incertitudes:
+  - "S20 (dépêche AFP du 24 août 2026) ne dit pas que Gabriel Attal appartient à Renaissance ; le rattachement de A6 repose sur S17 (Selectra) et sur ma connaissance générale, à confirmer par le vérificateur."
+  - "F27 est Invérifiable : mes arguments A1, A2, A3 et A5 la mobilisaient comme acquise, d'où les corrections ci-dessus. Je n'ai pas relu les arguments des autres familles en détail ; aucune objection de fait nouvelle déposée."
+  - "Aucune objection n'avait été posée sur mes arguments (objections_deja_posees vide) ; seuls les verdicts ont motivé les corrections."

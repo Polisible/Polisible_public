@@ -1,0 +1,13 @@
+agent: expert-ecologistes
+phase: 4
+examen:
+  - {question: Q41, conclusion: "Rien à contester : A1, A20, A21 et A32 s'appuient sur F1 à F5 et F8 à F10, exacts ; A1 et A21 reconnaissent que F27 est une interprétation disputée, ce qui rejoint A9."}
+  - {question: Q42, conclusion: "Rien de factuel à contester : F25 est daté et sourcé, F26 et F47 sont des estimations sans chiffrage ; A2 et A22 reposent sur des hypothèses opposées que le dossier ne tranche pas."}
+  - {question: Q43, conclusion: "Rien de nouveau : A13, A16 et A23 reposent sur F19, F20 et F21, exacts ; leur point commun (baisse des versements de la Banque de France) fait déjà l'objet de l'objection O1, en cours."}
+  - {question: Q44, conclusion: "Rien à contester : A3 et A25 s'appuient sur F3 et F5, exacts ; A3 concède que la décision du conseil des gouverneurs change l'analyse, A33 repose sur F58 (débat entre experts), non tranché."}
+  - {question: Q45, conclusion: "Rien à contester côté faits : A4 s'appuie sur F24, exact, et A7, A17, A26, A27, A34 sur des valeurs ou F17 ; ce sont des désaccords de valeur, pas d'erreur."}
+  - {question: Q46, conclusion: "Rien à contester : A5, A15, A28, A29 et A35 s'appuient sur F3, F4, F5, F39 et F40, exacts ; les divergences portent sur le niveau de décision (valeur)."}
+  - {question: Q47, conclusion: "Rien à contester : A6, A8 et A14 reposent sur F18 à F22, F29 à F39, exacts ; A6 et A14 posent une marge nette réduite ou une cause du déficit non traitée, sans erreur de fait."}
+incertitudes:
+  - "A10 cite F7 (partage du revenu monétaire entre banques centrales) à l'appui du retour d'intérêts à l'État : F7 n'établit pas ce retour, seuls F19 et F20 le font ; le chiffre de 640 milliards (F31) est un ordre de grandeur de début 2026, proche de 597 milliards fin octobre 2026."
+  - "Les arguments de LFI et du centre sur les taux (Q42) n'ont pas de chiffrage institutionnel ; je n'ai pas cherché d'étude externe."

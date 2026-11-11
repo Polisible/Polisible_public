@@ -1,0 +1,33 @@
+sources_a_verifier: []
+verdicts_a_attribuer: []
+objections_a_trancher:
+- id: O1
+  vise: F41
+  auteur: expert-gauche-radicale
+  contenu: L'énoncé et l'argument A13 supposent que le résultat de la Banque de France baisse d'autant que les intérêts
+    qu'elle ne perçoit plus, donc que ses versements à l'État baissent d'autant.
+  sources: []
+  ce_que_la_source_ne_dit_pas: 'La source (S29, niveau 4) ne mentionne pas le partage du revenu monétaire dans l''Eurosystème,
+    établi par le Bulletin de la Banque de France n° 260/6 (F21, S9) : une partie du revenu des titres de politique
+    monétaire est mise en commun puis redistribuée entre banques centrales nationales, ce qui interdit de tenir
+    pour acquis que le résultat de la Banque de France diminue de la totalité des intérêts.'
+  element_vise:
+    id: F41
+    enonce: Les intérêts que l'État paie à la Banque de France sur les titres qu'elle détient contribuent à son
+      résultat, dont une part revient à l'État (dividende et impôt).
+    type: estimation
+    sources:
+    - source: S29
+      extrait: Il a argué que la Banque de France étant détenue par l'État, les intérêts versés sont reversés sous
+        forme de dividendes.
+    declaration: false
+    auteur: expert-extreme-droite
+    passage: 1
+    verdict: Pas d'estimation fiable
+    explication: 'La seule source (site de niveau 4, analyse assistée par IA, 24 août 2026) est non conforme : elle
+      rapporte un argument de Jordan Bardella sans établir le mécanisme ni mentionner l''impôt. Les documents de
+      la Banque de France au dossier (F19, F20, F21) établissent que la Banque verse un impôt et des dividendes
+      à l''État et que son revenu monétaire est partagé dans l''Eurosystème, mais aucune source rattachée n''isole
+      la part due aux intérêts sur les titres de l''État.'
+    statut: contestee
+  sources_detail: []

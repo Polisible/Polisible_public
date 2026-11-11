@@ -1,0 +1,2139 @@
+- id: A1
+  question: Q41
+  position: non
+  enonce: 'Les traités ne permettent pas d''effacer ni de convertir à taux nul ces titres : ce serait faire financer
+    l''État par sa banque centrale, ce que l''article 123 interdit. Aucun arrêt n''a tranché ce cas précis, et la
+    décision relèverait du conseil des gouverneurs.'
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F8
+  - F9
+  - F10
+  - F24
+  - F27
+  raisonnement: 'L''article 123 interdit crédits et achats directs de dette aux États (F1, F2). La Cour a validé
+    les rachats sur le marché secondaire (F8, F10), mais à condition de garanties contre le financement monétaire
+    (F9) : les titres ont été achetés à des investisseurs (F24) et non offerts à l''État. Les annuler ou les convertir
+    en perpétuel à taux nul reviendrait à donner à l''État, après coup, un avantage que le traité lui refuse au
+    départ. Enfin, les décisions du SEBC appartiennent au conseil des gouverneurs (F5), qui ne peut recevoir d''instructions
+    des gouvernements (F3) : un État ne peut ni l''ordonner ni modifier seul le cadre (F4).'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: 'Selon Renaissance, les traités ne permettent pas cette opération : effacer ou geler à taux nul des
+      titres que l''Eurosystème a rachetés reviendrait à faire financer l''État par sa banque centrale, ce que l''article
+      123 interdit. Aucun texte ni arrêt n''a tranché ce cas précis (la contrariété aux traités reste une interprétation
+      juridique disputée), et la décision ne relèverait de toute façon pas du gouvernement mais du conseil des gouverneurs.'
+    position: non
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
+  corrige: true
+- id: A2
+  question: Q42
+  position: oui
+  enonce: 'Les taux monteraient : un État qui renonce unilatéralement à une part de sa dette, par une voie juridiquement
+    contestée, signale qu''il peut changer les règles. Les prêteurs demanderaient un taux plus élevé ; aucune institution
+    n''a chiffré cette hausse.'
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  - personne: Édouard Philippe
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: HOR
+    date: '2026-08-27'
+    source: S17
+    appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
+  affirmations:
+  - F25
+  - F26
+  - F27
+  raisonnement: La France emprunte à un taux déjà au plus haut depuis 2008 (F25) ; toute hausse supplémentaire se
+    répercute sur l'ensemble de la dette renouvelée. L'opération, juridiquement contestée (F27), serait lue comme
+    un défaut partiel ou un risque de rupture avec les règles de la zone euro. Les prêteurs, qui n'ont aucune raison
+    de croire que le précédent ne se reproduira pas, réclameraient une prime de risque (F26), et l'accès aux marchés
+    pourrait se compliquer. Le gain sur les intérêts de la dette gelée serait ainsi rogné par le surcoût sur la
+    dette future.
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: 'Les taux risquent de monter. Un État qui renonce unilatéralement à une part de sa dette, par une voie
+      juridiquement contestée, signale aux prêteurs qu''il peut changer les règles ; ils demanderaient selon Renaissance
+      et Horizons un taux plus élevé. Il s''agit d''une estimation sans chiffrage publié : aucune institution n''a
+      estimé l''ampleur de la hausse.'
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
+    - parti: HOR
+      source: S17
+      personne_ou_groupe_ancien: Édouard Philippe (débat du Medef, 27 août 2026)
+  corrige: true
+- id: A3
+  question: Q44
+  position: oui
+  enonce: Si l'État impose à la banque centrale d'effacer ses actifs, ce serait une instruction d'un gouvernement,
+    que le traité interdit. Une décision libre du conseil des gouverneurs n'en est pas une.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F3
+  - F4
+  - F5
+  - F27
+  raisonnement: 'Le traité interdit à la BCE et aux banques centrales nationales d''accepter des instructions des
+    gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4). Une opération
+    imposée par une loi nationale relèverait de cette interdiction. Le conseil des gouverneurs reste libre de décider
+    (F5) : dans ce cas, l''argument ne s''applique pas.'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: Selon Renaissance, oui. L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de
+      lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction, et la crédibilité de
+      l'euro repose sur le respect des règles communes. La compatibilité de l'opération avec les traités est disputée,
+      mais une décision prise sans le conseil des gouverneurs poserait de toute façon la question de l'indépendance.
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
+  - passage: 4
+    enonce: L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
+      ; lui imposer d'effacer ses actifs serait une instruction. La crédibilité de l'euro repose sur le respect
+      des règles communes.
+    raisonnement: Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des
+      instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4).
+      Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs
+      (F5), afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur
+      que si chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (F27), reviendrait
+      à n'en plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie.
+  corrige: true
+- id: A4
+  question: Q45
+  position: oui
+  enonce: 'Les titres détenus par la banque centrale sont des titres de l''État comme les autres : ils arrivent
+    à échéance et sont remboursés. Les effacer unilatéralement porterait atteinte à la signature de la France.'
+  porte_par:
+  - personne: Édouard Philippe
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: HOR
+    date: '2026-08-27'
+    source: S17
+    appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
+  affirmations:
+  - F24
+  - F25
+  raisonnement: 'Les titres ont été achetés sur le marché secondaire (F24) : la banque centrale a payé les vendeurs,
+    et ses engagements envers eux demeurent. Distinguer les créanciers que l''on rembourse de ceux que l''on ne
+    rembourse pas ferait de la parole de l''État un choix variable. Le respect intégral des engagements est ce qui
+    permet à la France d''emprunter durablement (F25 : le coût de l''emprunt est déjà élevé).'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: 'Oui. Les titres détenus par la banque centrale sont des titres de l''État comme les autres : ils arrivent
+      à échéance et sont remboursés, et les effacer unilatéralement porterait atteinte à la signature de la France.'
+    position: oui
+    porte_par:
+    - parti: HOR
+      source: S17
+      personne_ou_groupe_ancien: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de
+        dette)'
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A5
+  question: Q46
+  position: non
+  enonce: Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs. Décider seul
+    sur des titres détenus par l'Eurosystème reviendrait à s'affranchir des règles communes, contraires en ce cas
+    aux traités.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F3
+  - F4
+  - F27
+  raisonnement: 'L''État a lui-même accepté les traités : il doit veiller à la compatibilité de sa législation avec
+    eux (F4) et ne peut pas donner d''instructions à la banque centrale (F3). Une décision nationale unilatérale
+    sur des titres détenus par l''Eurosystème engagerait les autres membres, qui supportent leur part du bilan commun.
+    S''en affranchir sur ce sujet, c''est dire qu''on ne respecte plus les règles communes (F27).'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Non, selon Renaissance. Dans une union monétaire, la dette en euros et la banque centrale sont des biens
+      communs ; les règles européennes limitent la décision nationale, et décider seul sur des titres détenus par
+      l'Eurosystème reviendrait à s'affranchir des règles communes, ce que le gouvernement juge contraire aux traités
+      (interprétation contestée par les signataires de la tribune de 2021).
+    position: non
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
+  corrige: true
+- id: A6
+  question: Q47
+  position: non
+  enonce: Le gain net de l'annulation pour l'État est incertain, car la Banque de France lui verse déjà des bénéfices
+    qui reposent en partie sur ces intérêts. Équilibrer les comptes et alléger le coût du travail sont les leviers
+    retenus.
+  porte_par:
+  - personne: Édouard Philippe
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: HOR
+    date: '2026-08-27'
+    source: S17
+    appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
+  - personne: Gabriel Attal
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: RE
+    date: '2026-08-27'
+    source: S17
+    appartenance: S50
+    fonction_verifiee: 'S17 : « ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; S50 : « a
+      officialisé sa candidature à l''élection présidentielle de 2027 » (22 mai 2026), où il est aussi « le secrétaire
+      général de Renaissance ».'
+  affirmations:
+  - F18
+  - F19
+  - F20
+  raisonnement: 'La Banque de France verse des sommes à l''État (F20, F19 : impôt de 1,5 milliard d''euros et résultat
+    net de 8,1 milliards en 2025, F18). Si l''opération réduit les intérêts payés par l''État, elle réduit aussi
+    ce que la banque lui verse, de sorte que la marge nette est inférieure au gain brut (voir Q43). Pour dégager
+    une marge durable, les leviers sont les économies, un budget équilibré, et la croissance par la baisse du coût
+    du travail.'
+  repond_a: null
+  auteur: expert-centre
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Non. Le gain net de l''annulation pour l''État est incertain : la Banque de France lui verse déjà des
+      bénéfices (impôt et dividendes) qui reposent en partie sur les intérêts qu''elle perçoit, sans qu''aucune
+      source n''en chiffre la part. Équilibrer les comptes, alléger le coût du travail et soutenir la compétitivité
+      sont les leviers retenus.'
+    position: non
+    porte_par:
+    - parti: HOR
+      source: S17
+      personne_ou_groupe_ancien: 'Édouard Philippe (débat du Medef, 27 août 2026 : équilibrer les comptes, sans
+        annulation)'
+    - parti: RE
+      source: S17
+      personne_ou_groupe_ancien: 'Gabriel Attal (débat du Medef, 27 août 2026 : annuler les hausses du coût du travail
+        depuis 2024)'
+  corrige: true
+- id: A7
+  question: Q45
+  position: oui
+  enonce: 'Un État doit rembourser sa dette, y compris quand le créancier est la banque centrale : l''État engage
+    son peuple, et renoncer à une dette ferait perdre la confiance qui permet d''emprunter.'
+  porte_par:
+  - personne: Jean-François Husson
+    fonction: sénateur, rapporteur de la commission des finances du Sénat
+    parti: LR
+    date: '2020-12-28'
+    source: S21
+  affirmations:
+  - F28
+  raisonnement: Une dette est un engagement pris au nom des contribuables. Si l'État peut s'en délier, aucun engagement
+    futur n'est crédible. Une dette lourde appelle une redéfinition des priorités de dépense, non sa disparition
+    ; cette position date de décembre 2020 et ne porte pas sur la proposition d'août 2026.
+  repond_a: null
+  auteur: expert-droite
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Un État doit rembourser sa dette, y compris quand le créancier est un organisme public comme la banque
+      centrale : la parole de l''État engage les contribuables, et y renoncer ferait perdre la confiance qui permet
+      d''emprunter.'
+    raisonnement: Pour ce défenseur de la rigueur budgétaire, une dette est un engagement pris au nom du peuple.
+      Si l'État peut s'en délier dès qu'elle devient pesante, aucun engagement futur ne sera crédible ; la bonne
+      réponse à une dette lourde est de redéfinir les priorités de dépense, non de la faire disparaître. Position
+      exprimée en décembre 2020 sur l'annulation des dettes détenues par la BCE, pas sur la proposition d'août 2026.
+    position: non
+    porte_par:
+    - parti: LR
+      source: S21
+      personne_ou_groupe_ancien: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances
+        du Sénat (entretien du 28 décembre 2020)
+  corrige: true
+- id: A8
+  question: Q47
+  position: non
+  enonce: Pour dégager des marges budgétaires, la voie retenue est de réduire la dépense publique et de viser un
+    excédent primaire, plutôt que de toucher au stock de dette.
+  porte_par:
+  - personne: Bruno Retailleau
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: LR
+    date: '2026-10-12'
+    source: S22
+  affirmations:
+  - F29
+  - F30
+  raisonnement: 'Le plan présenté le 12 octobre 2026 finance l''effort par des économies sur l''État et les dépenses
+    sociales (F30), avec un déficit sous 3 % en 2031. Les marges viennent de la dépense maîtrisée. Le plan ne mentionne
+    pas l''annulation : l''argument en est une lecture par le choix des moyens.'
+  repond_a: null
+  auteur: expert-droite
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Pour dégager des marges budgétaires, la voie retenue par le candidat LR est de réduire la dépense publique
+      et de rétablir un excédent primaire, plutôt que de toucher à la dette elle-même.
+    raisonnement: 'Le candidat juge la France « quasiment en faillite », avec un taux à 10 ans proche de 5 % (Public
+      Sénat, 12 octobre 2026). Son plan finance l''effort par des économies sur l''État et les dépenses sociales,
+      et vise un excédent primaire en 2030 puis un déficit sous 3 % en 2031 : les marges viennent de la dépense
+      maîtrisée, non d''un allègement du stock de dette. Attention : le plan ne mentionne pas l''annulation ; cet
+      argument en est la lecture par le choix des moyens.'
+    position: non
+    porte_par:
+    - parti: LR
+      source: S22
+      personne_ou_groupe_ancien: Bruno Retailleau, candidat LR à la présidentielle 2027 (plan présenté le 12 octobre
+        2026)
+  corrige: true
+- id: A9
+  question: Q41
+  position: nuance
+  enonce: Le traité interdit le crédit et l'achat direct de dette auprès des États, mais pas les achats sur le marché
+    secondaire, que le SEBC pratique depuis 2015. La Cour de justice a jugé le programme d'achats de 2015 (PSPP)
+    compatible avec le traité sous conditions (arrêt Weiss) ; elle ne s'est pas prononcée sur le programme d'urgence
+    pandémique (PEPP) de 2020. La question juridique réelle est de savoir si une conversion ou une annulation de
+    titres déjà détenus relève de l'interdiction du financement monétaire, et c'est une question de décision de
+    l'Eurosystème.
+  porte_par:
+  - parti: LE
+    source: S23
+    personne_ou_groupe_ancien: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre
+      2026
+  affirmations:
+  - F1
+  - F2
+  - F5
+  - F8
+  - F9
+  - F10
+  raisonnement: 'L''article 123 vise deux opérations précises : le crédit direct aux États et l''acquisition directe
+    de leur dette (F1, F2). Les titres détenus par l''Eurosystème ont été acquis sur les marchés secondaires dans
+    un programme que la Cour a jugé compatible avec le traité sous garanties (F8, F9, F10). Un texte qui n''évoque
+    pas le traitement ultérieur de ces titres ne tranche pas l''annulation ; l''affirmer interdite comme certaine
+    est une interprétation, et le conseil des gouverneurs de la BCE reste l''organe qui décide (F5). Cette lecture
+    concerne l''annulation ou la conversion décidée par la BCE elle-même, pas une décision unilatérale de l''État.'
+  repond_a: null
+  auteur: expert-ecologistes
+  passage: 1
+  statut: retire
+  a_normaliser:
+  - porteur à reformater (personne, fonction, date)
+- id: A10
+  question: Q45
+  position: non
+  enonce: 'Un État n''a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n''est pas
+    due à un créancier extérieur à la sphère publique. Si l''annulation dégage une marge nette, celle-ci peut financer
+    des investissements de transition écologique.'
+  porte_par:
+  - parti: LE
+    date: '2020-06-15'
+    source: S24
+  affirmations:
+  - F31
+  - F32
+  - F34
+  - F7
+  - F20
+  raisonnement: Les titres détenus par l'Eurosystème résultent d'achats de politique monétaire (F31), et une part
+    des intérêts revient à l'État (F7, F20). Le remboursement oblige donc à financer la somme ailleurs. L'ampleur
+    de la marge nette n'est pas chiffrée (F41) ; si elle existe, l'Europe a besoin d'investissements supplémentaires
+    (F32), et le parti a déjà lié annulation et reconstruction écologique (F34).
+  repond_a: null
+  auteur: expert-ecologistes
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Un État n''a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n''est
+      pas due à un créancier extérieur à la sphère publique, et la marge dégagée peut financer les investissements
+      de la transition écologique. Le remboursement intégral n''est pas une obligation de principe mais un choix
+      de politique économique.'
+    position: non
+    porte_par:
+    - parti: LE
+      source: S23
+      personne_ou_groupe_ancien: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre
+        2026
+    - parti: LE
+      source: S24
+      personne_ou_groupe_ancien: Les Verts (EELV), plan de reconstruction écologique de juin 2020, porte-parole
+        Eva Sas
+  - passage: 4
+    enonce: Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale, qui n'est pas due
+      à un créancier extérieur à la sphère publique. La marge dégagée peut financer la transition écologique.
+    raisonnement: Les titres publics détenus par l'Eurosystème (environ 640 milliards d'euros pour la France en
+      2026, F31) sont le résultat d'achats de politique monétaire, non d'un prêt consenti par un épargnant ou un
+      investisseur privé. Les intérêts versés à la banque centrale reviennent en partie à l'État (F7, F20). Comme
+      l'Europe a besoin de 800 milliards d'euros d'investissements supplémentaires par an (F32), maintenir cette
+      dette au bilan pour la rembourser prive l'investissement climatique d'une marge qui existe. Le parti a déjà
+      proposé en 2020 de lier annulation de dette auprès de la BCE et financement de la reconstruction écologique
+      (F34).
+  corrige: true
+- id: A11
+  question: Q46
+  position: nuance
+  enonce: La dette détenue par l'Eurosystème relève d'une décision européenne, non d'une décision nationale seule.
+    Les règles doivent être révisées par traité pour viser les limites planétaires, plutôt que contournées par un
+    État.
+  porte_par:
+  - parti: LE
+    date: 2026-07
+    source: S26
+  affirmations:
+  - F4
+  - F5
+  - F32
+  - F33
+  raisonnement: 'Les titres en cause sont détenus au sein de l''Eurosystème, dont le conseil des gouverneurs décide
+    (F5), et les banques centrales nationales doivent respecter les statuts du SEBC (F4) : un État ne peut pas décider
+    seul. Mais ces règles fixent l''objectif de politique budgétaire à des organes que le parti juge insuffisamment
+    démocratiques, alors que les besoins d''investissement sont européens (F32). La réponse du parti est donc une
+    révision des traités avec des objectifs écologiques et sociaux (F33), pas un repli national.'
+  repond_a: null
+  auteur: expert-ecologistes
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Ni la seule décision nationale ni les règles européennes actuelles : la dette détenue par l''Eurosystème
+      relève d''une décision européenne, qui doit passer sous contrôle démocratique et se fixer pour objectif la
+      transition écologique. Les règles doivent être révisées par traité plutôt que contournées par un État seul.'
+    position: nuance
+    porte_par:
+    - parti: LE
+      source: S26
+      personne_ou_groupe_ancien: Les Écologistes, programme adopté en juillet 2026 (commission Économie, social
+        et services publics, 26 octobre 2026)
+    - parti: LE
+      source: S23
+      personne_ou_groupe_ancien: Jérôme Gleizes, conseiller EELV de Paris (2023), chronique Politis du 14 septembre
+        2026
+  corrige: true
+- id: A12
+  question: Q47
+  position: nuance
+  enonce: L'annulation de dette auprès de la BCE n'est pas présentée comme une alternative aux recettes fiscales
+    et à l'investissement, mais comme un levier à combiner avec eux. Le critère est l'usage de la marge dégagée.
+  porte_par:
+  - parti: LE
+    date: '2020-06-15'
+    source: S24
+  - parti: LE
+    date: '2025-09-04'
+    source: S25
+  - personne: Marine Tondelier
+    fonction: cheffe de file des écologistes
+    parti: LE
+    date: '2024-06-20'
+    source: S27
+    fonction_verifiee: 'S27 : « explique la cheffe de file des écologistes Marine Tondelier » ; la source ne dit
+      pas « secrétaire nationale ».'
+  affirmations:
+  - F34
+  - F35
+  - F36
+  raisonnement: 'Le parti ne classe pas les leviers : en 2020 il associait annulation de la dette auprès de la BCE
+    et rétablissement de l''ISF (F34) ; en 2025 il proposait 28,5 milliards d''euros de recettes fiscales (F35)
+    et un retour à 3,7 % de déficit en 2030, plus lent que celui du gouvernement (F36). Le critère est l''usage
+    de la dette et de la marge dégagée : « bonne » dette quand elle finance le climat et la justice sociale, « mauvaise
+    » dette sinon, selon la formule de sa secrétaire nationale.'
+  repond_a: null
+  auteur: expert-ecologistes
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: L'annulation n'est pas présentée comme une alternative aux recettes et à l'investissement, mais comme
+      un levier à combiner avec eux. Le parti a financé son plan de 2020 par l'annulation de dette auprès de la
+      BCE et par une fiscalité plus juste, et son plan de 2025 repose sur des recettes fiscales et un rythme de
+      réduction du déficit plus progressif.
+    position: nuance
+    porte_par:
+    - parti: LE
+      source: S24
+      personne_ou_groupe_ancien: Les Verts (EELV), plan de reconstruction écologique de juin 2020
+    - parti: LE
+      source: S25
+      personne_ou_groupe_ancien: Les Écologistes, plan de sortie de crise présenté le 4 septembre 2025
+    - parti: LE
+      source: S27
+      personne_ou_groupe_ancien: Marine Tondelier, secrétaire nationale, déclaration du 20 juin 2024
+  corrige: true
+- id: A13
+  question: Q43
+  position: nuance
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source du
+    dossier ne chiffre ce recul.
+  porte_par:
+  - personne: Jordan Bardella
+    fonction: président du Rassemblement national
+    parti: RN
+    date: '2026-08-23'
+    source: S29
+  affirmations:
+  - F41
+  - F19
+  - F20
+  raisonnement: 'L''État est à la fois débiteur (intérêts payés) et bénéficiaire du résultat de la Banque de France
+    (dividende, impôt sur les bénéfices). Si les intérêts disparaissent, le résultat de la Banque de France baisse
+    d''autant, donc ses versements à l''État aussi : sur l''ensemble État plus Banque de France, le gain serait
+    faible ou nul. La Banque de France verse déjà à l''État des montants importants (36,8 Md€ depuis 2015), qui
+    seraient réduits.'
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut,
+      car une part des intérêts reçus par la Banque de France revient à l'État par l'impôt et le dividende (36,8
+      Md€ versés depuis 2015) ; l'ampleur de ce recul n'est chiffrée par aucune source du dossier.
+    position: non
+    porte_par:
+    - parti: RN
+      source: S29
+      personne_ou_groupe_ancien: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23
+        août 2026, rapportée par la presse)
+  - passage: 4
+    position: non
+  corrige: true
+- id: A14
+  question: Q47
+  position: non
+  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies, selon
+    le plan du RN : il prévoit de réduire les dépenses, dont celles liées à l''immigration, avec une règle d''or
+    votée par référendum.'
+  porte_par:
+  - personne: Marine Le Pen
+    fonction: candidate à l'élection présidentielle de 2027
+    parti: RN
+    date: '2026-10-06'
+    source: S31
+  - personne: Marine Le Pen
+    fonction: présidente du groupe RN à l'Assemblée nationale et candidate à l'élection présidentielle de 2027
+    parti: RN
+    date: '2026-10-01'
+    source: S32
+  affirmations:
+  - F22
+  - F37
+  - F38
+  - F39
+  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse parce que le déficit alimente la dette (F22). Le plan
+    du RN prévoit des économies pour ramener la dette sous 112 % du PIB en 2032 et une règle d'or pour rendre l'effort
+    contraignant (F37, F39). Les économies prévues (F37, F38) sont un objectif du plan, non un résultat établi ;
+    l'argument porte sur la cause visée, le déficit, que l'annulation de la part de l'Eurosystème ne traiterait
+    pas.
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable : la voie retenue
+      par le RN est la réduction des dépenses, dont l''immigration, jointe à une règle d''or votée par référendum.'
+    position: non
+    porte_par:
+    - parti: RN
+      source: S31
+      personne_ou_groupe_ancien: Marine Le Pen, candidate du RN à la présidentielle 2027
+    - parti: RN
+      source: S32
+      personne_ou_groupe_ancien: Marine Le Pen, tribune sur la règle d'or (1er octobre 2026)
+  - passage: 4
+    enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies : la
+      voie du RN est la réduction des dépenses, dont celles liées à l''immigration, jointe à une règle d''or votée
+      par référendum.'
+    raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse sur le budget parce que le déficit continue d'alimenter
+      la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition
+      du retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une
+      annulation de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
+  corrige: true
+- id: A15
+  question: Q46
+  position: oui
+  enonce: Les choix budgétaires doivent relever des Français plutôt que de règles européennes, par la primauté du
+    droit national et une règle d'or adoptée par référendum. La règle proposée est un plafond de déficit, non l'annulation
+    unilatérale d'engagements.
+  porte_par:
+  - personne: Marine Le Pen
+    fonction: présidente du groupe RN à l'Assemblée nationale et candidate à l'élection présidentielle de 2027
+    parti: RN
+    date: '2026-10-01'
+    source: S32
+  - personne: Marine Le Pen
+    fonction: députée
+    parti: RN
+    date: '2024-01-25'
+    source: S45
+  affirmations:
+  - F39
+  - F40
+  raisonnement: 'Selon Marine Le Pen, la règle d''or sert à éviter « la mise sous tutelle de la France » : la contrainte
+    budgétaire est choisie par les Français plutôt qu''imposée de l''extérieur par les créanciers ou par des règles
+    européennes. La proposition de loi constitutionnelle de 2024 affirme en parallèle la primauté du droit national
+    sur le droit européen. Ces deux textes situent la décision au niveau national, avec une discipline budgétaire,
+    sans affirmer que l''État puisse ne pas honorer sa dette.'
+  repond_a: null
+  auteur: expert-extreme-droite
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Le RN veut que les choix budgétaires relèvent du peuple français, par la primauté du droit national
+      et une règle d'or adoptée par référendum, mais la règle qu'il propose est un plafond de déficit, pas l'annulation
+      unilatérale d'engagements.
+    position: nuance
+    porte_par:
+    - parti: RN
+      source: S32
+      personne_ou_groupe_ancien: Marine Le Pen, présidente du groupe RN à l'Assemblée nationale et candidate à la
+        présidentielle 2027
+    - parti: RN
+      source: S33
+      personne_ou_groupe_ancien: Marine Le Pen, proposition de loi constitutionnelle de 2024
+  corrige: true
+- id: A16
+  question: Q43
+  position: non
+  enonce: 'Annuler la part détenue par la Banque de France pourrait réduire la charge réelle de l''État de moins
+    que son montant brut : l''État étant actionnaire de la banque centrale, une partie des intérêts qu''il lui verse
+    lui revient (impôt, dividende). L''ampleur de ce recul n''est chiffrée par aucune source du dossier. La charge
+    qui pèse sur les contribuables est surtout celle versée aux créanciers privés, nationaux et étrangers.'
+  porte_par:
+  - parti: NPA
+    source: S38
+    personne_ou_groupe_ancien: Tendance CLAIRE (courant du NPA)
+  affirmations:
+  - F20
+  - F19
+  - F17
+  raisonnement: 'Si les intérêts payés à la Banque de France reviennent à l''État sous forme d''impôt et de dividende,
+    leur suppression retire autant de recettes que de dépenses : le gain net est faible ou nul. L''effort d''annulation
+    viserait donc la part de la dette qui ne coûte presque rien, et laisserait intacte celle qui coûte (créanciers
+    privés).'
+  repond_a: null
+  auteur: expert-extreme-gauche
+  passage: 1
+  statut: retire
+  a_normaliser:
+  - position à confirmer (ancienne échelle pour/contre)
+  - porteur à reformater (personne, fonction, date)
+- id: A17
+  question: Q45
+  position: non
+  enonce: Un État ne doit pas rembourser une dette illégitime, construite par des cadeaux aux plus riches et aux
+    grandes entreprises. Un audit citoyen établit qui a prêté, à quel taux et quelle part est remboursée, et un
+    moratoire suspend les paiements.
+  porte_par:
+  - parti: NPA
+    date: 2011-12
+    source: S37
+  affirmations:
+  - F43
+  raisonnement: Si la dette résulte de choix de politique qui ont profité aux créanciers et aux entreprises plutôt
+    qu'à la population, l'obligation de la rembourser intégralement ne va pas de soi. Le critère n'est pas l'identité
+    du créancier mais la légitimité de la dette, que l'audit doit établir ; ce critère conduit à ne pas rembourser
+    les dettes illégitimes, banque centrale ou non.
+  repond_a: null
+  auteur: expert-extreme-gauche
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Un État ne doit pas rembourser une dette construite par des cadeaux fiscaux et des aides aux plus riches
+      et aux grandes entreprises : elle est illégitime. Avant toute décision, un audit citoyen doit établir qui
+      a prêté, à quel taux, quelle part est déjà remboursée, et un moratoire suspend les paiements.'
+    position: non
+    porte_par:
+    - parti: NPA
+      source: S37
+      personne_ou_groupe_ancien: NPA (tract sur la dette)
+  corrige: true
+- id: A18
+  question: Q47
+  position: nuance
+  enonce: Les marges budgétaires viennent des recettes tirées des profits et de l'arrêt des aides aux entreprises,
+    non d'économies sur les budgets utiles à la population. L'annulation d'une part précise de la dette n'est pas
+    proposée.
+  porte_par:
+  - personne: Nathalie Arthaud
+    fonction: candidate à l'élection présidentielle de 2027
+    parti: LO
+    date: 2026-06
+    source: S35
+  affirmations:
+  - F42
+  raisonnement: Si la dette a été creusée par des aides aux entreprises (270 milliards d'euros par an d'aides et
+    d'exonérations, chiffre cité par LO), alors supprimer ces aides et taxer les profits est préférable aux économies
+    sur les services publics, que cette position refuse. L'annulation n'est pas retenue comme voie principale.
+  repond_a: null
+  auteur: expert-extreme-gauche
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Les marges budgétaires se trouvent d''abord dans les recettes tirées des profits et dans l''arrêt des
+      aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que
+      la dette est celle de la bourgeoisie et que c''est à elle de la payer, sans proposer d''annulation d''une
+      part précise. Le montant des aides qu''elle cite (270 milliards d''euros) n''est établi par aucune source
+      officielle : les estimations publiques connues vont de 111,9 à 211 milliards selon le périmètre.'
+    raisonnement: Si la dette a été creusée par des aides aux entreprises (270 milliards d'euros par an de aides
+      et exonérations selon Lutte ouvrière), alors dégager des marges en supprimant ces aides et en taxant les profits
+      est préférable aux économies sur les services publics, que cette position refuse. Elle ne retient pas l'annulation
+      comme voie principale.
+    position: nuance
+    porte_par:
+    - parti: LO
+      source: S35
+      personne_ou_groupe_ancien: Lutte ouvrière, campagne de Nathalie Arthaud
+  corrige: true
+- id: A19
+  question: Q47
+  position: oui
+  enonce: 'L''annulation de la dette publique est préférable à l''austérité : elle libère l''argent des intérêts
+    pour des investissements et des emplois utiles à la population. Elle doit porter sur les dettes illégitimes,
+    non sur la seule part de la banque centrale.'
+  porte_par:
+  - parti: NPA
+    date: 2011-12
+    source: S37
+  affirmations:
+  - F20
+  raisonnement: Si les intérêts payés aux créanciers privés absorbent des sommes qui financeraient des emplois publics
+    (le tract NPA les chiffre à l'équivalent d'un million d'emplois en 2011), alors l'annulation dégage plus de
+    marges que des économies qui frappent la population. La part détenue par la banque centrale étant reversée à
+    l'État, annuler seulement celle-ci est jugé une diversion.
+  repond_a: null
+  auteur: expert-extreme-gauche
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''annulation de la dette publique est préférable à l''austérité : elle libère l''argent des intérêts
+      pour des investissements et des emplois utiles à la population, et met fin au pouvoir des marchés. Elle doit
+      toutefois porter sur les dettes illégitimes, pas sur la seule part de la banque centrale.'
+    position: oui
+    porte_par:
+    - parti: NPA
+      source: S37
+      personne_ou_groupe_ancien: NPA (tract sur la dette) ; Tendance CLAIRE (courant du NPA)
+  corrige: true
+- id: A20
+  question: Q41
+  position: oui
+  enonce: Aucun texte des traités ne mentionne l'annulation ni la conversion en dette perpétuelle de titres déjà
+    détenus par l'Eurosystème. La Cour de justice a validé les achats sur le marché secondaire sous garanties, sans
+    trancher le sort ultérieur des titres.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2022
+    parti: LFI
+    date: '2022-06-06'
+    source: S40
+    appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
+  affirmations:
+  - F44
+  - F45
+  - F1
+  - F2
+  - F3
+  - F5
+  - F8
+  - F9
+  - F10
+  raisonnement: 'Les titres ont été achetés sur le marché secondaire (F44), pratique que la Cour de justice a jugée
+    compatible avec l''article 123 sous garanties (F8, F9, F10). Le texte interdit le crédit et l''acquisition directe
+    (F1, F2) mais ne vise pas expressément la conversion de titres déjà au bilan (F45). La décision serait prise
+    par le conseil des gouverneurs de la BCE (F5), donc sans instruction d''un gouvernement (F3) : la mesure relève
+    de la politique du bilan de la banque centrale, pas d''un crédit à l''État.'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: 'Aucun texte des traités ne mentionne l''annulation ni la conversion en dette perpétuelle de titres
+      que l''Eurosystème détient déjà : l''article 123 interdit crédits et achats directs aux États. Les arrêts
+      Gauweiler et Weiss valident les achats sur le marché secondaire sous garanties ; ils ne tranchent pas le sort
+      ultérieur des titres, et l''arrêt Weiss relève que leur conservation jusqu''à l''échéance n''implique aucune
+      renonciation au paiement. La compatibilité d''une conversion, qui relèverait du conseil des gouverneurs de
+      la BCE, est donc une interprétation juridique que LFI soutient, non un point jugé.'
+    position: oui
+    porte_par:
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914 (11 mai 2020)
+    - parti: LFI
+      source: S40
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
+  corrige: true
+- id: A21
+  question: Q41
+  position: non
+  enonce: 'L''annulation de la part détenue par la banque centrale suppose de changer les règles européennes : les
+    députés communistes demandent de sortir des traités actuels et de les changer. La France doit d''abord engager
+    une démarche auprès de la Commission européenne et des autres pays.'
+  porte_par:
+  - personne: Fabien Roussel
+    fonction: député
+    parti: PCF
+    date: '2021-03-22'
+    source: S41
+    appartenance: S52
+  affirmations:
+  - F1
+  - F2
+  - F44
+  raisonnement: 'Les traités interdisent à la BCE de financer directement les États (F1, F2) ; c''est pourquoi elle
+    a racheté la dette auprès des banques et des assurances (F44), ce qui maintient la dépendance aux marchés. L''annulation
+    partielle se heurte donc aux traités : les élus communistes demandent de les changer et de saisir la Commission
+    européenne et les autres États, plutôt que d''agir seul.'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Le PCF juge que l''annulation de la part détenue par la banque centrale passe par une démarche auprès
+      des institutions et des autres pays européens et par un changement des règles européennes, plutôt que par
+      une décision française seule. Que les traités actuels l''interdisent n''est pas un fait établi (aucun texte
+      ne la mentionne, la Cour ne l''a pas tranché) : c''est la raison pour laquelle le PCF demande de les faire
+      évoluer.'
+    position: non
+    porte_par:
+    - parti: PCF
+      source: S41
+      personne_ou_groupe_ancien: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
+  corrige: true
+- id: A22
+  question: Q42
+  position: non
+  enonce: 'L''opération ne ferait pas monter les taux : elle ne vise que la part de l''Eurosystème et les créanciers
+    privés sont remboursés intégralement. Le risque de non-remboursement que rémunère le taux n''est donc pas modifié.'
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: LFI
+    date: '2026-08-25'
+    source: S19
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  affirmations:
+  - F46
+  - F47
+  - F16
+  - F17
+  raisonnement: Le taux demandé à la France rémunère le risque de non-remboursement pour les investisseurs de marché.
+    La proposition ne vise que la part de l'Eurosystème (F46, F16, F17) et exclut explicitement un défaut de paiement
+    envers les autres créanciers, jugé par ses auteurs désastreux. Ce risque n'étant pas modifié, le coût d'emprunt
+    ne bouge pas (F47).
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème
+      et que les créanciers privés sont remboursés intégralement. Cette estimation de ses auteurs ne répond pas
+      à l'argument du précédent juridique ; elle est contestée par des économistes cités par la presse et aucune
+      institution n'a chiffré l'effet sur les taux.
+    position: non
+    porte_par:
+    - parti: LFI
+      source: S19
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914 (défaut de paiement écarté)
+  corrige: true
+- id: A23
+  question: Q43
+  position: nuance
+  enonce: L'opération allège d'abord le stock de dette et le besoin de refinancement sur les marchés. L'économie
+    annuelle d'intérêts est moindre, car la Banque de France reverse une partie de ses bénéfices à l'État.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: LFI
+    date: '2026-08-25'
+    source: S19
+  affirmations:
+  - F48
+  - F50
+  - F18
+  - F19
+  - F20
+  - F21
+  - F22
+  raisonnement: 'Les intérêts versés à la Banque de France reviennent en partie à l''État par ses bénéfices (F18,
+    F19, F20), flux variable (F21) : l''économie nette d''intérêts est donc moindre que l''économie brute. Mais
+    l''Eurosystème ne réinvestit plus les titres arrivés à échéance (F48) ; sans conversion, l''État devrait remplacer
+    ces titres par de la dette de marché au taux du moment, alors que la charge de la dette est déjà de 65,7 milliards
+    en 2025 (F22). Le gel en dette perpétuelle vise à soulager les États de cette charge (F50).'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''intérêt de l''opération tient d''abord à l''allègement du stock de dette et du besoin de refinancement
+      sur les marchés, plus qu''à une économie annuelle d''intérêts : la Banque de France reverse une partie de
+      ses bénéfices à l''État.'
+    position: nuance
+    porte_par:
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914 (11 mai 2020)
+    - parti: LFI
+      source: S19
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, déclarations d'août 2026 (opération sans coût pour personne)
+  corrige: true
+- id: A24
+  question: Q43
+  position: oui
+  enonce: L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières,
+    sans montant chiffré. Le gain net pour l'État dépend des reversements de la Banque de France, qui varient d'une
+    année à l'autre.
+  porte_par:
+  - personne: Fabien Roussel
+    fonction: député
+    parti: PCF
+    date: '2021-03-22'
+    source: S41
+    appartenance: S52
+  affirmations:
+  - F49
+  - F22
+  raisonnement: La charge d'intérêts de la dette publique est élevée (F22) et la part détenue par la banque centrale
+    est ancienne et sans remboursement attendu. L'annuler ou la geler en dette perpétuelle supprime le service et
+    le principal de ces titres, d'où des marges financières immédiates (F49).
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières
+      brutes, dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend
+      des reversements de la Banque de France, qui varient d'une année à l'autre (voir A23).
+    position: oui
+    porte_par:
+    - parti: PCF
+      source: S41
+      personne_ou_groupe_ancien: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
+  corrige: true
+- id: A25
+  question: Q44
+  position: non
+  enonce: Une décision de gel prise par le conseil des gouverneurs lui-même n'atteint ni l'indépendance de la BCE
+    ni la crédibilité de l'euro. L'indépendance interdit les instructions des gouvernements, pas une décision de
+    la banque sur son propre bilan.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2022
+    parti: LFI
+    date: '2022-06-06'
+    source: S40
+    appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: LFI
+    date: '2026-08-25'
+    source: S19
+  affirmations:
+  - F3
+  - F5
+  - F53
+  raisonnement: 'Le traité définit l''indépendance comme l''interdiction de solliciter ou accepter des instructions
+    des gouvernements (F3), et réserve la décision au conseil des gouverneurs (F5). Si ce conseil décide, aucune
+    instruction n''est donnée. Quant à la crédibilité, les titres détenus ne seront de toute façon pas remboursés
+    (F53) : constater cette réalité ne change pas le bilan réel de la banque centrale.'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Une décision de gel prise par le conseil des gouverneurs lui-même n''atteindrait ni l''indépendance
+      de la BCE ni la crédibilité de l''euro : l''indépendance interdit les instructions des gouvernements, pas
+      une décision de la banque sur son propre bilan.'
+    position: non
+    porte_par:
+    - parti: LFI
+      source: S40
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
+    - parti: LFI
+      source: S19
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, août 2026 (opération « jeu d'écriture dans le bilan »)
+  corrige: true
+- id: A26
+  question: Q45
+  position: non
+  enonce: La dette détenue par la banque centrale, institution publique des États, peut être annulée sans spolier
+    les créanciers privés. Ceux-ci, dont des épargnants, doivent être honorés.
+  porte_par:
+  - personne: Fabien Roussel
+    fonction: député
+    parti: PCF
+    date: '2021-03-22'
+    source: S41
+    appartenance: S52
+  affirmations:
+  - F51
+  - F52
+  raisonnement: 'La banque centrale appartient aux États de l''Union : la dette envers elle est une dette envers
+    soi-même (F51). La différence avec les créanciers privés, dont des épargnants, justifie une annulation limitée
+    à la seule part de la banque centrale (F52).'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Un État n'a pas à rembourser intégralement la part de dette détenue par sa propre banque centrale, mais
+      il doit honorer ses créanciers privés.
+    position: non
+    porte_par:
+    - parti: PCF
+      source: S41
+      personne_ou_groupe_ancien: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
+  corrige: true
+- id: A27
+  question: Q45
+  position: non
+  enonce: Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable,
+    sans léser les créanciers privés. La rembourser intégralement n'a pas de finalité économique et pèse sur la
+    capacité d'investir de l'État.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2022
+    parti: LFI
+    date: '2022-06-06'
+    source: S40
+    appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
+  affirmations:
+  - F53
+  - F46
+  raisonnement: Les achats massifs de titres ont été faits par la banque centrale elle-même ; les rembourser intégralement
+    n'a pas de finalité économique, alors qu'ils pèsent sur la capacité d'investir de l'État. Acter qu'ils ne seront
+    pas payés ne lèse aucun créancier privé (F46, F53).
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Pour LFI, une dette publique inscrite au bilan de la banque centrale peut être constatée comme non
+      remboursable, sans léser les créanciers privés : c''est un jugement de valeur. Sa faisabilité juridique reste
+      discutée (aucun texte ne la mentionne, la Cour ne l''a pas tranchée).'
+    position: non
+    porte_par:
+    - parti: LFI
+      source: S40
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
+  corrige: true
+- id: A28
+  question: Q46
+  position: nuance
+  enonce: Les règles européennes sur le financement des États et le statut de la BCE doivent être remises en cause,
+    la France exigeant leur changement. La politique de la dette relève du contrôle démocratique plutôt que de règles
+    fixées par des institutions indépendantes.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2022
+    parti: LFI
+    date: '2022-06-06'
+    source: S40
+    appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
+  affirmations:
+  - F56
+  - F1
+  - F2
+  raisonnement: Les traités obligent les États à emprunter auprès des marchés plutôt qu'auprès de leur banque centrale
+    (F1, F2) ; leurs auteurs les jugent un carcan qui prive les peuples de la maîtrise de leur endettement (F56).
+    La résolution de 2020 invite le gouvernement à exiger de l'Union européenne un changement, ce qui place la décision
+    sous contrôle politique démocratique plutôt que sous règles fixées par des institutions indépendantes.
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Les règles européennes qui encadrent le financement des États et le statut de la BCE doivent être remises
+      en cause, la France exigeant leur changement, plutôt que d'enfermer la politique de la dette dans les traités.
+    position: nuance
+    porte_par:
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914 (11 mai 2020)
+    - parti: LFI
+      source: S40
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, livret Dette (6 juin 2022)
+  corrige: true
+- id: A29
+  question: Q46
+  position: non
+  enonce: 'L''annulation de la part détenue par la banque centrale se négocie au niveau européen : démarche auprès
+    de la Commission et des autres États, puis changement des traités. Une décision unilatérale française n''est
+    pas la voie retenue.'
+  porte_par:
+  - personne: Fabien Roussel
+    fonction: député
+    parti: PCF
+    date: '2021-03-22'
+    source: S41
+    appartenance: S52
+  affirmations:
+  - F51
+  - F56
+  - F1
+  - F2
+  raisonnement: La banque centrale appartient à l'ensemble des pays de l'Union (F51) et les traités interdisent
+    le financement direct des États (F1, F2). La solution passe donc par une démarche collective et par une révision
+    des règles (F56), non par une décision unilatérale française.
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''annulation de la part détenue par la banque centrale doit se négocier au niveau européen : démarche
+      auprès de la Commission et des autres États, et changement des traités.'
+    position: nuance
+    porte_par:
+    - parti: PCF
+      source: S41
+      personne_ou_groupe_ancien: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
+  corrige: true
+- id: A30
+  question: Q47
+  position: oui
+  enonce: L'annulation ou le gel de la dette détenue par la banque centrale évite un nouveau cycle d'austérité et
+    ne coûte rien à personne. Elle permet de financer services publics et investissements sans économies.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2022
+    parti: LFI
+    date: '2022-06-06'
+    source: S40
+    appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
+  - personne: Jean-Luc Mélenchon
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: LFI
+    date: '2026-08-25'
+    source: S19
+  affirmations:
+  - F54
+  - F47
+  raisonnement: Un nouveau cycle d'austérité réduit la demande, la consommation et l'investissement public (F54).
+    Une opération qui, selon ses défenseurs, ne coûte à personne et n'a pas d'impact économique (F47) permet de
+    financer services publics et investissements sans économies.
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Pour LFI, l''annulation ou le gel de la dette détenue par la banque centrale est préférable aux économies,
+      parce qu''elle éviterait un nouveau cycle d''austérité : c''est un choix de valeurs. L''absence d''impact
+      économique avancée par ses défenseurs n''est pas établie par une estimation d''institution.'
+    position: oui
+    porte_par:
+    - parti: LFI
+      source: S40
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon, livret Dette (6 juin 2022) et déclarations d'août 2026
+  corrige: true
+- id: A31
+  question: Q47
+  position: nuance
+  enonce: L'annulation partielle est une voie parmi d'autres. Elle s'accompagne d'une mise à contribution du capital
+    et de la lutte contre l'évasion fiscale, qui dégagent aussi des recettes.
+  porte_par:
+  - personne: Fabien Roussel
+    fonction: député
+    parti: PCF
+    date: '2021-03-22'
+    source: S41
+    appartenance: S52
+  affirmations:
+  - F49
+  - F55
+  raisonnement: 'L''annulation de la part de la banque centrale dégage des marges (F49) mais ne suffit pas : l''État
+    a aussi besoin de recettes, que la fiscalité du capital et la lutte contre l''évasion fiscale peuvent apporter
+    (F55). Les deux leviers sont complémentaires, et l''austérité est écartée.'
+  repond_a: null
+  auteur: expert-gauche-radicale
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''annulation partielle est une voie parmi d''autres : elle doit s''accompagner d''une mise à contribution
+      du capital et de la lutte contre l''évasion fiscale, qui dégagent aussi des recettes.'
+    position: nuance
+    porte_par:
+    - parti: PCF
+      source: S41
+      personne_ou_groupe_ancien: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
+  corrige: true
+- id: A32
+  question: Q41
+  position: oui
+  enonce: 'Aucune disposition des traités ne mentionne l''annulation : l''article 123 interdit le crédit et l''achat
+    direct de titres aux États, non l''abandon d''une créance déjà inscrite au bilan. La décision relèverait du
+    conseil des gouverneurs de la BCE.'
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F57
+  - F1
+  - F2
+  - F5
+  raisonnement: 'Le traité interdit deux actes précis (F1, F2) ; l''annulation d''une créance acquise sur le marché
+    secondaire n''en est pas un, et le conseil des gouverneurs décide (F5). Ce silence n''établit pas l''autorisation
+    (F27) : aucun avis d''institution ne traite ce cas. La proposition de 2021 passait par un contrat avec la BCE
+    (F60), non par une décision d''un gouvernement.'
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Aucune disposition des traités ne mentionne l''annulation : l''article 123 interdit le crédit et l''achat
+      direct aux États, non l''abandon d''une créance déjà inscrite au bilan. Les signataires de la tribune de 2021
+      en déduisent que la décision relèverait du conseil des gouverneurs de la BCE ; la compatibilité avec l''interdiction
+      du financement monétaire reste une interprétation disputée, que la CJUE n''a pas tranchée.'
+    position: oui
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: Le traité interdit deux actes précis (découvert ou crédit, achat direct de titres, F1 et F2) ;
+      l'annulation d'une créance acquise sur le marché secondaire n'est pas l'un d'eux. Comme l'interdiction n'est
+      pas explicite et que le conseil des gouverneurs arrête les décisions du SEBC (F5), l'effacement relève d'une
+      décision de la BCE et non d'une impossibilité juridique. Cet argument est contesté par la BCE (F11, F13) ;
+      il est la position de 2021 d'une élue de Place publique, antérieure à la proposition de 2026.
+  corrige: true
+- id: A33
+  question: Q44
+  position: non
+  enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes (F58) ; si son conseil décide lui-même l'effacement,
+    aucun gouvernement ne donne d'instruction (F3, F5). L'effet de fonds propres négatifs sur la crédibilité n'est
+    pas établi.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F58
+  - F3
+  - F5
+  raisonnement: Le volet indépendance découle de F3 et F5 pour une décision du conseil. Le volet capacité d'action
+    repose sur F58 (débat entre experts) ; un document des services de la BCE tient la perte de crédibilité pour
+    possible en cas de pertes prolongées (f1). Ce volet n'est donc pas démontré.
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes (F58) ; des fonds propres durablement négatifs
+      ne sont pas chiffrés par une institution. Si l'effacement est décidé par le conseil des gouverneurs lui-même,
+      aucune instruction d'un gouvernement n'est donnée (F3, F5) ; l'argument ne vaut pas pour un effacement imposé
+      par un État.
+    position: non
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes ; aucune institution ne chiffre l'effet
+      de fonds propres durablement négatifs. Si le conseil des gouverneurs décide lui-même l'effacement, aucun gouvernement
+      ne donne d'instruction.
+    raisonnement: Le risque pour la crédibilité vient de l'idée qu'une perte comptable empêcherait la banque centrale
+      d'agir. Si elle peut fonctionner avec des fonds propres négatifs (F58) et si l'effacement est décidé par son
+      propre conseil des gouverneurs sans instruction d'un gouvernement (F3, F5), ni sa capacité d'action ni son
+      indépendance ne sont atteintes. Position de 2021, avant la proposition de 2026 ; elle porte sur un effacement
+      décidé par la BCE, pas imposé par un État.
+  corrige: true
+- id: A34
+  question: Q45
+  position: non
+  enonce: 'Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
+    de la BCE, représente 24,4 % de la dette négociable de l''État. Rembourser la banque centrale oblige à trouver
+    la somme ailleurs : nouvel emprunt, impôts ou baisse des dépenses.'
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F16
+  - F17
+  raisonnement: La créance d'une banque centrale n'est pas celle d'un épargnant privé (F17). Rembourser oblige à
+    réemprunter, à lever l'impôt ou à réduire la dépense ; l'effacement évite ces choix sans léser de créancier
+    privé. La marge nette pour l'État n'est pas chiffrée, des intérêts lui revenant en partie (F41, F20).
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: 'Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
+      de la BCE, représente 24,4 % de la dette négociable de l''État : une part importante est due à la banque centrale,
+      institution publique. La catégorie n''est pas limitée à elle ; rembourser ce créancier revient à trouver ailleurs
+      la somme (nouvel emprunt, impôts ou baisse des dépenses), d''où l''idée de ne pas le rembourser intégralement.'
+    position: non
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'La créance d''une banque centrale n''est pas celle d''un épargnant privé : l''État se la doit
+      en partie à lui-même (F17). Rembourser obligerait à rouler la dette au lieu d''investir, à augmenter les impôts
+      ou à baisser les dépenses ; l''effacement évite ces choix sans spolier de créancier privé. Argument de 2021
+      ; l''obligation de rembourser des créanciers privés n''est pas remise en cause par ce texte.'
+  corrige: true
+- id: A35
+  question: Q46
+  position: non
+  enonce: 'Un État seul ne peut pas annuler : la décision appartient à la BCE, qui n''accepte pas d''instructions
+    des gouvernements. Elle se prend par un accord entre les États européens et la BCE, non par une décision nationale.'
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F3
+  - F5
+  - F60
+  raisonnement: Le conseil des gouverneurs de la BCE décide (F5) et ni la BCE ni une banque centrale nationale ne
+    peuvent accepter d'instructions d'un gouvernement (F3). Une décision nationale unilatérale n'a donc pas d'effet
+    juridique sur la créance ; le texte de 2021 propose pour cette raison un contrat entre les États européens et
+    la BCE (F60), assorti d'une exigence de gouvernance européenne.
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Un État seul ne peut pas annuler : la décision appartient à la BCE, qui n''accepte pas d''instructions
+      des gouvernements. Elle doit donc se prendre par un accord entre les États européens et la BCE, non par une
+      décision nationale.'
+    position: non
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  corrige: true
+- id: A36
+  question: Q47
+  position: nuance
+  enonce: 'L''effacement ne se substitue aux autres leviers que s''il est conditionné : les États s''engagent à
+    investir les montants effacés. La marge nette qu''il dégagerait n''est pas chiffrée.'
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F59
+  - F17
+  raisonnement: 'Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17). Le texte
+    de 2021 fait de l''effacement un échange : le même montant est investi dans la reconstruction écologique et
+    sociale (F59). La marge nette n''est pas établie (F41, F20) : l''effacement n''est pas présenté comme préférable
+    en soi.'
+  repond_a: null
+  auteur: expert-sociaux-democrates
+  passage: 1
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''effacement ne se substitue aux autres leviers que s''il est conditionné : les États s''engagent
+      à investir les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile.'
+    position: nuance
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    enonce: 'L''effacement se substitue aux autres leviers s''il est conditionné : les États s''engagent à investir
+      les montants effacés. Sans cette contrepartie, il ne dégagerait pas de marge utile.'
+    raisonnement: 'Rembourser exige de réemprunter, de relever les impôts ou de réduire les dépenses (F17 pour l''ampleur
+      de la détention). L''effacement évite ces trois choix, mais le texte de 2021 en fait un échange : le même
+      montant doit être investi dans la reconstruction écologique et sociale (F59). L''effacement n''est donc pas
+      présenté comme préférable en soi, mais comme un contrat avec un usage défini.'
+  corrige: true
+- id: A37
+  question: Q41
+  position: non
+  enonce: 'L''absence du mot « annulation » dans les traités ne vaut pas autorisation : l''article 123 s''applique
+    selon son objet, éviter le financement monétaire des États. Les arrêts cités portent sur les achats de titres,
+    pas sur leur sort ultérieur.'
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F45
+  - F9
+  - F10
+  - F5
+  - F3
+  raisonnement: 'F45 (le texte ne mentionne pas l''annulation) établit seulement un silence. F10 porte sur la validité
+    de la décision 2015/774, donc sur les achats, et F9 montre que la Cour valide ces achats à condition de garanties
+    contre le financement monétaire : elle raisonne par l''effet, non par la liste des actes interdits. Rien dans
+    F8-F10 ne dit qu''effacer ou geler à taux nul des titres déjà détenus, au profit d''un État, respecte ces garanties.
+    Enfin l''argument suppose une décision du conseil des gouverneurs (F5), alors que la proposition en débat est
+    portée par un gouvernement et un parlement nationaux (F3).'
+  repond_a: A20
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'L''absence du mot « annulation » dans les traités ne vaut pas autorisation : l''article 123 est appliqué
+      selon son objet (éviter le financement monétaire des États), et les arrêts cités pour la compatibilité portent
+      sur les achats, pas sur le sort ultérieur des titres.'
+    position: non
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A38
+  question: Q42
+  position: oui
+  enonce: Limiter l'opération à la part de l'Eurosystème ne suffit pas à conclure que les taux ne bougent pas. Un
+    prêteur évalue aussi la fiabilité des règles, pas seulement le risque de non-paiement sur ses propres titres.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F46
+  - F47
+  raisonnement: 'A22 passe de F46 (périmètre limité aux titres de l''Eurosystème) à F47 (aucun effet sur le coût
+    d''emprunt). Or F46 décrit le périmètre, pas la réaction des prêteurs à un précédent juridiquement disputé,
+    et F47 est une estimation sans chiffrage ni institution : la prémisse qui porte la conclusion n''est pas établie.
+    A22 reconnaît elle-même que des économistes la contestent.'
+  repond_a: A22
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Limiter l''opération à la part de l''Eurosystème ne suffit pas à conclure que les taux ne bougent pas
+      : un prêteur évalue aussi la fiabilité des règles, pas seulement le risque de non-paiement sur ses propres
+      titres.'
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A39
+  question: Q43
+  position: non
+  enonce: Supprimer le service des titres de l'Eurosystème ne produit pas des marges égales aux intérêts. La Banque
+    de France reverse déjà des sommes à l'État, dont le montant dépend de son résultat.
+  porte_par:
+  - personne: Édouard Philippe
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: HOR
+    date: '2026-08-27'
+    source: S17
+    appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
+  affirmations:
+  - F22
+  - F19
+  - F20
+  - F49
+  raisonnement: 'A24 tire des marges immédiates de F22 (charge totale de 65,7 Md€ en 2025). Mais F22 porte sur l''ensemble
+    des créanciers, pas sur la part de la banque centrale, et F19 et F20 établissent que la Banque de France verse
+    impôt et dividendes à l''État. La part de ces versements due aux intérêts sur les titres de l''État n''est chiffrée
+    par aucune source (F41, F49 sans estimation) : le gain net est donc inconnu, non démontré positif.'
+  repond_a: A24
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Supprimer le service des titres de l''Eurosystème ne produit pas des marges « immédiates » égales aux
+      intérêts : la Banque de France reverse déjà des sommes à l''État, dont le montant dépend de son résultat.'
+    position: non
+    porte_par:
+    - parti: HOR
+      source: S17
+      personne_ou_groupe_ancien: Édouard Philippe (débat du Medef, 27 août 2026)
+  corrige: true
+- id: A40
+  question: Q44
+  position: oui
+  enonce: Une banque centrale peut fonctionner avec des fonds propres négatifs, mais cela ne répond qu'à sa solvabilité.
+    La crédibilité de l'euro dépend aussi de la perception d'un financement monétaire des États.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F58
+  - F9
+  raisonnement: 'A33 conclut que la capacité d''action et l''indépendance sont préservées en s''appuyant sur F58,
+    qualifiée par le vérificateur de « Débat entre experts » : la BCE y dit pouvoir remplir son mandat malgré des
+    pertes, sans dire que des fonds propres durablement négatifs seraient sans effet. Surtout, la crédibilité tient
+    à l''interdiction du financement monétaire (F9) : un effacement au profit d''États peut être lu comme un contournement,
+    que la solvabilité de la BCE ne dissipe pas. A33 le reconnaît en limitant son argument à un effacement décidé
+    par la BCE elle-même.'
+  repond_a: A33
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Que la banque centrale puisse fonctionner avec des fonds propres négatifs ne répond qu'à la question
+      de sa solvabilité, pas à celle de la crédibilité de l'euro, qui dépend aussi de la perception d'un financement
+      monétaire des États.
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A41
+  question: Q42
+  position: oui
+  enonce: 'Le raisonnement de A22 ne suit pas : le taux ne rémunère pas seulement le risque sur la part annulée,
+    il reflète aussi la confiance des prêteurs dans le respect des règles. Une opération juridiquement contestée
+    peut donc peser sur les taux même si les créanciers privés sont payés.'
+  porte_par:
+  - parti: LR
+    source: S21
+    personne_ou_groupe_ancien: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances
+      du Sénat (entretien du 28 décembre 2020)
+  affirmations:
+  - F26
+  - F27
+  - F47
+  raisonnement: A22 déduit l'absence d'effet du fait que les créanciers privés restent remboursés, mais F47 n'est
+    qu'un avis de ses auteurs, sans estimation d'institution, et F27 établit que la conformité aux traités est disputée.
+    Un prêteur qui voit un État traiter une catégorie de créanciers autrement peut craindre que d'autres règles
+    changent aussi ; A22 ne répond pas à ce risque de précédent (F26).
+  repond_a: A22
+  auteur: expert-droite
+  passage: 3
+  statut: retire
+  a_normaliser:
+  - position à confirmer (ancienne échelle pour/contre)
+  - porteur à reformater (personne, fonction, date)
+- id: A42
+  question: Q45
+  position: non
+  enonce: A34 tire de F17 que la dette serait en bonne partie due à des institutions publiques, mais cette catégorie
+    n'est pas limitée à la Banque de France ; la conclusion « ne pas rembourser » dépasse donc ce que le chiffre
+    montre.
+  porte_par:
+  - parti: LR
+    source: S21
+    personne_ou_groupe_ancien: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances
+      du Sénat (entretien du 28 décembre 2020)
+  affirmations:
+  - F16
+  - F17
+  - F24
+  raisonnement: 'F17 mesure la catégorie « autres français », qui inclut la Banque de France pour le compte de la
+    BCE sans s''y réduire (F16 le précise). Le chiffre de 24,4 % surestime donc la part détenue pour l''Eurosystème.
+    Et la qualité publique du créancier ne répond pas à l''argument de A4 : les titres ont été achetés à des investisseurs
+    (F24).'
+  repond_a: A34
+  auteur: expert-droite
+  passage: 3
+  statut: retire
+  a_normaliser:
+  - position à confirmer (ancienne échelle pour/contre)
+  - porteur à reformater (personne, fonction, date)
+- id: A43
+  question: Q45
+  position: non
+  enonce: 'Les vendeurs des titres rachetés par la banque centrale ont été payés au moment de l''achat : la dette
+    de l''État n''est pas leur créance. Le critère retenu est la légitimité de la dette, que l''audit établit, non
+    l''identité du créancier.'
+  porte_par:
+  - parti: NPA
+    date: 2011-12
+    source: S37
+  affirmations:
+  - F24
+  raisonnement: 'F24 établit que la banque centrale a acheté les titres sur le marché secondaire : les investisseurs
+    vendeurs ont été réglés et n''ont plus de créance sur l''État. Le créancier actuel est la banque centrale, ce
+    que A4 ne distingue pas ; la conclusion sur la signature de l''État suppose en outre que le marché assimile
+    cette part à celle des créanciers privés, ce qu''aucune affirmation de A4 n''établit.'
+  repond_a: A4
+  auteur: expert-extreme-gauche
+  passage: 3
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: A4 conclut que les engagements envers les vendeurs de titres demeurent, mais ces vendeurs ont été payés
+      au moment de l'achat ; la dette de l'État n'est pas leur créance. Le critère retenu par le NPA reste la légitimité
+      de la dette, que l'audit doit établir, pas l'identité du créancier.
+    position: non
+    porte_par:
+    - parti: NPA
+      source: S37
+      personne_ou_groupe_ancien: NPA (tract sur la dette)
+  corrige: true
+- id: A44
+  question: Q42
+  position: non
+  enonce: L'opération porte sur des titres détenus par l'Eurosystème, dont le sort relève du conseil des gouverneurs
+    de la BCE, non sur la signature de l'État. Le signal envoyé aux prêteurs privés n'est donc pas celui d'un défaut
+    de l'État.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  affirmations:
+  - F5
+  - F46
+  - F26
+  raisonnement: Le taux rémunère le risque de non-remboursement des prêteurs privés. La décision appartient au conseil
+    des gouverneurs (F5) et les créanciers de marché ne sont pas touchés (F46). L'estimation d'une hausse des taux
+    reste sans chiffrage (F26).
+  repond_a: A2
+  auteur: expert-gauche-radicale
+  passage: 3
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: A2 présente l'opération comme une renonciation unilatérale de l'État ; or l'opération examinée porte
+      sur des titres détenus par l'Eurosystème, dont le sort relève du conseil des gouverneurs. Le signal envoyé
+      aux prêteurs privés n'est donc pas celui d'un défaut de l'État sur sa signature.
+    raisonnement: A2 conclut à une prime de risque parce que l'État changerait seul les règles. Mais les arguments
+      A1 et A3 rappellent que la décision appartient au conseil des gouverneurs (F5) et que les créanciers de marché
+      ne sont pas touchés (F46). Le risque de non-remboursement pour les prêteurs privés, que rémunère le taux,
+      n'est donc pas démontré comme modifié ; l'estimation d'une hausse reste sans chiffrage (F26).
+    position: non
+    porte_par:
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914
+  corrige: true
+- id: A45
+  question: Q44
+  position: non
+  enonce: Une demande d'un gouvernement ou d'un parlement n'est pas une instruction tant que la BCE la décide librement.
+    L'indépendance interdit d'accepter des instructions, pas d'être sollicitée.
+  porte_par:
+  - personne: Jean-Luc Mélenchon
+    fonction: député
+    parti: LFI
+    date: '2020-05-11'
+    source: S39
+    appartenance: S19
+  affirmations:
+  - F3
+  - F4
+  - F5
+  raisonnement: F3 interdit à la BCE de solliciter ou d'accepter des instructions ; elle n'interdit pas qu'un gouvernement
+    formule une demande que le conseil des gouverneurs (F5) reste libre de refuser. F4 porte sur la législation
+    nationale et les statuts des banques centrales. L'atteinte à l'indépendance suppose donc que la BCE accepte
+    une instruction.
+  repond_a: A3
+  auteur: expert-gauche-radicale
+  passage: 3
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: A3 qualifie d'instruction une décision que le conseil des gouverneurs prendrait lui-même ; la demande
+      d'un gouvernement ou d'un parlement, tant que la BCE la décide librement, n'est pas une instruction acceptée.
+    raisonnement: F3 interdit à la BCE de solliciter ou d'accepter des instructions ; elle n'interdit pas qu'un
+      gouvernement formule une demande politique, que le conseil des gouverneurs (F5) reste libre de refuser. F4
+      porte sur la législation nationale et les statuts des banques centrales, non sur les décisions du conseil
+      des gouverneurs. L'atteinte à l'indépendance ne suit donc des affirmations citées que si la BCE accepte une
+      instruction, ce qu'A3 suppose sans l'établir.
+    position: non
+    porte_par:
+    - parti: LFI
+      source: S39
+      personne_ou_groupe_ancien: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution
+        n° 2914 (invitation faite au gouvernement d'exiger un changement)
+  corrige: true
+- id: A46
+  question: Q41
+  position: oui
+  enonce: L'article 123 vise deux actes précis, le crédit direct et l'achat direct. Que l'effacement d'une créance
+    acquise sur le marché secondaire soit un financement interdit est une interprétation, non une conséquence du
+    texte.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F24
+  - F57
+  - F27
+  raisonnement: Déduire l'interdiction de ce que les titres ont été achetés à des investisseurs (F24) établit que
+    l'achat initial était régulier, pas que le traitement ultérieur du titre est interdit. Le traité ne mentionne
+    pas ce cas (F57) et F27 reste invérifiable ; l'« avantage après coup » est une lecture que la Cour n'a pas validée.
+  repond_a: A1
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: L'article 123 vise deux actes précis (crédit direct, achat direct) ; que l'effacement d'une créance
+      déjà acquise sur le marché secondaire reviendrait à un financement interdit est une interprétation, non une
+      conséquence du texte.
+    raisonnement: 'A1 déduit l''interdiction de ce que les titres ont été achetés à des investisseurs (F24) : cela
+      établit que l''achat initial était régulier, pas que le traitement ultérieur du titre est interdit. Le traité
+      ne mentionne pas ce cas (F57) et F27 reste invérifiable ; l''« avantage après coup » est une lecture que la
+      Cour n''a pas validée.'
+    position: oui
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  corrige: true
+- id: A47
+  question: Q42
+  position: nuance
+  enonce: Une proposition passant par une décision du conseil des gouverneurs et un contrat avec les États n'est
+    pas une opération unilatérale. Le signal de rupture unilatérale ne s'y applique pas, et personne ne chiffre
+    l'ampleur de l'effet sur les taux.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F3
+  - F5
+  - F60
+  - F26
+  raisonnement: La prime de risque tient à un État qui « change les règles » seul. Si la BCE décide (F5, F60), sans
+    instruction d'un gouvernement (F3), cette prémisse manque. Un doute sur le financement monétaire (F9) peut subsister
+    ; aucune estimation n'existe dans un sens ou l'autre (F26).
+  repond_a: A2
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: A2 suppose une opération unilatérale ; la proposition de 2021 passe par une décision du conseil des
+      gouverneurs et un contrat avec les États. Un signal de rupture unilatérale ne s'applique donc pas à ce cas,
+      et l'ampleur de l'effet n'est chiffrée par personne.
+    raisonnement: 'La prime de risque décrite par A2 découle d''un État qui « change les règles » seul. Si la décision
+      est prise par la BCE elle-même (F5, F60), sans instruction d''un gouvernement (F3), la prémisse manque. F26
+      n''a pas d''estimation fiable : le gain « rogné » par un surcoût n''est pas démontré.'
+    position: nuance
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'La prime de risque tient à un État qui « change les règles » seul. Si la décision est prise par
+      la BCE elle-même (F5, F60), sans instruction d''un gouvernement (F3), cette prémisse manque. F26 n''a pas
+      d''estimation fiable : le gain « rogné » par un surcoût n''est pas démontré.'
+  corrige: true
+- id: A48
+  question: Q44
+  position: nuance
+  enonce: L'atteinte à la crédibilité de l'euro vaut pour une décision imposée par un gouvernement. Elle ne s'applique
+    pas à un effacement arrêté par le conseil des gouverneurs lui-même.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F3
+  - F5
+  - F27
+  raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
+    n''est donnée. Pour la crédibilité, la compatibilité avec les traités est disputée (F27) : le doute sur le financement
+    monétaire (F9) n''est pas établi, mais pas écarté non plus. L''atteinte à la crédibilité n''est démontrée dans
+    aucun sens.'
+  repond_a: A3
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: conteste
+  versions:
+  - passage: 4
+    enonce: L'argument d'A3 vaut pour une décision imposée par un gouvernement ; il ne s'applique pas à un effacement
+      arrêté par le conseil des gouverneurs lui-même.
+    raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
+      n''est donnée. L''atteinte à la crédibilité suppose en outre que l''opération soit contraire aux traités (F27),
+      ce qui est invérifiable : A3 reconnaît d''ailleurs que la compatibilité est disputée.'
+    position: nuance
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  - passage: 4
+    raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
+      n''est donnée. L''atteinte à la crédibilité suppose en outre que l''opération soit contraire aux traités (F27),
+      ce qui est invérifiable : la compatibilité est disputée.'
+  corrige: true
+- id: A49
+  question: Q45
+  position: non
+  enonce: Les vendeurs des titres ont été payés par la banque centrale (F24). Effacer la créance de la banque centrale
+    sur l'État ne retire rien à ces vendeurs, qui n'ont plus de créance.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F24
+  raisonnement: Ayant vendu, les vendeurs ont été réglés. Le créancier de l'État est la banque centrale, dont les
+    engagements envers des tiers ne sont pas ceux de l'État. Distinguer ce créancier des détenteurs privés n'est
+    donc pas une parole variable envers un prêteur privé.
+  repond_a: A4
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: Les vendeurs des titres ont été payés par la banque centrale (F24) ; effacer la créance de la banque
+      centrale sur l'État ne retire rien à ces vendeurs, qui n'ont plus de créance.
+    raisonnement: 'A4 écrit que les engagements envers les vendeurs « demeurent » : or, ayant vendu, ils ont été
+      réglés. Le créancier de l''État est la banque centrale, dont les engagements envers des tiers ne sont pas
+      ceux de l''État. Distinguer ce créancier des détenteurs privés n''est donc pas en soi une parole variable
+      envers un prêteur privé.'
+    position: non
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  corrige: true
+- id: A50
+  question: Q45
+  position: oui
+  enonce: 'Les vendeurs des titres ont été payés, mais la part détenue par l''Eurosystème reste une dette remboursable
+    : ces titres arrivent à échéance comme les autres et l''État les rembourse.'
+  porte_par:
+  - personne: Édouard Philippe
+    fonction: candidat à l'élection présidentielle de 2027
+    parti: HOR
+    date: '2026-08-27'
+    source: S17
+    appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
+  affirmations:
+  - F48
+  - F31
+  - F24
+  raisonnement: 'A43 et A49 ont raison sur un point : les vendeurs n''ont plus de créance, et le créancier actuel
+    est la banque centrale. Mais A43 en conclut que cette part est à part. Or l''Eurosystème ne réinvestit plus
+    les titres arrivés à échéance depuis la fin de 2024 pour le PEPP (F48), et son stock baisse au fil de 2026 (F31)
+    : cette part est déjà remboursée par l''État à chaque échéance, au même titre que les autres. Un titre de dette
+    garde les mêmes conditions quel que soit son détenteur ; ne pas honorer celles-ci pour une seule catégorie de
+    détenteurs modifie le contrat après coup. Que le marché assimile ou non cette part aux autres reste une estimation,
+    pas une certitude (voir Q42).'
+  repond_a: A43
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Les vendeurs des titres ont bien été payés, mais cela ne fait pas de la part détenue par l''Eurosystème
+      une dette qui ne serait jamais remboursée : ces titres arrivent à échéance comme les autres et l''État les
+      rembourse.'
+    position: oui
+    porte_par:
+    - parti: HOR
+      source: S17
+      personne_ou_groupe_ancien: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de
+        dette)'
+  corrige: true
+- id: A51
+  question: Q42
+  position: oui
+  enonce: La proposition débattue en 2026 vient d'un acteur politique national, et la présidente de la BCE juge
+    l'opération contraire aux traités. Le scénario sans signal de rupture, celui d'une décision du conseil des gouverneurs,
+    n'est donc pas celui proposé.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F27
+  - F46
+  - F5
+  - F9
+  - F26
+  raisonnement: 'Si le conseil des gouverneurs décidait lui-même (F5), le signal serait différent, comme le disent
+    A44 et A47. Mais ce scénario suppose que la BCE change de position : sa présidente affirme l''inverse (F27,
+    F11, F13, F14), et la proposition est portée par un parti national (F46). Tant que la décision dépend d''un
+    gouvernement ou d''une loi nationale, les prêteurs évaluent le scénario qui est sur la table, pas celui qui
+    supposerait l''accord de la BCE. Même dans le scénario où la BCE déciderait, il reste à savoir si les prêteurs
+    y verraient un contournement de l''interdiction du financement monétaire (F9) ; aucune estimation n''existe
+    dans un sens ou dans l''autre (F26).'
+  repond_a: A44
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'A44 et A47 supposent que la décision serait prise par le conseil des gouverneurs de la BCE. Or la proposition
+      débattue en 2026 vient d''un acteur politique national, et la présidente de la BCE juge l''opération contraire
+      aux traités : le scénario sans signal de rupture n''est pas celui qui est proposé.'
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A52
+  question: Q44
+  position: nuance
+  enonce: Une demande politique que la BCE serait libre de refuser n'est pas une instruction. Si l'effacement passe
+    par une loi nationale visant les titres de la Banque de France, l'État impose, et le traité interdit à une banque
+    centrale nationale d'accepter des instructions de son gouvernement.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F3
+  - F4
+  - F5
+  raisonnement: 'A45 distingue demande et instruction (F3) ; la distinction vaut tant que le conseil des gouverneurs
+    reste libre (F5). Elle ne vaut pas pour une loi : F4 oblige chaque État à rendre sa législation compatible avec
+    les statuts de sa banque centrale et du SEBC, de sorte qu''une loi qui modifierait le bilan de la Banque de
+    France relèverait de ce contrôle de compatibilité. A45 ne dit pas quelle voie suit la proposition ; l''atteinte
+    à l''indépendance dépend donc de la voie choisie, et non de la seule existence d''une demande.'
+  repond_a: A45
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'Une demande politique que la BCE serait libre de refuser n''est pas une instruction. Mais si l''effacement
+      passe par une loi nationale visant les titres de la Banque de France, il ne s''agit plus d''une demande :
+      l''État impose, et le traité interdit à une banque centrale nationale d''accepter des instructions de son
+      gouvernement.'
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A53
+  question: Q44
+  position: oui
+  enonce: La crédibilité d'une monnaie dépend de ce que les marchés croient. Une légalité contestée suffit à créer
+    un doute tant qu'aucun juge n'a tranché.
+  porte_par:
+  - personne: Roland Lescure
+    fonction: ministre de l'Économie
+    parti: RE
+    date: '2026-08-24'
+    source: S16
+    appartenance: S49
+  affirmations:
+  - F27
+  - F9
+  raisonnement: 'F27 est invérifiable : aucune décision de la CJUE n''a tranché, et une telle décision n''interviendrait
+    qu''après l''opération. Pour la crédibilité, ce qui compte est la perception de ceux qui détiennent des euros
+    ou des titres, pas le verdict final d''un juge. Entre l''annonce et l''arrêt, le doute porte sur le respect
+    de l''interdiction du financement monétaire (F9), qui fonde la confiance dans la monnaie commune. A48 a raison
+    de dire que l''atteinte n''est pas établie ; elle n''est pas non plus écartée.'
+  repond_a: A48
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: A48 conditionne l'atteinte à la crédibilité à la contrariété aux traités, jugée invérifiable (F27).
+      Mais la crédibilité d'une monnaie dépend de ce que les marchés croient, et une légalité contestée suffit à
+      créer un doute tant qu'aucun juge n'a tranché.
+    position: oui
+    porte_par:
+    - parti: RE
+      source: S16
+      personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+  corrige: true
+- id: A54
+  question: Q45
+  position: non
+  enonce: Le chiffre de 24,4 % (F17) englobe plus que la Banque de France, mais l'argument ne dépend pas de lui.
+    Il porte sur la nature publique du créancier, quelle que soit la part, de 18 % (F46) à près d'un quart.
+  porte_par:
+  - personne: Aurore Lalucq
+    fonction: députée européenne
+    parti: PP
+    date: '2021-02-05'
+    source: S43
+    appartenance: S53
+  affirmations:
+  - F46
+  - F16
+  - F24
+  raisonnement: 'La conclusion « ne pas rembourser intégralement » repose sur la nature publique du créancier (F24
+    : les vendeurs ont été payés), non sur le pourcentage. Que la part soit de 18 % ou de près d''un quart (F16),
+    le raisonnement est le même ; F17 situe seulement l''ordre de grandeur.'
+  repond_a: A42
+  auteur: expert-sociaux-democrates
+  passage: 4
+  statut: ouvert
+  versions:
+  - passage: 4
+    enonce: 'A42 a raison que 24,4 % (F17) englobe plus que la Banque de France ; mais l''argument ne dépend pas
+      de ce chiffre : il porte sur la nature du créancier, et la part visée par la proposition en débat est évaluée
+      à 18 % dans le texte de Public Sénat (F46).'
+    raisonnement: 'A34 écrit déjà que la catégorie n''est pas limitée à la Banque de France ; la conclusion « ne
+      pas rembourser intégralement » repose sur la nature publique du créancier (F24 : les vendeurs ont été payés),
+      non sur le pourcentage. Que la part soit de 18 % ou de près d''un quart (F16, ordre de grandeur sourcé), le
+      raisonnement est le même ; F17 ne sert qu''à situer l''ordre de grandeur.'
+    position: non
+    porte_par:
+    - parti: PP
+      source: S43
+      personne_ou_groupe_ancien: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+  corrige: true

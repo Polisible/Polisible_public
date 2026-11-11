@@ -1,0 +1,27 @@
+agent: expert-extreme-gauche
+phase: 4
+arguments:
+  - ref: a1
+    question: Q45
+    position: contre
+    repond_a: A4
+    enonce: "A4 conclut que les engagements envers les vendeurs de titres demeurent, mais ces vendeurs ont été payés au moment de l'achat ; la dette de l'État n'est pas leur créance. Le critère retenu par le NPA reste la légitimité de la dette, que l'audit doit établir, pas l'identité du créancier."
+    raisonnement: "F24 établit que la banque centrale a acheté les titres sur le marché secondaire : les investisseurs vendeurs ont été réglés et n'ont plus de créance sur l'État. Le créancier actuel est la banque centrale, ce que A4 ne distingue pas ; la conclusion sur la signature de l'État suppose en outre que le marché assimile cette part à celle des créanciers privés, ce qu'aucune affirmation de A4 n'établit."
+    porte_par:
+      - {qui: "NPA (tract sur la dette)", parti: "NPA", source: S37}
+    affirmations: [F24]
+corrections:
+  - {vise: A18, action: corriger, enonce: "Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise ; le montant des aides cité par LO (270 milliards d'euros) n'est pas établi par une source officielle."}
+examen:
+  - {question: Q41, conclusion: "A1, A3 et A5 s'appuient sur F27 (contrariété aux traités), jugée invérifiable par le vérificateur : A1 le reconnaît, mais le raisonnement de A3 et A5 traite F27 comme acquis ; rien d'autre à contester sur les faits F1 à F10 (exacts). A20, A21, A32, A9 sont cohérents avec F45."}
+  - {question: Q42, conclusion: "A2 : F26 est une estimation sans chiffrage (Pas d'estimation fiable) et F25 est une valeur de matinée ; A2 le dit lui-même. Rien à contester de plus."}
+  - {question: Q43, conclusion: "A13 et A6 rejoignent mon argument A16 (retour partiel à l'État) ; F41 est contestée par O1, je n'ajoute rien. A23 et A24 reconnaissent que l'économie nette est inférieure au brut : rien à contester."}
+  - {question: Q44, conclusion: "A3 déduit une atteinte à l'indépendance d'une opération décidée sans le conseil des gouverneurs, ce qui ne vaut pas pour une décision de la BCE (A25, A33) ; A33 repose sur F58, débat entre experts. Pas d'élément factuel nouveau à opposer."}
+  - {question: Q45, conclusion: "A4 : conclusion qui ne suit pas, les vendeurs étant payés (contre-argument a1). A7 et A10 : valeurs ; F28 est une valeur sans verdict. A34 et A26 : rien à contester."}
+  - {question: Q46, conclusion: "A5, A15, A35, A11 : les faits F3, F4, F5 sont exacts ; les conclusions relèvent de valeurs sur le niveau de décision, pas d'erreur de fait. Rien à contester."}
+  - {question: Q47, conclusion: "A6, A8, A14 : A6 et A14 reposent sur F20/F22, exacts, mais F22 vise toute la charge des administrations, pas la part de l'Eurosystème ; A8 reconnaît que le plan ne mentionne pas l'annulation. Désaccord de valeur sur les leviers. Erreur du camp : le chiffre de 270 milliards de A18 est invérifiable (correction déposée)."}
+valeurs:
+  - {question: Q47, enonce: "Mon camp met en priorité la mise à contribution du capital et des profits, et le refus de faire payer la dette à la population, plutôt que l'équilibre budgétaire par des économies."}
+incertitudes:
+  - "Je n'ai rouvert aucune source ; l'analyse porte sur le lot."
+  - "Le montant de 270 milliards d'euros de LO n'a pas de source officielle."

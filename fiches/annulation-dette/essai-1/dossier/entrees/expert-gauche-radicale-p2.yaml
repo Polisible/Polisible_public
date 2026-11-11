@@ -1,0 +1,12 @@
+agent: expert-gauche-radicale
+phase: 4
+corrections:
+  - vise: A9
+    action: corriger
+    enonce: "Pour La France insoumise, l'annulation de titres déjà détenus par une banque centrale n'est ni un crédit à l'État ni un achat direct de ses titres, et le texte de l'article 123 ne la mentionne pas. Cette lecture est contestée par la BCE (lettre de 2021, F1) et par Fabio Panetta (2020, F31) ; aucune décision de justice ne l'a tranchée : la Cour de justice, dans l'arrêt Weiss (2018), a examiné les achats du programme PSPP, pas leur annulation."
+valeurs:
+  - {question: Q1, enonce: "Pour la gauche radicale, la question juridique est subordonnée à un choix politique : la dette détenue par l'Eurosystème peut être traitée par une décision collective de l'Eurosystème plutôt que par le seul texte actuel des traités, et la lecture de la BCE n'a pas à être tenue pour définitive."}
+incertitudes:
+  - "A9 était formulé trop fermement (« serait possible dans le cadre des traités actuels ») : la seule source du camp est une contribution de 2022 de Jean-Luc Mélenchon (niveau 3), contredite par la lettre de la BCE de 2021 et par Panetta (2020). Correction déposée."
+  - "L'arrêt Weiss (communiqué S14) porte sur les achats, pas sur l'annulation ; je n'en tire aucune conclusion sur la légalité de l'annulation."
+  - "F29 (proposition de résolution de 2020) : auteur et date toujours non établis ; non confirmé par une source de niveau 1."
