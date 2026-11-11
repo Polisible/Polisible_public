@@ -114,7 +114,8 @@ def main():
     # 3. Contexte et définitions
     w("## Contexte et définitions"); w(""); w(str(R.get("contexte", "*(à rédiger)*"))); w("")
     for x in R.get("definitions", []):
-        w(f"- **{x['terme']}** : {x['definition']} [{', '.join(x['sources'])}]")
+        absents = [s for s in x["sources"] if s not in x["definition"]]
+        w(f"- **{x['terme']}** : {x['definition']}" + (f" [{', '.join(absents)}]" if absents else ""))
     w("")
     # 4. Chiffres clés
     w("## Chiffres clés"); w("")

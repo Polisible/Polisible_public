@@ -1,4 +1,4 @@
-# Annulation dette
+# L'annulation de la dette publique détenue par la Banque de France
 
 Thème : Économie et finances publiques · Sujet : La dette · Date : 11 novembre 2026 · Version : 0.1
 
@@ -12,13 +12,13 @@ La fiche porte sur la proposition d'annuler, ou de convertir en dette perpétuel
 
 En août 2026, Jean-Luc Mélenchon (LFI), propose d'annuler ou de geler en dette perpétuelle la dette française détenue par la Banque de France pour l'Eurosystème [S19, F46]. Le 24 août 2026, le ministre de l'Économie, Roland Lescure (RE), déclare que les taux monteraient [F26] ; le taux à 10 ans est de 4,11 % [F25]. Le 12 septembre 2026, Christine Lagarde, présidente de la BCE, déclare l'annulation contraire aux traités [F11]. Précédents : en mai 2020, une proposition de résolution de députés LFI sur la transformation de la dette rachetée par la BCE en dette perpétuelle [S39] ; en juin 2020, un plan d'EELV financé notamment par une annulation de dette auprès de la BCE [F34] ; en février 2021, une tribune d'économistes, dont Aurore Lalucq (PP), qui propose que la BCE efface ses créances [F59]. Christine Lagarde déclare alors cette annulation « inenvisageable » [F12].
 
-- **Eurosystème** : Ensemble formé par la Banque centrale européenne (BCE) et les banques centrales nationales, dont la Banque de France [F31, F46]. [F31, F46]
-- **SEBC** : Système européen de banques centrales. Son conseil des gouverneurs, celui de la BCE, arrête les orientations et prend les décisions nécessaires à ses missions [F8, F5]. [F8, F5]
-- **Financement monétaire** : Financement d'un État par sa banque centrale, par découvert, crédit ou achat direct de ses titres de dette. L'article 123 du traité sur le fonctionnement de l'Union européenne l'interdit [F1, F2, F45]. [F1, F2, F45]
-- **Marché secondaire** : Dans cette fiche : achat de titres de dette de l'État auprès d'institutions financières qui les détiennent, et non directement auprès de l'État. C'est ainsi que l'Eurosystème a acquis ses titres français [F24]. [F24]
-- **Revenu monétaire** : Revenu que les banques centrales nationales tirent de leurs missions de politique monétaire ; il est réparti entre elles à la fin de chaque exercice [F7]. [F7]
-- **PEPP** : Programme d'achats d'urgence pandémique de l'Eurosystème. Les réinvestissements des titres arrivés à échéance ont pris fin à la fin de 2024 [F48]. [F48]
-- **Règle d'or budgétaire** : Règle qui limite le déficit public ; Marine Le Pen (RN) propose de l'inscrire dans la Constitution par référendum [F39]. [F39]
+- **Eurosystème** : Ensemble formé par la Banque centrale européenne (BCE) et les banques centrales nationales, dont la Banque de France [F31, F46].
+- **SEBC** : Système européen de banques centrales. Son conseil des gouverneurs, celui de la BCE, arrête les orientations et prend les décisions nécessaires à ses missions [F8, F5].
+- **Financement monétaire** : Financement d'un État par sa banque centrale, par découvert, crédit ou achat direct de ses titres de dette. L'article 123 du traité sur le fonctionnement de l'Union européenne l'interdit [F1, F2, F45].
+- **Marché secondaire** : Dans cette fiche : achat de titres de dette de l'État auprès d'institutions financières qui les détiennent, et non directement auprès de l'État. C'est ainsi que l'Eurosystème a acquis ses titres français [F24].
+- **Revenu monétaire** : Revenu que les banques centrales nationales tirent de leurs missions de politique monétaire ; il est réparti entre elles à la fin de chaque exercice [F7].
+- **PEPP** : Programme d'achats d'urgence pandémique de l'Eurosystème. Les réinvestissements des titres arrivés à échéance ont pris fin à la fin de 2024 [F48].
+- **Règle d'or budgétaire** : Règle qui limite le déficit public ; Marine Le Pen (RN) propose de l'inscrire dans la Constitution par référendum [F39].
 
 ## Chiffres clés
 
