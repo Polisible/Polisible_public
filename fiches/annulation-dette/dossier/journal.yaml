@@ -516,3 +516,7 @@
   agent: expert-gauche-radicale
   phase: '5'
   action: 'a ajouté 3 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T14:27:07'
+  agent: rapporteur
+  phase: '5'
+  action: 37 thèses, 7 réponses
