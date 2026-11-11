@@ -12,7 +12,7 @@ Ce document est la charte éditoriale de Polisible. Il sera publié tel quel, sa
 
 1. **Transparent** : vous savez qui écrit, comment, avec quelles sources.
 2. **Vérifiable** : chaque fait, chiffre ou citation est relié à son origine, en un clic.
-3. **Objectif** : nous tranchons sur les faits, quel que soit le camp que cela dérange.
+3. **Objectif** : nous tranchons sur les faits et sur la solidité des arguments, avec une grille publique et la même pour tous, quel que soit le camp que cela dérange. Nous ne tranchons jamais entre des valeurs.
 4. **Équitable** : chaque camp est traité avec la même méthode et la même exigence de preuve, sans pour autant recevoir artificiellement la même place.
 5. **Expliqué** : chaque choix que nous faisons, de la définition d'un candidat à la couleur d'un verdict, est expliqué publiquement dans le registre de nos choix, accessible en un clic depuis l'endroit où il s'applique.
 
@@ -58,13 +58,14 @@ Une fiche est construite par plusieurs IA aux rôles séparés, qui travaillent 
 2. **Les arguments.** Sept experts, un par grande famille politique, écrivent chacun de leur côté la meilleure version des arguments de leur famille, sources à l'appui.
 3. **La confrontation.** Les experts lisent les apports des autres et les contestent : contre-arguments, réfutations, objections sur une source. Ils ne cherchent pas de compromis. Il n'y a pas de nombre de tours : la confrontation dure tant qu'il reste un argument ou une objection à exprimer.
 4. **La vérification.** Un vérificateur sans camp ouvre chaque source et tranche chaque question de fait. Ce sont les sources qui décident, pas l'accord des experts.
-5. **La rédaction.** Un rédacteur sans camp écrit la fiche à partir de ce qui a survécu à la vérification, sans rien ajouter ; un relecteur contrôle l'équité du vocabulaire.
-6. **La vérification humaine.** Le fondateur ouvre chaque source avant publication, et tranche les désaccords que les IA n'ont pas pu résoudre, par une décision motivée et publique.
-7. **La vie de la fiche** : vos signalements, nos corrections publiques et les mises à jour.
+5. **La commission.** Un groupe neutre, sans camp, regroupe les arguments qui se ressemblent, examine chacun avec une grille publique (répond-il à la question ? ses faits le portent-ils ? sa conclusion en découle-t-elle ?), interroge les familles sur les points faibles, puis répond à chaque question de fait ou d'estimation. Un second agent neutre conteste chaque conclusion ; chaque famille peut contester l'examen de ses arguments. Sur une question de valeur, la commission ne répond pas : elle explique ce qu'implique chaque choix.
+6. **La rédaction.** Un rédacteur sans camp écrit les textes de synthèse à partir du travail de la commission, sans rien ajouter ; un relecteur contrôle l'équité du vocabulaire et de l'application de la grille.
+7. **La vérification humaine.** Le fondateur ouvre chaque source avant publication, et tranche les désaccords que les IA n'ont pas pu résoudre, par une décision motivée et publique.
+8. **La vie de la fiche** : vos signalements, nos corrections publiques et les mises à jour.
 
 **Tout est tracé** : le journal des échanges entre les IA est conservé pour chaque fiche.
 
-**Le modèle d'une fiche.** Chaque fiche traite un aspect précis d'un sujet (par exemple, l'annulation de la dette, dans le sujet de la dette), découpé en questions précises qui appellent un oui ou un non. Chaque question a ses arguments pour et contre, qui reposent sur des affirmations vérifiées. Chaque partie commence par une lecture rapide qui suffit à comprendre, puis donne le détail complet. Une fiche est aussi longue que le sujet l'exige.
+**Le modèle d'une fiche.** Chaque fiche traite un aspect précis d'un sujet (par exemple, l'annulation de la dette, dans le sujet de la dette), découpé en questions précises qui appellent un oui ou un non. Chaque question reçoit d'abord la réponse de la commission, sourcée ; viennent ensuite les arguments examinés, qui tiennent ou non et pourquoi, puis le détail des arguments et des affirmations vérifiées. Chaque partie commence par une lecture rapide qui suffit à comprendre, puis donne le détail complet. Une fiche est aussi longue que le sujet l'exige.
 
 ## Trois types d'affirmations, trois façons de juger
 

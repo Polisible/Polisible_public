@@ -244,6 +244,14 @@ def valider_entree(e, exiger_examen=False):
                 err.append(f"sources_ajoutees : champ « {c} » manquant ({s.get('adresse')})")
         if len(str(s.get("extrait", ""))) > EXTRAIT_MAX:
             err.append("sources_ajoutees : extrait trop long (une phrase au plus)")
+    for c in e.get("contestations", []) or []:
+        if not c.get("these") or c.get("nature") not in ("fait", "raisonnement") or not c.get("contenu") or not c.get("critere"):
+            err.append(f"contestation : these, critere, nature (fait|raisonnement) et contenu obligatoires ({c})")
+        if c.get("nature") == "fait" and not c.get("sources"):
+            err.append(f"contestation de fait sur {c.get('these')} : une source (id ou ref) est obligatoire")
+    for x in e.get("reponses_relances", []) or []:
+        if not x.get("relance") or not x.get("texte"):
+            err.append(f"reponses_relances : relance et texte obligatoires ({x})")
     for c in e.get("corrections", []) or []:
         if c.get("position") and c["position"] not in POSITIONS:
             err.append(f"correction de {c.get('vise')} : position = oui, non ou nuance")
@@ -470,6 +478,13 @@ def fusionner(fiche, chemin):
                 ajouts.append(f"{c.get('action')} {x['id']}")
     for n, v in D.items():
         ecrire(fiche, n, v)
+    if e.get("reponses_relances") or e.get("contestations"):
+        import commission
+        for c in e.get("contestations", []) or []:
+            c["sources"] = [res(s) for s in c.get("sources", [])]
+        commission.fusionner_expert(fiche, e, agent)
+        ajouts.append(f"{len(e.get('reponses_relances') or [])} réponses aux relances, "
+                      f"{len(e.get('contestations') or [])} contestations")
     inc = e.get("incertitudes") or []
     journaliser(fiche, agent, phase, f"a ajouté {', '.join(ajouts) or 'rien de nouveau'}"
                 + (f" ; incertitudes signalées : {len(inc)}" if inc else ""))
