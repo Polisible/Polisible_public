@@ -1,8 +1,8 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '3'
-passage: 3
+phase: '4'
+passage: 4
 phases:
   '1':
     debut: '2026-11-10T20:31:37'
@@ -31,11 +31,15 @@ phases:
     debut: '2026-11-10T21:23:28'
     passages: 1
     note: passage 1 de confrontation (sur 3 au plus), 7 experts
-    fin: '2026-11-10T21:25:20'
+    fin: '2026-11-11T00:52:16'
   3-ter:
     debut: '2026-11-10T21:25:20'
     passages: 1
     note: objection O1 et éléments du passage 1 de confrontation
+  4-bis:
+    debut: '2026-11-11T00:52:32'
+    passages: 1
+    note: 'passage 3 de confrontation (dernier), ciblé : 5 experts'
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -202,6 +206,41 @@ agents:
   jetons: 22373
   outils: 4
   duree_ms: 33471
+- phase: '4'
+  agent: expert-extreme-gauche
+  jetons: 54778
+  outils: 4
+  duree_ms: 25750
+- phase: '4'
+  agent: expert-ecologistes
+  jetons: 55040
+  outils: 4
+  duree_ms: 26678
+- phase: '4'
+  agent: expert-centre
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-droite
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-extreme-droite
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: null
+  outils: null
+  duree_ms: null
+- phase: '4'
+  agent: expert-sociaux-democrates
+  jetons: null
+  outils: null
+  duree_ms: null
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -497,4 +536,50 @@ incertitudes:
 - agent: expert-sociaux-democrates
   texte: 'Aucune objection ni source demandée dans le lot : seules deux corrections de formulation sur mes propres
     arguments (périmètre du chiffre de 24,4 % ; portée de la conclusion juridique).'
+- agent: expert-centre
+  texte: Le contre-argument a1 raisonne à partir de F9 et F10 sans rouvrir l'arrêt Weiss ; je n'affirme pas ce que
+    la Cour dit des conditions précises, seulement que F10 vise la décision d'achat.
+- agent: expert-centre
+  texte: F25 (taux du 24 août 2026) date de plus de deux mois et vient de la presse ; non réactualisé.
+- agent: expert-centre
+  texte: L'appartenance de Gabriel Attal à Renaissance (A6) n'est pas établie par S20 ; je ne l'ai pas revérifiée
+    dans S17, et je n'utilise pas S20.
+- agent: expert-centre
+  texte: Dans A6 corrigé, la part des intérêts sur titres de l'État dans le résultat de la Banque de France n'est
+    établie par aucune source (F41).
+- agent: expert-droite
+  texte: A1 et a2 s'appuient sur S21, position de 2020 de Jean-François Husson sur l'annulation, pas sur la proposition
+    de 2026.
+- agent: expert-droite
+  texte: 'Je n''ai pas rouvert de source : les examens portent sur le lot et les verdicts qu''il indique.'
+- agent: expert-ecologistes
+  texte: 'A10 cite F7 (partage du revenu monétaire entre banques centrales) à l''appui du retour d''intérêts à l''État
+    : F7 n''établit pas ce retour, seuls F19 et F20 le font ; le chiffre de 640 milliards (F31) est un ordre de
+    grandeur de début 2026, proche de 597 milliards fin octobre 2026.'
+- agent: expert-ecologistes
+  texte: Les arguments de LFI et du centre sur les taux (Q42) n'ont pas de chiffrage institutionnel ; je n'ai pas
+    cherché d'étude externe.
+- agent: expert-extreme-droite
+  texte: 'Je n''ai pas de source du dossier qui chiffre la part des intérêts reversée à l''État (impôt, dividende)
+    ni l''effet du partage du revenu monétaire dans l''Eurosystème : la correction de A13 reste qualitative.'
+- agent: expert-extreme-droite
+  texte: 'Le RN n''a pas d''argument au dossier sur Q41, Q42, Q44, Q45 : je n''en ajoute pas.'
+- agent: expert-extreme-gauche
+  texte: Je n'ai rouvert aucune source ; l'analyse porte sur le lot.
+- agent: expert-extreme-gauche
+  texte: Le montant de 270 milliards d'euros de LO n'a pas de source officielle.
+- agent: expert-gauche-radicale
+  texte: 'A21 (PCF) : le raisonnement écrit que l''annulation partielle se heurte aux traités, alors que l''énoncé
+    dit que l''interdiction n''est pas établie ; la formulation est plus tranchée que la source ne le permet.'
+- agent: expert-gauche-radicale
+  texte: 'F46 : le fait que les créanciers de marché ne soient pas touchés reste surtout sous-entendu dans Public
+    Sénat (verdict Plutôt vrai) ; a1 en dépend.'
+- agent: expert-gauche-radicale
+  texte: Le lien entre intérêts supprimés et baisse des versements de la Banque de France reste non chiffré (objection
+    O1 en attente).
+- agent: expert-sociaux-democrates
+  texte: Le périmètre exact de la catégorie « autres français » (part de la Banque de France) n'est pas isolé dans
+    les sources du dossier.
+- agent: expert-sociaux-democrates
+  texte: Le partage des pertes entre banques centrales de l'Eurosystème (A5) n'est pas établi au dossier.
 examen_obligatoire: true

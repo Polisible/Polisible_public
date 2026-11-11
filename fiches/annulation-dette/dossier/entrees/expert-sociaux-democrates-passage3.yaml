@@ -1,0 +1,56 @@
+agent: expert-sociaux-democrates
+phase: 4
+arguments:
+  - ref: a1
+    question: Q41
+    position: pour
+    repond_a: A1
+    enonce: "L'article 123 vise deux actes précis (crédit direct, achat direct) ; que l'effacement d'une créance déjà acquise sur le marché secondaire reviendrait à un financement interdit est une interprétation, non une conséquence du texte."
+    raisonnement: "A1 déduit l'interdiction de ce que les titres ont été achetés à des investisseurs (F24) : cela établit que l'achat initial était régulier, pas que le traitement ultérieur du titre est interdit. Le traité ne mentionne pas ce cas (F57) et F27 reste invérifiable ; l'« avantage après coup » est une lecture que la Cour n'a pas validée."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: S43}
+    affirmations: [F24, F57, F27]
+  - ref: a2
+    question: Q42
+    position: nuance
+    repond_a: A2
+    enonce: "A2 suppose une opération unilatérale ; la proposition de 2021 passe par une décision du conseil des gouverneurs et un contrat avec les États. Un signal de rupture unilatérale ne s'applique donc pas à ce cas, et l'ampleur de l'effet n'est chiffrée par personne."
+    raisonnement: "La prime de risque décrite par A2 découle d'un État qui « change les règles » seul. Si la décision est prise par la BCE elle-même (F5, F60), sans instruction d'un gouvernement (F3), la prémisse manque. F26 n'a pas d'estimation fiable : le gain « rogné » par un surcoût n'est pas démontré."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: S43}
+    affirmations: [F3, F5, F60, F26]
+  - ref: a3
+    question: Q44
+    position: nuance
+    repond_a: A3
+    enonce: "L'argument d'A3 vaut pour une décision imposée par un gouvernement ; il ne s'applique pas à un effacement arrêté par le conseil des gouverneurs lui-même."
+    raisonnement: "F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction n'est donnée. L'atteinte à la crédibilité suppose en outre que l'opération soit contraire aux traités (F27), ce qui est invérifiable : A3 reconnaît d'ailleurs que la compatibilité est disputée."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: S43}
+    affirmations: [F3, F5, F27]
+  - ref: a4
+    question: Q45
+    position: contre
+    repond_a: A4
+    enonce: "Les vendeurs des titres ont été payés par la banque centrale (F24) ; effacer la créance de la banque centrale sur l'État ne retire rien à ces vendeurs, qui n'ont plus de créance."
+    raisonnement: "A4 écrit que les engagements envers les vendeurs « demeurent » : or, ayant vendu, ils ont été réglés. Le créancier de l'État est la banque centrale, dont les engagements envers des tiers ne sont pas ceux de l'État. Distinguer ce créancier des détenteurs privés n'est donc pas en soi une parole variable envers un prêteur privé."
+    porte_par:
+      - {qui: "Aurore Lalucq, députée européenne (tribune collective, février 2021)", parti: "Place publique", source: S43}
+    affirmations: [F24]
+corrections:
+  - vise: A34
+    action: corriger
+    enonce: "Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente 24,4 % de la dette négociable de l'État : une part importante est due à la banque centrale, institution publique. La catégorie n'est pas limitée à elle ; rembourser ce créancier revient à trouver ailleurs la somme (nouvel emprunt, impôts ou baisse des dépenses), d'où l'idée de ne pas le rembourser intégralement."
+examen:
+  - {question: Q41, conclusion: "A1 conclut à l'interdiction par l'article 123, mais F1 et F2 ne visent que crédit et achat directs, et F27 est invérifiable (contre-argument a1) ; A9, A20, A21 rien à contester sur les faits."}
+  - {question: Q42, conclusion: "A2 suppose une opération unilatérale et F26 n'a pas d'estimation fiable (contre-argument a2) ; A22 est signalé par son auteur comme sans chiffrage, rien à contester de plus."}
+  - {question: Q43, conclusion: "A6, A13, A16, A23, A24 reposent sur le reversement par la Banque de France (F19, F20) ; l'objection O1 est déjà posée sur ce point, rien de nouveau à ajouter ; A23 et A24 reconnaissent que le gain net est incertain."}
+  - {question: Q44, conclusion: "A3 vaut pour une instruction gouvernementale, pas pour une décision du conseil des gouverneurs, et dépend de F27 invérifiable (contre-argument a3) ; A25 rien à contester, proche de mon argument A33."}
+  - {question: Q45, conclusion: "A4 : les vendeurs ont été payés, leurs créances ne subsistent pas (contre-argument a4) ; A7, A10, A17, A26, A27 sont des positions de valeur, rien à contester sur les faits. Mon propre A34 corrigé : la catégorie « autres français » n'est pas que publique."}
+  - {question: Q46, conclusion: "A5 s'appuie sur F3, F4, F27 (vrais ou invérifiable, sans erreur) ; l'affirmation que les autres membres supportent leur part du bilan n'est liée à aucune affirmation du dossier mais n'est pas contestée ici faute de source ; A11, A15, A28, A29 rien à contester."}
+  - {question: Q47, conclusion: "A6, A8, A14 et A19 s'appuient sur des faits exacts (F18-F22, F29, F37) et sur des choix de valeurs ; rien à contester, A6 renvoie à Q43 où la réponse chiffrée manque."}
+valeurs:
+  - {question: Q45, enonce: "Notre famille met en priorité la distinction entre créancier privé, protégé, et banque centrale, institution publique, et la conditionnalité de l'effacement à un investissement."}
+incertitudes:
+  - "Le périmètre exact de la catégorie « autres français » (part de la Banque de France) n'est pas isolé dans les sources du dossier."
+  - "Le partage des pertes entre banques centrales de l'Eurosystème (A5) n'est pas établi au dossier."

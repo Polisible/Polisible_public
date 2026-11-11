@@ -96,3 +96,71 @@
   enonce: Place publique (texte de 2021) met en priorité une décision européenne coordonnée plutôt qu'une décision
     nationale isolée.
   passage: 1
+- id: V17
+  question: Q45
+  auteur: expert-centre
+  enonce: 'Le centre met en priorité la continuité de la signature de l''État : un engagement honoré ne se module
+    pas selon l''identité du créancier.'
+  passage: 3
+- id: V18
+  question: Q46
+  auteur: expert-centre
+  enonce: Dans une union monétaire, le centre place la discipline commune au-dessus de la liberté de décision nationale
+    sur des actifs détenus en commun.
+  passage: 3
+- id: V19
+  question: Q47
+  auteur: expert-centre
+  enonce: Le centre préfère les économies, l'équilibre des comptes et la compétitivité à l'effacement d'une dette,
+    et ne classe pas l'annulation comme levier.
+  passage: 3
+- id: V20
+  question: Q45
+  auteur: expert-droite
+  enonce: 'Notre famille met en priorité la parole donnée par l''État : une dette se rembourse quel que soit le
+    créancier, y compris public, car le précédent engage la confiance future.'
+  passage: 3
+- id: V21
+  question: Q47
+  auteur: expert-droite
+  enonce: Notre famille privilégie la maîtrise de la dépense et le retour à l'excédent primaire plutôt qu'un allègement
+    du stock de dette.
+  passage: 3
+- id: V22
+  question: Q46
+  auteur: expert-extreme-droite
+  enonce: 'Le RN met en priorité la souveraineté nationale : les choix budgétaires doivent relever des Français,
+    par la primauté du droit national et une règle d''or votée par référendum, plutôt que de règles ou de créanciers
+    extérieurs.'
+  passage: 3
+- id: V23
+  question: Q47
+  auteur: expert-extreme-gauche
+  enonce: Mon camp met en priorité la mise à contribution du capital et des profits, et le refus de faire payer
+    la dette à la population, plutôt que l'équilibre budgétaire par des économies.
+  passage: 3
+- id: V24
+  question: Q45
+  auteur: expert-gauche-radicale
+  enonce: La gauche radicale distingue la dette envers une institution publique, dont les États sont propriétaires,
+    de celle envers des épargnants et investisseurs privés, que A7 et A4 traitent à égalité au nom de la parole
+    de l'État.
+  passage: 3
+- id: V25
+  question: Q46
+  auteur: expert-gauche-radicale
+  enonce: La gauche radicale met en priorité la décision politique démocratique sur les règles fixées par des institutions
+    indépendantes ; A5 et A35 mettent en priorité le respect des règles communes de la zone euro.
+  passage: 3
+- id: V26
+  question: Q47
+  auteur: expert-gauche-radicale
+  enonce: La gauche radicale préfère dégager des marges par l'annulation de la part de la banque centrale et par
+    les recettes plutôt que par des économies sur la dépense (contre A8 et A14).
+  passage: 3
+- id: V27
+  question: Q45
+  auteur: expert-sociaux-democrates
+  enonce: Notre famille met en priorité la distinction entre créancier privé, protégé, et banque centrale, institution
+    publique, et la conditionnalité de l'effacement à un investissement.
+  passage: 3

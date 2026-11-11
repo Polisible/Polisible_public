@@ -29,7 +29,7 @@
   repond_a: null
   auteur: expert-centre
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A2
   question: Q42
   position: pour
@@ -57,7 +57,7 @@
   repond_a: null
   auteur: expert-centre
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A3
   question: Q44
   position: pour
@@ -83,7 +83,7 @@
   repond_a: null
   auteur: expert-centre
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A4
   question: Q45
   position: pour
@@ -106,7 +106,7 @@
   repond_a: null
   auteur: expert-centre
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A5
   question: Q46
   position: contre
@@ -133,8 +133,10 @@
 - id: A6
   question: Q47
   position: contre
-  enonce: 'Non. L''annulation ne crée pas de vraie marge : l''État reçoit déjà des bénéfices de la Banque de France.
-    Équilibrer les comptes, alléger le coût du travail et soutenir la compétitivité sont les leviers retenus.'
+  enonce: 'Non. Le gain net de l''annulation pour l''État est incertain : la Banque de France lui verse déjà des
+    bénéfices (impôt et dividendes) qui reposent en partie sur les intérêts qu''elle perçoit, sans qu''aucune source
+    n''en chiffre la part. Équilibrer les comptes, alléger le coût du travail et soutenir la compétitivité sont
+    les leviers retenus.'
   porte_par:
   - qui: 'Édouard Philippe (débat du Medef, 27 août 2026 : équilibrer les comptes, sans annulation)'
     parti: Horizons
@@ -319,8 +321,8 @@
   question: Q43
   position: contre
   enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
-    la Banque de France verse à l'État un impôt et des dividendes (36,8 Md€ depuis 2015) qui dépendent de son résultat,
-    lequel inclut les intérêts reçus ; l'ampleur de ce recul n'est pas chiffrée par une source du dossier.
+    une part des intérêts reçus par la Banque de France revient à l'État par l'impôt et le dividende (36,8 Md€ versés
+    depuis 2015) ; l'ampleur de ce recul n'est chiffrée par aucune source du dossier.
   porte_par:
   - qui: Jordan Bardella, président du RN, réponse publiée sur X à Matthieu Pigasse (23 août 2026, rapportée par
       la presse)
@@ -436,7 +438,8 @@
   position: nuance
   enonce: Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides
     aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette
-    est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise.
+    est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise ;
+    le montant des aides cité par LO (270 milliards d'euros) n'est pas établi par une source officielle.
   porte_par:
   - qui: Lutte ouvrière, campagne de Nathalie Arthaud
     parti: LO
@@ -503,7 +506,7 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A21
   question: Q41
   position: contre
@@ -553,7 +556,7 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A23
   question: Q43
   position: nuance
@@ -603,7 +606,7 @@
   repond_a: null
   auteur: expert-gauche-radicale
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A25
   question: Q44
   position: contre
@@ -799,14 +802,14 @@
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A34
   question: Q45
   position: contre
-  enonce: 'Quand la catégorie « autres français », dont la Banque de France pour le compte de la BCE, représente
-    24,4 % de la dette négociable de l''État au premier trimestre 2025, une part importante de la dette est due
-    à des institutions publiques. Rembourser revient alors à trouver ailleurs la somme (nouvel emprunt, impôts ou
-    baisse des dépenses) : on ne doit donc pas rembourser intégralement ce créancier-là.'
+  enonce: 'Au premier trimestre 2025, la catégorie « autres français », dont la Banque de France pour le compte
+    de la BCE, représente 24,4 % de la dette négociable de l''État : une part importante est due à la banque centrale,
+    institution publique. La catégorie n''est pas limitée à elle ; rembourser ce créancier revient à trouver ailleurs
+    la somme (nouvel emprunt, impôts ou baisse des dépenses), d''où l''idée de ne pas le rembourser intégralement.'
   porte_par:
   - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
     parti: Place publique
@@ -821,7 +824,7 @@
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
-  statut: ouvert
+  statut: conteste
 - id: A35
   question: Q46
   position: contre
@@ -863,4 +866,288 @@
   repond_a: null
   auteur: expert-sociaux-democrates
   passage: 1
+  statut: ouvert
+- id: A37
+  question: Q41
+  position: contre
+  enonce: 'L''absence du mot « annulation » dans les traités ne vaut pas autorisation : l''article 123 est appliqué
+    selon son objet (éviter le financement monétaire des États), et les arrêts cités pour la compatibilité portent
+    sur les achats, pas sur le sort ultérieur des titres.'
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F45
+  - F9
+  - F10
+  - F5
+  - F3
+  raisonnement: 'F45 (le texte ne mentionne pas l''annulation) établit seulement un silence. F10 porte sur la validité
+    de la décision 2015/774, donc sur les achats, et F9 montre que la Cour valide ces achats à condition de garanties
+    contre le financement monétaire : elle raisonne par l''effet, non par la liste des actes interdits. Rien dans
+    F8-F10 ne dit qu''effacer ou geler à taux nul des titres déjà détenus, au profit d''un État, respecte ces garanties.
+    Enfin l''argument suppose une décision du conseil des gouverneurs (F5), alors que la proposition en débat est
+    portée par un gouvernement et un parlement nationaux (F3).'
+  repond_a: A20
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+- id: A38
+  question: Q42
+  position: pour
+  enonce: 'Limiter l''opération à la part de l''Eurosystème ne suffit pas à conclure que les taux ne bougent pas
+    : un prêteur évalue aussi la fiabilité des règles, pas seulement le risque de non-paiement sur ses propres titres.'
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F46
+  - F47
+  raisonnement: 'A22 passe de F46 (périmètre limité aux titres de l''Eurosystème) à F47 (aucun effet sur le coût
+    d''emprunt). Or F46 décrit le périmètre, pas la réaction des prêteurs à un précédent juridiquement disputé,
+    et F47 est une estimation sans chiffrage ni institution : la prémisse qui porte la conclusion n''est pas établie.
+    A22 reconnaît elle-même que des économistes la contestent.'
+  repond_a: A22
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+- id: A39
+  question: Q43
+  position: contre
+  enonce: 'Supprimer le service des titres de l''Eurosystème ne produit pas des marges « immédiates » égales aux
+    intérêts : la Banque de France reverse déjà des sommes à l''État, dont le montant dépend de son résultat.'
+  porte_par:
+  - qui: Édouard Philippe (débat du Medef, 27 août 2026)
+    parti: Horizons
+    source: S17
+  affirmations:
+  - F22
+  - F19
+  - F20
+  - F49
+  raisonnement: 'A24 tire des marges immédiates de F22 (charge totale de 65,7 Md€ en 2025). Mais F22 porte sur l''ensemble
+    des créanciers, pas sur la part de la banque centrale, et F19 et F20 établissent que la Banque de France verse
+    impôt et dividendes à l''État. La part de ces versements due aux intérêts sur les titres de l''État n''est chiffrée
+    par aucune source (F41, F49 sans estimation) : le gain net est donc inconnu, non démontré positif.'
+  repond_a: A24
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+- id: A40
+  question: Q44
+  position: pour
+  enonce: Que la banque centrale puisse fonctionner avec des fonds propres négatifs ne répond qu'à la question de
+    sa solvabilité, pas à celle de la crédibilité de l'euro, qui dépend aussi de la perception d'un financement
+    monétaire des États.
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F58
+  - F9
+  raisonnement: 'A33 conclut que la capacité d''action et l''indépendance sont préservées en s''appuyant sur F58,
+    qualifiée par le vérificateur de « Débat entre experts » : la BCE y dit pouvoir remplir son mandat malgré des
+    pertes, sans dire que des fonds propres durablement négatifs seraient sans effet. Surtout, la crédibilité tient
+    à l''interdiction du financement monétaire (F9) : un effacement au profit d''États peut être lu comme un contournement,
+    que la solvabilité de la BCE ne dissipe pas. A33 le reconnaît en limitant son argument à un effacement décidé
+    par la BCE elle-même.'
+  repond_a: A33
+  auteur: expert-centre
+  passage: 3
+  statut: ouvert
+- id: A41
+  question: Q42
+  position: pour
+  enonce: 'Le raisonnement de A22 ne suit pas : le taux ne rémunère pas seulement le risque sur la part annulée,
+    il reflète aussi la confiance des prêteurs dans le respect des règles. Une opération juridiquement contestée
+    peut donc peser sur les taux même si les créanciers privés sont payés.'
+  porte_par:
+  - qui: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien
+      du 28 décembre 2020)
+    parti: LR
+    source: S21
+  affirmations:
+  - F26
+  - F27
+  - F47
+  raisonnement: A22 déduit l'absence d'effet du fait que les créanciers privés restent remboursés, mais F47 n'est
+    qu'un avis de ses auteurs, sans estimation d'institution, et F27 établit que la conformité aux traités est disputée.
+    Un prêteur qui voit un État traiter une catégorie de créanciers autrement peut craindre que d'autres règles
+    changent aussi ; A22 ne répond pas à ce risque de précédent (F26).
+  repond_a: A22
+  auteur: expert-droite
+  passage: 3
+  statut: ouvert
+- id: A42
+  question: Q45
+  position: contre
+  enonce: A34 tire de F17 que la dette serait en bonne partie due à des institutions publiques, mais cette catégorie
+    n'est pas limitée à la Banque de France ; la conclusion « ne pas rembourser » dépasse donc ce que le chiffre
+    montre.
+  porte_par:
+  - qui: Jean-François Husson, sénateur LR, rapporteur général de la commission des finances du Sénat (entretien
+      du 28 décembre 2020)
+    parti: LR
+    source: S21
+  affirmations:
+  - F16
+  - F17
+  - F24
+  raisonnement: 'F17 mesure la catégorie « autres français », qui inclut la Banque de France pour le compte de la
+    BCE sans s''y réduire (F16 le précise). Le chiffre de 24,4 % surestime donc la part détenue pour l''Eurosystème.
+    Et la qualité publique du créancier ne répond pas à l''argument de A4 : les titres ont été achetés à des investisseurs
+    (F24).'
+  repond_a: A34
+  auteur: expert-droite
+  passage: 3
+  statut: ouvert
+- id: A43
+  question: Q45
+  position: contre
+  enonce: A4 conclut que les engagements envers les vendeurs de titres demeurent, mais ces vendeurs ont été payés
+    au moment de l'achat ; la dette de l'État n'est pas leur créance. Le critère retenu par le NPA reste la légitimité
+    de la dette, que l'audit doit établir, pas l'identité du créancier.
+  porte_par:
+  - qui: NPA (tract sur la dette)
+    parti: NPA
+    source: S37
+  affirmations:
+  - F24
+  raisonnement: 'F24 établit que la banque centrale a acheté les titres sur le marché secondaire : les investisseurs
+    vendeurs ont été réglés et n''ont plus de créance sur l''État. Le créancier actuel est la banque centrale, ce
+    que A4 ne distingue pas ; la conclusion sur la signature de l''État suppose en outre que le marché assimile
+    cette part à celle des créanciers privés, ce qu''aucune affirmation de A4 n''établit.'
+  repond_a: A4
+  auteur: expert-extreme-gauche
+  passage: 3
+  statut: ouvert
+- id: A44
+  question: Q42
+  position: contre
+  enonce: A2 présente l'opération comme une renonciation unilatérale de l'État ; or l'opération examinée porte sur
+    des titres détenus par l'Eurosystème, dont le sort relève du conseil des gouverneurs. Le signal envoyé aux prêteurs
+    privés n'est donc pas celui d'un défaut de l'État sur sa signature.
+  porte_par:
+  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914
+    parti: LFI
+    source: S39
+  affirmations:
+  - F5
+  - F46
+  - F26
+  raisonnement: A2 conclut à une prime de risque parce que l'État changerait seul les règles. Mais les arguments
+    A1 et A3 rappellent que la décision appartient au conseil des gouverneurs (F5) et que les créanciers de marché
+    ne sont pas touchés (F46). Le risque de non-remboursement pour les prêteurs privés, que rémunère le taux, n'est
+    donc pas démontré comme modifié ; l'estimation d'une hausse reste sans chiffrage (F26).
+  repond_a: A2
+  auteur: expert-gauche-radicale
+  passage: 3
+  statut: ouvert
+- id: A45
+  question: Q44
+  position: contre
+  enonce: A3 qualifie d'instruction une décision que le conseil des gouverneurs prendrait lui-même ; la demande
+    d'un gouvernement ou d'un parlement, tant que la BCE la décide librement, n'est pas une instruction acceptée.
+  porte_par:
+  - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (invitation faite
+      au gouvernement d'exiger un changement)
+    parti: LFI
+    source: S39
+  affirmations:
+  - F3
+  - F4
+  - F5
+  raisonnement: F3 interdit à la BCE de solliciter ou d'accepter des instructions ; elle n'interdit pas qu'un gouvernement
+    formule une demande politique, que le conseil des gouverneurs (F5) reste libre de refuser. F4 porte sur la législation
+    nationale et les statuts des banques centrales, non sur les décisions du conseil des gouverneurs. L'atteinte
+    à l'indépendance ne suit donc des affirmations citées que si la BCE accepte une instruction, ce qu'A3 suppose
+    sans l'établir.
+  repond_a: A3
+  auteur: expert-gauche-radicale
+  passage: 3
+  statut: ouvert
+- id: A46
+  question: Q41
+  position: pour
+  enonce: L'article 123 vise deux actes précis (crédit direct, achat direct) ; que l'effacement d'une créance déjà
+    acquise sur le marché secondaire reviendrait à un financement interdit est une interprétation, non une conséquence
+    du texte.
+  porte_par:
+  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+    parti: Place publique
+    source: S43
+  affirmations:
+  - F24
+  - F57
+  - F27
+  raisonnement: 'A1 déduit l''interdiction de ce que les titres ont été achetés à des investisseurs (F24) : cela
+    établit que l''achat initial était régulier, pas que le traitement ultérieur du titre est interdit. Le traité
+    ne mentionne pas ce cas (F57) et F27 reste invérifiable ; l''« avantage après coup » est une lecture que la
+    Cour n''a pas validée.'
+  repond_a: A1
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+- id: A47
+  question: Q42
+  position: nuance
+  enonce: A2 suppose une opération unilatérale ; la proposition de 2021 passe par une décision du conseil des gouverneurs
+    et un contrat avec les États. Un signal de rupture unilatérale ne s'applique donc pas à ce cas, et l'ampleur
+    de l'effet n'est chiffrée par personne.
+  porte_par:
+  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+    parti: Place publique
+    source: S43
+  affirmations:
+  - F3
+  - F5
+  - F60
+  - F26
+  raisonnement: 'La prime de risque décrite par A2 découle d''un État qui « change les règles » seul. Si la décision
+    est prise par la BCE elle-même (F5, F60), sans instruction d''un gouvernement (F3), la prémisse manque. F26
+    n''a pas d''estimation fiable : le gain « rogné » par un surcoût n''est pas démontré.'
+  repond_a: A2
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+- id: A48
+  question: Q44
+  position: nuance
+  enonce: L'argument d'A3 vaut pour une décision imposée par un gouvernement ; il ne s'applique pas à un effacement
+    arrêté par le conseil des gouverneurs lui-même.
+  porte_par:
+  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+    parti: Place publique
+    source: S43
+  affirmations:
+  - F3
+  - F5
+  - F27
+  raisonnement: 'F3 interdit les instructions des gouvernements ; si le conseil décide (F5), aucune instruction
+    n''est donnée. L''atteinte à la crédibilité suppose en outre que l''opération soit contraire aux traités (F27),
+    ce qui est invérifiable : A3 reconnaît d''ailleurs que la compatibilité est disputée.'
+  repond_a: A3
+  auteur: expert-sociaux-democrates
+  passage: 3
+  statut: ouvert
+- id: A49
+  question: Q45
+  position: contre
+  enonce: Les vendeurs des titres ont été payés par la banque centrale (F24) ; effacer la créance de la banque centrale
+    sur l'État ne retire rien à ces vendeurs, qui n'ont plus de créance.
+  porte_par:
+  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+    parti: Place publique
+    source: S43
+  affirmations:
+  - F24
+  raisonnement: 'A4 écrit que les engagements envers les vendeurs « demeurent » : or, ayant vendu, ils ont été réglés.
+    Le créancier de l''État est la banque centrale, dont les engagements envers des tiers ne sont pas ceux de l''État.
+    Distinguer ce créancier des détenteurs privés n''est donc pas en soi une parole variable envers un prêteur privé.'
+  repond_a: A4
+  auteur: expert-sociaux-democrates
+  passage: 3
   statut: ouvert

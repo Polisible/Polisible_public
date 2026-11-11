@@ -274,3 +274,48 @@
   agent: verificateur
   phase: '3'
   action: a tranché O1→resolue
+- date: '2026-11-11T00:52:13'
+  agent: coordinateur
+  phase: '4'
+  action: 'Passage 2 de confrontation : limite d''usage de l''abonnement atteinte ; 5 experts interrompus après
+    avoir écrit leur dépôt (complet et valide), sans compte rendu ni mesure de jetons.'
+- date: '2026-11-11T00:52:14'
+  agent: expert-centre
+  phase: '4'
+  action: 'a ajouté A37, A38, A39, A40, V17, V18, V19, corriger A6 ; incertitudes signalées : 4'
+- date: '2026-11-11T00:52:14'
+  agent: expert-droite
+  phase: '4'
+  action: 'a ajouté A41, A42, V20, V21 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:52:14'
+  agent: expert-ecologistes
+  phase: '4'
+  action: 'a ajouté rien de nouveau ; incertitudes signalées : 2'
+- date: '2026-11-11T00:52:15'
+  agent: expert-extreme-droite
+  phase: '4'
+  action: 'a ajouté V22, corriger A13 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:52:15'
+  agent: expert-extreme-gauche
+  phase: '4'
+  action: 'a ajouté A43, V23, corriger A18 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:52:16'
+  agent: expert-gauche-radicale
+  phase: '4'
+  action: 'a ajouté A44, A45, V24, V25, V26 ; incertitudes signalées : 3'
+- date: '2026-11-11T00:52:16'
+  agent: expert-sociaux-democrates
+  phase: '4'
+  action: 'a ajouté A46, A47, A48, A49, V27, corriger A34 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:52:16'
+  agent: coordinateur
+  phase: '4'
+  action: fin de la phase 4
+- date: '2026-11-11T00:52:32'
+  agent: coordinateur
+  phase: '4'
+  action: 'debut de la phase 4 (passage 3 de confrontation (dernier), ciblé : 5 experts)'
+- date: '2026-11-11T00:52:32'
+  agent: coordinateur
+  phase: '4'
+  action: début du passage 4
