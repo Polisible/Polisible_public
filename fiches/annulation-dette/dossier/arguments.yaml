@@ -97,9 +97,8 @@
 - id: A3
   question: Q44
   position: oui
-  enonce: L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
-    ; lui imposer d'effacer ses actifs serait une instruction. La crédibilité de l'euro repose sur le respect des
-    règles communes.
+  enonce: Si l'État impose à la banque centrale d'effacer ses actifs, ce serait une instruction d'un gouvernement,
+    que le traité interdit. Une décision libre du conseil des gouverneurs n'en est pas une.
   porte_par:
   - personne: Roland Lescure
     fonction: ministre de l'Économie
@@ -112,12 +111,10 @@
   - F4
   - F5
   - F27
-  raisonnement: Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des
-    instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4).
-    Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs (F5),
-    afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur que si
-    chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (F27), reviendrait à n'en
-    plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie.
+  raisonnement: 'Le traité interdit à la BCE et aux banques centrales nationales d''accepter des instructions des
+    gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4). Une opération
+    imposée par une loi nationale relèverait de cette interdiction. Le conseil des gouverneurs reste libre de décider
+    (F5) : dans ce cas, l''argument ne s''applique pas.'
   repond_a: null
   auteur: expert-centre
   passage: 1
@@ -133,6 +130,16 @@
     - parti: RE
       source: S16
       personne_ou_groupe_ancien: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026, BFMTV/RMC)
+  - passage: 4
+    enonce: L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
+      ; lui imposer d'effacer ses actifs serait une instruction. La crédibilité de l'euro repose sur le respect
+      des règles communes.
+    raisonnement: Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des
+      instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4).
+      Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs
+      (F5), afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur
+      que si chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (F27), reviendrait
+      à n'en plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie.
   corrige: true
 - id: A4
   question: Q45
@@ -553,9 +560,9 @@
 - id: A14
   question: Q47
   position: non
-  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies : la
-    voie du RN est la réduction des dépenses, dont celles liées à l''immigration, jointe à une règle d''or votée
-    par référendum.'
+  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies, selon
+    le plan du RN : il prévoit de réduire les dépenses, dont celles liées à l''immigration, avec une règle d''or
+    votée par référendum.'
   porte_par:
   - personne: Marine Le Pen
     fonction: candidate à l'élection présidentielle de 2027
@@ -572,10 +579,11 @@
   - F37
   - F38
   - F39
-  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse sur le budget parce que le déficit continue d'alimenter
-    la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition du
-    retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une annulation
-    de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
+  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse parce que le déficit alimente la dette (F22). Le plan
+    du RN prévoit des économies pour ramener la dette sous 112 % du PIB en 2032 et une règle d'or pour rendre l'effort
+    contraignant (F37, F39). Les économies prévues (F37, F38) sont un objectif du plan, non un résultat établi ;
+    l'argument porte sur la cause visée, le déficit, que l'annulation de la part de l'Eurosystème ne traiterait
+    pas.
   repond_a: null
   auteur: expert-extreme-droite
   passage: 1
@@ -592,6 +600,14 @@
     - parti: RN
       source: S32
       personne_ou_groupe_ancien: Marine Le Pen, tribune sur la règle d'or (1er octobre 2026)
+  - passage: 4
+    enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies : la
+      voie du RN est la réduction des dépenses, dont celles liées à l''immigration, jointe à une règle d''or votée
+      par référendum.'
+    raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse sur le budget parce que le déficit continue d'alimenter
+      la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition
+      du retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une
+      annulation de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
   corrige: true
 - id: A15
   question: Q46

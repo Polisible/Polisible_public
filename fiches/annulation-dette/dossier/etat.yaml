@@ -407,6 +407,16 @@ agents:
   jetons: 27327
   outils: 5
   duree_ms: 17634
+- phase: 5-bis
+  agent: expert-gauche-radicale-tour2
+  jetons: 43525
+  outils: 6
+  duree_ms: 19834
+- phase: 5-bis
+  agent: expert-centre-tour2
+  jetons: 42677
+  outils: 6
+  duree_ms: 21277
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -893,5 +903,18 @@ incertitudes:
 - agent: expert-sociaux-democrates
   texte: Aucune source d'institution n'a été trouvée sur le cas précis de l'annulation de titres déjà détenus, sur
     la marge nette ni sur l'effet sur la crédibilité.
+- agent: expert-centre
+  texte: Aucune source ouverte ne dit quelle voie (loi nationale ou décision du conseil des gouverneurs) suivrait
+    la proposition.
+- agent: expert-centre
+  texte: Aucune source isolant la part des intérêts sur titres d'État dans le résultat de la Banque de France n'a
+    été trouvée.
+- agent: expert-droite
+  texte: Je n'ai pas trouvé d'évaluation institutionnelle du plan du 12 octobre 2026 ; il peut en exister une que
+    je n'ai pas repérée.
+- agent: expert-extreme-droite
+  texte: Aucune source d'institution ne chiffre l'effet des économies prévues par le plan du RN.
+- agent: expert-gauche-radicale
+  texte: 'Je n''ai pas relu le texte de A46 et de A37 hors de la relance : je réponds à la formulation de R27.'
 examen_obligatoire: true
 titre_fiche: L'annulation de la dette publique détenue par la Banque de France

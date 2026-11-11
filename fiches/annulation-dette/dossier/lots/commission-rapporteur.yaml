@@ -120,15 +120,12 @@ arguments:
 - id: A3
   question: Q44
   position: oui
-  enonce: L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions
-    ; lui imposer d'effacer ses actifs serait une instruction. La crédibilité de l'euro repose sur le respect des
-    règles communes.
-  raisonnement: Le traité interdit à la BCE et aux banques centrales nationales de solliciter ou d'accepter des
-    instructions des gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4).
-    Un État qui déciderait seul d'effacer des titres de l'Eurosystème, sans accord du conseil des gouverneurs (F5),
-    afficherait que l'indépendance peut être levée par un gouvernement. Une monnaie commune n'a de valeur que si
-    chaque membre applique les mêmes règles ; l'opération, jugée contraire aux traités (F27), reviendrait à n'en
-    plus respecter les règles, avec un risque de défiance envers la signature des États et la monnaie.
+  enonce: Si l'État impose à la banque centrale d'effacer ses actifs, ce serait une instruction d'un gouvernement,
+    que le traité interdit. Une décision libre du conseil des gouverneurs n'en est pas une.
+  raisonnement: 'Le traité interdit à la BCE et aux banques centrales nationales d''accepter des instructions des
+    gouvernements (F3) et oblige chaque État à rendre ses lois compatibles avec les traités (F4). Une opération
+    imposée par une loi nationale relèverait de cette interdiction. Le conseil des gouverneurs reste libre de décider
+    (F5) : dans ce cas, l''argument ne s''applique pas.'
   repond_a: null
   partis:
   - RE
@@ -351,13 +348,14 @@ arguments:
 - id: A14
   question: Q47
   position: non
-  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies : la
-    voie du RN est la réduction des dépenses, dont celles liées à l''immigration, jointe à une règle d''or votée
-    par référendum.'
-  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse sur le budget parce que le déficit continue d'alimenter
-    la dette ; seule une baisse durable du déficit la stabilise. Le plan du RN fait des économies la condition du
-    retour de la dette sous 112 % du PIB en 2032, et la règle d'or vise à rendre cet effort contraignant. Une annulation
-    de la part détenue par l'Eurosystème ne traiterait pas la cause du déficit.
+  enonce: 'Pour dégager des marges budgétaires, l''annulation de dette n''est pas préférable aux économies, selon
+    le plan du RN : il prévoit de réduire les dépenses, dont celles liées à l''immigration, avec une règle d''or
+    votée par référendum.'
+  raisonnement: La charge de la dette (65,7 Md€ en 2025) pèse parce que le déficit alimente la dette (F22). Le plan
+    du RN prévoit des économies pour ramener la dette sous 112 % du PIB en 2032 et une règle d'or pour rendre l'effort
+    contraignant (F37, F39). Les économies prévues (F37, F38) sont un objectif du plan, non un résultat établi ;
+    l'argument porte sur la cause visée, le déficit, que l'annulation de la part de l'Eurosystème ne traiterait
+    pas.
   repond_a: null
   partis:
   - RN
@@ -1213,6 +1211,41 @@ theses_actuelles:
       essentielle: true
       justification: 'Conclusion plus large que les prémisses : F9 établit que la Cour exige des garanties contre
         le financement monétaire pour les achats, mais aucune affirmation n''établit que l''annulation ou la conversion
+        de titres déjà détenus entre dans l''interdiction ; A37 le reconnaît, et la réponse à R1 confirme qu''aucun
+        précédent n''existe (F27 Invérifiable).'
+    portee:
+      texte: établit que le traité interdit crédit et achat direct (F1, F2), que la Cour conditionne les achats
+        à des garanties (F9) et qu'un gouvernement ne peut pas imposer la décision à la BCE (F3, F5) ; ne prouve
+        pas que l'annulation ou la conversion décidée par le conseil des gouverneurs soit contraire aux traités.
+    objections:
+      valeur: en partie
+      justification: T3 (A46) objecte que l'« avantage après coup » est une lecture non validée par la Cour ; A37
+        répond que la Cour raisonne par l'effet (F9), sans produire de décision sur ce cas (F27), ce que la réponse
+        à R1 admet.
+    conclusion: ne tient pas
+  portee_par:
+  - RE
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: Examen confirmé sur les cinq critères. La lacune essentielle (F9 ne dit rien du sort de titres
+      déjà détenus, F27 Invérifiable) est appréciée comme le silence pris pour permission de T3 ; le décompte de
+      A37 comme réponse partielle à A46 est fondé sur le contenu (F9).
+    proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A1 et A37 portent directement sur ce que permettent les traités (F1, F2, F9), ce que demande
+        Q41.
+    appui:
+      valeur: solide
+      justification: Les prémisses textuelles et jurisprudentielles sont vérifiées (F1, F2, F3, F5, F8, F9, F10,
+        F24, F45, Vrai, sources de niveau 1) ; F27 (Invérifiable) figure dans A1 sans porter seul la thèse.
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : F9 établit que la Cour exige des garanties contre
+        le financement monétaire pour les achats, mais aucune affirmation n''établit que l''annulation ou la conversion
         de titres déjà détenus entre dans l''interdiction ; A37 le reconnaît (« rien dans F8-F10 »), et F27 reste
         Invérifiable.'
     portee:
@@ -1224,15 +1257,6 @@ theses_actuelles:
       justification: T3 (A46) objecte que l'« avantage après coup » est une lecture non validée par la Cour ; A37
         répond que la Cour raisonne par l'effet (F9), sans produire de décision sur ce cas (F27).
     conclusion: ne tient pas
-  portee_par:
-  - RE
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: Examen confirmé sur les cinq critères. La lacune essentielle (F9 ne dit rien du sort de titres
-      déjà détenus, F27 Invérifiable) est appréciée comme le silence pris pour permission de T3 ; le décompte de
-      A37 comme réponse partielle à A46 est fondé sur le contenu (F9).
-    proposition: null
 - id: T2
   question: Q41
   position: non
@@ -1254,15 +1278,15 @@ theses_actuelles:
       essentielle: true
       justification: 'Conclusion plus large que les prémisses : F1 et F2 interdisent le crédit et l''achat direct,
         et F44 montre que les achats ont respecté cette interdiction ; aucune affirmation n''établit que l''annulation
-        de titres déjà détenus est visée (F45, F27 Invérifiable).'
+        de titres déjà détenus est visée (F45, F27 Invérifiable), ce que la réponse à R2 reconnaît.'
     portee:
       texte: établit que le traité interdit le financement direct des États et que les titres ont été achetés sur
         le marché secondaire (F1, F2, F44) ; ne prouve pas que l'annulation de titres déjà détenus soit interdite
         par les traités actuels.
     objections:
-      valeur: répondues
-      justification: Aucune thèse ne répond formellement à A21 ; T3 (A20, A32) défend la conclusion inverse sans
-        viser cet argument.
+      valeur: sans réponse
+      justification: T3 (A46) objecte que l'achat sur le marché secondaire (F24, F44) établit la régularité de l'achat,
+        non l'interdiction du traitement ultérieur des titres ; aucun argument de T2 n'y répond.
     conclusion: ne tient pas
   portee_par:
   - PCF
@@ -1277,12 +1301,38 @@ theses_actuelles:
       établit la régularité de l''achat, non l''interdiction du traitement ultérieur ; aucun argument de T2 n''y
       répond. Conclusion inchangée (ne tient pas). Compléter R2 par « Que répondez-vous à T3 (A46) ? », comme R1
       pour T1.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'A46 vise l''inférence même de A21 (de l''achat auprès d''investisseurs, F24, F44, à l''interdiction)
+      ; aucun argument de T2 n''y répond : « sans réponse », conclusion inchangée. Relance complétée (Que répondez-vous
+      à T3 ?), comme R1.'
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A21 répond à la question de la compatibilité avec les traités (F1, F2).
+    appui:
+      valeur: solide
+      justification: F1, F2 et F44 sont vérifiés (Vrai, textes du traité et données de l'Eurosystème).
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : F1 et F2 interdisent le crédit et l''achat direct,
+        et F44 montre que les achats ont respecté cette interdiction ; aucune affirmation n''établit que l''annulation
+        de titres déjà détenus est visée (F45, F27 Invérifiable).'
+    portee:
+      texte: établit que le traité interdit le financement direct des États et que les titres ont été achetés sur
+        le marché secondaire (F1, F2, F44) ; ne prouve pas que l'annulation de titres déjà détenus soit interdite
+        par les traités actuels.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond formellement à A21 ; T3 (A20, A32) défend la conclusion inverse sans
+        viser cet argument.
+    conclusion: ne tient pas
 - id: T3
   question: Q41
   position: oui
   enonce: 'Les traités le permettent : l''article 123 interdit deux actes précis, le crédit et l''achat direct,
-    et ne mentionne pas l''annulation ni la conversion de titres déjà détenus. La Cour a validé les achats sur le
-    marché secondaire, et la décision relèverait du conseil des gouverneurs.'
+    et ne mentionne pas l''annulation ni la conversion de titres déjà détenus. Que l''effacement soit un financement
+    interdit est une interprétation, et la décision relèverait du conseil des gouverneurs.'
   arguments:
   - A20
   - A32
@@ -1291,6 +1341,40 @@ theses_actuelles:
   - T1
   examen:
     pertinence:
+      valeur: oui
+      justification: A20, A32 et A46 portent directement sur ce que permettent les traités (F45, F57).
+    appui:
+      valeur: solide
+      justification: 'Les prémisses sont vérifiées : F1, F2, F5, F8, F9, F10, F24, F44, F45, F57 (Vrai, textes et
+        arrêts de la Cour, niveau 1).'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Silence d''un texte pris pour une permission : F45 et F57 établissent que le traité ne mentionne
+        pas l''annulation, non qu''il l''autorise ; A32 corrigé l''admet (« ce silence n''établit pas l''autorisation
+        », F27), et la réponse à R3 aussi, mais la thèse répond toujours « oui » (A20).'
+    portee:
+      texte: établit que le texte des traités ne mentionne pas l'annulation ou la conversion (F45, F57), qu'aucun
+        arrêt n'a tranché ce cas et que l'interdiction n'est pas démontrée (F27) ; ne prouve pas que les traités
+        autorisent l'opération.
+    objections:
+      valeur: en partie
+      justification: T1 (A37) objecte que l'absence du mot ne vaut pas autorisation et que la proposition débattue
+        est portée par un gouvernement (F3) ; A46 répond sur le premier point, A32 corrigé limite sa portée au contrat
+        de 2021 (F60) sans répondre pour la proposition de 2026 que porte A20.
+    conclusion: ne tient pas
+  portee_par:
+  - LFI
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : appui solide (F45, F57, F1, F2, F5), lacune essentielle symétrique de T1 (silence
+      d''un texte pris pour une permission, F27 Invérifiable), objections en partie (A46 répond à A37 sur le silence,
+      pas sur la proposition portée par un gouvernement, F3).'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A20, A32 et A46 portent directement sur ce que permettent les traités (F45, F57).
     appui:
@@ -1313,16 +1397,6 @@ theses_actuelles:
         est portée par un gouvernement (F3) ; A46 répond sur le premier point, aucun argument de T3 ne répond sur
         le second.
     conclusion: ne tient pas
-  portee_par:
-  - LFI
-  - PP
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : appui solide (F45, F57, F1, F2, F5), lacune essentielle symétrique de T1 (silence
-      d''un texte pris pour une permission, F27 Invérifiable), objections en partie (A46 répond à A37 sur le silence,
-      pas sur la proposition portée par un gouvernement, F3).'
-    proposition: null
 - id: T4
   question: Q42
   position: oui
@@ -1338,6 +1412,40 @@ theses_actuelles:
   - T6
   examen:
     pertinence:
+      valeur: oui
+      justification: A2, A38 et A51 portent sur l'effet de l'opération sur les taux (F26), objet de Q42.
+    appui:
+      valeur: faible
+      justification: 'L''effet sur les taux repose sur F26 (Pas d''estimation fiable : une déclaration ministérielle
+        sans chiffrage), la réponse à R4 n''apportant aucune estimation ; F25 (Plutôt vrai) décrit le niveau des
+        taux en août 2026, pas l''effet de l''opération, et F27 est Invérifiable.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Cause supposée : le passage d''un précédent juridiquement disputé (F27) à une prime de risque
+        supplémentaire n''est établi par aucune estimation (F26).'
+    portee:
+      texte: établit que le taux à 10 ans était élevé en août 2026 (F25), que la légalité de l'opération est disputée
+        (F27) et que la proposition est portée par un parti national (F46) ; ne prouve pas que l'opération ferait
+        monter les taux, ni de combien.
+    objections:
+      valeur: répondues
+      justification: T5 (A44) et T6 (A47) objectent que le signal ne vaut pas pour une décision du conseil des gouverneurs
+        ; A51 leur répond que ce scénario n'est pas celui proposé (F5, F11, F46), et A38 répond à A22 (F46, F47).
+    conclusion: ne tient pas
+  portee_par:
+  - HOR
+  - RE
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé. Le décompte des objections au-delà de repond_a est fondé : A51 répond à A44
+      et nomme A47 dans son raisonnement (F5, F9, F46), A38 répond à A22 ; « répondues » est juste, à condition
+      d''appliquer la même règle à T5 (voir T5/objections). Appui faible (F26) et lacune essentielle symétriques
+      de T5 (F47).'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A2, A38 et A51 portent sur l'effet de l'opération sur les taux (F26), objet de Q42.
     appui:
@@ -1359,17 +1467,6 @@ theses_actuelles:
       justification: T5 (A44) et T6 (A47) objectent que le signal ne vaut pas pour une décision du conseil des gouverneurs
         ; A51 leur répond que ce scénario n'est pas celui proposé (F5, F11, F46).
     conclusion: ne tient pas
-  portee_par:
-  - HOR
-  - RE
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé. Le décompte des objections au-delà de repond_a est fondé : A51 répond à A44
-      et nomme A47 dans son raisonnement (F5, F9, F46), A38 répond à A22 ; « répondues » est juste, à condition
-      d''appliquer la même règle à T5 (voir T5/objections). Appui faible (F26) et lacune essentielle symétriques
-      de T5 (F47).'
-    proposition: null
 - id: T5
   question: Q42
   position: non
@@ -1383,6 +1480,46 @@ theses_actuelles:
   - T4
   examen:
     pertinence:
+      valeur: oui
+      justification: A22 et A44 portent sur l'effet de l'opération sur les taux (F47), objet de Q42.
+    appui:
+      valeur: faible
+      justification: 'L''absence d''effet repose sur F47 (Pas d''estimation fiable : l''avis du porteur de la proposition,
+        contesté par des économistes), la réponse à R5 n''apportant aucune estimation ; F46 (Plutôt vrai) décrit
+        le périmètre, pas la réaction des prêteurs.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Cause supposée : de ce que les créanciers privés ne sont pas touchés (F46), la thèse déduit
+        que le taux ne bouge pas, en supposant que les prêteurs n''évaluent que leur propre risque de non-paiement,
+        ce qu''aucune estimation n''établit (F47).'
+    portee:
+      texte: établit que la proposition vise la part détenue par la Banque de France pour l'Eurosystème (F46) et
+        que le conseil des gouverneurs décide pour le SEBC (F5) ; ne prouve pas que l'opération serait sans effet
+        sur les taux.
+    objections:
+      valeur: en partie
+      justification: T4 objecte par A38 (fiabilité des règles) et A51 (scénario national, F11, F46) ; A44 répond
+        en substance à A38 que la décision relève du conseil des gouverneurs (F5), aucun argument de T5 ne répond
+        à A51.
+    conclusion: ne tient pas
+  portee_par:
+  - LFI
+  contre_examen:
+  - critere: objections
+    avis: conteste
+    justification: 'Avec la règle appliquée à T4 (A51 comptée comme réponse à A47 hors repond_a), A44 doit être
+      comptée comme réponse en substance à A38 : A38 objecte que les prêteurs évaluent la fiabilité des règles ;
+      A44 répond que la décision relève du conseil des gouverneurs (F5), non de la signature de l''État, et A51
+      lui-même lit A44 ainsi (« comme le disent A44 et A47 »). Seule A51 reste sans réponse.'
+    proposition: 'objections : en partie — T4 objecte par A38 et A51 ; A44 répond à A38 sur la fiabilité des règles
+      (F5, F46), aucun argument de T5 ne répond à A51 sur le scénario national (F11, F46). Conclusion inchangée
+      (ne tient pas, appui faible).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même règle que pour T4 : A44 répond en substance à A38 (la décision relève du conseil, F5)
+      ; A51 reste sans réponse. « En partie », conclusion inchangée (appui faible).'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A22 et A44 portent sur l'effet de l'opération sur les taux (F47), objet de Q42.
     appui:
@@ -1404,30 +1541,51 @@ theses_actuelles:
       justification: T4 (A38, A51) objecte que les prêteurs évaluent aussi la fiabilité des règles et que le scénario
         proposé est national (F46, F27) ; aucun argument de T5 n'y répond.
     conclusion: ne tient pas
-  portee_par:
-  - LFI
-  contre_examen:
-  - critere: objections
-    avis: conteste
-    justification: 'Avec la règle appliquée à T4 (A51 comptée comme réponse à A47 hors repond_a), A44 doit être
-      comptée comme réponse en substance à A38 : A38 objecte que les prêteurs évaluent la fiabilité des règles ;
-      A44 répond que la décision relève du conseil des gouverneurs (F5), non de la signature de l''État, et A51
-      lui-même lit A44 ainsi (« comme le disent A44 et A47 »). Seule A51 reste sans réponse.'
-    proposition: 'objections : en partie — T4 objecte par A38 et A51 ; A44 répond à A38 sur la fiabilité des règles
-      (F5, F46), aucun argument de T5 ne répond à A51 sur le scénario national (F11, F46). Conclusion inchangée
-      (ne tient pas, appui faible).'
 - id: T6
   question: Q42
   position: nuance
   enonce: 'L''effet sur les taux dépend de la voie : une décision du conseil des gouverneurs dans le cadre d''un
-    contrat avec les États n''est pas une rupture unilatérale. Personne ne chiffre l''ampleur de l''effet, dans
-    un sens ou dans l''autre.'
+    contrat avec les États n''est pas une rupture unilatérale. Un doute sur le financement monétaire peut subsister,
+    et personne ne chiffre l''effet.'
   arguments:
   - A47
   repond_a:
   - T4
   examen:
     pertinence:
+      valeur: oui
+      justification: A47 porte sur l'effet de l'opération sur les taux selon sa voie (F5, F60), objet de Q42.
+    appui:
+      valeur: solide
+      justification: 'Depuis la correction de A47 (réponse à R6), la thèse n''affirme plus l''absence de signal
+        : ce qu''elle soutient repose sur F3, F5, F60 (Vrai) pour la voie et sur F26 pour l''absence de chiffrage,
+        que F26 établit.'
+    raisonnement:
+      valeur: valide
+      justification: Si la BCE décide (F5, F60) sans instruction (F3), la prémisse de rupture unilatérale de T4
+        manque ; A47 corrigé admet qu'un doute sur le financement monétaire (F9) peut subsister, et ne conclut pas
+        à l'absence d'effet.
+    portee:
+      texte: établit que le mécanisme de rupture unilatérale ne s'applique pas à une décision du conseil des gouverneurs
+        prise par contrat (F3, F5, F60) et qu'aucune estimation de l'effet n'existe (F26) ; ne prouve pas qu'une
+        telle décision serait sans effet sur les taux, ni que cette voie est celle proposée en 2026 (F46).
+    objections:
+      valeur: en partie
+      justification: T4 (A51) objecte que le scénario suppose un changement de position de la BCE (F11, F13) et
+        qu'un doute sur le financement monétaire subsiste (F9) ; A47 corrigé retire l'affirmation visée sur le second
+        point, aucun argument de T6 ne répond au premier.
+    conclusion: tient
+  portee_par:
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : la lacune porte sur la seule partie « l''effet dépend de la voie » (cause
+      supposée, F9, A51), l''autre partie (aucun chiffrage, F26) étant établie ; « essentielle: false » est cohérent
+      avec T10, T12, T13.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A47 porte sur l'effet de l'opération sur les taux selon sa voie (F5, F60), objet de Q42.
     appui:
@@ -1449,27 +1607,89 @@ theses_actuelles:
       justification: T4 (A51) objecte que ce scénario suppose un changement de position de la BCE (F11, F13) et
         qu'un doute sur le financement monétaire (F9) subsisterait ; A47 n'y répond pas.
     conclusion: tient en partie
-  portee_par:
-  - PP
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : la lacune porte sur la seule partie « l''effet dépend de la voie » (cause
-      supposée, F9, A51), l''autre partie (aucun chiffrage, F26) étant établie ; « essentielle: false » est cohérent
-      avec T10, T12, T13.'
-    proposition: null
 - id: T7
   question: Q43
   position: non
-  enonce: 'L''opération ne réduirait pas durablement la charge nette de l''État : la Banque de France lui reverse
-    une part de ses bénéfices, qui baisserait avec les intérêts perçus. Le gain net serait faible, nul ou inconnu.'
+  enonce: Supprimer le service des titres de l'Eurosystème ne dégage pas des marges égales aux intérêts, car la
+    Banque de France reverse déjà à l'État des sommes qui dépendent de son résultat. Le gain net n'est démontré
+    positif par aucune source.
   arguments:
-  - A13
   - A39
   repond_a:
   - T9
   examen:
     pertinence:
+      valeur: oui
+      justification: A39 porte sur la charge d'intérêts compte tenu des reversements de la Banque de France (F19,
+        F20), objet de Q43.
+    appui:
+      valeur: faible
+      justification: La réponse « non » suppose un gain net nul ou non durable, que seuls F41 et F49 (Pas d'estimation
+        fiable) abordent, sans le chiffrer ; F19, F20 et F22 (Vrai) portent la critique de A24, non la réponse,
+        et la réponse à R7 n'apporte aucune source.
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : A39 établit que le gain net est inconnu (F41, F49),
+        ce qui est compatible avec une réduction durable et ne permet pas de répondre « non ».'
+    portee:
+      texte: établit que la charge totale (F22) ne mesure pas la part de la banque centrale, que la Banque de France
+        verse impôt et dividendes à l'État (F19, F20) et rend plausible que ces versements dépendent en partie des
+        intérêts perçus (F41) ; ne prouve pas que la charge nette ne baisserait pas durablement.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A39 (F22, F41).
+    conclusion: ne tient pas
+  portee_par:
+  - HOR
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A13 et A39 n''ont ni la même conclusion ni le même raisonnement : A13 raisonne sur l''ensemble
+      État plus Banque de France (le résultat baisse « d''autant », gain « faible ou nul », point visé par O1) ;
+      A39 réfute A24 en montrant que F22 ne porte pas sur la part de la banque centrale et conclut que le gain est
+      « inconnu, non démontré positif » (F41, F49). L''énoncé de T7 fusionne les deux (« faible, nul ou inconnu
+      »), et l''examen retourne la conclusion prudente de A39 contre la thèse.'
+    proposition: 'Deux thèses : l''une avec A13 (gain faible ou nul par consolidation, F41, O1), l''autre avec A39
+      (gain net non démontré, réponse à T9), chacune examinée avec la grille ; la position de la seconde est à réexaminer
+      au regard de sa conclusion.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: A13, corrigé en position nuance (réponse à R7), ne peut plus partager la thèse de A39 (non),
+      et son raisonnement par consolidation diffère. T7 garde A39 ; T31 reçoit A13.
+  - critere: appui
+    avis: conteste
+    justification: 'La conclusion « non » (gain faible ou nul) n''est portée que par F41 (Pas d''estimation fiable)
+      ; F19 et F20 établissent l''existence de versements, pas leur baisse au point d''annuler le gain. T9 a la
+      même structure (F49 porte seul la conclusion, F22 ne porte que sur l''existence d''une charge) et a reçu «
+      faible » : même lacune, appréciation différente.'
+    proposition: 'appui : faible — la réduction ou l''annulation du gain repose sur F41 (Pas d''estimation fiable),
+      qui ne peut porter seule la thèse ; F19 et F20 établissent seulement l''existence des versements. Conclusion
+      inchangée (ne tient pas).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Pour T7 réduite à A39 : la réponse « non » n''est portée que par F41 et F49 (Pas d''estimation
+      fiable) ; appui faible, symétrique de T9. Pour T31 (A13), dont l''énoncé corrigé ne conclut plus à un gain
+      faible ou nul, F41 ne porte pas seul la thèse : appui partiel, comme T8.'
+  - critere: raisonnement
+    avis: confirme
+    justification: 'Lacune essentielle confirmée : la partie valide de la thèse (gain net inférieur au brut ou inconnu,
+      F19, F20, F41) ne porte pas la réponse « non » ; elle est compatible avec une réduction durable. C''est la
+      situation inverse de T10 ou T13, où la partie valide porte une part de la réponse. Appréciation symétrique
+      de T9.'
+    proposition: null
+  - critere: portee
+    avis: conteste
+    justification: La portée tient pour établi que le gain net est inférieur au gain brut ; or ce lien suppose que
+      les intérêts perçus contribuent aux versements, ce qui est F41 (Pas d'estimation fiable), rendu plausible
+      par O1 (S9) sans être vérifié. Le rapporteur le dit lui-même dans l'appui de T7. Même remarque pour T8 et
+      T24.
+    proposition: établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et rend plausible
+      que ces versements dépendent en partie des intérêts perçus (F41, O1) ; ne prouve pas que la charge nette ne
+      baisserait pas durablement.
+    decision_rapporteur: acceptee
+    motif_rapporteur: Le lien entre intérêts perçus et versements est F41, rendu plausible par O1 sans être vérifié
+      ; formulation « rend plausible » reprise pour T7, T31, T8 et T24.
+  versions:
+  - pertinence:
       valeur: oui
       justification: A13 et A39 portent sur la charge d'intérêts compte tenu des reversements de la Banque de France
         (F19, F20), objet de Q43.
@@ -1492,45 +1712,42 @@ theses_actuelles:
       justification: Aucune thèse ne répond à A13 ou A39 ; l'objection O1 du vérificateur sur F41 est résolue sans
         changer son verdict.
     conclusion: ne tient pas
+- id: T31
+  question: Q43
+  position: nuance
+  enonce: Annuler ou geler cette dette réduirait la charge d'intérêts de l'État de moins que son montant brut, car
+    une part des intérêts revient à l'État par l'impôt et le dividende de la Banque de France. Aucune source ne
+    chiffre ce recul.
+  arguments:
+  - A13
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A13 porte sur la charge d'intérêts compte tenu des reversements de la Banque de France (F19,
+        F20), objet de Q43.
+    appui:
+      valeur: partiel
+      justification: Les versements à l'État sont établis (F19, F20, Vrai) ; leur dépendance aux intérêts perçus
+        repose sur F41 (Pas d'estimation fiable), rendue plausible par la résolution de l'objection O1 (S9) et non
+        chiffrée selon la réponse à R7 ; l'énoncé ne chiffre rien, F41 ne porte donc pas seul la thèse.
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Le raisonnement de A13 affirme encore que le résultat baisse « d'autant » et que le gain serait
+        « faible ou nul », plus que ne portent F19, F20 et F41 et que l'effet « à due concurrence » écarté par O1
+        ; la conclusion de l'énoncé, limitée à « moins que le montant brut », n'en dépend pas.
+    portee:
+      texte: établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et rend plausible que
+        ces versements dépendent en partie des intérêts perçus (F41) ; ne prouve pas l'ampleur du recul, ni que
+        le gain serait faible ou nul.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A13 ; l'objection O1 du vérificateur
+        sur F41 est résolue sans changer son verdict.
+    conclusion: tient en partie
   portee_par:
-  - HOR
   - RN
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A13 et A39 n''ont ni la même conclusion ni le même raisonnement : A13 raisonne sur l''ensemble
-      État plus Banque de France (le résultat baisse « d''autant », gain « faible ou nul », point visé par O1) ;
-      A39 réfute A24 en montrant que F22 ne porte pas sur la part de la banque centrale et conclut que le gain est
-      « inconnu, non démontré positif » (F41, F49). L''énoncé de T7 fusionne les deux (« faible, nul ou inconnu
-      »), et l''examen retourne la conclusion prudente de A39 contre la thèse.'
-    proposition: 'Deux thèses : l''une avec A13 (gain faible ou nul par consolidation, F41, O1), l''autre avec A39
-      (gain net non démontré, réponse à T9), chacune examinée avec la grille ; la position de la seconde est à réexaminer
-      au regard de sa conclusion.'
-  - critere: appui
-    avis: conteste
-    justification: 'La conclusion « non » (gain faible ou nul) n''est portée que par F41 (Pas d''estimation fiable)
-      ; F19 et F20 établissent l''existence de versements, pas leur baisse au point d''annuler le gain. T9 a la
-      même structure (F49 porte seul la conclusion, F22 ne porte que sur l''existence d''une charge) et a reçu «
-      faible » : même lacune, appréciation différente.'
-    proposition: 'appui : faible — la réduction ou l''annulation du gain repose sur F41 (Pas d''estimation fiable),
-      qui ne peut porter seule la thèse ; F19 et F20 établissent seulement l''existence des versements. Conclusion
-      inchangée (ne tient pas).'
-  - critere: raisonnement
-    avis: confirme
-    justification: 'Lacune essentielle confirmée : la partie valide de la thèse (gain net inférieur au brut ou inconnu,
-      F19, F20, F41) ne porte pas la réponse « non » ; elle est compatible avec une réduction durable. C''est la
-      situation inverse de T10 ou T13, où la partie valide porte une part de la réponse. Appréciation symétrique
-      de T9.'
-    proposition: null
-  - critere: portee
-    avis: conteste
-    justification: La portée tient pour établi que le gain net est inférieur au gain brut ; or ce lien suppose que
-      les intérêts perçus contribuent aux versements, ce qui est F41 (Pas d'estimation fiable), rendu plausible
-      par O1 (S9) sans être vérifié. Le rapporteur le dit lui-même dans l'appui de T7. Même remarque pour T8 et
-      T24.
-    proposition: établit que la Banque de France verse impôt et dividendes à l'État (F19, F20) et rend plausible
-      que ces versements dépendent en partie des intérêts perçus (F41, O1) ; ne prouve pas que la charge nette ne
-      baisserait pas durablement.
 - id: T8
   question: Q43
   position: nuance
@@ -1542,6 +1759,60 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A23 porte sur la charge d'intérêts compte tenu des reversements de la Banque de France (F18,
+        F19, F20, F21), objet de Q43.
+    appui:
+      valeur: partiel
+      justification: F18 à F22, F48 et F50 sont vérifiés (Vrai) ; l'économie nette inférieure à la brute suppose
+        que les intérêts perçus contribuent aux versements à l'État, ce qui est F41 (Pas d'estimation fiable), rendu
+        plausible par O1, comme pour T31.
+    raisonnement:
+      valeur: valide
+      justification: 'La conclusion se limite à ce que montrent les prémisses : non-réinvestissement (F48), d''où
+        un refinancement de marché évité, et reversements variables (F19, F21), sans montant avancé.'
+    portee:
+      texte: établit que la conversion éviterait de refinancer sur le marché les titres non réinvestis (F48) et
+        que la Banque de France reverse une partie de ses bénéfices, de façon variable (F19, F21) ; ne prouve pas
+        le montant ni le signe durable de l'économie nette, faute d'estimation (F41).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A23 (F48, F22).
+    conclusion: tient en partie
+  portee_par:
+  - LFI
+  contre_examen:
+  - critere: appui
+    avis: conteste
+    justification: L'économie nette inférieure à l'économie brute repose sur le lien entre intérêts perçus et sommes
+      reversées. Pour T7, le rapporteur écrit que ce lien « repose sur F41 (Pas d'estimation fiable) » et en tire
+      un appui partiel ; T8 utilise le même lien (F18, F19, F20, F21) et reçoit « solide ». Même prémisse non établie,
+      appréciation différente.
+    proposition: 'appui : partiel — F18 à F22, F48 et F50 sont vérifiés (Vrai) ; l''économie nette inférieure à
+      la brute suppose que les intérêts perçus contribuent aux versements à l''État (F41, Pas d''estimation fiable,
+      rendu plausible par O1). Poser à la famille qui porte T8 la même relance que R7 (source isolant la part de
+      ces intérêts).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même prémisse que T31 et T24 (F41) : appui partiel. Relance de même nature que R7 posée à
+      T8.'
+  - critere: portee
+    avis: conteste
+    justification: 'Même raison que pour T7/portee : l''infériorité du net au brut n''est pas établie par une affirmation
+      vérifiée (F41).'
+    proposition: établit que la conversion éviterait de refinancer sur le marché les titres non réinvestis (F48)
+      et que la Banque de France reverse une partie de ses bénéfices, de façon variable (F19, F21) ; ne prouve pas
+      le montant ni le signe durable de l'économie nette, faute d'estimation (F41).
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Portée reformulée : l''infériorité du net au brut n''est pas établie par une affirmation
+      vérifiée (F41).'
+  - critere: conclusion
+    avis: conteste
+    justification: 'Conséquence de T8/appui : avec un appui partiel, la règle du § 3 donne « tient en partie ».'
+    proposition: tient en partie
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Conséquence de l''appui partiel : « tient en partie » (§ 3).'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A23 porte sur la charge d'intérêts compte tenu des reversements de la Banque de France (F18,
         F19, F20, F21), objet de Q43.
@@ -1562,41 +1833,56 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A23 (F48, F22).
     conclusion: tient
-  portee_par:
-  - LFI
-  contre_examen:
-  - critere: appui
-    avis: conteste
-    justification: L'économie nette inférieure à l'économie brute repose sur le lien entre intérêts perçus et sommes
-      reversées. Pour T7, le rapporteur écrit que ce lien « repose sur F41 (Pas d'estimation fiable) » et en tire
-      un appui partiel ; T8 utilise le même lien (F18, F19, F20, F21) et reçoit « solide ». Même prémisse non établie,
-      appréciation différente.
-    proposition: 'appui : partiel — F18 à F22, F48 et F50 sont vérifiés (Vrai) ; l''économie nette inférieure à
-      la brute suppose que les intérêts perçus contribuent aux versements à l''État (F41, Pas d''estimation fiable,
-      rendu plausible par O1). Poser à la famille qui porte T8 la même relance que R7 (source isolant la part de
-      ces intérêts).'
-  - critere: portee
-    avis: conteste
-    justification: 'Même raison que pour T7/portee : l''infériorité du net au brut n''est pas établie par une affirmation
-      vérifiée (F41).'
-    proposition: établit que la conversion éviterait de refinancer sur le marché les titres non réinvestis (F48)
-      et que la Banque de France reverse une partie de ses bénéfices, de façon variable (F19, F21) ; ne prouve pas
-      le montant ni le signe durable de l'économie nette, faute d'estimation (F41).
-  - critere: conclusion
-    avis: conteste
-    justification: 'Conséquence de T8/appui : avec un appui partiel, la règle du § 3 donne « tient en partie ».'
-    proposition: tient en partie
 - id: T9
   question: Q43
   position: oui
-  enonce: L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières
-    pour l'État, en supprimant le service et le principal de ces titres. Le gain net dépend des reversements de
+  enonce: L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières,
+    en supprimant le service et le principal de ces titres. Le gain net, non chiffré, dépend des reversements de
     la Banque de France.
   arguments:
   - A24
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A24 porte sur la réduction de la charge d'intérêts (F22, F49), objet de Q43.
+    appui:
+      valeur: faible
+      justification: 'Les marges reposent sur F49 (Pas d''estimation fiable : une intervention de 2021 sans chiffrage),
+        la réponse à R8 n''apportant aucune source ; F22 porte sur la charge totale de la dette, pas sur la part
+        de la banque centrale.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : de la charge totale (F22) et d''une marge brute,
+        la thèse conclut à une réduction de la charge, alors qu''elle reconnaît que le gain net dépend des reversements
+        (F19, F20), qu''aucune source ne chiffre (F41, F49).'
+    portee:
+      texte: établit que la charge de la dette atteint 65,7 milliards d'euros en 2025 (F22) ; ne prouve pas que
+        l'opération dégagerait une marge nette, ni de quel montant.
+    objections:
+      valeur: sans réponse
+      justification: T7 (A39) objecte que F22 ne porte pas sur la part de la banque centrale et que le gain net
+        n'est pas chiffré (F41, F49) ; A24 admet le second point (réponse à R8) mais maintient la marge tirée de
+        F22, sans répondre au premier.
+    conclusion: ne tient pas
+  portee_par:
+  - PCF
+  contre_examen:
+  - critere: raisonnement
+    avis: conteste
+    justification: 'La valeur (lacune essentielle) est confirmée, symétrique de T7, mais la justification est inexacte
+      : T9 ne néglige pas les reversements, son énoncé dit que « le gain net dépend des reversements de la Banque
+      de France » (A24). La lacune est ailleurs : passer de la charge totale (F22) et d''une marge brute à une réduction
+      durable de la charge, alors que la thèse admet que le net dépend de versements non chiffrés (F41, F49).'
+    proposition: 'raisonnement : lacune, essentielle: true — Conclusion plus large que les prémisses : de la charge
+      totale (F22) et d''une marge brute, la thèse conclut à une réduction durable de la charge, alors qu''elle
+      reconnaît que le gain net dépend des reversements (F19, F20), qu''aucune source ne chiffre (F41, F49).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'La justification initiale était inexacte : A24 mentionne les reversements. Lacune reformulée
+      (de F22 et d''une marge brute à une réduction de la charge, gain net non chiffré, F41, F49) ; valeur inchangée.'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A24 porte sur la réduction de la charge d'intérêts (F22, F49), objet de Q43.
     appui:
@@ -1617,18 +1903,6 @@ theses_actuelles:
       justification: T7 (A39) objecte que F22 ne porte pas sur la part de la banque centrale et que le gain net
         n'est pas chiffré (F41, F49) ; A24 n'y répond pas.
     conclusion: ne tient pas
-  portee_par:
-  - PCF
-  contre_examen:
-  - critere: raisonnement
-    avis: conteste
-    justification: 'La valeur (lacune essentielle) est confirmée, symétrique de T7, mais la justification est inexacte
-      : T9 ne néglige pas les reversements, son énoncé dit que « le gain net dépend des reversements de la Banque
-      de France » (A24). La lacune est ailleurs : passer de la charge totale (F22) et d''une marge brute à une réduction
-      durable de la charge, alors que la thèse admet que le net dépend de versements non chiffrés (F41, F49).'
-    proposition: 'raisonnement : lacune, essentielle: true — Conclusion plus large que les prémisses : de la charge
-      totale (F22) et d''une marge brute, la thèse conclut à une réduction durable de la charge, alors qu''elle
-      reconnaît que le gain net dépend des reversements (F19, F20), qu''aucune source ne chiffre (F41, F49).'
 - id: T10
   question: Q44
   position: oui
@@ -1640,6 +1914,43 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A3 porte sur l'indépendance de la BCE et la crédibilité de l'euro (F3, F4), objet de Q44.
+    appui:
+      valeur: partiel
+      justification: Le volet indépendance repose sur F3, F4, F5 (Vrai) ; le volet crédibilité repose sur F27 (Invérifiable)
+        et sur aucune estimation d'effet, ce que la réponse à R9 confirme.
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Le volet indépendance est valide si l'opération est imposée par l'État (F3), ce que la réponse
+        à R9 retient comme seul cas visé ; le volet crédibilité suppose une cause (défiance envers la monnaie) qu'aucune
+        affirmation n'établit (F27).
+    portee:
+      texte: établit qu'une décision imposée par un gouvernement à la BCE ou à la Banque de France serait une instruction
+        contraire à F3 ; ne prouve pas que l'opération affaiblirait la crédibilité de l'euro, ni qu'elle serait
+        nécessairement imposée par l'État.
+    objections:
+      valeur: sans réponse
+      justification: T12 (A45) et T32 (A48) objectent qu'une décision libre du conseil des gouverneurs n'est pas
+        une instruction (F3, F5) ; aucun argument de T10 n'y répond.
+    conclusion: tient en partie
+  portee_par:
+  - RE
+  contre_examen:
+  - critere: objections
+    avis: conteste
+    justification: 'Les réponses comptées (A52, A53) ne sont pas des arguments de T10 : A52 est dans T14, A53 dans
+      T11. Pour T5, T12, T13 et T14, le rapporteur écrit « aucun argument de T… n''y répond » ; T10, qui ne contient
+      que A3, ne répond ni à A45 (T12) ni à A48 (T14). La règle n''est pas la même.'
+    proposition: 'objections : sans réponse — T12 (A45) et T14 (A48) objectent qu''une décision libre du conseil
+      des gouverneurs n''est pas une instruction (F3, F5) ; aucun argument de T10 n''y répond. Conclusion inchangée
+      (tient en partie). Compléter R9 par « Que répondez-vous à T12 (A45) et T14 (A48) ? », comme R11, R12 et R13.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: A52 et A53 ne sont pas des arguments de T10 ; selon la règle commune, les objections de T12
+      (A45) et T32 (A48) sont sans réponse. Conclusion inchangée ; relance complétée comme R11, R12, R13.
+  versions:
+  - pertinence:
       valeur: oui
       justification: A3 porte sur l'indépendance de la BCE et la crédibilité de l'euro (F3, F4), objet de Q44.
     appui:
@@ -1661,17 +1972,6 @@ theses_actuelles:
         une instruction (F5) ; A52 et A53 leur répondent en partie, en admettant que l'atteinte dépend de la voie
         et n'est pas établie.
     conclusion: tient en partie
-  portee_par:
-  - RE
-  contre_examen:
-  - critere: objections
-    avis: conteste
-    justification: 'Les réponses comptées (A52, A53) ne sont pas des arguments de T10 : A52 est dans T14, A53 dans
-      T11. Pour T5, T12, T13 et T14, le rapporteur écrit « aucun argument de T… n''y répond » ; T10, qui ne contient
-      que A3, ne répond ni à A45 (T12) ni à A48 (T14). La règle n''est pas la même.'
-    proposition: 'objections : sans réponse — T12 (A45) et T14 (A48) objectent qu''une décision libre du conseil
-      des gouverneurs n''est pas une instruction (F3, F5) ; aucun argument de T10 n''y répond. Conclusion inchangée
-      (tient en partie). Compléter R9 par « Que répondez-vous à T12 (A45) et T14 (A48) ? », comme R11, R12 et R13.'
 - id: T11
   question: Q44
   position: oui
@@ -1683,9 +1983,41 @@ theses_actuelles:
   - A53
   repond_a:
   - T13
-  - T14
+  - T32
   examen:
     pertinence:
+      valeur: oui
+      justification: A40 et A53 portent sur la crédibilité de l'euro (F9, F27), objet de Q44.
+    appui:
+      valeur: faible
+      justification: 'L''effet sur la crédibilité n''est porté par aucune estimation (réponse à R10) : F9 (Vrai)
+        établit l''interdiction, F27 (Invérifiable) seulement que la légalité est disputée, et F58 (Débat entre
+        experts) est invoqué contre la thèse adverse.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Cause supposée : de la légalité disputée (F27) à un doute des détenteurs d''euros, la thèse
+        suppose une réaction que rien n''établit ; A53 le reconnaît en écrivant que l''atteinte « n''est pas établie
+        ».'
+    portee:
+      texte: établit que la Cour subordonne les interventions de la BCE à l'interdiction du financement monétaire
+        (F9) et que la compatibilité de l'opération est disputée (F27) ; ne prouve pas que l'opération affaiblirait
+        la crédibilité de l'euro.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A40 ou de A53 (F9, F27).
+    conclusion: ne tient pas
+  portee_par:
+  - RE
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : A40 et A53 suivent le même raisonnement (perception d''un financement monétaire,
+      F9) ; appui faible et lacune essentielle (cause supposée, F27) sont appréciés comme T4 et T5 pour l''effet
+      sur les taux.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A40 et A53 portent sur la crédibilité de l'euro (F9, F27), objet de Q44.
     appui:
@@ -1707,15 +2039,6 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A40 ou A53 (F9).
     conclusion: ne tient pas
-  portee_par:
-  - RE
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : A40 et A53 suivent le même raisonnement (perception d''un financement monétaire,
-      F9) ; appui faible et lacune essentielle (cause supposée, F27) sont appréciés comme T4 et T5 pour l''effet
-      sur les taux.'
-    proposition: null
 - id: T12
   question: Q44
   position: non
@@ -1729,6 +2052,38 @@ theses_actuelles:
   - T10
   examen:
     pertinence:
+      valeur: oui
+      justification: A25 et A45 portent sur l'indépendance de la BCE et la crédibilité de l'euro (F3, F5), objet
+        de Q44.
+    appui:
+      valeur: partiel
+      justification: Le volet indépendance repose sur F3 et F5 (Vrai) ; le volet crédibilité repose sur F53, affirmation
+        de valeur sans verdict, qui ne peut établir un fait, ce que la réponse à R11 admet.
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: La distinction entre demande et instruction (F3) est valide pour une décision libre du conseil
+        (F5), mais la thèse ne dit pas que la proposition suit cette voie, alors que F4 soumet une loi nationale
+        au contrôle de compatibilité (réponse à R11).
+    portee:
+      texte: établit qu'une décision libre du conseil des gouverneurs ne serait pas une instruction au sens de F3
+        ; ne prouve pas que la proposition débattue suive cette voie, ni que la crédibilité de l'euro serait intacte.
+    objections:
+      valeur: sans réponse
+      justification: T14 (A52) objecte que la distinction ne vaut pas pour une loi nationale visant la Banque de
+        France (F4) ; la réponse à R11 le concède sans qu'aucun argument de T12 soit corrigé ni y réponde.
+    conclusion: tient en partie
+  portee_par:
+  - LFI
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : volet indépendance valide (F3, F5), volet crédibilité porté par une valeur
+      (F53), objection de T14 (A52, F4) sans réponse ; appréciation identique à T10 et T13 pour un volet crédibilité
+      sans estimation.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A25 et A45 portent sur l'indépendance de la BCE et la crédibilité de l'euro (F3, F5), objet
         de Q44.
@@ -1750,25 +2105,47 @@ theses_actuelles:
       justification: T14 (A52) objecte que la distinction ne vaut pas pour une loi nationale visant la Banque de
         France (F4) ; aucun argument de T12 n'y répond.
     conclusion: tient en partie
-  portee_par:
-  - LFI
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : volet indépendance valide (F3, F5), volet crédibilité porté par une valeur
-      (F53), objection de T14 (A52, F4) sans réponse ; appréciation identique à T10 et T13 pour un volet crédibilité
-      sans estimation.'
-    proposition: null
 - id: T13
   question: Q44
   position: non
-  enonce: La BCE peut remplir son mandat malgré des pertes, et un effacement décidé par son propre conseil ne résulte
-    d'aucune instruction. Ni sa capacité d'action ni son indépendance ne seraient atteintes.
+  enonce: Un effacement décidé par le conseil des gouverneurs lui-même ne résulte d'aucune instruction et n'atteint
+    pas l'indépendance de la BCE. Sa capacité d'action malgré des pertes est débattue, et l'effet de fonds propres
+    négatifs sur la crédibilité n'est pas établi.
   arguments:
   - A33
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A33 porte sur l'indépendance et la capacité d'action de la BCE (F3, F5, F58), objet de Q44.
+    appui:
+      valeur: partiel
+      justification: Le volet indépendance repose sur F3 et F5 (Vrai) ; le volet capacité d'action repose sur F58
+        et sur le document de 2004 cité par A33 (F61), tous deux Débat entre experts.
+    raisonnement:
+      valeur: valide
+      justification: 'Depuis la correction de A33 (réponse à R12), la conclusion se limite à ce que portent les
+        prémisses : pas d''instruction pour une décision du conseil (F3, F5), capacité d''action et crédibilité
+        présentées comme non démontrées (F58, F61).'
+    portee:
+      texte: établit qu'un effacement décidé par le conseil des gouverneurs ne serait pas une instruction (F3, F5)
+        et que l'effet de pertes durables sur la banque centrale est débattu (F58, F61) ; ne prouve pas que la crédibilité
+        de l'euro serait intacte, ni que la proposition de 2026 suive cette voie.
+    objections:
+      valeur: répondues
+      justification: T11 (A40) objectait que la solvabilité ne répond pas à la perception d'un financement monétaire
+        (F9) ; A33 corrigé a retiré l'affirmation visée sur la crédibilité (F58).
+    conclusion: tient en partie
+  portee_par:
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : appui partiel (F58 Débat entre experts), lacune limitée au volet crédibilité,
+      objection T11 (A40) sans réponse ; même traitement que T10 et T12.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A33 porte sur l'indépendance et la capacité d'action de la BCE (F3, F58), objet de Q44.
     appui:
@@ -1790,28 +2167,66 @@ theses_actuelles:
       justification: T11 (A40) objecte que la solvabilité ne répond pas à la perception d'un financement monétaire
         (F9) ; A33 n'y répond pas.
     conclusion: tient en partie
-  portee_par:
-  - PP
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : appui partiel (F58 Débat entre experts), lacune limitée au volet crédibilité,
-      objection T11 (A40) sans réponse ; même traitement que T10 et T12.'
-    proposition: null
 - id: T14
   question: Q44
   position: nuance
-  enonce: 'L''atteinte à l''indépendance dépend de la voie : une décision libre du conseil des gouverneurs n''est
-    pas une instruction, une loi nationale visant la Banque de France l''est. L''atteinte à la crédibilité ne vaudrait
-    que pour une décision imposée par un gouvernement.'
+  enonce: 'L''atteinte à l''indépendance dépend de la voie : une demande que le conseil des gouverneurs reste libre
+    de refuser n''est pas une instruction. Une loi nationale visant les titres de la Banque de France en serait
+    une, que le traité interdit d''accepter.'
   arguments:
-  - A48
   - A52
   repond_a:
-  - T10
   - T12
   examen:
     pertinence:
+      valeur: oui
+      justification: A52 porte sur l'indépendance de la BCE et de la Banque de France (F3, F4, F5), objet de Q44.
+    appui:
+      valeur: solide
+      justification: F3, F4 et F5 sont vérifiés (Vrai, traité, niveau 1) et portent seuls la thèse, qui ne contient
+        plus de volet crédibilité.
+    raisonnement:
+      valeur: valide
+      justification: La distinction découle de F3 (instruction) et de F4 (compatibilité de la législation nationale
+        avec les statuts) ; la thèse conclut seulement que l'atteinte dépend de la voie (F5).
+    portee:
+      texte: établit que l'atteinte à l'indépendance dépend de la voie retenue, décision libre du conseil ou loi
+        nationale (F3, F4, F5) ; ne prouve pas quelle voie suit la proposition débattue, ni l'effet sur la crédibilité
+        de l'euro.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A52 (F4).
+    conclusion: tient
+  portee_par:
+  - RE
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A48 et A52 ne suivent pas le même raisonnement : A48 (réponse à A3) conclut que la crédibilité
+      n''est pas atteinte si le conseil des gouverneurs décide (F3, F5, F27) ; A52 (réponse à A45) conclut que l''indépendance
+      est atteinte si l''effacement passe par une loi nationale (F4) et ne dit rien de la crédibilité. L''énoncé
+      attribue à tous les porteurs la phrase sur la crédibilité, que A53 (T11), porté par le même parti que A52,
+      conteste directement.'
+    proposition: 'Deux thèses : l''une avec A52 (l''atteinte à l''indépendance dépend de la voie, F3, F4, F5), l''autre
+      avec A48 (pas d''atteinte à la crédibilité pour une décision du conseil, F3, F5, F27), chacune examinée avec
+      la grille ; l''objection T11 (A53) ne vise que la seconde.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: A52 conclut sur l'indépendance selon la voie (F4), A48 sur la crédibilité (F27) ; T14 garde
+      A52, T32 reçoit A48, seule visée par T11 (A53).
+  - critere: appui
+    avis: conteste
+    justification: Le volet crédibilité de T14 (« ne vaudrait que pour une décision imposée ») n'est porté par aucune
+      estimation, comme ceux de T10 (F27), T12 (F53) et T13 (F58), tous jugés « partiel ». F27 établit seulement
+      que la compatibilité est disputée, pas l'absence d'effet. Même lacune, appréciation plus favorable.
+    proposition: 'appui : partiel — le volet indépendance repose sur F3, F4, F5 (Vrai) ; le volet crédibilité n''est
+      porté par aucune estimation, F27 (Invérifiable) établissant seulement que la compatibilité est disputée. Conclusion
+      inchangée (tient en partie).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Le volet crédibilité sans estimation est désormais T32 ; appui faible, symétrique de T11
+      dont l''effet de sens contraire repose aussi sur F27 seul. T14 réduite à A52 n''a plus de volet crédibilité
+      : appui solide (F3, F4, F5).'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A48 et A52 portent sur l'indépendance de la BCE et la crédibilité de l'euro (F3, F4, F5), objet
         de Q44.
@@ -1833,28 +2248,41 @@ theses_actuelles:
       justification: T11 (A53) objecte qu'une légalité disputée suffit à créer un doute tant qu'aucun juge n'a tranché
         (F27) ; aucun argument de T14 n'y répond.
     conclusion: tient en partie
+- id: T32
+  question: Q44
+  position: nuance
+  enonce: L'atteinte à la crédibilité de l'euro vaut pour une décision imposée par un gouvernement. Elle ne s'applique
+    pas à un effacement arrêté par le conseil des gouverneurs lui-même.
+  arguments:
+  - A48
+  repond_a:
+  - T10
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A48 porte sur la crédibilité de l'euro selon la voie de décision (F3, F5, F27), objet de Q44.
+    appui:
+      valeur: faible
+      justification: F3 et F5 (Vrai) établissent seulement l'absence d'instruction ; l'absence d'effet sur la crédibilité
+        n'est portée par aucune estimation (réponse à R13), F27 (Invérifiable) établissant que la compatibilité
+        est disputée, comme pour l'effet de sens contraire de T11.
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : de l''absence d''instruction (F3, F5), l''énoncé
+        tire l''absence d''atteinte à la crédibilité, alors que le raisonnement corrigé de A48 écrit que cette atteinte
+        n''est démontrée dans aucun sens (F9, F27).'
+    portee:
+      texte: établit qu'un effacement arrêté par le conseil des gouverneurs ne résulterait d'aucune instruction
+        (F3, F5) et que sa compatibilité avec les traités est disputée (F27) ; ne prouve pas qu'il serait sans effet
+        sur la crédibilité de l'euro.
+    objections:
+      valeur: sans réponse
+      justification: T11 (A53) objecte qu'une légalité disputée suffit à créer un doute tant qu'aucun juge n'a tranché
+        (F27) ; A48 corrigé le concède dans son raisonnement mais maintient son énoncé, sans y répondre.
+    conclusion: ne tient pas
   portee_par:
   - PP
-  - RE
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A48 et A52 ne suivent pas le même raisonnement : A48 (réponse à A3) conclut que la crédibilité
-      n''est pas atteinte si le conseil des gouverneurs décide (F3, F5, F27) ; A52 (réponse à A45) conclut que l''indépendance
-      est atteinte si l''effacement passe par une loi nationale (F4) et ne dit rien de la crédibilité. L''énoncé
-      attribue à tous les porteurs la phrase sur la crédibilité, que A53 (T11), porté par le même parti que A52,
-      conteste directement.'
-    proposition: 'Deux thèses : l''une avec A52 (l''atteinte à l''indépendance dépend de la voie, F3, F4, F5), l''autre
-      avec A48 (pas d''atteinte à la crédibilité pour une décision du conseil, F3, F5, F27), chacune examinée avec
-      la grille ; l''objection T11 (A53) ne vise que la seconde.'
-  - critere: appui
-    avis: conteste
-    justification: Le volet crédibilité de T14 (« ne vaudrait que pour une décision imposée ») n'est porté par aucune
-      estimation, comme ceux de T10 (F27), T12 (F53) et T13 (F58), tous jugés « partiel ». F27 établit seulement
-      que la compatibilité est disputée, pas l'absence d'effet. Même lacune, appréciation plus favorable.
-    proposition: 'appui : partiel — le volet indépendance repose sur F3, F4, F5 (Vrai) ; le volet crédibilité n''est
-      porté par aucune estimation, F27 (Invérifiable) établissant seulement que la compatibilité est disputée. Conclusion
-      inchangée (tient en partie).'
 - id: T15
   question: Q45
   position: oui
@@ -1866,9 +2294,41 @@ theses_actuelles:
   - A50
   repond_a:
   - T17
-  - T19
+  - T33
   examen:
     pertinence:
+      valeur: oui
+      justification: A4 et A50 répondent à la question du remboursement intégral quand le créancier est la banque
+        centrale (F24).
+    appui:
+      valeur: partiel
+      justification: 'Présupposés établis : achat sur le marché secondaire (F24, Vrai), fin des réinvestissements
+        (F48, Vrai), stock en baisse (F31, Plutôt vrai) ; l''atteinte à la signature est un effet sur les prêteurs
+        qu''aucune estimation n''établit (F26, réponse à R14).'
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée au respect des conditions du titre, la conclusion découle ; A50 présente
+        lui-même l'effet sur le marché comme une estimation (F48, F31).
+    portee:
+      texte: établit que ces titres ont été acquis sur le marché et sont remboursés à échéance comme les autres
+        (F24, F48) ; ne prouve pas que ne pas les rembourser dégraderait la signature de la France.
+    objections:
+      valeur: en partie
+      justification: T17 (A49) et T33 (A43) objectent que les vendeurs ont été payés (F24) ; A50 répond sur ce point,
+        mais pas sur le critère de légitimité que maintient l'énoncé de A43, ce que la réponse à R14 confirme.
+    conclusion: tient en partie
+  portee_par:
+  - HOR
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé. Le décompte au-delà de repond_a est fondé : A50 répond à A43 et nomme A49 (F24,
+      F48). « En partie » est juste tant que A43 reste dans T19 ; si A43 en sort (voir T19/regroupement), le critère
+      de légitimité n''est plus une objection adressée à T15 (A17 ne vise pas A4) et l''objection devient « répondues
+      », sans changer la conclusion. Appui partiel (F26) cohérent avec T16.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A4 et A50 répondent à la question du remboursement intégral quand le créancier est la banque
         centrale (F24).
@@ -1889,16 +2349,6 @@ theses_actuelles:
       justification: T17 (A49) et T19 (A43) objectent que les vendeurs ont été payés (F24) ; A50 répond sur ce point,
         mais pas sur le critère de légitimité avancé par A43.
     conclusion: tient en partie
-  portee_par:
-  - HOR
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé. Le décompte au-delà de repond_a est fondé : A50 répond à A43 et nomme A49 (F24,
-      F48). « En partie » est juste tant que A43 reste dans T19 ; si A43 en sort (voir T19/regroupement), le critère
-      de légitimité n''est plus une objection adressée à T15 (A17 ne vise pas A4) et l''objection devient « répondues
-      », sans changer la conclusion. Appui partiel (F26) cohérent avec T16.'
-    proposition: null
 - id: T16
   question: Q45
   position: oui
@@ -1909,6 +2359,33 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A7 répond à la question du remboursement, banque centrale comprise (F28).
+    appui:
+      valeur: faible
+      justification: La thèse ne contient que F28 (valeur, sans verdict) ; son présupposé factuel, la perte de confiance
+        des prêteurs, n'est porté par aucune affirmation vérifiée (F26, réponse à R15).
+    raisonnement:
+      valeur: valide
+      justification: La conclusion découle de la priorité affirmée (F28) ; la position date de décembre 2020 et
+        ne vise pas la proposition d'août 2026, ce que A7 indique.
+    portee:
+      texte: établit la priorité donnée à la parole de l'État (F28) ; ne prouve pas qu'une annulation limitée à
+        la banque centrale ferait perdre la confiance des prêteurs.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A7 (F28).
+    conclusion: ne tient pas
+  portee_par:
+  - LR
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : seul F28 (valeur) et un présupposé de confiance non établi (F26) ; appréciation
+      identique à T19 pour une thèse de valeur sans présupposé vérifié.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A7 répond à la question du remboursement, banque centrale comprise (F28).
     appui:
@@ -1926,14 +2403,6 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A7 (F28).
     conclusion: ne tient pas
-  portee_par:
-  - LR
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : seul F28 (valeur) et un présupposé de confiance non établi (F26) ; appréciation
-      identique à T19 pour une thèse de valeur sans présupposé vérifié.'
-    proposition: null
 - id: T17
   question: Q45
   position: non
@@ -1964,7 +2433,7 @@ theses_actuelles:
     objections:
       valeur: sans réponse
       justification: T15 (A50) objecte que ces titres sont déjà remboursés à échéance comme les autres (F48, F31)
-        ; aucun argument de T17 n'y répond.
+        ; les réponses à R16 n'opposent aucun fait et aucun argument de T17 n'y répond.
     conclusion: tient en partie
   portee_par:
   - PCF
@@ -1976,11 +2445,68 @@ theses_actuelles:
       F46 (Plutôt vrai) ; les effets indirects sur les prêteurs, symétriques de l'atteinte à la signature de T15
       (F26), ne sont pas affirmés par T17 et la portée le relève. Objection T15 (A50, F48) sans réponse.
     proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A26, A49 et A54 répondent à la question du remboursement quand le créancier est la banque centrale
+        (F24, F51).
+    appui:
+      valeur: solide
+      justification: Le présupposé factuel, vendeurs payés et créancier public, est établi (F24, Vrai ; F46 et F16,
+        Plutôt vrai, pour l'ordre de grandeur) ; F51 et F52 sont des valeurs.
+    raisonnement:
+      valeur: valide
+      justification: De la distinction entre créancier public et créanciers privés (F24, F51), la conclusion découle
+        ; A54 montre qu'elle ne dépend pas de la part exacte (F16, F46).
+    portee:
+      texte: établit que les vendeurs ont été réglés et que le créancier actuel est la banque centrale (F24) ; ne
+        prouve pas que l'annulation serait sans effet pour l'État ou pour les autres membres de l'Eurosystème.
+    objections:
+      valeur: sans réponse
+      justification: T15 (A50) objecte que ces titres sont déjà remboursés à échéance comme les autres (F48, F31)
+        ; aucun argument de T17 n'y répond.
+    conclusion: tient en partie
+- id: T33
+  question: Q45
+  position: non
+  enonce: 'Les vendeurs des titres rachetés par la banque centrale ont été payés : la dette de l''État n''est pas
+    leur créance. Le critère du remboursement est la légitimité de la dette, établie par un audit, non l''identité
+    du créancier.'
+  arguments:
+  - A43
+  repond_a:
+  - T15
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A43 répond à la question du remboursement intégral quand le créancier est la banque centrale
+        (F24).
+    appui:
+      valeur: partiel
+      justification: La réfutation de A4 repose sur F24 (Vrai) ; le présupposé qui donnerait la réponse « non »,
+        qu'une part de la dette soit illégitime, n'est porté par aucune affirmation de A43 (F43, valeur, figure
+        dans A17 ; réponse à R18).
+    raisonnement:
+      valeur: valide
+      justification: La réfutation de A4 découle de F24 ; le critère de légitimité est une priorité affirmée, dont
+        la conclusion découle sans prétendre à un constat.
+    portee:
+      texte: établit que les vendeurs ont été payés et que le créancier actuel est la banque centrale (F24) ; ne
+        prouve pas quelle part de la dette serait illégitime.
+    objections:
+      valeur: sans réponse
+      justification: T15 (A50) objecte que la part de l'Eurosystème est remboursée à échéance comme les autres et
+        qu'en changer les conditions modifie le contrat (F48) ; la réponse à R18 maintient le désaccord de critère,
+        aucun argument de T33 n'y répond.
+    conclusion: tient en partie
+  portee_par:
+  - NPA
 - id: T18
   question: Q45
   position: non
   enonce: Rembourser intégralement la banque centrale oblige à réemprunter, à lever l'impôt ou à réduire la dépense,
-    sans léser de créancier privé. La marge dégagée peut servir à investir, notamment dans la transition écologique.
+    sans qu'un créancier privé soit en jeu. Si une marge nette est dégagée, elle peut servir à investir, notamment
+    dans la transition écologique.
   arguments:
   - A10
   - A27
@@ -1988,6 +2514,38 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A10, A27 et A34 répondent à la question du remboursement quand le créancier est la banque centrale
+        (F17, F53).
+    appui:
+      valeur: partiel
+      justification: 'Présupposés établis : ampleur de la détention (F31, F16, Plutôt vrai ; F17, Vrai), reversements
+        à l''État (F7, F20, Vrai), besoins d''investissement (F32, Plutôt vrai) ; la marge nette, désormais conditionnelle
+        dans A10 et A34 (réponses à R17), reste supposée par A27 et n''est pas établie (F41).'
+    raisonnement:
+      valeur: valide
+      justification: Si la marge nette existe, la conclusion découle de la priorité donnée à l'investissement (F53,
+        F32) ; la thèse reconnaît que les intérêts reviennent en partie à l'État (F20, F41).
+    portee:
+      texte: établit l'ampleur de la dette détenue par l'Eurosystème (F31, F17) et que son remboursement doit être
+        financé ; ne prouve pas que l'annulation dégagerait une marge nette pour l'État.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A10, A27 ou A34 (F53).
+    conclusion: tient en partie
+  portee_par:
+  - LE
+  - LFI
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : présupposé de marge nette non établi traité dans l''appui (F41), comme pour
+      T28 et T29 ; regroupement de A10, A27, A34 cohérent (coût du remboursement et usage de la marge, F17, F31,
+      F53).'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A10, A27 et A34 répondent à la question du remboursement quand le créancier est la banque centrale
         (F17, F53).
@@ -2007,29 +2565,55 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A10, A27 ou A34 (F53).
     conclusion: tient en partie
-  portee_par:
-  - LE
-  - LFI
-  - PP
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : présupposé de marge nette non établi traité dans l''appui (F41), comme pour
-      T28 et T29 ; regroupement de A10, A27, A34 cohérent (coût du remboursement et usage de la marge, F17, F31,
-      F53).'
-    proposition: null
 - id: T19
   question: Q45
   position: non
-  enonce: Un État ne doit pas rembourser une dette illégitime, que le créancier soit ou non la banque centrale.
-    Le critère est la légitimité de la dette, qu'un audit établit, non l'identité du créancier.
+  enonce: Un État ne doit pas rembourser une dette illégitime, construite par des cadeaux aux plus riches et aux
+    grandes entreprises, que le créancier soit ou non la banque centrale. Un audit établit quelle part est illégitime,
+    et un moratoire suspend les paiements.
   arguments:
   - A17
-  - A43
-  repond_a:
-  - T15
+  repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A17 répond à la question du remboursement intégral, banque centrale comprise (F43).
+    appui:
+      valeur: faible
+      justification: Le présupposé factuel central, une dette construite par des cadeaux fiscaux, n'est porté que
+        par F43 (valeur, sans verdict), et la réponse à R18 n'apporte aucune source officielle ou universitaire.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la légitimité (F43), la conclusion découle ; la thèse reconnaît qu'elle
+        vaut que le créancier soit ou non la banque centrale.
+    portee:
+      texte: établit la priorité donnée à la légitimité de la dette (F43) ; ne prouve pas que la dette française
+        ait été construite par des cadeaux fiscaux, ni quelle part en serait illégitime.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A17 (F43) ; A50 vise A43, désormais
+        dans T33.
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A43 ne partage pas le raisonnement de A17 : son raisonnement est la réfutation de A4 par F24
+      (vendeurs payés, créancier actuel la banque centrale), identique à celui de A49 (T17) ; le critère de légitimité
+      n''y figure que dans l''énoncé, sans prémisse. A17 raisonne sur la légitimité de la dette (F43). Le regroupement
+      fait compter F24 comme « point secondaire » de T19 et crée une objection de légitimité contre T15 qu''aucun
+      argument ne développe. A43 ne peut pas non plus rejoindre T17, puisqu''il écarte le critère de l''identité
+      du créancier (F51).'
+    proposition: 'Isoler A43 dans une thèse propre (réfutation de A4 par F24, critère de légitimité affirmé), examinée
+      avec la même grille que A49 ; T19 réduite à A17. Effets : objections de T19 « répondues » (A50 ne vise pas
+      A17), objections de T15 à réexaminer (voir T15) ; conclusions de T15 et T19 inchangées.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Le raisonnement de A43 est la réfutation de A4 par F24, sans prémisse sur la légitimité ;
+      A43 forme T33. T19 réduite à A17 : objections « répondues ». L''énoncé de A43 maintient le critère de légitimité,
+      de sorte que T15 garde « en partie ».'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A17 et A43 répondent à la question du remboursement intégral (F43, F24).
     appui:
@@ -2048,20 +2632,6 @@ theses_actuelles:
       justification: T15 (A50) objecte que la part de l'Eurosystème est remboursée à échéance comme les autres (F48)
         ; aucun argument de T19 n'y répond.
     conclusion: ne tient pas
-  portee_par:
-  - NPA
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A43 ne partage pas le raisonnement de A17 : son raisonnement est la réfutation de A4 par F24
-      (vendeurs payés, créancier actuel la banque centrale), identique à celui de A49 (T17) ; le critère de légitimité
-      n''y figure que dans l''énoncé, sans prémisse. A17 raisonne sur la légitimité de la dette (F43). Le regroupement
-      fait compter F24 comme « point secondaire » de T19 et crée une objection de légitimité contre T15 qu''aucun
-      argument ne développe. A43 ne peut pas non plus rejoindre T17, puisqu''il écarte le critère de l''identité
-      du créancier (F51).'
-    proposition: 'Isoler A43 dans une thèse propre (réfutation de A4 par F24, critère de légitimité affirmé), examinée
-      avec la même grille que A49 ; T19 réduite à A17. Effets : objections de T19 « répondues » (A50 ne vise pas
-      A17), objections de T15 à réexaminer (voir T15) ; conclusions de T15 et T19 inchangées.'
 - id: T20
   question: Q46
   position: non
@@ -2073,6 +2643,35 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A5 porte sur le niveau de décision, national ou européen (F3, F4), objet de Q46.
+    appui:
+      valeur: partiel
+      justification: F3 et F4 sont vérifiés (Vrai) ; la contrariété aux traités repose sur F27 (Invérifiable), et
+        le partage du bilan avec les autres membres est contredit pour les titres d'État acquis depuis 2015 par
+        la résolution de O1 (S9), ce que la réponse à R19 admet.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée aux engagements européens acceptés (F4), la conclusion découle.
+    portee:
+      texte: établit que l'État s'est engagé à rendre sa législation compatible avec les traités et ne peut instruire
+        la banque centrale (F3, F4) ; ne prouve pas que les autres membres supportent le risque des titres français
+        détenus, ni que l'opération soit contraire aux traités (F27).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A5 (F4).
+    conclusion: tient en partie
+  portee_par:
+  - RE
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : appui partiel justifié par O1 (S9) sur le partage du bilan et par F27 ; la
+      conclusion « décider seul, c''est s''affranchir des règles communes » découle de F3 et F4 sans dépendre de
+      F27.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A5 porte sur le niveau de décision, national ou européen (F3, F4), objet de Q46.
     appui:
@@ -2091,27 +2690,69 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A5 (F4).
     conclusion: tient en partie
-  portee_par:
-  - RE
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : appui partiel justifié par O1 (S9) sur le partage du bilan et par F27 ; la
-      conclusion « décider seul, c''est s''affranchir des règles communes » découle de F3 et F4 sans dépendre de
-      F27.'
-    proposition: null
 - id: T21
   question: Q46
   position: non
-  enonce: 'Un État seul ne peut pas annuler : la décision appartient à la BCE, institution commune qui n''accepte
-    pas d''instructions des gouvernements. Elle passe par un accord entre les États européens et la BCE, puis par
-    une révision des règles.'
+  enonce: 'Un État seul ne peut pas annuler : la décision appartient au conseil des gouverneurs de la BCE, qui n''accepte
+    pas d''instructions des gouvernements. Elle passe par un accord entre les États européens et la BCE, non par
+    une décision nationale.'
   arguments:
-  - A29
   - A35
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A35 porte sur le niveau de décision, national ou européen (F3, F5), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F3, F5 et F60 (Vrai).'
+    raisonnement:
+      valeur: valide
+      justification: De F3 et F5 découle qu'une décision nationale seule n'a pas d'effet sur la créance ; la préférence
+        pour un contrat entre États et BCE (F60) suit de ce cadre.
+    portee:
+      texte: établit que la décision appartient au conseil des gouverneurs, qui ne reçoit pas d'instructions des
+        gouvernements (F3, F5) ; ne prouve pas qu'un accord entre les États et la BCE soit atteignable.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A35 (F60).
+    conclusion: tient
+  portee_par:
+  - PP
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A29 et A35 arrivent à la même conclusion par deux chemins : A35 par la répartition des compétences
+      (F3, F5 : une décision nationale n''a pas d''effet sur la créance) et un contrat avec la BCE (F60) ; A29 par
+      l''interdiction du financement direct (F1, F2) et la propriété commune (F51), d''où une révision des traités
+      (F56). L''énoncé fusionne « accord » et « révision des règles ».'
+    proposition: Deux thèses (A35 ; A29), ou un énoncé limité au raisonnement commun (la décision n'appartient pas
+      à un État seul, F3, F5), la révision des traités étant examinée à part.
+    decision_rapporteur: acceptee
+    motif_rapporteur: A35 raisonne par la répartition des compétences (F3, F5, F60), A29 par la propriété commune
+      et l'interdiction du financement direct (F51, F1, F2) ; T21 garde A35, T34 reçoit A29.
+  - critere: raisonnement
+    avis: conteste
+    justification: A29 passe de F1 et F2 (interdiction du financement direct) à la nécessité de réviser les règles
+      pour annuler, inférence identique à celle de A21 qui vaut à T2 une lacune « conclusion plus large que les
+      prémisses » (F45, F27 Invérifiable). La justification du rapporteur ne vise que A35 (F3, F5). La lacune ne
+      touche qu'une partie de la conclusion de T21 (la révision), le niveau européen découlant de F3 et F5.
+    proposition: 'raisonnement : lacune, essentielle: false — Le niveau européen de la décision découle de F3 et
+      F5 ; la nécessité d''une révision des règles suppose, comme T2, que l''interdiction du financement direct
+      (F1, F2) vise l''annulation de titres déjà détenus, ce que le dossier n''établit pas (F45, F27).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'La lacune (révision des traités tirée de F1, F2, comme T2) est appliquée à T34 (A29), « essentielle:
+      false » ; T21 réduite à A35 n''a pas cette lacune.'
+  - critere: conclusion
+    avis: conteste
+    justification: 'Conséquence de T21/raisonnement : une lacune limitée à une partie de la conclusion donne « tient
+      en partie » (§ 3).'
+    proposition: tient en partie
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Appliquée à la thèse où se trouve la lacune : T34 « tient en partie ». T21 réduite à A35
+      (F3, F5, F60) « tient ».'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A29 et A35 portent sur le niveau de décision, national ou européen (F3, F5), objet de Q46.
     appui:
@@ -2129,44 +2770,81 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A29 ou A35 (F60).
     conclusion: tient
-  portee_par:
-  - PCF
-  - PP
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A29 et A35 arrivent à la même conclusion par deux chemins : A35 par la répartition des compétences
-      (F3, F5 : une décision nationale n''a pas d''effet sur la créance) et un contrat avec la BCE (F60) ; A29 par
-      l''interdiction du financement direct (F1, F2) et la propriété commune (F51), d''où une révision des traités
-      (F56). L''énoncé fusionne « accord » et « révision des règles ».'
-    proposition: Deux thèses (A35 ; A29), ou un énoncé limité au raisonnement commun (la décision n'appartient pas
-      à un État seul, F3, F5), la révision des traités étant examinée à part.
-  - critere: raisonnement
-    avis: conteste
-    justification: A29 passe de F1 et F2 (interdiction du financement direct) à la nécessité de réviser les règles
-      pour annuler, inférence identique à celle de A21 qui vaut à T2 une lacune « conclusion plus large que les
-      prémisses » (F45, F27 Invérifiable). La justification du rapporteur ne vise que A35 (F3, F5). La lacune ne
-      touche qu'une partie de la conclusion de T21 (la révision), le niveau européen découlant de F3 et F5.
-    proposition: 'raisonnement : lacune, essentielle: false — Le niveau européen de la décision découle de F3 et
-      F5 ; la nécessité d''une révision des règles suppose, comme T2, que l''interdiction du financement direct
-      (F1, F2) vise l''annulation de titres déjà détenus, ce que le dossier n''établit pas (F45, F27).'
-  - critere: conclusion
-    avis: conteste
-    justification: 'Conséquence de T21/raisonnement : une lacune limitée à une partie de la conclusion donne « tient
-      en partie » (§ 3).'
-    proposition: tient en partie
-- id: T22
+- id: T34
   question: Q46
-  position: nuance
-  enonce: La dette détenue par l'Eurosystème relève d'une décision européenne, non nationale seule, mais les règles
-    actuelles doivent être révisées. Leurs objectifs et leur contrôle doivent changer, par une révision des traités,
-    plutôt qu'être contournés par un État.
+  position: non
+  enonce: L'annulation de la part détenue par la banque centrale, institution commune aux pays de l'Union, se négocie
+    au niveau européen. Les traités interdisant le financement direct des États, elle passe par une démarche collective
+    et une révision des règles.
   arguments:
-  - A11
-  - A28
+  - A29
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A29 porte sur le niveau de décision, national ou européen (F1, F2, F51), objet de Q46.
+    appui:
+      valeur: partiel
+      justification: F1 et F2 sont vérifiés (Vrai) ; F51 et F56 sont des valeurs ; le présupposé que l'annulation
+        est empêchée par les traités actuels, d'où une révision nécessaire, n'est pas établi (F45, F27 Invérifiable).
+    raisonnement:
+      valeur: lacune
+      essentielle: false
+      justification: Le niveau européen découle de la priorité affirmée (F51, F56) ; la nécessité d'une révision
+        suppose, comme T2, que l'interdiction du financement direct (F1, F2) vise l'annulation de titres déjà détenus,
+        ce que le dossier n'établit pas (F45, F27).
+    portee:
+      texte: établit que les traités interdisent le financement direct des États (F1, F2) et la priorité donnée
+        à une démarche collective (F51, F56) ; ne prouve pas qu'une révision des traités soit nécessaire pour annuler.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A29 (F51).
+    conclusion: tient en partie
+  portee_par:
+  - PCF
+- id: T22
+  question: Q46
+  position: nuance
+  enonce: La dette détenue par l'Eurosystème relève d'une décision européenne, non d'une décision nationale seule.
+    Les règles doivent être révisées par traité pour viser les limites planétaires, plutôt que contournées par un
+    État.
+  arguments:
+  - A11
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A11 porte sur le niveau de décision et sur les règles européennes (F4, F5, F33), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F4, F5, F33 (Vrai), F32 (Plutôt vrai).'
+    raisonnement:
+      valeur: valide
+      justification: Du cadre actuel (F4, F5) et de la priorité donnée aux objectifs écologiques (F33), la conclusion
+        découle.
+    portee:
+      texte: établit que la décision relève aujourd'hui de l'Eurosystème (F4, F5) et que le programme de 2026 propose
+        une révision des traités (F33) ; ne prouve pas qu'une telle révision soit atteignable.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A11 (F33).
+    conclusion: tient
+  portee_par:
+  - LE
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'L''énoncé attribue à tous les porteurs que la dette « relève d''une décision européenne, non
+      nationale seule » : c''est la conclusion de A11 (F4, F5, F33). A28 ne dit pas cela ; il conclut que la politique
+      de la dette relève « du contrôle démocratique plutôt que de règles fixées par des institutions indépendantes
+      », par un autre chemin (F1, F2, F56 : les traités comme carcan).'
+    proposition: Deux thèses (A11 ; A28), ou un énoncé limité au point commun (exiger un changement des règles européennes
+      plutôt qu'une décision unilatérale), chaque raisonnement étant restitué.
+    decision_rapporteur: acceptee
+    motif_rapporteur: A11 conclut à une décision européenne (F4, F5, F33), A28 au contrôle démocratique contre des
+      institutions indépendantes (F1, F2, F56) ; T22 garde A11, T35 reçoit A28.
+  versions:
+  - pertinence:
       valeur: oui
       justification: A11 et A28 portent sur le niveau de décision et sur les règles européennes (F4, F5, F56), objet
         de Q46.
@@ -2185,18 +2863,38 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A11 ou A28 (F33).
     conclusion: tient
+- id: T35
+  question: Q46
+  position: nuance
+  enonce: Les règles européennes sur le financement des États et le statut de la BCE doivent être remises en cause,
+    la France exigeant leur changement. La politique de la dette relève du contrôle démocratique plutôt que de règles
+    fixées par des institutions indépendantes.
+  arguments:
+  - A28
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A28 porte sur la place des règles européennes dans les décisions sur la dette (F1, F2, F56),
+        objet de Q46.
+    appui:
+      valeur: solide
+      justification: Le présupposé factuel, que les traités interdisent aux États de se financer auprès de leur
+        banque centrale, est vérifié (F1, F2, Vrai) ; F56 est une valeur.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée au contrôle démocratique (F56) et du cadre établi (F1, F2), la conclusion
+        découle sans en tirer plus.
+    portee:
+      texte: établit que les traités interdisent le financement direct des États par leur banque centrale (F1, F2)
+        ; ne prouve pas qu'un changement des règles soit atteignable, ni comment il s'appliquerait aux titres déjà
+        détenus.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A28 (F56).
+    conclusion: tient
   portee_par:
-  - LE
   - LFI
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'L''énoncé attribue à tous les porteurs que la dette « relève d''une décision européenne, non
-      nationale seule » : c''est la conclusion de A11 (F4, F5, F33). A28 ne dit pas cela ; il conclut que la politique
-      de la dette relève « du contrôle démocratique plutôt que de règles fixées par des institutions indépendantes
-      », par un autre chemin (F1, F2, F56 : les traités comme carcan).'
-    proposition: Deux thèses (A11 ; A28), ou un énoncé limité au point commun (exiger un changement des règles européennes
-      plutôt qu'une décision unilatérale), chaque raisonnement étant restitué.
 - id: T23
   question: Q46
   position: oui
@@ -2222,7 +2920,7 @@ theses_actuelles:
         ; ne prouve pas que ces propositions s'appliqueraient à des titres détenus par l'Eurosystème.
     objections:
       valeur: répondues
-      justification: Aucune thèse ne répond à A15 (F39).
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A15 (F39).
     conclusion: tient
   portee_par:
   - RN
@@ -2232,6 +2930,25 @@ theses_actuelles:
     justification: 'Examen confirmé : présupposés vérifiés (F39 Vrai, F40 Plutôt vrai), conclusion limitée à ce
       qu''ils portent ; la portée signale que les propositions ne visent pas les titres de l''Eurosystème.'
     proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A15 porte sur le niveau de décision, national ou européen (F39, F40), objet de Q46.
+    appui:
+      valeur: solide
+      justification: 'Les présupposés factuels sont vérifiés : F39 (Vrai) et F40 (Plutôt vrai, la formule de l''AFP
+        étant proche du texte de la proposition).'
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la décision nationale (F40) et à la discipline budgétaire (F39), la
+        conclusion découle, sans en tirer plus.
+    portee:
+      texte: établit que la règle d'or par référendum et la primauté de la Constitution sont proposées (F39, F40)
+        ; ne prouve pas que ces propositions s'appliqueraient à des titres détenus par l'Eurosystème.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A15 (F39).
+    conclusion: tient
 - id: T24
   question: Q47
   position: non
@@ -2243,6 +2960,42 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A6 compare l'annulation aux autres leviers (F18, F20), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Les versements de la Banque de France sont établis (F18, F19, F20, Vrai) ; leur dépendance
+        aux intérêts perçus repose sur F41 (Pas d'estimation fiable), et la croissance par la baisse du coût du
+        travail n'est portée par aucune affirmation (réponse à R20).
+    raisonnement:
+      valeur: valide
+      justification: La conclusion « gain net incertain » découle de F19, F20 et de l'absence d'estimation (F41),
+        et le choix des leviers suit d'une priorité ; la thèse ne prétend pas que le gain net soit nul.
+    portee:
+      texte: établit que la Banque de France verse des sommes à l'État (F18, F19, F20) et qu'aucune source ne chiffre
+        l'effet de l'annulation sur ces versements (F41) ; ne prouve pas que les leviers retenus dégageraient davantage
+        de marges.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A6 (F20).
+    conclusion: tient en partie
+  portee_par:
+  - HOR
+  - RE
+  contre_examen:
+  - critere: portee
+    avis: conteste
+    justification: 'Même raison que T7/portee et T8/portee : l''infériorité du gain net au gain brut n''est pas
+      établie par F19 et F20 seuls, elle suppose F41 (Pas d''estimation fiable). La thèse elle-même dit seulement
+      que le gain est « incertain », ce que F41 établit.'
+    proposition: établit que la Banque de France verse des sommes à l'État (F18, F19, F20) et qu'aucune source ne
+      chiffre l'effet de l'annulation sur ces versements (F41) ; ne prouve pas que les leviers retenus dégageraient
+      davantage de marges.
+    decision_rapporteur: acceptee
+    motif_rapporteur: La thèse dit « incertain », ce que F41 établit ; portée reformulée, et l'appui mentionne désormais
+      F41. Relance de même nature que R7 posée à T24.
+  versions:
+  - pertinence:
       valeur: oui
       justification: A6 compare l'annulation aux autres leviers (F18, F20), objet de Q47.
     appui:
@@ -2260,29 +3013,64 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A6 (F20).
     conclusion: tient en partie
-  portee_par:
-  - HOR
-  - RE
-  contre_examen:
-  - critere: portee
-    avis: conteste
-    justification: 'Même raison que T7/portee et T8/portee : l''infériorité du gain net au gain brut n''est pas
-      établie par F19 et F20 seuls, elle suppose F41 (Pas d''estimation fiable). La thèse elle-même dit seulement
-      que le gain est « incertain », ce que F41 établit.'
-    proposition: établit que la Banque de France verse des sommes à l'État (F18, F19, F20) et qu'aucune source ne
-      chiffre l'effet de l'annulation sur ces versements (F41) ; ne prouve pas que les leviers retenus dégageraient
-      davantage de marges.
 - id: T25
   question: Q47
   position: non
-  enonce: Pour dégager des marges, la voie préférable est de réduire la dépense publique et de viser un excédent
-    primaire, rendu contraignant par une règle d'or. L'annulation ne traiterait pas la cause du déficit.
+  enonce: 'L''annulation n''est pas préférable aux économies : seule une baisse durable du déficit stabilise la
+    dette, et une annulation n''en traiterait pas la cause. La voie retenue est la réduction des dépenses, rendue
+    contraignante par une règle d''or votée par référendum.'
   arguments:
-  - A8
   - A14
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A14 compare l'annulation aux économies (F37, F39), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Le plan et la charge de la dette sont établis (F22, F37, F38, F39, Vrai) ; que les économies
+        prévues, dont 15 milliards liés à l'immigration (F38), soient obtenues et dégagent les marges annoncées
+        n'est porté par aucune affirmation, comme l'effet du levier retenu dans T24.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée au traitement du déficit et de la règle d'or proposée (F37, F39), la
+        conclusion découle ; A14 écarte l'annulation explicitement.
+    portee:
+      texte: établit que le plan présenté le 6 octobre 2026 fait reposer la baisse de la dette sur 140 milliards
+        d'économies et une règle d'or (F37, F39) ; ne prouve pas que ces économies seraient obtenues, ni qu'elles
+        dégageraient davantage de marges que l'annulation.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A14 (F37).
+    conclusion: tient en partie
+  portee_par:
+  - RN
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A8 et A14 ne suivent pas le même raisonnement : A8 déduit la position sur l''annulation du choix
+      des moyens d''un plan qui n''en parle pas (F29, F30), ce que l''argument reconnaît ; A14 l''écarte explicitement
+      parce qu''elle ne traiterait pas la cause du déficit (F22, F37, F39). L''énoncé prête aux deux porteurs la
+      règle d''or et l''argument de la cause du déficit.'
+    proposition: 'Deux thèses : A8 (silence du plan, lacune « silence d''un texte » à apprécier sur l''essentiel
+      de sa conclusion) et A14 (cause du déficit), chacune examinée avec la grille.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: A14 écarte l'annulation explicitement (F37, F39), A8 la déduit du silence du plan (F29, F30)
+      ; T25 garde A14, T36 reçoit A8, dont la lacune porte sur l'essentiel de la réponse à Q47.
+  - critere: appui
+    avis: conteste
+    justification: F37 et F38 établissent ce que le plan prévoit, non que les économies seraient obtenues ni qu'elles
+      dégageraient les marges annoncées ; la portée le reconnaît (F38). T24 a reçu « partiel » pour le même type
+      de présupposé non établi sur l'effet du levier retenu (croissance par la baisse du coût du travail). Même
+      lacune, appréciation plus favorable.
+    proposition: 'appui : partiel — les plans et la charge de la dette sont établis (F22, F29, F30, F37, F38, F39,
+      Vrai) ; l''effet attendu des économies, dont 15 milliards liés à l''immigration (F38), n''est porté par aucune
+      affirmation. Conclusion inchangée (tient en partie). Relance de même nature que R20.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même présupposé non établi que T24 (effet du levier retenu) : appui partiel pour T25 et T36
+      ; relance de même nature que R20 posée aux deux.'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A8 et A14 comparent l'annulation aux économies (F30, F37), objet de Q47.
     appui:
@@ -2302,27 +3090,39 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A8 ou A14 (F37).
     conclusion: tient en partie
+- id: T36
+  question: Q47
+  position: non
+  enonce: Pour dégager des marges budgétaires, la voie retenue est de réduire la dépense publique et de viser un
+    excédent primaire, plutôt que de toucher au stock de dette. Le plan qui l'établit ne mentionne pas l'annulation.
+  arguments:
+  - A8
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A8 compare les économies aux autres leviers (F29, F30), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Le plan est établi (F29, F30, Vrai) ; que ses économies soient obtenues et dégagent les marges
+        annoncées n'est porté par aucune affirmation, comme pour T25 et T24, et aucune source datée ne donne la
+        position du parti sur l'annulation (réponse à R21).
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Silence d''un texte pris pour un refus : la réponse de Q47 porte sur l''annulation comparée
+        aux économies, et A8 la déduit d''un plan qui n''en parle pas (F29, F30), ce que l''argument et la réponse
+        à R21 reconnaissent, comme T2 tire une interdiction du silence de F1 et F2.'
+    portee:
+      texte: établit que le plan présenté le 12 octobre 2026 fait reposer l'effort sur les économies de l'État et
+        des dépenses sociales (F29, F30) ; ne prouve pas que le parti juge l'annulation moins préférable, ni que
+        les économies seraient obtenues.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A8 (F30).
+    conclusion: ne tient pas
   portee_par:
   - LR
-  - RN
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A8 et A14 ne suivent pas le même raisonnement : A8 déduit la position sur l''annulation du choix
-      des moyens d''un plan qui n''en parle pas (F29, F30), ce que l''argument reconnaît ; A14 l''écarte explicitement
-      parce qu''elle ne traiterait pas la cause du déficit (F22, F37, F39). L''énoncé prête aux deux porteurs la
-      règle d''or et l''argument de la cause du déficit.'
-    proposition: 'Deux thèses : A8 (silence du plan, lacune « silence d''un texte » à apprécier sur l''essentiel
-      de sa conclusion) et A14 (cause du déficit), chacune examinée avec la grille.'
-  - critere: appui
-    avis: conteste
-    justification: F37 et F38 établissent ce que le plan prévoit, non que les économies seraient obtenues ni qu'elles
-      dégageraient les marges annoncées ; la portée le reconnaît (F38). T24 a reçu « partiel » pour le même type
-      de présupposé non établi sur l'effet du levier retenu (croissance par la baisse du coût du travail). Même
-      lacune, appréciation plus favorable.
-    proposition: 'appui : partiel — les plans et la charge de la dette sont établis (F22, F29, F30, F37, F38, F39,
-      Vrai) ; l''effet attendu des économies, dont 15 milliards liés à l''immigration (F38), n''est porté par aucune
-      affirmation. Conclusion inchangée (tient en partie). Relance de même nature que R20.'
 - id: T26
   question: Q47
   position: oui
@@ -2334,6 +3134,42 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A19 compare l'annulation aux économies (F20), objet de Q47.
+    appui:
+      valeur: faible
+      justification: Seul F20 (Vrai) est vérifié, sur un point secondaire ; le présupposé central, le montant des
+        intérêts versés aux créanciers privés et leur effet sur les conditions d'emprunt (F26), n'est porté par
+        aucune affirmation (réponse à R22).
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à l'emploi et à l'investissement sur l'austérité, la conclusion découle
+        si son présupposé est vrai ; ce présupposé (F26, montant des intérêts) relève de l'appui, comme pour T19
+        et T30.
+    portee:
+      texte: établit que la Banque de France reverse des sommes à l'État (F20) ; ne prouve pas le montant des marges
+        que dégagerait l'annulation des dettes jugées illégitimes, ni son effet sur les conditions d'emprunt (F26).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A19 (F20).
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+  contre_examen:
+  - critere: raisonnement
+    avis: conteste
+    justification: La lacune nommée est un présupposé non établi (effet sur les conditions d'emprunt, F26), déjà
+      compté dans l'appui. Pour les thèses de valeur T16, T18, T19, T28 et T29, le rapporteur traite le présupposé
+      non établi dans l'appui et juge le raisonnement valide ; A19, construit en « si … alors » comme A17, reçoit
+      ici une double sanction. Même structure, appréciation plus sévère.
+    proposition: 'raisonnement : valide — De la priorité donnée à l''emploi et à l''investissement sur l''austérité,
+      la conclusion découle si son présupposé est vrai ; ce présupposé (montant des intérêts, effet sur l''emprunt,
+      F26) n''est pas établi et relève de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: Présupposé non établi (F26), déjà compté dans l'appui ; même traitement que T19 et T30. Raisonnement
+      valide, conclusion inchangée (appui faible).
+  versions:
+  - pertinence:
       valeur: oui
       justification: A19 compare l'annulation aux économies (F20), objet de Q47.
     appui:
@@ -2354,18 +3190,6 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A19 (F20).
     conclusion: ne tient pas
-  portee_par:
-  - NPA
-  contre_examen:
-  - critere: raisonnement
-    avis: conteste
-    justification: La lacune nommée est un présupposé non établi (effet sur les conditions d'emprunt, F26), déjà
-      compté dans l'appui. Pour les thèses de valeur T16, T18, T19, T28 et T29, le rapporteur traite le présupposé
-      non établi dans l'appui et juge le raisonnement valide ; A19, construit en « si … alors » comme A17, reçoit
-      ici une double sanction. Même structure, appréciation plus sévère.
-    proposition: 'raisonnement : valide — De la priorité donnée à l''emploi et à l''investissement sur l''austérité,
-      la conclusion découle si son présupposé est vrai ; ce présupposé (montant des intérêts, effet sur l''emprunt,
-      F26) n''est pas établi et relève de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
 - id: T27
   question: Q47
   position: oui
@@ -2376,6 +3200,35 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A30 compare l'annulation aux économies (F54), objet de Q47.
+    appui:
+      valeur: faible
+      justification: 'Le présupposé « ne coûte rien à personne » repose sur F47 (Pas d''estimation fiable : l''avis
+        du porteur de la proposition), la réponse à R23 n''apportant aucune source ; F54 est une valeur.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : F47 porte sur le coût d''emprunt, non sur la marge
+        dégagée, que les reversements de la Banque de France réduisent (F19, F20).'
+    portee:
+      texte: établit la priorité donnée à l'absence d'économies sur les dépenses (F54) ; ne prouve pas que l'opération
+        ne coûterait rien ni qu'elle dégagerait une marge nette.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A30 (F54).
+    conclusion: ne tient pas
+  portee_par:
+  - LFI
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : la lacune n''est pas un simple présupposé mais l''usage de F47 (coût d''emprunt)
+      pour conclure à l''absence de coût et à une marge, que les reversements réduisent (F19, F20) ; même nature
+      que l''usage de F22 par T9.'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A30 compare l'annulation aux économies (F54), objet de Q47.
     appui:
@@ -2394,27 +3247,51 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A30 (F54).
     conclusion: ne tient pas
-  portee_par:
-  - LFI
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : la lacune n''est pas un simple présupposé mais l''usage de F47 (coût d''emprunt)
-      pour conclure à l''absence de coût et à une marge, que les reversements réduisent (F19, F20) ; même nature
-      que l''usage de F22 par T9.'
-    proposition: null
 - id: T28
   question: Q47
   position: nuance
-  enonce: L'annulation de la dette auprès de la banque centrale n'est pas une alternative aux recettes fiscales,
-    mais un levier à combiner avec elles et avec la lutte contre l'évasion fiscale. Le critère est l'usage de la
-    marge dégagée.
+  enonce: L'annulation de dette auprès de la BCE n'est pas une alternative aux recettes fiscales et à l'investissement,
+    mais un levier à combiner avec eux. Le critère est l'usage de la dette et de la marge éventuelle.
   arguments:
   - A12
-  - A31
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A12 compare l'annulation aux recettes et aux économies (F34, F35, F36), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Les positions du parti sont établies (F34, F35, F36, Vrai) ; présenter l'annulation comme un
+        levier suppose une marge nette, que le dossier n'établit pas (F41, F49) et que la réponse à R24 ne chiffre
+        pas.
+    raisonnement:
+      valeur: valide
+      justification: La thèse ne classe pas les leviers et ne chiffre pas la marge ; sa conclusion suit de la priorité
+        affirmée sur l'usage de la dette (F34, F35).
+    portee:
+      texte: établit que le parti associe annulation et hausse des recettes (F34, F35) et vise un retour progressif
+        du déficit (F36) ; ne prouve pas que l'annulation dégagerait une marge nette, ni de quel montant (F41).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A12 (F34).
+    conclusion: tient en partie
+  portee_par:
+  - LE
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A12 et A31 combinent les leviers pour des raisons différentes : A12 parce que le critère est
+      l''usage de la dette (« bonne » ou « mauvaise » dette, F34, F35, F36) ; A31 parce que l''annulation, qui dégagerait
+      des marges (F49), ne suffit pas seule (F55). L''énoncé prête à tous le « critère de l''usage de la marge »,
+      qui est celui de A12 (et proche de A36, T29).'
+    proposition: Deux thèses (A12 ; A31), ou un énoncé limité au point commun (l'annulation est un levier à combiner
+      avec les recettes), le critère d'usage étant attribué à son seul porteur.
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'A12 combine les leviers par le critère d''usage de la dette (F34, F35, F36), A31 parce que
+      l''annulation ne suffit pas seule (F49, F55) ; T28 garde A12, T37 reçoit A31 (appui faible : seul F49, Pas
+      d''estimation fiable).'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A12 et A31 comparent l'annulation aux recettes et aux économies (F34, F35), objet de Q47.
     appui:
@@ -2432,29 +3309,74 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A12 ou A31 (F49).
     conclusion: tient en partie
+- id: T37
+  question: Q47
+  position: nuance
+  enonce: L'annulation partielle de la dette détenue par la banque centrale est une voie parmi d'autres, qui ne
+    suffit pas seule. Elle s'accompagne d'une mise à contribution du capital et de la lutte contre l'évasion fiscale,
+    qui dégagent aussi des recettes.
+  arguments:
+  - A31
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A31 compare l'annulation aux recettes (F49, F55), objet de Q47.
+    appui:
+      valeur: faible
+      justification: Le présupposé que l'annulation dégage des marges repose sur F49 seul (Pas d'estimation fiable),
+        que la réponse à R24 ne complète pas ; F55 est une valeur, et aucune affirmation vérifiée ne porte la thèse.
+    raisonnement:
+      valeur: valide
+      justification: Si l'annulation dégage une marge (F49), la complémentarité avec la fiscalité du capital découle
+        de la priorité affirmée (F55).
+    portee:
+      texte: établit la priorité donnée à la mise à contribution du capital en complément de l'annulation (F55)
+        ; ne prouve pas que l'annulation dégagerait une marge, ni de quel montant (F49).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A31 (F55).
+    conclusion: ne tient pas
   portee_par:
-  - LE
   - PCF
-  contre_examen:
-  - critere: regroupement
-    avis: conteste
-    justification: 'A12 et A31 combinent les leviers pour des raisons différentes : A12 parce que le critère est
-      l''usage de la dette (« bonne » ou « mauvaise » dette, F34, F35, F36) ; A31 parce que l''annulation, qui dégagerait
-      des marges (F49), ne suffit pas seule (F55). L''énoncé prête à tous le « critère de l''usage de la marge »,
-      qui est celui de A12 (et proche de A36, T29).'
-    proposition: Deux thèses (A12 ; A31), ou un énoncé limité au point commun (l'annulation est un levier à combiner
-      avec les recettes), le critère d'usage étant attribué à son seul porteur.
 - id: T29
   question: Q47
   position: nuance
-  enonce: 'L''effacement se substitue aux autres leviers s''il est conditionné : les États s''engagent à investir
-    les montants effacés dans la reconstruction écologique et sociale. Sans cette contrepartie, il ne dégagerait
-    pas de marge utile.'
+  enonce: 'L''effacement ne se substitue aux autres leviers que s''il est conditionné : les États s''engagent à
+    investir les montants effacés dans la reconstruction écologique et sociale. La marge nette qu''il dégagerait
+    n''est pas chiffrée.'
   arguments:
   - A36
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A36 compare l'effacement aux autres leviers (F59), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: La proposition de 2021 et l'ampleur de la détention sont établies (F59, F17, Vrai) ; la marge
+        nette, que A36 corrigé ne présente plus comme acquise (réponse à R25), n'est pas établie (F41).
+    raisonnement:
+      valeur: valide
+      justification: La conclusion suit de la priorité donnée à l'usage conditionné des montants (F59), sans chiffrer
+        la marge (F41).
+    portee:
+      texte: établit que la proposition de 2021 lie l'effacement à un engagement d'investir les mêmes montants (F59)
+        ; ne prouve pas que l'effacement dégagerait une marge nette pour l'État.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A36 (F59).
+    conclusion: tient en partie
+  portee_par:
+  - PP
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : présupposé de marge nette non établi (F41) traité dans l''appui comme pour
+      T18 et T28 ; conclusion limitée à l''usage conditionné des montants (F59).'
+    proposition: null
+  versions:
+  - pertinence:
       valeur: oui
       justification: A36 compare l'effacement aux autres leviers (F59), objet de Q47.
     appui:
@@ -2471,14 +3393,6 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A36 (F59).
     conclusion: tient en partie
-  portee_par:
-  - PP
-  contre_examen:
-  - critere: conclusion
-    avis: confirme
-    justification: 'Examen confirmé : présupposé de marge nette non établi (F41) traité dans l''appui comme pour
-      T18 et T28 ; conclusion limitée à l''usage conditionné des montants (F59).'
-    proposition: null
 - id: T30
   question: Q47
   position: nuance
@@ -2489,6 +3403,41 @@ theses_actuelles:
   repond_a: []
   examen:
     pertinence:
+      valeur: oui
+      justification: A18 compare les leviers pour dégager des marges (F42), objet de Q47.
+    appui:
+      valeur: faible
+      justification: 'Le présupposé chiffré repose sur F42 (Invérifiable : 270 milliards cités sans origine ni méthode),
+        qui ne peut porter seul la thèse ; le lien entre ces aides et la dette n''est porté par aucune affirmation
+        (réponse à R26).'
+    raisonnement:
+      valeur: valide
+      justification: Si les aides aux entreprises ont creusé la dette, la préférence pour leur suppression découle
+        de la priorité affirmée ; ce présupposé et le montant (F42) relèvent de l'appui, comme pour T19 et T26.
+    portee:
+      texte: établit que les estimations publiques des aides aux entreprises dépendent du périmètre retenu (explication
+        de F42) ; ne prouve pas le montant de 270 milliards ni que ces aides aient creusé la dette.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A18 (F42).
+    conclusion: ne tient pas
+  portee_par:
+  - LO
+  contre_examen:
+  - critere: raisonnement
+    avis: conteste
+    justification: La lacune nommée (la dette creusée par les aides, sans affirmation) est un présupposé non établi,
+      déjà sanctionné dans l'appui (F42 Invérifiable). T19 a exactement la même structure (« si la dette résulte
+      de cadeaux fiscaux », F43) et reçoit « valide » avec le défaut porté dans l'appui. Même lacune, appréciation
+      différente.
+    proposition: 'raisonnement : valide — Si les aides aux entreprises ont creusé la dette, la préférence pour leur
+      suppression découle de la priorité affirmée ; ce présupposé et le montant (F42 Invérifiable) ne sont pas établis
+      et relèvent de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même structure que T19 (« si … alors », présupposé F42 non établi) : raisonnement valide,
+      défaut porté dans l''appui. Conclusion inchangée (appui faible).'
+  versions:
+  - pertinence:
       valeur: oui
       justification: A18 compare les leviers pour dégager des marges (F42), objet de Q47.
     appui:
@@ -2507,18 +3456,6 @@ theses_actuelles:
       valeur: répondues
       justification: Aucune thèse ne répond à A18 (F42).
     conclusion: ne tient pas
-  portee_par:
-  - LO
-  contre_examen:
-  - critere: raisonnement
-    avis: conteste
-    justification: La lacune nommée (la dette creusée par les aides, sans affirmation) est un présupposé non établi,
-      déjà sanctionné dans l'appui (F42 Invérifiable). T19 a exactement la même structure (« si la dette résulte
-      de cadeaux fiscaux », F43) et reçoit « valide » avec le défaut porté dans l'appui. Même lacune, appréciation
-      différente.
-    proposition: 'raisonnement : valide — Si les aides aux entreprises ont creusé la dette, la préférence pour leur
-      suppression découle de la priorité affirmée ; ce présupposé et le montant (F42 Invérifiable) ne sont pas établis
-      et relèvent de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
 relances:
 - these: T1
   partis:
@@ -2948,6 +3885,111 @@ relances:
     texte: 'Source officielle pour les 270 milliards d''euros d''aides cités par LO (F42) : non trouvée ; les estimations
       publiques du dossier sont inférieures et dépendent du périmètre. Source établissant que ces aides ont creusé
       la dette : non trouvée non plus. LO présente ce lien comme sa position, pas comme un fait établi.'
+    elements: []
+- these: T2
+  partis:
+  - PCF
+  question_posee: Que répondez-vous à T3 (A46), selon laquelle l'achat des titres sur le marché secondaire (F24,
+    F44) établit la régularité de l'achat, non l'interdiction de leur traitement ultérieur ? (même question que
+    R1 pour T1)
+  id: R27
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'A46 a raison sur un point : F24 et F44 établissent que les achats ont respecté l''interdiction du financement
+      direct, non que le traitement ultérieur des titres est interdit. A21 passe de l''un à l''autre sans prémisse
+      intermédiaire, et je n''ai pas de décision ni d''avis d''institution qui comble ce pas. Je ne peux pas y répondre
+      par un fait nouveau.'
+    elements: []
+- these: T34
+  partis:
+  - PCF
+  question_posee: Votre thèse T34 suppose qu'annuler des titres déjà détenus exige de réviser les traités, donc
+    que l'interdiction du financement direct (F1, F2) vise ce cas, ce que le dossier n'établit pas (F45, F27 Invérifiable).
+    Avez-vous une source (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? (même
+    question que R2)
+  id: R28
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai trouvé aucune décision de la Cour ni aucun avis juridique d'institution qui traite l'annulation
+      ou la conversion de titres déjà détenus. A29 ne repose donc que sur F1 et F2, qui établissent l'interdiction
+      du financement direct, non son extension à ce cas (F45, F27 Invérifiable). La nécessité d'une révision reste
+      une position de la famille, non un point établi.
+    elements: []
+- these: T10
+  partis:
+  - RE
+  question_posee: Que répondez-vous à T12 (A45) et à T32 (A48), selon lesquelles une décision libre du conseil des
+    gouverneurs (F5) n'est pas une instruction au sens de F3 ? (même question que R11, R12, R13)
+  id: R29
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Rien n''écarte l''objection de A45 et A48 : une décision que le conseil des gouverneurs reste libre
+      de prendre ou de refuser n''est pas une instruction au sens de F3 (F5). A3 ne vaut que si l''opération est
+      imposée par l''État, notamment par une loi nationale (F3, F4). Aucune source ne dit que la proposition suit
+      cette voie. Je corrige A3 pour la limiter à ce cas.'
+    elements:
+    - A3
+- these: T8
+  partis:
+  - LFI
+  question_posee: Votre thèse T8 suppose que les intérêts perçus par la Banque de France sur les titres de l'État
+    contribuent aux sommes qu'elle reverse à l'État (F41 Pas d'estimation fiable). Avez-vous une source qui isole
+    la part de ces intérêts dans son résultat ? (même question que R7)
+  id: R30
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui isole la part des intérêts sur titres de l'État dans le résultat de la Banque
+      de France. Le lien entre ces intérêts et les sommes reversées (F19, F20) reste non établi (F41), comme le
+      dit déjà A23 en parlant de flux variable (F21). Je ne peux pas le chiffrer.
+    elements: []
+- these: T24
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T24 suppose que les sommes versées par la Banque de France à l'État reposent en partie
+    sur ces intérêts (F41 Pas d'estimation fiable). Avez-vous une source qui isole la part de ces intérêts dans
+    son résultat ? (même question que R7)
+  id: R31
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Je ne peux pas répondre : aucune source ouverte n''isole la part des intérêts sur les titres de l''État
+      dans le résultat de la Banque de France (même réponse qu''à R7). Le lien entre intérêts perçus et sommes reversées
+      reste plausible mais non chiffré (F41). A6 ne soutient donc qu''un gain net incertain, non un gain nul.'
+    elements: []
+- these: T25
+  partis:
+  - RN
+  question_posee: Votre thèse T25 présuppose que les économies prévues (F37, F38) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R32
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-droite
+    texte: 'Je ne peux pas répondre : je n''ai pas de source d''institution établissant que les économies du plan
+      du RN seraient obtenues ni les marges qu''elles dégageraient ; F37 et F38 établissent seulement ce que le
+      plan prévoit. Je corrige A14 pour qu''il soit présenté comme l''argument d''un plan, non comme la démonstration
+      de ses effets.'
+    elements: []
+- these: T36
+  partis:
+  - LR
+  question_posee: Votre thèse T36 présuppose que les économies du plan (F29, F30) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R33
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai pas de source d'institution (Cour des comptes, Haut Conseil des finances publiques, Insee, OFCE)
+      qui établisse que les économies du plan du 12 octobre 2026 (F29, F30) seraient obtenues et dégageraient les
+      marges annoncées. Je ne dépose aucun fait nouveau. A8 s'en tient à ce que le plan prévoit (F29, F30) et reste,
+      comme elle l'indique, une lecture par le choix des moyens ; la réalisation des économies n'est pas établie.
     elements: []
 sans_position:
   Q41:

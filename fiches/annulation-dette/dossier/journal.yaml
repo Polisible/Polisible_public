@@ -500,3 +500,19 @@
   agent: rapporteur
   phase: '5'
   action: 37 thèses, R27, R28, R29, R30, R31, R32, R33
+- date: '2026-11-11T14:22:56'
+  agent: expert-centre
+  phase: '5'
+  action: 'a ajouté corriger A3, 2 réponses aux relances, 0 contestations ; incertitudes signalées : 2'
+- date: '2026-11-11T14:22:57'
+  agent: expert-droite
+  phase: '5'
+  action: 'a ajouté 1 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T14:22:58'
+  agent: expert-extreme-droite
+  phase: '5'
+  action: 'a ajouté corriger A14, 1 réponses aux relances, 0 contestations ; incertitudes signalées : 1'
+- date: '2026-11-11T14:22:59'
+  agent: expert-gauche-radicale
+  phase: '5'
+  action: 'a ajouté 3 réponses aux relances, 0 contestations ; incertitudes signalées : 1'

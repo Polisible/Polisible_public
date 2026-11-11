@@ -434,7 +434,14 @@
     F44) établit la régularité de l'achat, non l'interdiction de leur traitement ultérieur ? (même question que
     R1 pour T1)
   id: R27
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: 'A46 a raison sur un point : F24 et F44 établissent que les achats ont respecté l''interdiction du financement
+      direct, non que le traitement ultérieur des titres est interdit. A21 passe de l''un à l''autre sans prémisse
+      intermédiaire, et je n''ai pas de décision ni d''avis d''institution qui comble ce pas. Je ne peux pas y répondre
+      par un fait nouveau.'
+    elements: []
 - these: T34
   partis:
   - PCF
@@ -443,14 +450,29 @@
     Avez-vous une source (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? (même
     question que R2)
   id: R28
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai trouvé aucune décision de la Cour ni aucun avis juridique d'institution qui traite l'annulation
+      ou la conversion de titres déjà détenus. A29 ne repose donc que sur F1 et F2, qui établissent l'interdiction
+      du financement direct, non son extension à ce cas (F45, F27 Invérifiable). La nécessité d'une révision reste
+      une position de la famille, non un point établi.
+    elements: []
 - these: T10
   partis:
   - RE
   question_posee: Que répondez-vous à T12 (A45) et à T32 (A48), selon lesquelles une décision libre du conseil des
     gouverneurs (F5) n'est pas une instruction au sens de F3 ? (même question que R11, R12, R13)
   id: R29
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Rien n''écarte l''objection de A45 et A48 : une décision que le conseil des gouverneurs reste libre
+      de prendre ou de refuser n''est pas une instruction au sens de F3 (F5). A3 ne vaut que si l''opération est
+      imposée par l''État, notamment par une loi nationale (F3, F4). Aucune source ne dit que la proposition suit
+      cette voie. Je corrige A3 pour la limiter à ce cas.'
+    elements:
+    - A3
 - these: T8
   partis:
   - LFI
@@ -458,7 +480,13 @@
     contribuent aux sommes qu'elle reverse à l'État (F41 Pas d'estimation fiable). Avez-vous une source qui isole
     la part de ces intérêts dans son résultat ? (même question que R7)
   id: R30
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-gauche-radicale
+    texte: Je n'ai pas de source qui isole la part des intérêts sur titres de l'État dans le résultat de la Banque
+      de France. Le lien entre ces intérêts et les sommes reversées (F19, F20) reste non établi (F41), comme le
+      dit déjà A23 en parlant de flux variable (F21). Je ne peux pas le chiffrer.
+    elements: []
 - these: T24
   partis:
   - HOR
@@ -467,7 +495,13 @@
     sur ces intérêts (F41 Pas d'estimation fiable). Avez-vous une source qui isole la part de ces intérêts dans
     son résultat ? (même question que R7)
   id: R31
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-centre
+    texte: 'Je ne peux pas répondre : aucune source ouverte n''isole la part des intérêts sur les titres de l''État
+      dans le résultat de la Banque de France (même réponse qu''à R7). Le lien entre intérêts perçus et sommes reversées
+      reste plausible mais non chiffré (F41). A6 ne soutient donc qu''un gain net incertain, non un gain nul.'
+    elements: []
 - these: T25
   partis:
   - RN
@@ -475,7 +509,14 @@
     les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
     question que R20)
   id: R32
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-droite
+    texte: 'Je ne peux pas répondre : je n''ai pas de source d''institution établissant que les économies du plan
+      du RN seraient obtenues ni les marges qu''elles dégageraient ; F37 et F38 établissent seulement ce que le
+      plan prévoit. Je corrige A14 pour qu''il soit présenté comme l''argument d''un plan, non comme la démonstration
+      de ses effets.'
+    elements: []
 - these: T36
   partis:
   - LR
@@ -483,4 +524,11 @@
     les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
     question que R20)
   id: R33
-  statut: posee
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai pas de source d'institution (Cour des comptes, Haut Conseil des finances publiques, Insee, OFCE)
+      qui établisse que les économies du plan du 12 octobre 2026 (F29, F30) seraient obtenues et dégageraient les
+      marges annoncées. Je ne dépose aucun fait nouveau. A8 s'en tient à ce que le plan prévoit (F29, F30) et reste,
+      comme elle l'indique, une lecture par le choix des moyens ; la réalisation des économies n'est pas établie.
+    elements: []
