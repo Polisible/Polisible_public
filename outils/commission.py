@@ -192,7 +192,7 @@ def lot(fiche, sorte, agent=None):
     lots = d.dossier(fiche) / "lots"
     if sorte == "rapporteur":
         data = {**base, "arguments": [arg_neutre(a) for a in args], "theses_actuelles": D["theses"],
-                "relances": D["relances"],
+                "relances": D["relances"], "reponses_actuelles": D["reponses"],
                 "sans_position": {q["id"]: sorted({p for x in q.get("sans_position", []) for p in x.get("partis", [])})
                                   for q in qs}}
     elif sorte == "contradicteur":
