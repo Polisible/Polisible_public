@@ -487,3 +487,7 @@
   agent: verificateur
   phase: '3'
   action: a tranché S54→conforme, S55 ajoutée pour F61, F61→Débat entre experts
+- date: '2026-11-11T12:13:26'
+  agent: contradicteur
+  phase: '5'
+  action: 'contre-examen : 23 contestations'
