@@ -1,0 +1,26 @@
+agent: expert-gauche-radicale
+phase: 4
+examen:
+  - {question: Q41, conclusion: "A37 (contre A20) est fondé sur un point : F8-F10 portent sur la validité des achats, pas sur le sort ultérieur des titres. Le point 146 de l'arrêt Weiss (S3) relève que détenir les titres jusqu'à l'échéance n'implique aucune renonciation au paiement par l'État émetteur : cet élément limite ce que F8-F10 prouvent pour l'annulation. A1 et A37 ne sont pas démontrés pour autant : F27 reste invérifiable. Correction de A20 déposée."}
+  - {question: Q42, conclusion: "A38 et A41 relèvent que F46 (périmètre) ne démontre pas F47 (effet sur les taux) : exact, F47 est un avis sans estimation d'institution, et A22 ne traite pas le risque de précédent. A2 ne repose pas non plus sur une estimation chiffrée (F26). Aucune erreur de fait à signaler ; correction de A22 déposée. A44 maintenu."}
+  - {question: Q43, conclusion: "A39 a raison de dire que F22 porte sur toutes les créances et que le gain net est inconnu ; le raisonnement d'A24 parlait à tort de marges immédiates. Correction déposée. Élément à noter pour A6, A13, A16 : le communiqué de la Banque de France du 24 mars 2026 (S8) indique que le résultat net 2025 (8,1 Md€) sert à apurer un report à nouveau négatif de 7,7 Md€ issu de 2024 ; les reversements à l'État varient donc fortement d'une année à l'autre, ce qui ne permet pas d'en déduire un effet à due concurrence (O1 déjà résolue sur ce point)."}
+  - {question: Q44, conclusion: "A3 repose sur F27, invérifiable : l'atteinte à l'indépendance ne suit que si une instruction est acceptée par la BCE, ce que A3 suppose (voir A45). A40 vise A33, pas un argument de ma famille. Rien de nouveau à contester."}
+  - {question: Q45, conclusion: "A4 et A7 : rien de nouveau à contester sur les faits (F24 exact) ; A43 et A49 répondent déjà sur les vendeurs des titres. Le désaccord est de valeur (voir valeurs)."}
+  - {question: Q46, conclusion: "A5 avance que les autres membres supportent leur part du bilan commun, alors que le bulletin de la Banque de France (S9) indique que le partage des revenus ne s'applique pas aux titres d'État acquis depuis 2015 : l'affirmation vaut au plus pour les achats du PEPP, ce que le dossier n'établit pas. Je n'ai pas de texte de LFI ou du PCF pour porter un contre-argument ; à vérifier par le vérificateur si A5 est retenu. Désaccord de valeur pour le reste."}
+  - {question: Q47, conclusion: "A6, A8, A14 : leurs affirmations (F18-F20, F22, F29-F39) ne sont pas contestées. A6 s'appuie sur la baisse des reversements, déjà traitée sous Q43 : rien de nouveau."}
+corrections:
+  - vise: A20
+    action: corriger
+    enonce: "Aucun texte des traités ne mentionne l'annulation ni la conversion en dette perpétuelle de titres que l'Eurosystème détient déjà : l'article 123 interdit crédits et achats directs aux États. Les arrêts Gauweiler et Weiss valident les achats sur le marché secondaire sous garanties ; ils ne tranchent pas le sort ultérieur des titres, et l'arrêt Weiss relève que leur conservation jusqu'à l'échéance n'implique aucune renonciation au paiement. La compatibilité d'une conversion, qui relèverait du conseil des gouverneurs de la BCE, est donc une interprétation juridique que LFI soutient, non un point jugé."
+  - vise: A22
+    action: corriger
+    enonce: "Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème et que les créanciers privés sont remboursés intégralement. Cette estimation de ses auteurs ne répond pas à l'argument du précédent juridique ; elle est contestée par des économistes cités par la presse et aucune institution n'a chiffré l'effet sur les taux."
+  - vise: A24
+    action: corriger
+    enonce: "Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières brutes, dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend des reversements de la Banque de France, qui varient d'une année à l'autre (voir A23)."
+valeurs:
+  - {question: Q45, enonce: "Pour LFI et le PCF, la créance d'une institution publique sur l'État ne se traite pas comme celle d'un épargnant privé : la priorité est de protéger les créanciers privés et de ne pas rembourser une dette que la banque centrale détient déjà."}
+incertitudes:
+  - "Le point 146 de l'arrêt Weiss (S3) a été relu sur EUR-Lex ; son poids pour la question de l'annulation reste une interprétation."
+  - "A26 et A29 (F51) disent que la banque centrale appartient aux États de l'Union : pour la Banque de France, le capital est détenu par l'État français ; je n'ai pas ouvert de source sur ce point, à vérifier."
+  - "Le communiqué S8 donne le report à nouveau 2024 (-7,7 Md€) ; je n'ai pas de source sur le montant exact versé à l'État en 2025 au titre des dividendes."

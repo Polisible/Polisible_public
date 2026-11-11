@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '4'
+phase: '6'
 passage: 4
 phases:
   '1':
@@ -40,6 +40,15 @@ phases:
     debut: '2026-11-11T00:52:32'
     passages: 1
     note: 'passage 3 de confrontation (dernier), ciblé : 5 experts'
+    fin: '2026-11-11T00:54:24'
+  '5':
+    debut: '2026-11-11T00:54:37'
+    passages: 1
+    fin: '2026-11-11T00:54:37'
+    note: plafond de 3 passages atteint, condition 1 non remplie
+  '6':
+    debut: '2026-11-11T00:54:38'
+    passages: 1
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -256,6 +265,16 @@ agents:
   jetons: 67292
   outils: 5
   duree_ms: 30531
+- phase: '4'
+  agent: expert-centre
+  jetons: 74478
+  outils: 5
+  duree_ms: 56532
+- phase: '4'
+  agent: expert-gauche-radicale
+  jetons: 78525
+  outils: 9
+  duree_ms: 84457
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -597,4 +616,40 @@ incertitudes:
     les sources du dossier.
 - agent: expert-sociaux-democrates
   texte: Le partage des pertes entre banques centrales de l'Eurosystème (A5) n'est pas établi au dossier.
+- agent: expert-centre
+  texte: Le rythme de baisse du stock de titres français de l'Eurosystème (F31) et les échéances de 2026 et 2027
+    ne sont pas chiffrés ici ; j'affirme le sens de l'évolution, pas son ampleur.
+- agent: expert-centre
+  texte: La voie juridique de la proposition de 2026 (loi nationale, démarche européenne) n'est pas établie par
+    le lot ; a3 raisonne sous condition.
+- agent: expert-centre
+  texte: F48 porte sur le PEPP ; le PSPP est traité par un autre calendrier de réinvestissements que je n'ai pas
+    vérifié.
+- agent: expert-droite
+  texte: Aucun contre-argument ne visant mes arguments, je n'ai rien défendu ni corrigé.
+- agent: expert-droite
+  texte: La valeur déposée pour Q46 est une position de principe de ma famille ; aucune source du lot ne l'attribue
+    à un parti LR précis, elle peut être écartée si le coordinateur l'exige.
+- agent: expert-extreme-gauche
+  texte: 'Aucun contre-argument du lot ne vise mes arguments (repond_a) : rien à défendre.'
+- agent: expert-extreme-gauche
+  texte: La correction de A16 retire une conclusion non sourcée ; je n'ai ouvert aucune nouvelle source pour ce
+    passage.
+- agent: expert-extreme-gauche
+  texte: Je n'ai pas vérifié la fourchette 111,9 à 211 milliards au-delà de ce que rapporte le lot (explication
+    de F42).
+- agent: expert-gauche-radicale
+  texte: Le point 146 de l'arrêt Weiss (S3) a été relu sur EUR-Lex ; son poids pour la question de l'annulation
+    reste une interprétation.
+- agent: expert-gauche-radicale
+  texte: 'A26 et A29 (F51) disent que la banque centrale appartient aux États de l''Union : pour la Banque de France,
+    le capital est détenu par l''État français ; je n''ai pas ouvert de source sur ce point, à vérifier.'
+- agent: expert-gauche-radicale
+  texte: Le communiqué S8 donne le report à nouveau 2024 (-7,7 Md€) ; je n'ai pas de source sur le montant exact
+    versé à l'État en 2025 au titre des dividendes.
+- agent: expert-sociaux-democrates
+  texte: La part exacte de la Banque de France dans la catégorie « autres français » n'est pas isolée ; 18 % vient
+    de Public Sénat (niveau 4).
+- agent: expert-sociaux-democrates
+  texte: L'effet de fonds propres durablement négatifs sur la BCE n'est chiffré par aucune source du dossier.
 examen_obligatoire: true

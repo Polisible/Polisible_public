@@ -87,8 +87,8 @@
 - id: A4
   question: Q45
   position: pour
-  enonce: Oui. Même détenue par la banque centrale, la dette a été achetée à des investisseurs, qui ont été payés
-    avec de la monnaie créée ; l'effacer unilatéralement porterait atteinte à la signature de la France.
+  enonce: 'Oui. Les titres détenus par la banque centrale sont des titres de l''État comme les autres : ils arrivent
+    à échéance et sont remboursés, et les effacer unilatéralement porterait atteinte à la signature de la France.'
   porte_par:
   - qui: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette)'
     parti: Horizons
@@ -394,9 +394,10 @@
 - id: A16
   question: Q43
   position: contre
-  enonce: 'Annuler la part détenue par la Banque de France ne réduirait pas durablement la charge réelle de l''État
-    : l''État étant actionnaire de la banque centrale, les intérêts qu''il lui verse lui reviennent. La charge qui
-    pèse sur les contribuables est celle versée aux banques, assurances et investisseurs privés, nationaux et étrangers.'
+  enonce: 'Annuler la part détenue par la Banque de France pourrait réduire la charge réelle de l''État de moins
+    que son montant brut : l''État étant actionnaire de la banque centrale, une partie des intérêts qu''il lui verse
+    lui revient (impôt, dividende). L''ampleur de ce recul n''est chiffrée par aucune source du dossier. La charge
+    qui pèse sur les contribuables est surtout celle versée aux créanciers privés, nationaux et étrangers.'
   porte_par:
   - qui: Tendance CLAIRE (courant du NPA)
     parti: NPA
@@ -436,10 +437,11 @@
 - id: A18
   question: Q47
   position: nuance
-  enonce: Les marges budgétaires se trouvent d'abord dans les recettes tirées des profits et dans l'arrêt des aides
-    aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que la dette
-    est celle de la bourgeoisie et que c'est à elle de la payer, sans proposer d'annulation d'une part précise ;
-    le montant des aides cité par LO (270 milliards d'euros) n'est pas établi par une source officielle.
+  enonce: 'Les marges budgétaires se trouvent d''abord dans les recettes tirées des profits et dans l''arrêt des
+    aides aux entreprises, non dans les économies sur les budgets utiles à la population. Lutte ouvrière dit que
+    la dette est celle de la bourgeoisie et que c''est à elle de la payer, sans proposer d''annulation d''une part
+    précise. Le montant des aides qu''elle cite (270 milliards d''euros) n''est établi par aucune source officielle
+    : les estimations publiques connues vont de 111,9 à 211 milliards selon le périmètre.'
   porte_par:
   - qui: Lutte ouvrière, campagne de Nathalie Arthaud
     parti: LO
@@ -477,10 +479,12 @@
 - id: A20
   question: Q41
   position: pour
-  enonce: 'Aucun texte des traités n''interdit expressément le gel en dette perpétuelle à taux nul de titres que
-    l''Eurosystème détient déjà : l''article 123 interdit crédits et achats directs aux États, pas le sort ultérieur
-    de titres achetés sur le marché. La Cour de justice n''a pas tranché ce cas et des responsables publics le jugent
-    contraire aux traités : la compatibilité est une interprétation juridique, que LFI soutient.'
+  enonce: 'Aucun texte des traités ne mentionne l''annulation ni la conversion en dette perpétuelle de titres que
+    l''Eurosystème détient déjà : l''article 123 interdit crédits et achats directs aux États. Les arrêts Gauweiler
+    et Weiss valident les achats sur le marché secondaire sous garanties ; ils ne tranchent pas le sort ultérieur
+    des titres, et l''arrêt Weiss relève que leur conservation jusqu''à l''échéance n''implique aucune renonciation
+    au paiement. La compatibilité d''une conversion, qui relèverait du conseil des gouverneurs de la BCE, est donc
+    une interprétation juridique que LFI soutient, non un point jugé.'
   porte_par:
   - qui: Jean-Luc Mélenchon et les députés LFI signataires de la proposition de résolution n° 2914 (11 mai 2020)
     parti: LFI
@@ -534,8 +538,9 @@
   question: Q42
   position: contre
   enonce: Selon LFI, l'opération ne ferait pas monter les taux, puisqu'elle ne vise que la part de l'Eurosystème
-    et que les créanciers privés sont remboursés intégralement. Il s'agit d'une estimation de ses auteurs, contestée
-    par des économistes cités par la presse ; aucune institution n'a chiffré l'effet sur les taux.
+    et que les créanciers privés sont remboursés intégralement. Cette estimation de ses auteurs ne répond pas à
+    l'argument du précédent juridique ; elle est contestée par des économistes cités par la presse et aucune institution
+    n'a chiffré l'effet sur les taux.
   porte_par:
   - qui: Jean-Luc Mélenchon, universités d'été de LFI et déclarations d'août 2026
     parti: LFI
@@ -590,9 +595,9 @@
 - id: A24
   question: Q43
   position: pour
-  enonce: Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières,
-    dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend des bénéfices
-    que la Banque de France lui reverse (voir A23).
+  enonce: Selon le PCF, l'annulation de la part détenue par la banque centrale dégagerait des marges financières
+    brutes, dont le montant n'est chiffré ni par le parti ni par une institution. Le gain net pour l'État dépend
+    des reversements de la Banque de France, qui varient d'une année à l'autre (voir A23).
   porte_par:
   - qui: Fabien Roussel, groupe GDR, débat à l'Assemblée nationale du 22 mars 2021
     parti: PCF
@@ -783,9 +788,10 @@
 - id: A33
   question: Q44
   position: contre
-  enonce: 'Une banque centrale qui efface des créances peut fonctionner avec des fonds propres négatifs : sa capacité
-    à conduire la politique monétaire ne serait donc pas entamée. L''indépendance serait préservée si la décision
-    est prise par la BCE elle-même.'
+  enonce: La BCE affirme pouvoir remplir son mandat malgré des pertes (F58) ; des fonds propres durablement négatifs
+    ne sont pas chiffrés par une institution. Si l'effacement est décidé par le conseil des gouverneurs lui-même,
+    aucune instruction d'un gouvernement n'est donnée (F3, F5) ; l'argument ne vaut pas pour un effacement imposé
+    par un État.
   porte_par:
   - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
     parti: Place publique
@@ -1003,7 +1009,7 @@
   repond_a: A34
   auteur: expert-droite
   passage: 3
-  statut: ouvert
+  statut: conteste
 - id: A43
   question: Q45
   position: contre
@@ -1023,7 +1029,7 @@
   repond_a: A4
   auteur: expert-extreme-gauche
   passage: 3
-  statut: ouvert
+  statut: conteste
 - id: A44
   question: Q42
   position: contre
@@ -1045,7 +1051,7 @@
   repond_a: A2
   auteur: expert-gauche-radicale
   passage: 3
-  statut: ouvert
+  statut: conteste
 - id: A45
   question: Q44
   position: contre
@@ -1068,7 +1074,7 @@
   repond_a: A3
   auteur: expert-gauche-radicale
   passage: 3
-  statut: ouvert
+  statut: conteste
 - id: A46
   question: Q41
   position: pour
@@ -1132,7 +1138,7 @@
   repond_a: A3
   auteur: expert-sociaux-democrates
   passage: 3
-  statut: ouvert
+  statut: conteste
 - id: A49
   question: Q45
   position: contre
@@ -1150,4 +1156,122 @@
   repond_a: A4
   auteur: expert-sociaux-democrates
   passage: 3
+  statut: ouvert
+- id: A50
+  question: Q45
+  position: pour
+  enonce: 'Les vendeurs des titres ont bien été payés, mais cela ne fait pas de la part détenue par l''Eurosystème
+    une dette qui ne serait jamais remboursée : ces titres arrivent à échéance comme les autres et l''État les rembourse.'
+  porte_par:
+  - qui: 'Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette)'
+    parti: Horizons
+    source: S17
+  affirmations:
+  - F48
+  - F31
+  - F24
+  raisonnement: 'A43 et A49 ont raison sur un point : les vendeurs n''ont plus de créance, et le créancier actuel
+    est la banque centrale. Mais A43 en conclut que cette part est à part. Or l''Eurosystème ne réinvestit plus
+    les titres arrivés à échéance depuis la fin de 2024 pour le PEPP (F48), et son stock baisse au fil de 2026 (F31)
+    : cette part est déjà remboursée par l''État à chaque échéance, au même titre que les autres. Un titre de dette
+    garde les mêmes conditions quel que soit son détenteur ; ne pas honorer celles-ci pour une seule catégorie de
+    détenteurs modifie le contrat après coup. Que le marché assimile ou non cette part aux autres reste une estimation,
+    pas une certitude (voir Q42).'
+  repond_a: A43
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+- id: A51
+  question: Q42
+  position: pour
+  enonce: 'A44 et A47 supposent que la décision serait prise par le conseil des gouverneurs de la BCE. Or la proposition
+    débattue en 2026 vient d''un acteur politique national, et la présidente de la BCE juge l''opération contraire
+    aux traités : le scénario sans signal de rupture n''est pas celui qui est proposé.'
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F27
+  - F46
+  - F5
+  - F9
+  - F26
+  raisonnement: 'Si le conseil des gouverneurs décidait lui-même (F5), le signal serait différent, comme le disent
+    A44 et A47. Mais ce scénario suppose que la BCE change de position : sa présidente affirme l''inverse (F27,
+    F11, F13, F14), et la proposition est portée par un parti national (F46). Tant que la décision dépend d''un
+    gouvernement ou d''une loi nationale, les prêteurs évaluent le scénario qui est sur la table, pas celui qui
+    supposerait l''accord de la BCE. Même dans le scénario où la BCE déciderait, il reste à savoir si les prêteurs
+    y verraient un contournement de l''interdiction du financement monétaire (F9) ; aucune estimation n''existe
+    dans un sens ou dans l''autre (F26).'
+  repond_a: A44
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+- id: A52
+  question: Q44
+  position: pour
+  enonce: 'Une demande politique que la BCE serait libre de refuser n''est pas une instruction. Mais si l''effacement
+    passe par une loi nationale visant les titres de la Banque de France, il ne s''agit plus d''une demande : l''État
+    impose, et le traité interdit à une banque centrale nationale d''accepter des instructions de son gouvernement.'
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F3
+  - F4
+  - F5
+  raisonnement: 'A45 distingue demande et instruction (F3) ; la distinction vaut tant que le conseil des gouverneurs
+    reste libre (F5). Elle ne vaut pas pour une loi : F4 oblige chaque État à rendre sa législation compatible avec
+    les statuts de sa banque centrale et du SEBC, de sorte qu''une loi qui modifierait le bilan de la Banque de
+    France relèverait de ce contrôle de compatibilité. A45 ne dit pas quelle voie suit la proposition ; l''atteinte
+    à l''indépendance dépend donc de la voie choisie, et non de la seule existence d''une demande.'
+  repond_a: A45
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+- id: A53
+  question: Q44
+  position: pour
+  enonce: A48 conditionne l'atteinte à la crédibilité à la contrariété aux traités, jugée invérifiable (F27). Mais
+    la crédibilité d'une monnaie dépend de ce que les marchés croient, et une légalité contestée suffit à créer
+    un doute tant qu'aucun juge n'a tranché.
+  porte_par:
+  - qui: Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)
+    parti: Renaissance
+    source: S16
+  affirmations:
+  - F27
+  - F9
+  raisonnement: 'F27 est invérifiable : aucune décision de la CJUE n''a tranché, et une telle décision n''interviendrait
+    qu''après l''opération. Pour la crédibilité, ce qui compte est la perception de ceux qui détiennent des euros
+    ou des titres, pas le verdict final d''un juge. Entre l''annonce et l''arrêt, le doute porte sur le respect
+    de l''interdiction du financement monétaire (F9), qui fonde la confiance dans la monnaie commune. A48 a raison
+    de dire que l''atteinte n''est pas établie ; elle n''est pas non plus écartée.'
+  repond_a: A48
+  auteur: expert-centre
+  passage: 4
+  statut: ouvert
+- id: A54
+  question: Q45
+  position: contre
+  enonce: 'A42 a raison que 24,4 % (F17) englobe plus que la Banque de France ; mais l''argument ne dépend pas de
+    ce chiffre : il porte sur la nature du créancier, et la part visée par la proposition en débat est évaluée à
+    18 % dans le texte de Public Sénat (F46).'
+  porte_par:
+  - qui: Aurore Lalucq, députée européenne (tribune collective, février 2021)
+    parti: Place publique
+    source: S43
+  affirmations:
+  - F46
+  - F16
+  - F24
+  raisonnement: 'A34 écrit déjà que la catégorie n''est pas limitée à la Banque de France ; la conclusion « ne pas
+    rembourser intégralement » repose sur la nature publique du créancier (F24 : les vendeurs ont été payés), non
+    sur le pourcentage. Que la part soit de 18 % ou de près d''un quart (F16, ordre de grandeur sourcé), le raisonnement
+    est le même ; F17 ne sert qu''à situer l''ordre de grandeur.'
+  repond_a: A42
+  auteur: expert-sociaux-democrates
+  passage: 4
   statut: ouvert

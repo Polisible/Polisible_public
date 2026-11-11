@@ -319,3 +319,46 @@
   agent: coordinateur
   phase: '4'
   action: début du passage 4
+- date: '2026-11-11T00:54:22'
+  agent: expert-centre
+  phase: '4'
+  action: 'a ajouté A50, A51, A52, A53, corriger A4 ; incertitudes signalées : 3'
+- date: '2026-11-11T00:54:22'
+  agent: expert-droite
+  phase: '4'
+  action: 'a ajouté V28, V29, V30 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:54:23'
+  agent: expert-extreme-gauche
+  phase: '4'
+  action: 'a ajouté V31, corriger A16, corriger A18 ; incertitudes signalées : 3'
+- date: '2026-11-11T00:54:23'
+  agent: expert-gauche-radicale
+  phase: '4'
+  action: 'a ajouté V32, corriger A20, corriger A22, corriger A24 ; incertitudes signalées : 3'
+- date: '2026-11-11T00:54:24'
+  agent: expert-sociaux-democrates
+  phase: '4'
+  action: 'a ajouté A54, V33, corriger A33 ; incertitudes signalées : 2'
+- date: '2026-11-11T00:54:24'
+  agent: coordinateur
+  phase: '4'
+  action: fin de la phase 4
+- date: '2026-11-11T00:54:37'
+  agent: coordinateur
+  phase: '5'
+  action: debut de la phase 5
+- date: '2026-11-11T00:54:37'
+  agent: coordinateur
+  phase: '5'
+  action: 'Plafond de 3 passages de confrontation atteint (décision du fondateur). Condition d''arrêt 1 non remplie
+    : le passage 3 a apporté 5 contre-arguments (A50 à A54). Conditions 2 et 3 remplies : objection O1 tranchée
+    ; chaque question a au moins deux positions argumentées. Aucun désaccord bloqué à remonter ; aucune alerte de
+    boucle (pas d''objection répétée sans élément nouveau). Dossier déclaré stable au plafond.'
+- date: '2026-11-11T00:54:37'
+  agent: coordinateur
+  phase: '5'
+  action: fin de la phase 5 (plafond de 3 passages atteint, condition 1 non remplie)
+- date: '2026-11-11T00:54:38'
+  agent: coordinateur
+  phase: '6'
+  action: debut de la phase 6

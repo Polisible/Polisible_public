@@ -11,9 +11,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
 | 3-bis. Vérification | 2026-11-10T21:16:23 | 2026-11-10T21:23:28 | 7 min 05 s | 1 | 7 | 296601 |  |
-| 4. Confrontation | 2026-11-10T21:23:28 | 2026-11-11T00:52:16 | 208 min 48 s | 1 | 17 | 655522 | passage 1 de confrontation (sur 3 au plus), 7 experts |
+| 4. Confrontation | 2026-11-10T21:23:28 | 2026-11-11T00:52:16 | 208 min 48 s | 1 | 19 | 808525 | passage 1 de confrontation (sur 3 au plus), 7 experts |
 | 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 1 | 22373 | objection O1 et éléments du passage 1 de confrontation |
-| 4-bis. Confrontation | 2026-11-11T00:52:32 | — | — | 1 | 0 | — | passage 3 de confrontation (dernier), ciblé : 5 experts |
+| 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation (dernier), ciblé : 5 experts |
+| 5. Stabilisation | 2026-11-11T00:54:37 | 2026-11-11T00:54:37 | 0 min 00 s | 1 | 0 | — | plafond de 3 passages atteint, condition 1 non remplie |
+| 6. Rédaction | 2026-11-11T00:54:38 | — | — | 1 | 0 | — |  |
 
 ## Par agent
 
@@ -62,3 +64,5 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-droite | 65772 | 4 | 0 min 22 s |
 | 4 | expert-sociaux-democrates | 66424 | 4 | 0 min 26 s |
 | 4 | expert-extreme-gauche | 67292 | 5 | 0 min 30 s |
+| 4 | expert-centre | 74478 | 5 | 0 min 56 s |
+| 4 | expert-gauche-radicale | 78525 | 9 | 1 min 24 s |
