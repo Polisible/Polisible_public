@@ -393,6 +393,8 @@
     - categorie: parlement
       ou: recherche web sur Sénat et Assemblée, 2026
       resultat: aucun texte, amendement ou vote identifié
+    partis: &id001
+    - LR
   - auteur: expert-extreme-droite
     lieux_consultes:
     - categorie: programme
@@ -410,6 +412,10 @@
     - categorie: parlement
       ou: recherche web sur propositions de loi, amendements, questions au gouvernement 2025-2026
       resultat: rien trouvé de l'UDR ou du RN sur ce point
+    partis: &id002
+    - REC
+    - RN
+    - UDR
   - auteur: expert-extreme-gauche
     lieux_consultes:
     - categorie: programme
@@ -431,6 +437,9 @@
         sur la dette et la Banque de France'
       resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
         européens.
+    partis: &id003
+    - LO
+    - NPA
 - id: Q42
   enonce: Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
   type: estimation
@@ -467,6 +476,7 @@
     - categorie: parlement
       ou: recherche web Sénat et Assemblée, 2026
       resultat: rien identifié
+    partis: *id001
   - auteur: expert-ecologistes
     lieux_consultes:
     - categorie: programme
@@ -484,6 +494,8 @@
       ou: recherche web sur assemblee-nationale.fr (amendements, comptes rendus)
       resultat: aucun texte du groupe écologiste trouvé ; l'amendement 1047 au projet de loi de finances est de
         La France insoumise ; Sénat et Parlement européen non consultés
+    partis: &id004
+    - LE
   - auteur: expert-extreme-droite
     lieux_consultes:
     - categorie: programme
@@ -498,6 +510,7 @@
     - categorie: parlement
       ou: recherche web sur textes et questions 2025-2026
       resultat: rien trouvé
+    partis: *id002
   - auteur: expert-extreme-gauche
     lieux_consultes:
     - categorie: programme
@@ -519,6 +532,7 @@
         sur la dette et la Banque de France'
       resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
         européens.
+    partis: *id003
   - auteur: expert-sociaux-democrates
     lieux_consultes:
     - categorie: programme
@@ -537,6 +551,9 @@
       ou: Assemblée nationale, comptes rendus et amendements ; Parlement européen
       resultat: aucun texte socialiste sur ce point trouvé ; tribune de 2021 d'A. Lalucq muette sur l'effet sur
         les taux
+    partis: &id005
+    - PP
+    - PS
 - id: Q43
   enonce: L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts que la
     Banque de France reverse à l'État ?
@@ -575,6 +592,11 @@
     - categorie: parlement
       ou: recherche web sur propositions de loi, amendements, débat demandé par LFI le 9 septembre 2026 (LCP)
       resultat: aucun texte du Centre trouvé sur ce point
+    partis:
+    - HOR
+    - MoDem
+    - RE
+    - UDI
   - auteur: expert-droite
     lieux_consultes:
     - categorie: programme
@@ -589,6 +611,7 @@
     - categorie: parlement
       ou: recherche web Sénat et Assemblée, 2026
       resultat: rien identifié ; rapport sénatorial S10 (2025) cité en bibliothèque, non posé comme position LR
+    partis: *id001
   - auteur: expert-ecologistes
     lieux_consultes:
     - categorie: programme
@@ -605,6 +628,7 @@
     - categorie: parlement
       ou: recherche web sur assemblee-nationale.fr
       resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+    partis: *id004
   - auteur: expert-sociaux-democrates
     lieux_consultes:
     - categorie: programme
@@ -620,6 +644,7 @@
     - categorie: parlement
       ou: Assemblée nationale, Sénat, Parlement européen
       resultat: rien trouvé ; la tribune de 2021 ne traite pas des reversements de la Banque de France
+    partis: *id005
 - id: Q44
   enonce: Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la BCE ?
   type: estimation
@@ -652,6 +677,7 @@
     - categorie: parlement
       ou: recherche web Sénat et Assemblée, 2026
       resultat: rien identifié
+    partis: *id001
   - auteur: expert-ecologistes
     lieux_consultes:
     - categorie: programme
@@ -669,6 +695,7 @@
     - categorie: parlement
       ou: recherche web sur assemblee-nationale.fr
       resultat: aucun texte du groupe écologiste trouvé ; Sénat et Parlement européen non consultés
+    partis: *id004
   - auteur: expert-extreme-droite
     lieux_consultes:
     - categorie: programme
@@ -684,6 +711,7 @@
     - categorie: parlement
       ou: recherche web 2025-2026
       resultat: rien trouvé
+    partis: *id002
   - auteur: expert-extreme-gauche
     lieux_consultes:
     - categorie: programme
@@ -705,6 +733,7 @@
         sur la dette et la Banque de France'
       resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
         européens.
+    partis: *id003
 - id: Q45
   enonce: Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque centrale
     ?
@@ -736,6 +765,7 @@
     - categorie: parlement
       ou: recherche web 2025-2026
       resultat: rien trouvé
+    partis: *id002
 - id: Q46
   enonce: Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que des
     règles européennes ?
@@ -764,6 +794,7 @@
     - categorie: parlement
       ou: recherche web Sénat et Assemblée, 2026
       resultat: rien identifié
+    partis: *id001
   - auteur: expert-extreme-gauche
     lieux_consultes:
     - categorie: programme
@@ -785,6 +816,7 @@
         sur la dette et la Banque de France'
       resultat: Aucun texte de LO ou du NPA trouvé ; je n'ai pas vérifié par source l'absence d'élus nationaux ou
         européens.
+    partis: *id003
 - id: Q47
   enonce: Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux économies,
     à la hausse des recettes ou à la recherche de croissance ?

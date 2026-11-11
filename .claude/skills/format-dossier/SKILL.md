@@ -5,6 +5,8 @@ description: Comment un agent Polisible écrit son apport dans le dossier partag
 
 # Écrire dans le dossier
 
+Le format de chaque champ est fixé par `docs/format-fiche.md` (dates, sigles des partis, porteur, positions, longueurs) : l'outil refuse tout écart.
+
 Tu n'écris **que** le fichier de dépôt que le coordinateur t'a indiqué (`fiches/<fiche>/dossier/entrees/<agent>-passage<N>.yaml`). Tu ne modifies jamais les fichiers officiels du dossier (`questions.yaml`, `arguments.yaml`…) : l'outil `outils/dossier.py` les fusionne et numérote.
 
 **Références.** Dans ton dépôt, nomme tes nouveaux éléments avec des références locales en minuscules (`s1`, `f1`, `a1`). Pour viser un élément déjà au dossier, utilise son identifiant global (`S4`, `F2`, `A7`, `Q1`). Une source déjà au dossier (même adresse) est reconnue automatiquement.
@@ -33,11 +35,13 @@ affirmations:                 # une affirmation = un seul type
 arguments:
   - ref: a1
     question: Q1
-    position: contre          # pour (oui) | contre (non) | nuance
-    enonce: "L'argument en deux phrases, dans sa meilleure version."
-    raisonnement: "Pourquoi les affirmations mènent à la conclusion."
+    position: non             # oui | non | nuance : réponse à la QUESTION, pas à la mesure
+    enonce: "La thèse, à l'indicatif, sans « selon X » (2 phrases, 50 mots)."
+    raisonnement: "Pourquoi les affirmations mènent à la thèse, en citant f1, F3 (3 phrases, 70 mots)."
     porte_par:                # qui défend réellement cet argument, d'après ses propres textes
-      - {qui: "Personne ou groupe", parti: "LR", source: s2}   # parti de TA famille ; autre parti : parti_hors_liste: true, justification
+      - {personne: "Prénom Nom", fonction: "sénateur", parti: LR, date: "2026-10-12", source: s2}
+      # parti : sigle de la liste ; fonction au moment de la déclaration ; personne vide si c'est le parti
+      # appartenance: sX si la source de la déclaration n'établit pas le parti de la personne
     affirmations: [f1]
     repond_a: A3              # seulement pour un contre-argument (phase 4)
 objections:                   # phase 4, uniquement de nature « fait »
@@ -48,14 +52,16 @@ objections:                   # phase 4, uniquement de nature « fait »
     ce_que_la_source_ne_dit_pas: "…"
 examen:                       # phase 4 : une ligne par question, obligatoire
   - {question: Q41, conclusion: "A3 conclut X, mais F12 ne porte que sur Y (contre-argument a1)."}
-corrections:                  # phase 4, sur TES arguments seulement
-  - {vise: A1, action: retirer}            # ou {vise: A1, action: corriger, enonce: "…"}
-valeurs:                      # désaccords de valeur : pas des objections
-  - {question: Q1, enonce: "Ce que ta famille met en priorité, sans verdict."}
+corrections:                  # sur TES arguments et valeurs seulement
+  - {vise: A1, action: retirer}
+  - {vise: A2, action: corriger, enonce: "…", raisonnement: "…", position: oui, porte_par: [ … ]}  # champs utiles seulement
+valeurs:                      # même règle de porteur que les arguments
+  - {question: Q1, enonce: "Priorité à … (1 phrase, 30 mots).", porte_par: [{parti: LR, date: "2026-10", source: s2}]}
 questions_proposees:          # phase 1 (cadrage) uniquement
   - {enonce: "Question fermée ?", type: estimation, pourquoi: "Une phrase."}
 sans_position:                # après la recherche minimale (les 4 catégories)
   - question: Q2
+    partis: [LR]
     lieux_consultes:
       - {categorie: programme, ou: "programme 2027 du parti", resultat: "rien sur ce point"}
       - {categorie: site, ou: "communiqués 2026", resultat: "…"}

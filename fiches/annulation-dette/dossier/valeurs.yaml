@@ -4,30 +4,45 @@
   enonce: La famille Centre met en priorité la crédibilité de la signature de l'État et le respect des engagements
     pris, y compris quand le détenteur est une banque centrale.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V2
   question: Q46
   auteur: expert-centre
   enonce: Elle met en priorité le respect des règles communes de la zone euro, vues comme une protection pour tous
     les États membres plutôt que comme une contrainte.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V3
   question: Q47
   auteur: expert-centre
   enonce: Elle préfère les leviers durables (économies, compétitivité, croissance) à une opération comptable qu'elle
     juge sans marge réelle ni sécurité juridique.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V4
   question: Q45
   auteur: expert-droite
   enonce: 'Pour cette famille, la parole donnée de l''État est un principe : honorer ses dettes est la condition
     de la confiance des citoyens et des prêteurs, quel que soit le créancier.'
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V5
   question: Q47
   auteur: expert-droite
   enonce: Pour cette famille, la priorité est la maîtrise de la dépense publique et le retour à l'équilibre ; une
     marge obtenue par effacement de dette ne remplace pas la réforme de l'État.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V6
   question: Q45
   auteur: expert-ecologistes
@@ -35,42 +50,63 @@
     et la justice sociale ; ils jugent que le principe de remboursement intégral s'efface quand le créancier est
     l'institution monétaire publique.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V7
   question: Q46
   auteur: expert-ecologistes
   enonce: Ils mettent en priorité la souveraineté démocratique face aux marchés financiers, exercée à l'échelle
     européenne plutôt que nationale seule, avec des règles révisées pour intégrer les limites planétaires.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V8
   question: Q47
   auteur: expert-ecologistes
   enonce: 'Ils refusent d''opposer les leviers : justice fiscale, investissement climatique et marges dégagées sur
     la dette sont jugés complémentaires, l''usage de l''argent comptant plus que le levier choisi.'
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V9
   question: Q46
   auteur: expert-extreme-droite
   enonce: Le RN met en priorité la décision du peuple français et la primauté du droit national ; il ne se prononce
     pas, dans les sources trouvées, sur l'articulation de cette primauté avec les règles européennes sur la dette.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V10
   question: Q45
   auteur: expert-extreme-gauche
   enonce: Lutte ouvrière met en priorité que la dette de l'État soit payée par la bourgeoisie et les banques, qui
     en profitent, non par les travailleurs (hebdomadaire du 4 septembre 2026).
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V11
   question: Q47
   auteur: expert-extreme-gauche
   enonce: L'extrême gauche met en priorité le refus de l'austérité pour les travailleurs, quelle que soit la voie
     choisie (annulation, taxation des profits, fin des aides aux entreprises).
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V12
   question: Q44
   auteur: expert-gauche-radicale
   enonce: LFI juge que l'indépendance de la BCE, telle que fixée par les traités et statuts, est problématique et
     contraire à l'intérêt général ; elle met en priorité le contrôle démocratique de la politique monétaire.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V13
   question: Q45
   auteur: expert-gauche-radicale
@@ -78,54 +114,81 @@
     créanciers privés dont des épargnants : il met en priorité la protection de ces derniers et la fin de la dépendance
     aux marchés financiers.'
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V14
   question: Q46
   auteur: expert-gauche-radicale
   enonce: 'LFI et le PCF mettent en priorité la maîtrise démocratique de l''endettement ; ils divergent sur la méthode
     (LFI : exiger le changement des règles ; PCF : démarche collective européenne et changement des traités).'
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V15
   question: Q45
   auteur: expert-sociaux-democrates
   enonce: Place publique (texte de 2021) met en priorité la capacité d'investir dans la transition plutôt que le
     principe du remboursement intégral d'une créance détenue par une institution publique.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V16
   question: Q46
   auteur: expert-sociaux-democrates
   enonce: Place publique (texte de 2021) met en priorité une décision européenne coordonnée plutôt qu'une décision
     nationale isolée.
   passage: 1
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V17
   question: Q45
   auteur: expert-centre
   enonce: 'Le centre met en priorité la continuité de la signature de l''État : un engagement honoré ne se module
     pas selon l''identité du créancier.'
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V18
   question: Q46
   auteur: expert-centre
   enonce: Dans une union monétaire, le centre place la discipline commune au-dessus de la liberté de décision nationale
     sur des actifs détenus en commun.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V19
   question: Q47
   auteur: expert-centre
   enonce: Le centre préfère les économies, l'équilibre des comptes et la compétitivité à l'effacement d'une dette,
     et ne classe pas l'annulation comme levier.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V20
   question: Q45
   auteur: expert-droite
   enonce: 'Notre famille met en priorité la parole donnée par l''État : une dette se rembourse quel que soit le
     créancier, y compris public, car le précédent engage la confiance future.'
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V21
   question: Q47
   auteur: expert-droite
   enonce: Notre famille privilégie la maîtrise de la dépense et le retour à l'excédent primaire plutôt qu'un allègement
     du stock de dette.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V22
   question: Q46
   auteur: expert-extreme-droite
@@ -133,12 +196,18 @@
     par la primauté du droit national et une règle d''or votée par référendum, plutôt que de règles ou de créanciers
     extérieurs.'
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V23
   question: Q47
   auteur: expert-extreme-gauche
   enonce: Mon camp met en priorité la mise à contribution du capital et des profits, et le refus de faire payer
     la dette à la population, plutôt que l'équilibre budgétaire par des économies.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V24
   question: Q45
   auteur: expert-gauche-radicale
@@ -146,30 +215,45 @@
     de celle envers des épargnants et investisseurs privés, que A7 et A4 traitent à égalité au nom de la parole
     de l'État.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V25
   question: Q46
   auteur: expert-gauche-radicale
   enonce: La gauche radicale met en priorité la décision politique démocratique sur les règles fixées par des institutions
     indépendantes ; A5 et A35 mettent en priorité le respect des règles communes de la zone euro.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V26
   question: Q47
   auteur: expert-gauche-radicale
   enonce: La gauche radicale préfère dégager des marges par l'annulation de la part de la banque centrale et par
     les recettes plutôt que par des économies sur la dépense (contre A8 et A14).
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V27
   question: Q45
   auteur: expert-sociaux-democrates
   enonce: Notre famille met en priorité la distinction entre créancier privé, protégé, et banque centrale, institution
     publique, et la conditionnalité de l'effacement à un investissement.
   passage: 3
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V28
   question: Q45
   auteur: expert-droite
   enonce: 'Ma famille met en priorité la continuité des engagements de l''État envers ses contribuables et ses prêteurs
     : une parole donnée ne se redéfinit pas selon l''identité du créancier.'
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V29
   question: Q46
   auteur: expert-droite
@@ -177,12 +261,18 @@
     la banque centrale, plutôt qu'une décision de la dette tranchée seule ; elle ne tire pas pour autant de position
     publique sourcée sur ce point dans le lot.
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V30
   question: Q47
   auteur: expert-droite
   enonce: Ma famille met en priorité la maîtrise de la dépense et le rétablissement d'un excédent primaire avant
     tout allègement du stock de dette.
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V31
   question: Q47
   auteur: expert-extreme-gauche
@@ -190,6 +280,9 @@
     des aides aux entreprises et des créanciers privés, pas des dépenses utiles à la population ; la règle d''or
     et la réduction des dépenses (A8, A14) sont un choix opposé.'
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V32
   question: Q45
   auteur: expert-gauche-radicale
@@ -197,9 +290,15 @@
     épargnant privé : la priorité est de protéger les créanciers privés et de ne pas rembourser une dette que la
     banque centrale détient déjà.'
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'
 - id: V33
   question: Q45
   auteur: expert-sociaux-democrates
   enonce: Ma famille met en priorité la différence entre un créancier privé, qu'on rembourse, et la banque centrale,
     institution publique, assortie d'un engagement d'investir les montants concernés.
   passage: 4
+  porte_par: []
+  a_normaliser:
+  - 'valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »'

@@ -25,7 +25,7 @@ import yaml
 
 RACINE = pathlib.Path(__file__).resolve().parent.parent
 TYPES = {"fait", "estimation", "valeur"}
-POSITIONS = {"pour", "contre", "nuance"}
+POSITIONS = {"oui", "non", "nuance"}  # réponse à la QUESTION (docs/format-fiche.md)
 NATURES = {"fait", "raisonnement"}
 VERDICTS = {
     "fait": {"Vrai", "Plutôt vrai", "Trompeur", "Faux", "Invérifiable"},
@@ -35,16 +35,54 @@ VERDICTS = {
 STATUTS_SOURCE = {"conforme", "non-conforme", "inaccessible"}
 ROLES = {"expert", "verificateur", "bibliothecaire"}
 # Partis de chaque famille (porte_par d'un expert : un parti de SA famille, ou un de ses membres).
-# Un autre parti de la famille : parti_hors_liste: true + justification, signalé au fondateur.
+SIGLES = {  # docs/format-fiche.md, § 2 (liste fermée)
+    "LO": "Lutte ouvrière", "NPA": "Nouveau Parti anticapitaliste", "LFI": "La France insoumise",
+    "PCF": "Parti communiste français", "PS": "Parti socialiste", "PP": "Place publique", "LE": "Les Écologistes",
+    "RE": "Renaissance", "MoDem": "Mouvement démocrate", "HOR": "Horizons", "UDI": "Union des démocrates et indépendants",
+    "LR": "Les Républicains", "RN": "Rassemblement national", "UDR": "Union des droites pour la République",
+    "REC": "Reconquête"}
 FAMILLES = {
-    "expert-extreme-gauche": {"LO", "Lutte ouvrière", "NPA", "NPA-L'Anticapitaliste", "NPA-Révolutionnaires"},
-    "expert-gauche-radicale": {"LFI", "La France insoumise", "PCF", "Parti communiste français"},
-    "expert-sociaux-democrates": {"PS", "Parti socialiste", "Place publique"},
-    "expert-ecologistes": {"Les Écologistes", "EELV"},
-    "expert-centre": {"Renaissance", "MoDem", "Horizons", "UDI", "Ensemble"},
-    "expert-droite": {"LR", "Les Républicains"},
-    "expert-extreme-droite": {"RN", "Rassemblement national", "UDR", "Reconquête"},
-}
+    "expert-extreme-gauche": {"LO", "NPA"}, "expert-gauche-radicale": {"LFI", "PCF"},
+    "expert-sociaux-democrates": {"PS", "PP"}, "expert-ecologistes": {"LE"},
+    "expert-centre": {"RE", "MoDem", "HOR", "UDI"}, "expert-droite": {"LR"},
+    "expert-extreme-droite": {"RN", "UDR", "REC"}}
+INSTITUTIONS = {"BCE", "Banque de France", "Cour des comptes", "Haut Conseil des finances publiques", "Conseil d'État",
+                "Conseil constitutionnel", "Cour de justice de l'Union européenne", "Commission européenne", "Insee",
+                "Gouvernement"}
+DATE = re.compile(r"^\d{4}(-\d{2}(-\d{2})?)?$")
+LIMITES = {"arg_enonce": (2, 50), "arg_raisonnement": (3, 70), "aff_enonce": (1, 40), "explication": (3, 70),
+           "valeur": (1, 30)}
+
+
+def trop_long(texte, cle):
+    phrases, mots = LIMITES[cle]
+    s = str(texte or "")
+    n_phr = len(re.findall(r"[.!?](?:\s|$)", s.strip())) or 1
+    return n_phr > phrases or len(s.split()) > mots
+
+
+def erreurs_porteur(p, agent, ou):
+    """docs/format-fiche.md, § 3."""
+    err = []
+    if not isinstance(p, dict):
+        return [f"{ou} : porteur = {{personne, fonction, parti, date, source}}"]
+    if p.get("personne") and not p.get("fonction"):
+        err.append(f"{ou} : « fonction » obligatoire quand « personne » est renseignée (fonction au moment de la déclaration)")
+    if not DATE.match(str(p.get("date", ""))):
+        err.append(f"{ou} : « date » au format AAAA-MM-JJ, AAAA-MM ou AAAA")
+    if not p.get("source"):
+        err.append(f"{ou} : « source » obligatoire")
+    if p.get("institution"):
+        if p["institution"] not in INSTITUTIONS:
+            err.append(f"{ou} : institution hors liste ({', '.join(sorted(INSTITUTIONS))})")
+        return err
+    fam = FAMILLES.get(agent)
+    if p.get("parti") not in SIGLES:
+        err.append(f"{ou} : « parti » = un sigle de la liste ({', '.join(SIGLES)})")
+    elif fam and p["parti"] not in fam:
+        err.append(f"{ou} : « {p['parti']} » n'est pas un parti de ta famille ({', '.join(sorted(fam))}) ; une institution "
+                   "ou un groupe de réflexion ne porte pas l'argument d'une famille")
+    return err
 # Recherche minimale avant de conclure « sans position » : chaque catégorie doit être consultée.
 LIEUX_MINIMUM = {"programme", "site", "dirigeants", "parlement"}
 STATUTS_OBJ = {"resolue", "remontee-fondateur"}
@@ -141,6 +179,8 @@ def valider_entree(e, exiger_examen=False):
         if role == "verificateur":
             if not ID_GLOBAL.match(str(f.get("id", ""))):
                 err.append(f"affirmation sans id global : {f}")
+            if trop_long(f.get("explication"), "explication"):
+                err.append(f"{f.get('id')} : explication trop longue (3 phrases, 70 mots)")
             if not f.get("explication"):
                 err.append(f"{f.get('id')} : « explication » obligatoire")
             continue
@@ -149,6 +189,10 @@ def valider_entree(e, exiger_examen=False):
                 err.append(f"affirmation {f.get('ref', '?')} : champ « {c} » manquant")
         if f.get("type") not in TYPES:
             err.append(f"affirmation {f.get('ref')} : type doit être {sorted(TYPES)}")
+        if trop_long(f.get("enonce"), "aff_enonce"):
+            err.append(f"affirmation {f.get('ref')} : énoncé trop long (1 phrase, 40 mots)")
+        if f.get("porteur"):
+            err += erreurs_porteur(f["porteur"], e.get("agent"), f"affirmation {f.get('ref')}")
         if DECLARATIF.search(str(f.get("enonce", ""))) and not f.get("declaration"):
             err.append(f"affirmation {f.get('ref')} : énoncé déclaratif (« X a dit que… »). Écris le fond vérifiable ; "
                        "la déclaration va dans porte_par. Si le fait à établir EST la déclaration, ajoute declaration: true")
@@ -170,17 +214,13 @@ def valider_entree(e, exiger_examen=False):
             if not a.get(c):
                 err.append(f"argument {a.get('ref', '?')} : champ « {c} » manquant")
         if a.get("position") not in POSITIONS:
-            err.append(f"argument {a.get('ref')} : position doit être {sorted(POSITIONS)}")
+            err.append(f"argument {a.get('ref')} : position = oui, non ou nuance (réponse à la question, pas à la mesure)")
+        if trop_long(a.get("enonce"), "arg_enonce"):
+            err.append(f"argument {a.get('ref')} : énoncé trop long (2 phrases, 50 mots)")
+        if trop_long(a.get("raisonnement"), "arg_raisonnement"):
+            err.append(f"argument {a.get('ref')} : raisonnement trop long (3 phrases, 70 mots)")
         for p in a.get("porte_par", []) or []:
-            if not isinstance(p, dict) or not p.get("qui") or not p.get("source") or not p.get("parti"):
-                err.append(f"argument {a.get('ref')} : porte_par = liste de {{qui, parti, source}}")
-                continue
-            fam = FAMILLES.get(e.get("agent"))
-            if fam and p["parti"] not in fam and not (p.get("parti_hors_liste") and p.get("justification")):
-                err.append(f"argument {a.get('ref')} : « {p['parti']} » n'est pas un parti de ta famille ({', '.join(sorted(fam))}). "
-                           "Un argument n'est porté que par un parti de ta famille ou un de ses membres ; une institution "
-                           "ou un groupe de réflexion ne porte pas l'argument d'une famille. Autre parti de la famille : "
-                           "parti_hors_liste: true et justification.")
+            err += erreurs_porteur(p, e.get("agent"), f"argument {a.get('ref')}")
         refs.add(a.get("ref"))
     for o in e.get("objections", []) or []:
         if role == "verificateur":
@@ -204,9 +244,22 @@ def valider_entree(e, exiger_examen=False):
                 err.append(f"sources_ajoutees : champ « {c} » manquant ({s.get('adresse')})")
         if len(str(s.get("extrait", ""))) > EXTRAIT_MAX:
             err.append("sources_ajoutees : extrait trop long (une phrase au plus)")
+    for c in e.get("corrections", []) or []:
+        if c.get("position") and c["position"] not in POSITIONS:
+            err.append(f"correction de {c.get('vise')} : position = oui, non ou nuance")
+        if c.get("enonce") and str(c.get("vise", "")).startswith("A") and trop_long(c["enonce"], "arg_enonce"):
+            err.append(f"correction de {c.get('vise')} : énoncé trop long (2 phrases, 50 mots)")
+        if c.get("enonce") and str(c.get("vise", "")).startswith("V") and not str(c["enonce"]).startswith("Priorité à"):
+            err.append(f"correction de {c.get('vise')} : une valeur commence par « Priorité à »")
+        for p in c.get("porte_par", []) or []:
+            err += erreurs_porteur(p, e.get("agent"), f"correction de {c.get('vise')}")
+        if c.get("porteur"):
+            err += erreurs_porteur(c["porteur"], e.get("agent"), f"correction de {c.get('vise')}")
     for x in e.get("sans_position", []) or []:
         if not x.get("question"):
             err.append(f"sans_position : « question » obligatoire ({x})")
+        if not x.get("partis") or not set(x["partis"]) <= set(SIGLES):
+            err.append(f"sans_position sur {x.get('question')} : « partis » = liste des sigles concernés")
         lieux = x.get("lieux_consultes") or []
         vus = {str(l.get("categorie")) for l in lieux if isinstance(l, dict) and l.get("ou") and l.get("resultat")}
         if not LIEUX_MINIMUM <= vus:
@@ -223,6 +276,12 @@ def valider_entree(e, exiger_examen=False):
         elif not str(q["enonce"]).rstrip().endswith("?"):
             err.append(f"questions_proposees : l'énoncé doit être une question fermée (oui ou non) : {q['enonce']}")
     for v in e.get("valeurs", []) or []:
+        if not str(v.get("enonce", "")).startswith("Priorité à") or trop_long(v.get("enonce"), "valeur"):
+            err.append(f"valeur sur {v.get('question')} : commence par « Priorité à », 1 phrase, 30 mots")
+        if not v.get("porte_par"):
+            err.append(f"valeur sur {v.get('question')} : « porte_par » obligatoire, même règle que les arguments")
+        for p in v.get("porte_par", []) or []:
+            err += erreurs_porteur(p, e.get("agent"), f"valeur sur {v.get('question')}")
         if not v.get("question") or not v.get("enonce"):
             err.append(f"valeur : « question » et « enonce » obligatoires ({v})")
     # références locales résolubles
@@ -254,6 +313,43 @@ def lire_entree(chemin):
 
 
 # ---------------------------------------------------------------- fusion
+
+MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre",
+        "novembre", "décembre"]
+
+
+def fmt_date(d):
+    """docs/format-fiche.md, § 1."""
+    d = str(d or "")
+    if not DATE.match(d):
+        return d or "date inconnue"
+    parts = d.split("-")
+    if len(parts) == 1:
+        return parts[0]
+    mois = MOIS[int(parts[1]) - 1]
+    return f"{mois} {parts[0]}" if len(parts) == 2 else f"{int(parts[2])}{'er' if parts[2] == '01' else ''} {mois} {parts[0]}"
+
+
+def fmt_porteur(p):
+    """docs/format-fiche.md, § 3 : une seule forme d'affichage."""
+    src = p["source"] + (f", {p['appartenance']}" if p.get("appartenance") else "")
+    if p.get("institution"):
+        tete = f"**{p['personne']}** ({p['fonction']}, {p['institution']})" if p.get("personne") else f"**{p['institution']}**"
+    elif p.get("personne"):
+        tete = f"**{p['personne']}** ({p.get('fonction', 'fonction non renseignée')}, {p.get('parti', '?')})"
+    else:
+        tete = f"**{p.get('parti', '?')}**"
+    return f"{tete}, {fmt_date(p.get('date'))} [{src}]"
+
+
+def porteur(p, res):
+    out = {k: p[k] for k in ("personne", "fonction", "parti", "institution") if p.get(k)}
+    out["date"] = str(p["date"])
+    out["source"] = res(p["source"])
+    if p.get("appartenance"):
+        out["appartenance"] = res(p["appartenance"])
+    return out
+
 
 def fusionner(fiche, chemin):
     e = lire_entree(chemin)
@@ -300,9 +396,7 @@ def fusionner(fiche, chemin):
         aid = prochain(D["arguments"], "A")
         carte[a["ref"]] = aid
         D["arguments"].append({"id": aid, "question": a["question"], "position": a["position"], "enonce": a["enonce"],
-                               "porte_par": [{"qui": p["qui"], "parti": p["parti"], "source": res(p["source"]),
-                                              **({"parti_hors_liste": True, "justification": p["justification"]}
-                                                 if p.get("parti_hors_liste") else {})} for p in a["porte_par"]],
+                               "porte_par": [porteur(p, res) for p in a["porte_par"]],
                                "affirmations": [res(x) for x in a["affirmations"]],
                                "raisonnement": re.sub(r"\b[a-z]\d+\b", lambda m: carte.get(m.group(0), m.group(0)), a["raisonnement"]),
                                "repond_a": a.get("repond_a"), "auteur": agent, "passage": passage,
@@ -330,7 +424,8 @@ def fusionner(fiche, chemin):
     for x in e.get("sans_position", []) or []:
         for q in D["questions"]:
             if q["id"] == x["question"]:
-                q.setdefault("sans_position", []).append({"auteur": agent, "lieux_consultes": x["lieux_consultes"]})
+                q.setdefault("sans_position", []).append({"auteur": agent, "partis": x["partis"],
+                                                          "lieux_consultes": x["lieux_consultes"]})
                 ajouts.append(f"sans position sur {q['id']}")
     for x in e.get("sources_demandees", []) or []:
         if any(norm_url(s["adresse"]) == norm_url(x["adresse"]) for s in D["sources"]):
@@ -344,16 +439,35 @@ def fusionner(fiche, chemin):
     for v in e.get("valeurs", []) or []:
         vid = prochain(D["valeurs"], "V")
         D["valeurs"].append({"id": vid, "question": v["question"], "auteur": agent, "enonce": v["enonce"],
-                             "passage": passage})
+                             "porte_par": [porteur(p, res) for p in v["porte_par"]], "passage": passage})
         ajouts.append(vid)
-    for c in e.get("corrections", []) or []:  # un expert retire ou corrige SON apport
-        for a in D["arguments"]:
-            if a["id"] == c.get("vise") and a["auteur"] == agent:
+    for c in e.get("corrections", []) or []:  # porteur et questions d'une affirmation (positions d'institutions)
+        for f in D["affirmations"]:
+            if f["id"] == c.get("vise") and f["auteur"] == agent:
+                if c.get("porteur"):
+                    f["porteur"] = porteur(c["porteur"], res)
+                if c.get("questions"):
+                    f["questions"] = c["questions"]
+                f.pop("a_normaliser", None)
+                ajouts.append(f"normaliser {f['id']}")
+    for c in e.get("corrections", []) or []:  # un expert retire ou corrige SON apport (argument ou valeur)
+        for x in D["arguments"] + D["valeurs"]:
+            if x["id"] == c.get("vise") and x["auteur"] == agent:
                 if c.get("action") == "retirer":
-                    a["statut"] = "retire"
-                elif c.get("enonce"):
-                    a["enonce"] = c["enonce"]
-                ajouts.append(f"{c.get('action')} {a['id']}")
+                    x["statut"] = "retire"
+                else:
+                    ancien = {k: x.get(k) for k in ("enonce", "raisonnement", "position", "porte_par") if c.get(k)}
+                    if ancien:
+                        x.setdefault("versions", []).append({"passage": passage, **ancien})
+                    for k in ("enonce", "raisonnement", "position"):
+                        if c.get(k):
+                            x[k] = c[k]
+                    if c.get("porte_par"):
+                        x["porte_par"] = [porteur(p, res) for p in c["porte_par"]]
+                    if c.get("enonce") or c.get("raisonnement"):
+                        x["corrige"] = True
+                    x.pop("a_normaliser", None) if c.get("normalise") else None
+                ajouts.append(f"{c.get('action')} {x['id']}")
     for n, v in D.items():
         ecrire(fiche, n, v)
     inc = e.get("incertitudes") or []
@@ -463,7 +577,7 @@ def lot(fiche, sorte, agent=None, taille=0):
     def vue_court(a):  # confrontation : lisible en entier, sans extraits
         return {"id": a["id"], "auteur": a["auteur"].replace("expert-", ""), "question": a["question"],
                 "position": a["position"], "enonce": a["enonce"], "raisonnement": a.get("raisonnement"),
-                "porte_par": "; ".join(f"{p['qui']} ({p['parti']}, {p['source']})" for p in a["porte_par"]),
+                "porte_par": "; ".join(fmt_porteur(p) for p in a["porte_par"]),
                 "repond_a": a.get("repond_a"),
                 "affirmations": [f"{f} [{affs[f]['type']}, {affs[f]['verdict'] or 'sans verdict'}] {affs[f]['enonce']}"
                                  + (f" — {affs[f]['explication']}" if affs[f]["verdict"] not in ("Vrai", None) else "")
@@ -480,7 +594,27 @@ def lot(fiche, sorte, agent=None, taille=0):
                                   "sources": [{"source": x["source"], "extrait": x["extrait"],
                                                "statut_source": src[x["source"]]["statut"]} for x in affs[f]["sources"]]}
                                  for f in a["affirmations"] if f in affs]}
-    if sorte == "bibliotheque":
+    if sorte == "normalisation":
+        mes = lambda xs: [x for x in xs if x.get("auteur") == agent and x.get("statut") != "retire"]
+        data = {"consigne": "Mets tes éléments au format de docs/format-fiche.md (§ 3, 5, 10) par des `corrections` : "
+                            "position oui/non/nuance par rapport à la question ; porte_par complet (personne, fonction "
+                            "au moment de la déclaration, parti en sigle, date, source, appartenance si la source ne "
+                            "l'établit pas) ; valeurs : « Priorité à… » + porte_par, sinon retirer. "
+                            "Mets normalise: true dans chaque correction.",
+                "questions": {q["id"]: q["enonce"] for q in D["questions"] if q["statut"] == "validee"},
+                "arguments": [{k: a.get(k) for k in ("id", "question", "position", "enonce", "raisonnement",
+                                                       "porte_par", "a_normaliser")} for a in mes(D["arguments"])],
+                "valeurs": [{k: v.get(k) for k in ("id", "question", "enonce", "porte_par", "a_normaliser")}
+                            for v in mes(D["valeurs"])],
+                "affirmations_institutions": [{k: f.get(k) for k in ("id", "enonce", "sources", "porteur")}
+                                              for f in mes(D["affirmations"]) if f.get("declaration")],
+                "sources": {s["id"]: f"{s['titre'][:90]} ({s['auteur']}, {s['date']}) {s['adresse']}"
+                            for s in D["sources"]},
+                "notes_du_verificateur": {s["id"]: s.get("note_verif") for s in D["sources"]
+                                          if s.get("note_verif") and "appartenance" in str(s.get("note_verif")).lower()
+                                          or "parti" in str(s.get("note_verif") or "")}}
+        p = lots / f"normalisation-{agent}.yaml"
+    elif sorte == "bibliotheque":
         data = {"note": "Bibliothèque commune : textes de base de niveau 1 ou 2, vérifiés. Tu peux citer ces ids, "
                         "et tu restes libre de chercher et citer toute autre source.",
                 "affirmations": [{"id": f["id"], "enonce": f["enonce"], "verdict": f["verdict"],
@@ -521,6 +655,41 @@ def lot(fiche, sorte, agent=None, taille=0):
 
 
 # ---------------------------------------------------------------- état
+
+def migrer_format(fiche):
+    """Convertit un dossier antérieur à docs/format-fiche.md. Ce qui demande un jugement est marqué
+    a_normaliser (position à confirmer, fonction ou date manquante, valeur sans porteur)."""
+    noms = {"Renaissance": "RE", "Place publique": "PP", "Les Écologistes": "LE", "Horizons": "HOR", "Reconquête": "REC",
+            "Lutte ouvrière": "LO", "La France insoumise": "LFI", "Les Républicains": "LR", "EELV": "LE",
+            "Rassemblement national": "RN", "Parti socialiste": "PS", "Parti communiste français": "PCF"}
+    A, V, Q = charger(fiche, "arguments"), charger(fiche, "valeurs"), charger(fiche, "questions")
+    n = 0
+    for a in A:
+        if a["position"] in ("pour", "contre"):
+            a["position"] = {"pour": "oui", "contre": "non"}[a["position"]]
+            a["a_normaliser"] = ["position à confirmer (ancienne échelle pour/contre)"]
+        for p in a["porte_par"]:
+            if "qui" in p:
+                qui = p.pop("qui")
+                p["parti"] = noms.get(p.get("parti"), p.get("parti"))
+                p["personne_ou_groupe_ancien"] = qui
+                a.setdefault("a_normaliser", []).append("porteur à reformater (personne, fonction, date)")
+            p.pop("parti_hors_liste", None); p.pop("justification", None)
+        n += 1
+    for v in V:
+        if not v.get("porte_par"):
+            v["porte_par"] = []
+            v["a_normaliser"] = ["valeur sans porteur : attribuer (parti, source) ou retirer ; commencer par « Priorité à »"]
+    fam = {k: sorted(s) for k, s in FAMILLES.items()}
+    for q in Q:
+        for x in q.get("sans_position", []):
+            x.setdefault("partis", fam.get(x["auteur"], []))
+    ecrire(fiche, "arguments", A); ecrire(fiche, "valeurs", V); ecrire(fiche, "questions", Q)
+    journaliser(fiche, "coordinateur", "-", "dossier converti au format de docs/format-fiche.md (positions oui/non, sigles) ; "
+                "éléments à normaliser marqués a_normaliser")
+    print(f"{n} arguments, {len(V)} valeurs convertis ; à normaliser : "
+          f"{sum(1 for a in A if a.get('a_normaliser'))} arguments, {sum(1 for v in V if v.get('a_normaliser'))} valeurs")
+
 
 def cadrage(fiche, chemin):
     """Applique un fichier de cadrage : fusion des questions proposées et décision du fondateur.
@@ -678,7 +847,7 @@ def main():
     x.add_argument("--sujet", required=True); x.add_argument("--validee-par", default="fondateur")
     x = s.add_parser("valider"); x.add_argument("fichier")
     x = s.add_parser("fusionner"); x.add_argument("fiche"); x.add_argument("fichiers", nargs="+")
-    x = s.add_parser("lot"); x.add_argument("fiche"); x.add_argument("sorte", choices=["verif", "confrontation", "redaction", "bibliotheque"])
+    x = s.add_parser("lot"); x.add_argument("fiche"); x.add_argument("sorte", choices=["verif", "confrontation", "redaction", "bibliotheque", "normalisation"])
     x.add_argument("--agent"); x.add_argument("--taille", type=int, default=0)
     x = s.add_parser("etat"); x.add_argument("fiche")
     x = s.add_parser("chrono"); x.add_argument("fiche"); x.add_argument("quand", choices=["debut", "fin"])
@@ -687,6 +856,7 @@ def main():
     x.add_argument("--jetons", type=int); x.add_argument("--outils", type=int); x.add_argument("--duree-ms", type=int)
     x = s.add_parser("passage"); x.add_argument("fiche")
     x = s.add_parser("journal"); x.add_argument("fiche")
+    x = s.add_parser("migrer-format"); x.add_argument("fiche")
     x = s.add_parser("cadrage"); x.add_argument("fiche"); x.add_argument("fichier")
     x = s.add_parser("a-relancer"); x.add_argument("fiche"); x.add_argument("experts", nargs="+")
     a = p.parse_args()
@@ -714,6 +884,8 @@ def main():
         print(f"passage {E['passage']}")
     elif a.cmd == "journal":
         journal_md(a.fiche)
+    elif a.cmd == "migrer-format":
+        migrer_format(a.fiche)
     elif a.cmd == "cadrage":
         cadrage(a.fiche, a.fichier)
     elif a.cmd == "a-relancer":
