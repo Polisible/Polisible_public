@@ -1,0 +1,16 @@
+agent: expert-ecologistes
+phase: 5
+reponses_relances:
+  - relance: R17
+    texte: "Nous n'avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France à l'État (F19, F20). Nous ne la supposons plus établie : A10 est corrigé pour dire que le remboursement oblige à financer la somme ailleurs, et que la marge dépend du solde net des intérêts reversés."
+    elements: [A10]
+  - relance: R24
+    texte: "Nous n'avons pas de source qui chiffre la marge nette, compte tenu des versements de la Banque de France (F19, F20). A12 ne repose pas sur un montant : il pose que l'usage de toute marge éventuelle est le critère (F34, F35). Le chiffrage de cette marge reste non établi (F49) et nous ne l'affirmons pas."
+    elements: [A12]
+corrections:
+  - vise: A10
+    action: corriger
+    enonce: "Un État n'a pas à rembourser intégralement une dette détenue par sa banque centrale : elle n'est pas due à un créancier extérieur à la sphère publique. Si l'annulation dégage une marge nette, celle-ci peut financer des investissements de transition écologique."
+    raisonnement: "Les titres détenus par l'Eurosystème résultent d'achats de politique monétaire (F31), et une part des intérêts revient à l'État (F7, F20). Le remboursement oblige donc à financer la somme ailleurs. L'ampleur de la marge nette n'est pas chiffrée (F41) ; si elle existe, l'Europe a besoin d'investissements supplémentaires (F32), et le parti a déjà lié annulation et reconstruction écologique (F34)."
+incertitudes:
+  - "Aucune estimation institutionnelle de la marge nette n'a été trouvée ; la recherche n'a pas été étendue au-delà du dossier."

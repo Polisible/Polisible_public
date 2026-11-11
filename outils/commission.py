@@ -199,7 +199,7 @@ def lot(fiche, sorte, agent=None):
                 "tes_theses": mes, "questions": base["questions"]}
     else:
         sys.exit("lot inconnu")
-    p = lots / f"commission-{sorte}{'-' + agent if agent else ''}.yaml"
+    X
     p.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False, width=110))
     print(p.relative_to(d.RACINE))
 

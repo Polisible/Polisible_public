@@ -1,0 +1,32 @@
+agent: expert-gauche-radicale
+phase: 5
+reponses_relances:
+  - relance: R2
+    texte: "Je n'ai pas trouvé de décision de la Cour ni d'avis juridique d'institution qui traite l'annulation ou la conversion de titres déjà détenus. Je ne peux pas combler cette lacune : A21 repose sur F1, F2 et F44, qui établissent l'interdiction du financement direct, non son extension à ce cas (F45, F27 Invérifiable)."
+    elements: []
+  - relance: R3
+    texte: "Je n'ai pas de source d'institution qui traite ce cas précis ; A20 corrigé au passage 4 présente déjà la compatibilité comme une interprétation que LFI soutient, non comme un point jugé. Sur T1 (A37) et le scénario d'un gouvernement : je n'ai trouvé aucun texte de LFI ou du PP qui l'écarte ou le traite ; je ne le fabrique pas."
+    elements: []
+  - relance: R5
+    texte: "Je n'ai pas d'estimation d'institution, datée et méthodée, de l'effet sur les taux : F47 reste un avis sans estimation, comme A22 corrigé le dit. Sur T4 (A38, A51), je n'apporte pas de nouveau fait ; le risque de précédent juridique n'est pas écarté par F46, qui ne décrit que le périmètre."
+    elements: []
+  - relance: R8
+    texte: "Je n'ai pas de source qui chiffre la marge nette ; A24 corrigé ne parle plus que de marges brutes, non chiffrées. Sur T7 (A39), je reconnais que le gain net dépend des reversements de la Banque de France (F19, F20) et que le dossier ne l'établit pas (F41)."
+    elements: []
+  - relance: R11
+    texte: "Je n'ai pas de source d'institution sur l'effet de l'opération sur la crédibilité de l'euro : ce volet reste une position de valeur (F53). Sur T14 (A52) : la distinction entre demande et instruction ne vaut que pour une décision libre du conseil des gouverneurs (F5) ; si une loi nationale vise les titres, F4 impose le contrôle de compatibilité. Je n'ai pas de texte de LFI qui dise quelle voie la proposition suit."
+    elements: []
+  - relance: R16
+    texte: "A50 décrit le droit actuel : ces titres arrivent à échéance comme les autres (F48, F31). Cela ne répond pas à la question posée par T17, qui porte sur ce que l'État doit faire quand le créancier est la banque centrale (valeur Q45). Je n'ai pas de fait nouveau à opposer."
+    elements: []
+  - relance: R17
+    texte: "Je n'ai pas de source qui chiffre cette marge nette : F41 reste sans estimation fiable. Le caractère net de la marge est un présupposé que ma famille n'a pas chiffré."
+    elements: []
+  - relance: R23
+    texte: "Je n'ai pas de source qui établisse que l'opération ne coûterait rien, ni qui chiffre la marge nette (F47 sans estimation fiable ; F19, F20). Le point est signalé comme non établi."
+    elements: []
+  - relance: R24
+    texte: "Je n'ai pas de source qui chiffre cette marge nette (F49 sans estimation fiable) ; A12 et A31 ne l'avancent pas et le critère qu'ils posent est l'usage de la marge, si elle existe."
+    elements: []
+incertitudes:
+  - "Aucune recherche nouvelle n'a été faite : les réponses constatent l'absence de source dans le dossier et dans les textes déjà ouverts."

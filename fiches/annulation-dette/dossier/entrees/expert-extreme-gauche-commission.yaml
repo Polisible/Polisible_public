@@ -1,0 +1,14 @@
+agent: expert-extreme-gauche
+phase: 5
+reponses_relances:
+  - relance: R18
+    texte: "Source officielle ou universitaire établissant que la dette française a été construite par des cadeaux fiscaux : non trouvée. Le NPA l'avance comme une position (tract de 2011, F43), pas comme un constat chiffré. Sur T15 (A50) : F48 n'est pas contesté, les titres de l'Eurosystème arrivent à échéance et sont remboursés. Le désaccord porte sur le critère : le NPA juge qu'une dette se rembourse selon sa légitimité, établie par un audit, non selon le détenteur ni l'échéance."
+    elements: []
+  - relance: R22
+    texte: "Source officielle datée sur le montant des intérêts versés aux créanciers privés et leur équivalent en emplois : non trouvée à ce jour, le chiffre du tract NPA (2011) reste une affirmation du parti. Sur l'effet attendu sur les conditions d'emprunt (F26) : aucune estimation de la part du NPA n'a été trouvée, et le dossier n'en contient pas. Nous ne pouvons pas répondre."
+    elements: []
+  - relance: R26
+    texte: "Source officielle pour les 270 milliards d'euros d'aides cités par LO (F42) : non trouvée ; les estimations publiques du dossier sont inférieures et dépendent du périmètre. Source établissant que ces aides ont creusé la dette : non trouvée non plus. LO présente ce lien comme sa position, pas comme un fait établi."
+    elements: []
+incertitudes:
+  - "Aucune source officielle ouverte pour les trois présupposés (dette née de cadeaux fiscaux, intérêts en emplois, aides ayant creusé la dette) : une recherche rapide n'a pas donné de source ouverte."
