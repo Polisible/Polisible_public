@@ -427,3 +427,60 @@
       publiques du dossier sont inférieures et dépendent du périmètre. Source établissant que ces aides ont creusé
       la dette : non trouvée non plus. LO présente ce lien comme sa position, pas comme un fait établi.'
     elements: []
+- these: T2
+  partis:
+  - PCF
+  question_posee: Que répondez-vous à T3 (A46), selon laquelle l'achat des titres sur le marché secondaire (F24,
+    F44) établit la régularité de l'achat, non l'interdiction de leur traitement ultérieur ? (même question que
+    R1 pour T1)
+  id: R27
+  statut: posee
+- these: T34
+  partis:
+  - PCF
+  question_posee: Votre thèse T34 suppose qu'annuler des titres déjà détenus exige de réviser les traités, donc
+    que l'interdiction du financement direct (F1, F2) vise ce cas, ce que le dossier n'établit pas (F45, F27 Invérifiable).
+    Avez-vous une source (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? (même
+    question que R2)
+  id: R28
+  statut: posee
+- these: T10
+  partis:
+  - RE
+  question_posee: Que répondez-vous à T12 (A45) et à T32 (A48), selon lesquelles une décision libre du conseil des
+    gouverneurs (F5) n'est pas une instruction au sens de F3 ? (même question que R11, R12, R13)
+  id: R29
+  statut: posee
+- these: T8
+  partis:
+  - LFI
+  question_posee: Votre thèse T8 suppose que les intérêts perçus par la Banque de France sur les titres de l'État
+    contribuent aux sommes qu'elle reverse à l'État (F41 Pas d'estimation fiable). Avez-vous une source qui isole
+    la part de ces intérêts dans son résultat ? (même question que R7)
+  id: R30
+  statut: posee
+- these: T24
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T24 suppose que les sommes versées par la Banque de France à l'État reposent en partie
+    sur ces intérêts (F41 Pas d'estimation fiable). Avez-vous une source qui isole la part de ces intérêts dans
+    son résultat ? (même question que R7)
+  id: R31
+  statut: posee
+- these: T25
+  partis:
+  - RN
+  question_posee: Votre thèse T25 présuppose que les économies prévues (F37, F38) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R32
+  statut: posee
+- these: T36
+  partis:
+  - LR
+  question_posee: Votre thèse T36 présuppose que les économies du plan (F29, F30) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R33
+  statut: posee

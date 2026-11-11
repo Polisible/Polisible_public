@@ -1,0 +1,175 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T16
+  partis:
+  - LR
+  question_posee: Votre thèse T16 présuppose qu'une annulation limitée à la banque centrale ferait perdre la confiance
+    des prêteurs, ce que le dossier n'établit pas (F26 Pas d'estimation fiable). Avez-vous une source ?
+  id: R15
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai pas de source qui établisse la perte de confiance des prêteurs en cas d'annulation limitée à
+      la banque centrale. A7 repose sur la priorité de F28 (déclaration de décembre 2020), pas sur ce fait ; l'estimation
+      F26 reste sans estimation fiable. Je ne dépose aucun fait nouveau et ne retire pas A7, qui exprime une valeur.
+    elements: []
+- these: T25
+  partis:
+  - LR
+  question_posee: Dans votre thèse T25, la position sur l'annulation est déduite du silence du plan (F29, F30).
+    Avez-vous une source datée où le parti se prononce sur l'annulation ou le gel de la dette détenue par la banque
+    centrale ?
+  id: R21
+  statut: repondue
+  reponses:
+  - agent: expert-droite
+    texte: Je n'ai trouvé aucune source datée où LR se prononce sur l'annulation ou le gel de la dette détenue par
+      la banque centrale en 2026. Les recherches (presse, août à novembre 2026, réactions à la proposition d'août
+      2026) n'en donnent pas ; la position de A8 reste déduite du silence du plan (F29, F30), comme A8 l'indique.
+      La seule position datée de LR sur l'annulation est celle de décembre 2020 (S21), antérieure à la proposition
+      de 2026.
+    elements: []
+- these: T36
+  partis:
+  - LR
+  question_posee: Votre thèse T36 présuppose que les économies du plan (F29, F30) seraient obtenues et dégageraient
+    les marges annoncées, ce qu'aucune affirmation du dossier n'établit. Avez-vous une source d'institution ? (même
+    question que R20)
+  id: R33
+  statut: posee
+tes_theses:
+- id: T16
+  question: Q45
+  position: oui
+  enonce: Un État doit rembourser sa dette, y compris envers la banque centrale, car il engage ses contribuables.
+    Renoncer à une dette ferait perdre la confiance qui permet d'emprunter.
+  arguments:
+  - A7
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A7 répond à la question du remboursement, banque centrale comprise (F28).
+    appui:
+      valeur: faible
+      justification: La thèse ne contient que F28 (valeur, sans verdict) ; son présupposé factuel, la perte de confiance
+        des prêteurs, n'est porté par aucune affirmation vérifiée (F26, réponse à R15).
+    raisonnement:
+      valeur: valide
+      justification: La conclusion découle de la priorité affirmée (F28) ; la position date de décembre 2020 et
+        ne vise pas la proposition d'août 2026, ce que A7 indique.
+    portee:
+      texte: établit la priorité donnée à la parole de l'État (F28) ; ne prouve pas qu'une annulation limitée à
+        la banque centrale ferait perdre la confiance des prêteurs.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A7 (F28).
+    conclusion: ne tient pas
+  portee_par:
+  - LR
+  contre_examen:
+  - critere: conclusion
+    avis: confirme
+    justification: 'Examen confirmé : seul F28 (valeur) et un présupposé de confiance non établi (F26) ; appréciation
+      identique à T19 pour une thèse de valeur sans présupposé vérifié.'
+    proposition: null
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A7 répond à la question du remboursement, banque centrale comprise (F28).
+    appui:
+      valeur: faible
+      justification: La thèse ne contient que F28 (valeur, sans verdict) ; son présupposé factuel, la perte de confiance
+        des prêteurs, n'est porté par aucune affirmation vérifiée (cf. F26, Pas d'estimation fiable).
+    raisonnement:
+      valeur: valide
+      justification: La conclusion découle de la priorité affirmée (F28) ; la position date de décembre 2020 et
+        ne vise pas la proposition d'août 2026, ce que A7 indique.
+    portee:
+      texte: établit la priorité donnée à la parole de l'État (F28) ; ne prouve pas qu'une annulation limitée à
+        la banque centrale ferait perdre la confiance des prêteurs.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A7 (F28).
+    conclusion: ne tient pas
+- id: T36
+  question: Q47
+  position: non
+  enonce: Pour dégager des marges budgétaires, la voie retenue est de réduire la dépense publique et de viser un
+    excédent primaire, plutôt que de toucher au stock de dette. Le plan qui l'établit ne mentionne pas l'annulation.
+  arguments:
+  - A8
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A8 compare les économies aux autres leviers (F29, F30), objet de Q47.
+    appui:
+      valeur: partiel
+      justification: Le plan est établi (F29, F30, Vrai) ; que ses économies soient obtenues et dégagent les marges
+        annoncées n'est porté par aucune affirmation, comme pour T25 et T24, et aucune source datée ne donne la
+        position du parti sur l'annulation (réponse à R21).
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Silence d''un texte pris pour un refus : la réponse de Q47 porte sur l''annulation comparée
+        aux économies, et A8 la déduit d''un plan qui n''en parle pas (F29, F30), ce que l''argument et la réponse
+        à R21 reconnaissent, comme T2 tire une interdiction du silence de F1 et F2.'
+    portee:
+      texte: établit que le plan présenté le 12 octobre 2026 fait reposer l'effort sur les économies de l'État et
+        des dépenses sociales (F29, F30) ; ne prouve pas que le parti juge l'annulation moins préférable, ni que
+        les économies seraient obtenues.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A8 (F30).
+    conclusion: ne tient pas
+  portee_par:
+  - LR
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?
+tes_arguments:
+- id: A7
+  question: Q45
+  position: oui
+  enonce: 'Un État doit rembourser sa dette, y compris quand le créancier est la banque centrale : l''État engage
+    son peuple, et renoncer à une dette ferait perdre la confiance qui permet d''emprunter.'
+  raisonnement: Une dette est un engagement pris au nom des contribuables. Si l'État peut s'en délier, aucun engagement
+    futur n'est crédible. Une dette lourde appelle une redéfinition des priorités de dépense, non sa disparition
+    ; cette position date de décembre 2020 et ne porte pas sur la proposition d'août 2026.
+  repond_a: null
+  partis:
+  - LR
+  affirmations:
+  - 'F28 [valeur, sans verdict] Un État doit honorer ses dettes : en s''engageant, il engage son peuple, c''est-à-dire
+    ses contribuables, et la parole donnée doit garder sa valeur.'
+- id: A8
+  question: Q47
+  position: non
+  enonce: Pour dégager des marges budgétaires, la voie retenue est de réduire la dépense publique et de viser un
+    excédent primaire, plutôt que de toucher au stock de dette.
+  raisonnement: 'Le plan présenté le 12 octobre 2026 finance l''effort par des économies sur l''État et les dépenses
+    sociales (F30), avec un déficit sous 3 % en 2031. Les marges viennent de la dépense maîtrisée. Le plan ne mentionne
+    pas l''annulation : l''argument en est une lecture par le choix des moyens.'
+  repond_a: null
+  partis:
+  - LR
+  affirmations:
+  - F29 [fait, Vrai] Le plan de redressement budgétaire de Bruno Retailleau, présenté le 12 octobre 2026, prévoit
+    un effort de 197 milliards d'euros sur cinq ans, dont 56 milliards d'allègements fiscaux, l'essentiel de l'effort
+    allant à l'amélioration du solde.
+  - F30 [fait, Vrai] Ce plan fait reposer l'essentiel de l'effort sur l'État, dont il questionne le périmètre, et
+    sur les dépenses sociales.

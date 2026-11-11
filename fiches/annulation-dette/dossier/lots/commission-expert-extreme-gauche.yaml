@@ -1,0 +1,363 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T19
+  partis:
+  - NPA
+  question_posee: Votre thèse T19 présuppose que la dette française a été construite par des cadeaux fiscaux, ce
+    que le dossier n'établit pas (F43 est une valeur). Avez-vous une source officielle ou universitaire ? Que répondez-vous
+    à T15 (A50) ?
+  id: R18
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle ou universitaire établissant que la dette française a été construite par des cadeaux
+      fiscaux : non trouvée. Le NPA l''avance comme une position (tract de 2011, F43), pas comme un constat chiffré.
+      Sur T15 (A50) : F48 n''est pas contesté, les titres de l''Eurosystème arrivent à échéance et sont remboursés.
+      Le désaccord porte sur le critère : le NPA juge qu''une dette se rembourse selon sa légitimité, établie par
+      un audit, non selon le détenteur ni l''échéance.'
+    elements: []
+- these: T26
+  partis:
+  - NPA
+  question_posee: Votre thèse T26 repose sur le montant des intérêts versés aux créanciers privés et leur équivalent
+    en emplois, qu'aucune affirmation du dossier n'établit (seul F20 est vérifié). Avez-vous une source officielle
+    datée ? Quel effet attendez-vous sur les conditions d'emprunt (F26) ?
+  id: R22
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle datée sur le montant des intérêts versés aux créanciers privés et leur équivalent
+      en emplois : non trouvée à ce jour, le chiffre du tract NPA (2011) reste une affirmation du parti. Sur l''effet
+      attendu sur les conditions d''emprunt (F26) : aucune estimation de la part du NPA n''a été trouvée, et le
+      dossier n''en contient pas. Nous ne pouvons pas répondre.'
+    elements: []
+- these: T30
+  partis:
+  - LO
+  question_posee: 'Votre thèse T30 repose sur F42 (Invérifiable : 270 milliards sans origine ni méthode) et suppose
+    que ces aides ont creusé la dette. Avez-vous une source officielle pour ce montant et pour ce lien ?'
+  id: R26
+  statut: repondue
+  reponses:
+  - agent: expert-extreme-gauche
+    texte: 'Source officielle pour les 270 milliards d''euros d''aides cités par LO (F42) : non trouvée ; les estimations
+      publiques du dossier sont inférieures et dépendent du périmètre. Source établissant que ces aides ont creusé
+      la dette : non trouvée non plus. LO présente ce lien comme sa position, pas comme un fait établi.'
+    elements: []
+tes_theses:
+- id: T33
+  question: Q45
+  position: non
+  enonce: 'Les vendeurs des titres rachetés par la banque centrale ont été payés : la dette de l''État n''est pas
+    leur créance. Le critère du remboursement est la légitimité de la dette, établie par un audit, non l''identité
+    du créancier.'
+  arguments:
+  - A43
+  repond_a:
+  - T15
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A43 répond à la question du remboursement intégral quand le créancier est la banque centrale
+        (F24).
+    appui:
+      valeur: partiel
+      justification: La réfutation de A4 repose sur F24 (Vrai) ; le présupposé qui donnerait la réponse « non »,
+        qu'une part de la dette soit illégitime, n'est porté par aucune affirmation de A43 (F43, valeur, figure
+        dans A17 ; réponse à R18).
+    raisonnement:
+      valeur: valide
+      justification: La réfutation de A4 découle de F24 ; le critère de légitimité est une priorité affirmée, dont
+        la conclusion découle sans prétendre à un constat.
+    portee:
+      texte: établit que les vendeurs ont été payés et que le créancier actuel est la banque centrale (F24) ; ne
+        prouve pas quelle part de la dette serait illégitime.
+    objections:
+      valeur: sans réponse
+      justification: T15 (A50) objecte que la part de l'Eurosystème est remboursée à échéance comme les autres et
+        qu'en changer les conditions modifie le contrat (F48) ; la réponse à R18 maintient le désaccord de critère,
+        aucun argument de T33 n'y répond.
+    conclusion: tient en partie
+  portee_par:
+  - NPA
+- id: T19
+  question: Q45
+  position: non
+  enonce: Un État ne doit pas rembourser une dette illégitime, construite par des cadeaux aux plus riches et aux
+    grandes entreprises, que le créancier soit ou non la banque centrale. Un audit établit quelle part est illégitime,
+    et un moratoire suspend les paiements.
+  arguments:
+  - A17
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A17 répond à la question du remboursement intégral, banque centrale comprise (F43).
+    appui:
+      valeur: faible
+      justification: Le présupposé factuel central, une dette construite par des cadeaux fiscaux, n'est porté que
+        par F43 (valeur, sans verdict), et la réponse à R18 n'apporte aucune source officielle ou universitaire.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la légitimité (F43), la conclusion découle ; la thèse reconnaît qu'elle
+        vaut que le créancier soit ou non la banque centrale.
+    portee:
+      texte: établit la priorité donnée à la légitimité de la dette (F43) ; ne prouve pas que la dette française
+        ait été construite par des cadeaux fiscaux, ni quelle part en serait illégitime.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A17 (F43) ; A50 vise A43, désormais
+        dans T33.
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+  contre_examen:
+  - critere: regroupement
+    avis: conteste
+    justification: 'A43 ne partage pas le raisonnement de A17 : son raisonnement est la réfutation de A4 par F24
+      (vendeurs payés, créancier actuel la banque centrale), identique à celui de A49 (T17) ; le critère de légitimité
+      n''y figure que dans l''énoncé, sans prémisse. A17 raisonne sur la légitimité de la dette (F43). Le regroupement
+      fait compter F24 comme « point secondaire » de T19 et crée une objection de légitimité contre T15 qu''aucun
+      argument ne développe. A43 ne peut pas non plus rejoindre T17, puisqu''il écarte le critère de l''identité
+      du créancier (F51).'
+    proposition: 'Isoler A43 dans une thèse propre (réfutation de A4 par F24, critère de légitimité affirmé), examinée
+      avec la même grille que A49 ; T19 réduite à A17. Effets : objections de T19 « répondues » (A50 ne vise pas
+      A17), objections de T15 à réexaminer (voir T15) ; conclusions de T15 et T19 inchangées.'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Le raisonnement de A43 est la réfutation de A4 par F24, sans prémisse sur la légitimité ;
+      A43 forme T33. T19 réduite à A17 : objections « répondues ». L''énoncé de A43 maintient le critère de légitimité,
+      de sorte que T15 garde « en partie ».'
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A17 et A43 répondent à la question du remboursement intégral (F43, F24).
+    appui:
+      valeur: faible
+      justification: Le présupposé factuel central, une dette construite par des cadeaux fiscaux, n'est porté que
+        par F43 (valeur, sans verdict) ; seul F24 (Vrai) est établi, sur un point secondaire.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la légitimité (F43), la conclusion découle ; la thèse reconnaît qu'elle
+        vaut que le créancier soit ou non la banque centrale (F24).
+    portee:
+      texte: établit que les vendeurs des titres ont été payés (F24) ; ne prouve pas que la dette française ait
+        été construite par des cadeaux fiscaux, ni quelle part en serait illégitime.
+    objections:
+      valeur: sans réponse
+      justification: T15 (A50) objecte que la part de l'Eurosystème est remboursée à échéance comme les autres (F48)
+        ; aucun argument de T19 n'y répond.
+    conclusion: ne tient pas
+- id: T26
+  question: Q47
+  position: oui
+  enonce: L'annulation des dettes illégitimes est préférable à l'austérité, car elle libère l'argent des intérêts
+    versés aux créanciers pour des emplois et des investissements. Annuler la seule part de la banque centrale,
+    reversée à l'État, ne suffit pas.
+  arguments:
+  - A19
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A19 compare l'annulation aux économies (F20), objet de Q47.
+    appui:
+      valeur: faible
+      justification: Seul F20 (Vrai) est vérifié, sur un point secondaire ; le présupposé central, le montant des
+        intérêts versés aux créanciers privés et leur effet sur les conditions d'emprunt (F26), n'est porté par
+        aucune affirmation (réponse à R22).
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à l'emploi et à l'investissement sur l'austérité, la conclusion découle
+        si son présupposé est vrai ; ce présupposé (F26, montant des intérêts) relève de l'appui, comme pour T19
+        et T30.
+    portee:
+      texte: établit que la Banque de France reverse des sommes à l'État (F20) ; ne prouve pas le montant des marges
+        que dégagerait l'annulation des dettes jugées illégitimes, ni son effet sur les conditions d'emprunt (F26).
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A19 (F20).
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+  contre_examen:
+  - critere: raisonnement
+    avis: conteste
+    justification: La lacune nommée est un présupposé non établi (effet sur les conditions d'emprunt, F26), déjà
+      compté dans l'appui. Pour les thèses de valeur T16, T18, T19, T28 et T29, le rapporteur traite le présupposé
+      non établi dans l'appui et juge le raisonnement valide ; A19, construit en « si … alors » comme A17, reçoit
+      ici une double sanction. Même structure, appréciation plus sévère.
+    proposition: 'raisonnement : valide — De la priorité donnée à l''emploi et à l''investissement sur l''austérité,
+      la conclusion découle si son présupposé est vrai ; ce présupposé (montant des intérêts, effet sur l''emprunt,
+      F26) n''est pas établi et relève de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: Présupposé non établi (F26), déjà compté dans l'appui ; même traitement que T19 et T30. Raisonnement
+      valide, conclusion inchangée (appui faible).
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A19 compare l'annulation aux économies (F20), objet de Q47.
+    appui:
+      valeur: faible
+      justification: Seul F20 (Vrai) est vérifié, sur un point secondaire ; le présupposé central, le montant des
+        intérêts versés aux créanciers privés et leur équivalent en emplois (tract de 2011), n'est porté par aucune
+        affirmation.
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : la thèse suppose qu''annuler la dette détenue par
+        des créanciers privés dégagerait des marges sans effet sur les conditions d''emprunt, question que le dossier
+        laisse sans estimation (F26).'
+    portee:
+      texte: établit que la Banque de France reverse des sommes à l'État (F20) ; ne prouve pas le montant des marges
+        que dégagerait l'annulation des dettes jugées illégitimes.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A19 (F20).
+    conclusion: ne tient pas
+- id: T30
+  question: Q47
+  position: nuance
+  enonce: Les marges viennent de la taxation des profits et de l'arrêt des aides aux entreprises, qui ont creusé
+    la dette, non d'économies sur les services publics. L'annulation n'est pas retenue comme voie principale.
+  arguments:
+  - A18
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A18 compare les leviers pour dégager des marges (F42), objet de Q47.
+    appui:
+      valeur: faible
+      justification: 'Le présupposé chiffré repose sur F42 (Invérifiable : 270 milliards cités sans origine ni méthode),
+        qui ne peut porter seul la thèse ; le lien entre ces aides et la dette n''est porté par aucune affirmation
+        (réponse à R26).'
+    raisonnement:
+      valeur: valide
+      justification: Si les aides aux entreprises ont creusé la dette, la préférence pour leur suppression découle
+        de la priorité affirmée ; ce présupposé et le montant (F42) relèvent de l'appui, comme pour T19 et T26.
+    portee:
+      texte: établit que les estimations publiques des aides aux entreprises dépendent du périmètre retenu (explication
+        de F42) ; ne prouve pas le montant de 270 milliards ni que ces aides aient creusé la dette.
+    objections:
+      valeur: répondues
+      justification: Aucun argument d'une autre thèse ne vise le raisonnement de A18 (F42).
+    conclusion: ne tient pas
+  portee_par:
+  - LO
+  contre_examen:
+  - critere: raisonnement
+    avis: conteste
+    justification: La lacune nommée (la dette creusée par les aides, sans affirmation) est un présupposé non établi,
+      déjà sanctionné dans l'appui (F42 Invérifiable). T19 a exactement la même structure (« si la dette résulte
+      de cadeaux fiscaux », F43) et reçoit « valide » avec le défaut porté dans l'appui. Même lacune, appréciation
+      différente.
+    proposition: 'raisonnement : valide — Si les aides aux entreprises ont creusé la dette, la préférence pour leur
+      suppression découle de la priorité affirmée ; ce présupposé et le montant (F42 Invérifiable) ne sont pas établis
+      et relèvent de l''appui. Conclusion inchangée (ne tient pas, appui faible).'
+    decision_rapporteur: acceptee
+    motif_rapporteur: 'Même structure que T19 (« si … alors », présupposé F42 non établi) : raisonnement valide,
+      défaut porté dans l''appui. Conclusion inchangée (appui faible).'
+  versions:
+  - pertinence:
+      valeur: oui
+      justification: A18 compare les leviers pour dégager des marges (F42), objet de Q47.
+    appui:
+      valeur: faible
+      justification: 'Le présupposé chiffré repose sur F42 (Invérifiable : 270 milliards cités sans origine ni méthode),
+        qui ne peut porter seul la thèse ; le lien entre ces aides et la dette n''est porté par aucune affirmation.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Cause supposée : la thèse suppose que la dette a été creusée par les aides aux entreprises
+        (F42), sans affirmation qui l''établisse.'
+    portee:
+      texte: établit que les estimations publiques des aides aux entreprises dépendent du périmètre retenu (explication
+        de F42) ; ne prouve pas le montant de 270 milliards ni que ces aides aient creusé la dette.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A18 (F42).
+    conclusion: ne tient pas
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?
+tes_arguments:
+- id: A17
+  question: Q45
+  position: non
+  enonce: Un État ne doit pas rembourser une dette illégitime, construite par des cadeaux aux plus riches et aux
+    grandes entreprises. Un audit citoyen établit qui a prêté, à quel taux et quelle part est remboursée, et un
+    moratoire suspend les paiements.
+  raisonnement: Si la dette résulte de choix de politique qui ont profité aux créanciers et aux entreprises plutôt
+    qu'à la population, l'obligation de la rembourser intégralement ne va pas de soi. Le critère n'est pas l'identité
+    du créancier mais la légitimité de la dette, que l'audit doit établir ; ce critère conduit à ne pas rembourser
+    les dettes illégitimes, banque centrale ou non.
+  repond_a: null
+  partis:
+  - NPA
+  affirmations:
+  - F43 [valeur, sans verdict] Une dette construite par des cadeaux fiscaux aux plus riches et aux grandes entreprises
+    est illégitime et n'a pas à être payée.
+- id: A18
+  question: Q47
+  position: nuance
+  enonce: Les marges budgétaires viennent des recettes tirées des profits et de l'arrêt des aides aux entreprises,
+    non d'économies sur les budgets utiles à la population. L'annulation d'une part précise de la dette n'est pas
+    proposée.
+  raisonnement: Si la dette a été creusée par des aides aux entreprises (270 milliards d'euros par an d'aides et
+    d'exonérations, chiffre cité par LO), alors supprimer ces aides et taxer les profits est préférable aux économies
+    sur les services publics, que cette position refuse. L'annulation n'est pas retenue comme voie principale.
+  repond_a: null
+  partis:
+  - LO
+  affirmations:
+  - 'F42 [fait, Invérifiable] Les aides publiques et exonérations versées chaque année aux entreprises privées atteignent
+    270 milliards d''euros (chiffre cité par Lutte ouvrière, en 2026). — La brochure de Lutte ouvrière (juin 2026)
+    cite bien 270 milliards, sans origine ni méthode. Les estimations publiques connues dépendent du périmètre retenu
+    : la commission d''enquête du Sénat (juillet 2025) retient 211 milliards d''euros pour 2023, présentés comme
+    un plancher, et le Haut-commissariat à la stratégie et au plan 111,9 milliards (selon Public Sénat, 15 septembre
+    2025). Aucune source officielle ouverte ne donne 270 milliards.'
+- id: A19
+  question: Q47
+  position: oui
+  enonce: 'L''annulation de la dette publique est préférable à l''austérité : elle libère l''argent des intérêts
+    pour des investissements et des emplois utiles à la population. Elle doit porter sur les dettes illégitimes,
+    non sur la seule part de la banque centrale.'
+  raisonnement: Si les intérêts payés aux créanciers privés absorbent des sommes qui financeraient des emplois publics
+    (le tract NPA les chiffre à l'équivalent d'un million d'emplois en 2011), alors l'annulation dégage plus de
+    marges que des économies qui frappent la population. La part détenue par la banque centrale étant reversée à
+    l'État, annuler seulement celle-ci est jugé une diversion.
+  repond_a: null
+  partis:
+  - NPA
+  affirmations:
+  - 'F20 [fait, Vrai] La Banque de France est un contributeur au budget de l''État : 36,8 milliards d''euros versés
+    depuis 2015 (Q43).'
+- id: A43
+  question: Q45
+  position: non
+  enonce: 'Les vendeurs des titres rachetés par la banque centrale ont été payés au moment de l''achat : la dette
+    de l''État n''est pas leur créance. Le critère retenu est la légitimité de la dette, que l''audit établit, non
+    l''identité du créancier.'
+  raisonnement: 'F24 établit que la banque centrale a acheté les titres sur le marché secondaire : les investisseurs
+    vendeurs ont été réglés et n''ont plus de créance sur l''État. Le créancier actuel est la banque centrale, ce
+    que A4 ne distingue pas ; la conclusion sur la signature de l''État suppose en outre que le marché assimile
+    cette part à celle des créanciers privés, ce qu''aucune affirmation de A4 n''établit.'
+  repond_a: A4
+  partis:
+  - NPA
+  affirmations:
+  - F24 [fait, Vrai] Les titres de dette française détenus par l'Eurosystème ont été achetés sur le marché secondaire,
+    auprès d'institutions financières, et non directement auprès de l'État.
