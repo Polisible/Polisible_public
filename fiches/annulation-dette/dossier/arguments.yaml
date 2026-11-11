@@ -58,11 +58,13 @@
     source: S16
     appartenance: S49
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   affirmations:
   - F25
   - F26
@@ -214,17 +216,22 @@
     retenus.
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   - personne: Gabriel Attal
-    fonction: secrétaire général de Renaissance
+    fonction: candidat à l'élection présidentielle de 2027
     parti: RE
     date: '2026-08-27'
     source: S17
     appartenance: S50
+    fonction_verifiee: 'S17 : « ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; S50 : « a
+      officialisé sa candidature à l''élection présidentielle de 2027 » (22 mai 2026), où il est aussi « le secrétaire
+      général de Renaissance ».'
   affirmations:
   - F18
   - F19
@@ -456,10 +463,12 @@
     date: '2025-09-04'
     source: S25
   - personne: Marine Tondelier
-    fonction: secrétaire nationale
+    fonction: cheffe de file des écologistes
     parti: LE
     date: '2024-06-20'
     source: S27
+    fonction_verifiee: 'S27 : « explique la cheffe de file des écologistes Marine Tondelier » ; la source ne dit
+      pas « secrétaire nationale ».'
   affirmations:
   - F34
   - F35
@@ -755,11 +764,13 @@
     source: S39
     appartenance: S19
   - personne: Jean-Luc Mélenchon
-    fonction: ancien candidat à l'élection présidentielle de 2022
+    fonction: candidat à l'élection présidentielle de 2022
     parti: LFI
     date: '2022-06-06'
     source: S40
     appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
   affirmations:
   - F44
   - F45

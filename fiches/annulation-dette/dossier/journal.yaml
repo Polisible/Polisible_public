@@ -423,3 +423,12 @@
   action: 'a ajouté S53, corriger A32, corriger A33, corriger A34, corriger A35, corriger A36, corriger A46, corriger
     A47, corriger A48, corriger A49, corriger A54, corriger V15, corriger V16, retirer V27, retirer V33 ; incertitudes
     signalées : 3'
+- date: '2026-11-11T09:43:09'
+  agent: verificateur
+  phase: '3'
+  action: a tranché S49→conforme, S50→conforme, S51→conforme, S52→conforme, S53→conforme, fonction de A12 corrigée,
+    fonction de A2 corrigée, fonction de A6 corrigée, fonction de A6 corrigée, fonction de A20 corrigée
+- date: '2026-11-11T09:43:09'
+  agent: coordinateur
+  phase: 6-bis
+  action: fin de la phase 6-bis

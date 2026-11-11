@@ -630,8 +630,10 @@
   adresse: https://www.legifiscal.fr/actualites-fiscales/4261-roland-lescure-nouveau-ministre-economie-finances.html
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Bon document (LégiFiscal, 5 octobre 2025). Il établit que Roland Lescure « était député Renaissance
+    » avant sa nomination au ministère de l'Économie, le 5 octobre 2025, soit dix mois avant la déclaration du 24
+    août 2026 ; la page ne dit rien du parti en 2026 et c'est une source de niveau 4.
 - id: S50
   titre: 'Présidentielle 2027: Gabriel Attal officialise sa candidature'
   auteur: LCP - Assemblée nationale
@@ -639,17 +641,21 @@
   adresse: https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: Bon document (LCP, Raphaël Marchal, 22 mai 2026). Il appelle Gabriel Attal « le secrétaire général
+    de Renaissance » et dit qu'il a officialisé sa candidature à la présidentielle de 2027, trois mois avant la
+    déclaration du 27 août 2026.
 - id: S51
   titre: Édouard Philippe annonce officiellement sa candidature à la prochaine élection présidentielle
   auteur: Europe 1
-  date: '2026'
+  date: '2024-09-03'
   adresse: https://www.europe1.fr/politique/edouard-philippe-annonce-officiellement-sa-candidature-a-la-prochaine-election-presidentielle-4265431
   niveau: 4
   ajoutee_par: expert-centre
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document, mais publié le 3 septembre 2024 (mis à jour le 12 janvier 2025), pas en 2026. Il désigne
+    Édouard Philippe comme « président du parti Horizons » et candidat à la prochaine présidentielle (2027) : l''appartenance
+    est établie en 2024, deux ans avant la déclaration du 27 août 2026, et non à cette date.'
 - id: S52
   titre: Fabien Roussel va succéder à Pierre Laurent à la tête du PCF
   auteur: Public Sénat
@@ -657,8 +663,10 @@
   adresse: https://www.publicsenat.fr/actualites/politique/fabien-roussel-va-succeder-a-pierre-laurent-a-la-tete-du-pcf-135660
   niveau: 4
   ajoutee_par: expert-gauche-radicale
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (Public Sénat, 20 novembre 2018). « Le député du Nord Fabien Roussel » est choisi pour
+    prendre la tête du Parti communiste : l''appartenance au PCF est établie en 2018, deux ans et quatre mois avant
+    l''intervention du 22 mars 2021.'
 - id: S53
   titre: 'Élections européennes : Aurore Lalucq : "Dans cette campagne, nous assumons de parler d’Europe"'
   auteur: Politis
@@ -666,5 +674,7 @@
   adresse: https://www.politis.fr/articles/2024/05/elections-europennes-aurore-lalucq-ps-place-publique-dans-cette-campagne-nous-assumons-de-parler-deurope/
   niveau: 4
   ajoutee_par: expert-sociaux-democrates
-  statut: a-verifier
-  note_verif: null
+  statut: conforme
+  note_verif: 'Bon document (Politis, 29 mai 2024). Il indique qu''en 2019 Aurore Lalucq « rejoint Place publique
+    et est élue au Parlement européen », et qu''elle est eurodéputée sur la liste PS-Place publique en 2024 : 2021
+    est encadré par ces deux dates, sans être établi directement.'

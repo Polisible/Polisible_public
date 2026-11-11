@@ -56,6 +56,7 @@ phases:
     debut: '2026-11-11T09:36:47'
     passages: 1
     note: normalisation au format de fiche
+    fin: '2026-11-11T09:43:09'
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
