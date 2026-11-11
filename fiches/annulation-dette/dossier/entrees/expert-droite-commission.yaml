@@ -1,0 +1,11 @@
+agent: expert-droite
+phase: 5
+reponses_relances:
+  - relance: R15
+    texte: "Je n'ai pas de source qui établisse la perte de confiance des prêteurs en cas d'annulation limitée à la banque centrale. A7 repose sur la priorité de F28 (déclaration de décembre 2020), pas sur ce fait ; l'estimation F26 reste sans estimation fiable. Je ne dépose aucun fait nouveau et ne retire pas A7, qui exprime une valeur."
+    elements: []
+  - relance: R21
+    texte: "Je n'ai trouvé aucune source datée où LR se prononce sur l'annulation ou le gel de la dette détenue par la banque centrale en 2026. Les recherches (presse, août à novembre 2026, réactions à la proposition d'août 2026) n'en donnent pas ; la position de A8 reste déduite du silence du plan (F29, F30), comme A8 l'indique. La seule position datée de LR sur l'annulation est celle de décembre 2020 (S21), antérieure à la proposition de 2026."
+    elements: []
+incertitudes:
+  - "Absence de position publique de LR sur la dette détenue par la banque centrale en 2026 : constatée dans la presse consultée, pas dans les textes parlementaires ou le site du parti, non consultés pour cette relance."

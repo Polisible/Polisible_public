@@ -352,6 +352,21 @@ agents:
   jetons: 162765
   outils: 9
   duree_ms: 416019
+- phase: 5-bis
+  agent: expert-ecologistes
+  jetons: 31425
+  outils: 7
+  duree_ms: 24594
+- phase: 5-bis
+  agent: expert-gauche-radicale
+  jetons: 40356
+  outils: 10
+  duree_ms: 37632
+- phase: 5-bis
+  agent: expert-extreme-gauche
+  jetons: 34817
+  outils: 9
+  duree_ms: 39409
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

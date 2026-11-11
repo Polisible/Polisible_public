@@ -196,10 +196,11 @@ def lot(fiche, sorte, agent=None):
                             "de tes thèses (contestations : these, critere, nature fait|raisonnement, contenu, sources). "
                             "Pas de contestation de valeur.",
                 "relances": [r for r in D["relances"] if set(r["partis"]) & fam],
-                "tes_theses": mes, "questions": base["questions"]}
+                "tes_theses": mes, "questions": base["questions"],
+                "tes_arguments": [arg_neutre(a) for a in args if any(p.get("parti") in fam for p in a["porte_par"])]}
     else:
         sys.exit("lot inconnu")
-    X
+    p = lots / (f"commission-{agent}.yaml" if agent else f"commission-{sorte}.yaml")
     p.write_text(yaml.safe_dump(data, allow_unicode=True, sort_keys=False, width=110))
     print(p.relative_to(d.RACINE))
 

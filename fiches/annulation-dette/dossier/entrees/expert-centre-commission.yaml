@@ -1,0 +1,33 @@
+agent: expert-centre
+phase: 5
+reponses_relances:
+  - relance: R1
+    texte: "Aucune décision de la Cour de justice ni avis juridique d'institution traitant l'annulation ou la conversion de titres déjà détenus n'a été trouvé. A37 le reconnaissait : la thèse repose sur le raisonnement par l'objet de l'article 123 (F9), pas sur un précédent (F27 reste Invérifiable). Sur T3 (A46) : l'« avantage après coup » est une lecture, non validée par la Cour ; on ne peut pas la présenter comme établie."
+    elements: []
+  - relance: R4
+    texte: "Aucune estimation d'institution, datée et méthodée, de l'effet de l'opération sur les taux d'emprunt de la France n'a été trouvée : F26 reste la seule pièce. On ne peut pas répondre à cette relance."
+    elements: []
+  - relance: R7
+    texte: "Aucune source isolant la part des intérêts sur les titres de l'État dans le résultat de la Banque de France n'a été trouvée. La recherche n'a donné que les versements à l'État (36,8 Md€ de 2015 à 2025, selon la présentation du rapport annuel 2025) et le résultat net 2025, sans ventilation par type d'actif. Le bulletin n° 260/6 (S9) n'a pas pu être ouvert (403). Le lien entre intérêts perçus et sommes reversées reste plausible mais non chiffré."
+    elements: []
+  - relance: R9
+    texte: "Aucune source d'institution sur l'effet d'une telle opération sur la crédibilité de l'euro n'a été trouvée. Le volet crédibilité de A3 n'est donc pas établi. Sur la voie : aucune source ne dit que l'opération serait imposée par l'État plutôt que décidée par le conseil des gouverneurs ; A3 vaut seulement dans le cas d'une loi nationale (F3, F5), comme l'examen le note."
+    elements: []
+  - relance: R10
+    texte: "Aucune source d'institution sur la réaction des détenteurs d'euros ou sur la crédibilité de l'euro n'a été trouvée. La réaction supposée par T11 n'est pas établie ; elle reste une hypothèse fondée sur F9 et F27."
+    elements: []
+  - relance: R13
+    texte: "Aucune source d'institution sur l'effet d'une décision du conseil des gouverneurs sur la crédibilité de l'euro n'a été trouvée. Sur T11 (A53) : l'objection n'a pas reçu de réponse, et A48 ne peut pas l'écarter ; le volet crédibilité de T14 reste une hypothèse, non une affirmation établie."
+    elements: []
+  - relance: R14
+    texte: "Aucune source n'établit qu'une annulation limitée à la banque centrale porterait atteinte à la signature de la France (F26 reste la seule pièce). Sur T19 (A43) et le critère de légitimité : A50 ne répond pas sur ce point, car cette réponse relève d'un choix de valeurs (qui a été payé, qui supporte la perte), non d'un fait que l'on pourrait sourcer."
+    elements: []
+  - relance: R19
+    texte: "Aucune source n'établit un partage entre membres du risque des titres français détenus. La résolution de l'objection O1 (S9) indique le contraire pour les titres d'État acquis depuis 2015 : le partage du risque de T20 n'est pas établi pour ces titres. De même, aucune source ne tranche la contrariété aux traités (F27 Invérifiable). Seul reste l'engagement de l'État à respecter les règles communes (F3, F4)."
+    elements: []
+  - relance: R20
+    texte: "Aucune source d'institution établissant que la baisse du coût du travail dégagerait des marges par la croissance n'a été trouvée dans cette phase. Le choix des leviers dans A6 est une priorité, non un fait établi ; seul le volet « gain net inférieur au gain brut » (F19, F20) est porté par des affirmations vérifiées."
+    elements: []
+incertitudes:
+  - "Le bulletin n° 260/6 de la Banque de France (S9) a renvoyé une erreur 403 à l'ouverture ; sa teneur n'a été reprise que d'après le dossier."
+  - "La recherche d'une source isolant la part des titres d'État dans le résultat de la Banque de France n'a pas été exhaustive."
