@@ -317,6 +317,16 @@ agents:
   jetons: 53395
   outils: 12
   duree_ms: 70611
+- phase: 6-bis
+  agent: expert-centre
+  jetons: 62379
+  outils: 14
+  duree_ms: 84963
+- phase: 6-bis
+  agent: expert-gauche-radicale
+  jetons: 73845
+  outils: 15
+  duree_ms: 129490
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les
@@ -694,4 +704,83 @@ incertitudes:
     de Public Sénat (niveau 4).
 - agent: expert-sociaux-democrates
   texte: L'effet de fonds propres durablement négatifs sur la BCE n'est chiffré par aucune source du dossier.
+- agent: bibliothecaire
+  texte: 'Porteurs F11 à F15 : personne, fonction, date et institution repris des métadonnées du lot (S4, S5, S6)
+    ; les sources n''ont pas été rouvertes pour cette normalisation. La fonction « présidente de la Banque centrale
+    européenne » reprend la formulation des sources (« présidente de la BCE »), développée selon § 3.'
+- agent: expert-centre
+  texte: 'Appartenance de Roland Lescure à Renaissance : source de niveau 4 (LégiFiscal : député Renaissance) ;
+    la page LCP ne cite que le groupe EPR. Sites gouvernementaux inaccessibles (403).'
+- agent: expert-centre
+  texte: Date de la page Europe 1 (candidature d'Édouard Philippe) non trouvée ; année 2026 indiquée, à préciser.
+- agent: expert-centre
+  texte: 'A4 : Roland Lescure retiré des porteurs, S16 ne dit rien sur le remboursement. V17 à V19 retirées (doublons
+    de V1 à V3).'
+- agent: expert-centre
+  texte: 'A6 : Gabriel Attal est conservé comme porteur du levier coût du travail ; S17 ne mentionne pas Q47 directement.'
+- agent: expert-droite
+  texte: 'A41 et A42 retirés : S21 (Husson, 2020) ne parle ni des taux ni de la catégorie « autres français » ;
+    aucun autre porteur LR sourcé n''a été cherché hors lot.'
+- agent: expert-droite
+  texte: 'A8 : le plan de Retailleau ne mentionne pas l''annulation ; la position non est une lecture par le choix
+    des moyens, déjà signalée dans le raisonnement.'
+- agent: expert-droite
+  texte: 'V4, V20, V28 (Q45) et V5, V21, V30 (Q47) disent la même chose : doublons possibles à fusionner.'
+- agent: expert-droite
+  texte: 'V5 reformulée : la phrase sur la réforme de l''État n''est pas dans S22.'
+- agent: expert-ecologistes
+  texte: 'A9 retiré : son seul porteur, Jérôme Gleizes, a rejoint en janvier 2026 la liste de Sophia Chikirou (LFI)
+    à Paris selon Public Sénat (2026-01-30) ; son appartenance à LE en septembre 2026 n''est pas établie.'
+- agent: expert-ecologistes
+  texte: 'A10 : le raisonnement cite F31 et F32, tirés de la chronique de Gleizes, et F31 est jugé insuffisant par
+    le vérificateur ; le raisonnement n''est pas modifié ici.'
+- agent: expert-ecologistes
+  texte: 'Date du programme de LE (S26) : « juillet 2026 » d''après la page de commission publiée le 26 octobre
+    2026 ; le programme lui-même n''a pas été ouvert.'
+- agent: expert-ecologistes
+  texte: 'Fonction de Marine Tondelier (secrétaire nationale en juin 2024) : S27 la désigne seulement comme « cheffe
+    de file des écologistes ».'
+- agent: expert-extreme-droite
+  texte: 'A13 : la source S29 (niveau 4, analyse assistée par IA) rapporte la réponse de Jordan Bardella sur X ;
+    la date du 23 août 2026 est celle de la réponse rapportée, la page est du 24 août.'
+- agent: expert-extreme-droite
+  texte: 'A15 : position oui retenue car la question oppose décision nationale et règles européennes ; la nuance
+    (plafond de déficit) figure dans l''énoncé.'
+- agent: expert-extreme-droite
+  texte: 'S45 établit Marine Le Pen et le groupe Rassemblement National, pas sa présidence du groupe en 2024 : fonction
+    limitée à députée.'
+- agent: expert-extreme-gauche
+  texte: 'A16 retiré : le seul porteur au dossier est Tendance CLAIRE (S38), dont la page ne s''ouvre pas (contenu
+    vide) ; le tract NPA S37 ne traite pas du reversement des intérêts de la Banque de France.'
+- agent: expert-extreme-gauche
+  texte: 'A19 et A43 : le tract NPA de 2011 (S37) établit le refus de la dette illégitime, l''audit et le moratoire,
+    mais pas explicitement le passage sur la seule part de la banque centrale, qui date d''une époque antérieure
+    à ces achats de titres ; la date du tract est au mois (2011-12), non confirmée au jour.'
+- agent: expert-extreme-gauche
+  texte: 'V10 : la source est l''hebdomadaire LO du 4 septembre 2026 ; je n''ai pas établi l''auteur de l''article,
+    donc porteur = parti seul.'
+- agent: expert-extreme-gauche
+  texte: V11 et V31 retirés faute de porteur sourcé précis (V11 attribuait à toute la famille ; V31 renvoie à des
+    arguments d'autres familles).
+- agent: expert-gauche-radicale
+  texte: 'Fonction de Jean-Luc Mélenchon le 6 juin 2022 (S40) : « ancien candidat à l''élection présidentielle de
+    2022 » est déduite du contexte, la source ne la dit pas.'
+- agent: expert-gauche-radicale
+  texte: 'Fonction « député » de Mélenchon (S39) et de Roussel (S41) : établie par le texte parlementaire et le
+    compte rendu (groupe GDR), la fonction exacte de Roussel (secrétaire national du PCF) n''est pas reprise.'
+- agent: expert-gauche-radicale
+  texte: 'A22, A23, A25, A30 : la date 2026-08-25 est celle de l''article S19 ; les propos de Mélenchon datent du
+    week-end précédent.'
+- agent: expert-gauche-radicale
+  texte: 'A30 (S40, austérité) : extrait non revérifié dans le livret ; le titre du chapitre 8 évoque le retour
+    de l''austérité en Europe.'
+- agent: expert-sociaux-democrates
+  texte: S43 ne date pas la tribune (« Publié aujourd'hui ») ; 2021-02-05 vient du dossier. Lalucq est signataire
+    à titre individuel d'une tribune collective d'économistes.
+- agent: expert-sociaux-democrates
+  texte: L'appartenance de Lalucq à PP repose sur une chronologie de Politis (2019, « Elle rejoint Place publique
+    ») ; elle est seulement établie pour 2019 et après, pas explicitement en 2021.
+- agent: expert-sociaux-democrates
+  texte: 'V27 et V33 retirées : doublons de V15 sans porteur propre ; la distinction créancier privé/public n''est
+    pas formulée comme priorité dans S43.'
 examen_obligatoire: true

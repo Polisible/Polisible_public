@@ -505,6 +505,13 @@ def fusion_verif(fiche, e, D):
         if cible:
             cible["sources"].append({"source": sid, "extrait": s["extrait"]})
         faits.append(f"{sid} ajoutée pour {s['pour']}")
+    for c in e.get("porteurs", []) or []:  # le vérificateur corrige la seule fonction d'un porteur, d'après la source
+        cible = next((x for x in D["arguments"] + D["valeurs"] if x["id"] == c["vise"]), None)
+        if cible and 0 <= c.get("index", 0) < len(cible["porte_par"]):
+            pp = cible["porte_par"][c.get("index", 0)]
+            pp["fonction"] = c["fonction"]
+            pp["fonction_verifiee"] = c.get("note", True)
+            faits.append(f"fonction de {c['vise']} corrigée")
     for f in e.get("affirmations", []) or []:
         x = idx.get(f["id"])
         if not x:

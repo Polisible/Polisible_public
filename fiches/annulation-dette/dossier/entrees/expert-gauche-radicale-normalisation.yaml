@@ -1,0 +1,135 @@
+agent: expert-gauche-radicale
+phase: 6
+sources:
+  - ref: s1
+    titre: Fabien Roussel va succéder à Pierre Laurent à la tête du PCF
+    auteur: Public Sénat
+    date: "2018-11-20"
+    adresse: "https://www.publicsenat.fr/actualites/politique/fabien-roussel-va-succeder-a-pierre-laurent-a-la-tete-du-pcf-135660"
+    niveau: 4
+corrections:
+  - vise: A20
+    normalise: true
+    position: oui
+    enonce: "Aucun texte des traités ne mentionne l'annulation ni la conversion en dette perpétuelle de titres déjà détenus par l'Eurosystème. La Cour de justice a validé les achats sur le marché secondaire sous garanties, sans trancher le sort ultérieur des titres."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "ancien candidat à l'élection présidentielle de 2022", parti: LFI, date: "2022-06-06", source: S40, appartenance: S19}
+  - vise: A21
+    normalise: true
+    position: non
+    enonce: "L'annulation de la part détenue par la banque centrale suppose de changer les règles européennes : les députés communistes demandent de sortir des traités actuels et de les changer. La France doit d'abord engager une démarche auprès de la Commission européenne et des autres pays."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: A22
+    normalise: true
+    position: non
+    enonce: "L'opération ne ferait pas monter les taux : elle ne vise que la part de l'Eurosystème et les créanciers privés sont remboursés intégralement. Le risque de non-remboursement que rémunère le taux n'est donc pas modifié."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "candidat à l'élection présidentielle de 2027", parti: LFI, date: "2026-08-25", source: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+  - vise: A23
+    normalise: true
+    position: nuance
+    enonce: "L'opération allège d'abord le stock de dette et le besoin de refinancement sur les marchés. L'économie annuelle d'intérêts est moindre, car la Banque de France reverse une partie de ses bénéfices à l'État."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "candidat à l'élection présidentielle de 2027", parti: LFI, date: "2026-08-25", source: S19}
+  - vise: A24
+    normalise: true
+    position: oui
+    enonce: "L'annulation de la part détenue par la banque centrale dégagerait immédiatement des marges financières, sans montant chiffré. Le gain net pour l'État dépend des reversements de la Banque de France, qui varient d'une année à l'autre."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: A25
+    normalise: true
+    position: non
+    enonce: "Une décision de gel prise par le conseil des gouverneurs lui-même n'atteint ni l'indépendance de la BCE ni la crédibilité de l'euro. L'indépendance interdit les instructions des gouvernements, pas une décision de la banque sur son propre bilan."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "ancien candidat à l'élection présidentielle de 2022", parti: LFI, date: "2022-06-06", source: S40, appartenance: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "candidat à l'élection présidentielle de 2027", parti: LFI, date: "2026-08-25", source: S19}
+  - vise: A26
+    normalise: true
+    position: non
+    enonce: "La dette détenue par la banque centrale, institution publique des États, peut être annulée sans spolier les créanciers privés. Ceux-ci, dont des épargnants, doivent être honorés."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: A27
+    normalise: true
+    position: non
+    enonce: "Une dette publique inscrite au bilan de la banque centrale peut être constatée comme non remboursable, sans léser les créanciers privés. La rembourser intégralement n'a pas de finalité économique et pèse sur la capacité d'investir de l'État."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "ancien candidat à l'élection présidentielle de 2022", parti: LFI, date: "2022-06-06", source: S40, appartenance: S19}
+  - vise: A28
+    normalise: true
+    position: nuance
+    enonce: "Les règles européennes sur le financement des États et le statut de la BCE doivent être remises en cause, la France exigeant leur changement. La politique de la dette relève du contrôle démocratique plutôt que de règles fixées par des institutions indépendantes."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "ancien candidat à l'élection présidentielle de 2022", parti: LFI, date: "2022-06-06", source: S40, appartenance: S19}
+  - vise: A29
+    normalise: true
+    position: non
+    enonce: "L'annulation de la part détenue par la banque centrale se négocie au niveau européen : démarche auprès de la Commission et des autres États, puis changement des traités. Une décision unilatérale française n'est pas la voie retenue."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: A30
+    normalise: true
+    position: oui
+    enonce: "L'annulation ou le gel de la dette détenue par la banque centrale évite un nouveau cycle d'austérité et ne coûte rien à personne. Elle permet de financer services publics et investissements sans économies."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "ancien candidat à l'élection présidentielle de 2022", parti: LFI, date: "2022-06-06", source: S40, appartenance: S19}
+      - {personne: "Jean-Luc Mélenchon", fonction: "candidat à l'élection présidentielle de 2027", parti: LFI, date: "2026-08-25", source: S19}
+  - vise: A31
+    normalise: true
+    position: nuance
+    enonce: "L'annulation partielle est une voie parmi d'autres. Elle s'accompagne d'une mise à contribution du capital et de la lutte contre l'évasion fiscale, qui dégagent aussi des recettes."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: A44
+    normalise: true
+    position: non
+    enonce: "L'opération porte sur des titres détenus par l'Eurosystème, dont le sort relève du conseil des gouverneurs de la BCE, non sur la signature de l'État. Le signal envoyé aux prêteurs privés n'est donc pas celui d'un défaut de l'État."
+    raisonnement: "Le taux rémunère le risque de non-remboursement des prêteurs privés. La décision appartient au conseil des gouverneurs (F5) et les créanciers de marché ne sont pas touchés (F46). L'estimation d'une hausse des taux reste sans chiffrage (F26)."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+  - vise: A45
+    normalise: true
+    position: non
+    enonce: "Une demande d'un gouvernement ou d'un parlement n'est pas une instruction tant que la BCE la décide librement. L'indépendance interdit d'accepter des instructions, pas d'être sollicitée."
+    raisonnement: "F3 interdit à la BCE de solliciter ou d'accepter des instructions ; elle n'interdit pas qu'un gouvernement formule une demande que le conseil des gouverneurs (F5) reste libre de refuser. F4 porte sur la législation nationale et les statuts des banques centrales. L'atteinte à l'indépendance suppose donc que la BCE accepte une instruction."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+  - vise: V12
+    normalise: true
+    enonce: "Priorité à la maîtrise démocratique de la politique monétaire plutôt qu'à l'indépendance de la BCE telle que fixée par les traités et les statuts."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+  - vise: V13
+    normalise: true
+    enonce: "Priorité à la protection des créanciers privés, dont des épargnants, et à la fin de la dépendance aux marchés financiers, en distinguant la dette détenue par la banque centrale."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: V14
+    normalise: true
+    enonce: "Priorité à la maîtrise démocratique de l'endettement, par le changement des règles européennes."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - {vise: V24, normalise: true, action: retirer}
+  - {vise: V25, normalise: true, action: retirer}
+  - vise: V26
+    normalise: true
+    enonce: "Priorité à dégager des marges par l'annulation de la part de la banque centrale et par des recettes sur le capital et l'évasion fiscale, plutôt que par des économies."
+    porte_par:
+      - {personne: "Fabien Roussel", fonction: "député", parti: PCF, date: "2021-03-22", source: S41, appartenance: s1}
+  - vise: V32
+    normalise: true
+    enonce: "Priorité à ne pas rembourser une dette que la banque centrale détient déjà, tout en protégeant les créanciers privés."
+    porte_par:
+      - {personne: "Jean-Luc Mélenchon", fonction: "député", parti: LFI, date: "2020-05-11", source: S39, appartenance: S19}
+incertitudes:
+  - "Fonction de Jean-Luc Mélenchon le 6 juin 2022 (S40) : « ancien candidat à l'élection présidentielle de 2022 » est déduite du contexte, la source ne la dit pas."
+  - "Fonction « député » de Mélenchon (S39) et de Roussel (S41) : établie par le texte parlementaire et le compte rendu (groupe GDR), la fonction exacte de Roussel (secrétaire national du PCF) n'est pas reprise."
+  - "A22, A23, A25, A30 : la date 2026-08-25 est celle de l'article S19 ; les propos de Mélenchon datent du week-end précédent."
+  - "A30 (S40, austérité) : extrait non revérifié dans le livret ; le titre du chapitre 8 évoque le retour de l'austérité en Europe."

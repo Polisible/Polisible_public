@@ -623,3 +623,48 @@
   ajoutee_par: verificateur
   statut: conforme
   note_verif: ajoutée par le vérificateur
+- id: S49
+  titre: 'Roland Lescure : nouveau ministre de l''Economie et des Finances'
+  auteur: LégiFiscal
+  date: '2025-10-05'
+  adresse: https://www.legifiscal.fr/actualites-fiscales/4261-roland-lescure-nouveau-ministre-economie-finances.html
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S50
+  titre: 'Présidentielle 2027: Gabriel Attal officialise sa candidature'
+  auteur: LCP - Assemblée nationale
+  date: '2026-05-22'
+  adresse: https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S51
+  titre: Édouard Philippe annonce officiellement sa candidature à la prochaine élection présidentielle
+  auteur: Europe 1
+  date: '2026'
+  adresse: https://www.europe1.fr/politique/edouard-philippe-annonce-officiellement-sa-candidature-a-la-prochaine-election-presidentielle-4265431
+  niveau: 4
+  ajoutee_par: expert-centre
+  statut: a-verifier
+  note_verif: null
+- id: S52
+  titre: Fabien Roussel va succéder à Pierre Laurent à la tête du PCF
+  auteur: Public Sénat
+  date: '2018-11-20'
+  adresse: https://www.publicsenat.fr/actualites/politique/fabien-roussel-va-succeder-a-pierre-laurent-a-la-tete-du-pcf-135660
+  niveau: 4
+  ajoutee_par: expert-gauche-radicale
+  statut: a-verifier
+  note_verif: null
+- id: S53
+  titre: 'Élections européennes : Aurore Lalucq : "Dans cette campagne, nous assumons de parler d’Europe"'
+  auteur: Politis
+  date: '2024-05-29'
+  adresse: https://www.politis.fr/articles/2024/05/elections-europennes-aurore-lalucq-ps-place-publique-dans-cette-campagne-nous-assumons-de-parler-deurope/
+  niveau: 4
+  ajoutee_par: expert-sociaux-democrates
+  statut: a-verifier
+  note_verif: null

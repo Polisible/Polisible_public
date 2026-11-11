@@ -174,6 +174,15 @@
     très dangereux » et de « violation des traités européens ». Le verdict porte sur la réalité de la déclaration,
     pas sur son bien-fondé ; les termes jugeants doivent rester entre guillemets et attribués.'
   statut: verifiee
+  porteur:
+    personne: Christine Lagarde
+    fonction: présidente de la Banque centrale européenne
+    institution: BCE
+    date: '2026-09-12'
+    source: S4
+  questions:
+  - Q41
+  - Q44
 - id: F12
   enonce: Christine Lagarde déclare le 7 février 2021 que l'annulation de la dette publique détenue par la BCE,
     demandée par une pétition d'économistes, est inenvisageable (Q41).
@@ -189,6 +198,14 @@
     2021, Christine Lagarde répond à la pétition d''économistes que « l''annulation de cette dette est inenvisageable
     ». Le verdict porte sur la réalité de la déclaration.'
   statut: verifiee
+  porteur:
+    personne: Christine Lagarde
+    fonction: présidente de la Banque centrale européenne
+    institution: BCE
+    date: '2021-02-07'
+    source: S5
+  questions:
+  - Q41
 - id: F13
   enonce: Christine Lagarde déclare le 7 février 2021 que cette annulation violerait le traité européen qui interdit
     le financement monétaire des États (Q41, Q44).
@@ -205,6 +222,15 @@
     porte sur la réalité de la déclaration ; l''interprétation juridique elle-même relève des affirmations sur le
     traité et la jurisprudence.'
   statut: verifiee
+  porteur:
+    personne: Christine Lagarde
+    fonction: présidente de la Banque centrale européenne
+    institution: BCE
+    date: '2021-02-07'
+    source: S5
+  questions:
+  - Q41
+  - Q44
 - id: F14
   enonce: Christine Lagarde déclare le 2 juillet 2021 que l'annulation des dettes publiques serait contraire à la
     législation et aux traités (Q41).
@@ -220,6 +246,14 @@
     Lagarde répond sur l''annulation de la dette souveraine que c''est contraire à la législation et représenterait
     une violation des traités. Le verdict porte sur la réalité de la déclaration.'
   statut: verifiee
+  porteur:
+    personne: Christine Lagarde
+    fonction: présidente de la Banque centrale européenne
+    institution: BCE
+    date: '2021-07-02'
+    source: S6
+  questions:
+  - Q41
 - id: F15
   enonce: Christine Lagarde déclare le 2 juillet 2021 que la plupart des « dettes COVID » achetées par la politique
     monétaire sont inscrites au bilan de la Banque de France (Q41).
@@ -236,6 +270,14 @@
     plupart des « dettes COVID » de l''État français achetées sur le marché secondaire au titre de la politique
     monétaire sont inscrites au bilan de la Banque de France. Le verdict porte sur la réalité de la déclaration.'
   statut: verifiee
+  porteur:
+    personne: Christine Lagarde
+    fonction: présidente de la Banque centrale européenne
+    institution: BCE
+    date: '2021-07-02'
+    source: S6
+  questions:
+  - Q41
 - id: F16
   enonce: L'Eurosystème détient près d'un quart des OAT au titre de la politique monétaire (données du premier trimestre
     2025, rapport du Sénat) (Q41).
