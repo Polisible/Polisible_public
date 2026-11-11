@@ -1,0 +1,55 @@
+agent: expert-centre
+phase: 4
+arguments:
+  - ref: a1
+    question: Q45
+    position: pour
+    enonce: "Les vendeurs des titres ont bien été payés, mais cela ne fait pas de la part détenue par l'Eurosystème une dette qui ne serait jamais remboursée : ces titres arrivent à échéance comme les autres et l'État les rembourse."
+    raisonnement: "A43 et A49 ont raison sur un point : les vendeurs n'ont plus de créance, et le créancier actuel est la banque centrale. Mais A43 en conclut que cette part est à part. Or l'Eurosystème ne réinvestit plus les titres arrivés à échéance depuis la fin de 2024 pour le PEPP (F48), et son stock baisse au fil de 2026 (F31) : cette part est déjà remboursée par l'État à chaque échéance, au même titre que les autres. Un titre de dette garde les mêmes conditions quel que soit son détenteur ; ne pas honorer celles-ci pour une seule catégorie de détenteurs modifie le contrat après coup. Que le marché assimile ou non cette part aux autres reste une estimation, pas une certitude (voir Q42)."
+    porte_par:
+      - {qui: "Édouard Philippe (débat du Medef, 27 août 2026 : refus de toute annulation de dette)", parti: "Horizons", source: S17}
+    affirmations: [F48, F31, F24]
+    repond_a: A43
+  - ref: a2
+    question: Q42
+    position: pour
+    enonce: "A44 et A47 supposent que la décision serait prise par le conseil des gouverneurs de la BCE. Or la proposition débattue en 2026 vient d'un acteur politique national, et la présidente de la BCE juge l'opération contraire aux traités : le scénario sans signal de rupture n'est pas celui qui est proposé."
+    raisonnement: "Si le conseil des gouverneurs décidait lui-même (F5), le signal serait différent, comme le disent A44 et A47. Mais ce scénario suppose que la BCE change de position : sa présidente affirme l'inverse (F27, F11, F13, F14), et la proposition est portée par un parti national (F46). Tant que la décision dépend d'un gouvernement ou d'une loi nationale, les prêteurs évaluent le scénario qui est sur la table, pas celui qui supposerait l'accord de la BCE. Même dans le scénario où la BCE déciderait, il reste à savoir si les prêteurs y verraient un contournement de l'interdiction du financement monétaire (F9) ; aucune estimation n'existe dans un sens ou dans l'autre (F26)."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F27, F46, F5, F9, F26]
+    repond_a: A44
+  - ref: a3
+    question: Q44
+    position: pour
+    enonce: "Une demande politique que la BCE serait libre de refuser n'est pas une instruction. Mais si l'effacement passe par une loi nationale visant les titres de la Banque de France, il ne s'agit plus d'une demande : l'État impose, et le traité interdit à une banque centrale nationale d'accepter des instructions de son gouvernement."
+    raisonnement: "A45 distingue demande et instruction (F3) ; la distinction vaut tant que le conseil des gouverneurs reste libre (F5). Elle ne vaut pas pour une loi : F4 oblige chaque État à rendre sa législation compatible avec les statuts de sa banque centrale et du SEBC, de sorte qu'une loi qui modifierait le bilan de la Banque de France relèverait de ce contrôle de compatibilité. A45 ne dit pas quelle voie suit la proposition ; l'atteinte à l'indépendance dépend donc de la voie choisie, et non de la seule existence d'une demande."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F3, F4, F5]
+    repond_a: A45
+  - ref: a4
+    question: Q44
+    position: pour
+    enonce: "A48 conditionne l'atteinte à la crédibilité à la contrariété aux traités, jugée invérifiable (F27). Mais la crédibilité d'une monnaie dépend de ce que les marchés croient, et une légalité contestée suffit à créer un doute tant qu'aucun juge n'a tranché."
+    raisonnement: "F27 est invérifiable : aucune décision de la CJUE n'a tranché, et une telle décision n'interviendrait qu'après l'opération. Pour la crédibilité, ce qui compte est la perception de ceux qui détiennent des euros ou des titres, pas le verdict final d'un juge. Entre l'annonce et l'arrêt, le doute porte sur le respect de l'interdiction du financement monétaire (F9), qui fonde la confiance dans la monnaie commune. A48 a raison de dire que l'atteinte n'est pas établie ; elle n'est pas non plus écartée."
+    porte_par:
+      - {qui: "Roland Lescure, ministre de l'Économie (déclaration du 24 août 2026)", parti: "Renaissance", source: S16}
+    affirmations: [F27, F9]
+    repond_a: A48
+examen:
+  - {question: Q41, conclusion: "A46 conclut que l'interdiction est une interprétation et non une conséquence du texte ; A1 dit déjà que la question est disputée (F27 Invérifiable). Pas d'élément nouveau à opposer, rien à contester dans les faits F24, F57."}
+  - {question: Q42, conclusion: "A44 et A47 supposent une décision du conseil des gouverneurs, scénario qui n'est pas celui de la proposition de 2026 : contre-argument a2. A22 est déjà traité en passage 3. Faits F46, F47, F60 : rien à contester."}
+  - {question: Q43, conclusion: "Rien de nouveau : A13, A16, A23, A24 déjà examinés au passage 3 ; leurs faits F18-F22 sont exacts et F41 est traitée par O1."}
+  - {question: Q44, conclusion: "A45 distingue demande et instruction : valable si le conseil décide librement, pas si une loi nationale l'impose (contre-argument a3). A48 écarte l'atteinte en s'appuyant sur F27 invérifiable, qui ne l'écarte pas non plus (contre-argument a4). A25 et A33 déjà examinés."}
+  - {question: Q45, conclusion: "A43 et A49 ont raison : les vendeurs n'ont plus de créance, je corrige A4. Mais la part de l'Eurosystème est déjà remboursée à échéance (F48) : contre-argument a1. Reste un désaccord de valeur (A10, A17, A26, A27)."}
+  - {question: Q46, conclusion: "Rien à contester : A11, A15, A28, A29, A35 relèvent de valeurs ; F39, F40 et F56 sont correctement qualifiés."}
+  - {question: Q47, conclusion: "Rien à contester : A12, A18, A19, A30, A31, A36 sont des choix de valeurs ; F42 est déjà Invérifiable, F54 et F55 sont des valeurs."}
+corrections:
+  - vise: A4
+    action: corriger
+    enonce: "Oui. Les titres détenus par la banque centrale sont des titres de l'État comme les autres : ils arrivent à échéance et sont remboursés, et les effacer unilatéralement porterait atteinte à la signature de la France."
+incertitudes:
+  - "Le rythme de baisse du stock de titres français de l'Eurosystème (F31) et les échéances de 2026 et 2027 ne sont pas chiffrés ici ; j'affirme le sens de l'évolution, pas son ampleur."
+  - "La voie juridique de la proposition de 2026 (loi nationale, démarche européenne) n'est pas établie par le lot ; a3 raisonne sous condition."
+  - "F48 porte sur le PEPP ; le PSPP est traité par un autre calendrier de réinvestissements que je n'ai pas vérifié."
