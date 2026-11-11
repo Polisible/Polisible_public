@@ -1,0 +1,13 @@
+agent: expert-extreme-droite
+phase: 5
+reponses_relances:
+  - relance: R32
+    texte: "Je ne peux pas répondre : je n'ai pas de source d'institution établissant que les économies du plan du RN seraient obtenues ni les marges qu'elles dégageraient ; F37 et F38 établissent seulement ce que le plan prévoit. Je corrige A14 pour qu'il soit présenté comme l'argument d'un plan, non comme la démonstration de ses effets."
+    elements: []
+corrections:
+  - action: corriger
+    vise: A14
+    enonce: "Pour dégager des marges budgétaires, l'annulation de dette n'est pas préférable aux économies, selon le plan du RN : il prévoit de réduire les dépenses, dont celles liées à l'immigration, avec une règle d'or votée par référendum."
+    raisonnement: "La charge de la dette (65,7 Md€ en 2025) pèse parce que le déficit alimente la dette (F22). Le plan du RN prévoit des économies pour ramener la dette sous 112 % du PIB en 2032 et une règle d'or pour rendre l'effort contraignant (F37, F39). Les économies prévues (F37, F38) sont un objectif du plan, non un résultat établi ; l'argument porte sur la cause visée, le déficit, que l'annulation de la part de l'Eurosystème ne traiterait pas."
+incertitudes:
+  - "Aucune source d'institution ne chiffre l'effet des économies prévues par le plan du RN."
