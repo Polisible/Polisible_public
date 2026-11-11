@@ -1009,9 +1009,14 @@
     extrait: It is hence important to distinguish between a situation where an assumed absence of central bank’s
       concerns about balance sheet strength is shared by the public and the State, and the more realistic situation
       where prolonged central bank losses would lead to a complete loss of credibility.
+  - source: S55
+    extrait: Losses and negative equity do not directly affect the ability of central banks to operate effectively.
   declaration: true
   auteur: expert-sociaux-democrates
   passage: 4
-  verdict: null
-  explication: null
-  statut: en-attente
+  verdict: Débat entre experts
+  explication: 'Déclaration vérifiée : ce document de travail de trois économistes de la BCE (2004, modèle théorique,
+    opinions des auteurs) juge plus réaliste une perte totale de crédibilité après des pertes prolongées ; il traite
+    des pertes d''une banque centrale en général, pas d''une annulation de titres. La BRI (Bulletin n° 68, février
+    2023) estime au contraire que les pertes n''affectent pas directement sa capacité d''action.'
+  statut: verifiee

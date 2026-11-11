@@ -1,0 +1,19 @@
+agent: verificateur
+role: verificateur
+phase: 3
+sources:
+  - id: S54
+    statut: conforme
+    note: "Bon document : ECB Working Paper Series n° 392, septembre 2004, U. Bindseil, A. Manzanares et B. Weller ; il précise que les opinions sont celles des auteurs et ne reflètent pas nécessairement celles de la BCE. L'extrait figure mot pour mot dans le résumé non technique, suivi de l'idée que la crédibilité est positivement corrélée au niveau de capital lorsque le modèle intègre certaines extensions. Le document porte sur les pertes et le capital d'une banque centrale en général, pas sur une annulation de titres de dette publique."
+affirmations:
+  - id: F61
+    verdict: "Débat entre experts"
+    explication: "Déclaration vérifiée : ce document de travail de trois économistes de la BCE (2004, modèle théorique, opinions des auteurs) juge plus réaliste une perte totale de crédibilité après des pertes prolongées ; il traite des pertes d'une banque centrale en général, pas d'une annulation de titres. La BRI (Bulletin n° 68, février 2023) estime au contraire que les pertes n'affectent pas directement sa capacité d'action."
+sources_ajoutees:
+  - titre: "Why are central banks reporting losses? Does it matter? (BIS Bulletin No 68)"
+    auteur: "Banque des règlements internationaux (S. Bell, M. Chui, T. Gomes, P. Moser-Boehm, A. Pierres Tejada)"
+    date: "2023-02-07"
+    adresse: "https://www.bis.org/publications/bulletin-68-why-are-central-banks-reporting-losses-does-it-matter"
+    niveau: 2
+    pour: F61
+    extrait: "Losses and negative equity do not directly affect the ability of central banks to operate effectively."
