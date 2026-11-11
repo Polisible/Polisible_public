@@ -1,0 +1,114 @@
+agent: expert-centre
+phase: 6
+sources:
+  - {ref: s1, titre: "Roland Lescure : nouveau ministre de l'Economie et des Finances", auteur: "LégiFiscal", date: "2025-10-05", adresse: "https://www.legifiscal.fr/actualites-fiscales/4261-roland-lescure-nouveau-ministre-economie-finances.html", niveau: 4}
+  - {ref: s2, titre: "Présidentielle 2027: Gabriel Attal officialise sa candidature", auteur: "LCP - Assemblée nationale", date: "2026-05-22", adresse: "https://lcp.fr/actualites/presidentielle-2027-gabriel-attal-officialise-sa-candidature-436721", niveau: 4}
+  - {ref: s3, titre: "Édouard Philippe annonce officiellement sa candidature à la prochaine élection présidentielle", auteur: "Europe 1", date: "2026", adresse: "https://www.europe1.fr/politique/edouard-philippe-annonce-officiellement-sa-candidature-a-la-prochaine-election-presidentielle-4265431", niveau: 4}
+corrections:
+  - vise: A1
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Les traités ne permettent pas d'effacer ni de convertir à taux nul ces titres : ce serait faire financer l'État par sa banque centrale, ce que l'article 123 interdit. Aucun arrêt n'a tranché ce cas précis, et la décision relèverait du conseil des gouverneurs."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A2
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Les taux monteraient : un État qui renonce unilatéralement à une part de sa dette, par une voie juridiquement contestée, signale qu'il peut changer les règles. Les prêteurs demanderaient un taux plus élevé ; aucune institution n'a chiffré cette hausse."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}, {personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - vise: A3
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "L'indépendance de la BCE repose sur l'interdiction faite aux gouvernements de lui donner des instructions ; lui imposer d'effacer ses actifs serait une instruction. La crédibilité de l'euro repose sur le respect des règles communes."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A4
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Les titres détenus par la banque centrale sont des titres de l'État comme les autres : ils arrivent à échéance et sont remboursés. Les effacer unilatéralement porterait atteinte à la signature de la France."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - vise: A5
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Dans une union monétaire, la dette en euros et la banque centrale sont des biens communs. Décider seul sur des titres détenus par l'Eurosystème reviendrait à s'affranchir des règles communes, contraires en ce cas aux traités."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A6
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Le gain net de l'annulation pour l'État est incertain, car la Banque de France lui verse déjà des bénéfices qui reposent en partie sur ces intérêts. Équilibrer les comptes et alléger le coût du travail sont les leviers retenus."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}, {personne: "Gabriel Attal", fonction: "secrétaire général de Renaissance", parti: RE, date: "2026-08-27", source: S17, appartenance: s2}]
+  - vise: A37
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "L'absence du mot « annulation » dans les traités ne vaut pas autorisation : l'article 123 s'applique selon son objet, éviter le financement monétaire des États. Les arrêts cités portent sur les achats de titres, pas sur leur sort ultérieur."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A38
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Limiter l'opération à la part de l'Eurosystème ne suffit pas à conclure que les taux ne bougent pas. Un prêteur évalue aussi la fiabilité des règles, pas seulement le risque de non-paiement sur ses propres titres."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A39
+    action: corriger
+    normalise: true
+    position: non
+    enonce: "Supprimer le service des titres de l'Eurosystème ne produit pas des marges égales aux intérêts. La Banque de France reverse déjà des sommes à l'État, dont le montant dépend de son résultat."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - vise: A40
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Une banque centrale peut fonctionner avec des fonds propres négatifs, mais cela ne répond qu'à sa solvabilité. La crédibilité de l'euro dépend aussi de la perception d'un financement monétaire des États."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A50
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "Les vendeurs des titres ont été payés, mais la part détenue par l'Eurosystème reste une dette remboursable : ces titres arrivent à échéance comme les autres et l'État les rembourse."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - vise: A51
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "La proposition débattue en 2026 vient d'un acteur politique national, et la présidente de la BCE juge l'opération contraire aux traités. Le scénario sans signal de rupture, celui d'une décision du conseil des gouverneurs, n'est donc pas celui proposé."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A52
+    action: corriger
+    normalise: true
+    position: nuance
+    enonce: "Une demande politique que la BCE serait libre de refuser n'est pas une instruction. Si l'effacement passe par une loi nationale visant les titres de la Banque de France, l'État impose, et le traité interdit à une banque centrale nationale d'accepter des instructions de son gouvernement."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: A53
+    action: corriger
+    normalise: true
+    position: oui
+    enonce: "La crédibilité d'une monnaie dépend de ce que les marchés croient. Une légalité contestée suffit à créer un doute tant qu'aucun juge n'a tranché."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: V1
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la crédibilité de la signature de l'État : un engagement honoré ne se module pas selon l'identité du créancier, y compris une banque centrale."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - vise: V2
+    action: corriger
+    normalise: true
+    enonce: "Priorité à la protection que les règles communes de la zone euro offrent à tous les États membres, plutôt qu'à la liberté de décision nationale."
+    porte_par: [{personne: "Roland Lescure", fonction: "ministre de l'Économie", parti: RE, date: "2026-08-24", source: S16, appartenance: s1}]
+  - vise: V3
+    action: corriger
+    normalise: true
+    enonce: "Priorité à l'équilibre des comptes et aux leviers durables (économies, compétitivité, croissance) plutôt qu'à l'annulation d'une partie de la dette."
+    porte_par: [{personne: "Édouard Philippe", fonction: "président d'Horizons", parti: HOR, date: "2026-08-27", source: S17, appartenance: s3}]
+  - {vise: V17, action: retirer, normalise: true}
+  - {vise: V18, action: retirer, normalise: true}
+  - {vise: V19, action: retirer, normalise: true}
+incertitudes:
+  - "Appartenance de Roland Lescure à Renaissance : source de niveau 4 (LégiFiscal : député Renaissance) ; la page LCP ne cite que le groupe EPR. Sites gouvernementaux inaccessibles (403)."
+  - "Date de la page Europe 1 (candidature d'Édouard Philippe) non trouvée ; année 2026 indiquée, à préciser."
+  - "A4 : Roland Lescure retiré des porteurs, S16 ne dit rien sur le remboursement. V17 à V19 retirées (doublons de V1 à V3)."
+  - "A6 : Gabriel Attal est conservé comme porteur du levier coût du travail ; S17 ne mentionne pas Q47 directement."
