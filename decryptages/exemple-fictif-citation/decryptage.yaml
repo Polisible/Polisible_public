@@ -1,0 +1,87 @@
+# EXEMPLE FICTIF : ce décryptage sert à tester le site. Tout y est inventé
+# (personne, propos, médias, chiffres, adresses web). Il reste au statut « brouillon »
+# et n'apparaît donc jamais sur le site en ligne, seulement dans les aperçus.
+id: exemple-fictif-citation
+variante: citation
+enonce: "[EXEMPLE FICTIF] « Il faut supprimer toutes les licornes. »"
+attribution:
+  qui: "Attribué à Dominique Exemple, personnalité fictive"
+  sources: [S3]
+verdict: sortie_de_contexte
+en_une_phrase: "Exemple fictif : les mots sont exacts, mais Dominique Exemple parlait des licornes en plastique des fêtes foraines, pas des animaux."
+citation:
+  propos: "Pour la sécurité des enfants, il faut supprimer toutes les licornes de ces manèges : leur plastique se fissure. (propos fictifs)"
+  date: 2026-03-14
+  lieu: "Fête foraine fictive de Villexemple"
+  media: "Télé Exemple, émission fictive « Le Grand Exemple »"
+  lien: https://example.org/fictif/le-grand-exemple-2026-03-14
+  horodatage: "00:12:34"
+  contexte:
+    avant: "Dominique Exemple répondait à une question sur un rapport fictif de sécurité des manèges [S2]."
+    apres: "Elle ajoute qu'il faut remplacer ces manèges par des modèles en bois, conformes aux normes."
+  version_qui_circule:
+    texte: "« Il faut supprimer toutes les licornes. »"
+    exemple:
+      description: "Publication fictive reprise par le site *Le Relais imaginaire*, sans mention des manèges."
+      sources: [S3]
+a_retenir:
+  - "**Exemple fictif.** Les mots « il faut supprimer toutes les licornes » ont bien été prononcés [S1]."
+  - "La phrase complète précise qu'il s'agit des licornes en plastique des manèges [S1]."
+  - "La version qui circule coupe cette précision, ce qui change le sens [S3]."
+  - "Le rapport fictif de sécurité cité dans l'échange existe bien et signale des fissures [S2]."
+sections:
+  origine:
+    titre: "Comment la phrase a circulé"
+    texte: |
+      Dans cet exemple fictif, un extrait de huit secondes est publié le soir même par *Le Relais imaginaire* [S3], sans la fin de la phrase. Il est ensuite repris par d'autres comptes fictifs.
+  chiffres:
+    titre: "Ce que disent les textes"
+    texte: |
+      Le rapport fictif de sécurité des manèges recense 120 licornes en plastique fissurées sur 400 contrôlées en 2025 [S2].
+  pourquoi:
+    titre: "Pourquoi la version courte change le sens"
+    texte: |
+      Une citation coupée peut garder les mots exacts et perdre le **complément** qui en fixe le sens. Ici, « de ces manèges » désigne des objets, pas des animaux [S1].
+  discute:
+    titre: "Ce qui reste discuté"
+    texte: |
+      Le remplacement des manèges en plastique par des modèles en bois a un coût que les estimations fictives évaluent différemment [S4] [S5].
+  ne_tranche_pas:
+    titre: "Ce que Polisible ne tranche pas"
+    texte: |
+      Dans cet exemple fictif, savoir si cette proposition est raisonnable relève du jugement de chacun. Polisible vérifie la fidélité de la citation et les faits qu'elle invoque, pas l'intention de la personne.
+affirmations:
+  - id: A1
+    enonce: "Le rapport de sécurité des manèges signale des fissures sur des licornes en plastique."
+    type: fait
+    verdict: plutot_vrai
+    explication: "Exemple fictif : le rapport signale des fissures sur 30 % des modèles contrôlés, pas sur tous [S2]."
+    sources: [S2]
+  - id: A2
+    enonce: "Le remplacement des manèges coûterait 2 millions d'euros."
+    type: estimation
+    verdict: debat_entre_experts
+    explication: "Exemple fictif : deux estimations fictives donnent 1 et 3 millions d'euros [S4] [S5]."
+    sources: [S4, S5]
+  - id: A3
+    enonce: "Aucun enfant n'a été blessé par ces manèges."
+    type: fait
+    verdict: inverifiable
+    explication: "Exemple fictif : aucune statistique publique ne recense ces accidents [S2]."
+    sources: [S2]
+classement:
+  theme: "Exemples fictifs"
+  sujet: "Recensement des licornes (fictif)"
+  decryptages_lies: [exemple-fictif-affirmation]
+  comprendre_lies: []
+selection:
+  critere: debat_institutionnel
+  preuve: "Exemple fictif : la phrase a été reprise lors d'un débat télévisé fictif [S3]."
+# Familles choisies arbitrairement pour l'exemple, sans lien avec aucun camp réel.
+equilibre:
+  emetteur: [ecologie_politique]
+  dessert: []
+version:
+  numero: 1
+  date: 2026-11-11
+  statut: brouillon

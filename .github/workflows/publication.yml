@@ -1,0 +1,23 @@
+# Acceptation d'une demande de modification : demande au dépôt du code (privé) de remettre le site en ligne.
+name: Publication
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  declencher:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.POLISIBLE_DECLENCHEUR }}
+    steps:
+      - name: Déclencher la mise en ligne
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Secret POLISIBLE_DECLENCHEUR absent : pas de mise en ligne."
+            exit 0
+          fi
+          gh workflow run production.yml -R Polisible/Polisible_private
