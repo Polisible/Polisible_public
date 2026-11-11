@@ -6,11 +6,13 @@
   passage: 1
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   versions:
   - passage: 4
     enonce: La famille Centre met en priorité la crédibilité de la signature de l'État et le respect des engagements
@@ -44,11 +46,13 @@
   passage: 1
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   versions:
   - passage: 4
     enonce: Elle préfère les leviers durables (économies, compétitivité, croissance) à une opération comptable qu'elle
@@ -132,10 +136,12 @@
   passage: 1
   porte_par:
   - personne: Marine Tondelier
-    fonction: secrétaire nationale
+    fonction: cheffe de file des écologistes
     parti: LE
     date: '2024-06-20'
     source: S27
+    fonction_verifiee: 'S27 : « explique la cheffe de file des écologistes Marine Tondelier » ; la source ne dit
+      pas « secrétaire nationale ».'
   versions:
   - passage: 4
     enonce: 'Ils refusent d''opposer les leviers : justice fiscale, investissement climatique et marges dégagées

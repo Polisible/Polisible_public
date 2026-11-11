@@ -60,7 +60,8 @@ phases:
   6-ter:
     debut: '2026-11-11T09:43:24'
     passages: 1
-    note: textes du rédacteur (format de fiche)
+    note: textes du rédacteur ; fiche assemblée par rendre_fiche.py
+    fin: '2026-11-11T09:48:12'
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -337,6 +338,11 @@ agents:
   jetons: 63412
   outils: 17
   duree_ms: 153319
+- phase: '6'
+  agent: redacteur-textes
+  jetons: 117943
+  outils: 19
+  duree_ms: 239200
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

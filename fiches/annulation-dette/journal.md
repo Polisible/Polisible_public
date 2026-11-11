@@ -88,3 +88,18 @@ Généré à partir de `dossier/journal.yaml`. Chaque action de chaque agent, da
 | 2026-11-11T00:54:38 | 6 | coordinateur | debut de la phase 6 |
 | 2026-11-11T01:06:57 | 6 | coordinateur | Trois remplacements de texte rédigés par le rédacteur appliqués mot pour mot dans la section 2 de fiche.md (le rédacteur n'avait pas d'outil de modification) ; aucun texte ajouté par le coordinateur. |
 | 2026-11-11T01:06:57 | 6 | coordinateur | fin de la phase 6 (38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot) |
+| 2026-11-11T09:36:08 | - | coordinateur | dossier converti au format de docs/format-fiche.md (positions oui/non, sigles) ; éléments à normaliser marqués a_normaliser |
+| 2026-11-11T09:36:47 | 6-bis | coordinateur | debut de la phase 6-bis (normalisation au format de fiche) |
+| 2026-11-11T09:39:37 | 6 | bibliothecaire | a ajouté normaliser F11, normaliser F12, normaliser F13, normaliser F14, normaliser F15 ; incertitudes signalées : 1 |
+| 2026-11-11T09:39:38 | 6 | expert-centre | a ajouté S49, S50, S51, corriger A1, corriger A2, corriger A3, corriger A4, corriger A5, corriger A6, corriger A37, corriger A38, corriger A39, corriger A40, corriger A50, corriger A51, corriger A52, corriger A53, corriger V1, corriger V2, corriger V3, retirer V17, retirer V18, retirer V19 ; incertitudes signalées : 4 |
+| 2026-11-11T09:39:38 | 6 | expert-droite | a ajouté corriger A7, corriger A8, retirer A41, retirer A42, corriger V4, corriger V20, corriger V28, corriger V5, corriger V21, corriger V30, retirer V29 ; incertitudes signalées : 4 |
+| 2026-11-11T09:39:39 | 6 | expert-ecologistes | a ajouté retirer A9, corriger A10, corriger A11, corriger A12, corriger V6, corriger V7, corriger V8 ; incertitudes signalées : 4 |
+| 2026-11-11T09:39:40 | 6 | expert-extreme-droite | a ajouté corriger A13, corriger A14, corriger A15, retirer V9, corriger V22 ; incertitudes signalées : 3 |
+| 2026-11-11T09:39:41 | 6 | expert-extreme-gauche | a ajouté retirer A16, corriger A17, corriger A18, corriger A19, corriger A43, corriger V10, retirer V11, corriger V23, retirer V31 ; incertitudes signalées : 4 |
+| 2026-11-11T09:39:41 | 6 | expert-gauche-radicale | a ajouté S52, None A20, None A21, None A22, None A23, None A24, None A25, None A26, None A27, None A28, None A29, None A30, None A31, None A44, None A45, None V12, None V13, None V14, retirer V24, retirer V25, None V26, None V32 ; incertitudes signalées : 4 |
+| 2026-11-11T09:39:42 | 6 | expert-sociaux-democrates | a ajouté S53, corriger A32, corriger A33, corriger A34, corriger A35, corriger A36, corriger A46, corriger A47, corriger A48, corriger A49, corriger A54, corriger V15, corriger V16, retirer V27, retirer V33 ; incertitudes signalées : 3 |
+| 2026-11-11T09:43:09 | 3 | verificateur | a tranché S49→conforme, S50→conforme, S51→conforme, S52→conforme, S53→conforme, fonction de A12 corrigée, fonction de A2 corrigée, fonction de A6 corrigée, fonction de A6 corrigée, fonction de A20 corrigée |
+| 2026-11-11T09:43:09 | 6-bis | coordinateur | fin de la phase 6-bis |
+| 2026-11-11T09:43:25 | 6 | coordinateur | debut de la phase 6 (textes du rédacteur (format de fiche)) |
+| 2026-11-11T09:48:02 | 6 | coordinateur | fonctions corrigées par le vérificateur propagées mécaniquement à 10 autres mentions (même personne, même source, même date) |
+| 2026-11-11T09:48:12 | 6 | coordinateur | fin de la phase 6 (textes du rédacteur ; fiche assemblée par rendre_fiche.py) |

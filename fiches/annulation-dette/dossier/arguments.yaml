@@ -141,11 +141,13 @@
     à échéance et sont remboursés. Les effacer unilatéralement porterait atteinte à la signature de la France.'
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   affirmations:
   - F24
   - F25
@@ -983,11 +985,13 @@
     la banque sur son propre bilan.
   porte_par:
   - personne: Jean-Luc Mélenchon
-    fonction: ancien candidat à l'élection présidentielle de 2022
+    fonction: candidat à l'élection présidentielle de 2022
     parti: LFI
     date: '2022-06-06'
     source: S40
     appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
   - personne: Jean-Luc Mélenchon
     fonction: candidat à l'élection présidentielle de 2027
     parti: LFI
@@ -1059,11 +1063,13 @@
     capacité d'investir de l'État.
   porte_par:
   - personne: Jean-Luc Mélenchon
-    fonction: ancien candidat à l'élection présidentielle de 2022
+    fonction: candidat à l'élection présidentielle de 2022
     parti: LFI
     date: '2022-06-06'
     source: S40
     appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
   affirmations:
   - F53
   - F46
@@ -1099,11 +1105,13 @@
     source: S39
     appartenance: S19
   - personne: Jean-Luc Mélenchon
-    fonction: ancien candidat à l'élection présidentielle de 2022
+    fonction: candidat à l'élection présidentielle de 2022
     parti: LFI
     date: '2022-06-06'
     source: S40
     appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
   affirmations:
   - F56
   - F1
@@ -1172,11 +1180,13 @@
     ne coûte rien à personne. Elle permet de financer services publics et investissements sans économies.
   porte_par:
   - personne: Jean-Luc Mélenchon
-    fonction: ancien candidat à l'élection présidentielle de 2022
+    fonction: candidat à l'élection présidentielle de 2022
     parti: LFI
     date: '2022-06-06'
     source: S40
     appartenance: S19
+    fonction_verifiee: 'S40 : « Jean-Luc Mélenchon est le premier candidat à l''élection présidentielle à avoir
+      été invité » dans la partie « L''élection présidentielle 2022 » ; « ancien » n''y figure pas.'
   - personne: Jean-Luc Mélenchon
     fonction: candidat à l'élection présidentielle de 2027
     parti: LFI
@@ -1497,11 +1507,13 @@
     de France reverse déjà des sommes à l'État, dont le montant dépend de son résultat.
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   affirmations:
   - F22
   - F19
@@ -1880,11 +1892,13 @@
     : ces titres arrivent à échéance comme les autres et l''État les rembourse.'
   porte_par:
   - personne: Édouard Philippe
-    fonction: président d'Horizons
+    fonction: candidat à l'élection présidentielle de 2027
     parti: HOR
     date: '2026-08-27'
     source: S17
     appartenance: S51
+    fonction_verifiee: 'S17 : « Dette : ce que les 7 candidats ont proposé devant le Medef » (27 août 2026) ; «
+      président du parti Horizons » n''est établi que par S51, en septembre 2024.'
   affirmations:
   - F48
   - F31

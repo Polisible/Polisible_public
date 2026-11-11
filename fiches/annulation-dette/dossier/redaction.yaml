@@ -1,0 +1,195 @@
+date: "2026-11-11"
+version: "0.1"
+condition_arret: "Arrêt au plafond de trois passages de confrontation fixé par le fondateur ; la condition d'arrêt n'est pas entièrement remplie."
+
+lecture_rapide: >-
+  La fiche porte sur la proposition d'annuler, ou de convertir en dette perpétuelle à taux nul,
+  la dette française détenue par la Banque de France pour l'Eurosystème [F46].
+  Établi : les traités interdisent à la banque centrale de prêter aux États et d'acheter directement leurs titres [F1, F2],
+  sans mentionner l'annulation de titres déjà détenus [F45]. Les titres ont été achetés sur le marché secondaire [F24],
+  ce que la Cour de justice a validé sous garanties [F8, F9]. Aucun juge n'a tranché l'annulation : sa conformité
+  aux traités est invérifiable [F27] ; la présidente de la BCE la déclare contraire aux traités [F11].
+  Sans chiffrage : aucune institution n'estime l'effet sur les taux d'emprunt [F26, F47]. La Banque de France
+  verse un impôt et des dividendes à l'État [F19, F20], mais aucune source ne chiffre la part due aux intérêts
+  payés par l'État [F41, F49]. Le traité interdit les instructions des gouvernements à la BCE [F3].
+  Qui défend quoi : sur les traités, LFI et PP répondent oui [A20, A32], RE et le PCF répondent non [A1, A21].
+  Sur le remboursement intégral, HOR et LR répondent oui [A4, A7] ; LE, LFI, le PCF, PP et le NPA répondent non
+  [A10, A27, A26, A34, A17]. Sur les marges budgétaires, HOR, RE, LR et le RN répondent non [A6, A8, A14] ;
+  LFI et le NPA répondent oui [A30, A19] ; LE, LO, le PCF et PP répondent de façon nuancée [A12, A18, A31, A36].
+
+contexte: >-
+  En août 2026, Jean-Luc Mélenchon (LFI), propose d'annuler
+  ou de geler en dette perpétuelle la dette française détenue par la Banque de France pour l'Eurosystème [S19, F46].
+  Le 24 août 2026, le ministre de l'Économie, Roland Lescure (RE), déclare que les taux monteraient [F26] ;
+  le taux à 10 ans est de 4,11 % [F25]. Le 12 septembre 2026, Christine Lagarde, présidente de la BCE,
+  déclare l'annulation contraire aux traités [F11]. Précédents : en mai 2020, une proposition
+  de résolution de députés LFI sur la transformation de la dette rachetée par la BCE en dette perpétuelle [S39] ;
+  en juin 2020, un plan d'EELV financé notamment par une annulation de dette auprès de la BCE [F34] ;
+  en février 2021, une tribune d'économistes, dont Aurore Lalucq (PP), qui propose que la BCE efface ses
+  créances [F59]. Christine Lagarde déclare alors cette annulation « inenvisageable » [F12].
+
+definitions:
+  - terme: Eurosystème
+    definition: "Ensemble formé par la Banque centrale européenne (BCE) et les banques centrales nationales, dont la Banque de France [F31, F46]."
+    sources: [F31, F46]
+  - terme: SEBC
+    definition: "Système européen de banques centrales. Son conseil des gouverneurs, celui de la BCE, arrête les orientations et prend les décisions nécessaires à ses missions [F8, F5]."
+    sources: [F8, F5]
+  - terme: Financement monétaire
+    definition: "Financement d'un État par sa banque centrale, par découvert, crédit ou achat direct de ses titres de dette. L'article 123 du traité sur le fonctionnement de l'Union européenne l'interdit [F1, F2, F45]."
+    sources: [F1, F2, F45]
+  - terme: Marché secondaire
+    definition: "Dans cette fiche : achat de titres de dette de l'État auprès d'institutions financières qui les détiennent, et non directement auprès de l'État. C'est ainsi que l'Eurosystème a acquis ses titres français [F24]."
+    sources: [F24]
+  - terme: Revenu monétaire
+    definition: "Revenu que les banques centrales nationales tirent de leurs missions de politique monétaire ; il est réparti entre elles à la fin de chaque exercice [F7]."
+    sources: [F7]
+  - terme: PEPP
+    definition: "Programme d'achats d'urgence pandémique de l'Eurosystème. Les réinvestissements des titres arrivés à échéance ont pris fin à la fin de 2024 [F48]."
+    sources: [F48]
+  - terme: Règle d'or budgétaire
+    definition: "Règle qui limite le déficit public ; Marine Le Pen (RN) propose de l'inscrire dans la Constitution par référendum [F39]."
+    sources: [F39]
+
+chiffres_cles:
+  - libelle: "65,7 milliards d'euros : charge de la dette des administrations publiques en 2025, soit 2,2 points de PIB."
+    affirmations: [F22]
+  - libelle: "24,4 % de la dette négociable de l'État (premier trimestre 2025) : catégorie incluant la Banque de France."
+    affirmations: [F17]
+  - libelle: "Environ 640 milliards d'euros de titres publics français détenus par l'Eurosystème début 2026 ; environ 597 milliards fin octobre 2026."
+    affirmations: [F31]
+  - libelle: "8,1 milliards d'euros : résultat net de la Banque de France pour 2025, après 1,5 milliard d'impôt sur les bénéfices."
+    affirmations: [F18, F19]
+  - libelle: "36,8 milliards d'euros versés à l'État par la Banque de France depuis 2015 (comptes publiés en mars 2026)."
+    affirmations: [F20]
+  - libelle: "4,11 % : taux d'emprunt de la France à 10 ans le 24 août 2026, valeur de la matinée."
+    affirmations: [F25]
+  - libelle: "750 à 800 milliards d'euros par an : investissements supplémentaires nécessaires à l'Union européenne (rapport Draghi, septembre 2024)."
+    affirmations: [F32]
+
+reponses_rapides:
+  - question: Q41
+    texte: >-
+      Les traités interdisent le crédit aux États et l'achat direct de leurs titres [F1, F2], sans mentionner
+      l'annulation de titres déjà détenus [F45]. La Cour de justice a validé les achats sur le marché secondaire
+      sous garanties [F8, F9], mais n'a pas tranché l'annulation, dont la conformité est invérifiable [F27].
+      La présidente de la BCE la déclare contraire aux traités [F11, F13, F14].
+      LFI et PP répondent oui [A20, A32] ; RE et le PCF répondent non [A1, A21].
+  - question: Q42
+    texte: >-
+      Aucune institution n'a publié d'estimation chiffrée de l'effet sur les taux : ni de la hausse [F26],
+      ni de l'absence d'effet [F47]. RE et HOR répondent oui : un précédent juridiquement disputé ferait
+      réclamer une prime de risque [A2, A51]. LFI répond non : les créanciers privés ne sont pas touchés [A22, A44].
+      PP répond de façon nuancée : une décision du conseil des gouverneurs ne serait pas unilatérale [A47].
+  - question: Q43
+    texte: >-
+      La Banque de France verse à l'État un impôt et des dividendes [F19, F20] ; son résultat net 2025 est de
+      8,1 milliards d'euros [F18]. Aucune source ne chiffre la part de ces versements due aux intérêts sur les
+      titres de l'État, ni les marges que dégagerait l'opération [F41, F49]. Le RN et HOR répondent non [A13, A39] ;
+      le PCF répond oui [A24] ; LFI répond de façon nuancée, en mettant en avant le besoin de refinancement [A23, F48].
+  - question: Q44
+    texte: >-
+      Le traité interdit à la BCE d'accepter des instructions des gouvernements [F3] et confie la décision
+      au conseil des gouverneurs [F5]. L'effet de fonds propres négatifs fait débat entre experts [F58].
+      RE répond oui [A3, A40, A53] ; LFI et PP répondent non [A25, A45, A33]. PP et RE répondent aussi de façon
+      nuancée : tout dépend de la voie, décision de la BCE ou loi nationale [A48, A52]. La présidente de la BCE
+      déclare l'opération contraire aux traités [F11].
+  - question: Q45
+    texte: >-
+      Question de valeurs. HOR et LR répondent oui : une dette se rembourse quel que soit le créancier [A4, A7, A50].
+      LE, LFI, le PCF, PP et le NPA répondent non : la créance de la banque centrale n'est pas celle d'un prêteur
+      privé [A10, A26, A27, A34, A49], ou la dette illégitime n'a pas à être payée [A17, A43]. Fait en jeu :
+      les vendeurs des titres ont été payés par la banque centrale [F24].
+  - question: Q46
+    texte: >-
+      Question de valeurs. Le RN répond oui : les choix budgétaires relèvent des Français [A15]. RE, le PCF et PP
+      répondent non : la décision relève de la BCE ou d'un accord européen [A5, A29, A35]. LE et LFI répondent de
+      façon nuancée : les règles européennes doivent être révisées [A11, A28]. Le traité oblige chaque État à rendre
+      sa législation compatible avec les statuts du SEBC [F4] et réserve la décision au conseil des gouverneurs [F5].
+  - question: Q47
+    texte: >-
+      Question de valeurs. HOR, RE, LR et le RN répondent non : la marge vient des économies et de l'équilibre des
+      comptes [A6, A8, A14]. LFI et le NPA répondent oui : l'annulation évite l'austérité [A30, A19]. LE, LO, le PCF
+      et PP répondent de façon nuancée : l'annulation se combine à des recettes ou à un usage défini [A12, A31, A36],
+      ou n'est pas proposée [A18]. Le gain net de l'annulation n'est chiffré par aucune source [F41, F49].
+
+valeurs_synthese:
+  - question: Q44
+    texte: >-
+      Une seule valeur est déposée : LFI donne la priorité à la maîtrise démocratique de la politique monétaire
+      sur l'indépendance de la BCE fixée par les traités [V12]. Aucune valeur opposée n'est déposée au dossier ;
+      les autres positions sur cette question sont des estimations [A3, A33].
+  - question: Q45
+    texte: >-
+      HOR et LR placent la parole donnée de l'État avant l'identité du créancier [V1, V4, V20, V28].
+      LE et PP placent la capacité d'investir avant ce remboursement [V6, V15]. LFI et le PCF placent
+      la protection des seuls créanciers privés [V32, V13]. LO place la charge de la dette sur la bourgeoisie
+      et les banques [V10].
+  - question: Q46
+    texte: >-
+      RE place les règles communes de la zone euro avant la liberté de décision nationale [V2].
+      Le RN place la souveraineté nationale et la primauté du droit national [V22].
+      LE, LFI, le PCF et PP placent une décision européenne, ou un changement des règles européennes,
+      avant une décision nationale seule [V7, V14, V16].
+  - question: Q47
+    texte: >-
+      HOR et LR placent la maîtrise de la dépense avant un allègement de la dette [V3, V5, V21, V30].
+      Le PCF place l'annulation de la part de la banque centrale et les recettes sur le capital
+      avant les économies [V26] ; LO, la contribution du capital et des profits [V23]. LE place l'usage
+      de la marge avant le levier [V8].
+
+manques:
+  - vise: définition « dette perpétuelle »
+    nature: définition
+    besoin: "Source qui définit une dette perpétuelle (absence de remboursement du principal, intérêts) ; aucune affirmation du lot ne la définit."
+  - vise: définition « OAT »
+    nature: définition
+    besoin: "Source qui définit les obligations assimilables du Trésor, sigle employé par F16."
+  - vise: définition « charge de la dette »
+    nature: définition
+    besoin: "Source officielle (Cour des comptes, Insee) qui définit la charge de la dette, employée par F22."
+  - vise: définitions « excédent primaire » et « fonds propres négatifs »
+    nature: définition
+    besoin: "Sources qui définissent ces termes, employés par A8, V21, V30 et F58."
+  - vise: F46
+    nature: source
+    besoin: "Texte d'origine de la proposition d'août 2026 (LFI) : date exacte, périmètre (18 % ou 20 % selon S19), et confirmation que les autres créanciers ne sont pas concernés."
+  - vise: F46, F16, F17
+    nature: chiffre
+    besoin: "Part exacte de la dette négociable de l'État détenue par la Banque de France pour le compte de l'Eurosystème, à une date récente, de source Banque de France ou Agence France Trésor."
+  - vise: F31
+    nature: chiffre
+    besoin: "Stock de titres de l'État français détenu par l'Eurosystème à une date précise (BCE ou Banque de France), le chiffre de 640 milliards venant d'une chronique sans origine."
+  - vise: F25
+    nature: source
+    besoin: "Série officielle de clôture du taux à 10 ans (Banque de France ou Agence France Trésor) pour août 2026."
+  - vise: F26, F47
+    nature: chiffre
+    besoin: "Estimation d'institution (date, méthode) de l'effet de l'opération sur les taux d'emprunt de la France."
+  - vise: F41, F49
+    nature: chiffre
+    besoin: "Part des intérêts sur les titres de l'État dans le résultat de la Banque de France et dans ses versements à l'État."
+  - vise: F58
+    nature: source
+    besoin: "Estimation d'institution sur l'effet de fonds propres durablement négatifs pour une banque centrale."
+  - vise: F23
+    nature: chiffre
+    besoin: "Énoncé à reformuler (prévision de la Cour des comptes pour l'ensemble des administrations publiques, non la loi de finances) avant tout usage comme chiffre clé."
+  - vise: F42
+    nature: source
+    besoin: "Source officielle du montant annuel des aides publiques aux entreprises ; le chiffre de LO est sans origine et le chiffre attribué au Haut-commissariat à la stratégie et au plan reste à vérifier sur le document d'origine."
+  - vise: A19
+    nature: chiffre
+    besoin: "Le raisonnement cite un équivalent d'un million d'emplois (tract NPA, 2011) sans affirmation vérifiée."
+  - vise: A54
+    nature: source
+    besoin: "A54 répond à A42, absent du lot de rédaction : vérifier le statut de A42 ou corriger repond_a."
+  - vise: porteurs de A20 et A12
+    nature: appartenance
+    besoin: "Fonctions divergentes pour une même date et une même source : Jean-Luc Mélenchon le 6 juin 2022 (« candidat » dans A20, « ancien candidat » ailleurs) ; Marine Tondelier le 20 juin 2024 (« cheffe de file des écologistes » dans A12, « secrétaire nationale » dans V8)."
+  - vise: S12, S13, S14, S15, S28, S34
+    nature: source
+    besoin: "Sources inaccessibles, titre, auteur et date à établir."
+  - vise: Q41, Q42, Q44, Q46
+    nature: source
+    besoin: "Aucune position publique trouvée pour LR, le RN, REC, l'UDR, LO ou le NPA sur certaines questions ; site de l'UDR inaccessible (erreur 502)."

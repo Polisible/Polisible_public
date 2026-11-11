@@ -512,6 +512,11 @@ def fusion_verif(fiche, e, D):
             pp["fonction"] = c["fonction"]
             pp["fonction_verifiee"] = c.get("note", True)
             faits.append(f"fonction de {c['vise']} corrigée")
+            for x in D["arguments"] + D["valeurs"]:  # même personne, même source, même date : même fonction
+                for q in x.get("porte_par", []):
+                    if q is not pp and (q.get("personne"), q.get("source"), q.get("date")) == (pp.get("personne"), pp.get("source"), pp.get("date")):
+                        q["fonction"], q["fonction_verifiee"] = pp["fonction"], pp["fonction_verifiee"]
+                        faits.append(f"fonction propagée à {x['id']}")
     for f in e.get("affirmations", []) or []:
         x = idx.get(f["id"])
         if not x:
