@@ -475,6 +475,7 @@ def lot(fiche, sorte, agent=None, taille=0):
                 "enonce": a["enonce"], "raisonnement": a.get("raisonnement"), "porte_par": a["porte_par"],
                 "repond_a": a.get("repond_a"), "statut": a["statut"],
                 "affirmations": [{"id": f, "enonce": affs[f]["enonce"], "type": affs[f]["type"],
+                                  "declaration": affs[f].get("declaration", False),
                                   "verdict": affs[f]["verdict"], "explication": affs[f]["explication"],
                                   "sources": [{"source": x["source"], "extrait": x["extrait"],
                                                "statut_source": src[x["source"]]["statut"]} for x in affs[f]["sources"]]}
@@ -506,7 +507,8 @@ def lot(fiche, sorte, agent=None, taille=0):
                                "valeurs": [v for v in D["valeurs"] if v["question"] == q["id"]]}
                               for q in D["questions"] if q["statut"] == "validee"],
                 "affirmations_hors_argument": [  # bibliothèque, arguments retirés : utilisables pour contexte et chiffres
-                    {k: f[k] for k in ("id", "enonce", "type", "verdict", "explication", "sources")}
+                    {**{k: f[k] for k in ("id", "enonce", "type", "verdict", "explication", "sources")},
+                     "declaration": f.get("declaration", False)}
                     for f in D["affirmations"] if f["verdict"] is not None
                     and not any(f["id"] in a["affirmations"] for a in args)],
                 "objections": D["objections"],

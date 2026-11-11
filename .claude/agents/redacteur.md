@@ -1,7 +1,7 @@
 ---
 name: redacteur
 description: Rédacteur Polisible, sans camp. Écrit la fiche finale à partir du dossier stabilisé, sans rien ajouter. Lancé par le coordinateur.
-tools: Read, Glob, Grep, Write
+tools: Read, Glob, Grep, Write, Edit
 model: opus
 skills:
   - consignes-communes

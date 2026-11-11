@@ -1,0 +1,116 @@
+agent: redacteur
+manques:
+- vise: S16
+  nature: source
+  besoin: "Établir l'appartenance de Roland Lescure à Renaissance : S16 le présente seulement comme ministre de l'Économie (A1, A2, A3, A4, A5, A37, A38, A40, A51, A52, A53)."
+- vise: S17
+  nature: source
+  besoin: "Établir l'appartenance d'Édouard Philippe à Horizons et de Gabriel Attal à Renaissance : S17 ne donne aucune étiquette, S20 non plus pour G. Attal (A2, A4, A6, A39, A50)."
+- vise: S43
+  nature: source
+  besoin: "Établir l'appartenance d'Aurore Lalucq à Place publique : S43 la présente seulement comme membre du Parlement européen (A32, A33, A34, A35, A36, A46, A47, A48, A49, A54). Confirmer aussi la date du 5 février 2021, absente de la copie consultée."
+- vise: S23
+  nature: source
+  besoin: "Établir l'appartenance de Jérôme Gleizes aux Écologistes : S23 ne mentionne ni EELV ni Les Écologistes (A9, A10, A11)."
+- vise: S38
+  nature: source
+  besoin: "Établir le rattachement de Tendance CLAIRE au NPA (le mot NPA est absent de S38) et fournir un extrait vérifié montrant que ce texte contient le raisonnement de A16 et de A19."
+- vise: S39
+  nature: source
+  besoin: "S39 liste les signataires sans mentionner le groupe LFI : source établissant le rattachement des députés signataires à LFI (A20, A22, A23, A28, A44, A45)."
+- vise: S41
+  nature: source
+  besoin: "S41 établit le groupe GDR et les « députés communistes », pas le sigle PCF : source établissant le rattachement de Fabien Roussel au PCF (A21, A24, A26, A29, A31)."
+- vise: A13
+  nature: source
+  besoin: "La position attribuée à Jordan Bardella ne repose que sur S29, non conforme (niveau 4, analyse assistée par IA) : source conforme rapportant sa publication sur X du 23 août 2026."
+- vise: valeurs
+  nature: source
+  besoin: "Les valeurs de Q44 à Q47 ne sont rattachées à aucun texte de parti ; la fiche les présente sans attribution. Sources nécessaires pour les attribuer."
+- vise: A7
+  nature: affirmation
+  besoin: "A7 est noté « contre » mais son contenu répond oui à Q45 (l'État doit rembourser) ; la fiche le classe en « oui ». Confirmer le classement. Le qualificatif « ce défenseur de la rigueur budgétaire » du raisonnement a été remplacé par le nom de la personne."
+- vise: A42
+  nature: affirmation
+  besoin: "A42 est noté « contre » mais il conteste A34 (réponse non) et soutient la réponse oui à Q45 ; la fiche le classe en « oui ». Confirmer le classement."
+- vise: A37-A54
+  nature: source
+  besoin: "Les arguments de réponse sont rattachés à des déclarations générales (24 et 27 août 2026, tribune de 2021, entretien de 2020, tract de 2011) qui ne contiennent pas forcément le raisonnement détaillé ; vérifier ou reformuler les porte_par. Tensions avec sans_position : A39 (Q43, aucune déclaration du centre sur le solde trouvée), A41 (Q42, aucune déclaration LR sur les taux trouvée, source de 2020), A47 (Q42, tribune muette sur les taux)."
+- vise: A20
+  nature: affirmation
+  besoin: "Passage de l'arrêt Weiss selon lequel la conservation des titres jusqu'à l'échéance n'implique aucune renonciation au paiement : affirmation et extrait vérifiés (S3)."
+- vise: A9
+  nature: affirmation
+  besoin: "Absence de décision de la CJUE sur le PEPP, et date de création du PEPP (2020) : affirmations sourcées."
+- vise: A22
+  nature: affirmation
+  besoin: "Passage de la résolution n° 2914 écartant un défaut de paiement « désastreux » : affirmation et extrait vérifiés (S39)."
+- vise: A8
+  nature: affirmation
+  besoin: "Taux à 10 ans « proche de 5 % » (Public Sénat, 12 octobre 2026), excédent primaire en 2030 et déficit sous 3 % en 2031 dans le plan Retailleau : affirmations vérifiées (S22)."
+- vise: A15
+  nature: affirmation
+  besoin: "Citation de Marine Le Pen « la mise sous tutelle de la France » : affirmation et extrait vérifiés (S32)."
+- vise: A19
+  nature: affirmation
+  besoin: "Équivalence « un million d'emplois » en 2011 dans le tract du NPA : affirmation et extrait vérifiés (S37)."
+- vise: A12
+  nature: affirmation
+  besoin: "Formule de Marine Tondelier sur la « bonne » et la « mauvaise » dette : présente seulement dans le titre de S27, sans affirmation vérifiée."
+- vise: F42
+  nature: source
+  besoin: "Le chiffre de 211 milliards d'euros (commission d'enquête du Sénat, juillet 2025, pour 2023) n'apparaît que dans l'explication de F42 : ajouter le rapport au tableau des sources. La fourchette « 111,9 à 211 » de A18 n'est pas reprise dans la fiche."
+- vise: chiffres-cles
+  nature: chiffre
+  besoin: "Montant exact de la dette française détenue par la Banque de France pour l'Eurosystème, de source officielle ouvrable (S12 et S13 en erreur 403)."
+- vise: F41
+  nature: chiffre
+  besoin: "Part des versements de la Banque de France à l'État (impôt, dividende) due aux intérêts sur les titres de l'État : aucune source conforme."
+- vise: F20
+  nature: chiffre
+  besoin: "Répartition des 36,8 milliards d'euros (2015-2025) entre impôt sur les sociétés, dividendes et restitution d'excédents, et détail par année."
+- vise: Q42
+  nature: chiffre
+  besoin: "Estimation d'institution de l'effet de l'opération sur les taux d'emprunt (F26, F47 sans estimation fiable)."
+- vise: Q43
+  nature: chiffre
+  besoin: "Estimation d'institution des marges nettes dégagées par l'opération (F49 sans estimation fiable)."
+- vise: S14
+  nature: source
+  besoin: "Intervention du gouverneur de la Banque de France du 11 septembre 2026 : texte ouvrable (erreur 403), pour la sous-partie « Ce qu'en disent les institutions » de Q41 et Q44."
+- vise: S15
+  nature: source
+  besoin: "Article L. 142-2 du code monétaire et financier en vigueur (affectation du bénéfice et dividende de l'État) : erreur 403 sur Légifrance."
+- vise: S28
+  nature: source
+  besoin: "Note de cadrage monnaie d'EELV (avril 2021) : erreur 404, aucune autre adresse trouvée."
+- vise: S34
+  nature: source
+  besoin: "Entretien de Jordan Bardella à The Economist sur un rachat de dette par la BCE : erreur 403 ; date à établir."
+- vise: S20
+  nature: source
+  besoin: "Adresse Sud Radio en erreur 404 : remplacer par celle de la même dépêche sur La Gazette France (adresse de S30)."
+- vise: affirmations_hors_argument
+  nature: affirmation
+  besoin: "Aucune affirmation du lot ne porte l'indication declaration: true ; F11 à F15 (Christine Lagarde) et F6 ont été traitées comme positions et textes institutionnels. À confirmer."
+- vise: F51
+  nature: affirmation
+  besoin: "Part factuelle de F51 (qui détient le capital de la BCE) non vérifiée à part."
+- vise: contexte
+  nature: affirmation
+  besoin: "Contenu de la proposition d'août 2026 (annulation ou gel, montant exact, calendrier) documenté seulement par la presse (S19) ; aucun texte de LFI de 2026 au dossier."
+- vise: definitions
+  nature: definition
+  besoin: "Définitions sourcées : composition du SEBC et de l'Eurosystème (zone euro), composition du conseil des gouverneurs, statut de la Banque de France comme banque centrale nationale, financement monétaire, dette perpétuelle, OAT, dette négociable, charge de la dette, administrations publiques, taux à 10 ans, prime de risque, défaut de paiement, fonds propres, valeur de marché, coût amorti, excédent primaire, PIB, ISF, primauté du droit européen."
+- vise: S37
+  nature: date
+  besoin: "Jour exact du tract du NPA (fin 2011, 1er décembre non imprimé)."
+- vise: S35
+  nature: date
+  besoin: "Date de la brochure de LO (juin 2026 déduit de l'adresse du PDF)."
+- vise: fiche.md section 2
+  nature: affirmation
+  besoin: "Corrections de formulation du rédacteur à appliquer (outil d'édition indisponible) : (1) lecture rapide du contexte, remplacer « Depuis 2015, la BCE et les banques centrales nationales achètent des titres » par « La BCE et les banques centrales nationales ont acheté des titres de dette publique, notamment en 2010 et en 2020 pour la France, et dans le cadre d'un programme créé en 2015 [F24, F10] » ; (2) définition des banques centrales nationales, remplacer « La Banque de France en fait partie [F15, F17]. » par « Le dossier traite la Banque de France comme l'une d'elles, qui détient des titres pour le compte de la BCE [F15, F46]. » ; (3) définition du marché secondaire, supprimer « qui les détiennent déjà »."
+- vise: journal.md
+  nature: source
+  besoin: "fiches/annulation-dette/journal.md n'existe pas au moment de la rédaction ; le lien de la section 7 de la fiche est à vérifier."

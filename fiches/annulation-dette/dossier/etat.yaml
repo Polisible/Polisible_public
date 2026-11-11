@@ -30,16 +30,17 @@ phases:
   '4':
     debut: '2026-11-10T21:23:28'
     passages: 1
-    note: passage 1 de confrontation (sur 3 au plus), 7 experts
+    note: passages 1 et 2 de confrontation ; inclut l'interruption par la limite d'usage de l'abonnement (environ
+      21 h 30 → 0 h 51 UTC), donc la durée n'est pas une durée de travail
     fin: '2026-11-11T00:52:16'
   3-ter:
     debut: '2026-11-10T21:25:20'
     passages: 1
-    note: objection O1 et éléments du passage 1 de confrontation
+    note: 'objection O1 ; fin non relevée par le coordinateur (agent : 33 s)'
   4-bis:
     debut: '2026-11-11T00:52:32'
     passages: 1
-    note: 'passage 3 de confrontation (dernier), ciblé : 5 experts'
+    note: passage 3 de confrontation, ciblé (5 experts)
     fin: '2026-11-11T00:54:24'
   '5':
     debut: '2026-11-11T00:54:37'
@@ -49,6 +50,8 @@ phases:
   '6':
     debut: '2026-11-11T00:54:38'
     passages: 1
+    fin: '2026-11-11T01:06:57'
+    note: 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -275,6 +278,11 @@ agents:
   jetons: 78525
   outils: 9
   duree_ms: 84457
+- phase: '6'
+  agent: redacteur
+  jetons: 231825
+  outils: 20
+  duree_ms: 698701
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

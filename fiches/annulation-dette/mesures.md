@@ -11,11 +11,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3. Vérification | 2026-11-10T21:05:59 | 2026-11-10T21:09:29 | 3 min 30 s | 1 | 3 | 121529 | vérification de la bibliothèque |
 | 2. Contributions indépendantes | 2026-11-10T21:09:29 | 2026-11-10T21:16:23 | 6 min 54 s | 1 | 7 | 574670 |  |
 | 3-bis. Vérification | 2026-11-10T21:16:23 | 2026-11-10T21:23:28 | 7 min 05 s | 1 | 7 | 296601 |  |
-| 4. Confrontation | 2026-11-10T21:23:28 | 2026-11-11T00:52:16 | 208 min 48 s | 1 | 19 | 808525 | passage 1 de confrontation (sur 3 au plus), 7 experts |
-| 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 1 | 22373 | objection O1 et éléments du passage 1 de confrontation |
-| 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation (dernier), ciblé : 5 experts |
+| 4. Confrontation | 2026-11-10T21:23:28 | 2026-11-11T00:52:16 | 208 min 48 s | 1 | 19 | 808525 | passages 1 et 2 de confrontation ; inclut l'interruption par la limite d'usage de l'abonnement (environ 21 h 30 → 0 h 51 UTC), donc la durée n'est pas une durée de travail |
+| 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 1 | 22373 | objection O1 ; fin non relevée par le coordinateur (agent : 33 s) |
+| 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation, ciblé (5 experts) |
 | 5. Stabilisation | 2026-11-11T00:54:37 | 2026-11-11T00:54:37 | 0 min 00 s | 1 | 0 | — | plafond de 3 passages atteint, condition 1 non remplie |
-| 6. Rédaction | 2026-11-11T00:54:38 | — | — | 1 | 0 | — |  |
+| 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 1 | 231825 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
 
 ## Par agent
 
@@ -66,3 +66,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-extreme-gauche | 67292 | 5 | 0 min 30 s |
 | 4 | expert-centre | 74478 | 5 | 0 min 56 s |
 | 4 | expert-gauche-radicale | 78525 | 9 | 1 min 24 s |
+| 6 | redacteur | 231825 | 20 | 11 min 38 s |
+
+## Totaux du thème complet (7 questions, 3 passages de confrontation)
+
+- Durée de travail : environ 1 h 15 (20:31 → 21:30, puis 00:51 → 01:07 UTC), hors interruption par la limite d'usage de l'abonnement (environ 3 h 20 d'attente).
+- 46 lancements d'agents ; environ 2,32 millions de jetons mesurés, plus 5 experts du passage 2 de confrontation interrompus par la limite (dépôts complets, jetons non mesurés).
+- Répartition indicative : cadrage ≈ 0,14 M ; bibliothèque et sa vérification ≈ 0,24 M ; contributions ≈ 0,57 M ; vérification ≈ 0,32 M ; confrontation (3 passages) ≈ 0,78 M mesurés ; rédaction ≈ 0,23 M.
+- La limite d'usage de 5 heures a été atteinte une fois, pendant le passage 2 de confrontation.
