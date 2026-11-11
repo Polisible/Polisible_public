@@ -1,0 +1,17 @@
+agent: expert-droite
+phase: 4
+examen:
+  - {question: Q41, conclusion: "Rien à contester de nouveau : A20, A32 et A46 reposent sur F45 et F57 (silence du texte), exacts, et le lot reconnaît que F27 reste une interprétation disputée ; A37 a déjà répondu sur le passage du silence à l'autorisation."}
+  - {question: Q42, conclusion: "Rien de nouveau à ajouter : A22, A44 et A47 sont déjà visés par A41, A2 et A38 ; aucune objection n'a été opposée à A41 dans ce lot. F47 et F26 restent sans estimation d'institution, ce qui vaut pour les deux camps."}
+  - {question: Q43, conclusion: "Rien à contester : A16, A23 et A24 reconnaissent que le gain net est inférieur au gain brut et que F49 n'est pas chiffré ; l'objection O1 sur F41 est résolue et son verdict est inchangé."}
+  - {question: Q44, conclusion: "Rien de nouveau : A25, A33 et A45 se limitent à un effacement décidé par le conseil des gouverneurs, ce que A40 et A3 ont déjà relevé ; F58 est classée « Débat entre experts »."}
+  - {question: Q45, conclusion: "Aucun contre-argument n'a visé A7 ni A42. A43 et A49 contre A4 sont exacts sur F24 (les vendeurs ont été payés) mais ne répondent pas au point de A7 : la valeur de la parole de l'État envers ses contribuables et ses prêteurs futurs relève d'un désaccord de valeur."}
+  - {question: Q46, conclusion: "Rien à contester : A28, A29 et A35 s'appuient sur F3, F4 et F5, exacts ; le désaccord porte sur la place de la décision nationale, qui est une question de valeur."}
+  - {question: Q47, conclusion: "Aucun contre-argument n'a visé A8. A19, A30 et A31 s'appuient sur F47 et F49, estimations sans chiffrage d'institution, ce qui ne permet pas de conclure à la préférence ; le choix entre annulation et économies est un désaccord de valeur."}
+valeurs:
+  - {question: Q45, enonce: "Ma famille met en priorité la continuité des engagements de l'État envers ses contribuables et ses prêteurs : une parole donnée ne se redéfinit pas selon l'identité du créancier."}
+  - {question: Q46, enonce: "Ma famille met en priorité le respect des traités librement signés, qui garantissent l'indépendance de la banque centrale, plutôt qu'une décision de la dette tranchée seule ; elle ne tire pas pour autant de position publique sourcée sur ce point dans le lot."}
+  - {question: Q47, enonce: "Ma famille met en priorité la maîtrise de la dépense et le rétablissement d'un excédent primaire avant tout allègement du stock de dette."}
+incertitudes:
+  - "Aucun contre-argument ne visant mes arguments, je n'ai rien défendu ni corrigé."
+  - "La valeur déposée pour Q46 est une position de principe de ma famille ; aucune source du lot ne l'attribue à un parti LR précis, elle peut être écartée si le coordinateur l'exige."
