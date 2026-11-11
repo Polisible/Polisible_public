@@ -88,7 +88,7 @@ def main():
 
     def fil(arg, qnum, niveau):
         ind = "   " * niveau
-        tete = "Réponse" if arg.get("repond_a") else POS_LIB.get(arg["position"], arg["position"])
+        tete = "Réponse" if niveau else POS_LIB.get(arg["position"], arg["position"])
         corr = " (corrigé)" if arg.get("corrige") else ""
         w(f"{ind}{'↳' if niveau else '▸'} **[{arg['id']}{corr}] {tete}** — {arg['enonce']}")
         if arg.get("raisonnement"):
@@ -129,7 +129,9 @@ def main():
         w(f"## Question {n} — {q['enonce']}"); w("")
         w(f"Type : {q['type'].capitalize()} [{q['id']}]"); w("")
         w(f"**Réponse rapide.** {rr.get(q['id'], '*(à rédiger)*')}"); w("")
-        racines = [x for x in args if x["question"] == q["id"] and not x.get("repond_a")]
+        actifs = {x["id"] for x in args}
+        # une réponse à un argument retiré devient une racine (sinon elle disparaîtrait du fil)
+        racines = [x for x in args if x["question"] == q["id"] and x.get("repond_a") not in actifs]
         for pos in ("oui", "non", "nuance"):
             for arg in [x for x in racines if x["position"] == pos]:
                 fil(arg, n, 0)
