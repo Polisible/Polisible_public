@@ -644,16 +644,22 @@ def lot(fiche, sorte, agent=None, taille=0):
         p = lots / f"confrontation-{agent}.yaml"
     elif sorte == "redaction":
         args = [a for a in D["arguments"] if a["statut"] != "retire"]
-        data = {"questions": [{**q, "arguments": [vue_arg(a) for a in args if a["question"] == q["id"]],
-                               "valeurs": [v for v in D["valeurs"] if v["question"] == q["id"]]}
+        data = {"questions": [{**{k: q.get(k) for k in ("id", "enonce", "type", "sans_position")},
+                               "arguments": [vue_court(a) for a in args if a["question"] == q["id"]],
+                               "valeurs": [f"{v['id']} {v['enonce']} — " + "; ".join(fmt_porteur(p) for p in v["porte_par"])
+                            for v in D["valeurs"] if v["question"] == q["id"] and v.get("statut") != "retire"]}
                               for q in D["questions"] if q["statut"] == "validee"],
                 "affirmations_hors_argument": [  # bibliothèque, arguments retirés : utilisables pour contexte et chiffres
                     {**{k: f[k] for k in ("id", "enonce", "type", "verdict", "explication", "sources")},
                      "declaration": f.get("declaration", False)}
                     for f in D["affirmations"] if f["verdict"] is not None
                     and not any(f["id"] in a["affirmations"] for a in args)],
-                "objections": D["objections"],
-                "sources": D["sources"]}
+                "institutions": [{"id": f["id"], "enonce": f["enonce"], "verdict": f["verdict"],
+                                  "porteur": fmt_porteur(f["porteur"]), "questions": f.get("questions")}
+                                 for f in D["affirmations"] if f.get("porteur")],
+                "objections": [{k: o[k] for k in ("id", "vise", "contenu", "resolution")} for o in D["objections"]],
+                "sources": {s["id"]: f"{s['titre'][:90]} ({s['auteur']}, {s['date']}, niv. {s['niveau']}, {s['statut']})"
+                            for s in D["sources"]}}
         p = lots / "redaction.yaml"
     else:
         sys.exit(f"lot inconnu : {sorte}")

@@ -16,7 +16,8 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation, ciblé (5 experts) |
 | 5. Stabilisation | 2026-11-11T00:54:37 | 2026-11-11T00:54:37 | 0 min 00 s | 1 | 0 | — | plafond de 3 passages atteint, condition 1 non remplie |
 | 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 1 | 231825 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
-| 6-bis. Rédaction | 2026-11-11T09:36:47 | 2026-11-11T09:43:09 | 6 min 22 s | 1 | 8 | 422818 | normalisation au format de fiche |
+| 6-bis. Rédaction | 2026-11-11T09:36:47 | 2026-11-11T09:43:09 | 6 min 22 s | 1 | 9 | 486230 | normalisation au format de fiche |
+| 6-ter. Rédaction | 2026-11-11T09:43:24 | — | — | 1 | 0 | — | textes du rédacteur (format de fiche) |
 
 ## Par agent
 
@@ -76,3 +77,4 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 6-bis | expert-sociaux-democrates | 53395 | 12 | 1 min 10 s |
 | 6-bis | expert-centre | 62379 | 14 | 1 min 24 s |
 | 6-bis | expert-gauche-radicale | 73845 | 15 | 2 min 09 s |
+| 6-bis | verificateur-porteurs | 63412 | 17 | 2 min 33 s |

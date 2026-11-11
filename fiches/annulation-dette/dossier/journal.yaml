@@ -432,3 +432,7 @@
   agent: coordinateur
   phase: 6-bis
   action: fin de la phase 6-bis
+- date: '2026-11-11T09:43:25'
+  agent: coordinateur
+  phase: '6'
+  action: debut de la phase 6 (textes du rédacteur (format de fiche))
