@@ -537,3 +537,7 @@
   agent: coordinateur
   phase: '6'
   action: debut de la phase 6 (textes du rédacteur après la commission)
+- date: '2026-11-11T14:41:59'
+  agent: coordinateur
+  phase: '6'
+  action: fin de la phase 6

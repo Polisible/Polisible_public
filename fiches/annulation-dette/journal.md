@@ -103,3 +103,26 @@ Généré à partir de `dossier/journal.yaml`. Chaque action de chaque agent, da
 | 2026-11-11T09:43:25 | 6 | coordinateur | debut de la phase 6 (textes du rédacteur (format de fiche)) |
 | 2026-11-11T09:48:02 | 6 | coordinateur | fonctions corrigées par le vérificateur propagées mécaniquement à 10 autres mentions (même personne, même source, même date) |
 | 2026-11-11T09:48:12 | 6 | coordinateur | fin de la phase 6 (textes du rédacteur ; fiche assemblée par rendre_fiche.py) |
+| 2026-11-11T11:57:19 | 5-bis | coordinateur | debut de la phase 5-bis (commission : instruction) |
+| 2026-11-11T12:04:32 | 5 | rapporteur | 30 thèses, R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26 |
+| 2026-11-11T12:06:56 | 5 | expert-centre | a ajouté 9 réponses aux relances, 0 contestations ; incertitudes signalées : 2 |
+| 2026-11-11T12:06:57 | 5 | expert-droite | a ajouté 2 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T12:06:58 | 5 | expert-ecologistes | a ajouté corriger A10, 2 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T12:06:59 | 5 | expert-extreme-droite | a ajouté corriger A13, 1 réponses aux relances, 0 contestations ; incertitudes signalées : 2 |
+| 2026-11-11T12:07:00 | 5 | expert-extreme-gauche | a ajouté 3 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T12:07:01 | 5 | expert-gauche-radicale | a ajouté 9 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T12:07:01 | 5 | expert-sociaux-democrates | a ajouté S54, F61, corriger A32, corriger A47, corriger A33, corriger A48, corriger A34, corriger A36, 7 réponses aux relances, 0 contestations ; incertitudes signalées : 2 |
+| 2026-11-11T12:08:29 | 3 | verificateur | a tranché S54→conforme, S55 ajoutée pour F61, F61→Débat entre experts |
+| 2026-11-11T12:13:26 | 5 | contradicteur | contre-examen : 23 contestations |
+| 2026-11-11T14:21:46 | 5-bis | coordinateur | Limite d'usage de l'abonnement atteinte pendant la révision du rapporteur (dépôt non écrit) ; reprise après réinitialisation (14 h 20 UTC). |
+| 2026-11-11T14:22:02 | 5 | rapporteur | 37 thèses, R27, R28, R29, R30, R31, R32, R33 |
+| 2026-11-11T14:22:56 | 5 | expert-centre | a ajouté corriger A3, 2 réponses aux relances, 0 contestations ; incertitudes signalées : 2 |
+| 2026-11-11T14:22:57 | 5 | expert-droite | a ajouté 1 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T14:22:58 | 5 | expert-extreme-droite | a ajouté corriger A14, 1 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T14:22:59 | 5 | expert-gauche-radicale | a ajouté 3 réponses aux relances, 0 contestations ; incertitudes signalées : 1 |
+| 2026-11-11T14:27:07 | 5 | rapporteur | 37 thèses, 7 réponses |
+| 2026-11-11T14:33:57 | 5 | contradicteur | contre-examen : 15 contestations |
+| 2026-11-11T14:38:32 | 5 | rapporteur | 37 thèses, 7 réponses |
+| 2026-11-11T14:38:47 | 5-bis | coordinateur | fin de la phase 5-bis (commission : instruction, contre-examen, 2 tours de relances, conclusion, contrôle final ; 1 désaccord remonté (T10, regroupement)) |
+| 2026-11-11T14:38:47 | 6 | coordinateur | debut de la phase 6 (textes du rédacteur après la commission) |
+| 2026-11-11T14:41:59 | 6 | coordinateur | fin de la phase 6 |

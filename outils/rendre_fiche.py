@@ -20,7 +20,7 @@ def desaccord(x):
     return any(c["avis"] == "conteste" and c.get("decision_rapporteur") == "refusee"
                for c in x.get("contre_examen", [])) \
         or any(c.get("decision") == "remontee-fondateur" for c in x.get("contestations", []))
-ID = re.compile(r"\[(?:[QAFSVO]\d+(?:,\s*)?)+\]")
+ID = re.compile(r"\[(?:[QAFSVOT]\d+(?:,\s*)?)+\]")
 
 
 def mots(s):
@@ -34,7 +34,7 @@ def verifier_textes(R, ids_valides):
             err.append(f"{nom} : {mots(texte)} mots (limite {lim})")
         if ids and not ID.search(str(texte or "")):
             err.append(f"{nom} : aucun identifiant entre crochets")
-        for x in re.findall(r"[QAFSVO]\d+", str(texte or "")):
+        for x in re.findall(r"[QAFSVOT]\d+", str(texte or "")):
             if x not in ids_valides:
                 err.append(f"{nom} : identifiant inconnu {x}")
     ctl("lecture_rapide", R.get("lecture_rapide"), LIM["lecture_rapide"])
@@ -67,7 +67,8 @@ def main():
         R = {}
     aff = {f["id"]: f for f in D["affirmations"]}
     src = {s["id"]: s for s in D["sources"]}
-    ids = set(aff) | set(src) | {x["id"] for n in ("questions", "arguments", "valeurs") for x in D[n]}
+    ids = set(aff) | set(src) | {x["id"] for n in ("questions", "arguments", "valeurs") for x in D[n]} \
+        | {t["id"] for t in (d.charger(F, "theses") or [])}
     err = verifier_textes(R, ids)
     if err:
         print("TEXTES DU RÉDACTEUR À CORRIGER :\n  - " + "\n  - ".join(err))

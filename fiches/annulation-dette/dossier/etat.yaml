@@ -72,6 +72,7 @@ phases:
     debut: '2026-11-11T14:38:47'
     passages: 1
     note: textes du rédacteur après la commission
+    fin: '2026-11-11T14:41:59'
 agents:
 - phase: '1'
   agent: expert-extreme-gauche
@@ -438,6 +439,11 @@ agents:
   jetons: 107482
   outils: 21
   duree_ms: 245611
+- phase: '6'
+  agent: redacteur-mise-a-jour
+  jetons: 60446
+  outils: 29
+  duree_ms: 173592
 incertitudes:
 - agent: expert-centre
   texte: 'Montant et part exacts de la dette française détenue par l''Eurosystème : les chiffres varient selon les

@@ -2,20 +2,26 @@ date: "2026-11-11"
 version: "0.1"
 condition_arret: "Arrêt au plafond de trois passages de confrontation fixé par le fondateur ; la condition d'arrêt n'est pas entièrement remplie."
 
-lecture_rapide: >-
-  La fiche porte sur la proposition d'annuler, ou de convertir en dette perpétuelle à taux nul,
-  la dette française détenue par la Banque de France pour l'Eurosystème [F46].
-  Établi : les traités interdisent à la banque centrale de prêter aux États et d'acheter directement leurs titres [F1, F2],
-  sans mentionner l'annulation de titres déjà détenus [F45]. Les titres ont été achetés sur le marché secondaire [F24],
-  ce que la Cour de justice a validé sous garanties [F8, F9]. Aucun juge n'a tranché l'annulation : sa conformité
-  aux traités est invérifiable [F27] ; la présidente de la BCE la déclare contraire aux traités [F11].
-  Sans chiffrage : aucune institution n'estime l'effet sur les taux d'emprunt [F26, F47]. La Banque de France
-  verse un impôt et des dividendes à l'État [F19, F20], mais aucune source ne chiffre la part due aux intérêts
-  payés par l'État [F41, F49]. Le traité interdit les instructions des gouvernements à la BCE [F3].
-  Qui défend quoi : sur les traités, LFI et PP répondent oui [A20, A32], RE et le PCF répondent non [A1, A21].
-  Sur le remboursement intégral, HOR et LR répondent oui [A4, A7] ; LE, LFI, le PCF, PP et le NPA répondent non
-  [A10, A27, A26, A34, A17]. Sur les marges budgétaires, HOR, RE, LR et le RN répondent non [A6, A8, A14] ;
-  LFI et le NPA répondent oui [A30, A19] ; LE, LO, le PCF et PP répondent de façon nuancée [A12, A18, A31, A36].
+lecture_rapide: |-
+  Proposition de LFI (août 2026) : annuler ou convertir en dette perpétuelle à taux nul la dette française détenue par la Banque de France pour l'Eurosystème [F46]. La commission a examiné 37 thèses : 5 tiennent, 15 en partie, 17 non.
+
+  [Q41] Traités : invérifiable, ni texte ni arrêt ne visant l'annulation [F27, F45]. Aucune thèse ne tient (T1, RE ; T2, PCF ; T3, LFI, PP).
+
+  [Q42] Taux d'emprunt : pas d'estimation fiable [F26, F47]. T6 (PP) tient en partie : une décision du conseil des gouverneurs n'est pas une rupture unilatérale [F3, F5].
+
+  [Q43] Charge d'intérêts : pas d'estimation fiable, faute de chiffrer les intérêts reversés par la Banque de France [F41, F49]. T8 (LFI) et T31 (RN) tiennent en partie.
+
+  [Q44] Indépendance de la BCE : une loi nationale imposant l'opération serait une instruction interdite, une décision du conseil des gouverneurs non [F3, F4, F5]. T14 (RE) tient ; T10 (RE), T12 (LFI), T13 (PP) en partie. Crédibilité de l'euro : pas d'estimation fiable [F27].
+
+  Questions de valeur, sans réponse de la commission :
+
+  [Q45] Rembourser la banque centrale : les vendeurs ont été payés [F24]. En partie : T15 (HOR), T17 (PCF, PP), T18 (LE, LFI, PP), T33 (NPA).
+
+  [Q46] Décision nationale ou européenne : tiennent T21 (PP), T22 (LE), T23 (RN), T35 (LFI) [F3, F39, F40] ; en partie T20 (RE), T34 (PCF).
+
+  [Q47] Annulation ou autres leviers : en partie T24 (HOR, RE), T28 (LE), T29 (PP) [F41].
+
+  Les autres thèses ne tiennent pas.
 
 contexte: >-
   En août 2026, Jean-Luc Mélenchon (LFI), propose d'annuler
@@ -122,21 +128,21 @@ valeurs_synthese:
   - question: Q45
     texte: >-
       HOR et LR placent la parole donnée de l'État avant l'identité du créancier [V1, V4, V20, V28].
-      LE et PP placent la capacité d'investir avant ce remboursement [V6, V15]. LFI et le PCF placent
-      la protection des seuls créanciers privés [V32, V13]. LO place la charge de la dette sur la bourgeoisie
+      LFI et le PCF placent la distinction entre créanciers privés et banque centrale [V32, V13] ;
+      LE et PP, la capacité d'investir [V6, V15] ; LO, la charge de la dette sur la bourgeoisie
       et les banques [V10].
   - question: Q46
     texte: >-
-      RE place les règles communes de la zone euro avant la liberté de décision nationale [V2].
-      Le RN place la souveraineté nationale et la primauté du droit national [V22].
-      LE, LFI, le PCF et PP placent une décision européenne, ou un changement des règles européennes,
-      avant une décision nationale seule [V7, V14, V16].
+      Le désaccord porte sur le niveau de décision. Le RN place la souveraineté nationale et la primauté
+      du droit national [V22]. RE place les règles communes de la zone euro avant la décision nationale [V2] ;
+      PP, une décision européenne coordonnée [V16] ; LE, LFI et le PCF, un changement des règles européennes
+      avant une décision nationale seule [V7, V14].
   - question: Q47
     texte: >-
       HOR et LR placent la maîtrise de la dépense avant un allègement de la dette [V3, V5, V21, V30].
-      Le PCF place l'annulation de la part de la banque centrale et les recettes sur le capital
-      avant les économies [V26] ; LO, la contribution du capital et des profits [V23]. LE place l'usage
-      de la marge avant le levier [V8].
+      Le PCF place l'annulation de la part de la banque centrale et les recettes sur le capital avant
+      les économies [V26] ; LO, la contribution du capital et des profits [V23] ; LE, l'usage de la marge
+      avant le levier [V8].
 
 manques:
   - vise: définition « dette perpétuelle »
@@ -165,10 +171,13 @@ manques:
     besoin: "Série officielle de clôture du taux à 10 ans (Banque de France ou Agence France Trésor) pour août 2026."
   - vise: F26, F47
     nature: chiffre
-    besoin: "Estimation d'institution (date, méthode) de l'effet de l'opération sur les taux d'emprunt de la France."
+    besoin: "Constaté par la commission (Q42) : aucune estimation d'institution (date, méthode) de l'effet de l'opération sur les taux d'emprunt de la France, ni à la hausse ni à l'absence d'effet."
   - vise: F41, F49
     nature: chiffre
-    besoin: "Part des intérêts sur les titres de l'État dans le résultat de la Banque de France et dans ses versements à l'État."
+    besoin: "Constaté par la commission (Q43) : aucune source sur la part des intérêts versés par l'État dans le résultat de la Banque de France et dans ses versements à l'État ; le gain net de l'opération ne peut être chiffré."
+  - vise: F27, F45
+    nature: source
+    besoin: "Constaté par la commission (Q41) : aucun arrêt de la Cour de justice sur l'annulation ou la conversion de titres déjà détenus par l'Eurosystème ; la Cour n'a jugé que les achats sur le marché secondaire."
   - vise: F58
     nature: source
     besoin: "Estimation d'institution sur l'effet de fonds propres durablement négatifs pour une banque centrale."
@@ -184,9 +193,6 @@ manques:
   - vise: A54
     nature: source
     besoin: "A54 répond à A42, absent du lot de rédaction : vérifier le statut de A42 ou corriger repond_a."
-  - vise: porteurs de A20 et A12
-    nature: appartenance
-    besoin: "Fonctions divergentes pour une même date et une même source : Jean-Luc Mélenchon le 6 juin 2022 (« candidat » dans A20, « ancien candidat » ailleurs) ; Marine Tondelier le 20 juin 2024 (« cheffe de file des écologistes » dans A12, « secrétaire nationale » dans V8)."
   - vise: S12, S13, S14, S15, S28, S34
     nature: source
     besoin: "Sources inaccessibles, titre, auteur et date à établir."

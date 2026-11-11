@@ -15,11 +15,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 3-ter. Vérification | 2026-11-10T21:25:20 | — | — | 1 | 1 | 22373 | objection O1 ; fin non relevée par le coordinateur (agent : 33 s) |
 | 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation, ciblé (5 experts) |
 | 5. Stabilisation | 2026-11-11T00:54:37 | 2026-11-11T00:54:37 | 0 min 00 s | 1 | 0 | — | plafond de 3 passages atteint, condition 1 non remplie |
-| 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 2 | 349768 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
+| 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 3 | 410214 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
 | 6-bis. Rédaction | 2026-11-11T09:36:47 | 2026-11-11T09:43:09 | 6 min 22 s | 1 | 9 | 486230 | normalisation au format de fiche |
 | 6-ter. Rédaction | 2026-11-11T09:43:24 | 2026-11-11T09:48:12 | 4 min 48 s | 1 | 0 | — | textes du rédacteur ; fiche assemblée par rendre_fiche.py |
 | 5-bis. Stabilisation | 2026-11-11T11:57:18 | 2026-11-11T14:38:47 | 161 min 29 s | 1 | 17 | 1098773 | commission : instruction, contre-examen, 2 tours de relances, conclusion, contrôle final ; 1 désaccord remonté (T10, regroupement) |
-| 6-quater. Rédaction | 2026-11-11T14:38:47 | — | — | 1 | 0 | — | textes du rédacteur après la commission |
+| 6-quater. Rédaction | 2026-11-11T14:38:47 | 2026-11-11T14:41:59 | 3 min 12 s | 1 | 0 | — | textes du rédacteur après la commission |
 
 ## Par agent
 
@@ -98,3 +98,11 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 5-bis | rapporteur-conclusion | 101848 | 17 | 3 min 50 s |
 | 5-bis | contradicteur-2 | 148050 | 19 | 6 min 30 s |
 | 5-bis | rapporteur-final | 107482 | 21 | 4 min 05 s |
+| 6 | redacteur-mise-a-jour | 60446 | 29 | 2 min 53 s |
+
+## Après le thème complet : format de fiche et commission (11 novembre 2026)
+
+- Normalisation au format de fiche (8 agents + vérification des porteurs) : environ 0,49 million de jetons.
+- Commission (instruction, contre-examen, 2 tours de relances, révision, conclusion, contrôle final, dernière passe) : environ 1,10 million de jetons.
+- Mise à jour des textes du rédacteur : environ 0,18 million (deux passes).
+- Total mesuré pour la fiche, du cadrage à la commission : environ 4,1 millions de jetons. La limite d'usage de 5 heures a été atteinte deux fois.
