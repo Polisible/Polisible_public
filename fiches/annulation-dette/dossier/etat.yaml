@@ -1,7 +1,7 @@
 fiche: annulation-dette
 theme: Économie et finances publiques
 sujet: La dette
-phase: '6'
+phase: 6-bis
 passage: 4
 phases:
   '1':
@@ -52,6 +52,10 @@ phases:
     passages: 1
     fin: '2026-11-11T01:06:57'
     note: 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot
+  6-bis:
+    debut: '2026-11-11T09:36:47'
+    passages: 1
+    note: normalisation au format de fiche
 agents:
 - phase: '1'
   agent: expert-extreme-gauche

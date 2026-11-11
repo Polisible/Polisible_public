@@ -376,3 +376,7 @@
   phase: '-'
   action: dossier converti au format de docs/format-fiche.md (positions oui/non, sigles) ; éléments à normaliser
     marqués a_normaliser
+- date: '2026-11-11T09:36:47'
+  agent: coordinateur
+  phase: 6-bis
+  action: debut de la phase 6-bis (normalisation au format de fiche)

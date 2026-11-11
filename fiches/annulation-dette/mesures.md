@@ -16,6 +16,7 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4-bis. Confrontation | 2026-11-11T00:52:32 | 2026-11-11T00:54:24 | 1 min 52 s | 1 | 0 | — | passage 3 de confrontation, ciblé (5 experts) |
 | 5. Stabilisation | 2026-11-11T00:54:37 | 2026-11-11T00:54:37 | 0 min 00 s | 1 | 0 | — | plafond de 3 passages atteint, condition 1 non remplie |
 | 6. Rédaction | 2026-11-11T00:54:38 | 2026-11-11T01:06:57 | 12 min 19 s | 1 | 1 | 231825 | 38 manques signalés ; 3 corrections du rédacteur appliquées mot pour mot |
+| 6-bis. Rédaction | 2026-11-11T09:36:47 | — | — | 1 | 0 | — | normalisation au format de fiche |
 
 ## Par agent
 
@@ -67,10 +68,3 @@ Relevé automatique (`outils/dossier.py`). Durées en temps réel, de l'horloge 
 | 4 | expert-centre | 74478 | 5 | 0 min 56 s |
 | 4 | expert-gauche-radicale | 78525 | 9 | 1 min 24 s |
 | 6 | redacteur | 231825 | 20 | 11 min 38 s |
-
-## Totaux du thème complet (7 questions, 3 passages de confrontation)
-
-- Durée de travail : environ 1 h 15 (20:31 → 21:30, puis 00:51 → 01:07 UTC), hors interruption par la limite d'usage de l'abonnement (environ 3 h 20 d'attente).
-- 46 lancements d'agents ; environ 2,32 millions de jetons mesurés, plus 5 experts du passage 2 de confrontation interrompus par la limite (dépôts complets, jetons non mesurés).
-- Répartition indicative : cadrage ≈ 0,14 M ; bibliothèque et sa vérification ≈ 0,24 M ; contributions ≈ 0,57 M ; vérification ≈ 0,32 M ; confrontation (3 passages) ≈ 0,78 M mesurés ; rédaction ≈ 0,23 M.
-- La limite d'usage de 5 heures a été atteinte une fois, pendant le passage 2 de confrontation.
