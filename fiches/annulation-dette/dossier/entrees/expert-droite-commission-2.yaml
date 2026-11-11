@@ -1,0 +1,8 @@
+agent: expert-droite
+phase: 5
+reponses_relances:
+  - relance: R33
+    texte: "Je n'ai pas de source d'institution (Cour des comptes, Haut Conseil des finances publiques, Insee, OFCE) qui établisse que les économies du plan du 12 octobre 2026 (F29, F30) seraient obtenues et dégageraient les marges annoncées. Je ne dépose aucun fait nouveau. A8 s'en tient à ce que le plan prévoit (F29, F30) et reste, comme elle l'indique, une lecture par le choix des moyens ; la réalisation des économies n'est pas établie."
+    elements: []
+incertitudes:
+  - "Je n'ai pas trouvé d'évaluation institutionnelle du plan du 12 octobre 2026 ; il peut en exister une que je n'ai pas repérée."
