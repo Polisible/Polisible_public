@@ -162,7 +162,7 @@ def fusionner_expert(fiche, e, agent):
 
 def lot(fiche, sorte, agent=None):
     D = {n: d.charger(fiche, n) for n in ("questions", "arguments", "affirmations", "sources", "theses",
-                                          "relances", "valeurs", "objections")}
+                                          "relances", "valeurs", "objections", "reponses")}
     aff = {f["id"]: f for f in D["affirmations"]}
     qs = [q for q in D["questions"] if q["statut"] == "validee"]
     args = [a for a in D["arguments"] if a.get("statut") != "retire"]

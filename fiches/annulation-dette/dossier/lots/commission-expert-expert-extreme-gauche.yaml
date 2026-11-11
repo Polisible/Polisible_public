@@ -1,0 +1,137 @@
+consigne: 'Réponds aux relances qui te sont adressées (reponses_relances, avec arguments, corrections ou affirmations
+  sourcées si besoin). Tu peux contester une fois l''examen de tes thèses (contestations : these, critere, nature
+  fait|raisonnement, contenu, sources). Pas de contestation de valeur.'
+relances:
+- these: T19
+  partis:
+  - NPA
+  question_posee: Votre thèse T19 présuppose que la dette française a été construite par des cadeaux fiscaux, ce
+    que le dossier n'établit pas (F43 est une valeur). Avez-vous une source officielle ou universitaire ? Que répondez-vous
+    à T15 (A50) ?
+  id: R18
+  statut: posee
+- these: T26
+  partis:
+  - NPA
+  question_posee: Votre thèse T26 repose sur le montant des intérêts versés aux créanciers privés et leur équivalent
+    en emplois, qu'aucune affirmation du dossier n'établit (seul F20 est vérifié). Avez-vous une source officielle
+    datée ? Quel effet attendez-vous sur les conditions d'emprunt (F26) ?
+  id: R22
+  statut: posee
+- these: T30
+  partis:
+  - LO
+  question_posee: 'Votre thèse T30 repose sur F42 (Invérifiable : 270 milliards sans origine ni méthode) et suppose
+    que ces aides ont creusé la dette. Avez-vous une source officielle pour ce montant et pour ce lien ?'
+  id: R26
+  statut: posee
+tes_theses:
+- id: T19
+  question: Q45
+  position: non
+  enonce: Un État ne doit pas rembourser une dette illégitime, que le créancier soit ou non la banque centrale.
+    Le critère est la légitimité de la dette, qu'un audit établit, non l'identité du créancier.
+  arguments:
+  - A17
+  - A43
+  repond_a:
+  - T15
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A17 et A43 répondent à la question du remboursement intégral (F43, F24).
+    appui:
+      valeur: faible
+      justification: Le présupposé factuel central, une dette construite par des cadeaux fiscaux, n'est porté que
+        par F43 (valeur, sans verdict) ; seul F24 (Vrai) est établi, sur un point secondaire.
+    raisonnement:
+      valeur: valide
+      justification: De la priorité donnée à la légitimité (F43), la conclusion découle ; la thèse reconnaît qu'elle
+        vaut que le créancier soit ou non la banque centrale (F24).
+    portee:
+      texte: établit que les vendeurs des titres ont été payés (F24) ; ne prouve pas que la dette française ait
+        été construite par des cadeaux fiscaux, ni quelle part en serait illégitime.
+    objections:
+      valeur: sans réponse
+      justification: T15 (A50) objecte que la part de l'Eurosystème est remboursée à échéance comme les autres (F48)
+        ; aucun argument de T19 n'y répond.
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+- id: T26
+  question: Q47
+  position: oui
+  enonce: L'annulation des dettes illégitimes est préférable à l'austérité, car elle libère l'argent des intérêts
+    versés aux créanciers pour des emplois et des investissements. Annuler la seule part de la banque centrale,
+    reversée à l'État, ne suffit pas.
+  arguments:
+  - A19
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A19 compare l'annulation aux économies (F20), objet de Q47.
+    appui:
+      valeur: faible
+      justification: Seul F20 (Vrai) est vérifié, sur un point secondaire ; le présupposé central, le montant des
+        intérêts versés aux créanciers privés et leur équivalent en emplois (tract de 2011), n'est porté par aucune
+        affirmation.
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Conclusion plus large que les prémisses : la thèse suppose qu''annuler la dette détenue par
+        des créanciers privés dégagerait des marges sans effet sur les conditions d''emprunt, question que le dossier
+        laisse sans estimation (F26).'
+    portee:
+      texte: établit que la Banque de France reverse des sommes à l'État (F20) ; ne prouve pas le montant des marges
+        que dégagerait l'annulation des dettes jugées illégitimes.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A19 (F20).
+    conclusion: ne tient pas
+  portee_par:
+  - NPA
+- id: T30
+  question: Q47
+  position: nuance
+  enonce: Les marges viennent de la taxation des profits et de l'arrêt des aides aux entreprises, qui ont creusé
+    la dette, non d'économies sur les services publics. L'annulation n'est pas retenue comme voie principale.
+  arguments:
+  - A18
+  repond_a: []
+  examen:
+    pertinence:
+      valeur: oui
+      justification: A18 compare les leviers pour dégager des marges (F42), objet de Q47.
+    appui:
+      valeur: faible
+      justification: 'Le présupposé chiffré repose sur F42 (Invérifiable : 270 milliards cités sans origine ni méthode),
+        qui ne peut porter seul la thèse ; le lien entre ces aides et la dette n''est porté par aucune affirmation.'
+    raisonnement:
+      valeur: lacune
+      essentielle: true
+      justification: 'Cause supposée : la thèse suppose que la dette a été creusée par les aides aux entreprises
+        (F42), sans affirmation qui l''établisse.'
+    portee:
+      texte: établit que les estimations publiques des aides aux entreprises dépendent du périmètre retenu (explication
+        de F42) ; ne prouve pas le montant de 270 milliards ni que ces aides aient creusé la dette.
+    objections:
+      valeur: répondues
+      justification: Aucune thèse ne répond à A18 (F42).
+    conclusion: ne tient pas
+  portee_par:
+  - LO
+questions:
+- Q41 (fait) Les traités européens permettent-ils d'annuler, ou de convertir en dette perpétuelle à taux nul, la
+  dette française détenue par la Banque de France pour l'Eurosystème ?
+- Q42 (estimation) Annuler ou geler cette dette ferait-il monter les taux auxquels la France emprunte ?
+- Q43 (estimation) L'opération réduirait-elle durablement la charge d'intérêts de l'État, compte tenu des intérêts
+  que la Banque de France reverse à l'État ?
+- Q44 (estimation) Annuler ou geler cette dette affaiblirait-il la crédibilité de l'euro ou l'indépendance de la
+  BCE ?
+- Q45 (valeur) Un État doit-il rembourser intégralement sa dette, y compris quand le créancier est sa propre banque
+  centrale ?
+- Q46 (valeur) Les décisions sur la dette publique doivent-elles relever de la seule décision nationale plutôt que
+  des règles européennes ?
+- Q47 (valeur) Pour dégager des marges budgétaires, l'annulation d'une partie de la dette est-elle préférable aux
+  économies, à la hausse des recettes ou à la recherche de croissance ?

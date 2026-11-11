@@ -1,0 +1,214 @@
+- these: T1
+  partis:
+  - RE
+  question_posee: Votre thèse T1 suppose que l'annulation ou la conversion de titres déjà détenus entre dans l'interdiction
+    du financement monétaire, ce que le dossier n'établit pas (F27 Invérifiable). Avez-vous une source (décision
+    de la Cour, avis juridique d'une institution) qui traite ce cas précis ? Que répondez-vous à T3 (A46) ?
+  id: R1
+  statut: posee
+- these: T2
+  partis:
+  - PCF
+  question_posee: Votre thèse T2 suppose que l'annulation ou la conversion de titres déjà détenus entre dans l'interdiction
+    du financement direct, ce que le dossier n'établit pas (F27 Invérifiable, F45). Avez-vous une source (décision
+    de la Cour, avis juridique d'une institution) qui traite ce cas précis ?
+  id: R2
+  statut: posee
+- these: T3
+  partis:
+  - LFI
+  - PP
+  question_posee: Votre thèse T3 suppose que le silence des traités sur l'annulation ou la conversion de titres
+    déjà détenus vaut permission, ce que le dossier n'établit pas (F27 Invérifiable, F45). Avez-vous une source
+    (décision de la Cour, avis juridique d'une institution) qui traite ce cas précis ? Que répondez-vous à T1 (A37)
+    sur une proposition portée par un gouvernement ?
+  id: R3
+  statut: posee
+- these: T4
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T4 repose sur F26 (Pas d'estimation fiable). Avez-vous une estimation d'institution,
+    datée et avec sa méthode, de l'effet de l'opération sur les taux d'emprunt de la France ?
+  id: R4
+  statut: posee
+- these: T5
+  partis:
+  - LFI
+  question_posee: Votre thèse T5 repose sur F47 (Pas d'estimation fiable). Avez-vous une estimation d'institution,
+    datée et avec sa méthode, de l'effet de l'opération sur les taux d'emprunt de la France ? Que répondez-vous
+    à T4 (A38, A51) ?
+  id: R5
+  statut: posee
+- these: T6
+  partis:
+  - PP
+  question_posee: Que répondez-vous à T4 (A51), selon laquelle le scénario d'une décision du conseil des gouverneurs
+    suppose un changement de position de la BCE et laisse subsister un doute sur le financement monétaire (F9) ?
+  id: R6
+  statut: posee
+- these: T7
+  partis:
+  - RN
+  - HOR
+  question_posee: Votre thèse T7 suppose que les versements de la Banque de France à l'État baisseraient au point
+    d'annuler l'essentiel du gain, ce que le dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une
+    source qui isole la part des intérêts sur les titres de l'État dans le résultat de la Banque de France ?
+  id: R7
+  statut: posee
+- these: T9
+  partis:
+  - PCF
+  question_posee: Votre thèse T9 suppose une marge nette positive, ce que le dossier n'établit pas (F49 Pas d'estimation
+    fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements de la Banque de France à l'État
+    (F19, F20) ? Que répondez-vous à T7 (A39) ?
+  id: R8
+  statut: posee
+- these: T10
+  partis:
+  - RE
+  question_posee: Le volet crédibilité de votre thèse T10 n'est porté par aucune estimation (F27 Invérifiable).
+    Avez-vous une source d'institution sur l'effet d'une telle opération sur la crédibilité de l'euro ? Sur quelle
+    source fondez-vous l'idée que l'opération serait imposée par l'État plutôt que décidée par le conseil des gouverneurs
+    (F5) ?
+  id: R9
+  statut: posee
+- these: T11
+  partis:
+  - RE
+  question_posee: Votre thèse T11 suppose une réaction des détenteurs d'euros qu'aucune affirmation n'établit (F27
+    Invérifiable). Avez-vous une source d'institution sur l'effet d'une telle opération sur la crédibilité de l'euro
+    ?
+  id: R10
+  statut: posee
+- these: T12
+  partis:
+  - LFI
+  question_posee: 'Le volet crédibilité de votre thèse T12 repose sur F53, une valeur. Avez-vous une source d''institution
+    sur l''effet d''une telle opération sur la crédibilité de l''euro ? Que répondez-vous à T14 (A52) : la proposition
+    passe-t-elle par une décision du conseil des gouverneurs ou par une loi nationale (F4) ?'
+  id: R11
+  statut: posee
+- these: T13
+  partis:
+  - PP
+  question_posee: Votre thèse T13 repose sur F58 (Débat entre experts). Avez-vous une source d'institution sur les
+    effets de fonds propres durablement négatifs d'une banque centrale ? Que répondez-vous à T11 (A40) ?
+  id: R12
+  statut: posee
+- these: T14
+  partis:
+  - PP
+  - RE
+  question_posee: Le volet crédibilité de votre thèse T14 n'est porté par aucune estimation. Avez-vous une source
+    d'institution sur l'effet d'une décision du conseil des gouverneurs sur la crédibilité de l'euro ? Que répondez-vous
+    à T11 (A53) ?
+  id: R13
+  statut: posee
+- these: T15
+  partis:
+  - HOR
+  question_posee: Votre thèse T15 présuppose qu'une annulation limitée à la banque centrale porterait atteinte à
+    la signature de la France, ce que le dossier n'établit pas (F26 Pas d'estimation fiable). Avez-vous une source
+    ? Que répondez-vous à T19 (A43) sur le critère de légitimité ?
+  id: R14
+  statut: posee
+- these: T16
+  partis:
+  - LR
+  question_posee: Votre thèse T16 présuppose qu'une annulation limitée à la banque centrale ferait perdre la confiance
+    des prêteurs, ce que le dossier n'établit pas (F26 Pas d'estimation fiable). Avez-vous une source ?
+  id: R15
+  statut: posee
+- these: T17
+  partis:
+  - PCF
+  - PP
+  question_posee: Que répondez-vous à T15 (A50), selon laquelle la part de l'Eurosystème est déjà remboursée à échéance
+    comme les autres titres (F48, F31) ?
+  id: R16
+  statut: posee
+- these: T18
+  partis:
+  - LE
+  - LFI
+  - PP
+  question_posee: Votre thèse T18 présuppose que l'annulation dégagerait une marge nette pour l'État, ce que le
+    dossier n'établit pas (F41 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu
+    des versements de la Banque de France à l'État (F19, F20) ?
+  id: R17
+  statut: posee
+- these: T19
+  partis:
+  - NPA
+  question_posee: Votre thèse T19 présuppose que la dette française a été construite par des cadeaux fiscaux, ce
+    que le dossier n'établit pas (F43 est une valeur). Avez-vous une source officielle ou universitaire ? Que répondez-vous
+    à T15 (A50) ?
+  id: R18
+  statut: posee
+- these: T20
+  partis:
+  - RE
+  question_posee: Votre thèse T20 présuppose que les autres membres supportent une part du risque des titres français
+    détenus ; la résolution de l'objection O1 indique que les revenus et risques des titres d'État acquis depuis
+    2015 ne sont pas partagés (S9). Avez-vous une source qui établit ce partage ? Et une source sur la contrariété
+    aux traités (F27 Invérifiable) ?
+  id: R19
+  statut: posee
+- these: T24
+  partis:
+  - HOR
+  - RE
+  question_posee: Votre thèse T24 présuppose que la baisse du coût du travail dégagerait des marges par la croissance,
+    ce qu'aucune affirmation du dossier n'établit (F18, F20 portent sur la Banque de France). Avez-vous une source
+    d'institution ?
+  id: R20
+  statut: posee
+- these: T25
+  partis:
+  - LR
+  question_posee: Dans votre thèse T25, la position sur l'annulation est déduite du silence du plan (F29, F30).
+    Avez-vous une source datée où le parti se prononce sur l'annulation ou le gel de la dette détenue par la banque
+    centrale ?
+  id: R21
+  statut: posee
+- these: T26
+  partis:
+  - NPA
+  question_posee: Votre thèse T26 repose sur le montant des intérêts versés aux créanciers privés et leur équivalent
+    en emplois, qu'aucune affirmation du dossier n'établit (seul F20 est vérifié). Avez-vous une source officielle
+    datée ? Quel effet attendez-vous sur les conditions d'emprunt (F26) ?
+  id: R22
+  statut: posee
+- these: T27
+  partis:
+  - LFI
+  question_posee: Votre thèse T27 repose sur F47 (Pas d'estimation fiable). Avez-vous une source qui établit que
+    l'opération ne coûterait rien et chiffre la marge nette, compte tenu des versements de la Banque de France à
+    l'État (F19, F20) ?
+  id: R23
+  statut: posee
+- these: T28
+  partis:
+  - LE
+  - PCF
+  question_posee: Votre thèse T28 présuppose que l'annulation dégagerait une marge nette, ce que le dossier n'établit
+    pas (F49 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements
+    de la Banque de France à l'État (F19, F20) ?
+  id: R24
+  statut: posee
+- these: T29
+  partis:
+  - PP
+  question_posee: Votre thèse T29 présuppose que l'effacement dégagerait une marge nette, ce que le dossier n'établit
+    pas (F41 Pas d'estimation fiable). Avez-vous une source qui chiffre cette marge, compte tenu des versements
+    de la Banque de France à l'État (F19, F20) ?
+  id: R25
+  statut: posee
+- these: T30
+  partis:
+  - LO
+  question_posee: 'Votre thèse T30 repose sur F42 (Invérifiable : 270 milliards sans origine ni méthode) et suppose
+    que ces aides ont creusé la dette. Avez-vous une source officielle pour ce montant et pour ce lien ?'
+  id: R26
+  statut: posee
