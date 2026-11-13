@@ -1,0 +1,29 @@
+# Demande de modification du contenu : demande au dépôt du code (privé) de construire un aperçu protégé.
+# Le lien de l'aperçu, ou les erreurs de validation, sont ajoutés en commentaire à la demande,
+# avec un statut « Aperçu Polisible ».
+# Une demande venant d'une copie du dépôt (fork) ne déclenche rien : GitHub ne lui donne pas accès aux secrets.
+name: Aperçu
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  declencher:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.POLISIBLE_DECLENCHEUR }}
+      PR: ${{ github.event.pull_request.number }}
+      SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - name: Déclencher la construction de l'aperçu
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Secret POLISIBLE_DECLENCHEUR absent : aucun aperçu."
+            exit 0
+          fi
+          gh workflow run apercu-contenu.yml -R Polisible/Polisible_private --ref main -f pr="$PR" -f sha="$SHA"

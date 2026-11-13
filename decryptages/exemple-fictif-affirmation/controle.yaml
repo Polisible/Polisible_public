@@ -1,0 +1,14 @@
+# Liste de contrôle du fondateur (exemple fictif, à moitié remplie).
+# Avant de passer au statut « publie », tous les critères doivent être à true
+# (« sans_objet » est permis pour citation_originale_liee sur une affirmation).
+date: 2026-11-11
+criteres:
+  lecture_rapide_juste: true
+  verdict_source_niveau_1_ou_2: true
+  pourquoi_explique_un_mecanisme: true
+  affirmations_completes: false
+  citation_originale_liee: sans_objet
+  defenseur_et_critique_entendus: false
+  symetrie_relue: false
+  relu_sur_telephone: false
+remarques: "Exemple fictif : ne jamais publier."

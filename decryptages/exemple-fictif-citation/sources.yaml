@@ -1,0 +1,42 @@
+# EXEMPLE FICTIF : sources inventées, adresses sur le domaine réservé example.org.
+- id: S1
+  titre: "Le Grand Exemple, émission du 14 mars 2026 (fictive)"
+  auteur: "Télé Exemple"
+  date: 2026-03-14
+  niveau: 4
+  extrait: "Il faut supprimer toutes les licornes de ces manèges (propos fictifs, à 00:12:34)."
+  lien: https://example.org/fictif/le-grand-exemple-2026-03-14
+  archive: https://example.org/fictif/archive/le-grand-exemple-2026-03-14
+  statut: conforme
+- id: S2
+  titre: "Rapport annuel sur la sécurité des manèges 2025 (fictif)"
+  auteur: "Commission fictive de sécurité des fêtes foraines"
+  date: 2025-12-01
+  niveau: 1
+  extrait: "120 licornes en plastique fissurées sur 400 contrôlées (phrase fictive)."
+  lien: https://example.org/fictif/rapport-manege-2025
+  statut: conforme
+- id: S3
+  titre: "Elle veut supprimer les licornes (publication fictive)"
+  auteur: "Le Relais imaginaire"
+  date: 2026-03-14
+  niveau: 4
+  extrait: "Il faut supprimer toutes les licornes (extrait coupé, fictif)."
+  lien: https://example.org/fictif/relais-imaginaire-licornes
+  statut: conforme
+- id: S4
+  titre: "Coût du remplacement des manèges (estimation fictive)"
+  auteur: "Laboratoire fictif d'économie foraine"
+  date: 2026-02-01
+  niveau: 2
+  extrait: "Le remplacement coûterait environ 1 million d'euros (phrase fictive)."
+  lien: https://example.org/fictif/cout-remplacement-1
+  statut: conforme
+- id: S5
+  titre: "Note sur le coût des manèges en bois (fictive)"
+  auteur: "Fédération fictive des forains"
+  date: 2026-02-10
+  niveau: 3
+  extrait: "Le remplacement coûterait environ 3 millions d'euros (phrase fictive)."
+  lien: https://example.org/fictif/cout-remplacement-3
+  statut: a_verifier

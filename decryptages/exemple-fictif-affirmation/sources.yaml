@@ -1,0 +1,42 @@
+# EXEMPLE FICTIF : sources inventées, adresses sur le domaine réservé example.org.
+- id: S1
+  titre: "Recensement annuel des licornes 2025 (fictif)"
+  auteur: "Office fictif de recensement des licornes"
+  date: 2025-06-30
+  niveau: 1
+  extrait: "Le nombre de licornes recensées atteint 20 000 en 2025 (phrase fictive)."
+  lien: https://example.org/fictif/recensement-2025
+  archive: https://example.org/fictif/archive/recensement-2025
+  statut: conforme
+- id: S2
+  titre: "Note de méthode du recensement (fictive)"
+  auteur: "Office fictif de recensement des licornes"
+  date: 2020-01-15
+  niveau: 1
+  extrait: "À partir de 2020, les poulains sont inclus dans le recensement (phrase fictive)."
+  lien: https://example.org/fictif/note-methode-2020
+  statut: conforme
+- id: S3
+  titre: "Pourquoi voit-on plus de licornes ? (étude fictive)"
+  auteur: "Institut fictif d'études équines"
+  date: 2025-09-01
+  niveau: 2
+  extrait: "Le meilleur repérage explique l'essentiel de la hausse observée (phrase fictive)."
+  lien: https://example.org/fictif/etude-reperage
+  statut: conforme
+- id: S4
+  titre: "Les licornes ont doublé (article fictif)"
+  auteur: "La Gazette imaginaire"
+  date: 2025-07-02
+  niveau: 4
+  extrait: "Le nombre de licornes a doublé en dix ans (phrase fictive)."
+  lien: https://example.org/fictif/gazette-licornes
+  statut: conforme
+- id: S5
+  titre: "Débat sur les licornes (émission fictive)"
+  auteur: "Radio Exemple"
+  date: 2025-07-05
+  niveau: 4
+  extrait: "Reprise de la phrase sur le doublement (phrase fictive)."
+  lien: https://example.org/fictif/radio-exemple-debat
+  statut: a_verifier

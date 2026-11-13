@@ -1,0 +1,100 @@
+# EXEMPLE FICTIF : ce décryptage sert à tester le site. Tout y est inventé
+# (phénomène, chiffres, organismes, médias, adresses web). Il reste au statut « brouillon »
+# et n'apparaît donc jamais sur le site en ligne, seulement dans les aperçus.
+id: exemple-fictif-affirmation
+variante: affirmation
+enonce: "[EXEMPLE FICTIF] Le nombre de licornes recensées en France a doublé en dix ans."
+attribution:
+  qui: "Repris par plusieurs responsables politiques fictifs, dans des émissions fictives"
+  sources: [S4]
+type: fait
+verdict: trompeur
+en_une_phrase: "Exemple fictif : le chiffre cité est exact, mais il compare deux méthodes de recensement différentes ; à méthode constante, la hausse est d'environ 15 %."
+a_retenir:
+  - "**Exemple fictif.** Le chiffre de 2025 est bien le double de celui de 2015 [S1]."
+  - "Mais le recensement de 2015 ne comptait que les licornes adultes ; celui de 2025 compte aussi les poulains [S2]."
+  - "À méthode constante, la hausse est d'environ 15 % en dix ans [S2]."
+  - "La cause de cette hausse reste discutée entre les deux organismes fictifs qui l'étudient."
+sections:
+  origine:
+    titre: "D'où vient cette affirmation"
+    texte: |
+      Dans cet exemple fictif, la phrase apparaît pour la première fois dans un article de *La Gazette imaginaire* [S4], qui reprend le communiqué de l'Office fictif de recensement des licornes [S1].
+
+      Elle est ensuite reprise par plusieurs responsables politiques, eux aussi fictifs.
+  chiffres:
+    titre: "Ce que disent les chiffres"
+    texte: |
+      | Année | Licornes recensées (méthode de l'année) | Licornes adultes seulement |
+      | --- | --- | --- |
+      | 2015 | 10 000 | 10 000 |
+      | 2025 | 20 000 | 11 500 |
+
+      Chiffres inventés pour l'exemple [S1] [S2].
+  pourquoi:
+    titre: "Pourquoi le chiffre a doublé"
+    texte: |
+      Un changement de **méthode de mesure** peut créer une hausse qui n'existe pas dans la réalité. En 2020, l'Office fictif a décidé de compter aussi les poulains [S2] : mécaniquement, le total augmente.
+
+      Pour comparer deux années, il faut donc comparer ce qui est comparable : les adultes en 2015 et les adultes en 2025 [S1, S2].
+  discute:
+    titre: "Ce qui reste discuté"
+    texte: |
+      L'Institut fictif d'études équines estime que la hausse à méthode constante s'explique surtout par un meilleur repérage dans les forêts [S3]. L'Office fictif y voit plutôt une hausse réelle des naissances [S1]. Les deux estimations restent compatibles avec une hausse comprise entre 10 % et 20 %.
+  ne_tranche_pas:
+    titre: "Ce que Polisible ne tranche pas"
+    texte: |
+      Dans cet exemple fictif, savoir s'il faut se réjouir ou s'inquiéter de cette hausse relève du jugement de chacun : c'est une question de valeurs, sans verdict.
+affirmations:
+  - id: A1
+    enonce: "Le chiffre publié en 2025 est le double de celui de 2015."
+    type: fait
+    verdict: vrai
+    explication: "Exemple fictif : les deux chiffres publiés par l'Office fictif correspondent (10 000 et 20 000) [S1]."
+    sources: [S1]
+  - id: A2
+    enonce: "Les deux chiffres sont mesurés de la même façon."
+    type: fait
+    verdict: faux
+    explication: "Exemple fictif : la méthode a changé en 2020 pour inclure les poulains [S2]."
+    sources: [S2]
+  - id: A3
+    enonce: "À méthode constante, le nombre de licornes a augmenté."
+    type: estimation
+    verdict: consensus_large
+    explication: "Exemple fictif : les deux organismes qui l'étudient estiment la hausse entre 10 % et 20 % [S2] [S3]."
+    sources: [S2, S3]
+  - id: A4
+    enonce: "Cette hausse est due à une hausse des naissances."
+    type: estimation
+    verdict: debat_entre_experts
+    explication: "Exemple fictif : l'Office fictif et l'Institut fictif proposent deux explications différentes [S1] [S3]."
+    sources: [S1, S3]
+graphiques:
+  - titre: "Licornes recensées, 2015-2025 (données fictives)"
+    fichier: donnees/licornes-recensees.csv
+    type: lignes
+    source: S1
+classement:
+  theme: "Exemples fictifs"
+  sujet: "Recensement des licornes (fictif)"
+  decryptages_lies: [exemple-fictif-citation]
+  comprendre_lies: []
+selection:
+  critere: circulation_mediatique
+  preuve: "Exemple fictif : reprise par trois médias fictifs de lignes éditoriales différentes [S4] [S5]."
+# Familles choisies arbitrairement pour l'exemple, sans lien avec aucun camp réel.
+equilibre:
+  emetteur: [centre_gauche, droite_conservatrice]
+  dessert: [centre_gauche, droite_conservatrice]
+version:
+  numero: 2
+  date: 2026-11-11
+  statut: brouillon
+  historique:
+    - numero: 1
+      date: 2026-11-10
+      resume: "Première version de l'exemple fictif."
+    - numero: 2
+      date: 2026-11-11
+      resume: "Ajout de l'affirmation A4 (exemple fictif)."
