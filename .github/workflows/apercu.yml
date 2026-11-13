@@ -26,4 +26,4 @@ jobs:
             echo "::warning::Secret POLISIBLE_DECLENCHEUR absent : aucun aperçu."
             exit 0
           fi
-          gh workflow run apercu-contenu.yml -R Polisible/Polisible_private -f pr="$PR" -f sha="$SHA"
+          gh workflow run apercu-contenu.yml -R Polisible/Polisible_private --ref main -f pr="$PR" -f sha="$SHA"

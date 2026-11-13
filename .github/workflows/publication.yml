@@ -20,4 +20,4 @@ jobs:
             echo "::warning::Secret POLISIBLE_DECLENCHEUR absent : pas de mise en ligne."
             exit 0
           fi
-          gh workflow run production.yml -R Polisible/Polisible_private
+          gh workflow run production.yml -R Polisible/Polisible_private --ref main
